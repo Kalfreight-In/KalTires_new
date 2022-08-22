@@ -1,16 +1,19 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-curly-newline */
+/* eslint-disable comma-dangle */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useState } from 'react';
 
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
-import { IoMdMail } from 'react-icons/io';
+import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 import { Link as Slink } from 'react-scroll';
 
-import { IoLogoFacebook, IoLogoLinkedin } from 'react-icons/io';
-
 const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
-  const [H_WA, SethWa] = useState(false);
+  const [SethWa] = useState(false);
   const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
@@ -19,9 +22,7 @@ const Footer = () => {
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
       style={{
         backgroundImage:
-          'url(' +
-          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Footer.png?token=GHSAT0AAAAAABXLNQCYVWP757NGILMZFAV2YXSWO6Q' +
-          ')',
+          'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Footer.png?token=GHSAT0AAAAAABXLNQCYVWP757NGILMZFAV2YXSWO6Q)',
         backgroundBlendMode: 'difference',
         backgroundPosition: 'center',
         // backgroundSize: 'cover',
@@ -224,7 +225,6 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       smooth
                       duration={1000}
                       spy
-                      exact
                       offset={-80}
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                     >
@@ -284,7 +284,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           smooth={true}
                           duration={1000}
                           spy={true}
-                          exact={true}
+
                           offset={-80}
                         >
                           About Us
@@ -296,7 +296,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           smooth={true}
                           duration={1000}
                           spy={true}
-                          exact={true}
+
                           offset={-80}
                         >
                           About Us
@@ -390,7 +390,6 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                               smooth
                               duration={1000}
                               spy
-                              exact
                               offset={-80}
                             >
                               Careers
@@ -420,7 +419,6 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                             smooth
                             duration={1000}
                             spy
-                            exact
                             offset={-80}
                           >
                             <span className="mt-5px lg:leading-7">
@@ -671,8 +669,6 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       {/* <div className="block">Working hours</div> */}
                       <div className="md:text-xl text-lg font-bold xl:font-semibold text-center">
                         <a href="mailto:info@kaltire.com">info@kaltire.com</a>
-
-                        {/* (Monday to Friday)  */}
                       </div>
                     </div>
                   </div>
@@ -738,6 +734,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div className="flex flex-row align-center justify-center xl:justify-end">
                       <a
+                        href="/"
                         to=""
                         className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover  text-Description   text-center"
                       >

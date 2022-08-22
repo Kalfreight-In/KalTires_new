@@ -16,9 +16,7 @@ export const AboutUs = () => {
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
-            'url(' +
-            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png' +
-            ')',
+            'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}

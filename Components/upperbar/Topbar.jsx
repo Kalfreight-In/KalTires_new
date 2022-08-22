@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaSearch } from 'react-icons/fa';
-import { MdOutlineMessage } from 'react-icons/md';
+
 import Navlogo from '../../Assets/Images/NavLogo.png';
 import LiveChat from '../../Assets/Icons/live_chat-icon.png';
 

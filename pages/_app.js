@@ -2,6 +2,7 @@
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 
 import '../styles/globals.css';
+import '../styles/Home.scss';
 
 const MyApp = ({ Component, pageProps }) => (
   <div>

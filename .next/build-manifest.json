@@ -20,10 +20,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/WhatWeOffer": [
+    "/RoadsideAssistance": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/WhatWeOffer.js"
+      "static/chunks/pages/RoadsideAssistance.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

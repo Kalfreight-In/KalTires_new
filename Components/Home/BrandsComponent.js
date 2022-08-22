@@ -57,8 +57,11 @@ const BrandsComponent = () => {
           <div className="">
             {isDesktop ? (
               <div className="flex flex-row">
-                {mydata.map((data) => (
-                  <div className="flex-1 flex  flex-col justify-center hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
+                {mydata.map((data, i) => (
+                  <div
+                    key={i}
+                    className="flex-1 flex  flex-col justify-center hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1"
+                  >
                     <div className="flex justify-center">
                       <div className="flex justify-center">
                         <img src={data.imageurl} alt="service" />
@@ -85,7 +88,7 @@ const BrandsComponent = () => {
                 className="mySwiper flex justify-center"
               >
                 {mydata.map((data) => (
-                  <SwiperSlide>
+                  <SwiperSlide key={data}>
                     <div className="flex-1 flex  flex-col justify-center hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
                       <div className="flex justify-center">
                         <div className="flex justify-center">

@@ -14,9 +14,7 @@ export const Speciality = () => {
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
-            'url(' +
-            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png' +
-            ')',
+            'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}
@@ -25,11 +23,15 @@ export const Speciality = () => {
           <div className="lg:grid lg:grid-cols-3 items-center">
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
-                <span className="block">Speciality</span>
+                <span className="block">
+                  <span className="border-b-2 border-red-600 px-4">
+                    Speciality
+                  </span>
+                </span>
               </h2>
             </div>
             <div className="lg:hidden block">
-              <div className="lg:relative lg:mt-4 self-start ">
+              <div className="lg:relative lg:mt-4 self-start md:pr-0 pr-8">
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={blacktire}
@@ -37,14 +39,11 @@ export const Speciality = () => {
                 />
               </div>
             </div>
-            <div
-              //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
-              className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left"
-            >
+            <div className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">Speciality</span>
               </h2>
-              <p className="text-black mt-5">
+              <p className="text-black mt-5 lg:px-0 px-8  text-justify">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatibus architecto facere corporis vitae, voluptatem optio
                 molestiae neque omnis doloribus inventore nulla aliquid. Ipsum
@@ -65,45 +64,11 @@ export const Speciality = () => {
                 esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
                 Quaerat omnis optio reiciendis asperiores soluta dolorem?
               </p>
-              {/* <div className="inline-block py-3">
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-            </div> */}
-              {/* The Phone and Email icons start  */}
+
               <div className="block pt-4 " id="PhoneEmailRoad" />
               <div
                 id="InnerphoneEmailRoad"
-                className="md:flex hidden mt-8 justify-center lg:justify-start"
+                className="md:flex hidden mt-8 justify-center lg:justify-start "
               >
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                   <div
@@ -174,8 +139,6 @@ export const Speciality = () => {
                 </div>
               </div>
             </div>
-
-            {/* The Phone and Email icons end */}
           </div>
         </div>
       </div>

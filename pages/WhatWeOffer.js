@@ -2,11 +2,11 @@ import React from 'react';
 import { Speciality } from '../Components/What_We_Offer/Speciality';
 import { Services } from '../Components/What_We_Offer/Services';
 import { IndustTires } from '../Components/What_We_Offer/IndustTires';
-import { CommercialTires } from '../Components/What_We_Offer/CommercialTires';
+import CommercialTire from '../Components/What_We_Offer/CommercialTire';
 
 const WhatWeOffer = () => (
   <div>
-    <CommercialTires />
+    <CommercialTire />
     <Speciality />
     <IndustTires />
     <Services />

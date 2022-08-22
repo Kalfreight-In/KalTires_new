@@ -9,7 +9,8 @@ export const useRandomInterval = (callback, minDelay, maxDelay) => {
     savedCallback.current = callback;
   }, [callback]);
   React.useEffect(() => {
-    let isEnabled =
+    // eslint-disable-next-line operator-linebreak
+    const isEnabled =
       typeof minDelay === 'number' && typeof maxDelay === 'number';
     if (isEnabled) {
       const handleTick = () => {
@@ -23,7 +24,7 @@ export const useRandomInterval = (callback, minDelay, maxDelay) => {
     }
     return () => window.clearTimeout(timeoutId.current);
   }, [minDelay, maxDelay]);
-  const cancel = React.useCallback(function () {
+  const cancel = React.useCallback(() => {
     window.clearTimeout(timeoutId.current);
   }, []);
   return cancel;

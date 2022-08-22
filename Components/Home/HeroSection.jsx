@@ -55,13 +55,13 @@ const HeroSection = ({ data }) => (
                 smooth
                 duration={500}
                 spy
-                exact
                 offset={-80}
               >
                 <button
                   //   onClick={() => {
                   //     setCTA('800-977-0010');
                   //   }}
+                  type="button"
                   className="text-white bg-red-500  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  hover:shadow-2xl hover:bg-red-700 flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
                 >
                   <p>{data.CTA1.heading}</p>
@@ -70,6 +70,7 @@ const HeroSection = ({ data }) => (
                   //   onClick={() => {
                   //     setCTA('800-977-0010');
                   //   }}
+                  type="button"
                   className="text-white  ml-8 border-2 hover:border-0 border-white  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out hover:bg-red-500"
                 >
                   <p>Learn More</p>
@@ -86,18 +87,12 @@ const HeroSection = ({ data }) => (
               Comprehensive, Consistent Convenient
             </div>
             <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
-              <Link
-                to="AboutUs-Scroll"
-                smooth
-                duration={500}
-                spy
-                exact
-                offset={-80}
-              >
+              <Link to="AboutUs-Scroll" smooth duration={500} spy offset={-80}>
                 <button
                   //   onClick={() => {
                   //     setCTA('800-977-0010');
                   //   }}
+                  type="button"
                   className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-xl lg:text-md lg:text-sm  2xl:p-0 p-4 lg:text-left"
                 >
                   <p>lol</p>

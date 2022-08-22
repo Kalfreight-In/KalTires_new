@@ -1,6 +1,7 @@
 import React from 'react';
+
 export const useHover = () => {
-  const [isHovering, setIsHovering] = React.useState(false); 
+  const [isHovering, setIsHovering] = React.useState(false);
 
   const handleMouseOver = React.useCallback(() => setIsHovering(true), []);
   const handleMouseOut = React.useCallback(() => setIsHovering(false), []);
@@ -21,9 +22,9 @@ export const useHover = () => {
         nodeRef.current.addEventListener('mouseout', handleMouseOut);
       }
     },
+    // eslint-disable-next-line comma-dangle
     [handleMouseOver, handleMouseOut]
   );
 
   return [callbackRef, isHovering];
 };
-

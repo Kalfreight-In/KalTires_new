@@ -58,46 +58,6 @@ const Navbar = () => {
                 }  `}
               >
                 What We Offer
-                {/* <NavigationMenu.Root>
-                  <NavigationMenu.List>
-                    <NavigationMenu.Item>
-                      <NavigationMenu.Trigger>
-                        What We Offer
-                      </NavigationMenu.Trigger>
-                      <NavigationMenu.Content>
-                        <div>
-                          Use CSS keyframes or any animation library of your
-                          choice.
-                        </div>
-                        <div>
-                          Tested in a range of browsers and assistive
-                          technologies.
-                        </div>
-                        <div>
-                          Radix Primitives releases and their changelogs.
-                        </div>
-                      </NavigationMenu.Content>
-                    </NavigationMenu.Item>
-
-                    <NavigationMenu.Item>
-                      <NavigationMenu.Link />
-                    </NavigationMenu.Item>
-
-                    <NavigationMenu.Item>
-                      <NavigationMenu.Trigger />
-                      <NavigationMenu.Content>
-                        <NavigationMenu.Sub>
-                          <NavigationMenu.List />
-                          <NavigationMenu.Viewport />
-                        </NavigationMenu.Sub>
-                      </NavigationMenu.Content>
-                    </NavigationMenu.Item>
-
-                    <NavigationMenu.Indicator />
-                  </NavigationMenu.List>
-
-                  <NavigationMenu.Viewport />
-                </NavigationMenu.Root> */}
               </div>
             </div>
           </Link>
@@ -169,20 +129,20 @@ const Navbar = () => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <Link href="/career">
             <div
               className={`group border-solid  border-r px-10 py-3 border-grey  ${
-                router.pathname === '/ContactUs' ? 'bg-red-500' : ''
+                router.pathname === '/career' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`text-black  ${
-                  router.pathname === '/ContactUs'
+                  router.pathname === '/career'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
               >
-                Contact Us
+                Career
               </div>
             </div>
           </Link>

@@ -26,13 +26,23 @@ module.exports = {
         'onsite-text': '#514A4A',
         'onsite-heading': '#323232',
         'speciality-background': '#ffffff00',
+        departmentheading: '#565967',
+        perkbenefitsborder: '#BFBFBF',
+        ykvldesc: '#4A4A4D',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
+        PerkTemplate: 'repeat(auto-fit, minmax(250px, 1fr))',
+        PerkTemplatetab: 'repeat(2, minmax(250px, 1fr))',
+        PerkTemplatemobile: 'repeat(1, minmax(200px, 1fr))',
         onsiteTemplate2: 'repeat(auto-fit, minmax(300px, 1fr))',
         servicesTemplate: 'repeat(4, minmax(0, 1fr))',
+        DepartmentsTemplate: 'repeat(3, minmax(0, 1fr))',
+        // servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
         servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
         servicesMobileTemplate: 'repeat(1,minmax(0,1fr))',
+        onsiteTemplatetab: 'repeat(3, minmax(250px, 1fr))',
+        onsiteTemplatemobile: 'repeat(1, minmax(250px, 1fr))',
       },
       // gridTemplateRows: {
       //   onsiterowTemplate: 'repeat(5,1fr)',
@@ -43,6 +53,7 @@ module.exports = {
         357: '357px',
         557: '557px',
         onsiteimage: '155px',
+        perkimagewidth: '6.75rem',
       },
       backgroundImage: {
         'footer-texture':
@@ -62,6 +73,7 @@ module.exports = {
         Onsiteheight: '95vh',
         onsitegridheight: '75vh',
         onsiteimage: '170px',
+        perkimageheight: '7.5rem',
       },
       inset: {
         45: '45%',

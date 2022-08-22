@@ -152,3 +152,60 @@ body {
 
   overflow: hidden !important;
 }
+.RedIsh {
+  background-color: rgb(255, 0, 0);
+  background-blend-mode: multiply;
+}
+.cls-1 {
+  fill: #d0d1d3;
+}
+.cls-2 {
+  fill: #f1f0f1;
+}
+.cls-3 {
+  fill: #ffffff;
+}
+.cls-4 {
+  fill: #fefefe;
+}
+.cls-5 {
+  fill: #0978bd;
+}
+.cls-6 {
+  fill: #f7ab50;
+}
+.cls-7 {
+  fill: #0068c9;
+}
+#Indianapolis {
+  z-index: 10;
+}
+#BC .cls-1 {
+  fill: #eaa959;
+}
+#Alberta {
+  fill: #eaa959;
+}
+
+.Marker {
+  fill: #0068c9;
+
+  animation: all 1s ease-in-out;
+}
+#logoZoomin {
+  animation: all 1s ease-in-out;
+}
+
+svg div {
+  background: pink;
+  font: 12px serif;
+  padding: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

@@ -22,7 +22,6 @@ const HomeSlider = () => (
       disableOnInteraction: false,
     }}
     onSwiper={(swiper) => console.log(swiper)}
-    onSlideChange={() => console.log('slide change')}
   >
     {HomeSliderData.map((data) => (
       <SwiperSlide key={data.id}>
