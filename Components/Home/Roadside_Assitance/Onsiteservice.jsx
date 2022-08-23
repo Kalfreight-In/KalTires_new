@@ -4,8 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper';
 import { Onsitecomponentdata, OnsiteGriddata } from '../../../data/data';
 
-const data = Onsitecomponentdata[0];
-
 const Onsiteservice = () => (
   <div id="onsitemain">
     <div id="onsitemaininner">
