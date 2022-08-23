@@ -35,7 +35,6 @@ import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
 import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
 import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
 import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
-
 import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import twos from '../Assets/Images/Whatweoffer/services/two.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
@@ -385,7 +384,7 @@ export const CommercialTireone = [
     BgImage: CommercalTiresBg,
     TireImage: CommercalTiresTires,
     mainimagetab: commercegrouptab,
-    Heading: 'Commercial Tires',
+    Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
     desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis veritatis! Veniam officia, 
@@ -421,7 +420,7 @@ export const CommercialTiretwo = [
     BgImage: CommercalTiresBg,
     TireImage: CommercalTiresTires,
     mainimagetab: commercegrouptwotab,
-    Heading: 'Retread Tires',
+    Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
     desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis
@@ -1051,18 +1050,6 @@ export const NavbarData = [
     },
     id: 3,
     navItem: 'Careers',
-
-    // link: "/BusinessVerticals",
-    // navItems: [
-    //   {
-    //     id: 1,
-    //     navItem: "Kal Freight",
-    //   },
-    //   {
-    //     id: 2,
-    //     navItem: "Kal Trailers",
-    //   },
-    // ],
   },
 ];
 export const MapData = [
