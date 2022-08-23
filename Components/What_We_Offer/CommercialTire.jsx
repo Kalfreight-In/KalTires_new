@@ -56,7 +56,7 @@ const CommercialTire = () => {
                       </span>
                     </div>
                     <p className="text-white mt-5 ">{alldata.desc}</p>
-                    <div className="flex items-center">
+                    <div className="flex items-center h-24 pr-12">
                       {alldata.logos.map((indexnew) => (
                         <div
                           id="commlogos"

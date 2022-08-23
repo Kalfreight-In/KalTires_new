@@ -63,9 +63,6 @@ export const PerkBenifits = () => (
               autoplay={{
                 delay: 1300,
               }}
-              // pagination={{
-              //   clickable: true,
-              // }}
               navigation
               modules={[Pagination, Navigation, Autoplay]}
               className="mySwiper"
@@ -163,9 +160,6 @@ export const PerkBenifits = () => (
               autoplay={{
                 delay: 1300,
               }}
-              // pagination={{
-              //   clickable: false,
-              // }}
               navigation
               modules={[Pagination, Navigation, Autoplay]}
               className="mySwiper"
