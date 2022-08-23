@@ -13,7 +13,6 @@ import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
 import { Onsitecomponentdata } from '../../data/data';
 
 // const data = Onsitecomponentdata.grids[0];
-// console.log(data);
 
 const Onsiteservice = () => (
   <div id="onsitemain">
@@ -181,7 +180,10 @@ const Onsiteservice = () => (
               {onsite.desc}
             </p>
             <div className="flex justify-center mt-8">
-              <button className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold">
+              <button
+                className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
+                type="button"
+              >
                 <span>
                   <ImPhone className="text-2xl" />
                 </span>

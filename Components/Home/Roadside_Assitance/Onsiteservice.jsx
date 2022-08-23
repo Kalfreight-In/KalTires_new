@@ -5,7 +5,6 @@ import { Pagination, Navigation, Autoplay } from 'swiper';
 import { Onsitecomponentdata, OnsiteGriddata } from '../../../data/data';
 
 const data = Onsitecomponentdata[0];
-console.log(data);
 
 const Onsiteservice = () => (
   <div id="onsitemain">

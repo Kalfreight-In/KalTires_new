@@ -166,7 +166,7 @@ const FeaturedProducts = () => {
               Feaaturedata.map((data) => (
                 <div
                   className=" bg-white px-6 py-8 flex flex-col justify-center items-center"
-                  key={data}
+                  key={data.id}
                 >
                   <img src={data.imageurl} alt="data" className="h-72" />
                   <div>
@@ -193,7 +193,6 @@ const FeaturedProducts = () => {
                   delay: 2000,
                   disableOnInteraction: false,
                 }}
-                onSwiper={(swiper) => console.log(swiper)}
               >
                 {Feaaturedata.map((data) => (
                   <SwiperSlide key={data.id}>
