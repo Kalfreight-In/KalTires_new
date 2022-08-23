@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 import {
   PerkBenifitsdata,
   PerkBenifitsdatatabone,
@@ -60,11 +60,14 @@ export const PerkBenifits = () => (
               slidesPerGroup={1}
               loop
               loopFillGroupWithBlank
-              pagination={{
-                clickable: true,
+              autoplay={{
+                delay: 1300,
               }}
+              // pagination={{
+              //   clickable: true,
+              // }}
               navigation
-              modules={[Pagination, Navigation]}
+              modules={[Pagination, Navigation, Autoplay]}
               className="mySwiper"
             >
               <SwiperSlide>
@@ -157,11 +160,14 @@ export const PerkBenifits = () => (
               slidesPerGroup={1}
               loop
               loopFillGroupWithBlank
-              pagination={{
-                clickable: false,
+              autoplay={{
+                delay: 1300,
               }}
+              // pagination={{
+              //   clickable: false,
+              // }}
               navigation
-              modules={[Pagination, Navigation]}
+              modules={[Pagination, Navigation, Autoplay]}
               className="mySwiper"
             >
               <SwiperSlide>
