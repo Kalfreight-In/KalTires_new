@@ -53,7 +53,7 @@ export const Departments = () => (
                     spaceBetween={0}
                     centeredSlides
                     autoplay={{
-                      delay: 2500,
+                      delay: 1000,
                       disableOnInteraction: false,
                     }}
                     // pagination={{
