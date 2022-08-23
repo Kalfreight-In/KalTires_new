@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   const router = useRouter();
-  // console.log(`lolllllllllllllllll ${router.pathname}`);
+
   return (
     <nav className="bg-white">
       <div className="flexBetween z-10 mx-20  flex-row">

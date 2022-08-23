@@ -107,6 +107,7 @@ export const BrandCompnentHeader = [
 ];
 export const FeaturedProductsData = [
   {
+    id: 1,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -115,6 +116,7 @@ export const FeaturedProductsData = [
     Category: 'Earthmover Tires',
   },
   {
+    id: 2,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -123,6 +125,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 3,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -131,6 +134,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 4,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -139,6 +143,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 5,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -147,6 +152,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 6,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -155,6 +161,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 7,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -163,6 +170,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 8,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -171,6 +179,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 9,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -179,6 +188,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 10,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -187,6 +197,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 11,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -195,6 +206,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 12,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -203,6 +215,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 13,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -211,6 +224,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 14,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -219,6 +233,7 @@ export const FeaturedProductsData = [
     Category: 'Earthmover Tires',
   },
   {
+    id: 15,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -227,6 +242,7 @@ export const FeaturedProductsData = [
     Category: 'Earthmover Tires',
   },
   {
+    id: 16,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -235,6 +251,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 17,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -243,6 +260,7 @@ export const FeaturedProductsData = [
     Category: 'Earthmover Tires',
   },
   {
+    id: 18,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -251,6 +269,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 19,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -259,6 +278,7 @@ export const FeaturedProductsData = [
     Category: 'Earthmover Tires',
   },
   {
+    id: 20,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -267,6 +287,7 @@ export const FeaturedProductsData = [
     Category: 'Commercial Tires',
   },
   {
+    id: 21,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:
@@ -275,6 +296,7 @@ export const FeaturedProductsData = [
     Category: 'Industrial Tires',
   },
   {
+    id: 22,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
     imageurl:

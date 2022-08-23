@@ -58,7 +58,6 @@ const HighPerformanceBrands = () => {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           {HighPerformanceBrandsData.map((data) => (
             <SwiperSlide key={data.id}>

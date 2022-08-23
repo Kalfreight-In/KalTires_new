@@ -5,7 +5,7 @@ import { CommercialTireone, CommercialTiretwo } from '../../data/data';
 
 const CommercialTire = () => {
   const [alldata, setalldata] = useState(CommercialTireone[0]);
-  console.log(alldata);
+
   return (
     <div id="commercialtiremain">
       <div id="commertiremaininner">
@@ -39,6 +39,7 @@ const CommercialTire = () => {
                     <div id="combuttons" className="mt-12">
                       <span className="">
                         <button
+                          type="button"
                           className="   mr-2 text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red"
                           onClick={() => setalldata(CommercialTireone[0])}
                         >
@@ -48,6 +49,7 @@ const CommercialTire = () => {
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <span className="">
                         <button
+                          type="button"
                           className="mr-2 text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
                           onClick={() => setalldata(CommercialTiretwo[0])}
                         >

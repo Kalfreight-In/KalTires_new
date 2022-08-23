@@ -25,7 +25,6 @@ const Gradients = styled.div`
 `;
 
 const HeroSection = ({ data }) => (
-  // console.log(data.data.id);
   <HeroContainer>
     <Gradients />
     <HeroBg className=" mt-0 " BackgroundImage={data.img}>

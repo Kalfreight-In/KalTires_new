@@ -21,7 +21,6 @@ const HomeSlider = () => (
       delay: 2000,
       disableOnInteraction: false,
     }}
-    onSwiper={(swiper) => console.log(swiper)}
   >
     {HomeSliderData.map((data) => (
       <SwiperSlide key={data.id}>
