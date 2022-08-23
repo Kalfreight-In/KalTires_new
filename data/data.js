@@ -99,7 +99,7 @@ export const BrandCompnentHeader = [
     heading: 'continental-logo',
   },
   {
-    id: '4',
+    id: '5',
     imageurl:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/general%20logo.png',
     heading: 'general logo',
