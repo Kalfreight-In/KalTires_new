@@ -1,6 +1,6 @@
 // import Script from 'next/script';
+import React from 'react';
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
-
 import '../styles/globals.css';
 import '../styles/Home.scss';
 
