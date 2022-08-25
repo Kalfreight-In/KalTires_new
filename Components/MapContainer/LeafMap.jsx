@@ -13,7 +13,7 @@ import {
   Popup,
   useMapEvents,
 } from 'react-leaflet';
-import { Icon, SVG } from 'leaflet';
+import { Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';

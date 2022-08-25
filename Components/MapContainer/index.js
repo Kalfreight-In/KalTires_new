@@ -30,6 +30,7 @@ export const SidebarMenu = styled.ul`
   items-align: center;
   justify-content: center;
   padding-left: 2rem;
+  margin-right: 10rem;
 `;
 export const SidebarLink = styled.a`
   display: flex;
