@@ -175,12 +175,12 @@ export const MapConatiner = () => {
       style={{
         backgroundImage: `${
           isDesktop
-            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
+            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
             : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
         }`,
       }}
     >
-      <div className=" svg-container">
+      <div className=" svg-container ">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -204,7 +204,7 @@ export const MapConatiner = () => {
           style={{
             backgroundImage: `${
               isDesktop
-                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
+                ? 'url( )'
                 : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
             }`,
             display: 'flex',
