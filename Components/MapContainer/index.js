@@ -30,6 +30,7 @@ export const SidebarMenu = styled.ul`
   items-align: center;
   justify-content: center;
   padding-left: 2rem;
+  padding-right: 1rem;
   margin-right: 10rem;
 `;
 export const SidebarLink = styled.a`
@@ -172,7 +173,7 @@ export const MapConatiner = () => {
   return (
     <div
       id="mainmapcontainer"
-      className="bg-black flex flex-col-reverse  md:flex-row p-8 bg-cover"
+      className="bg-black flex flex-col-reverse  md:flex-row bg-cover"
       style={{
         backgroundImage: `${
           isDesktop
@@ -181,7 +182,7 @@ export const MapConatiner = () => {
         }`,
       }}
     >
-      <div className=" svg-container">
+      <div className=" svg-container p-8 ">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -199,9 +200,9 @@ export const MapConatiner = () => {
         /> */}
         <LeafMap />
       </div>
-      <div className="md:-m-8 -mx-8 w-full flex-1 ">
+      <div className="w-full flex-1 ">
         <div
-          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center  lg:ml-12  lg:mb-0 mb-2  h-full"
+          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full"
           style={{
             backgroundImage: `${
               isDesktop
@@ -256,7 +257,9 @@ export const MapConatiner = () => {
                     >
                       <h1
                         className={
-                          visibilities[index] ? 'text-black' : 'text-black'
+                          visibilities[index]
+                            ? 'text-black font-bold'
+                            : 'text-black font-bold'
                         }
                       >
                         {value.city}

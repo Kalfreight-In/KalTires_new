@@ -1055,7 +1055,7 @@ export const NavbarData = [
 export const MapData = [
   {
     id: 0,
-    city: 'Springdale',
+    city: 'Springdale, AR',
     state: 'AR',
     Address: '2025 English Ave 46205 IN English Ave 46205 IN',
     phone: '870-868-8686',
@@ -1072,7 +1072,7 @@ export const MapData = [
   },
   {
     id: 1,
-    city: 'Springdale',
+    city: 'Indianapolis, IN',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
     phone: '870-868-8686',
@@ -1089,7 +1089,7 @@ export const MapData = [
   },
   {
     id: 2,
-    city: 'Springdale',
+    city: 'Hampton, NJ',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
     phone: '870-868-8686',
@@ -1106,7 +1106,7 @@ export const MapData = [
   },
   {
     id: 3,
-    city: 'Springdale',
+    city: 'Atlanta, GA',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
     phone: '870-868-8686',
@@ -1123,7 +1123,7 @@ export const MapData = [
   },
   {
     id: 4,
-    city: 'Springdale',
+    city: 'Fontana, CA',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
     phone: '870-868-8686',
@@ -1140,7 +1140,7 @@ export const MapData = [
   },
   {
     id: 5,
-    city: 'Springdale',
+    city: 'Lathrop, CA',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
     phone: '870-868-8686',
@@ -1157,7 +1157,24 @@ export const MapData = [
   },
   {
     id: 6,
-    city: 'Springdale',
+    city: 'San Marcos, CA',
+    state: 'AR',
+    Address: '2025 English Ave 46205 IN',
+    phone: '870-868-8686',
+    Email: 'antoniom@kalfreight.com',
+    Manager: 'Telly Ingram',
+    Maps: 'https://www.google.com/maps/place/2025+English+Ave,+Indianapolis,+IN+46201,+USA/@39.7591968,-86.1355487,15z/data=!4m5!3m4!1s0x886b507bb4588c77:0xd0b2698ed1a53b6d!8m2!3d39.7591968!4d-86.126794',
+    MAPID: [
+      {
+        id: 0,
+        long: '-86.126794',
+        lat: '39.7591968',
+      },
+    ],
+  },
+  {
+    id: 6,
+    city: 'Bakersfield, CA',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
     phone: '870-868-8686',
