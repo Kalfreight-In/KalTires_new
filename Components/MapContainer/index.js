@@ -171,12 +171,12 @@ export const MapConatiner = () => {
   return (
     <div
       id="mainmapcontainer"
-      className="bg-blue-600 flex flex-col-reverse  md:flex-row p-8 bg-cover"
+      className="bg-black flex flex-col-reverse  md:flex-row p-8 bg-cover"
       style={{
         backgroundImage: `${
           isDesktop
             ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
-            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+            : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
         }`,
       }}
     >
@@ -204,7 +204,7 @@ export const MapConatiner = () => {
           style={{
             backgroundImage: `${
               isDesktop
-                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
                 : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
             }`,
             display: 'flex',
