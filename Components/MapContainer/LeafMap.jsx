@@ -17,7 +17,6 @@ import { Icon, SVG } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
-import iconMapMarker from '../../Assets/Images/iconMapMarker.svg';
 
 const MapInside = styled.div`
   flex: 3;
@@ -29,7 +28,8 @@ const MapInside = styled.div`
   }
 `;
 const covidIcon = new Icon({
-  iconUrl: iconMapMarker,
+  iconUrl:
+    'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
   iconSize: [25, 25],
 });
 const LeafMap = () => {
