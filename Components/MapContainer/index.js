@@ -31,7 +31,6 @@ export const SidebarMenu = styled.ul`
   justify-content: center;
   padding-left: 2rem;
   padding-right: 1rem;
-  margin-right: 10rem;
 `;
 export const SidebarLink = styled.a`
   display: flex;
@@ -212,7 +211,7 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">
+          <div className="  w-full pl-16 md:mb-0 mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
                 <svg
@@ -246,7 +245,7 @@ export const MapConatiner = () => {
                 We serve you at multiple location
               </div>
             </div>
-            <SidebarMenu className="bg-white">
+            <SidebarMenu className="bg-white pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {MapData.map((value, index) => (
                   <>
@@ -278,7 +277,7 @@ export const MapConatiner = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black h-8 text-xl">
+                          <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
                             {' '}
                             {value.Address}
                           </div>

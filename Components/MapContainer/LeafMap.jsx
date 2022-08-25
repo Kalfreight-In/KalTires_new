@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import 'leaflet-defaulticon-compatibility';
-import { BsPlus } from 'react-icons/bs';
-import { HiLocationMarker } from 'react-icons/hi';
+
 import styled from 'styled-components';
 
 import {
@@ -11,13 +10,25 @@ import {
   TileLayer,
   Marker,
   Popup,
-  useMapEvents,
+  GeoJSON,
+  Polygon,
 } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
+import { statesData } from './GeoData.js';
 
+function style(feature) {
+  return {
+    fillColor: '#ED1C24',
+    weight: 0.6,
+    opacity: 1,
+    color: 'white',
+    dashArray: '0',
+    fillOpacity: 0,
+  };
+}
 const MapInside = styled.div`
   flex: 3;
   width: 100%;
@@ -47,7 +58,52 @@ const LeafMap = () => {
        https://api.mapbox.com/styles/v1/ssoam/cl77qs9yq000c14uk4kv9ecog/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic3NvYW0iLCJhIjoiY2w3N3J5ZTgyMDJwZzNwb3gzYWtxdWttciJ9.g2IBgPyHpz_bDNTAe3g2fw`}
           attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
         />
+        {statesData.features.map((state) => {
+          const coordinates = state.geometry.coordinates[0].map((item) => [
+            item[1],
+            item[0],
+          ]);
 
+          return (
+            <Polygon
+              key={state.id}
+              pathOptions={{
+                fillColor: '#ED1C24',
+                weight: 0.6,
+                opacity: 1,
+                color: 'white',
+                dashArray: '0',
+                fillOpacity: 0,
+              }}
+              positions={coordinates}
+              eventHandlers={{
+                mouseover: (e) => {
+                  const layer = e.target;
+                  layer.setStyle({
+                    fillColor: '#ED1C24',
+                    weight: 0.6,
+                    opacity: 1,
+                    color: 'white',
+                    dashArray: '0',
+                    fillOpacity: 1,
+                  });
+                },
+                mouseout: (e) => {
+                  const layer = e.target;
+                  layer.setStyle({
+                    fillColor: '#ED1C24',
+                    weight: 0.6,
+                    opacity: 1,
+                    color: 'white',
+                    dashArray: '0',
+                    fillOpacity: 0,
+                  });
+                },
+                click: (e) => {},
+              }}
+            />
+          );
+        })}
         {officeLists.map((eachData) => (
           <Marker
             draggable
