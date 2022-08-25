@@ -278,7 +278,7 @@ export const MapConatiner = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black h-20 text-xl">
+                          <div className="text-black h-8 text-xl">
                             {' '}
                             {value.Address}
                           </div>
