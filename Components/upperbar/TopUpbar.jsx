@@ -1,12 +1,82 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-// import Image from 'next/image';
-
 import { GoLocation } from 'react-icons/go';
-import { useStateContext } from '../../context/StateContext';
+import useGeoLocation from '../../Hooks/useGeoLocation';
+
+const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
+// import Image from 'next/image';
+const extractAddress = (place) => {
+  const address = {
+    city: '',
+    state: '',
+    zip: '',
+    country: '',
+    plain() {
+      const city = this.city ? `${this.city}, ` : '';
+      const zip = this.zip ? `${this.zip}, ` : '';
+      const state = this.state ? `${this.state}, ` : '';
+      return city + zip + state + this.country;
+    },
+  };
+
+  if (!Array.isArray(place?.address_components)) {
+    return address;
+  }
+
+  place.address_components.forEach((component) => {
+    const { types } = component;
+    const value = component.long_name;
+
+    if (types.includes('locality')) {
+      address.city = value;
+    }
+
+    if (types.includes('administrative_area_level_2')) {
+      address.state = value;
+    }
+
+    if (types.includes('postal_code')) {
+      address.zip = value;
+    }
+
+    if (types.includes('country')) {
+      address.country = value;
+    }
+  });
+
+  return address;
+};
 
 const TopUpbar = () => {
-  const { location } = useStateContext();
+  const [address, setAddress] = useState({});
+  const reverseGeocode = ({ latitude: lat, longitude: lng }) => {
+    const url = `${GOOGLE_MAP_API_URL}?key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng=${lat},${lng}`;
+
+    fetch(url)
+      .then((response) => response.json())
+      .then((location) => {
+        const place = location.results[0];
+        const _address = extractAddress(place);
+        setAddress(_address);
+      });
+  };
+
+  const findMyLocation = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        reverseGeocode(position.coords);
+      });
+    }
+  };
+  useEffect(() => {
+    findMyLocation();
+  }, []);
+
+  // const { data } = getLocationByLatLng(
+  //   location.coordinates.lat,
+  //   location.coordinates.lng
+  // );
+
   return (
     <div className="bg-tire-gray-3 ">
       <div className="flexBetween z-10 mx-20 p-3 flex-row">
@@ -14,8 +84,8 @@ const TopUpbar = () => {
           <div className="flex flex-row flexCenter">
             <div className="text-white font-bold ml-8">
               {' '}
-              {location.loaded
-                ? JSON.stringify(location)
+              {address
+                ? `${address.city} ${address.state}`
                 : 'Location data not available yet.'}
             </div>
             <div className="ml-2 font-bold">
