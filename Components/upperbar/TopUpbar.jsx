@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { GoLocation } from 'react-icons/go';
-import useGeoLocation from '../../Hooks/useGeoLocation';
 
 const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 // import Image from 'next/image';
@@ -56,8 +55,8 @@ const TopUpbar = () => {
       .then((response) => response.json())
       .then((location) => {
         const place = location.results[0];
-        const _address = extractAddress(place);
-        setAddress(_address);
+        const Aaddress = extractAddress(place);
+        setAddress(Aaddress);
       });
   };
 
