@@ -3,9 +3,10 @@ import React from 'react';
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 import '../styles/globals.css';
 import '../styles/Home.scss';
+import { StateContext } from '../context/StateContext';
 
 const MyApp = ({ Component, pageProps }) => (
-  <div>
+  <StateContext>
     <TopUpbar />
     <Topbar />
     <Navbar />
@@ -15,7 +16,7 @@ const MyApp = ({ Component, pageProps }) => (
       src="https://kit.fontawesome.com/d16bf6a891.js"
       crossOrigin="anonymous"
     /> */}
-  </div>
+  </StateContext>
 );
 
 export default MyApp;
