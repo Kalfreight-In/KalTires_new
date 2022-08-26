@@ -43,13 +43,14 @@ const covidIcon = new Icon({
     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
   iconSize: [25, 25],
 });
-const LeafMap = () => {
-  const [office, setoffice] = useState(null);
+const LeafMap = ({ Data }) => {
+  const [office, setoffice] = useState(Data);
+  console.log(`,...........................${Data}`);
   return (
     <MapInside id="map">
       <MapContainer
-        center={[40.8054, -94.0241]}
-        zoom={4}
+        center={[40.8054, -99.0241]}
+        zoom={5}
         scrollWheelZoom={false}
         style={{ height: '700px', width: '100%' }}
       >

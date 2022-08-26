@@ -118,6 +118,12 @@ export const MapConatiner = () => {
       /* list variables which should trigs  ger a re-render here */
     ]
   );
+  const MapCaller = ({ selectedPosition, setSelectedPosition }) => (
+    <LeafMap
+      selectedPosition={selectedPosition}
+      setSelectedPosition={setSelectedPosition}
+    />
+  );
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
   //   setIsBrowser(true);
@@ -149,6 +155,7 @@ export const MapConatiner = () => {
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
   };
+  const [selectedPosition, setSelectedPosition] = React.useState(null);
   const [Services, setServices] = useState(false);
   const [NewsRoom, setNewsRoom] = useState(false);
   const [AboutUs, setAboutUs] = useState(false);
@@ -181,7 +188,7 @@ export const MapConatiner = () => {
         }`,
       }}
     >
-      <div className=" svg-container p-8 ">
+      <div className=" svg-container  ">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -197,7 +204,7 @@ export const MapConatiner = () => {
           Lathrop={isLathrop}
           Calexico={isCalexico}
         /> */}
-        <LeafMap />
+        <MapCaller Data={MapData} />
       </div>
       <div className="w-full flex-1 ">
         <div
