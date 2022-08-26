@@ -29,6 +29,8 @@ module.exports = {
         departmentheading: '#565967',
         perkbenefitsborder: '#BFBFBF',
         ykvldesc: '#4A4A4D',
+        resumeheading: '#474747',
+        resumedescription: '#514A4A',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',

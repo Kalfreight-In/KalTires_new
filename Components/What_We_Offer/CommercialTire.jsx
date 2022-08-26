@@ -40,7 +40,7 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className="   mr-2 text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red"
+                          className="   mr-2 text-center focus:border-b-2 font-bold border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red"
                           onClick={() => setalldata(CommercialTireone[0])}
                         >
                           {alldata.titleone}
@@ -50,14 +50,16 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className="mr-2 text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
+                          className="mr-2 font-bold text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
                           onClick={() => setalldata(CommercialTiretwo[0])}
                         >
                           {alldata.titletwo}
                         </button>
                       </span>
                     </div>
-                    <p className="text-white mt-5 ">{alldata.desc}</p>
+                    <p className="text-white mt-5 text-justify ">
+                      {alldata.desc}
+                    </p>
                     <div className="flex items-center h-24 pr-12">
                       {alldata.logos.map((indexnew) => (
                         <div
