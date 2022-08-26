@@ -1173,7 +1173,7 @@ export const MapData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     city: 'Bakersfield, CA',
     state: 'AR',
     Address: '2025 English Ave 46205 IN',
