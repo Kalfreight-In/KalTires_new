@@ -144,13 +144,10 @@ export const MapConatiner = () => {
     MapData.map((x) => false);
   }, [visibilities]);
 
-  console.log(`visibilities: ${visibilities}`);
   const handleClick = (event) => {
     const index = parseInt(event.currentTarget.dataset.index, 10);
 
     const newVisibilities = [...visibilities];
-
-    console.log(`newVisibilities  ${newVisibilities}`);
 
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
