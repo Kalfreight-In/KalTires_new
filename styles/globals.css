@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   /* font-family: sans-serif; */
@@ -208,4 +214,7 @@ svg div {
 
 .green {
   color: green;
+}
+#map {
+  z-index: 1 !important;
 }

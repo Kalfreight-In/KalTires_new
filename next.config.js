@@ -15,6 +15,10 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  compiler: {
+    // ssr and displayName are configured by default
+    styledComponents: true,
+  },
 };
 
 module.exports = nextConfig;

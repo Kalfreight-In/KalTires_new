@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+import dynamic from 'next/dynamic';
 import Map from '../../Assets/Map/index';
-import { NavbarData } from '../../data/data';
+import { MapData } from '../../data/data';
+
 import { useHover } from '../../Hooks/Hover';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
-const Ddata = ['James', 'John', 'Jessica', 'Jamie'];
 // eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
   background: #15171c;
@@ -24,10 +25,12 @@ const SidebarNav = styled.nav`
 `;
 export const SidebarMenu = styled.ul`
   display: flex;
+
   flex-direction: column;
   items-align: center;
   justify-content: center;
   padding-left: 2rem;
+  padding-right: 1rem;
 `;
 export const SidebarLink = styled.a`
   display: flex;
@@ -70,7 +73,8 @@ export const Divlink = styled.div`
   display: flex;
   align-items: left;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
+  margin: 0rem;
   font-size: 1rem;
   padding: 1rem 1rem 1rem 0rem;
   font-weight: 600;
@@ -78,8 +82,8 @@ export const Divlink = styled.div`
   // padding-right: 3rem;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  border-bottom: 1px solid white;
-  color: #fff;
+  border-bottom: 1px solid black;
+  color: #000;
   cursor: pointer;
   &:hover {
     // color: #000000;
@@ -101,29 +105,49 @@ const useHoverReducer = (initialState, reducer) => {
 };
 
 export const MapConatiner = () => {
+  const LeafMap = React.useMemo(
+    () =>
+      dynamic(
+        () => import('./LeafMap'), // replace '@components/map' with your component's location
+        {
+          loading: () => <p>A map is loading</p>,
+          ssr: false, // This line is important. It's what prevents server-side render
+        }
+      ),
+    [
+      /* list variables which should trigs  ger a re-render here */
+    ]
+  );
+  // const [isBrowser, setIsBrowser] = useState(false);
+  // useEffect(() => {
+  //   setIsBrowser(true);
+  // }, []);
+
+  // if (!isBrowser) {
+  //   return null;
+  // }
   const isDesktop = useMediaQuery('(min-width: 768px)');
+
   const [visibilities, setVisibilities] = React.useState(() =>
-    Ddata.map((x) => false)
+    MapData.map((x) => false)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
-    Ddata.map((x) => false);
+    MapData.map((x) => false);
   }, [visibilities]);
 
   console.log(`visibilities: ${visibilities}`);
   const handleClick = (event) => {
-    const devData = Ddata;
-    Ddata.map((x) => false);
     const index = parseInt(event.currentTarget.dataset.index, 10);
-    console.log(`index ${index}`);
-    devData = [...visibilities];
 
-    console.log(`newVisibilities  ${devData}`);
+    const newVisibilities = [...visibilities];
 
-    devData[index] = !devData[index];
-    setVisibilities(devData);
+    console.log(`newVisibilities  ${newVisibilities}`);
+
+    newVisibilities[index] = !newVisibilities[index];
+    setVisibilities(newVisibilities);
   };
   const [Services, setServices] = useState(false);
   const [NewsRoom, setNewsRoom] = useState(false);
@@ -148,17 +172,17 @@ export const MapConatiner = () => {
   return (
     <div
       id="mainmapcontainer"
-      className="bg-blue-600 flex flex-col-reverse  md:flex-row p-8 bg-cover"
+      className="bg-black flex flex-col-reverse  md:flex-row bg-cover"
       style={{
         backgroundImage: `${
           isDesktop
             ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
-            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+            : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
         }`,
       }}
     >
-      <div className=" svg-container">
-        <Map
+      <div className=" svg-container p-8 ">
+        {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
           SanMarcos={isSanMarcos}
@@ -172,21 +196,22 @@ export const MapConatiner = () => {
           abbotsford={isabbotsford}
           Lathrop={isLathrop}
           Calexico={isCalexico}
-        />
+        /> */}
+        <LeafMap />
       </div>
-      <div className="md:-m-8 -mx-8 w-full flex-1 ">
+      <div className="w-full flex-1 ">
         <div
-          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center  lg:ml-12  lg:mb-0 mb-2  h-full"
+          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full"
           style={{
             backgroundImage: `${
               isDesktop
-                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
                 : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
             }`,
             display: 'flex',
           }}
         >
-          <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">
+          <div className="  w-full pl-16 md:mb-0 mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
                 <svg
@@ -220,221 +245,48 @@ export const MapConatiner = () => {
                 We serve you at multiple location
               </div>
             </div>
-            <SidebarMenu>
-              <SidebarLinkR to="/">Home</SidebarLinkR>
-
-              <Divlink
-                onClick={() => {
-                  setBusinessVerticles(!BusinessVerticles);
-                  setAboutUs(false);
-                  setNewsRoom(false);
-                  setServices(false);
-                }}
-              >
-                Business Verticals
-                <span>
-                  {BusinessVerticles ? <BiMinus /> : <BsPlus />}
-
-                  {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                </span>
-              </Divlink>
-              <div
-                className={`Transition-Height-${
-                  BusinessVerticles ? 'in' : 'out'
-                }`}
-              >
-                <ul>
-                  {BusinessVerticles
-                    ? NavbarData[0].navItems.map((data) => (
-                        <a href={data.url.url}>
-                          <li>
-                            <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
-                              {data.navItem}
-                              {/* {data.navItems
-                ? data.navItems.map((data) => (
-                    <div className=" text-Heading  justify-center text-center items-center">
-                      {data.navItem}
-                    </div>
-                  ))
-                : null} */}
-                            </div>
-                          </li>
-                        </a>
-                      ))
-                    : null}
-                </ul>
-              </div>
-
-              <Divlink
-                onClick={() => {
-                  setAboutUs(!AboutUs);
-                  setBusinessVerticles(false);
-
-                  setNewsRoom(false);
-                  setServices(false);
-                }}
-              >
-                About Us
-                <span>{AboutUs ? <BiMinus /> : <BsPlus />}</span>
-              </Divlink>
-
-              <div className={`Transition-Height-${AboutUs ? 'in' : 'out'}`}>
-                {AboutUs
-                  ? NavbarData[1].navItems.map((data) =>
-                      data.url.link === 'a' ? (
-                        <a href={data.url.url} className="w-full">
-                          <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
-                            {data.navItem}
-                          </div>
-                        </a>
-                      ) : (
-                        <Link
-                          to={data.url.url}
-                          smooth
-                          duration={1000}
-                          spy
-                          exact
-                          offset={-80}
-                          className="cursor-pointer"
-                        >
-                          <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
-                            {data.navItem}
-                          </div>
-                        </Link>
-                      )
-                    )
-                  : null}
-              </div>
-
-              <Divlink
-                onClick={() => {
-                  setNewsRoom(!NewsRoom);
-                  setBusinessVerticles(false);
-                  setAboutUs(false);
-
-                  setServices(false);
-                }}
-              >
-                News Room
-                <span>{NewsRoom ? <BiMinus /> : <BsPlus />}</span>
-              </Divlink>
-              <div className={`Transition-Height-${NewsRoom ? 'in' : 'out'}`}>
-                {' '}
-                {NewsRoom
-                  ? NavbarData[2].navItems.map((data) =>
-                      data.url.link === 'a' ? (
-                        <a href={data.url.url} className="w-full">
-                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                            {data.navItem}
-                          </div>
-                        </a>
-                      ) : (
-                        <Link
-                          to={data.url.url}
-                          smooth
-                          duration={1000}
-                          spy
-                          exact
-                          offset={-80}
-                          className="cursor-pointer"
-                        >
-                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                            {data.navItem}
-                          </div>
-                        </Link>
-                      )
-                    )
-                  : null}
-              </div>
-
-              <Divlink
-                onClick={() => {
-                  setServices(!Services);
-                  setBusinessVerticles(false);
-                  setAboutUs(false);
-                  setNewsRoom(false);
-                }}
-              >
-                Services
-                <span>{Services ? <BiMinus /> : <BsPlus />}</span>
-              </Divlink>
-              <div className={`Transition-Height-${Services ? 'in' : 'out'}`}>
-                {Services
-                  ? NavbarData[3].navItems.map((data) =>
-                      data.url.link === 'a' ? (
-                        <a href={data.url.url} className="w-full">
-                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                            {data.navItem}
-                          </div>
-                        </a>
-                      ) : (
-                        <Link
-                          to={data.url.url}
-                          smooth
-                          duration={1000}
-                          spy
-                          exact
-                          offset={-80}
-                          className="cursor-pointer"
-                        >
-                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                            {data.navItem}
-                          </div>
-                        </Link>
-                      )
-                    )
-                  : null}
-              </div>
-              <div>
-                <div className="border">
-                  {Ddata.map((value, index) => (
-                    <h1
+            <SidebarMenu className="bg-white pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+              <div className="">
+                {MapData.map((value, index) => (
+                  <>
+                    <Divlink
+                      key={value.id}
                       data-index={index}
                       onClick={handleClick}
-                      className={visibilities[index] ? 'selected' : undefined}
                     >
-                      Hello {value}, you are{' '}
-                      {visibilities[index] ? 'visible' : 'hidden'}!
-                    </h1>
-                  ))}
-                </div>
+                      <h1
+                        className={
+                          visibilities[index]
+                            ? 'text-black font-bold'
+                            : 'text-black font-bold'
+                        }
+                      >
+                        {value.city}
+                      </h1>
+
+                      <span>
+                        {visibilities[index] ? <BiMinus /> : <BsPlus />}
+
+                        {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                      </span>
+                    </Divlink>
+                    <div
+                      className={`Transition-Height-${
+                        visibilities[index] ? 'in' : 'out'
+                      }`}
+                    >
+                      <ul>
+                        {visibilities[index] ? (
+                          <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
+                            {' '}
+                            {value.Address}
+                          </div>
+                        ) : null}
+                      </ul>
+                    </div>
+                  </>
+                ))}
               </div>
-              <SidebarLinkR to="ContactSection">
-                <Link
-                  to="ContactSection"
-                  smooth
-                  duration={1000}
-                  spy
-                  exact
-                  offset={-80}
-                >
-                  Careers
-                </Link>
-              </SidebarLinkR>
-              <SidebarLinkR to="ContactSection">
-                <Link
-                  to="ContactSection"
-                  smooth
-                  duration={1000}
-                  spy
-                  exact
-                  offset={-80}
-                >
-                  Contact Us
-                </Link>
-              </SidebarLinkR>
-              <SidebarLinkR to="mainmapcontainer">
-                <Link
-                  to="mainmapcontainer"
-                  smooth
-                  duration={1000}
-                  spy
-                  exact
-                  offset={-80}
-                >
-                  Locations
-                </Link>
-              </SidebarLinkR>
 
               {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
           <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
