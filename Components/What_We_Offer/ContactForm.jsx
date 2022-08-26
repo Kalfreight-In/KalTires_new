@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
-import backgroundfirst from '../../Assets/Images/Whatweoffer/Contactform/backgroundfirst.png';
 
 const Contactform = () => {
   const [name, setName] = useState('');
@@ -51,15 +50,15 @@ const Contactform = () => {
   };
 
   return (
-    <div id="maincontactform" className="flex justify-between">
+    <div id="maincontactform" className="flex justify-beween ">
       <div
         id="shadow"
-        className="md:p-8 p-4 "
+        className="md:p-8 p-4 bg-red-600 px-48"
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
             'url(' +
-            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
+            'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/Contactform/backgroundfirst.png' +
             ')',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -109,52 +108,53 @@ const Contactform = () => {
             <div className="xl:text-left text-center xl:pl-2">
               <div
                 id="contactnew"
-                className="flex justify-center items-center xl:justify-start xl:items-start pb-8"
+                className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 pl-12 "
               >
                 {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                <h1 className="text-Heading md:text-5xl text-3xl font-bold pl-2  ">
-                  Book an appointment <br /> now!
+                <h1 className="text-white md:text-5xl text-3xl font-bold pl-2">
+                  BOOK AN APPOINTMENT
+                  <br /> NOW!
                 </h1>
               </div>
-              <div className="2xl:hidden">
+              {/* <div className="2xl:hidden">
                 <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
                   Got a question? Or request a quote? Contact us directly or
                   fill up the form and we will get back to you promptly.
                 </p>
-              </div>
-              <div className="hidden 2xl:block">
+              </div> */}
+              {/* <div className="hidden 2xl:block">
                 <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
                   Got a question? Or request a quote? Contact us directly or
                   fill up the form <br /> and we will get back to you promptly.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
               <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0"
+                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-8"
                 id="input_placeholder"
               >
                 <input
                   onChange={(e) => setName(e.target.value)}
-                  className="appearance-none block xl:w-full w-contacttabinput bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="appearance-none block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                   id="grid-first-name"
                   type="text"
                   value={name}
-                  placeholder="Name *"
+                  placeholder="Name*"
                   required
                 />
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0"
+                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4"
                 id="input_placeholder"
               >
                 <input
                   onChange={(e) => setEmail(e.target.value)}
-                  className="appearance-none block xl:w-full w-contacttabinput bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                   id="grid-first-name"
                   type="email"
                   value={email}
@@ -163,12 +163,12 @@ const Contactform = () => {
                 />
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0"
+                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4"
                 id="input_placeholder"
               >
                 <input
                   onChange={(e) => setservice(e.target.value)}
-                  className="appearance-none block xl:w-full w-contacttabinput bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                   id="grid-first-name"
                   type="select"
                   value={service}
@@ -177,12 +177,12 @@ const Contactform = () => {
                 />
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0"
+                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4"
                 id="input_placeholder"
               >
                 <input
                   onChange={(e) => setMessage(e.target.value)}
-                  className="appearance-none block xl:w-full w-contacttabinput bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="appearance-none block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                   id="grid-first-name"
                   type="text"
                   value={message}
@@ -191,64 +191,31 @@ const Contactform = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 mb-6">
-              {/* <div className="w-full md:w-1/2 xl:px-3 mb-6 md:mb-0 flex justify-center items-center">
-                <input
-                  type="text"
-                  onChange={(e) => setlocation(e.target.value)}
-                  placeholder=" Location *"
-                  className="appearance-none block xl:w-72 w-contacttabinput bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                  required
-                />
-              </div> */}
-
-              {/* <div className="w-full md:w-1/2 xl:px-3">
-                <div className="w-full xl:px-3 flex justify-center items-center ">
-                  <input
-                    onChange={(e) => setphoneno(e.target.value)}
-                    value={phoneno}
-                    className="appearance-none block xl:w-72 w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="email"
-                    placeholder="Mobile No *"
-                    type="Phone *"
-                    required
-                  />
-                </div>
-              </div> */}
-            </div>
-            <div className="flex flex-wrap -mx-3 mb-6">
-              <div className="w-full px-3" />
-            </div>
-            {/* <div className="flex flex-wrap -mx-3 mb-6">
-              <div className="w-full xl:px-3 flex justify-center items-center ">
-                <textarea
-                  onChange={(e) => setMessage(e.target.value)}
-                  value={message}
-                  className=" no-resize appearance-none block xl:w-contacttextarea md:w-contacttextareatab w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-36 resize-none"
-                  id="message  *"
-                  placeholder="What can we do for you? *"
-                />
-              </div>
-            </div> */}
-            {/* <div className="md:block  flex items-center justify-center">
-              <div className="ml-4">
+            <div id="submitallbutton" className="pl-24 pt-8 flex ">
+              <div>
                 <button
-                  type="button"
-                  className="text-white bg-yellow-bg rounded h-12 p-4 w-48 mt-2 flex justify-center items-center"
+                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center"
+                  type="submit"
                 >
                   {buttonText}
                 </button>
               </div>
-
-              <div className="md:w-2/3" />
-            </div> */}
+              <div className="pl-12">
+                <button
+                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 p-4 w-48 mt-2 flex justify-center items-center border-2"
+                  type="submit"
+                >
+                  Call Us Now
+                </button>
+              </div>
+            </div>
           </form>
         )}
       </div>
 
       <div id="maincontactformtwo">
         <div id="imgcontact">
-          <Image src={mainimage} alt="contactus" />
+          <Image src={mainimage} alt="contactus" objectFit="cover" />
         </div>
       </div>
     </div>
