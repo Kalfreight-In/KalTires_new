@@ -49,18 +49,25 @@ const extractAddress = (place) => {
 
 const TopUpbar = () => {
   const [address, setAddress] = useState({});
-  const reverseGeocode = ({ latitude: lat, longitude: lng }) => {
+  async function reverseGeocode({ latitude: lat, longitude: lng }) {
     const url = `${GOOGLE_MAP_API_URL}?key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng=${lat},${lng}`;
+    try {
+      axios.get(url).then(
+        (response) =>
+          // eslint-disable-next-line implicit-arrow-linebreak, comma-dangle
+          setAddress(extractAddress(response.data.results[0]))
+        // eslint-disable-next-line function-paren-newline
+      );
+    } catch (err) {
+      console.log(err);
+    }
 
-    axios
-      .get(url)
-      .then((response) => setAddress(extractAddress(response.data.results[0])));
     // .then((location) => {
     //   const place = location.results[0];
     //   const Aaddress = extractAddress(place);
     //   setAddress(Aaddress);
     // });
-  };
+  }
 
   const findMyLocation = () => {
     if (navigator.geolocation) {
