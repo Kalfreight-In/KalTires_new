@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { GoLocation } from 'react-icons/go';
+import axios from 'axios';
 
 const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 // import Image from 'next/image';
@@ -51,13 +52,14 @@ const TopUpbar = () => {
   const reverseGeocode = ({ latitude: lat, longitude: lng }) => {
     const url = `${GOOGLE_MAP_API_URL}?key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng=${lat},${lng}`;
 
-    fetch(url)
-      .then((response) => response.json())
-      .then((location) => {
-        const place = location.results[0];
-        const Aaddress = extractAddress(place);
-        setAddress(Aaddress);
-      });
+    axios
+      .get(url)
+      .then((response) => setAddress(extractAddress(response.data.results[0])));
+    // .then((location) => {
+    //   const place = location.results[0];
+    //   const Aaddress = extractAddress(place);
+    //   setAddress(Aaddress);
+    // });
   };
 
   const findMyLocation = () => {
