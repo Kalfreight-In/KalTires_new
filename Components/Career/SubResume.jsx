@@ -34,7 +34,7 @@ export const SubResume = () => (
               <path d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z" />
             </svg> */}
 
-              <span className="ml-2 lg:text-2xl text-xl font-poppins">
+              <span className="ml-2 text-xl font-poppins">
                 SUBMIT YOUR RESUME
               </span>
               <input

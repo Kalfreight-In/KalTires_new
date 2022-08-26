@@ -1,6 +1,6 @@
 import { AboutUs } from '../Components/Home/AboutUs';
 import BrandsComponent from '../Components/Home/BrandsComponent';
-import FeaturedProducts from '../Components/Home/FeaturedProducts';
+// import FeaturedProducts from '../Components/Home/FeaturedProducts';
 import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
 import HomeSlider from '../Components/Home/HomeSlider';
 import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
