@@ -13,7 +13,7 @@ import { Link as Slink } from 'react-scroll';
 
 const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
-  const [SethWa] = useState(false);
+
   const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
@@ -198,7 +198,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     className="text-white cursor-pointer"
                     onClick={() => {
                       setHinventery(!Hinventery);
-                      SethWa(false);
+
                       setHquicklinks(false);
                       setHcontactus(false);
                     }}
@@ -255,7 +255,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(!Hquicklinks);
-                      SethWa(false);
+
                       setHcontactus(false);
                     }}
                   >
@@ -366,7 +366,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(false);
-                      SethWa(false);
+
                       setHcontactus(!Hcontactus);
                     }}
                   >
@@ -572,7 +572,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   onClick={() => {
                     setHinventery(false);
                     setHquicklinks(false);
-                    SethWa(false);
+
                     setHcontactus(!Hcontactus);
                   }}
                 >
@@ -708,7 +708,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(false);
-                      SethWa(false);
+
                       setHcontactus(!Hcontactus);
                     }}
                   >

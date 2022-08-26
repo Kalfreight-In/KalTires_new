@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'leaflet/dist/leaflet.css';
-import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
-import 'leaflet-defaulticon-compatibility';
+// import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
+// import 'leaflet-defaulticon-compatibility';
 
 import styled from 'styled-components';
 

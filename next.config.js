@@ -19,6 +19,9 @@ const nextConfig = {
     // ssr and displayName are configured by default
     styledComponents: true,
   },
+  env: {
+    REACT_APP_GOOGLE_APIKEY: 'AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk',
+  },
 };
 
 module.exports = nextConfig;
