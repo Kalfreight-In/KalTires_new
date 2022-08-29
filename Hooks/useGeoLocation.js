@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 const extractAddress = (place) => {

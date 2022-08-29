@@ -4,35 +4,25 @@ import 'leaflet/dist/leaflet.css';
 // import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 // import 'leaflet-defaulticon-compatibility';
 
-
-
-
 import styled from 'styled-components';
 
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Popup,
-  GeoJSON,
-  Polygon,
-} from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Polygon } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
 import { statesData } from './GeoData.js';
 
-function style(feature) {
-  return {
-    fillColor: '#ED1C24',
-    weight: 0.6,
-    opacity: 1,
-    color: 'white',
-    dashArray: '0',
-    fillOpacity: 0,
-  };
-}
+// function style(feature) {
+//   return {
+//     fillColor: '#ED1C24',
+//     weight: 0.6,
+//     opacity: 1,
+//     color: 'white',
+//     dashArray: '0',
+//     fillOpacity: 0,
+//   };
+// }
 const MapInside = styled.div`
   flex: 3;
   width: 100%;
@@ -104,7 +94,7 @@ const LeafMap = ({ Data }) => {
                     fillOpacity: 0,
                   });
                 },
-                click: (e) => {},
+                // click: (e) => {},
               }}
             />
           );
@@ -154,7 +144,7 @@ const LeafMap = ({ Data }) => {
                 <span>
                   <MdEmail className="text-md m-1" />
                 </span>
-                <a href="/">{office.properties.email}</a>
+                {/* <a href="/">{office.properties.email}</a> */}
               </div>
             </div>
           </Popup>

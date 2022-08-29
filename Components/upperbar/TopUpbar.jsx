@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { GoLocation } from 'react-icons/go';
-import useGeoLocation from '../../Hooks/useGeoLocation';
+import axios from 'axios';
 
 const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 // import Image from 'next/image';
@@ -49,17 +49,25 @@ const extractAddress = (place) => {
 
 const TopUpbar = () => {
   const [address, setAddress] = useState({});
-  const reverseGeocode = ({ latitude: lat, longitude: lng }) => {
+  async function reverseGeocode({ latitude: lat, longitude: lng }) {
     const url = `${GOOGLE_MAP_API_URL}?key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng=${lat},${lng}`;
+    try {
+      axios.get(url).then(
+        (response) =>
+          // eslint-disable-next-line implicit-arrow-linebreak, comma-dangle
+          setAddress(extractAddress(response.data.results[0]))
+        // eslint-disable-next-line function-paren-newline
+      );
+    } catch (err) {
+      console.log(err);
+    }
 
-    fetch(url)
-      .then((response) => response.json())
-      .then((location) => {
-        const place = location.results[0];
-        const _address = extractAddress(place);
-        setAddress(_address);
-      });
-  };
+    // .then((location) => {
+    //   const place = location.results[0];
+    //   const Aaddress = extractAddress(place);
+    //   setAddress(Aaddress);
+    // });
+  }
 
   const findMyLocation = () => {
     if (navigator.geolocation) {

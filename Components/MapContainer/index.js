@@ -110,7 +110,7 @@ export const MapConatiner = () => {
       dynamic(
         () => import('./LeafMap'), // replace '@components/map' with your component's location
         {
-          loading: () => <p>A map is loading</p>,
+          loading: () => <p>A map is loading now</p>,
           ssr: false, // This line is important. It's what prevents server-side render
         }
       ),
@@ -144,38 +144,35 @@ export const MapConatiner = () => {
     MapData.map((x) => false);
   }, [visibilities]);
 
-  console.log(`visibilities: ${visibilities}`);
   const handleClick = (event) => {
     const index = parseInt(event.currentTarget.dataset.index, 10);
 
     const newVisibilities = [...visibilities];
 
-    console.log(`newVisibilities  ${newVisibilities}`);
-
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
   };
-  const [selectedPosition, setSelectedPosition] = React.useState(null);
-  const [Services, setServices] = useState(false);
-  const [NewsRoom, setNewsRoom] = useState(false);
-  const [AboutUs, setAboutUs] = useState(false);
-  const [BusinessVerticles, setBusinessVerticles] = useState(false);
+  // const [selectedPosition, setSelectedPosition] = React.useState(null);
+  // const [Services, setServices] = useState(false);
+  // const [NewsRoom, setNewsRoom] = useState(false);
+  // const [AboutUs, setAboutUs] = useState(false);
+  // const [BusinessVerticles, setBusinessVerticles] = useState(false);
 
-  const [Fontana, isFontana] = useHover();
-  const [Bakersfield, isBakersfield] = useHover();
-  const [SanMarcos, isSanMarcos] = useHover();
-  const [Calgary, isCalgary] = useHover();
-  const [Arlington, isArlington] = useHover();
-  const [Hampton, isHampton] = useHover();
-  // const [Stockton, isStockton] = useHover();
-  const [Atlanta, isAtlanta] = useHover();
-  const [Lathrop, isLathrop] = useHover();
-  const [Calexico, isCalexico] = useHover();
+  // const [Fontana, isFontana] = useHover();
+  // const [Bakersfield, isBakersfield] = useHover();
+  // const [SanMarcos, isSanMarcos] = useHover();
+  // const [Calgary, isCalgary] = useHover();
+  // const [Arlington, isArlington] = useHover();
+  // const [Hampton, isHampton] = useHover();
+  // // const [Stockton, isStockton] = useHover();
+  // const [Atlanta, isAtlanta] = useHover();
+  // const [Lathrop, isLathrop] = useHover();
+  // const [Calexico, isCalexico] = useHover();
   // const [Almondfontana,isAlmondfontana] = useHover();
   // const [ValleyFontana,isValleyFontana] = useHover();
-  const [Indianapolis, isIndianapolis] = useHover();
-  const [Springdale, isSpringdale] = useHover();
-  const [abbotsford, isabbotsford] = useHover();
+  // const [Indianapolis, isIndianapolis] = useHover();
+  // const [Springdale, isSpringdale] = useHover();
+  // const [abbotsford, isabbotsford] = useHover();
   return (
     <div
       id="mainmapcontainer"
@@ -255,12 +252,8 @@ export const MapConatiner = () => {
             <SidebarMenu className="bg-white pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {MapData.map((value, index) => (
-                  <>
-                    <Divlink
-                      key={value.id}
-                      data-index={index}
-                      onClick={handleClick}
-                    >
+                  <div key={value.id}>
+                    <Divlink data-index={index} onClick={handleClick}>
                       <h1
                         className={
                           visibilities[index]
@@ -291,7 +284,7 @@ export const MapConatiner = () => {
                         ) : null}
                       </ul>
                     </div>
-                  </>
+                  </div>
                 ))}
               </div>
 
