@@ -31,7 +31,7 @@ const extractAddress = (place) => {
       address.city = value;
     }
 
-    if (types.includes('administrative_area_level_2')) {
+    if (types.includes('administrative_area_level_1')) {
       address.state = value;
     }
 
@@ -93,7 +93,7 @@ const TopUpbar = () => {
             <div className="text-white font-bold ml-8">
               {' '}
               {address
-                ? `${address.city} ${address.state}`
+                ? `${address.city} , ${address.state}`
                 : 'Location data not available yet.'}
             </div>
             <div className="ml-2 font-bold">
