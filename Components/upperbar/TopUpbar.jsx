@@ -102,7 +102,7 @@ const TopUpbar = () => {
           </div>
         </Link>
         <Link href="/">
-          <div className="text-white">Help</div>
+          <div className="text-white" />
         </Link>
       </div>
     </div>
