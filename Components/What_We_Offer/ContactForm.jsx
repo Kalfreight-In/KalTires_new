@@ -144,7 +144,7 @@ const Contactform = () => {
                   id="grid-first-name"
                   type="text"
                   value={name}
-                  placeholder="Name*"
+                  placeholder="Name"
                   required
                 />
               </div>
@@ -158,7 +158,7 @@ const Contactform = () => {
                   id="grid-first-name"
                   type="email"
                   value={email}
-                  placeholder="Email Address*"
+                  placeholder="Email Address"
                   required
                 />
               </div>
@@ -172,7 +172,7 @@ const Contactform = () => {
                   id="grid-first-name"
                   type="select"
                   value={service}
-                  placeholder="Service type*"
+                  placeholder="Service type"
                   required
                 />
               </div>
@@ -186,7 +186,7 @@ const Contactform = () => {
                   id="grid-first-name"
                   type="text"
                   value={message}
-                  placeholder="Message*"
+                  placeholder="Message"
                   required
                 />
               </div>
