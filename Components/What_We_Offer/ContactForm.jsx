@@ -50,20 +50,20 @@ const Contactform = () => {
   };
 
   return (
-    <div id="maincontactform" className="flex justify-beween ">
-      <div
-        id="shadow"
-        className="md:p-8 p-4 bg-red-600 px-48"
-        style={{
-          backgroundImage:
-            // eslint-disable-next-line operator-linebreak
-            'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/Contactform/backgroundfirst.png' +
-            ')',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-        }}
-      >
+    <div
+      id="maincontactform"
+      className="flex justify-beween"
+      style={{
+        backgroundImage:
+          // eslint-disable-next-line operator-linebreak
+          'url(' +
+          'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/Contactform/backgroundfirst.png' +
+          ')',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
+      <div id="shadow" className="md:p-8 p-4 bg-red-600 px-48">
         {success ? (
           <div
             animate={{ scale: [0.5, 1] }}
@@ -90,7 +90,7 @@ const Contactform = () => {
                   setSuccess(false);
                 }}
               >
-                <div
+                {/* <div
                   animate={{ scale: [0.8, 1] }}
                   transition={{
                     ease: 'linear',
@@ -99,7 +99,7 @@ const Contactform = () => {
                   }}
                 >
                   Something else <strong className="text-5xl ">!</strong>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ const Contactform = () => {
         )}
       </div>
 
-      <div id="maincontactformtwo">
+      <div id="maincontactformtwo" className="md:hidden lg:block">
         <div id="imgcontact">
           <Image src={mainimage} alt="contactus" objectFit="cover" />
         </div>
