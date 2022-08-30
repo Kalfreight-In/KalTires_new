@@ -44,25 +44,27 @@ export const Speciality = () => {
                 <span className="block">Speciality</span>
               </h2>
               <p className="text-black mt-5 lg:px-0 px-8  text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus architecto facere corporis vitae, voluptatem optio
-                molestiae neque omnis doloribus inventore nulla aliquid. Ipsum
-                velit excepturi corporis esse autem blanditiis veritatis! Veniam
-                officia, autem ducimus vitae ex ea. Possimus, magnam, autem
-                repellat inventore voluptate sit tempore soluta cupiditate
-                explicabo quod quos similique debitis temporibus. Maiores
-                officia vitae culpa eum porro fugit cupiditate aliquam,
-                dignissimos adipisci minima voluptate eos enim{' '}
+                We strive to provide the best quality tire for the application
+                suitable to your operation. The industrial sector performs
+                loading, excavating, and lifting material, increasing the need
+                for high-performance industrial tires. Earthmover tires are
+                ideal for rougher terrains and rugged landscapes such as mining
+                and construction sites. Advanced farming equipment requires
+                reliable agricultural tires to plow, dig & explore the farmlands
+                efficiently. The light-truck tires are suitable for vehicles
+                driving off-road to haul heavier loads. Passenger tires run
+                smoothly on paved roadways and carry standard load sizes. Check
+                out our broad spectrum of specialty tires.
                 {isDesktop ? (
                   <>
                     <br />
                     <br />
                   </>
                 ) : null}
-                cum animi, totam assumenda. Commodi quaerat consequuntur maxime,
+                {/* cum animi, totam assumenda. Commodi quaerat consequuntur maxime,
                 rem quis, enim, velit provident asperiores voluptatem voluptate
                 esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
-                Quaerat omnis optio reiciendis asperiores soluta dolorem?
+                Quaerat omnis optio reiciendis asperiores soluta dolorem? */}
               </p>
 
               <div className="block pt-4 " id="PhoneEmailRoad" />

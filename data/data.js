@@ -320,13 +320,13 @@ export const OnsiteGriddata = [
     id: 1,
     img: onsiteone,
     heading: 'On Site Service',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    desc: 'How does it feel to get your tire job done at your convenience? Blissful, right? No need to rush from one place to another. You only need to make a quick call, and our knowledgeable technicians will come to you. You can get your tires inflated, wheel mounted, flat tire repair, or any light mechanical work done on-site. So, call KVL Tires for a quick appointment. ',
   },
   {
     id: 2,
     img: onsitetwo,
     heading: 'Nationwide Presence',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    desc: 'Does an unexpected vehicle malfunction leave you stranded on the road for a long time? Connect with us for prompt, reliable, & affordable 24/7 roadside assistance. If you cannot understand the fault, you can tell us the vehicle’s indications. We can help you identify the problem, and then you can decide whether our commercial vehicle services suit you. With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs. Connect with us for instant tire inflation, brake repair, minor mechanical work, flat tire repair, and more. Be it passenger cars, light trucks, heavy-duty trucks & trailers, or any other commercial vehicle.   ',
   },
   {
     id: 3,
@@ -356,13 +356,13 @@ export const OnsiteGriddata = [
     id: 7,
     img: onsiteseven,
     heading: 'Competitive Price',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    desc: 'Be it a light-duty truck, passenger car, bus, commercial truck, or trailer, every vehicle requires tire changes after a specific time interval. But little do people know that the operating cost of tires is heavier on everyone’s pocket. Hence, we offer budget-friendly picks according to your vehicle’s needs. We have a large inventory of top-notch tire brands to choose from. Our unmatched prices make us one of the best & customers’ favorite tire companies in the US tires market. ',
   },
   {
     id: 8,
     img: onsiteeight,
     heading: 'Freindly & Experience Technicians',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    desc: 'It is widely known that a positive experience can enhance the value and customer loyalty toward a brand. The customer being our top-most priority, we function all day and night to cater to their needs. Our talented team of expert professionals works diligently to offer quick & hassle-free services.',
   },
   {
     id: 9,
@@ -380,15 +380,14 @@ export const OnsiteGriddata = [
 
 export const CommercialTireone = [
   {
-    mainimage: Commercgroup,
+    mainimage: Commercgrouptwo,
     BgImage: CommercalTiresBg,
     TireImage: CommercalTiresTires,
-    mainimagetab: commercegrouptab,
+    mainimagetab: commercegrouptwotab,
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis veritatis! Veniam officia, 
-    autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?`,
+    desc: 'A high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. Retread accounts for one-half of all replacement tires in the North American truck tire market. For more information, check out our partnered brands.  ',
     logos: [
       {
         id: 1,
@@ -416,15 +415,14 @@ export const CommercialTireone = [
 
 export const CommercialTiretwo = [
   {
-    mainimage: Commercgrouptwo,
+    mainimage: Commercgroup,
     BgImage: CommercalTiresBg,
     TireImage: CommercalTiresTires,
-    mainimagetab: commercegrouptwotab,
+    mainimagetab: commercegrouptab,
     Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis
-     veritatis! Veniam officia, autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?`,
+    desc: 'Commercial Tires offer high mileage, superior traction, durability, longevity, and efficiency while you are moving. Choose the right commercial truck tires and services for your fleet from recognized brands. ',
     logos: [
       {
         id: 1,
@@ -695,6 +693,49 @@ export const Servicesdata = [
     heading: 'Scheduled Maintainance program',
   },
 ];
+export const Servicesdatatwo = [
+  {
+    id: 1,
+    img: ones,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 2,
+    img: twos,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 3,
+    img: threes,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 4,
+    img: fours,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 5,
+    img: fives,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 6,
+    img: sixs,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 7,
+    img: sevens,
+    heading: 'hola hola hola',
+  },
+  {
+    id: 8,
+    img: eights,
+    heading: 'hola hola hola',
+  },
+];
+
 export const NavbarData = [
   {
     url: {

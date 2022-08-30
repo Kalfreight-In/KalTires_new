@@ -1,8 +1,8 @@
 import React from 'react';
 import { ImPhone } from 'react-icons/im';
-import emerassistbackgr from '../../Assets/Images/Roadside_Assistance/emerassistbackgr.png';
+// import emerassistbackgr from '../../Assets/Images/Roadside_Assistance/emerassistbackgr.png';
 
-export const Emergencyassist = () => (
+const Emergencyassist = () => (
   <div id="maineassist">
     <div
       id="maineassistinner"
@@ -23,7 +23,10 @@ export const Emergencyassist = () => (
           <br /> EMERGENCY ASSISTANCE
         </h1>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
-          <button className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-2xl lg:font-bold">
+          <button
+            className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-2xl lg:font-bold"
+            type="button"
+          >
             <span>
               <ImPhone className="text-2xl" />
             </span>{' '}
@@ -34,3 +37,5 @@ export const Emergencyassist = () => (
     </div>
   </div>
 );
+
+export default Emergencyassist;
