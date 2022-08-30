@@ -46,7 +46,7 @@ const HighPerformanceBrands = () => {
       >
         <span className="text-red-500">HIGH PERFORMANCE</span> BRANDS
       </h2>
-      <div className="">
+      <div className="lg:px-36">
         <Swiper
           modules={[Pagination, Autoplay]}
           loop

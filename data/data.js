@@ -1063,6 +1063,7 @@ export const MapData = [
     },
     properties: {
       State: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '92335',
 
       City: 'Fontana  CA 92335',
@@ -1081,6 +1082,7 @@ export const MapData = [
     },
     properties: {
       State: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '92078',
       City: 'San Marcos',
       Address: '160 Industrial St,   San Marcos, CA 92078',
@@ -1098,6 +1100,7 @@ export const MapData = [
     },
     properties: {
       State: 'TX',
+      Manager: 'Telly Ingram',
       ZipCode: '76011',
       City: 'Arlington',
       Address: '600 109th St Suite B',
@@ -1115,7 +1118,8 @@ export const MapData = [
   //   },
   //   properties: {
   //     State: 'AR',
-  //     ZipCode: '72762',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '72762',
   //     City: 'Springdale',
   //     Address: '1080 W. Henri De Tonti Blvd',
   //     Phone: '479-790-4137',
@@ -1131,6 +1135,7 @@ export const MapData = [
     },
     properties: {
       State: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '95330',
       City: 'LATHROP',
       Address: '17100 S HARLAN RD,  LATHROP, CA ',
@@ -1148,6 +1153,7 @@ export const MapData = [
     },
     properties: {
       State: 'IN',
+      Manager: 'Telly Ingram',
       ZipCode: '46201',
       City: 'Indianapolis',
       Address: '2025 ENGLISH AVE, INDIANAPOLIS, IN 46201',
@@ -1165,7 +1171,8 @@ export const MapData = [
   //   },
   //   properties: {
   //     State: 'MO',
-  //     ZipCode: '64120',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '64120',
   //     City: 'Kansas City',
   //     Address: '4700 Deramus Avenue',
   //     Phone: '316-393-2153',
@@ -1181,6 +1188,7 @@ export const MapData = [
     },
     properties: {
       State: 'NJ',
+      Manager: 'Telly Ingram',
       ZipCode: '08827',
       City: 'Hampton',
       Address: '15 FRONTAGE RD, ROUTE 173 HAMPTON, NJ 08827',
@@ -1198,6 +1206,7 @@ export const MapData = [
     },
     properties: {
       State: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '93308',
       City: 'Bakersfield',
       Address: '3401 Sillect Ave, Bakersfield, CA 93308',
@@ -1215,7 +1224,8 @@ export const MapData = [
   //   },
   //   properties: {
   //     State: 'BC',
-  //     ZipCode: '93308',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '93308',
   //     City: 'Abbotsford BC V2S 7P1',
   //     Address: '1225 Riverside Rd, Abbotsford, BC V2S 7P1',
   //     Phone: '661-859-4671',
@@ -1232,6 +1242,7 @@ export const MapData = [
     },
     properties: {
       State: 'GA',
+      Manager: 'Telly Ingram',
       ZipCode: '30354',
       City: 'Atlanta',
       Address: '3435 JONESBORO ROAD SOUTHEAST, ATLANTA, GA 30354',
@@ -1249,6 +1260,7 @@ export const MapData = [
     },
     properties: {
       State: 'AR',
+      Manager: 'Telly Ingram',
       ZipCode: '72762',
       City: 'Tontitown AR ',
       Address: '1080 W HENRI DE TONTI BLVD, TONTITOWN, AR 72762',
@@ -1266,7 +1278,8 @@ export const MapData = [
   //   },
   //   properties: {
   //     State: 'CA',
-  //     ZipCode: '92231',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '92231',
   //     City: 'Calexico',
   //     Address: '840 Emerson Ave',
   //     Phone: '562-556-9034',
@@ -1289,6 +1302,7 @@ export const officeLists = [
         },
         properties: {
           state: 'CA',
+          Manager: 'Telly Ingram',
           ZipCode: '92335',
 
           name: 'Fontana  CA 92335',
@@ -1307,6 +1321,7 @@ export const officeLists = [
         },
         properties: {
           state: 'CA',
+          Manager: 'Telly Ingram',
           ZipCode: '92337',
 
           name: 'Fontana CA 92337',
@@ -1325,6 +1340,7 @@ export const officeLists = [
         },
         properties: {
           state: 'CA',
+          Manager: 'Telly Ingram',
           ZipCode: '92335',
 
           name: 'Fontana CA 92335',
@@ -1343,6 +1359,7 @@ export const officeLists = [
         },
         properties: {
           state: 'CA',
+          Manager: 'Telly Ingram',
           ZipCode: '92337',
 
           name: 'Fontana CA 92337',
@@ -1359,6 +1376,7 @@ export const officeLists = [
     },
     properties: {
       state: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '92335',
 
       name: 'Fontana  CA 92335',
@@ -1378,6 +1396,7 @@ export const officeLists = [
     },
     properties: {
       state: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '92078',
       name: 'San Marcos',
       address: '160 Industrial St,   San Marcos, CA 92078',
@@ -1395,6 +1414,7 @@ export const officeLists = [
     },
     properties: {
       state: 'TX',
+      Manager: 'Telly Ingram',
       ZipCode: '76011',
       name: 'Arlington',
       address: '600 109th St Suite B',
@@ -1412,7 +1432,8 @@ export const officeLists = [
   //   },
   //   properties: {
   //     state: 'AR',
-  //     ZipCode: '72762',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '72762',
   //     name: 'Springdale',
   //     address: '1080 W. Henri De Tonti Blvd',
   //     phone: '479-790-4137',
@@ -1428,6 +1449,7 @@ export const officeLists = [
     },
     properties: {
       state: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '95330',
       name: 'LATHROP',
       address: '17100 S HARLAN RD,  LATHROP, CA ',
@@ -1445,6 +1467,7 @@ export const officeLists = [
     },
     properties: {
       state: 'IN',
+      Manager: 'Telly Ingram',
       ZipCode: '46201',
       name: 'Indianapolis',
       address: '2025 ENGLISH AVE, INDIANAPOLIS, IN 46201',
@@ -1462,7 +1485,8 @@ export const officeLists = [
   //   },
   //   properties: {
   //     state: 'MO',
-  //     ZipCode: '64120',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '64120',
   //     name: 'Kansas City',
   //     address: '4700 Deramus Avenue',
   //     phone: '316-393-2153',
@@ -1476,9 +1500,20 @@ export const officeLists = [
       type: 'Point',
       coordinates: [40.6414871, -74.9932845],
     },
+    timing: [
+      { Monday: '8:00 AM - 5:00 PM' },
+      { Tuesday: '8:00 AM - 5:00 PM' },
+      { Wednesday: '8:00 AM - 5:00 PM' },
+      { Thursday: '8:00 AM - 5:00 PM' },
+      { Friday: '7:30 AM - 5:00 PM' },
+      { Saturday: 'Closed' },
+      { Sunday: 'Closed' },
+    ],
     properties: {
       state: 'NJ',
+      Manager: 'Telly Ingram',
       ZipCode: '08827',
+
       name: 'Hampton',
       address: '15 FRONTAGE RD, ROUTE 173 HAMPTON, NJ 08827',
       phone: '562-556-9034',
@@ -1495,6 +1530,7 @@ export const officeLists = [
     },
     properties: {
       state: 'CA',
+      Manager: 'Telly Ingram',
       ZipCode: '93308',
       name: 'Bakersfield',
       address: '3401 Sillect Ave, Bakersfield, CA 93308',
@@ -1512,7 +1548,8 @@ export const officeLists = [
   //   },
   //   properties: {
   //     state: 'BC',
-  //     ZipCode: '93308',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '93308',
   //     name: 'Abbotsford BC V2S 7P1',
   //     address: '1225 Riverside Rd, Abbotsford, BC V2S 7P1',
   //     phone: '661-859-4671',
@@ -1529,6 +1566,7 @@ export const officeLists = [
     },
     properties: {
       state: 'GA',
+      Manager: 'Telly Ingram',
       ZipCode: '30354',
       name: 'Atlanta',
       address: '3435 JONESBORO ROAD SOUTHEAST, ATLANTA, GA 30354',
@@ -1546,6 +1584,7 @@ export const officeLists = [
     },
     properties: {
       state: 'AR',
+      Manager: 'Telly Ingram',
       ZipCode: '72762',
       name: 'Tontitown AR ',
       address: '1080 W HENRI DE TONTI BLVD, TONTITOWN, AR 72762',
@@ -1563,7 +1602,8 @@ export const officeLists = [
   //   },
   //   properties: {
   //     state: 'CA',
-  //     ZipCode: '92231',
+  //     Manager: 'Telly Ingram',
+  // ZipCode: '92231',
   //     name: 'Calexico',
   //     address: '840 Emerson Ave',
   //     phone: '562-556-9034',
