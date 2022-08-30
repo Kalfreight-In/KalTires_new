@@ -31,6 +31,7 @@ module.exports = {
         ykvldesc: '#4A4A4D',
         resumeheading: '#474747',
         resumedescription: '#514A4A',
+        contactredtwo: '#ff0000cf',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
@@ -56,6 +57,7 @@ module.exports = {
         557: '557px',
         onsiteimage: '155px',
         perkimagewidth: '6.75rem',
+        contactwidthmobile: '22rem',
       },
       backgroundImage: {
         'footer-texture':
@@ -76,6 +78,8 @@ module.exports = {
         onsitegridheight: '75vh',
         onsiteimage: '170px',
         perkimageheight: '7.5rem',
+        contactheighttab: '6rem',
+        contactheightmobile: '4.5rem',
       },
       inset: {
         45: '45%',

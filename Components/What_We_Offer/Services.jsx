@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper';
@@ -10,15 +10,17 @@ import five from '../../Assets/Images/Whatweoffer/services/five.png';
 import six from '../../Assets/Images/Whatweoffer/services/six.png';
 import seven from '../../Assets/Images/Whatweoffer/services/seven.png';
 import eight from '../../Assets/Images/Whatweoffer/services/eight.png';
+import { Servicesdatatwo, Servicesdata } from '../../data/data';
+
 // eslint-disable-next-line import/no-unresolved
 import 'swiper/css';
 // eslint-disable-next-line import/no-unresolved
 import 'swiper/css/pagination';
 // eslint-disable-next-line import/no-unresolved
 import 'swiper/css/navigation';
-import { Servicesdata } from '../../data/data';
 
 export const Services = () => (
+  // const [data, setData] = useState(Servicesdata);
   <>
     <div className="hidden lg:block">
       <div id="onsitemain">
@@ -58,7 +60,6 @@ export const Services = () => (
         </div>
       </div>
     </div>
-
     <div className="lg:hidden md:block hidden">
       <Swiper
         spaceBetween={0}
@@ -272,7 +273,6 @@ export const Services = () => (
         </SwiperSlide>
       </Swiper>
     </div>
-
     <div className="md:hidden">
       <Swiper
         spaceBetween={0}
