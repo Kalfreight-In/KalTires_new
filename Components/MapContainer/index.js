@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useReducer, useState } from 'react';
 import styled from 'styled-components';
 import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
-import Map from '../../Assets/Map/index';
+
 import { MapData } from '../../data/data';
 
 import { useHover } from '../../Hooks/Hover';
@@ -92,9 +92,10 @@ export const Divlink = styled.div`
 `;
 // use hover reducer to change the visibility on hover of the sidebar when dynimically created links
 const useHoverReducer = (initialState, reducer) => {
-  const [state, dispatch] = React.useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, initialState);
+
   const [ref, isHovered] = useHover();
-  React.useEffect(() => {
+  useEffect(() => {
     if (isHovered) {
       dispatch({ type: 'HOVER' });
     } else {
@@ -103,27 +104,20 @@ const useHoverReducer = (initialState, reducer) => {
   }, [isHovered]);
   return [state, ref];
 };
+const LeafMap = dynamic(
+  () => import('./LeafMap'), // replace '@components/map' with your component's location
+  {
+    loading: () => <p>A map is loading now</p>,
+    ssr: false, // This line is important. It's what prevents server-side render
+  }
+);
 
+const MapCaller = ({ Data, SData, location }) => (
+  <LeafMap Data={Data} SData={SData} location={location} />
+);
 export const MapConatiner = () => {
-  const LeafMap = React.useMemo(
-    () =>
-      dynamic(
-        () => import('./LeafMap'), // replace '@components/map' with your component's location
-        {
-          loading: () => <p>A map is loading now</p>,
-          ssr: false, // This line is important. It's what prevents server-side render
-        }
-      ),
-    [
-      /* list variables which should trigs  ger a re-render here */
-    ]
-  );
-  const MapCaller = ({ selectedPosition, setSelectedPosition }) => (
-    <LeafMap
-      selectedPosition={selectedPosition}
-      setSelectedPosition={setSelectedPosition}
-    />
-  );
+  const [Maplocation, setMapocation] = useState();
+
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
   //   setIsBrowser(true);
@@ -134,7 +128,7 @@ export const MapConatiner = () => {
   // }
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
-  const [visibilities, setVisibilities] = React.useState(() =>
+  const [visibilities, setVisibilities] = useState(() =>
     MapData.map((x) => false)
   );
 
@@ -144,7 +138,8 @@ export const MapConatiner = () => {
     MapData.map((x) => false);
   }, [visibilities]);
 
-  const handleClick = (event) => {
+  const handleClick = (event, coordinates) => {
+    setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
 
     const newVisibilities = [...visibilities];
@@ -201,7 +196,7 @@ export const MapConatiner = () => {
           Lathrop={isLathrop}
           Calexico={isCalexico}
         /> */}
-        <MapCaller Data={MapData} />
+        <MapCaller Data={MapData} SData={visibilities} location={Maplocation} />
       </div>
       <div className="w-full flex-1 ">
         <div
@@ -253,7 +248,12 @@ export const MapConatiner = () => {
               <div className="">
                 {MapData.map((value, index) => (
                   <div key={value.id}>
-                    <Divlink data-index={index} onClick={handleClick}>
+                    <Divlink
+                      data-index={index}
+                      onClick={(e) =>
+                        handleClick(e, value.geometry.coordinates)
+                      }
+                    >
                       <h1
                         className={
                           visibilities[index]
@@ -261,7 +261,7 @@ export const MapConatiner = () => {
                             : 'text-black font-bold'
                         }
                       >
-                        {value.city}
+                        {value.properties.City}
                       </h1>
 
                       <span>
@@ -274,12 +274,13 @@ export const MapConatiner = () => {
                       className={`Transition-Height-${
                         visibilities[index] ? 'in' : 'out'
                       }`}
+                      onClick={() => setMapocation(value.geometry.coordinates)}
                     >
                       <ul>
                         {visibilities[index] ? (
                           <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
                             {' '}
-                            {value.Address}
+                            {value.properties.Address}
                           </div>
                         ) : null}
                       </ul>

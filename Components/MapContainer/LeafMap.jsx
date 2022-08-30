@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import 'leaflet/dist/leaflet.css';
 
 // import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
@@ -37,12 +37,40 @@ const covidIcon = new Icon({
     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
   iconSize: [25, 25],
 });
-const LeafMap = ({ Data }) => {
-  const [office, setoffice] = useState(Data);
-  console.log(`,...........................${Data}`);
+const LeafMap = ({ Data, SData, location }) => {
+  const mapRef = React.useRef(null);
+  const [maps, setMaps] = useState(null);
+  const [office, setoffice] = useState(null);
+  const [officeListss, setofficeListss] = useState(Data);
+  console.log(`..........${officeListss[0]}`);
+  console.log(`...........${location}`);
+  useEffect(() => {
+    console.log(`...........${maps}`);
+    // if(office){
+    //   Data.filter
+    // }
+    if (location) {
+      const officeA = officeListss.filter(
+        (off) => off.geometry.coordinates === location
+      );
+      // console.log(
+      //   `popuop click in use effect ${officeA[0]}`
+      // );
+      setoffice(officeA[0]);
+    }
+    if (maps) {
+      setTimeout(() => {
+        maps.flyTo(location || [40.8054, -99.0241], 5, {
+          duration: 1,
+        });
+      }, 1000);
+    }
+  }, [location, maps]);
   return (
     <MapInside id="map">
       <MapContainer
+        ref={setMaps}
+        // whenCreated={(map) => setMaps(map)}
         center={[40.8054, -99.0241]}
         zoom={5}
         scrollWheelZoom={false}
@@ -99,7 +127,23 @@ const LeafMap = ({ Data }) => {
             />
           );
         })}
-        {officeLists.map((eachData) => (
+        {/* {statesData.features.map((state) => {
+          const coordinates = state.geometry.coordinates[0].map((item) => [
+            item[1],
+            item[0],
+          ]);
+
+          return (
+            <p
+              positions={coordinates}
+              key={state.id}
+              className="text-2xl text-green-400 text-center z-30"
+            >
+              {state.properties.name}
+            </p>
+          );
+        })} */}
+        {officeListss.map((eachData) => (
           <Marker
             draggable
             animate
@@ -128,9 +172,9 @@ const LeafMap = ({ Data }) => {
             }}
           >
             <div>
-              <h2 className="font-bold text-lg">{office.properties.name}</h2>
+              <h2 className="font-bold text-lg">{office.properties.City}</h2>
               <div className="text-sm mb-2">
-                {office.properties.address}, {office.properties.state},{' '}
+                {office.properties.Address}, {office.properties.State},{' '}
                 {office.properties.ZipCode}
               </div>
 
@@ -138,13 +182,13 @@ const LeafMap = ({ Data }) => {
                 <span>
                   <RiPhoneFill className="text-md m-1" />
                 </span>
-                {office.properties.phone}
+                {office.properties.Phone}
               </div>
               <div className="text-sm mb-2 flex flex-row">
                 <span>
                   <MdEmail className="text-md m-1" />
                 </span>
-                {/* <a href="/">{office.properties.email}</a> */}
+                <a href="/">{office.properties.Email}</a>
               </div>
             </div>
           </Popup>
