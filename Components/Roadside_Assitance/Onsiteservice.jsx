@@ -3,12 +3,11 @@ import { ImPhone } from 'react-icons/im';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper';
 import {
-  HighPerformanceBrandsData,
+  // HighPerformanceBrandsData,
   Onsitecomponentdata,
   OnsiteGriddata,
-} from '../../../data/data';
-import useMediaQuery from '../../../Hooks/CustomMediaQuery';
-import { HighBrandSliderComponent } from '../HighPerformanceBrands';
+} from '../../data/data';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const Onsiteservice = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');

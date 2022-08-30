@@ -328,30 +328,30 @@ export const OnsiteGriddata = [
     heading: 'Nationwide Presence',
     desc: 'Does an unexpected vehicle malfunction leave you stranded on the road for a long time? Connect with us for prompt, reliable, & affordable 24/7 roadside assistance. If you cannot understand the fault, you can tell us the vehicle’s indications. We can help you identify the problem, and then you can decide whether our commercial vehicle services suit you. With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs. Connect with us for instant tire inflation, brake repair, minor mechanical work, flat tire repair, and more. Be it passenger cars, light trucks, heavy-duty trucks & trailers, or any other commercial vehicle.   ',
   },
-  {
-    id: 3,
-    img: onsitethree,
-    heading: 'Tire Replacement',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 4,
-    img: onsitefour,
-    heading: 'Light Mechanical Services',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 5,
-    img: onsitefive,
-    heading: 'Wheel Mounting',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 6,
-    img: onsitesix,
-    heading: 'Commercial Oil Change',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
+  // {
+  //   id: 3,
+  //   img: onsitethree,
+  //   heading: 'Tire Replacement',
+  //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  // },
+  // {
+  //   id: 4,
+  //   img: onsitefour,
+  //   heading: 'Light Mechanical Services',
+  //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  // },
+  // {
+  //   id: 5,
+  //   img: onsitefive,
+  //   heading: 'Wheel Mounting',
+  //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  // },
+  // {
+  //   id: 6,
+  //   img: onsitesix,
+  //   heading: 'Commercial Oil Change',
+  //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  // },
   {
     id: 7,
     img: onsiteseven,
@@ -364,18 +364,18 @@ export const OnsiteGriddata = [
     heading: 'Freindly & Experience Technicians',
     desc: 'It is widely known that a positive experience can enhance the value and customer loyalty toward a brand. The customer being our top-most priority, we function all day and night to cater to their needs. Our talented team of expert professionals works diligently to offer quick & hassle-free services.',
   },
-  {
-    id: 9,
-    img: onsitenine,
-    heading: 'Tire Balancing',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 10,
-    img: onsiteten,
-    heading: 'Flat Tire Repair',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
+  // {
+  //   id: 9,
+  //   img: onsitenine,
+  //   heading: 'Tire Balancing',
+  //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  // },
+  // {
+  //   id: 10,
+  //   img: onsiteten,
+  //   heading: 'Flat Tire Repair',
+  //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  // },
 ];
 
 export const CommercialTireone = [
