@@ -254,9 +254,33 @@ const location = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black bg-white h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
-                            {' '}
-                            {value.properties.Address}
+                          <div className="text-black bg-white flex flex-center flex-row ">
+                            <div className="flex flex-center flex-col">
+                              <div>
+                                <div>
+                                  KVL Tires, KAL Partz, KAL Freight English Ave
+                                </div>
+                                <div>46205 English Ave Indianapolis, IN</div>
+                                <div>Manager: Telly Ingram</div>
+                              </div>
+                              <div>
+                                <div>(317) 820-7387</div>
+                                <div>antoniom@kalfreight.com</div>
+                              </div>
+                            </div>
+                            <div className="flex flex-center flex-col">
+                              <span>Hours</span>
+                              <div>
+                                Monday: 8:00 AM - 5:00 PM Tuesday: 8:00 AM -
+                                5:00 PM Wednesday: 8:00 AM - 5:00 PM Thursday:
+                                8:00 AM - 5:00 PM Friday: 7:30 AM - 5:00 PM
+                                Saturday: Closed Sunday: Closed
+                              </div>
+                            </div>
+                            <div className="flex flex-center flex-col">
+                              <img src="" />
+                              <div>See on maps</div>
+                            </div>
                           </div>
                         ) : null}
                       </ul>

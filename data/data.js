@@ -1061,6 +1061,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [34.0693237, -117.4780847],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'CA',
       Manager: 'Telly Ingram',
@@ -1080,6 +1089,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [33.136296, -117.1602352],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'CA',
       Manager: 'Telly Ingram',
@@ -1098,6 +1116,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [32.7522842, -97.0555619],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'TX',
       Manager: 'Telly Ingram',
@@ -1116,7 +1143,8 @@ export const MapData = [
   //     type: 'Point',
   //     coordinates: [36.17815465897156, -94.25208443019214],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     State: 'AR',
   //     Manager: 'Telly Ingram',
   // ZipCode: '72762',
@@ -1133,6 +1161,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [37.8056626, -121.2968426],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'CA',
       Manager: 'Telly Ingram',
@@ -1151,6 +1188,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [39.7591968, -86.1289827],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'IN',
       Manager: 'Telly Ingram',
@@ -1169,7 +1215,8 @@ export const MapData = [
   //     type: 'Point',
   //     coordinates: [39.13748253294858, -94.52642871473977],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     State: 'MO',
   //     Manager: 'Telly Ingram',
   // ZipCode: '64120',
@@ -1186,6 +1233,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [40.6414871, -74.9932845],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'NJ',
       Manager: 'Telly Ingram',
@@ -1204,6 +1260,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [35.3911406, -119.0399986],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'CA',
       Manager: 'Telly Ingram',
@@ -1222,7 +1287,8 @@ export const MapData = [
   //     type: 'Point',
   //     coordinates: [49.0243446, -122.27483],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     State: 'BC',
   //     Manager: 'Telly Ingram',
   // ZipCode: '93308',
@@ -1240,6 +1306,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [33.6608207, -84.3749728],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'GA',
       Manager: 'Telly Ingram',
@@ -1258,6 +1333,15 @@ export const MapData = [
       type: 'Point',
       coordinates: [36.1781444, -94.2546425],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       State: 'AR',
       Manager: 'Telly Ingram',
@@ -1276,7 +1360,8 @@ export const MapData = [
   //     type: 'Point',
   //     coordinates: [33.732853010248355, -84.3585541108061],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     State: 'CA',
   //     Manager: 'Telly Ingram',
   // ZipCode: '92231',
@@ -1300,6 +1385,15 @@ export const officeLists = [
           type: 'Point',
           coordinates: [34.0693237, -117.4780847],
         },
+        timing: [
+          'Monday: 8:00 AM - 5:00 PM',
+          'Tuesday: 8:00 AM - 5:00 PM',
+          'Wednesday: 8:00 AM - 5:00 PM',
+          'Thursday: 8:00 AM - 5:00 PM',
+          'Friday: 7:30 AM - 5:00 PM',
+          'Saturday: Closed',
+          'Sunday: Closed',
+        ],
         properties: {
           state: 'CA',
           Manager: 'Telly Ingram',
@@ -1319,6 +1413,15 @@ export const officeLists = [
           type: 'Point',
           coordinates: [34.0508997, -117.4959756],
         },
+        timing: [
+          'Monday: 8:00 AM - 5:00 PM',
+          'Tuesday: 8:00 AM - 5:00 PM',
+          'Wednesday: 8:00 AM - 5:00 PM',
+          'Thursday: 8:00 AM - 5:00 PM',
+          'Friday: 7:30 AM - 5:00 PM',
+          'Saturday: Closed',
+          'Sunday: Closed',
+        ],
         properties: {
           state: 'CA',
           Manager: 'Telly Ingram',
@@ -1338,6 +1441,15 @@ export const officeLists = [
           type: 'Point',
           coordinates: [34.0685144, -117.4825613],
         },
+        timing: [
+          'Monday: 8:00 AM - 5:00 PM',
+          'Tuesday: 8:00 AM - 5:00 PM',
+          'Wednesday: 8:00 AM - 5:00 PM',
+          'Thursday: 8:00 AM - 5:00 PM',
+          'Friday: 7:30 AM - 5:00 PM',
+          'Saturday: Closed',
+          'Sunday: Closed',
+        ],
         properties: {
           state: 'CA',
           Manager: 'Telly Ingram',
@@ -1357,6 +1469,15 @@ export const officeLists = [
           type: 'Point',
           coordinates: [34.0521461, -117.4959756],
         },
+        timing: [
+          'Monday: 8:00 AM - 5:00 PM',
+          'Tuesday: 8:00 AM - 5:00 PM',
+          'Wednesday: 8:00 AM - 5:00 PM',
+          'Thursday: 8:00 AM - 5:00 PM',
+          'Friday: 7:30 AM - 5:00 PM',
+          'Saturday: Closed',
+          'Sunday: Closed',
+        ],
         properties: {
           state: 'CA',
           Manager: 'Telly Ingram',
@@ -1374,6 +1495,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [34.0693237, -117.4780847],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'CA',
       Manager: 'Telly Ingram',
@@ -1394,6 +1524,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [33.136296, -117.1602352],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'CA',
       Manager: 'Telly Ingram',
@@ -1412,6 +1551,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [32.7522842, -97.0555619],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'TX',
       Manager: 'Telly Ingram',
@@ -1430,7 +1578,8 @@ export const officeLists = [
   //     type: 'Point',
   //     coordinates: [36.17815465897156, -94.25208443019214],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     state: 'AR',
   //     Manager: 'Telly Ingram',
   // ZipCode: '72762',
@@ -1447,6 +1596,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [37.8056626, -121.2968426],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'CA',
       Manager: 'Telly Ingram',
@@ -1465,6 +1623,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [39.7591968, -86.1289827],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'IN',
       Manager: 'Telly Ingram',
@@ -1483,7 +1650,8 @@ export const officeLists = [
   //     type: 'Point',
   //     coordinates: [39.13748253294858, -94.52642871473977],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     state: 'MO',
   //     Manager: 'Telly Ingram',
   // ZipCode: '64120',
@@ -1500,14 +1668,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [40.6414871, -74.9932845],
     },
+
     timing: [
-      { Monday: '8:00 AM - 5:00 PM' },
-      { Tuesday: '8:00 AM - 5:00 PM' },
-      { Wednesday: '8:00 AM - 5:00 PM' },
-      { Thursday: '8:00 AM - 5:00 PM' },
-      { Friday: '7:30 AM - 5:00 PM' },
-      { Saturday: 'Closed' },
-      { Sunday: 'Closed' },
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
     ],
     properties: {
       state: 'NJ',
@@ -1528,6 +1697,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [35.3911406, -119.0399986],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'CA',
       Manager: 'Telly Ingram',
@@ -1546,7 +1724,8 @@ export const officeLists = [
   //     type: 'Point',
   //     coordinates: [49.0243446, -122.27483],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     state: 'BC',
   //     Manager: 'Telly Ingram',
   // ZipCode: '93308',
@@ -1564,6 +1743,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [33.6608207, -84.3749728],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'GA',
       Manager: 'Telly Ingram',
@@ -1582,6 +1770,15 @@ export const officeLists = [
       type: 'Point',
       coordinates: [36.1781444, -94.2546425],
     },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
     properties: {
       state: 'AR',
       Manager: 'Telly Ingram',
@@ -1600,7 +1797,8 @@ export const officeLists = [
   //     type: 'Point',
   //     coordinates: [33.732853010248355, -84.3585541108061],
   //   },
-  //   properties: {
+  //    timing: [
+
   //     state: 'CA',
   //     Manager: 'Telly Ingram',
   // ZipCode: '92231',
