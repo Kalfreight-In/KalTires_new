@@ -29,7 +29,7 @@ const Topbar = () => (
         {/* <div className="text-white">Search</div> */}
       </div>
 
-      <div className="text-white flex flex-1 justify-end">
+      <div className="text-white flex-1 justify-end hidden lg:flex ">
         <div className="pr-2">
           <Image
             src={call}

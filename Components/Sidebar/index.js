@@ -242,23 +242,23 @@ const Sidebar = ({ isOpen, toggle }) => {
               Careers
             </Link>
           </Link> */}
-          <Link href="ContactSection" passHref>
-            <SidebarLinkR>About Us</SidebarLinkR>
+          <Link href="ContactSection" passHref onClick={toggle}>
+            <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
           </Link>
-          <Link href="WhatWeOffer" passHref>
-            <SidebarLinkR>What We Offer</SidebarLinkR>
+          <Link href="WhatWeOffer" passHref onClick={toggle}>
+            <SidebarLinkR onClick={toggle}>What We Offer</SidebarLinkR>
           </Link>
           <Link onClick={toggle} href="RoadsideAssistance" passHref>
-            <SidebarLinkR>Roadside Assistance</SidebarLinkR>
+            <SidebarLinkR onClick={toggle}>Roadside Assistance</SidebarLinkR>
           </Link>
           <Link onClick={toggle} href="location" passHref>
-            <SidebarLinkR>location</SidebarLinkR>
+            <SidebarLinkR onClick={toggle}>location</SidebarLinkR>
           </Link>
           <Link onClick={toggle} href="Credit" passHref>
-            <SidebarLinkR>Credit Application</SidebarLinkR>
+            <SidebarLinkR onClick={toggle}>Credit Application</SidebarLinkR>
           </Link>
           <Link onClick={toggle} href="career" passHref>
-            <SidebarLinkR>Career</SidebarLinkR>
+            <SidebarLinkR onClick={toggle}>Career</SidebarLinkR>
           </Link>
           {/* <Link to="/Ecommerce">Ecommerce</Link>
           <Link to="/Careers">Careers</Link>
