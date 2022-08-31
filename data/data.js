@@ -652,87 +652,50 @@ export const IndustrialTiresdata = [
 ];
 
 export const Servicesdata = [
-  {
-    id: 1,
-    img: ones,
-    heading: 'Tire & Wheel Balancing',
-  },
+  // {
+  //   id: 1,
+  //   img: ones,
+  //   heading: 'Tire & Wheel Balancing',
+  // },
   {
     id: 2,
     img: twos,
     heading: 'Retread Services',
+    desc: 'It is no secret that every fleet’s most significant investment is its tires and associated services. Look to our retreading services at KVL Tires for safe, reliable & cost-effective options. We have partnered with ContiTread to provide our customers with quality options only. So, get on the road with the most trusted retreads. Contact the nearest KVL Tires location for more information. Save a few bucks today & thank us later.',
   },
-  {
-    id: 3,
-    img: threes,
-    heading: 'Pick Up & Delivery Services',
-  },
+  // {
+  //   id: 3,
+  //   img: threes,
+  //   heading: 'Pick Up & Delivery Services',
+  // },
   {
     id: 4,
     img: fours,
     heading: '24x7 Roadside Assistance',
+    desc: 'You can’t schedule a blowout! A flat tire or a minor mechanical default can bring your vehicle to a halt. To save you from such hassles, you need a reliable service provider to get back on the road. Call KVL Tires at 800-808-0025. Sunset or sunrise, connect with our roadside assistance expert for quick help 24/7/365 days a year. Keep all your worries aside and drive away with pride.',
   },
   {
     id: 5,
     img: fives,
     heading: 'Truck & Trailer Alingment',
+    desc: 'Every trucker knows the importance of timely wheel alignment for commercial vehicles. In the transportation industry, fuel and tires have the highest operating costs. While fuel consumption is tough to manage, planning timely commercial truck alignments can be a cost-effective measure. Also, regular wheel alignments are essential to return wheels to a straight rolling position. Less rolling resistance means less friction, leading to better fuel economy, prolonged tire life, component wear, and enhancing driver’s comfort.  ',
   },
   {
     id: 6,
     img: sixs,
     heading: 'Mounted Wheel Program',
+    desc: 'Managing a fleet is no less than a herculean task and while at it, juggling between tire business is not a good option. Commercial Tires need regular upkeep for high performance, better mileage, and safety. The fleet owners are always looking to decrease their tire operating costs. KVL Tires has devised a strategic mounted wheel program to provide high-quality new commercial tires and retreads delivered according to their requirements. The tires come inflated and mounted on new or reconditioned wheels, ready for installation. This mounted program keeps all tire-associated troubles at bay. Speak to a tire specialist at your nearest location for a customer-friendly solution. ',
   },
-  {
-    id: 7,
-    img: sevens,
-    heading: 'Heavy Duty Front-End Work',
-  },
+  // {
+  //   id: 7,
+  //   img: sevens,
+  //   heading: 'Heavy Duty Front-End Work',
+  // },
   {
     id: 8,
     img: eights,
     heading: 'Scheduled Maintainance program',
-  },
-];
-export const Servicesdatatwo = [
-  {
-    id: 1,
-    img: ones,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 2,
-    img: twos,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 3,
-    img: threes,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 4,
-    img: fours,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 5,
-    img: fives,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 6,
-    img: sixs,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 7,
-    img: sevens,
-    heading: 'hola hola hola',
-  },
-  {
-    id: 8,
-    img: eights,
-    heading: 'hola hola hola',
+    desc: 'Schedule maintenance of commercial vehicles is necessary for safety & extend the vehicle’s life. The program can ensure your wheels run smoothly without unforeseen costly repairs coming your way. Fleet owners can primarily benefit from this program by reducing tire-related operating expenses. Fine tune your tire performance today for a longer ride every day.  ',
   },
 ];
 
@@ -1849,4 +1812,11 @@ export const officeLists = [
   //     email: 'roger@kaltires.com',
   //   },
   // },
+];
+
+export const careerKvl = [
+  {
+    Heading: 'CAREERS AT KVL TIRES',
+    desc: 'At KVL Tires, we build strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
+  },
 ];

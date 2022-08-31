@@ -32,6 +32,7 @@ module.exports = {
         resumeheading: '#474747',
         resumedescription: '#514A4A',
         contactredtwo: '#ff0000cf',
+        Lightbox: '#000000d6',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
@@ -42,7 +43,7 @@ module.exports = {
         servicesTemplate: 'repeat(4, minmax(0, 1fr))',
         DepartmentsTemplate: 'repeat(3, minmax(0, 1fr))',
         // servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
-        servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
+        servicesTabTemplate: 'repeat(0,minmax(0,1fr))',
         servicesMobileTemplate: 'repeat(1,minmax(0,1fr))',
         onsiteTemplatetab: 'repeat(3, minmax(250px, 1fr))',
         onsiteTemplatemobile: 'repeat(1, minmax(250px, 1fr))',
@@ -71,6 +72,10 @@ module.exports = {
         256: '256px',
         327: '327px',
       },
+      padding: {
+        lightboxtabpadding: '28rem',
+        lightboxmobilepadding: '28rem',
+      },
       height: {
         300: '300px',
         557: '557px',
@@ -81,6 +86,7 @@ module.exports = {
         contactheighttab: '6rem',
         contactheightmobile: '4.5rem',
       },
+
       inset: {
         45: '45%',
         65: '65px',
