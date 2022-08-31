@@ -127,15 +127,15 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <a href="/Credit">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
-                router.pathname === '/CreditApplication' ? 'bg-red-500' : ''
+                router.pathname === '/Credit' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`text-black 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/CreditApplication'
+                  router.pathname === '/Credit'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -143,7 +143,7 @@ const Navbar = ({ toggle }) => {
                 Credit Application
               </div>
             </div>
-          </Link>
+          </a>
           <Link href="/career">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${

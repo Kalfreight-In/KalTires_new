@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { ImPhone } from 'react-icons/im';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper';
+import { Autoplay } from 'swiper';
 import {
   // HighPerformanceBrandsData,
   Onsitecomponentdata,
@@ -39,11 +39,10 @@ const Onsiteservice = () => {
         </div>
 
         <Swiper
-          modules={[Pagination, Autoplay]}
+          modules={[Autoplay]}
           loop
           slidesPerView={isDesktop ? 2 : 1}
           spaceBetween={30}
-          pagination={{ clickable: true }}
           className="mySwiper"
           autoplay={{
             delay: 2000,
@@ -53,10 +52,7 @@ const Onsiteservice = () => {
           {OnsiteGriddata.map((data) => (
             <SwiperSlide key={data.id}>
               <div className="lg:hidden">
-                <div
-                  id="grid"
-                  className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
-                >
+                <div id="grid" className="    bg-bg-white-1    pt-20 px-4">
                   <div className="bg-bg-white-1 text-center">
                     <div className="flex justify-center">
                       <div className="w-onsiteimage h-onsiteimage flex">
@@ -67,9 +63,6 @@ const Onsiteservice = () => {
                     <h1 className="lg:text-xl text-lg font-bold font-poppins ">
                       {data.heading}
                     </h1>
-                    <p className="pt-6 lg:text-sm font-normal px-16">
-                      {/* {data.desc} */}
-                    </p>
                   </div>
                 </div>
               </div>
