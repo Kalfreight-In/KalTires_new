@@ -48,6 +48,9 @@ export const Departments = () => (
           <div>
             <div id="onsitemain">
               <div id="onsitemaininner" className="bg-white">
+                <h1 className="text-departmentheading text-3xl text-center pt-6 font-bold font-poppins pb-8">
+                  Our Departments
+                </h1>
                 <div id="maingrid">
                   <Swiper
                     spaceBetween={0}
@@ -56,15 +59,11 @@ export const Departments = () => (
                       delay: 1000,
                       disableOnInteraction: false,
                     }}
-                    // pagination={{
-                    //   clickable: true,
-                    // }}
-                    // navigation
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                   >
-                    {Departmentsdata.map((index) => (
-                      <SwiperSlide key={index.id}>
+                    {Departmentsdata.map((data) => (
+                      <SwiperSlide key={data.id}>
                         <div
                           id="grid"
                           className="flex gap-2 flex-nowrap  justify-center"
@@ -72,7 +71,7 @@ export const Departments = () => (
                           <div className=" text-center ">
                             <div className="flex justify-center">
                               <div>
-                                <Image src={index.img} alt="service" />
+                                <Image src={data.img} alt={data.Alt} />
                               </div>
                             </div>
                           </div>

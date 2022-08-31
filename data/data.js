@@ -1,13 +1,7 @@
 import onsiteone from '../Assets/Images/Onsite_Service/onsiteone.png';
 import onsitetwo from '../Assets/Images/Onsite_Service/onsitetwo.png';
-import onsitethree from '../Assets/Images/Onsite_Service/onsitethree.png';
-import onsitefour from '../Assets/Images/Onsite_Service/onsitefour.png';
-import onsitefive from '../Assets/Images/Onsite_Service/onsitefive.png';
-import onsitesix from '../Assets/Images/Onsite_Service/onsitesix.png';
 import onsiteseven from '../Assets/Images/Onsite_Service/onsiteseven.png';
 import onsiteeight from '../Assets/Images/Onsite_Service/onsiteeight.png';
-import onsitenine from '../Assets/Images/Onsite_Service/onsitenine.png';
-import onsiteten from '../Assets/Images/Onsite_Service/onsiteten.png';
 import GeneralTire from '../Assets/Images/Whatweoffer/CommercialTires/General_Tire-Logo.png';
 import ameristeel from '../Assets/Images/Whatweoffer/CommercialTires/ameristeel_logo.png';
 import Apollo from '../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_logo.png';
@@ -26,22 +20,21 @@ import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
 import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
 import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
 import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
-import deliverydriver from '../Assets/Images/Career/Departments/deliverydriver.png';
-import management from '../Assets/Images/Career/Departments/management.png';
-import service from '../Assets/Images/Career/Departments/service.png';
-import warehouse from '../Assets/Images/Career/Departments/warehouse.png';
+import Accounts from '../Assets/Images/Career/Departments/Accounts.png';
+import administrator from '../Assets/Images/Career/Departments/administrator.png';
+import inventorycant from '../Assets/Images/Career/Departments/inventorycant.png';
+import operations from '../Assets/Images/Career/Departments/operations.png';
+import sales from '../Assets/Images/Career/Departments/sales.png';
+import servicetech from '../Assets/Images/Career/Departments/servicetech.png';
 import one from '../Assets/Images/Whatweoffer/Industrialtires/one.png';
 import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
 import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
 import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
 import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
-import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import twos from '../Assets/Images/Whatweoffer/services/two.png';
-import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
 import sixs from '../Assets/Images/Whatweoffer/services/six.png';
-import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
 import eights from '../Assets/Images/Whatweoffer/services/eight.png';
 
 export const HomeSliderData = [
@@ -481,27 +474,33 @@ export const HighPerformanceBrandsData = [
 export const Departmentsdata = [
   {
     id: 1,
-    img: deliverydriver,
+    img: Accounts,
+    Alt: 'Accounts & Finance',
   },
   {
     id: 2,
-    img: management,
+    img: administrator,
+    Alt: 'Administration',
   },
   {
     id: 3,
-    img: service,
+    img: inventorycant,
+    Alt: 'Inventory Control',
   },
   {
     id: 4,
-    img: warehouse,
+    img: operations,
+    Alt: 'Operations',
   },
   {
     id: 5,
-    img: deliverydriver,
+    img: sales,
+    Alt: 'Sales',
   },
   {
     id: 6,
-    img: management,
+    img: servicetech,
+    Alt: 'Service Technician',
   },
 ];
 
@@ -510,116 +509,31 @@ export const PerkBenifitsdata = [
     id: 1,
     img: extrabenefit,
     Heading: 'New Parent Leave',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+    desc: 'New moms and dads, too, get paid leaves to care for & spend quality time with their infants.',
   },
   {
     id: 2,
     img: growthopp,
     Heading: 'Health Insurance',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+    desc: 'All full-time employees are eligible for our health insurance, with a certain percentage reserved for families.',
   },
   {
     id: 3,
     img: Healthinsurance,
     Heading: 'Extra Benefits',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+    desc: 'Offering 401K retirement plans with Pentegra Retirement Services.',
   },
   {
     id: 4,
     img: paidtimeoff,
     Heading: 'Paid Time Off',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+    desc: 'Vacation? Staycation? Get some "you" time to recharge, travel, or chill.',
   },
   {
     id: 5,
     img: parentallove,
     Heading: 'Career Growth Opportunities',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-
-export const PerkBenifitsdatatabone = [
-  {
-    id: 1,
-    img: extrabenefit,
-    Heading: 'New Parent Leave',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-  {
-    id: 2,
-    img: growthopp,
-    Heading: 'Health Insurance',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-export const PerkBenifitsdatatabtwo = [
-  {
-    id: 1,
-    img: Healthinsurance,
-    Heading: 'Extra Benefits',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-  {
-    id: 2,
-    img: paidtimeoff,
-    Heading: 'Paid Time Off',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-export const PerkBenifitsdatatabthree = [
-  {
-    id: 1,
-    img: parentallove,
-    Heading: 'Career Growth Opportunities',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-  {
-    id: 2,
-    img: extrabenefit,
-    Heading: 'New Parent Leave',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-
-export const PerkBenifitsmobileonedata = [
-  {
-    id: 1,
-    img: extrabenefit,
-    Heading: 'New Parent Leave',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-
-export const PerkBenifitsmobiletwodata = [
-  {
-    id: 2,
-    img: growthopp,
-    Heading: 'Health Insurance',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-export const PerkBenifitsmobilethreedata = [
-  {
-    id: 3,
-    img: Healthinsurance,
-    Heading: 'Extra Benefits',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-export const PerkBenifitsmobilefourdata = [
-  {
-    id: 4,
-    img: paidtimeoff,
-    Heading: 'Paid Time Off',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
-  },
-];
-export const PerkBenifitsmobilefivedata = [
-  {
-    id: 5,
-    img: parentallove,
-    Heading: 'Career Growth Opportunities',
-    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+    desc: 'We love seeing our employees learn, collaborate, challenge each other, and continue to excel at the next level.',
   },
 ];
 
@@ -1816,7 +1730,7 @@ export const officeLists = [
 
 export const careerKvl = [
   {
-    Heading: 'CAREERS AT KVL TIRES',
+    Headingm: 'CAREERS AT KVL TIRES',
     desc: 'At KVL Tires, we build strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
   },
 ];

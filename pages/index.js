@@ -5,6 +5,7 @@ import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
 import HomeSlider from '../Components/Home/HomeSlider';
 import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
 import { MapConatiner } from '../Components/MapContainer';
+import ContactTwo from '../Components/Home/ContactTwo';
 
 const Home = () => (
   <div>
@@ -15,6 +16,7 @@ const Home = () => (
     <RoadSideAssistant />
     <HighPerformanceBrands />
     <MapConatiner />
+    <ContactTwo />
 
     {/* <h1 className="text-3xl font-bold underline">Hello world from Kal tires</h1> */}
   </div>
