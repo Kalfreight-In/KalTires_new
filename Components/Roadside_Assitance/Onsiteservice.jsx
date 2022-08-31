@@ -30,7 +30,7 @@ const Onsiteservice = () => {
                 <h1 className="lg:text-xl text-lg font-bold font-poppins ">
                   {index.heading}
                 </h1>
-                <p className="pt-6 lg:text-sm font-normal px-16">
+                <p className="pt-6 lg:text-sm font-normal px-16 text-justify">
                   {index.desc}
                 </p>
               </div>
@@ -52,7 +52,7 @@ const Onsiteservice = () => {
         >
           {OnsiteGriddata.map((data) => (
             <SwiperSlide key={data.id}>
-              <div className="block  ">
+              <div className="lg:hidden">
                 <div
                   id="grid"
                   className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"

@@ -12,7 +12,6 @@ const Contactform = () => {
   const [phoneno, setphoneno] = useState('');
   const [service, setservice] = useState('');
   const [ROC, setROC] = useState('');
-
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
@@ -178,17 +177,22 @@ const Contactform = () => {
 
                   <select
                     name="servicetype"
-                    className="appearance-none block w-10/12 h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none block w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setservice(e.target.value)}
                     type="select"
                     value={service}
                     placeholder="Service type"
                     required
                   >
-                    <option value="service">Service Type</option>
-                    <option value="service1">service1</option>
-                    <option value="service2">service2</option>
-                    <option value="audservice3">service3</option>
+                    <option value="service">Select service type</option>
+                    <option value="newtires">New Tires</option>
+                    <option value="retreadtires">Retread Tires</option>
+                    <option value="heavyduty">Heavy Duty Front End Work</option>
+                    <option value="wheel">Wheel Alignment</option>
+                    <option value="otr">OTR Tires</option>
+                    <option value="speciality">Specialty</option>
+                    <option value="enquiry">Enquiry</option>
+                    <option value="others">Others</option>
                   </select>
                 </div>
                 <div
