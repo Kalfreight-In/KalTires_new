@@ -22,7 +22,7 @@ const Footer = () => {
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
       style={{
         backgroundImage:
-          'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Footer.png?token=GHSAT0AAAAAABXLNQCYVWP757NGILMZFAV2YXSWO6Q)',
+          'url(https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png)',
         backgroundBlendMode: 'difference',
         backgroundPosition: 'center',
         // backgroundSize: 'cover',
@@ -34,7 +34,7 @@ const Footer = () => {
         <img
           src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
           alt="logo"
-          className="2xl:h-24 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
+          className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
         />
       </div>
 
@@ -91,8 +91,9 @@ const Footer = () => {
                   <img
                     src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
-                    className="2xl:h-28 xl:h-24  h-20 md:block hidden"
+                    className="2xl:h-24 xl:h-18 h-20 md:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
+                    height={80}
                   />
                 </div>
 
@@ -651,6 +652,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 xl:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
+                    height={80}
                   />
                 </div>
                 <div className="md:flex block md:flex-row gap-x-8">

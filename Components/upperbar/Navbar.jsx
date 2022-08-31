@@ -2,7 +2,9 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import styled from 'styled-components';
+import { Link as SLink } from 'react-scroll';
 import { FaBars } from 'react-icons/fa';
+import { useEffect, useRef } from 'react';
 // import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 export const MobileIcon = styled.div`
   display: none;
@@ -24,8 +26,11 @@ export const MobileIcon = styled.div`
   }
 `;
 const Navbar = ({ toggle }) => {
+  const AboutusRef = useRef();
   const router = useRouter();
-
+  useEffect(() => {
+    console.log(AboutusRef);
+  }, [AboutusRef]);
   return (
     <nav className="bg-white">
       <div className="flexBetween z-10 mx-20  flex-row">
@@ -47,7 +52,13 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <SLink
+            to="AboutUs_Section"
+            spy
+            smooth
+            duration={100}
+            ref={AboutusRef}
+          >
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/AboutUs' ? 'bg-red-500' : ''
@@ -63,7 +74,7 @@ const Navbar = ({ toggle }) => {
                 About Us
               </div>
             </div>
-          </Link>
+          </SLink>
           <Link href="/WhatWeOffer">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
@@ -102,12 +113,12 @@ const Navbar = ({ toggle }) => {
           <Link href="/location">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
-                router.pathname === '/Locations' ? 'bg-red-500' : ''
+                router.pathname === '/location' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`2xl:text-lg xl:text-md  lg:text-sm  ${
-                  router.pathname === '/Locations'
+                  router.pathname === '/location'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -152,7 +163,7 @@ const Navbar = ({ toggle }) => {
           </Link>
         </div>
         <MobileIcon onClick={toggle} className="">
-          <FaBars color="#111" />
+          <FaBars color="#fff" />
           {/* <SidebarFr /> */}
         </MobileIcon>
       </div>

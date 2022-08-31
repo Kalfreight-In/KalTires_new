@@ -10,7 +10,7 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 export const AboutUs = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
-    <div id="specialmain">
+    <div id="AboutUs_Section">
       <div
         id="specialmaininner"
         style={{
@@ -121,7 +121,7 @@ export const AboutUs = () => {
               </div>
             </div>
             <div />
-            <div className="lg:block hidden col-span-6  mr-20">
+            <div className="lg:block hidden col-span-6  2xl:mr-20 ">
               <div className="  ">
                 <Image className="  " src={AboutUsTire} alt="tires" />
               </div>
@@ -143,7 +143,7 @@ export const AboutUs = () => {
                     <p>800-808-0025</p>
                   </div>
                 </div>
-                <div
+                {/* <div
                   id="LiveChat"
                   className="md:ml-6 ml-10 flex items-center lg:pr-0 pr-4 "
                 >
@@ -154,7 +154,7 @@ export const AboutUs = () => {
                     <h1 className="font-bold">Live Chat </h1>
                     <p>Chat with experts</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
