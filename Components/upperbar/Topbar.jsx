@@ -1,23 +1,23 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaSearch } from 'react-icons/fa';
-
 import Navlogo from '../../Assets/Images/NavLogo.png';
-import LiveChat from '../../Assets/Icons/live_chat-icon.png';
+import call from '../../Assets/Icons/call.png';
 
 const Topbar = () => (
   <div className="bg-black">
-    <div className="flexBetween z-10 mx-20 p-3 flex-row">
-      <div className="ml-8 flex-1 lg:flex flex-row justify-start items-center hidden">
+    <div className="flexBetween z-10  mr-20 p-3 flex-row">
+      <div className="lg:ml-16  ml-0 flex-1 flex flex-row justify-start items-center ">
         <Image
           src={Navlogo}
           alt="place"
           objectFit="contain"
           className="cursor-pointer"
+          height={60}
         />
-        <div className="pt-2 relative mx-auto text-gray-600">
+        <div className="pt-2 relative mx-auto text-gray-600 hidden lg:block">
           <input
-            className="border-2 border-gray-300 bg-white h-10 px-5 pr-32 rounded-lg text-sm focus:outline-none"
+            className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
             type="search"
             name="search"
             placeholder="Search"
@@ -29,19 +29,19 @@ const Topbar = () => (
         {/* <div className="text-white">Search</div> */}
       </div>
 
-      <div className="text-white flex flex-1 justify-end">
+      <div className="text-white flex-1 justify-end hidden lg:flex ">
         <div className="pr-2">
           <Image
-            src={LiveChat}
-            alt="LiveChat"
+            src={call}
+            alt="call"
             objectFit="contain"
             className="cursor-pointer"
           />
           {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
         </div>
         <div>
-          <div className="font-bold">Live Chat</div>
-          <div className="">Chat with experts</div>
+          <div className="font-bold">TollFree Number </div>
+          <div className=""> 800-808-0025</div>
         </div>
       </div>
     </div>

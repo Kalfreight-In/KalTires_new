@@ -6,16 +6,18 @@ import '../styles/Home.scss';
 import { StateContext } from '../context/StateContext';
 import Sidebar from '../Components/Sidebar';
 import ErrorBoundary from '../Components/ErrorBoundary';
+import useMediaQuery from '../Hooks/CustomMediaQuery';
 
 const MyApp = ({ Component, pageProps }) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const toggle = () => {
     setIsOpen(!isOpen);
   };
   return (
     <StateContext>
-      <TopUpbar />
+      {isDesktop ? <TopUpbar /> : null}
+
       <ErrorBoundary>
         <Sidebar isOpen={isOpen} toggle={toggle} />
       </ErrorBoundary>

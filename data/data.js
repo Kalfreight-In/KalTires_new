@@ -464,7 +464,7 @@ export const HighPerformanceBrandsData = [
     heading: 'BKT',
     logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/BKT_White_logo.png',
     Image:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires4.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'BKT',

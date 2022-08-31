@@ -29,7 +29,11 @@ const HighBrandsSlider = ({ data }) => (
     BackgroundImage={data.bgImage}
   >
     <div className="flex flex-col p-4">
-      <img src={data.logo} className="h-24" />
+      <div className="h-28 text-center block">
+        {' '}
+        <img src={data.logo} className=" m-auto" />
+      </div>
+
       <img src={data.Image} className="w-96" />
     </div>
   </HighBrandSliderComponent>

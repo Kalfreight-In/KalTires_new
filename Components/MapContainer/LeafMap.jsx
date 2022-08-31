@@ -1,12 +1,19 @@
 import React, { useEffect, useState, useRef } from 'react';
 import 'leaflet/dist/leaflet.css';
-
+// import { geosearch } from 'esri-leaflet-geocoder';
 // import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 // import 'leaflet-defaulticon-compatibility';
-
+// import 'esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css';
 import styled from 'styled-components';
 
-import { MapContainer, TileLayer, Marker, Popup, Polygon } from 'react-leaflet';
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  Polygon,
+  ZoomControl,
+} from 'react-leaflet';
 import { Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
@@ -44,7 +51,14 @@ const LeafMap = ({ Data, SData, location }) => {
   const [officeListss, setofficeListss] = useState(Data);
   console.log(`..........${officeListss[0]}`);
   console.log(`...........${location}`);
+  // function handleOnSerchResults(data) {
+  //   console.log('serch Results', data);
+  // }
   useEffect(() => {
+    // const control = geosearch();
+    // control.addTo(MapContainer);
+    // control.on('results', handleOnSerchResults);
+
     console.log(`...........${maps}`);
     // if(office){
     //   Data.filter
@@ -65,7 +79,11 @@ const LeafMap = ({ Data, SData, location }) => {
         });
       }, 1000);
     }
+    // return () => {
+    //   control.off('results', handleOnSerchResults);
+    // };
   }, [location, maps]);
+
   return (
     <MapInside id="map">
       <MapContainer
@@ -73,6 +91,7 @@ const LeafMap = ({ Data, SData, location }) => {
         // whenCreated={(map) => setMaps(map)}
         center={[40.8054, -99.0241]}
         zoom={5}
+        ZoomControl={false}
         scrollWheelZoom={false}
         style={{ height: '700px', width: '100%' }}
       >
@@ -81,6 +100,7 @@ const LeafMap = ({ Data, SData, location }) => {
        https://api.mapbox.com/styles/v1/ssoam/cl77qs9yq000c14uk4kv9ecog/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic3NvYW0iLCJhIjoiY2w3N3J5ZTgyMDJwZzNwb3gzYWtxdWttciJ9.g2IBgPyHpz_bDNTAe3g2fw`}
           attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
         />
+        <zoomControl position="bottomright" zoomInText="😎" zoomOutText="😶‍🌫️" />
         {statesData.features.map((state) => {
           const coordinates = state.geometry.coordinates[0].map((item) => [
             item[1],

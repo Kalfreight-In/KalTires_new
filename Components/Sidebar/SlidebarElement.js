@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 // import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
+import Link from 'next/link';
 
 export const SlidebarContainer = styled.aside`
   position: fixed;
@@ -46,7 +46,7 @@ export const SidebarMenu = styled.ul`
   justify-content: center;
   padding-left: 2rem;
 `;
-export const SidebarLink = styled(LinkS)`
+export const SidebarLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -62,7 +62,7 @@ export const SidebarLink = styled(LinkS)`
     transition: 0.2s ease-in-out;
   }
 `;
-export const SidebarLinkR = styled.a`
+export const SidebarLinkR = styled.div`
   display: flex;
   align-items: left;
   justify-content: left;

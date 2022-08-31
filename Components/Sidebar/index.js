@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
-
-import { animateScroll as scroll, Link } from 'react-scroll';
+import Link from 'next/link';
+// import { animateScroll as scroll, Link } from 'react-scroll';
 import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
 import styled from 'styled-components';
@@ -13,10 +13,10 @@ import {
   SlidebarContainer,
   SidebarWrapper,
   SidebarMenu,
-  SidebarLinkR,
   SideBtnWrap,
   Divlink,
   SidebarRoute,
+  SidebarLinkR,
 } from './SlidebarElement';
 
 export const SidebarLink = styled.a`
@@ -38,10 +38,10 @@ export const SidebarLink = styled.a`
 
 // import { animateScroll as scroll, Link } from 'react-scroll';
 const Sidebar = ({ isOpen, toggle }) => {
-  const [Services, setServices] = useState(false);
-  const [NewsRoom, setNewsRoom] = useState(false);
-  const [AboutUs, setAboutUs] = useState(false);
-  const [BusinessVerticles, setBusinessVerticles] = useState(false);
+  // const [Services, setServices] = useState(false);
+  // const [NewsRoom, setNewsRoom] = useState(false);
+  // const [AboutUs, setAboutUs] = useState(false);
+  // const [BusinessVerticles, setBusinessVerticles] = useState(false);
   // const [Logistics, setLogistics] = useState(false);
   // const [Partz, setPartz] = useState(false);
   // const [Tires, setTires] = useState(false);
@@ -63,9 +63,9 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLinkR to="/" onClick={toggle}>
+          <Link href="/" onClick={toggle}>
             Home
-          </SidebarLinkR>
+          </Link>
 
           {/* <Divlink
             onClick={() => {
@@ -229,7 +229,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 )
               : null}
           </div> */}
-          <SidebarLinkR to="ContactSection">
+          {/* <Link to="ContactSection">
             <Link
               to="ContactSection"
               onClick={toggle}
@@ -241,52 +241,30 @@ const Sidebar = ({ isOpen, toggle }) => {
             >
               Careers
             </Link>
-          </SidebarLinkR>
-          <SidebarLinkR to="ContactSection">
-            <Link
-              to="ContactSection"
-              onClick={toggle}
-              smooth
-              duration={1000}
-              spy
-              exact
-              offset={-80}
-            >
-              Careers
-            </Link>
-          </SidebarLinkR>
-          <SidebarLinkR to="ContactSection">
-            <Link
-              to="ContactSection"
-              onClick={toggle}
-              smooth
-              duration={1000}
-              spy
-              exact
-              offset={-80}
-            >
-              Contact Us
-            </Link>
-          </SidebarLinkR>
-          <SidebarLinkR onClick={toggle} to="mainmapcontainer">
-            <Link
-              to="mainmapcontainer"
-              onClick={toggle}
-              smooth
-              duration={1000}
-              spy
-              exact
-              offset={-80}
-            >
-              Locations
-            </Link>
-          </SidebarLinkR>
-
-          {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
-          <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
-          <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
-          <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
-          <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
+          </Link> */}
+          <Link href="ContactSection" passHref onClick={toggle}>
+            <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
+          </Link>
+          <Link href="WhatWeOffer" passHref onClick={toggle}>
+            <SidebarLinkR onClick={toggle}>What We Offer</SidebarLinkR>
+          </Link>
+          <Link onClick={toggle} href="RoadsideAssistance" passHref>
+            <SidebarLinkR onClick={toggle}>Roadside Assistance</SidebarLinkR>
+          </Link>
+          <Link onClick={toggle} href="location" passHref>
+            <SidebarLinkR onClick={toggle}>location</SidebarLinkR>
+          </Link>
+          <Link onClick={toggle} href="Credit" passHref>
+            <SidebarLinkR onClick={toggle}>Credit Application</SidebarLinkR>
+          </Link>
+          <Link onClick={toggle} href="career" passHref>
+            <SidebarLinkR onClick={toggle}>Career</SidebarLinkR>
+          </Link>
+          {/* <Link to="/Ecommerce">Ecommerce</Link>
+          <Link to="/Careers">Careers</Link>
+          <Link to="/Shipfreight">Shipfreight</Link>
+          <Link to="/Industries">Industries</Link>
+          <Link to="/KalPower">KalPower</Link> */}
         </SidebarMenu>
         {/* <SideBtnWrap className="mt-2">
           <SidebarRoute>
