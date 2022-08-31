@@ -4,7 +4,9 @@ import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
-
+import { RiPhoneFill } from 'react-icons/ri';
+import { MdEmail } from 'react-icons/md';
+import { animateScroll as scroll } from 'react-scroll';
 import { MapData } from '../data/data';
 
 import { useHover } from '../Hooks/Hover';
@@ -89,6 +91,7 @@ export const Divlink = styled.div`
   }
 `;
 // use hover reducer to change the visibility on hover of the sidebar when dynimically created links
+
 const useHoverReducer = (initialState, reducer) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -113,6 +116,7 @@ const LeafMap = dynamic(
 const MapCaller = ({ Data, SData, location }) => (
   <LeafMap Data={Data} SData={SData} location={location} />
 );
+
 const location = () => {
   const [Maplocation, setMapocation] = useState();
 
@@ -137,6 +141,7 @@ const location = () => {
   }, [visibilities]);
 
   const handleClick = (event, coordinates) => {
+    scroll.scrollToTop({ delay: 1000 });
     setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
 
@@ -149,14 +154,21 @@ const location = () => {
     <div
       id="mainmapcontainer"
       className="bg-black flex flex-col-reverse  md:flex-col bg-cover"
-      style={{
-        backgroundImage: `${
-          isDesktop
-            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
-            : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
-        }`,
-      }}
     >
+      <div className="bg-black h-16 flex justify-end flex-center ">
+        <div className="  text-gray-600 flex m-2 mr-8">
+          <input
+            className="  bg-white  px-5 pr-8 w-56 text-sm focus:outline-none"
+            type="search"
+            name="search"
+            placeholder="Enter your city or ZIP code"
+          />
+          <button type="submit" className=" bg-red-600   ">
+            <div className="text-white px-5">Search</div>
+          </button>
+        </div>
+      </div>
+
       <div className="   ">
         {/* <Map
           Fontana={isFontana}
@@ -187,13 +199,17 @@ const location = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full  md:mb-0 ">
-            <SidebarMenu className="bg-black  ">
+          <div className="  w-full  md:mb-0 bg-white ">
+            <SidebarMenu className=" ">
               <div className="">
                 {MapData.map((value, index) => (
-                  <div key={value.id}>
+                  <div key={value.id} className="bg-black mb-4">
                     <Divlink
+                      spy
+                      smooth
+                      duration={500}
                       data-index={index}
+                      delay={1000}
                       onClick={(e) =>
                         handleClick(e, value.geometry.coordinates)
                       }
@@ -254,32 +270,50 @@ const location = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black bg-white flex flex-center flex-row ">
-                            <div className="flex flex-center flex-col">
-                              <div>
-                                <div>
+                          <div className="text-black bg-white flex flex-center flex-row p-8  justify-between ">
+                            <div className="flex flex-center flex-col pl-6">
+                              <div className="mb-6">
+                                <div className="font-semibold text-lg">
                                   KVL Tires, KAL Partz, KAL Freight English Ave
                                 </div>
-                                <div>46205 English Ave Indianapolis, IN</div>
-                                <div>Manager: Telly Ingram</div>
+                                <div className=" font-light text-lg">
+                                  {value.properties.Address}
+                                </div>
+                                <div className=" font-light text-lg">
+                                  Manager: {value.properties.Manager}
+                                </div>
                               </div>
-                              <div>
-                                <div>(317) 820-7387</div>
-                                <div>antoniom@kalfreight.com</div>
+                              <div className="pb-2">
+                                <div className=" font-light text-lg flex flex-row items-center ">
+                                  <RiPhoneFill className="mr-4" />
+                                  {value.properties.Phone}
+                                </div>
+                                <div className=" font-light text-lg flex flex-row items-center ">
+                                  <MdEmail className="mr-4" />
+                                  {value.properties.Email}
+                                </div>
                               </div>
                             </div>
-                            <div className="flex flex-center flex-col">
-                              <span>Hours</span>
+                            <div className="flex flex-center flex-col w-1/4">
+                              <span className="text-black font-semibold text-lg">
+                                Hours
+                              </span>
                               <div>
-                                Monday: 8:00 AM - 5:00 PM Tuesday: 8:00 AM -
-                                5:00 PM Wednesday: 8:00 AM - 5:00 PM Thursday:
-                                8:00 AM - 5:00 PM Friday: 7:30 AM - 5:00 PM
-                                Saturday: Closed Sunday: Closed
+                                {value.timing.map((time) => (
+                                  <p key={index}>{time}</p>
+                                ))}
                               </div>
                             </div>
-                            <div className="flex flex-center flex-col">
-                              <img src="" />
-                              <div>See on maps</div>
+                            <div className="flex flex-center flex-col w-2/12 ">
+                              <img src="https://kalfreight.com/Uploads/image/21imguf_safty-small.jpg" />
+                              <div className="text-right  pt-2">
+                                <a
+                                  className="text-blue-500"
+                                  href={value.properties.url}
+                                >
+                                  See on maps
+                                </a>
+                              </div>
                             </div>
                           </div>
                         ) : null}
