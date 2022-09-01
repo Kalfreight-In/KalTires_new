@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 
 import { Pagination, Autoplay } from 'swiper';
 import styled from 'styled-components';
+import Image from 'next/image';
 import { HighPerformanceBrandsData } from '../../data/data';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
@@ -31,10 +32,10 @@ const HighBrandsSlider = ({ data }) => (
     <div className="flex flex-col p-4">
       <div className="h-28 text-center block">
         {' '}
-        <img src={data.logo} className=" m-auto" />
+        <Image src={data.logo} className=" m-auto" />
       </div>
 
-      <img src={data.Image} className="w-96" />
+      <Image src={data.Image} className="w-96" />
     </div>
   </HighBrandSliderComponent>
 );
