@@ -58,26 +58,26 @@ export const HomeSliderData = [
   {
     id: 1,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
-    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    Heading: '  Off-The-Road Tires  ',
+    desc: 'Tires for the toughest driving conditions  ',
 
-    CTA1: { heading: 'Inventory', link: 'contactus' },
+    CTA1: { heading: 'Explore', link: 'contactus' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
   {
     id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    desc: 'Check out our wide range of tires & services at affordable prices.  ',
 
-    CTA1: { heading: 'Inventory', link: 'contactus' },
+    CTA1: { heading: 'Connect with our Team ', link: 'contactus' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
   {
     id: 3,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-3.png',
-    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    Heading: 'Looking for new tires for your fleet?  ',
+    desc: 'Find your next set of tires here at KVL Tires.  ',
 
     CTA1: { heading: 'Inventory', link: 'contactus' },
     CTA12: { heading: 'Inventory', link: 'contactus' },

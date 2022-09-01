@@ -42,41 +42,61 @@ export const AboutUs = () => {
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
               className="lg:py-12 md:px-10 px-6 lg:px-0  col-span-4 max-w-5xl  mx-auto  text-center lg:text-left "
             >
-              <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
-                <span className="block">About us</span>
+              <h2 className="text-5xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
+                <span className="block">ABOUT US</span>
               </h2>
               <p className="text-black mt-5">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus architecto facere corporis vitae, voluptatem optio
-                molestiae neque omnis doloribus inventore nulla aliquid. Ipsum
-                velit excepturi corporis esse autem blanditiis veritatis! Veniam
-                officia, autem ducimus vitae ex ea. Possimus, magnam, autem
-                repellat inventore voluptate sit tempore soluta cupiditate
-                explicabo quod quos similique debitis temporibus. Maiores
-                officia vitae culpa eum porro fugit cupiditate aliquam,
-                dignissimos adipisci minima voluptate eos enim{' '}
+                Are you looking for quality tires for your fleet? Does a blowout
+                leave you stranded on your way? Are you looking for 24/7
+                roadside assistance? Are you short of time and unable to find
+                pick-up & delivery services nearby? Don’t worry; we have it all
+                covered! KAL Group Inc. has launched a full-service commercial
+                tire business vertical, KVL Tires.{' '}
                 {isDesktop ? (
                   <>
                     <br />
                     <br />
                   </>
                 ) : null}
-                cum animi, totam assumenda. Commodi quaerat consequuntur maxime,
-                rem quis, enim, velit provident asperiores voluptatem voluptate
-                esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
-                Quaerat omnis optio reiciendis asperiores soluta dolorem?
+                KVL Tires is a full-service commercial tire dealer based in the
+                United States. With our headquarters in Fontana, California, we
+                are currently operating in 18+ locations across the US and
+                growing. KVL Tires offers high-quality products and services to
+                a diverse clientele at affordable prices.
                 <br />
                 <br />
-                cum animi, totam assumenda. Commodi quaerat consequuntur maxime,
-                rem quis, enim, velit provident asperiores voluptatem voluptate
-                esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
-                Quaerat omnis optio reiciendis asperiores soluta dolorem?
+                Our unparalleled range of new, used & retread tires caters to
+                the needs of all commercial vehicles. The extensive tire product
+                lines include commercial, agricultural, off-the-road (OTR),
+                industrial, and earthmover tires. We have partnered with trusted
+                tire manufacturers such as Continental, Goodyear, BKT, General,
+                Ameristeel, Tornado, Cooper, and many more
+                <br />
+                <br />
+                Besides selling new tires, KVL Tires also offers 24/7 Roadside
+                Assistance Service. You can quickly find skilled technicians
+                nearby, even in remote areas. Our services include pick-up &
+                delivery, on-site services, flat repairs, mounted wheel
+                programs, wheel alignment services, light mechanical services,
+                and more.
+                <br />
+                <br />
+                At KVL Tires, everybody is welcome, whether an owner operator,
+                repair shop or fleet owner. Our trained specialists strive to
+                deliver quality, safety, and value for a smooth tire buying &
+                service experience. We put the time into understanding our
+                customer’s needs and providing them with satisfactory solutions.
+                We continue to invest in our service facilities, employees,
+                equipment, vehicles, and technology systems to provide you with
+                top-notch tires & services. So, if you need ‘passenger car
+                tires’ or ‘tire alignment near me’, reach out to us without a
+                second thought.
               </p>
 
               {/* <div className="inline-block py-3">
 
               {/* The Phone and Email icons start  */}
-              <div className="flex flex-row  justify-center ">
+              <div className="flex flex-row  justify-center lg:justify-start pt-4">
                 <div className="flex flex-col bg-zinc-50 px-2  mr -4">
                   <Image src={TireIcon} />
                   <div className="text-center">

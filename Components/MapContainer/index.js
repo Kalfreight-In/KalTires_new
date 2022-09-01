@@ -145,6 +145,7 @@ export const MapConatiner = () => {
   const handleClick = (event, coordinates, city) => {
     setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
+    setVisibilities(() => MapData.map(() => false));
 
     const newVisibilities = [...visibilities];
 
