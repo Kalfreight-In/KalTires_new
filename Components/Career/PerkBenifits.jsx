@@ -58,7 +58,6 @@ export const PerkBenifits = () => {
                 spaceBetween={30}
                 slidesPerGroup={1}
                 loop
-                // loopFillGroupWithBlank
                 autoplay={{
                   delay: 1300,
                 }}
@@ -80,7 +79,6 @@ export const PerkBenifits = () => {
                             <Image src={data.img} alt="service" />
                           </div>
                         </div>
-
                         <h1 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 ">
                           {data.Heading}
                         </h1>

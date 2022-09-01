@@ -10,7 +10,7 @@ const ContactTwo = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [phoneno, setphoneno] = useState('');
-  const [service, setservice] = useState('');
+  // const [service, setservice] = useState('');
   const [phone, setPhone] = useState('');
   const [zip, setZip] = useState('');
   const [ROC, setROC] = useState('');
@@ -153,7 +153,7 @@ const ContactTwo = () => {
                 <div className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4">
                   <input
                     type="tel"
-                    pattern="^\(\d{3}\)\s\d{3}-\d{4}$"
+                    // pattern="^\(\d{3}\)\s\d{3}-\d{4}$"
                     placeholder="Contact Number"
                     value={phone}
                     className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
@@ -290,11 +290,10 @@ const ContactTwo = () => {
                 id="input_placeholder"
               >
                 <input
-                  onChange={(e) => setservice(e.target.value)}
+                  onChange={(e) => setphoneno(e.target.value)}
                   className="appearance-none block md:w-10/12 w-contactwidthmobile md:h-contactheighttab h-contactheightmobile bg-opacity-30  bg-red-600 placeholder-white border-white  text-white border rounded py-3 px-4 md:mb-3 mb-0 leading-tight focus:outline-none"
-                  id="grid-first-name"
                   type="tel"
-                  value={service}
+                  value={phone}
                   placeholder="Contact No."
                   required
                 />
@@ -311,6 +310,7 @@ const ContactTwo = () => {
                   value={email}
                   placeholder="Email Address"
                   required
+                  pattern="/\S+@\S+\.\S+/"
                 />
               </div>
               <div
@@ -324,7 +324,7 @@ const ContactTwo = () => {
                   type="text"
                   value={zip}
                   placeholder="ZIP Code"
-                  pattern="^\d{5}(-\d{4})?$"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                   required
                 />
               </div>
