@@ -87,25 +87,25 @@ export const BrandCompnentHeader = [
   {
     id: '1',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/ameristeel-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/ameristeel.png',
     heading: 'BKT-Logo',
   },
   {
     id: '2',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/apollo-tyres-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/apollo-tyres.png',
     heading: 'ameristeel-logo',
   },
   {
     id: '3',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/BKT-Logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/BKT.png',
     heading: 'apollo-tyres-logo',
   },
   {
     id: '4',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/continental-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/continental.png',
     heading: 'continental-logo',
   },
   {
@@ -117,15 +117,15 @@ export const BrandCompnentHeader = [
   {
     id: '5',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/general%20logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/General_Tire.png',
     heading: 'general logo',
   },
-  {
-    id: '5',
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/goodyear-logo.png',
-    heading: 'general logo',
-  },
+  // {
+  //   id: '5',
+  //   imageurl:
+  //     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/goodyear-logo.png',
+  //   heading: 'general logo',
+  // },
   {
     id: '5',
     imageurl:
