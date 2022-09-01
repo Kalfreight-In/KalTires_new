@@ -17,7 +17,7 @@ const Roadside = () => (
               </span>
             </h2>
           </div>
-          <div className="relative lg:mt-32 lg:pl-12 z-0">
+          <div className="relative lg:my-12 lg:pl-12 z-0">
             <Image
               className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
               src={servicetruck}

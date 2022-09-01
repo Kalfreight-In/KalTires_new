@@ -9,7 +9,7 @@ import HeroSection from '../Components/Home/HeroSection';
 const data = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/WhatWeOfferBg.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
 

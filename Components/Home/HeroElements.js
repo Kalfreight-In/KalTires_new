@@ -46,6 +46,9 @@ export const ContainerMain = styled.div`
 export const HeroBg = styled.div`
   background: ${(props) => `url(${props.BackgroundImage}) `};
   position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: z;
   top: 0;
   left: 0;
