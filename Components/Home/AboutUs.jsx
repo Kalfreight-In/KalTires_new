@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
 // import { BiMessageDetail } from 'react-icons/bi';
@@ -8,6 +8,7 @@ import TireIcon from '../../Assets/Images/Home/Tire_Icon.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const AboutUs = () => {
+  const [ShowMoreAboutUS, setShowMoreAboutUS] = useState(false);
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div id="AboutUs_Section">
@@ -22,7 +23,7 @@ export const AboutUs = () => {
         }}
       >
         <div className="">
-          <div className="lg:grid lg:grid-cols-12 items-center ">
+          <div className="lg:grid lg:grid-cols-10 items-center ">
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
                 <span className="block">About us</span>
@@ -37,13 +38,15 @@ export const AboutUs = () => {
                 />
               </div>
             </div>
-            <div />
+
             <div
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
-              className="lg:py-12 md:px-10 px-6 lg:px-0  col-span-4 max-w-5xl  mx-auto  text-center lg:text-left "
+              className="lg:py-12 md:px-10 px-6 lg:px-0  lg:ml-20  col-span-4 max-w-5xl  mx-auto  text-center lg:text-left "
             >
               <h2 className="text-5xl tracking-tight   font-poppins font-semibold lg:block hidden">
-                <span className="block text-neutral-800">ABOUT US</span>
+                <span className="block text-neutral-800  border-b-4 pb-1  border-y-PrimaryTwo 2xl:w-1/2 xl:w-3/5 w-4/5">
+                  ABOUT US
+                </span>
               </h2>
               <p className="text-neutral-500 mt-5 2xl:text-lg lg:text-md text-sm  font-medium">
                 Are you looking for quality tires for your fleet? Does a blowout
@@ -64,33 +67,50 @@ export const AboutUs = () => {
                 growing. KVL Tires offers high-quality products and services to
                 a diverse clientele at affordable prices.
                 <br />
-                <br />
-                Our unparalleled range of new, used & retread tires caters to
-                the needs of all commercial vehicles. The extensive tire product
-                lines include commercial, agricultural, off-the-road (OTR),
-                industrial, and earthmover tires. We have partnered with trusted
-                tire manufacturers such as Continental, Goodyear, BKT, General,
-                Ameristeel, Tornado, Cooper, and many more
-                <br />
-                <br />
-                Besides selling new tires, KVL Tires also offers 24/7 Roadside
-                Assistance Service. You can quickly find skilled technicians
-                nearby, even in remote areas. Our services include pick-up &
-                delivery, on-site services, flat repairs, mounted wheel
-                programs, wheel alignment services, light mechanical services,
-                and more.
-                <br />
-                <br />
-                At KVL Tires, everybody is welcome, whether an owner operator,
-                repair shop or fleet owner. Our trained specialists strive to
-                deliver quality, safety, and value for a smooth tire buying &
-                service experience. We put the time into understanding our
-                customer’s needs and providing them with satisfactory solutions.
-                We continue to invest in our service facilities, employees,
-                equipment, vehicles, and technology systems to provide you with
-                top-notch tires & services. So, if you need ‘passenger car
-                tires’ or ‘tire alignment near me’, reach out to us without a
-                second thought.
+                <div
+                  onClick={() => setShowMoreAboutUS(!ShowMoreAboutUS)}
+                  className="underline decoration-2 decoration-sky-500 text-PrimaryTwo font-medium cursor-pointer"
+                >
+                  {!ShowMoreAboutUS ? 'Show More' : 'Show less'}
+                </div>
+                <div
+                  className={`Transition-Height-${
+                    ShowMoreAboutUS ? 'in' : 'out'
+                  }`}
+                >
+                  {ShowMoreAboutUS ? (
+                    <p>
+                      Our unparalleled range of new, used & retread tires caters
+                      to the needs of all commercial vehicles. The extensive
+                      tire product lines include commercial, agricultural,
+                      off-the-road (OTR), industrial, and earthmover tires. We
+                      have partnered with trusted tire manufacturers such as
+                      Continental, Goodyear, BKT, General, Ameristeel, Tornado,
+                      Cooper, and many more
+                      <br />
+                      <br />
+                      Besides selling new tires, KVL Tires also offers 24/7
+                      Roadside Assistance Service. You can quickly find skilled
+                      technicians nearby, even in remote areas. Our services
+                      include pick-up & delivery, on-site services, flat
+                      repairs, mounted wheel programs, wheel alignment services,
+                      light mechanical services, and more.
+                      <br />
+                      <br />
+                      At KVL Tires, everybody is welcome, whether an owner
+                      operator, repair shop or fleet owner. Our trained
+                      specialists strive to deliver quality, safety, and value
+                      for a smooth tire buying & service experience. We put the
+                      time into understanding our customer’s needs and providing
+                      them with satisfactory solutions. We continue to invest in
+                      our service facilities, employees, equipment, vehicles,
+                      and technology systems to provide you with top-notch tires
+                      & services. So, if you need ‘passenger car tires’ or ‘tire
+                      alignment near me’, reach out to us without a second
+                      thought.
+                    </p>
+                  ) : null}
+                </div>
               </p>
 
               {/* <div className="inline-block py-3">
@@ -141,7 +161,7 @@ export const AboutUs = () => {
               </div>
             </div>
             <div />
-            <div className="lg:block hidden col-span-6  2xl:mr-20 ">
+            <div className="lg:block hidden col-span-5  2xl:mr-20 ">
               <div className="  ">
                 <Image className="  " src={AboutUsTire} alt="tires" />
               </div>
