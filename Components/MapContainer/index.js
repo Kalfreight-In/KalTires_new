@@ -5,6 +5,7 @@ import { BiMinus } from 'react-icons/bi';
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
 
+import { MdKeyboardArrowDown } from 'react-icons/md';
 import { MapData } from '../../data/data';
 
 import { useHover } from '../../Hooks/Hover';
@@ -118,6 +119,9 @@ const MapCaller = ({ Data, SData, location }) => (
 export const MapConatiner = () => {
   const [Maplocation, setMapocation] = useState();
 
+  const [FeaatureCat, setFeaatureCat] = useState('Commercial Tires');
+
+  const [ShowDropdown, setShowDropdown] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
   //   setIsBrowser(true);
@@ -138,7 +142,7 @@ export const MapConatiner = () => {
     MapData.map((x) => false);
   }, [visibilities]);
 
-  const handleClick = (event, coordinates) => {
+  const handleClick = (event, coordinates, city) => {
     setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
 
@@ -146,6 +150,8 @@ export const MapConatiner = () => {
 
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
+    setShowDropdown(!ShowDropdown);
+    setFeaatureCat(city);
   };
   // const [selectedPosition, setSelectedPosition] = React.useState(null);
   // const [Services, setServices] = useState(false);
@@ -244,49 +250,151 @@ export const MapConatiner = () => {
                 We serve you at multiple location
               </div>
             </div>
-            <SidebarMenu className="bg-white pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="lg:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
               <div className="">
-                {MapData.map((value, index) => (
-                  <div key={value.id}>
-                    <Divlink
-                      data-index={index}
-                      onClick={(e) =>
-                        handleClick(e, value.geometry.coordinates)
-                      }
-                    >
-                      <h1
-                        className={
-                          visibilities[index]
-                            ? 'text-black font-bold'
-                            : 'text-black font-bold'
+                {/* <div
+                  className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
+                >
+                  {ShowDropdown ? (
+                    <div className="flex flex-col">
+                      <button
+                        onClick={() => {
+                          SetDataFunction('Commercial Tires');
+                          setFeaatureCat(' Commercial Tires');
+                          setShowDropdown(!ShowDropdown);
+                        }}
+                        type="button"
+                        className="group  relative     text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                      >
+                        <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                          Commercial Tires
+                        </h4>
+                        <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                      </button>
+                      <button
+                        onClick={() => {
+                          SetDataFunction('Industrial Tires');
+                          setFeaatureCat('Industrial Tires');
+                          setShowDropdown(!ShowDropdown);
+                        }}
+                        type="button"
+                        className="group  relative      text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                      >
+                        <h4 className="px-4 py-2 text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                          Industrial Tires
+                        </h4>
+                        <span className="bg-black  group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                      </button>
+                      <button
+                        onClick={() => {
+                          SetDataFunction('Earthmover Tires');
+                          setFeaatureCat('Earthmover Tires');
+                          setShowDropdown(!ShowDropdown);
+                        }}
+                        type="button"
+                        className="group  relative   text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                      >
+                        <h4 className="px-4 py-2 text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                          Earthmover Tires
+                        </h4>
+                        <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                      </button>
+                    </div>
+                  ) : null}
+                </div> */}
+                {isDesktop ? (
+                  MapData.map((value, index) => (
+                    <div key={value.id}>
+                      <Divlink
+                        data-index={index}
+                        onClick={(e) =>
+                          handleClick(e, value.geometry.coordinates)
                         }
                       >
-                        {value.properties.City}
-                      </h1>
+                        <h1
+                          className={
+                            visibilities[index]
+                              ? 'text-black font-bold'
+                              : 'text-black font-bold'
+                          }
+                        >
+                          {value.properties.City}
+                        </h1>
 
+                        <span>
+                          {visibilities[index] ? <BiMinus /> : <BsPlus />}
+
+                          {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                        </span>
+                      </Divlink>
+                      <div
+                        className={`Transition-Height-${
+                          visibilities[index] ? 'in' : 'out'
+                        }`}
+                        onClick={() =>
+                          setMapocation(value.geometry.coordinates)
+                        }
+                      >
+                        <ul>
+                          {visibilities[index] ? (
+                            <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
+                              {' '}
+                              {value.properties.Address}
+                            </div>
+                          ) : null}
+                        </ul>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <>
+                    <div
+                      onClick={() => {
+                        setShowDropdown(!ShowDropdown);
+                      }}
+                      className="group   flex flex-row justify-between px-6 py-4  text-center border-2 bg-black text-white   transition-all duration-100 delay-75 cursor-pointer "
+                    >
+                      {FeaatureCat}
                       <span>
-                        {visibilities[index] ? <BiMinus /> : <BsPlus />}
-
-                        {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                        {' '}
+                        <MdKeyboardArrowDown
+                          className={`transition-all duration-100${
+                            ShowDropdown ? '-rotate-180' : 'rotate-180'
+                          }`}
+                        />{' '}
                       </span>
-                    </Divlink>
+                    </div>
                     <div
                       className={`Transition-Height-${
-                        visibilities[index] ? 'in' : 'out'
+                        ShowDropdown ? 'in' : 'out'
                       }`}
-                      onClick={() => setMapocation(value.geometry.coordinates)}
                     >
-                      <ul>
-                        {visibilities[index] ? (
-                          <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
-                            {' '}
-                            {value.properties.Address}
-                          </div>
-                        ) : null}
-                      </ul>
+                      {ShowDropdown ? (
+                        <div className="flex flex-col">
+                          {MapData.map((value, index) => (
+                            <button
+                              data-index={index}
+                              onClick={(e) =>
+                                handleClick(
+                                  e,
+                                  value.geometry.coordinates,
+                                  value.properties.City
+                                )
+                              }
+                              type="button"
+                              className="group  relative     text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                            >
+                              <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                                {value.properties.City}
+                              </h4>
+                              <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                            </button>
+                          ))}
+                        </div>
+                      ) : null}
                     </div>
-                  </div>
-                ))}
+                  </>
+                )}
               </div>
 
               {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
