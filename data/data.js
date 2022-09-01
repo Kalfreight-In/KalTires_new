@@ -44,7 +44,9 @@ import coopertiresLogo from '../Assets/Images/Home/BrandsLogo/coopertires-logo.p
 import generalLogo from '../Assets/Images/Home/BrandsLogo/general logo.png';
 import goodyearLogo from '../Assets/Images/Home/BrandsLogo/goodyear-logo.png';
 import michelinLogo from '../Assets/Images/Home/BrandsLogo/micheline-logo.png';
-
+import ones from '../Assets/Images/Whatweoffer/services/one.png';
+import threes from '../Assets/Images/Whatweoffer/services/three.png';
+import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
 import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
 import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
 import bktTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/BktTire.png';
@@ -615,22 +617,22 @@ export const IndustrialTiresdata = [
 ];
 
 export const Servicesdata = [
-  // {
-  //   id: 1,
-  //   img: ones,
-  //   heading: 'Tire & Wheel Balancing',
-  // },
+  {
+    id: 1,
+    img: ones,
+    heading: 'Tire & Wheel Balancing',
+  },
   {
     id: 2,
     img: twos,
     heading: 'Retread Services',
     desc: 'It is no secret that every fleet’s most significant investment is its tires and associated services. Look to our retreading services at KVL Tires for safe, reliable & cost-effective options. We have partnered with ContiTread to provide our customers with quality options only. So, get on the road with the most trusted retreads. Contact the nearest KVL Tires location for more information. Save a few bucks today & thank us later.',
   },
-  // {
-  //   id: 3,
-  //   img: threes,
-  //   heading: 'Pick Up & Delivery Services',
-  // },
+  {
+    id: 3,
+    img: threes,
+    heading: 'Pick Up & Delivery Services',
+  },
   {
     id: 4,
     img: fours,
@@ -649,11 +651,11 @@ export const Servicesdata = [
     heading: 'Mounted Wheel Program',
     desc: 'Managing a fleet is no less than a herculean task and while at it, juggling between tire business is not a good option. Commercial Tires need regular upkeep for high performance, better mileage, and safety. The fleet owners are always looking to decrease their tire operating costs. KVL Tires has devised a strategic mounted wheel program to provide high-quality new commercial tires and retreads delivered according to their requirements. The tires come inflated and mounted on new or reconditioned wheels, ready for installation. This mounted program keeps all tire-associated troubles at bay. Speak to a tire specialist at your nearest location for a customer-friendly solution. ',
   },
-  // {
-  //   id: 7,
-  //   img: sevens,
-  //   heading: 'Heavy Duty Front-End Work',
-  // },
+  {
+    id: 7,
+    img: sevens,
+    heading: 'Heavy Duty Front-End Work',
+  },
   {
     id: 8,
     img: eights,

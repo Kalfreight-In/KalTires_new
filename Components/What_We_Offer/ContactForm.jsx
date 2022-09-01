@@ -50,10 +50,10 @@ const Contactform = () => {
 
   return (
     <>
-      <div id="maincontactform" className="justify-between lg:flex hidden">
+      <div id="maincontactform" className="justify-between lg:flex ">
         <div
           id="shadow"
-          className="md:p-8 p-4 bg-red-600 px-48"
+          className="md:p-8 p-4 bg-red-600"
           style={{
             backgroundImage:
               // eslint-disable-next-line operator-linebreak
@@ -108,14 +108,14 @@ const Contactform = () => {
               <div className="xl:text-left text-center xl:pl-2">
                 <div
                   id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 pl-12 "
+                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
                 >
                   {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <h1 className="text-white md:text-5xl text-2xl font-bold pl-2">
+                  <h1 className="text-white md:text-5xl text-2xl font-bold pl-2 text-left">
                     BOOK AN APPOINTMENT {isMobile ? null : <br />}NOW!
                   </h1>
                 </div>
@@ -134,7 +134,7 @@ const Contactform = () => {
               </div>
               <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
                 <div
-                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-8"
+                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 lg:pt-8 pt-0"
                   id="input_placeholder"
                 >
                   <input
@@ -148,7 +148,7 @@ const Contactform = () => {
                   />
                 </div>
                 <div
-                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4"
+                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   <input
@@ -162,7 +162,7 @@ const Contactform = () => {
                   />
                 </div>
                 <div
-                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4"
+                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   {/* <input
@@ -196,7 +196,7 @@ const Contactform = () => {
                   </select>
                 </div>
                 <div
-                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4"
+                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   <input
@@ -210,7 +210,10 @@ const Contactform = () => {
                   />
                 </div>
               </div>
-              <div id="submitallbutton" className="pl-24 pt-8 flex ">
+              <div
+                id="submitallbutton"
+                className="lg:pl-24 md:pl-16 pl-6 md:pt-8 block "
+              >
                 <div>
                   <button
                     className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center"
@@ -219,27 +222,34 @@ const Contactform = () => {
                     {buttonText}
                   </button>
                 </div>
-                <div className="pl-12">
-                  <button
-                    className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 p-4 w-48 mt-2 flex justify-center items-center border-2"
-                    type="submit"
-                  >
-                    Call Us Now
-                  </button>
-                </div>
+                <a href="tel:800-385-8006">
+                  <div>
+                    <p
+                      className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12   mt-2 flex justify-start items-center"
+                      type="submit"
+                    >
+                      Or call us now at 800-385-8006
+                    </p>
+                  </div>
+                </a>
               </div>
             </form>
           )}
         </div>
 
-        <div id="maincontactformtwo">
-          <div id="imgcontact">
-            <Image src={mainimage} alt="contactus" objectFit="cover" />
-          </div>
-        </div>
+        {/* <div id="maincontactformtwo"> */}
+
+        <Image
+          src={mainimage}
+          alt="contactus"
+          objectFit="cover"
+          className="lg:block hidden"
+        />
+
+        {/* </div> */}
       </div>
 
-      <div
+      {/* <div
         id="shadowtab"
         className="md:p-8 p-4 bg-red-600 px-48 lg:hidden flex justify-center"
         style={{
@@ -342,7 +352,10 @@ const Contactform = () => {
                 />
               </div>
             </div>
-            <div id="submitallbuttontab" className="pl-16 pt-8  md:flex hidden">
+            <div
+              id="submitallbuttontab"
+              className="pl-16 pt-8  md:block hidden"
+            >
               <div>
                 <button
                   className="text-black bg-white rounded  p-4 w-48 flex justify-center items-center border-white border-2"
@@ -351,12 +364,12 @@ const Contactform = () => {
                   Submit
                 </button>
               </div>
-              <div className="pl-12">
+              <div>
                 <button
-                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded  p-4 w-48 flex justify-center items-center border-2"
+                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12  flex justify-start items-center"
                   type="submit"
                 >
-                  Call Us Now
+                  Or call us at 800-385-8006
                 </button>
               </div>
             </div>
@@ -374,17 +387,17 @@ const Contactform = () => {
                 </button>
               </div>
               <div className="md:pl-16 pl-0 pt-4">
-                <button
-                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded  p-4 w-48 flex justify-center items-center border-2"
-                  type="submit"
+                <a
+                  href="tel:800-385-8006"
+                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded  w-48 flex justify-center items-center"
                 >
-                  Call Us Now
-                </button>
+                  Or call us at 800-385-8006
+                </a>
               </div>
             </div>
           </form>
         )}
-      </div>
+      </div> */}
     </>
   );
 };

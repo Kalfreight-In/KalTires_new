@@ -12,9 +12,9 @@ const CommercialTire = () => {
         <div id="commercemain">
           <div id="commercemaininner">
             <div className="bg-black">
-              <div className="lg:grid lg:grid-cols-2">
+              <div className="lg:grid lg:grid-cols-2 2xl:pr-16 xl:pr-12 lg:pr-8">
                 <div className="lg:block hidden ">
-                  <div className="lg:relative self-start ">
+                  <div className="lg:relative self-start">
                     <Image
                       className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
                       src={alldata.mainimage}
@@ -32,7 +32,7 @@ const CommercialTire = () => {
                       />
                     </div>
                   </div>
-                  <div className="lg:py-2 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left mt-16 ">
+                  <div className="lg:py-2 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left mt-16  ">
                     <h1 className="text-white font-poppins text-4xl font-bold">
                       {alldata.Heading}
                     </h1>
@@ -40,7 +40,11 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className="   mr-2 text-center focus:border-b-2 font-bold border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red"
+                          className={` mr-2 text-center focus:border-b-2 font-bold border-white text-white ${
+                            alldata.Heading === 'Retread Tires'
+                              ? 'text-kaltire-red border-white border-b-2'
+                              : 'text-white'
+                          }  transition-all duration-100 delay-75 cursor-pointer   focus:text-kaltire-red`}
                           onClick={() => setalldata(CommercialTireone[0])}
                         >
                           {alldata.titleone}

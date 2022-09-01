@@ -18,6 +18,7 @@ const ContactTwo = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
+
   const resetForm = (e) => {
     setName('');
     setEmail('');
@@ -52,10 +53,10 @@ const ContactTwo = () => {
 
   return (
     <>
-      <div id="maincontactformhome" className="justify-between lg:flex hidden">
+      <div id="maincontactformhome" className="justify-center lg:flex">
         <div
           id="shadowhome"
-          className="md:p-8 p-4 bg-red-600 px-48"
+          className=" bg-red-600 lg:pl-20 md:pl-28 pl-16 md:pt-20 pt-8 flex"
           style={{
             backgroundImage:
               // eslint-disable-next-line operator-linebreak
@@ -71,7 +72,7 @@ const ContactTwo = () => {
               animate={{ scale: [0.5, 1] }}
               transition={{ delay: 0.5, duration: 0.5 }}
             >
-              <div className="flex flex-col justify-center items-center">
+              <div className="flex flex-col   items-center">
                 <div className="w-max">
                   {/* <Sparkles> */}
                   {/* <Image
@@ -80,7 +81,7 @@ const ContactTwo = () => {
                 /> */}
                   {/* </Sparkles> */}
                 </div>
-                <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16 ">
+                <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16">
                   {/* <Sparkles> */}
                   Thanks you for reaching out, we will get back to you as soon
                   as possible.
@@ -107,19 +108,26 @@ const ContactTwo = () => {
             </div>
           ) : (
             <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-              <div className="xl:text-left text-center xl:pl-2">
+              <div className="xl:text-left text-center ">
                 <div
                   id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 pl-12 "
+                  className="flex justify-start items-center xl:justify-start xl:items-start  "
                 >
                   {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <h1 className="text-white md:text-5xl text-2xl font-bold pl-2">
-                    BOOK AN APPOINTMENT {isMobile ? null : <br />}NOW!
-                  </h1>
+                  <div>
+                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left ">
+                      CONTACT US
+                    </h1>
+                    <p className="text-white pt-4  text-justify lg:pr-0 pr-8">
+                      Let’s grow your business together. Please provide your
+                      details, and a KVL tire expert will get in touch with you
+                      shortly.{' '}
+                    </p>
+                  </div>
                 </div>
                 {/* <div className="2xl:hidden">
                 <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
@@ -134,9 +142,9 @@ const ContactTwo = () => {
                 </p>
               </div> */}
               </div>
-              <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
+              <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0 mt-8">
                 <div
-                  className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-8"
+                  className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-8"
                   id="input_placeholder"
                 >
                   <input
@@ -150,7 +158,7 @@ const ContactTwo = () => {
                   />
                 </div>
 
-                <div className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4">
+                <div className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
                   <input
                     type="tel"
                     // pattern="^\(\d{3}\)\s\d{3}-\d{4}$"
@@ -160,7 +168,7 @@ const ContactTwo = () => {
                     onChange={(e) => setPhone(e.target.value)}
                   />
                 </div>
-                <div className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4">
+                <div className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
                   <input
                     onChange={(e) => setEmail(e.target.value)}
                     className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
@@ -171,11 +179,11 @@ const ContactTwo = () => {
                     required
                   />
                 </div>
-                <div className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4">
+                <div className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
                   <input
                     onChange={(e) => setZip(e.target.value)}
                     inputMode="numeric"
-                    className="appearance-none block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="grid-first-name"
                     type="text"
                     value={zip}
@@ -184,7 +192,7 @@ const ContactTwo = () => {
                     required
                   />
                 </div>
-                <div className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 pt-4">
+                <div className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
                   <input
                     onChange={(e) => setMessage(e.target.value)}
                     className="appearance-none block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
@@ -196,38 +204,38 @@ const ContactTwo = () => {
                   />
                 </div>
               </div>
-              <div id="submitallbutton" className="pl-24 pt-8 flex ">
+              <div id="submitallbutton" className=" md:pt-8 pt-0 flex flex-col">
                 <div>
                   <button
-                    className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center"
+                    className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center  items-center cursor-pointer"
                     type="submit"
                   >
                     {buttonText}
                   </button>
                 </div>
-                <div className="pl-12">
-                  <button
-                    className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 p-4 w-48 mt-2 flex justify-center items-center border-2"
+                <div>
+                  <p
+                    className="text-white  bg-red-600 text-opacity-80  bg-opacity-20 h-12 rounded  mt-2 flex justify-start items-center "
                     type="submit"
                   >
-                    Call Us Now
-                  </button>
+                    Or call us now at{' '}
+                    <a href="tel:8008080025" className="cursor-pointer">
+                      at 800-808 0025
+                    </a>
+                  </p>
                 </div>
               </div>
             </form>
           )}
         </div>
 
-        <div id="maincontactformtwo">
-          <div id="imgcontact">
-            <Image src={mainimage} alt="contactus" objectFit="cover" />
-          </div>
-        </div>
+        {/* <div id="maincontactformtwo"> */}
+        <Image src={mainimage} alt="contactus" objectFit="cover" />
       </div>
 
-      <div
+      {/* <div
         id="shadowtabhome"
-        className="md:p-8 p-4 bg-red-600 px-48 lg:hidden flex justify-center"
+        className="md:p-8 p-4 bg-red-600  lg:hidden flex justify-center "
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
@@ -243,7 +251,7 @@ const ContactTwo = () => {
             animate={{ scale: [0.5, 1] }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col   items-center">
               <div className="w-max" />
               <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16 ">
                 Thanks you for reaching out, we will get back to you as soon as
@@ -259,12 +267,12 @@ const ContactTwo = () => {
           </div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-            <div className="xl:text-left text-center xl:pl-2">
+            <div className="xl:text-left text-center ">
               <div
                 id="contactnewtab"
-                className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-0 "
+                className="flex justify-start items-center xl:justify-start  xl:items-start pb-8 pt-12 pl-0 "
               >
-                <h1 className="text-white md:text-5xl text-3xl font-bold text-left">
+                <h1 className="text-white md:text-5xl text-center text-3xl font-bold lg:text-left">
                   BOOK AN APPOINTMENT
                   <br /> NOW!
                 </h1>
@@ -272,7 +280,7 @@ const ContactTwo = () => {
             </div>
             <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
               <div
-                className="w-full flex justify-center items-center  xl:px-3 md:mb-6 mb-4 pt-8"
+                className="w-full flex   items-center lg:flex-start justify-center   md:mb-6 mb-4 pt-8"
                 id="input_placeholder"
               >
                 <input
@@ -286,7 +294,7 @@ const ContactTwo = () => {
                 />
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 md:mb-6 mb-4 "
+                className="w-full flex   items-center  lg:flex-start justify-center xl:px-3 md:mb-6 mb-4 "
                 id="input_placeholder"
               >
                 <input
@@ -299,7 +307,7 @@ const ContactTwo = () => {
                 />
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 md:mb-6 mb-4 "
+                className="w-full flex   items-center  lg:flex-start justify-center  xl:px-3 md:mb-6 mb-4 "
                 id="input_placeholder"
               >
                 <input
@@ -314,7 +322,7 @@ const ContactTwo = () => {
                 />
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 md:mb-6 mb-4 "
+                className="w-full flex   items-center  lg:flex-start justify-center  xl:px-3 md:mb-6 mb-4 "
                 id="input_placeholder"
               >
                 <input
@@ -330,7 +338,7 @@ const ContactTwo = () => {
               </div>
 
               <div
-                className="w-full flex justify-center items-center  xl:px-3 md:mb-6 mb-4 "
+                className="w-full flex   items-center  lg:flex-start justify-center  xl:px-3 md:mb-6 mb-4 "
                 id="input_placeholder"
               >
                 <input
@@ -344,49 +352,57 @@ const ContactTwo = () => {
                 />
               </div>
             </div>
-            <div id="submitallbuttontab" className="pl-16 pt-8  md:flex hidden">
+            <div
+              id="submitallbuttontab"
+              className=" pt-8  md:flex flex-col hidden"
+            >
               <div>
                 <button
-                  className="text-black bg-white rounded  p-4 w-48 flex justify-center items-center border-white border-2"
+                  className="text-black bg-white rounded  p-4 w-48 flex   items-center border-white border-2"
                   type="submit"
                 >
                   Submit
                 </button>
               </div>
-              <div className="pl-12">
-                <button
-                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded  p-4 w-48 flex justify-center items-center border-2"
+              <div className="">
+                <p
+                  className="text-white  bg-red-600 text-opacity-80  bg-opacity-20 h-12 rounded  mt-2 flex justify-start items-center "
                   type="submit"
                 >
-                  Call Us Now
-                </button>
+                  <a href="tel:8008080025" className="cursor-pointer">
+                    Or call us now at 800-808 0025
+                  </a>
+                </p>
               </div>
             </div>
 
             <div
               id="submitallbuttonmobile"
-              className="pl-16  flex md:flex-row flex-col md:hidden justify-around"
+              className="  flex md:flex-row flex-col md:hidden justify-around"
             >
               <div>
                 <button
-                  className="text-black bg-white rounded  p-4 w-48 flex justify-center items-center border-white border-2"
+                  className="text-black bg-white rounded  p-4 w-48 flex   items-center border-white border-2"
                   type="submit"
                 >
                   Submit
                 </button>
               </div>
-              <div className="md:pl-16 pl-0 pt-4">
-                <button
-                  className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded  p-4 w-48 flex justify-center items-center border-2"
+              <div className="pl-0 pt-4">
+                <p
+                  className="text-white  bg-red-600 text-opacity-80  bg-opacity-20 h-12 rounded  mt-2 flex justify-start items-center "
                   type="submit"
                 >
-                  Call Us Now
-                </button>
+                  Or call us now{' '}
+                  <a href="tel:8008080025" className="cursor-pointer">
+                    at 800-808 0025
+                  </a>
+                </p>
               </div>
             </div>
           </form>
         )}
-      </div>
+      </div> */}
     </>
   );
 };
