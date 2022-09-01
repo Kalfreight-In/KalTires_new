@@ -34,7 +34,7 @@ const HeroSection = ({ data }) => (
           <div className="lg:border-l-4 border-x-amber-400 sm:block " />
 
           <div className="lg:ml-8 ml-0">
-            <div className="lg:text-6xl text-4xl font-bold text-white font-xl lg:w-3/5 pb-4 lg:border-b-0 border-b-4 border-y-amber-400 lg:mx-0 mx-16">
+            <div className="lg:text-6xl text-4xl font-bold text-white font-xl lg:w-3/4 pb-4 lg:border-b-0 border-b-4 border-y-amber-400 lg:mx-0 mx-16">
               {data.Heading}
             </div>
             {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
@@ -60,7 +60,7 @@ const HeroSection = ({ data }) => (
                   type="button"
                   className="text-white  ml-8 border-2 hover:border-0 border-white  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none hover:bg-red-500"
                 >
-                  <p>Learn More</p>
+                  <p>{data.CTA1.heading}</p>
                 </button>
               </Link>
             </div>
