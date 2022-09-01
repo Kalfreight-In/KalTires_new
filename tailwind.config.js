@@ -32,6 +32,7 @@ module.exports = {
         resumeheading: '#474747',
         resumedescription: '#514A4A',
         contactredtwo: '#ff0000cf',
+        PrimaryTwo: '#0076C8',
         Lightbox: '#000000d6',
       },
       gridTemplateColumns: {

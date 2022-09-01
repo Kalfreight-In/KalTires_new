@@ -48,7 +48,7 @@ const extractAddress = (place) => {
 };
 
 const TopUpbar = () => {
-  const [address, setAddress] = useState({});
+  const [address, setAddress] = useState(null);
   async function reverseGeocode({ latitude: lat, longitude: lng }) {
     const url = `${GOOGLE_MAP_API_URL}?key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng=${lat},${lng}`;
     try {

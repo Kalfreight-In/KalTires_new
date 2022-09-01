@@ -29,12 +29,12 @@ const HeroSection = ({ data }) => (
     {/* <Gradients /> */}
     <HeroBg className=" mt-0 " BackgroundImage={data.img} />
     <HeroContent>
-      <div className=" lg:pl-48 lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
-        <div className="lg:flex flex-row ">
-          <div className="lg:border-l-4 border-x-amber-400 sm:block " />
+      <div className=" 2xl:pl-28 xl:pl-22 lg:pl-16  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
+        <div className="lg:flex flex-row lg:mx-0 mx-16">
+          <div className="lg:border-l-4 border-PrimaryTwo sm:block " />
 
-          <div className="lg:ml-8 ml-0">
-            <div className="lg:text-6xl text-4xl font-bold text-white font-xl lg:w-3/4 pb-4 lg:border-b-0 border-b-4 border-y-amber-400 lg:mx-0 mx-16">
+          <div className="lg:ml-8 ml-0 2xl:w-3/4 lg:w-8/12 w-full ">
+            <div className="2xl:text-6xl xl:text-4xl lg:text-3xl text-4xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 ">
               {data.Heading}
             </div>
             {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
@@ -58,7 +58,7 @@ const HeroSection = ({ data }) => (
                 </button> */}
                 <button
                   type="button"
-                  className="text-white  ml-8 border-2 hover:border-0 border-white  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none hover:bg-red-500"
+                  className="text-white   border-2 hover:border-0 border-white  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none hover:bg-red-500"
                 >
                   <p>{data.CTA1.heading}</p>
                 </button>

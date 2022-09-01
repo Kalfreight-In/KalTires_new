@@ -36,6 +36,7 @@ import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
 import sixs from '../Assets/Images/Whatweoffer/services/six.png';
 import eights from '../Assets/Images/Whatweoffer/services/eight.png';
+<<<<<<< HEAD
 import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel-logo.png';
 import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres-logo.png';
 import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT-Logo.png';
@@ -47,11 +48,22 @@ import michelinLogo from '../Assets/Images/Home/BrandsLogo/micheline-logo.png';
 import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
+=======
+import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
+import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
+import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
+import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/Continental.png';
+import coopertiresLogo from '../Assets/Images/Home/High_performace_brands_logo/Cooper_Tire.png';
+import generalLogo from '../Assets/Images/Home/High_performace_brands_logo/General_Tire.png';
+import goodyearLogo from '../Assets/Images/Home/BrandsLogo/GoodYear.png';
+import michelinLogo from '../Assets/Images/Home/High_performace_brands_logo/Michelin.png';
+
+>>>>>>> 6f3d30cfbf9666bfad99af70f60fd328379c4839
 import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
 import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
 import bktTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/BktTire.png';
-import ContinentalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/cooperTire.png';
-import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
+import ContinentalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/continentalTire.png';
+import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/cooperTire.png';
 import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png';
 import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
 import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
@@ -89,31 +101,49 @@ export const BrandCompnentHeader = [
   {
     id: '1',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/BKT-Logo.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/ameristeel.png',
     heading: 'BKT-Logo',
   },
   {
     id: '2',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/ameristeel-logo.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/apollo-tyres.png',
     heading: 'ameristeel-logo',
   },
   {
     id: '3',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/apollo-tyres-logo.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png',
     heading: 'apollo-tyres-logo',
   },
   {
     id: '4',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/continental-logo.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Continental.png',
     heading: 'continental-logo',
   },
   {
     id: '5',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/general%20logo.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Cooper_Tire.png',
+    heading: 'general logo',
+  },
+  {
+    id: '5',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/General_Tire.png',
+    heading: 'general logo',
+  },
+  // {
+  //   id: '5',
+  //   imageurl:
+  //     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/goodyear-logo.png',
+  //   heading: 'general logo',
+  // },
+  {
+    id: '5',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/GoodYear.png',
     heading: 'general logo',
   },
 ];

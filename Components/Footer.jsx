@@ -13,7 +13,7 @@ import { Link as Slink } from 'react-scroll';
 
 const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
-
+  const [H_WA, setHWA] = useState(false);
   const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
@@ -30,7 +30,7 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="p-20s  md:p-0 xl:block flex justify-center ">
+      <div className="p-8  md:p-0 xl:block flex justify-center ">
         <img
           src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
           alt="logo"
@@ -38,51 +38,38 @@ const Footer = () => {
         />
       </div>
 
-      <div
-        className="flex md:flex-row flex-col-reverse 2xl:pb-8 xl:pt-8 md:pt-4 md:flex md:justify-between md:bg-cover bg-contain"
-        // style={{
-        //   backgroundImage:
-        //     'url(' +
-        //     'https://raw.githubusercontent.com/Kalfreight-In/Kaltires/main/src/assets/Map/map-bg.png' +
-        //     ')',
-
-        //   backgroundPosition: 'center',
-        //   // backgroundSize: 'cover',
-        //   backgroundRepeat: 'no-repeat',
-        //   width: 'full',
-        // }}
-      >
+      <div className="flex md:flex-row flex-col-reverse 2xl:pb-8 xl:pt-8 md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">
         {/* <div className=" justify-center items-center pb-4  flex md:hidden ">
-          <div id="allicons" className="flex  ">
-            <RiFacebookCircleLine
-              onClick={() =>
-                window.open(
-                  'https://www.facebook.com/Kaltires/',
-                  '_blank'
-                )
-              }
-              className="text-white  h-1.8rem w-1.8rem mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
-            />
-            <AiOutlineInstagram
-              onClick={() =>
-                window.open(
-                  'https://www.instagram.com/Kaltire/',
-                  '_blank'
-                )
-              }
-              className="text-white h-1.8rem w-1.8rem mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
-            />
-            <TiSocialLinkedinCircular
-              onClick={() =>
-                window.open(
-                  'https://www.linkedin.com/company/Kaltire',
-                  '_blank'
-                )
-              }
-              className="text-white   h-linkdenheight w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
-            />
-          </div>
-        </div> */}
+            <div id="allicons" className="flex  ">
+              <RiFacebookCircleLine
+                onClick={() =>
+                  window.open(
+                    'https://www.facebook.com/Kalgroups/',
+                    '_blank'
+                  )
+                }
+                className="text-white  h-1.8rem w-1.8rem mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+              />
+              <AiOutlineInstagram
+                onClick={() =>
+                  window.open(
+                    'https://www.instagram.com/Kalgroup/',
+                    '_blank'
+                  )
+                }
+                className="text-white h-1.8rem w-1.8rem mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+              />
+              <TiSocialLinkedinCircular
+                onClick={() =>
+                  window.open(
+                    'https://www.linkedin.com/company/Kalgroup',
+                    '_blank'
+                  )
+                }
+                className="text-white   h-linkdenheight w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+              />
+            </div>
+          </div> */}
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
@@ -110,7 +97,7 @@ const Footer = () => {
                       Reach out to us
                     </div>
 
-                    <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold cursor-pointer">
+                    <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl  cursor-pointer">
                       info@kaltire.com
                     </div>
                   </div>
@@ -125,7 +112,7 @@ const Footer = () => {
                   <div className="ml-4 flex flexcenter">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
+                      <div className="md:text-xl xl:text-xl text-xl   ml-2  ">
                         800-385-8006
                       </div>{' '}
                     </a>
@@ -140,7 +127,7 @@ const Footer = () => {
                   <div className="ml-4">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
+                      <div className="md:text-xl xl:text-xl text-xl   ml-2  ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
                         92335
                       </div>{' '}
@@ -161,33 +148,33 @@ id="mainiconcontainer"
 className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 >
 <div id="allicons" className="flex justify-between  ">
-<RiFacebookCircleLine
-  onClick={() =>
-    window.open(
-      'https://www.facebook.com/Kaltires/',
-      '_blank'
-    )
-  }
-  className="text-white  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
-/>
-<AiOutlineInstagram
-  onClick={() =>
-    window.open(
-      'https://www.instagram.com/Kaltire/',
-      '_blank'
-    )
-  }
-  className="text-white h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
-/>
-<TiSocialLinkedinCircular
-  onClick={() =>
-    window.open(
-      'https://www.linkedin.com/company/Kaltire',
-      '_blank'
-    )
-  }
-  className="text-white   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
-/>
+  <RiFacebookCircleLine
+    onClick={() =>
+      window.open(
+        'https://www.facebook.com/Kalgroups/',
+        '_blank'
+      )
+    }
+    className="text-white  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+  />
+  <AiOutlineInstagram
+    onClick={() =>
+      window.open(
+        'https://www.instagram.com/Kalgroup/',
+        '_blank'
+      )
+    }
+    className="text-white h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+  />
+  <TiSocialLinkedinCircular
+    onClick={() =>
+      window.open(
+        'https://www.linkedin.com/company/Kalgroup',
+        '_blank'
+      )
+    }
+    className="text-white   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+  />
 </div>
 </div> */}
               </div>
@@ -199,7 +186,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     className="text-white cursor-pointer"
                     onClick={() => {
                       setHinventery(!Hinventery);
-
+                      setHWA(false);
                       setHquicklinks(false);
                       setHcontactus(false);
                     }}
@@ -215,7 +202,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     }`}
                   >
                     <a
-                      href="/"
+                      href="#"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                     >
                       <span className="text-xl px-1"> </span>
@@ -226,6 +213,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       smooth
                       duration={1000}
                       spy
+                      exact
                       offset={-80}
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                     >
@@ -242,11 +230,79 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       CSR
                     </a>
                     {/* <a
-                      to="/newsevents"
-                      className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                        to="/newsevents"
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      >
+                        KAL Partz
+                      </a> */}
+                  </div>
+                </div>
+
+                <div className="sm:flex-1 mt-4 sm:mt-0 ">
+                  <div
+                    className="text-white cursor-pointer"
+                    onClick={() => {
+                      setHWA(!H_WA);
+                      setHinventery(false);
+                      setHquicklinks(false);
+                      setHcontactus(false);
+                    }}
+                  >
+                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
+                      Business
+                    </h1>
+                  </div>
+
+                  <div
+                    className={`text-white 2xl:leading-8 leading-6 xl:block   ${
+                      H_WA ? '' : 'hidden'
+                    }`}
+                  >
+                    <a
+                      href="https://kalfreight.com/"
+                      target="_blank"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
+                      rel="noreferrer"
                     >
+                      <span className="text-xl px-1"> </span>
+                      KAL Freight
+                    </a>
+                    <a
+                      href="https://kaltrailers.com/"
+                      target="_blank"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                      rel="noreferrer"
+                    >
+                      <span className="text-xl px-1"> </span>
+                      KAL Trailers & Leasing
+                    </a>
+                    <a
+                      href="https://kaltires.com/"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="text-xl px-1"> </span>
+                      KVL Tires
+                    </a>
+                    <a
+                      href="https://kalpartz.com/"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="text-xl px-1"> </span>
                       KAL Partz
-                    </a> */}
+                    </a>
+                    <a
+                      href="https://kalway.com/"
+                      target="_blank"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      rel="noreferrer"
+                    >
+                      <span className="text-xl px-1"> </span>
+                      KALWAY
+                    </a>
                   </div>
                 </div>
 
@@ -256,7 +312,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(!Hquicklinks);
-
+                      setHWA(false);
                       setHcontactus(false);
                     }}
                   >
@@ -272,37 +328,37 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   >
                     <div>
                       {/* <a
-                  to="#aboutus "
-                  className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
-                >
-                  About us
-                </a> */}
+                    to="#aboutus "
+                    className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                  >
+                    About us
+                  </a> */}
 
                       {/* {window.location.pathname == "/" ? (
-                        <Slink
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer "
-                          to="aboutus"
-                          smooth={true}
-                          duration={1000}
-                          spy={true}
-
-                          offset={-80}
-                        >
-                          About Us
-                        </Slink>
-                      ) : (
-                        <a
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer "
-                          href="/#aboutus"
-                          smooth={true}
-                          duration={1000}
-                          spy={true}
-
-                          offset={-80}
-                        >
-                          About Us
-                        </a>
-                      )} */}
+                          <Slink
+                            className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer "
+                            to="aboutus"
+                            smooth={true}
+                            duration={1000}
+                            spy={true}
+                            exact={true}
+                            offset={-80}
+                          >
+                            About Us
+                          </Slink>
+                        ) : (
+                          <a
+                            className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer "
+                            href="/#aboutus"
+                            smooth={true}
+                            duration={1000}
+                            spy={true}
+                            exact={true}
+                            offset={-80}
+                          >
+                            About Us
+                          </a>
+                        )} */}
                     </div>
                     <div>
                       <a
@@ -367,7 +423,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(false);
-
+                      setHWA(false);
                       setHcontactus(!Hcontactus);
                     }}
                   >
@@ -391,6 +447,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                               smooth
                               duration={1000}
                               spy
+                              exact
                               offset={-80}
                             >
                               Careers
@@ -406,9 +463,9 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                       >
                         {/* <span className="flex">
-                          <span className='text-xl px-1'> </span>
-                          Newsroom
-                        </span> */}
+                            <span className='text-xl px-1'> </span>
+                            Newsroom
+                          </span> */}
                       </a>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
@@ -420,6 +477,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                             smooth
                             duration={1000}
                             spy
+                            exact
                             offset={-80}
                           >
                             <span className="mt-5px lg:leading-7">
@@ -430,16 +488,16 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       {/* <span> » </span> */}
                       {/* <a
-                        href="mailto:tires@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
-                      >
-                        <span className="flex">
-                          <span className='text-xl px-1'> </span>
-                          Financing Solutions
-                        </span>
-                      </a> */}
+                          href="mailto:tires@bigrigcanada.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
+                        >
+                          <span className="flex">
+                            <span className='text-xl px-1'> </span>
+                            Financing Solutions
+                          </span>
+                        </a> */}
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
@@ -458,13 +516,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       {/* <span> » </span> */}
                       {/* <a
-                        href="mailto:partz@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
-                      >
-                        info@kalfreight.com
-                      </a> */}
+                          href="mailto:partz@bigrigcanada.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
+                        >
+                          info@kalfreight.com
+                        </a> */}
                     </div>
 
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
@@ -484,13 +542,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       {/* <span> » </span> */}
                       {/* <a
-                        href="mailto:trailers@bigrigcanada.com"
-                        target="_blank  "
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8"
-                      >
-                        info@kaltrailers.com
-                      </a> */}
+                          href="mailto:trailers@bigrigcanada.com"
+                          target="_blank  "
+                          rel="noreferrer"
+                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8"
+                        >
+                          info@kaltrailers.com
+                        </a> */}
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
@@ -509,59 +567,59 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       {/* <span> » </span> */}
                       {/* <a
-                        href="mailto:info@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center cursor-pointer md:ml-0 ml-8"
-                      >
-                        info@kaltire.com
-                      </a> */}
+                          href="mailto:info@bigrigcanada.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center cursor-pointer md:ml-0 ml-8"
+                        >
+                          info@kalgroup.com
+                        </a> */}
                     </div>
                     {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start">
-                  <div>For all other enquires reach us at</div>
-                  <span> »  </span>
-                  <a
-                    to=""
-                    className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
-                  >
-                    info@bigrigcanada.com{" "}
-                  </a>
-                </div> */}
+                    <div>For all other enquires reach us at</div>
+                    <span> »  </span>
+                    <a
+                      to=""
+                      className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                    >
+                      info@bigrigcanada.com{" "}
+                    </a>
+                  </div> */}
 
                     {/* <div
-                      id="mainiconcontainer"
-                      className=" justify-end mr-28 pt-4 pr-16 hidden xl:flex "
-                    >
-                      <div id="allicons" className="flex justify-between  ">
-                        <RiFacebookCircleLine
-                          onClick={() =>
-                            window.open(
-                              'https://www.facebook.com/Kaltires/',
-                              '_blank'
-                            )
-                          }
-                          className="text-white  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
-                        />
-                        <AiOutlineInstagram
-                          onClick={() =>
-                            window.open(
-                              'https://www.instagram.com/Kaltire/',
-                              '_blank'
-                            )
-                          }
-                          className="text-white h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
-                        />
-                        <TiSocialLinkedinCircular
-                          onClick={() =>
-                            window.open(
-                              'https://www.linkedin.com/company/Kaltire',
-                              '_blank'
-                            )
-                          }
-                          className="text-white   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
-                        />
-                      </div>
-                    </div> */}
+                        id="mainiconcontainer"
+                        className=" justify-end mr-28 pt-4 pr-16 hidden xl:flex "
+                      >
+                        <div id="allicons" className="flex justify-between  ">
+                          <RiFacebookCircleLine
+                            onClick={() =>
+                              window.open(
+                                'https://www.facebook.com/Kalgroups/',
+                                '_blank'
+                              )
+                            }
+                            className="text-white  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                          />
+                          <AiOutlineInstagram
+                            onClick={() =>
+                              window.open(
+                                'https://www.instagram.com/Kalgroup/',
+                                '_blank'
+                              )
+                            }
+                            className="text-white h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                          />
+                          <TiSocialLinkedinCircular
+                            onClick={() =>
+                              window.open(
+                                'https://www.linkedin.com/company/Kalgroup',
+                                '_blank'
+                              )
+                            }
+                            className="text-white   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                          />
+                        </div>
+                      </div> */}
                   </div>
                 </div>
               </div>
@@ -573,7 +631,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   onClick={() => {
                     setHinventery(false);
                     setHquicklinks(false);
-
+                    setHWA(false);
                     setHcontactus(!Hcontactus);
                   }}
                 >
@@ -603,7 +661,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                   <div className="flex flex-row space-x-2 align-center justify-center xl:justify-end">
                     <a
-                      href="/"
+                      to=""
                       className="block md:text-xl text-navsmall font-semibold hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                     >
                       Subscribe Now
@@ -615,7 +673,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/kaltireusa',
+                            'https://www.facebook.com/kalgroupusa',
                             '_blank'
                           )
                         }
@@ -624,7 +682,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            'https://www.instagram.com/kaltireusa/',
+                            'https://www.instagram.com/kalgroupusa/',
                             '_blank'
                           )
                         }
@@ -648,29 +706,28 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
               <div className="xl:ml-16 w-max justify-center items-center  flex flex-col ml-4 xl:mt-0">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
+                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 xl:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
-                    height={80}
                   />
                 </div>
                 <div className="md:flex block md:flex-row gap-x-8">
                   <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
                     <div className="mt-0">
                       {/* <img
-                  src="https://raw.githubusercontent.com/kalfreight-in/Kaltires/master/src/assets/Images/Vectoremail.svg"
-                  alt=""
-                  className="text-white mt-2 "
-                /> */}
-                      <a href="mailto:info@kaltire.com">
+                    src="https://raw.githubusercontent.com/kalfreight-in/Kalgroups/master/src/assets/Images/Vectoremail.svg"
+                    alt=""
+                    className="text-white mt-2 "
+                  /> */}
+                      <a href="mailto:info@kalgroup.com">
                         <MdEmail className="md:h-8 h-6 md:w-8 w-6  " />
                       </a>
                     </div>
                     <div className="block xl:ml-3 ml-2 text-center">
                       {/* <div className="block">Working hours</div> */}
                       <div className="md:text-xl text-lg font-bold xl:font-semibold text-center">
-                        <a href="mailto:info@kaltire.com">info@kaltire.com</a>
+                        <a href="mailto:info@kalgroup.com">info@kalgroup.com</a>
                       </div>
                     </div>
                   </div>
@@ -678,15 +735,20 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                     <div className="mt-2">
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                        <MdPhone className="md:h-6 h-6 md:w-6 w-6 " />
+                        <img
+                          src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
+                          alt=""
+                          className="text-white h-4 w-4"
+                          width={50}
+                        />
                       </a>
                     </div>
-                    <div className="ml-4 flex flexstart">
+                    <div className="ml-4">
                       {/* <div className="block">
-                  Why speak to robots when
-                  <br></br>
-                  we have subject matter experts just a call away.
-                </div> */}
+                    Why speak to robots when
+                    <br></br>
+                    we have subject matter experts just a call away.
+                  </div> */}
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
                         {' '}
                         <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
@@ -710,7 +772,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(false);
-
+                      setHWA(false);
                       setHcontactus(!Hcontactus);
                     }}
                   >
@@ -736,7 +798,6 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div className="flex flex-row align-center justify-center xl:justify-end">
                       <a
-                        href="/"
                         to=""
                         className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover  text-Description   text-center"
                       >
@@ -780,58 +841,58 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   </div>
                 </div>
                 {/* <div
-              id="mainiconcontainer"
-              className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
-            >
-              <div id="allicons" className="flex justify-between  ">
-                <RiFacebookCircleLine
-                  onClick={() =>
-                    window.open(
-                      'https://www.facebook.com/Kaltires/',
-                      '_blank'
-                    )
-                  }
-                  className="text-white  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
-                />
-                <AiOutlineInstagram
-                  onClick={() =>
-                    window.open(
-                      'https://www.instagram.com/Kaltire/',
-                      '_blank'
-                    )
-                  }
-                  className="text-white h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
-                />
-                <TiSocialLinkedinCircular
-                  onClick={() =>
-                    window.open(
-                      'https://www.linkedin.com/company/Kaltire',
-                      '_blank'
-                    )
-                  }
-                  className="text-white   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
-                />
-              </div>
-            </div> */}
+                id="mainiconcontainer"
+                className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
+              >
+                <div id="allicons" className="flex justify-between  ">
+                  <RiFacebookCircleLine
+                    onClick={() =>
+                      window.open(
+                        'https://www.facebook.com/Kalgroups/',
+                        '_blank'
+                      )
+                    }
+                    className="text-white  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                  />
+                  <AiOutlineInstagram
+                    onClick={() =>
+                      window.open(
+                        'https://www.instagram.com/Kalgroup/',
+                        '_blank'
+                      )
+                    }
+                    className="text-white h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                  />
+                  <TiSocialLinkedinCircular
+                    onClick={() =>
+                      window.open(
+                        'https://www.linkedin.com/company/Kalgroup',
+                        '_blank'
+                      )
+                    }
+                    className="text-white   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                  />
+                </div>
+              </div> */}
               </div>
             </div>
           </div>
         </div>
 
         {/* <div className="flex flex-1 flex-row items-center justify-center mb-0 xl:mb-2 mt-4 xl:mr-12">
-          <div className="xl:flex-1  flex xl:justify-end xl:w-1/6 xl:ml-8 ml-0 ">
+            <div className="xl:flex-1  flex xl:justify-end xl:w-1/6 xl:ml-8 ml-0 ">
 
-          </div>
-        </div> */}
+            </div>
+          </div> */}
         {/* flex flex-auto xl:flex-row flex-col  mb-0 xl:mb-2 mt-6 md:ml-28 xl:ml-8 ml-0 xl:items-start items-center */}
       </div>
 
       {/* <div id="mainiconcontainer">
-      <div id="allicons" className="flex justify-end mx-48 ">
-      <RiFacebookCircleLine onClick={()=> window.open('https://www.facebook.com/kaxlroupusa','_blank')} className="text-white mx-2 cursor-pointer h-1.8rem w-1.8rem" />
-      <aiOutlineInstagram onClick={()=> window.open('https://www.instagram.com/Kaltire/', '_blank')} className='text-white  mx-2 cursor-pointer h-1.8rem w-1.8rem' />
-      <TiSocialLinkedinCircular onClick={()=> window.open('https://www.linkedin.com/company/Kaltire','_blank')} className="text-white mx-2 cursor-pointer h-8 w-8" />
-      </div> */}
+        <div id="allicons" className="flex justify-end mx-48 ">
+        <RiFacebookCircleLine onClick={()=> window.open('https://www.facebook.com/kaxlroupusa','_blank')} className="text-white mx-2 cursor-pointer h-1.8rem w-1.8rem" />
+        <aiOutlineInstagram onClick={()=> window.open('https://www.instagram.com/Kalgroup/', '_blank')} className='text-white  mx-2 cursor-pointer h-1.8rem w-1.8rem' />
+        <TiSocialLinkedinCircular onClick={()=> window.open('https://www.linkedin.com/company/Kalgroup','_blank')} className="text-white mx-2 cursor-pointer h-8 w-8" />
+        </div> */}
       {/* </div>   */}
     </div>
   );

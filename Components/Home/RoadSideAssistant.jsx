@@ -47,14 +47,18 @@ const RoadSideAssistant = () => (
               <span className="text-red-500">24/7 </span>
               ROADSIDE ASSISTANCE
             </h2>
-            <p className="text-black mt-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industrys standard dummy text ever since the 1500s, when
-            </p>
 
+            <p className=" mt-5 text-neutral-500 xl:text-lg text-sm font-medium">
+              Driving a commercial vehicle keeps you on the move, making it
+              necessary to be aware of your vehicle’s condition. You must ensure
+              that your tires deliver great mileage, superior traction, and fuel
+              efficiency while on the road. Also, you should be ready to deal
+              with emergency breakdown situations; a trusted tire partner is
+              what you need! KVL Tires provides quick and reliable 24/7 roadside
+              assistance. Our network across the United States gives us
+              accessibility even in remote locations. We are ready to help in
+              times of need!
+            </p>
             <div className="block pt-4 " id="PhoneEmailRoad" />
             <div
               id="InnerphoneEmailRoad"
@@ -65,7 +69,7 @@ const RoadSideAssistant = () => (
                   id="Hotline"
                   className="flex items-center px-10 py-3 bg-red-600 cursor-pointer"
                 >
-                  <MdLocalPhone className="h-6 w-6 text-white" />
+                  <MdLocalPhone className="h-6  text-white" />
 
                   <p className="text-white">800-808-0025</p>
                 </div>
@@ -79,7 +83,7 @@ const RoadSideAssistant = () => (
             <div className="flex lg:justify-center lg:pb-0 pb-4 ">
               <div
                 id="Hotline"
-                className="flex items-center px-10 py-3 bg-red-600 cursor-pointer"
+                className="flex items-center px-20 py-3 bg-red-600 cursor-pointer"
               >
                 <MdLocalPhone className="h-6 w-6 text-white" />
 
