@@ -26,13 +26,17 @@ const Topbar = () => (
             <FaSearch color="red" />
           </button>
         </div>
-        <div className="text-white flex-1 justify-end hidden lg:flex ">
-          <div className="pr-2">
+        <a
+          className="text-white flex-1 justify-end hidden lg:flex "
+          href="tel:8009770010"
+        >
+          <div className="pr-2 flex flexCenter">
             <Image
               src={call}
               alt="call"
               objectFit="contain"
               className="cursor-pointer"
+              height={30}
             />
             {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
           </div>
@@ -40,7 +44,7 @@ const Topbar = () => (
             <div className="font-bold">TollFree Number </div>
             <div className=""> 800-808-0025</div>
           </div>
-        </div>
+        </a>
         {/* <div className="text-white">Search</div> */}
       </div>
     </div>
