@@ -47,7 +47,8 @@ const RoadSideAssistant = () => (
               <span className="text-red-500">24/7 </span>
               ROADSIDE ASSISTANCE
             </h2>
-            <p className=" mt-5 text-neutral-500 text-lg font-medium">
+            +{' '}
+            <p className=" mt-5 text-neutral-500 xl:text-lg text-sm font-medium">
               Driving a commercial vehicle keeps you on the move, making it
               necessary to be aware of your vehicle’s condition. You must ensure
               that your tires deliver great mileage, superior traction, and fuel
@@ -58,7 +59,6 @@ const RoadSideAssistant = () => (
               accessibility even in remote locations. We are ready to help in
               times of need!
             </p>
-
             <div className="block pt-4 " id="PhoneEmailRoad" />
             <div
               id="InnerphoneEmailRoad"

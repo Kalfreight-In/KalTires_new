@@ -43,7 +43,7 @@ const HighBrandsSlider = ({ data }) => (
 const HighPerformanceBrands = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');
   return (
-    <div className="lg:px-36 px-12 py-12 flex flex-col flexcenter">
+    <div className="2xl:px-36 xl:px-28 md:px-20 px-4 py-12 flex flex-col flexcenter">
       <h2
         className={` font-bold  text-center pb-8 ${
           isDesktop ? 'text-4xl' : 'text-2xl text-center'
@@ -51,7 +51,7 @@ const HighPerformanceBrands = () => {
       >
         <span className="text-red-500">HIGH PERFORMANCE</span> BRANDS
       </h2>
-      <div className="lg:px-36">
+      <div className="2xl:px-36 xl:px-32 lg:px-16">
         <Swiper
           modules={[Pagination, Autoplay]}
           loop
