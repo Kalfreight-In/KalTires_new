@@ -42,10 +42,10 @@ export const AboutUs = () => {
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
               className="lg:py-12 md:px-10 px-6 lg:px-0  col-span-4 max-w-5xl  mx-auto  text-center lg:text-left "
             >
-              <h2 className="text-5xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
-                <span className="block">ABOUT US</span>
+              <h2 className="text-5xl tracking-tight   font-poppins font-semibold lg:block hidden">
+                <span className="block text-neutral-800">ABOUT US</span>
               </h2>
-              <p className="text-black mt-5">
+              <p className="text-neutral-500 mt-5 2xl:text-lg lg:text-md text-sm  font-medium">
                 Are you looking for quality tires for your fleet? Does a blowout
                 leave you stranded on your way? Are you looking for 24/7
                 roadside assistance? Are you short of time and unable to find
