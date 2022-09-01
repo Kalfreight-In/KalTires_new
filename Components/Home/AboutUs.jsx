@@ -76,21 +76,21 @@ export const AboutUs = () => {
               {/* <div className="inline-block py-3">
 
               {/* The Phone and Email icons start  */}
-              <div className="flex flex-row ">
-                <div className="flex flex-col bg-zinc-50 p-8 mr -4">
+              <div className="flex flex-row  justify-center ">
+                <div className="flex flex-col bg-zinc-50 px-2  mr -4">
                   <Image src={TireIcon} />
                   <div className="text-center">
                     Commercial <br />
                     Tires
                   </div>
                 </div>
-                <div className="flex flex-col bg-zinc-50 p-8 mx-4">
+                <div className="flex flex-col bg-zinc-50 px-2  mx-4 ">
                   <Image src={TireIcon} />
                   <div className="text-center">
                     Agricultural <br />
                   </div>
                 </div>
-                <div className="flex flex-col bg-zinc-50 p-8 mx-4">
+                <div className="flex flex-col bg-zinc-50 px-2 mx-4">
                   <Image src={TireIcon} />
                   <div className="text-center">
                     Agricultural <br />
