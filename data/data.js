@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import onsiteone from '../Assets/Images/Onsite_Service/onsiteone.png';
 import onsitetwo from '../Assets/Images/Onsite_Service/onsitetwo.png';
 import onsiteseven from '../Assets/Images/Onsite_Service/onsiteseven.png';
@@ -36,14 +37,18 @@ import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
 import sixs from '../Assets/Images/Whatweoffer/services/six.png';
 import eights from '../Assets/Images/Whatweoffer/services/eight.png';
-import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
-import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
-import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
-import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/Continental.png';
-import coopertiresLogo from '../Assets/Images/Home/High_performace_brands_logo/Cooper_Tire.png';
-import generalLogo from '../Assets/Images/Home/High_performace_brands_logo/General_Tire.png';
-import goodyearLogo from '../Assets/Images/Home/BrandsLogo/GoodYear.png';
-import michelinLogo from '../Assets/Images/Home/High_performace_brands_logo/Michelin.png';
+// import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
+// import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
+// import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
+// import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/Continental.png';
+import ameristeel_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ameristeel.png';
+import Apollo_Tyres_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/Apollo_Tyres.png';
+import BKT_Logo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/BKT-Logo.png';
+import continental_logo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/continental-logo.png';
+import Cooper_Tire_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/Cooper_Tire.png';
+import generalLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/General_Tire.png';
+import goodyearLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GoodYear.png';
+import michelinLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/Michelim.png';
 
 import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
 import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
@@ -467,7 +472,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '1',
     heading: 'Cotinental',
-    logo: ContinentalLogo,
+    logo: continental_logo_white,
     Image: ContinentalTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -476,7 +481,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '2',
     heading: 'Goodyear',
-    logo: goodyearLogo,
+    logo: goodyearLogo_white,
     Image: goodyearTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -485,7 +490,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '3',
     heading: 'Apollo',
-    logo: apolloLogo,
+    logo: Apollo_Tyres_white,
     Image: apolloTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -494,7 +499,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '4',
     heading: 'Apollo',
-    logo: bktLogo,
+    logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -503,7 +508,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '5',
     heading: 'General Tire',
-    logo: generalLogo,
+    logo: generalLogo_white,
     Image: generalTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -512,7 +517,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '6',
     heading: 'Ameri Steel',
-    logo: ameristeelLogo,
+    logo: ameristeel_white,
     Image: ameristeelTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -521,7 +526,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '7',
     heading: 'CooperTires',
-    logo: coopertiresLogo,
+    logo: Cooper_Tire_white,
     Image: coopertiresTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
@@ -530,7 +535,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '8',
     heading: 'Michelin',
-    logo: michelinLogo,
+    logo: michelinLogo_white,
     Image: michelinTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
