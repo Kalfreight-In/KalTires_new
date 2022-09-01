@@ -36,6 +36,23 @@ import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
 import sixs from '../Assets/Images/Whatweoffer/services/six.png';
 import eights from '../Assets/Images/Whatweoffer/services/eight.png';
+import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel-logo.png';
+import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres-logo.png';
+import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT-Logo.png';
+import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/continental-logo.png';
+import coopertiresLogo from '../Assets/Images/Home/BrandsLogo/coopertires-logo.png';
+import generalLogo from '../Assets/Images/Home/BrandsLogo/general logo.png';
+import goodyearLogo from '../Assets/Images/Home/BrandsLogo/goodyear-logo.png';
+import michelinLogo from '../Assets/Images/Home/BrandsLogo/micheline-logo.png';
+
+import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
+import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
+import bktTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/BktTire.png';
+import ContinentalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/cooperTire.png';
+import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
+import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png';
+import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
+import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
 
 export const HomeSliderData = [
   {
@@ -432,42 +449,74 @@ export const HighPerformanceBrandsData = [
   {
     id: '1',
     heading: 'Cotinental',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
-    Image:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    logo: ContinentalLogo,
+    Image: ContinentalTire,
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
     src: 'Continental',
   },
   {
     id: '2',
-    heading: 'GoodYear',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/GoodYear_White_logo.png',
-    Image:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    heading: 'Goodyear',
+    logo: goodyearLogo,
+    Image: goodyearTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
     src: 'Continental',
   },
   {
     id: '3',
-    heading: 'GeneralTire',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/GeneralTire_White_logo.png',
-    Image:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    heading: 'Apollo',
+    logo: apolloLogo,
+    Image: apolloTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
-    src: 'GeneralTire',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+    src: 'Continental',
   },
   {
     id: '4',
-    heading: 'BKT',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/BKT_White_logo.png',
-    Image:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    heading: 'Apollo',
+    logo: bktLogo,
+    Image: bktTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
-    src: 'BKT',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+    src: 'Continental',
+  },
+  {
+    id: '5',
+    heading: 'General Tire',
+    logo: generalLogo,
+    Image: generalTire,
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+    src: 'Continental',
+  },
+  {
+    id: '6',
+    heading: 'Ameri Steel',
+    logo: ameristeelLogo,
+    Image: ameristeelTire,
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+    src: 'Continental',
+  },
+  {
+    id: '7',
+    heading: 'CooperTires',
+    logo: coopertiresLogo,
+    Image: coopertiresTire,
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+    src: 'Continental',
+  },
+  {
+    id: '8',
+    heading: 'Michelin',
+    logo: michelinLogo,
+    Image: michelinTire,
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+    src: 'Continental',
   },
 ];
 

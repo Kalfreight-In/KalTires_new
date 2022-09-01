@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
-import { BiMessageDetail } from 'react-icons/bi';
+// import { BiMessageDetail } from 'react-icons/bi';
 import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.png';
 import TireIcon from '../../Assets/Images/Home/Tire_Icon.png';
 
