@@ -627,26 +627,32 @@ export const IndustrialTiresdata = [
     id: '1',
     img: one,
     heading: 'Industrial Tires',
+    pr: 0,
   },
   {
     id: '2',
     img: two,
     heading: 'Earthmover Tips',
+    pr: 8,
   },
   {
     id: '3',
     img: three,
     heading: 'Agricultural Tires',
+
+    pr: 0,
   },
   {
     id: '4',
     img: four,
     heading: 'Passenger Tires',
+    pr: 0,
   },
   {
     id: '5',
     img: five,
     heading: 'Light Truck Tires',
+    pr: 0,
   },
 ];
 

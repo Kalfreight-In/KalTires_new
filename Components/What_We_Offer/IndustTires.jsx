@@ -157,7 +157,7 @@ export const IndustTires = () => (
           <div className="flex justify-center items-end">
             {IndustrialTiresdata.map((index) => (
               <div
-                className="flex flex-col justify-between px-2"
+                className={`flex flex-col justify-between px-2 pr-${index.pr}`}
                 key={index.id}
               >
                 <div className="lg:relative  self-start ">
