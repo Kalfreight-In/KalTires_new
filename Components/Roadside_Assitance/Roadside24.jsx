@@ -1,7 +1,7 @@
 import Image from 'next/image';
 // import { IoIosCheckmark } from 'react-icons/io';
 import { MdLocalPhone } from 'react-icons/md';
-import { BiMessageDetail } from 'react-icons/bi';
+// import { BiMessageDetail } from 'react-icons/bi';
 import servicetruck from '../../Assets/Images/Roadside_Assistance/servicetruck.png';
 
 const Roadside = () => (
@@ -12,8 +12,8 @@ const Roadside = () => (
           <div className="lg:hidden  flex justify-center z-10 relative">
             <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold ">
               <span className="block ">
-                <span className="text-kaltire-red">24 / 7</span> ROADSIDE
-                ASSITANCE
+                <span className="text-kaltire-red font-poppins">24 / 7</span>{' '}
+                ROADSIDE ASSITANCE
               </span>
             </h2>
           </div>
@@ -27,12 +27,12 @@ const Roadside = () => (
           <div className="flex items-center  xl:pt-32 2xl:pt-2 ">
             <div className="md:px-10 px-6 lg:px-0 max-w-4xl lg:max-w-md mx-12   pt-0">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
-                <span className="block">
-                  <span className="text-kaltire-red">24 / 7</span>ROADSIDE
-                  ASSITANCE
+                <span className="block font-poppins">
+                  <span className="text-kaltire-red font-poppins">24 / 7</span>
+                  ROADSIDE ASSITANCE
                 </span>
               </h2>
-              <p className="text-black mt-5">
+              <p className="text-black mt-5 font-poppins">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
                 roadside assistance. We provide 24-hour breakdown services to
@@ -86,11 +86,11 @@ const Roadside = () => (
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second">
-                    <h1 className="font-bold">Hot Line</h1>
-                    <p>800-808-0025</p>
+                    <h1 className="font-bold font-poppins">Hot Line</h1>
+                    <p className="font-poppins">800-808-0025</p>
                   </div>
                 </div>
-                <div id="LiveChat" className="md:ml-6 ml-10 flex items-center">
+                {/* <div id="LiveChat" className="md:ml-6 ml-10 flex items-center">
                   <div id="LivechatFirst" className="md:mx-4 mx-2">
                     <BiMessageDetail className="h-6 w-6 text-kaltire-red" />
                   </div>
@@ -98,7 +98,7 @@ const Roadside = () => (
                     <h1 className="font-bold">Live Chat </h1>
                     <p>Chat with experts</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

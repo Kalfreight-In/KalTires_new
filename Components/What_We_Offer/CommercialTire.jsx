@@ -40,11 +40,11 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className={` mr-2 text-center focus:border-b-2 font-bold border-white text-white ${
+                          className={` mr-2 text-center focus:border-b-2 font-bold font-poppins border-white text-white ${
                             alldata.Heading === 'Retread Tires'
-                              ? 'text-kaltire-red border-white border-b-2'
-                              : 'text-white'
-                          }  transition-all duration-100 delay-75 cursor-pointer   focus:text-kaltire-red`}
+                              ? 'text-kaltire-red border-white border-b-2 font-poppins'
+                              : 'text-white font-poppins'
+                          }  transition-all duration-100 delay-75 cursor-pointer  font-poppins focus:text-kaltire-red`}
                           onClick={() => setalldata(CommercialTireone[0])}
                         >
                           {alldata.titleone}
@@ -54,14 +54,14 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className="mr-2 font-bold text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
+                          className="mr-2 font-bold text-center focus:border-b-2 font-poppins border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
                           onClick={() => setalldata(CommercialTiretwo[0])}
                         >
                           {alldata.titletwo}
                         </button>
                       </span>
                     </div>
-                    <p className="text-white mt-5 text-justify ">
+                    <p className="text-white mt-5 text-justify font-poppins">
                       {alldata.desc}
                     </p>
                     <div className="flex items-center h-24 pr-12">

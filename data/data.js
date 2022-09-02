@@ -21,12 +21,12 @@ import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
 import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
 import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
 import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
-import Accounts from '../Assets/Images/Career/Departments/Accounts.png';
-import administrator from '../Assets/Images/Career/Departments/administrator.png';
-import inventorycant from '../Assets/Images/Career/Departments/inventorycant.png';
-import operations from '../Assets/Images/Career/Departments/operations.png';
-import sales from '../Assets/Images/Career/Departments/sales.png';
-import servicetech from '../Assets/Images/Career/Departments/servicetech.png';
+import Sales from '../Assets/Images/Career/Departments/Accounts.png';
+import Management from '../Assets/Images/Career/Departments/administrator.png';
+import DeliveryDrivers from '../Assets/Images/Career/Departments/inventorycant.png';
+import ServiceTechnicians from '../Assets/Images/Career/Departments/operations.png';
+import Administration from '../Assets/Images/Career/Departments/sales.png';
+import Warehouse from '../Assets/Images/Career/Departments/servicetech.png';
 import one from '../Assets/Images/Whatweoffer/Industrialtires/one.png';
 import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
 import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
@@ -558,33 +558,34 @@ export const HighPerformanceBrandsData = [
 export const Departmentsdata = [
   {
     id: 1,
-    img: Accounts,
-    Alt: 'Accounts & Finance',
+    img: Management,
+    Alt: 'Management',
   },
   {
     id: 2,
-    img: administrator,
-    Alt: 'Administration',
+    img: Warehouse,
+    Alt: 'Warehouse Manager',
   },
   {
     id: 3,
-    img: inventorycant,
-    Alt: 'Inventory Control',
+    img: Sales,
+    Alt: 'Sales Manager',
   },
+
   {
     id: 4,
-    img: operations,
-    Alt: 'Operations',
+    img: DeliveryDrivers,
+    Alt: 'Delivery Drivers',
   },
   {
     id: 5,
-    img: sales,
-    Alt: 'Sales',
+    img: ServiceTechnicians,
+    Alt: 'Service Technicians',
   },
   {
     id: 6,
-    img: servicetech,
-    Alt: 'Service Technician',
+    img: Administration,
+    Alt: 'Administration',
   },
 ];
 

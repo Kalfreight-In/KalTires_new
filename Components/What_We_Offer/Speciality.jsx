@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
-import { BiMessageDetail } from 'react-icons/bi';
+// import { BiMessageDetail } from 'react-icons/bi';
 import blacktire from '../../Assets/Images/Whatweoffer/speciality/blacktire.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
@@ -24,7 +24,7 @@ export const Speciality = () => {
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
                 <span className="block">
-                  <span className="border-b-2 border-red-600 px-4">
+                  <span className="border-b-2 border-red-600 px-4 font-poppins">
                     Speciality
                   </span>
                 </span>
@@ -42,12 +42,12 @@ export const Speciality = () => {
             <div className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left ml-8">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">
-                  <span className="border-kaltire-red border-b-2">
+                  <span className="border-kaltire-red border-b-2 font-poppins">
                     Speciality
                   </span>
                 </span>
               </h2>
-              <p className="text-black mt-5 lg:px-0 px-8  text-justify">
+              <p className="text-black mt-5 lg:px-0 px-8  text-justify font-poppins">
                 We strive to provide the best quality tire for the application
                 suitable to your operation. The industrial sector performs
                 loading, excavating, and lifting material, increasing the need
@@ -86,8 +86,8 @@ export const Speciality = () => {
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="Hotline-second">
-                        <h1 className="font-bold">Hot Line</h1>
-                        <p>800-808-0025</p>
+                        <h1 className="font-bold font-poppins">Hot Line</h1>
+                        <p className="font-poppins">800-808-0025</p>
                       </div>
                     </div>
                   </a>
@@ -128,12 +128,12 @@ export const Speciality = () => {
                   <div id="Hotline-first" className="md:mx-4 mx-2 ">
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
-                  <div id="Hotline-second">
+                  <div id="Hotline-second font-poppins">
                     <h1 className="font-bold">Hot Line</h1>
                     <p>800-808-0025</p>
                   </div>
                 </div>
-                <div
+                {/* <div
                   id="LiveChat"
                   className="md:ml-6 ml-10 flex items-center lg:pr-0 pr-4 "
                 >
@@ -144,7 +144,7 @@ export const Speciality = () => {
                     <h1 className="font-bold">Live Chat </h1>
                     <p>Chat with experts</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

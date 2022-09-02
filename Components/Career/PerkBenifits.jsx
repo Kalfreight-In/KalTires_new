@@ -16,7 +16,7 @@ export const PerkBenifits = () => {
       <div id="Perkmaininner">
         <div id="Perkmaingrid" className="pb-8 ">
           <div className="lg:block hidden">
-            <h1 className="text-departmentheading font-bold text-4xl px-20 pt-8">
+            <h1 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-poppins">
               Perks & Benefits
             </h1>
             <div
@@ -37,7 +37,7 @@ export const PerkBenifits = () => {
                   <h1 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 ">
                     {index.Heading}
                   </h1>
-                  <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left">
+                  <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left font-poppins">
                     {index.desc}
                   </p>
                 </div>
@@ -50,7 +50,7 @@ export const PerkBenifits = () => {
               id="perksliderinnermain"
               className={isMobile ? 'px-6' : 'px-12'}
             >
-              <h1 className="text-departmentheading font-bold text-3xl  pt-8 pb-4 text-center">
+              <h1 className="text-departmentheading font-bold text-3xl  pt-8 pb-4 text-center font-poppins">
                 Perks & Benefits
               </h1>
               <Swiper
@@ -82,7 +82,7 @@ export const PerkBenifits = () => {
                         <h1 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 ">
                           {data.Heading}
                         </h1>
-                        <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left h-48">
+                        <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left h-48 font-poppins">
                           {data.desc}
                         </p>
                       </div>

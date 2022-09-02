@@ -3,7 +3,7 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { careerKvl } from '../../data/data';
 
 const ydata = careerKvl;
-console.log(ydata);
+// console.log(ydata);
 
 export const Ykvl = () => {
   const isMobile = useMediaQuery('(max-width:768px)');
@@ -19,7 +19,7 @@ export const Ykvl = () => {
               id="firstboxykvl"
               className="flex items-center lg:justify-start justify-center"
             >
-              <h1 className="text-4xl text-departmentheading font-poppins font-bold mr-8">
+              <h1 className="text-4xl text-departmentheading font-poppins font-bold mr-8 ">
                 {thisdata.Headingm}
               </h1>
             </div>
@@ -34,8 +34,8 @@ export const Ykvl = () => {
                 id="secondboxykvl"
                 className={
                   isMobile
-                    ? 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-4 pl-8 text-justify'
-                    : 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-16 pl-8'
+                    ? 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-4 pl-8 text-justify font-poppins'
+                    : 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-16 pl-8 font-poppins'
                 }
               >
                 {thisdata.desc}
