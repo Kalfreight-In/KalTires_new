@@ -126,9 +126,10 @@ const LeafMap = ({ Data, SData, location }) => {
                     fillColor: '#ED1C24',
                     weight: 0.6,
                     opacity: 1,
+
                     color: 'white',
                     dashArray: '0',
-                    fillOpacity: 1,
+                    fillOpacity: 0.4,
                   });
                 },
                 mouseout: (e) => {
