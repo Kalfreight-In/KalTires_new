@@ -51,6 +51,7 @@ const LeafMap = ({ Data, SData, location }) => {
   const mapRef = React.useRef(null);
   const [maps, setMaps] = useState(null);
   const [office, setoffice] = useState(null);
+
   const [officeListss, setofficeListss] = useState(Data);
   console.log(`..........${officeListss[0]}`);
   console.log(`...........${location}`);
@@ -194,7 +195,24 @@ const LeafMap = ({ Data, SData, location }) => {
             icon={covidIcon}
           />
         ))}
-
+        {typeAddress ? (
+          <Marker
+            draggable
+            animate
+            position={typeAddress}
+            eventHandlers={
+              {
+                // click: () => {
+                //   setoffice(eachData);
+                // },
+                // hover: () => {
+                //   setoffice(eachData);
+                // },
+              }
+            }
+            icon={covidIcon}
+          />
+        ) : null}
         {office && (
           <Popup
             position={[
