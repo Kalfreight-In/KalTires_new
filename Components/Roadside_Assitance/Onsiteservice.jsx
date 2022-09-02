@@ -2,11 +2,7 @@ import Image from 'next/image';
 import { ImPhone } from 'react-icons/im';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
-import {
-  // HighPerformanceBrandsData,
-  Onsitecomponentdata,
-  OnsiteGriddata,
-} from '../../data/data';
+import { Onsitecomponentdata, OnsiteGriddata } from '../../data/data';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const Onsiteservice = () => {
@@ -30,7 +26,7 @@ const Onsiteservice = () => {
                 <h1 className="lg:text-xl text-lg font-bold font-poppins ">
                   {index.heading}
                 </h1>
-                <p className="pt-6 lg:text-sm font-normal px-16 text-justify">
+                <p className="pt-6 lg:text-sm font-normal px-16 text-justify font-poppins">
                   {index.desc}
                 </p>
               </div>
@@ -68,71 +64,7 @@ const Onsiteservice = () => {
               </div>
             </SwiperSlide>
           ))}
-          {/* {OnsiteGriddata.map((data) => (
-            <SwiperSlide key={data.id}>
-              <div className="bg-black">{data.heading}</div>
-              <div className="block">
-                <div
-                  id="grid"
-                  className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
-                >
-                  <div className="bg-bg-white-1 text-center">
-                    <div className="flex justify-center">
-                      <div className="w-onsiteimage h-onsiteimage flex">
-                        <Image src={index.img} alt="service" />
-                      </div>
-                    </div>
-
-                    <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                      {index.heading}
-                    </h1>
-                    <p className="pt-6 lg:text-sm font-normal px-16">
-                      {index.desc}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))} */}
         </Swiper>
-        {/* <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        slidesPerGroup={1}
-        loop
-        modules={[Pagination, Navigation, Autoplay]}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: false,
-        }}
-        navigation
-      >
-        {OnsiteGriddata.map((index) => (
-          <SwiperSlide key={index}>
-            <div id="maingridmobile" className="md:hidden">
-              <div
-                id="gridmobile"
-                className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatemobile pt-20 px-4"
-              >
-                <div className="bg-bg-white-1 text-center" >
-                  <div className="flex justify-center">
-                    <div className="w-onsiteimage h-onsiteimage flex">
-                      <Image src={index.img} alt="service" />
-                    </div>
-                  </div>
-
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                    {index.heading}
-                  </h1>
-                  <p className="pt-6 lg:text-sm font-normal px-16">
-                    {index.desc}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>  */}
 
         {Onsitecomponentdata.map((onsite) => (
           <div id="secondonsite" className="mt-12 mb-4" key={onsite.id}>

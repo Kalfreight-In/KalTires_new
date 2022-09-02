@@ -21,12 +21,12 @@ import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
 import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
 import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
 import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
-import Accounts from '../Assets/Images/Career/Departments/Accounts.png';
-import administrator from '../Assets/Images/Career/Departments/administrator.png';
-import inventorycant from '../Assets/Images/Career/Departments/inventorycant.png';
-import operations from '../Assets/Images/Career/Departments/operations.png';
-import sales from '../Assets/Images/Career/Departments/sales.png';
-import servicetech from '../Assets/Images/Career/Departments/servicetech.png';
+import Sales from '../Assets/Images/Career/Departments/Accounts.png';
+import Management from '../Assets/Images/Career/Departments/administrator.png';
+import DeliveryDrivers from '../Assets/Images/Career/Departments/inventorycant.png';
+import ServiceTechnicians from '../Assets/Images/Career/Departments/operations.png';
+import Administration from '../Assets/Images/Career/Departments/sales.png';
+import Warehouse from '../Assets/Images/Career/Departments/servicetech.png';
 import one from '../Assets/Images/Whatweoffer/Industrialtires/one.png';
 import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
 import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
@@ -37,6 +37,15 @@ import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
 import sixs from '../Assets/Images/Whatweoffer/services/six.png';
 import eights from '../Assets/Images/Whatweoffer/services/eight.png';
+
+// import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
+// import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
+// import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
+// import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/Continental.png';
+// import coopertiresLogo from '../Assets/Images/Home/High_performace_brands_logo/Cooper_Tire.png';
+// import generalLogo from '../Assets/Images/Home/High_performace_brands_logo/General_Tire.png';
+// import goodyearLogo from '../Assets/Images/Home/BrandsLogo/GoodYear.png';
+// import michelinLogo from '../Assets/Images/Home/High_performace_brands_logo/Michelin.png';
 // import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
 // import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
 // import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
@@ -58,6 +67,9 @@ import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/H
 import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png';
 import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
 import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
+import ones from '../Assets/Images/Whatweoffer/services/one.png';
+import threes from '../Assets/Images/Whatweoffer/services/three.png';
+import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
 
 export const HomeSliderData = [
   {
@@ -546,33 +558,34 @@ export const HighPerformanceBrandsData = [
 export const Departmentsdata = [
   {
     id: 1,
-    img: Accounts,
-    Alt: 'Accounts & Finance',
+    img: Management,
+    Alt: 'Management',
   },
   {
     id: 2,
-    img: administrator,
-    Alt: 'Administration',
+    img: Warehouse,
+    Alt: 'Warehouse Manager',
   },
   {
     id: 3,
-    img: inventorycant,
-    Alt: 'Inventory Control',
+    img: Sales,
+    Alt: 'Sales Manager',
   },
+
   {
     id: 4,
-    img: operations,
-    Alt: 'Operations',
+    img: DeliveryDrivers,
+    Alt: 'Delivery Drivers',
   },
   {
     id: 5,
-    img: sales,
-    Alt: 'Sales',
+    img: ServiceTechnicians,
+    Alt: 'Service Technicians',
   },
   {
     id: 6,
-    img: servicetech,
-    Alt: 'Service Technician',
+    img: Administration,
+    Alt: 'Administration',
   },
 ];
 
@@ -614,46 +627,52 @@ export const IndustrialTiresdata = [
     id: '1',
     img: one,
     heading: 'Industrial Tires',
+    pr: 0,
   },
   {
     id: '2',
     img: two,
     heading: 'Earthmover Tips',
+    pr: 8,
   },
   {
     id: '3',
     img: three,
     heading: 'Agricultural Tires',
+
+    pr: 0,
   },
   {
     id: '4',
     img: four,
     heading: 'Passenger Tires',
+    pr: 0,
   },
   {
     id: '5',
     img: five,
     heading: 'Light Truck Tires',
+    pr: 0,
   },
 ];
 
 export const Servicesdata = [
-  // {
-  //   id: 1,
-  //   img: ones,
-  //   heading: 'Tire & Wheel Balancing',
-  // },
+  {
+    id: 1,
+    img: ones,
+    heading: 'Tire & Wheel Balancing',
+  },
   {
     id: 2,
     img: twos,
     heading: 'Retread Services',
     desc: 'It is no secret that every fleet’s most significant investment is its tires and associated services. Look to our retreading services at KVL Tires for safe, reliable & cost-effective options. We have partnered with ContiTread to provide our customers with quality options only. So, get on the road with the most trusted retreads. Contact the nearest KVL Tires location for more information. Save a few bucks today & thank us later.',
   },
-  // {
-  //   id: 3,
-  //   img: threes,
-  //   heading: 'Pick Up & Delivery Services',
-  // },
+  {
+    id: 3,
+    img: threes,
+    heading: 'Pick Up & Delivery Services',
+  },
   {
     id: 4,
     img: fours,
@@ -672,11 +691,11 @@ export const Servicesdata = [
     heading: 'Mounted Wheel Program',
     desc: 'Managing a fleet is no less than a herculean task and while at it, juggling between tire business is not a good option. Commercial Tires need regular upkeep for high performance, better mileage, and safety. The fleet owners are always looking to decrease their tire operating costs. KVL Tires has devised a strategic mounted wheel program to provide high-quality new commercial tires and retreads delivered according to their requirements. The tires come inflated and mounted on new or reconditioned wheels, ready for installation. This mounted program keeps all tire-associated troubles at bay. Speak to a tire specialist at your nearest location for a customer-friendly solution. ',
   },
-  // {
-  //   id: 7,
-  //   img: sevens,
-  //   heading: 'Heavy Duty Front-End Work',
-  // },
+  {
+    id: 7,
+    img: sevens,
+    heading: 'Heavy Duty Front-End Work',
+  },
   {
     id: 8,
     img: eights,

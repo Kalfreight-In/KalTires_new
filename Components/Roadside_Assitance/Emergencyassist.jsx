@@ -24,7 +24,7 @@ const Emergencyassist = () => (
         </h1>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
           <button
-            className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-2xl lg:font-bold"
+            className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-2xl lg:font-bold font-poppins"
             type="button"
           >
             <span>
