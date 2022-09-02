@@ -1,13 +1,9 @@
 {
   "folders": [
-	{
-		"name": "context",
-		"path": "..\\..\\..\\new-ecommerce\\apya\\context"
-	},
-	{
-		"name": "KalTires_new",
-		"path": "..\\.."
-	}
-],
+    {
+      "name": "KalTires_new",
+      "path": "..\\.."
+    }
+  ],
   "settings": {}
 }

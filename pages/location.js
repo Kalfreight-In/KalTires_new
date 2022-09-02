@@ -11,6 +11,7 @@ import {
   Scroll,
   scroller,
   Element,
+  Button,
 } from 'react-scroll';
 import { MapData } from '../data/data';
 
@@ -125,7 +126,7 @@ const MapCaller = ({ Data, SData, location }) => (
 
 const location = () => {
   const [Maplocation, setMapocation] = useState();
-
+  const [TypedLocation, setTypedLocation] = useState();
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
   //   setIsBrowser(true);
@@ -143,8 +144,9 @@ const location = () => {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
+    console.log(`location after typed${TypedLocation}`);
     MapData.map((x) => false);
-  }, [visibilities]);
+  }, [visibilities, TypedLocation]);
 
   const handleClick = (event, coordinates) => {
     scroller.scrollTo('MapContanierElement', {
@@ -167,7 +169,8 @@ const location = () => {
       id="mainmapcontainer"
       className="bg-black flex flex-col-reverse  md:flex-col bg-cover"
     >
-      <Search value={null} />
+      <Search setTypedLocation />
+
       <Element id="MapContanier" name="MapContanierElement">
         {/* <Map
           Fontana={isFontana}

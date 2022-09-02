@@ -19,6 +19,7 @@ import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
 import { statesData } from './GeoData.js';
+import { useStateContext } from '../../context/StateContext';
 
 // function style(feature) {
 //   return {
@@ -45,15 +46,28 @@ const covidIcon = new Icon({
   iconSize: [25, 25],
 });
 const LeafMap = ({ Data, SData, location }) => {
+  const { userAddress, setUserAdress, setTypeAddress, typeAddress } =
+    useStateContext();
   const mapRef = React.useRef(null);
   const [maps, setMaps] = useState(null);
   const [office, setoffice] = useState(null);
+
   const [officeListss, setofficeListss] = useState(Data);
   console.log(`..........${officeListss[0]}`);
   console.log(`...........${location}`);
   // function handleOnSerchResults(data) {
   //   console.log('serch Results', data);
   // }
+  useEffect(() => {
+    if (maps) {
+      setTimeout(() => {
+        maps.flyTo(typeAddress || [40.8054, -99.0241], 9, {
+          duration: 1,
+        });
+      }, 1000);
+    }
+    console.log(`from inside the laef and using context${typeAddress}`);
+  }, [typeAddress]);
   useEffect(() => {
     // const control = geosearch();
     // control.addTo(MapContainer);
@@ -181,7 +195,24 @@ const LeafMap = ({ Data, SData, location }) => {
             icon={covidIcon}
           />
         ))}
-
+        {typeAddress ? (
+          <Marker
+            draggable
+            animate
+            position={typeAddress}
+            eventHandlers={
+              {
+                // click: () => {
+                //   setoffice(eachData);
+                // },
+                // hover: () => {
+                //   setoffice(eachData);
+                // },
+              }
+            }
+            icon={covidIcon}
+          />
+        ) : null}
         {office && (
           <Popup
             position={[
