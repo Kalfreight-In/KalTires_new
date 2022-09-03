@@ -20,6 +20,7 @@ import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
 import { statesData } from './GeoData.js';
 import { useStateContext } from '../../context/StateContext';
+import NearestLocation from '../../function/NearestLocation';
 
 // function style(feature) {
 //   return {
@@ -66,7 +67,12 @@ const LeafMap = ({ Data, SData, location }) => {
         });
       }, 1000);
     }
-    console.log(`from inside the laef and using context${typeAddress}`);
+    console.log(`from inside the laef an  d using context ${typeAddress}`);
+    {
+      typeAddress
+        ? console.log(`.......Nearest Location ${NearestLocation(typeAddress)}`)
+        : null;
+    }
   }, [typeAddress]);
   useEffect(() => {
     // const control = geosearch();
