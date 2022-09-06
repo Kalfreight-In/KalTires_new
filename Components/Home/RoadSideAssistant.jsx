@@ -42,7 +42,7 @@ const RoadSideAssistant = () => (
 
           <div
             //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
-            className=" md:px-10 px-6 lg:px-0  col-span-5 max-w-5xl  mx-auto  text-center lg:text-left ml-20"
+            className=" md:px-10 px-6 lg:px-0  col-span-5 max-w-5xl  mx-auto  text-center lg:text-left lg:ml-20 ml-0"
           >
             <h2 className="text-5xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
               <span className="text-red-500">24/7 </span>

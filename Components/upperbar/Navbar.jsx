@@ -29,6 +29,8 @@ const Navbar = ({ toggle }) => {
   const AboutusRef = useRef();
   const router = useRouter();
   useEffect(() => {
+    if (router.pathname === '/#AboutUs_Section') {
+    }
     console.log(AboutusRef);
   }, [AboutusRef]);
   return (
@@ -52,21 +54,15 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <SLink
-            to="AboutUs_Section"
-            spy
-            smooth
-            duration={100}
-            ref={AboutusRef}
-          >
+          <Link href="/#AboutUs_Section" ref={AboutusRef}>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
-                router.pathname === '/AboutUs' ? 'bg-red-500' : ''
+                router.pathname === '/#AboutUs_Section' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/AboutUs'
+                  router.pathname === '/#AboutUs_Section'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -74,7 +70,7 @@ const Navbar = ({ toggle }) => {
                 About Us
               </div>
             </div>
-          </SLink>
+          </Link>
           <Link href="/WhatWeOffer">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
