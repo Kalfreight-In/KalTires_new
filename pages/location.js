@@ -13,7 +13,7 @@ import {
   Element,
   Button,
 } from 'react-scroll';
-import { MapData } from '../data/data';
+import { MapData1 } from '../data/data';
 
 import { useHover } from '../Hooks/Hover';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
@@ -138,14 +138,14 @@ const location = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
-    MapData.map((x) => false)
+    MapData1.map((x) => false)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
     console.log(`location after typed${TypedLocation}`);
-    MapData.map((x) => false);
+    MapData1.map((x) => false);
   }, [visibilities, TypedLocation]);
 
   const handleClick = (event, coordinates) => {
@@ -187,7 +187,11 @@ const location = () => {
           Lathrop={isLathrop}
           Calexico={isCalexico}
         /> */}
-        <MapCaller Data={MapData} SData={visibilities} location={Maplocation} />
+        <MapCaller
+          Data={MapData1}
+          SData={visibilities}
+          location={Maplocation}
+        />
       </Element>
       <div className="w-full flex-1 ">
         <div
@@ -204,7 +208,7 @@ const location = () => {
           <div className="  w-full  md:mb-0 bg-white ">
             <SidebarMenu className=" ">
               <div className="">
-                {MapData.map((value, index) => (
+                {MapData1.map((value, index) => (
                   <div key={value.id} className="bg-black mb-4">
                     <Divlink
                       spy

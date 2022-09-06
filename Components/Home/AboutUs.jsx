@@ -50,7 +50,7 @@ export const AboutUs = () => {
                   ABOUT US
                 </span>
               </h2>
-              <p className="text-neutral-500 mt-5 2xl:text-lg lg:text-md text-sm  font-medium">
+              <p className="text-neutral-500 mt-5 2xl:text-lg lg:text-md text-sm  font-medium text-justify">
                 Are you looking for quality tires for your fleet? Does a blowout
                 leave you stranded on your way? Are you looking for 24/7
                 roadside assistance? Are you short of time and unable to find
@@ -70,13 +70,7 @@ export const AboutUs = () => {
                 a diverse clientele at affordable prices.
                 <br />
                 <div
-                  onClick={() => setShowMoreAboutUS(!ShowMoreAboutUS)}
-                  className="underline decoration-2 decoration-sky-500 text-PrimaryTwo font-medium cursor-pointer"
-                >
-                  {!ShowMoreAboutUS ? 'Show More' : 'Show less'}
-                </div>
-                <div
-                  className={`Transition-Height-${
+                  className={`text-justify mt-4 Transition-Height-${
                     ShowMoreAboutUS ? 'in' : 'out'
                   }`}
                 >
@@ -112,6 +106,12 @@ export const AboutUs = () => {
                       thought.
                     </p>
                   ) : null}
+                </div>
+                <div
+                  onClick={() => setShowMoreAboutUS(!ShowMoreAboutUS)}
+                  className="underline decoration-2 decoration-sky-500 text-PrimaryTwo font-medium cursor-pointer "
+                >
+                  {!ShowMoreAboutUS ? 'Show More' : 'Show less'}
                 </div>
               </p>
 
