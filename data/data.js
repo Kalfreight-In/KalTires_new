@@ -585,33 +585,33 @@ export const Departmentsdata = [
   {
     id: 1,
     img: Management,
-    Alt: 'Management',
+    Heading: 'Management',
   },
   {
     id: 2,
     img: Warehouse,
-    Alt: 'Warehouse Manager',
+    Heading: 'Warehouse Manager',
   },
   {
     id: 3,
     img: Sales,
-    Alt: 'Sales Manager',
+    Heading: 'Sales Manager',
   },
 
   {
     id: 4,
     img: DeliveryDrivers,
-    Alt: 'Delivery Drivers',
+    Heading: 'Delivery Drivers',
   },
   {
     id: 5,
     img: ServiceTechnicians,
-    Alt: 'Service Technicians',
+    Heading: 'Service Technicians',
   },
   {
     id: 6,
     img: Administration,
-    Alt: 'Administration',
+    Heading: 'Administration',
   },
 ];
 

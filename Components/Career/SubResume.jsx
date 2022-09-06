@@ -7,13 +7,13 @@ export const SubResume = () => (
         <div id="maincontentresume">
           <div id="innermaincontentresume" className="text-center">
             <h1 className="text-2xl font-bold text-resumeheading font-poppins">
-              Join Our Awesome and Diversified Team
+              Join our Impressive & Diversified Team
             </h1>
-            <p className="text-resumedescription py-2 text-xl font-poppins">
+            {/* <p className="text-resumedescription py-2 text-xl font-poppins">
               Many new women Hosts have started hosting on Airbnb during the
               pandemic, and women <br /> with only one listing have collectively
               earned over a half billion{' '}
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -49,7 +49,7 @@ export const SubResume = () => (
 
         <div id="lastresumecontent" className="text-center text-kaltire-red">
           <p className="text-xl font-poppins">
-            Or Email your resume directly at info@kalpartz.com
+            Or mail your resume directly at info@kvltires.com
           </p>
         </div>
       </div>

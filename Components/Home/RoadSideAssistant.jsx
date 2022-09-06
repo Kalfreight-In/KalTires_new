@@ -5,7 +5,7 @@ import { MdLocalPhone } from 'react-icons/md';
 import RoadSideAss from '../../Assets/Images/Home/RoadsideAssistant_Home.png';
 
 const RoadSideAssistant = () => (
-  <div className="mt-32">
+  <div>
     <div
       style={{
         backgroundImage:
