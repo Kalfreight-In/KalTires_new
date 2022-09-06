@@ -172,19 +172,19 @@
 // .swiper-pagination-bullet-bullet-active {
 //   border-bottom: 2px solid #ffab53 !important;
 // }
-.swiper-pagination-bullet-active {
-  background-color: #fff !important;
-}
-.swiper-pagination {
-  color: #fff !important;
-}
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: 22px !important;
-  width: 125% !important;
-}
+// .swiper-pagination-bullet-active {
+//   background-color: #fff !important;
+// }
+// .swiper-pagination {
+//   color: #fff !important;
+// }
+// .swiper-horizontal > .swiper-pagination-bullets,
+// .swiper-pagination-bullets.swiper-pagination-horizontal,
+// .swiper-pagination-custom,
+// .swiper-pagination-fraction {
+//   bottom: 22px !important;
+//   width: 125% !important;
+// }
 
 ////////////////////@at-root
 ///
@@ -335,4 +335,72 @@
     }
   }
   overflow: hidden !important;
+}
+.path {
+  display: none;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.SliderWrapper {
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+
+    margin: 1rem !important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+
+    background: #ffffff;
+    opacity: 0.8;
+    // border: 2px solid #ffffff;
+    animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-name: stretch;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    font-size: medium;
+    color: #04152609;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 50px;
+    height: 50px;
+    background: #ed1c24;
+    opacity: 0.8;
+    box-shadow: 0px 4px 10px 3px rgba(237, 28, 36, 0.2);
+    animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-name: stretch;
+    font-size: medium;
+    font-weight: 600;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    color: #ffffff;
+  }
+  .swiper-pagination-bullet-active .path {
+    display: inline-block !important;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: dash linear 60s;
+    animation-iteration-count: unset;
+  }
+  .swiper-pagination {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 10px;
+    width: auto !important;
+    left: auto !important;
+    margin: 0;
+  }
 }
