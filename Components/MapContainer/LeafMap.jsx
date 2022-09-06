@@ -13,6 +13,7 @@ import {
   Popup,
   Polygon,
   ZoomControl,
+  Polyline,
 } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
@@ -20,6 +21,7 @@ import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
 import { statesData } from './GeoData.js';
 import { useStateContext } from '../../context/StateContext';
+import NearestLocation from '../../function/NearestLocation';
 
 // function style(feature) {
 //   return {
@@ -40,6 +42,7 @@ const MapInside = styled.div`
     height: 40% !important;
   }
 `;
+const limeOptions = { color: 'lime' };
 const covidIcon = new Icon({
   iconUrl:
     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
@@ -50,8 +53,11 @@ const LeafMap = ({ Data, SData, location }) => {
     useStateContext();
   const mapRef = React.useRef(null);
   const [maps, setMaps] = useState(null);
-  const [office, setoffice] = useState(null);
 
+  const [polyline, setpolyline] = useState(null);
+  const [office, setoffice] = useState(null);
+  let nearestlocationData = null;
+  let Polylines = [];
   const [officeListss, setofficeListss] = useState(Data);
   console.log(`..........${officeListss[0]}`);
   console.log(`...........${location}`);
@@ -66,7 +72,19 @@ const LeafMap = ({ Data, SData, location }) => {
         });
       }, 1000);
     }
-    console.log(`from inside the laef and using context${typeAddress}`);
+
+    console.log(`from inside the laef an  d using context ${typeAddress}`);
+    if (typeAddress) {
+      nearestlocationData = NearestLocation(typeAddress);
+      console.log(`lol location${nearestlocationData.geometry.coordinates}`);
+      Polylines.push(nearestlocationData.geometry.coordinates);
+      let Adress = [typeAddress.lat, typeAddress.lng];
+      Polylines.push(Adress);
+      let ass = [Polylines];
+      console.log(ass);
+      setpolyline(ass);
+      console.log(`polyyyyyline${Polylines}`);
+    }
   }, [typeAddress]);
   useEffect(() => {
     // const control = geosearch();
@@ -109,6 +127,9 @@ const LeafMap = ({ Data, SData, location }) => {
         scrollWheelZoom={false}
         style={{ height: '700px', width: '100%' }}
       >
+        {polyline ? (
+          <Polyline pathOptions={limeOptions} positions={polyline} />
+        ) : null}
         <TileLayer
           url={`
        https://api.mapbox.com/styles/v1/ssoam/cl77qs9yq000c14uk4kv9ecog/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic3NvYW0iLCJhIjoiY2w3N3J5ZTgyMDJwZzNwb3gzYWtxdWttciJ9.g2IBgPyHpz_bDNTAe3g2fw`}
@@ -180,7 +201,6 @@ const LeafMap = ({ Data, SData, location }) => {
         })} */}
         {officeListss.map((eachData) => (
           <Marker
-            draggable
             animate
             key={eachData.id}
             position={eachData.geometry.coordinates}
@@ -197,7 +217,6 @@ const LeafMap = ({ Data, SData, location }) => {
         ))}
         {typeAddress ? (
           <Marker
-            draggable
             animate
             position={typeAddress}
             eventHandlers={
@@ -213,6 +232,7 @@ const LeafMap = ({ Data, SData, location }) => {
             icon={covidIcon}
           />
         ) : null}
+
         {office && (
           <Popup
             position={[
