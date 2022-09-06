@@ -104,50 +104,45 @@ export const BrandCompnentHeader = [
   {
     id: '1',
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/ameristeel.png',
-    heading: 'BKT-Logo',
-  },
-  {
-    id: '2',
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/apollo-tyres.png',
-    heading: 'ameristeel-logo',
-  },
-  {
-    id: '3',
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png',
-    heading: 'apollo-tyres-logo',
-  },
-  {
-    id: '4',
-    imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Continental.png',
     heading: 'continental-logo',
   },
   {
-    id: '5',
+    id: '2',
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Cooper_Tire.png',
-    heading: 'general logo',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/GoodYear.png',
+    heading: 'Goodyear logo',
+  },
+  {
+    id: '3',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/apollo-tyres.png',
+    heading: 'apollo-logo',
+  },
+  {
+    id: '4',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png',
+    heading: 'Bkt-logo',
   },
   {
     id: '5',
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/General_Tire.png',
-    heading: 'general logo',
+    heading: 'general-logo',
   },
-  // {
-  //   id: '5',
-  //   imageurl:
-  //     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/goodyear-logo.png',
-  //   heading: 'general logo',
-  // },
   {
-    id: '5',
+    id: '6',
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/GoodYear.png',
-    heading: 'general logo',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/ameristeel.png',
+    heading: 'americansteel-logo',
+  },
+
+  {
+    id: '7',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Cooper_Tire.png',
+    heading: 'cooper-logo',
   },
 ];
 export const FeaturedProductsData = [

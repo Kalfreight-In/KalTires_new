@@ -36,7 +36,7 @@ module.exports = {
         Lightbox: '#000000d6',
       },
       gridTemplateColumns: {
-        onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
+        onsiteTemplate: 'repeat(4, minmax(250px, 1fr))',
         PerkTemplate: 'repeat(auto-fit, minmax(250px, 1fr))',
         PerkTemplatetab: 'repeat(1, minmax(250px, 1fr))',
         PerkTemplatemobile: 'repeat(1, minmax(200px, 1fr))',
