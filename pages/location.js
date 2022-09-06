@@ -13,7 +13,7 @@ import {
   Element,
   Button,
 } from 'react-scroll';
-import { MapData1 } from '../data/data';
+import { MapData1, MapData2 } from '../data/data';
 
 import { useHover } from '../Hooks/Hover';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
@@ -121,7 +121,7 @@ const LeafMap = dynamic(
 );
 
 const MapCaller = ({ Data, SData, location }) => (
-  <LeafMap Data={Data} SData={SData} location={location} />
+  <LeafMap Data2={MapData2} Data={Data} SData={SData} location={location} />
 );
 
 const location = () => {
@@ -189,6 +189,7 @@ const location = () => {
         /> */}
         <MapCaller
           Data={MapData1}
+          Data2={MapData2}
           SData={visibilities}
           location={Maplocation}
         />

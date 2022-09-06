@@ -30,8 +30,6 @@ export const SidebarMenu = styled.ul`
   flex-direction: column;
   items-align: center;
   justify-content: center;
-  padding-left: 2rem;
-  padding-right: 1rem;
 `;
 export const SidebarLink = styled.a`
   display: flex;
@@ -187,7 +185,7 @@ export const MapConatiner = () => {
         }`,
       }}
     >
-      <div className=" svg-container py-28 ">
+      <div className=" svg-container md:py-28 py-4">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -212,7 +210,7 @@ export const MapConatiner = () => {
       </div>
       <div className="w-full flex-1 ">
         <div
-          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full py-28"
+          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full md:py-28 pt-12"
           style={{
             backgroundImage: `${
               isDesktop
@@ -222,7 +220,7 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full pl-16 md:mb-0 mb-24">
+          <div className="  w-full md:pl-16 md:mb-0 px-12 mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
                 {/* <svg
@@ -256,7 +254,7 @@ export const MapConatiner = () => {
                 United State
               </div>
             </div>
-            <SidebarMenu className="lg:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
@@ -414,7 +412,7 @@ export const MapConatiner = () => {
                 CANADA
               </h3>
             </div>
-            <SidebarMenu className="lg:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
@@ -485,7 +483,7 @@ export const MapConatiner = () => {
                     >
                       {ShowDropdown ? (
                         <div className="flex flex-col">
-                          {MapData1.map((value, index) => (
+                          {MapData2.map((value, index) => (
                             <button
                               data-index={index}
                               onClick={(e) =>
