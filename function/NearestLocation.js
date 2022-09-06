@@ -28,7 +28,7 @@ function toRad(Value) {
   return (Value * Math.PI) / 180;
 }
 function distance(lat1, lon1, lat2, lon2) {
-  const R = 6371; // km
+  const R = 9999999; // km
   const dLat = toRad(lat2 - lat1);
   const dLon = toRad(lon2 - lon1);
   let lat1 = toRad(lat1);
@@ -38,7 +38,7 @@ function distance(lat1, lon1, lat2, lon2) {
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  const d = R * c;
+  const d = (R * c) / 1000;
   return d;
 }
 function DistanceData(eachData, typeAddress) {
@@ -47,7 +47,7 @@ function DistanceData(eachData, typeAddress) {
     typeAddress.lng,
     eachData.geometry.coordinates[0],
     eachData.geometry.coordinates[0]
-  );
+  ).toFixed(1);
 }
 
 function NearestLocation(typeAddress) {
@@ -61,12 +61,18 @@ function NearestLocation(typeAddress) {
   const filtered = distanceArray.filter((element, index) => {
     return index % 2 === 0;
   });
-  var firstelement = filtered.sort()[0];
-  const firstData = distanceArray.filter((element, index) => {
-    return firstelement === filtered;
-  });
-  console.log(`.........in nearest function ${firstData}`);
-  return `${distanceArray}`;
+  // var firstelement = filtered.sort()[0];
+  // const firstData = distanceArray.filter((element, index) => {
+  //   return firstelement === filtered;
+  // });
+  const shortElement =
+    distanceArray[distanceArray.indexOf(filtered.sort()[-1]) + 1];
+
+  console.log(
+    `.........in nearest function ${shortElement.geometry.coordinates}`
+  );
+  console.log(`.........in nearest function ${filtered}`);
+  return shortElement;
 }
 
 export default NearestLocation;
