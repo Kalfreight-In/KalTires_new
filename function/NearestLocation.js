@@ -66,11 +66,11 @@ function NearestLocation(typeAddress) {
   //   return firstelement === filtered;
   // });
   const shortElement =
-    distanceArray[distanceArray.indexOf(filtered.sort()[-1]) + 1];
+    distanceArray[distanceArray.indexOf(filtered.sort()[0]) + 1];
 
-  console.log(
-    `.........in nearest function ${shortElement.geometry.coordinates}`
-  );
+  // console.log(
+  //   `.........in nearest function ${shortElement.geometry.coordinates}`
+  // );
   console.log(`.........in nearest function ${filtered}`);
   return shortElement;
 }

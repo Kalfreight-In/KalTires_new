@@ -3,7 +3,9 @@ import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
 // import { BiMessageDetail } from 'react-icons/bi';
 import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.png';
-import TireIcon from '../../Assets/Images/Home/Tire_Icon.png';
+import AgriculturalTires from '../../Assets/Images/Home/AgriculturalTires.png';
+import CommercialTire from '../../Assets/Images/Home/CommercialTires.png';
+import OTRTires from '../../Assets/Images/Home/OTRTires.png';
 
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
@@ -43,8 +45,8 @@ export const AboutUs = () => {
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
               className="lg:py-12 md:px-10 px-6 lg:px-0  lg:ml-20  col-span-4 max-w-5xl  mx-auto  text-center lg:text-left "
             >
-              <h2 className="text-5xl tracking-tight   font-poppins font-semibold lg:block hidden">
-                <span className="block text-neutral-800  border-b-4 pb-1  border-y-PrimaryTwo 2xl:w-1/2 xl:w-3/5 w-4/5">
+              <h2 className="text-5xl tracking-tight   font-poppins font-semibold lg:inline-block hidden">
+                <span className=" text-neutral-800  border-b-4 pb-0  border-y-PrimaryTwo 2xl:w-1/2 xl:w-3/5 w-4/5">
                   ABOUT US
                 </span>
               </h2>
@@ -119,20 +121,20 @@ export const AboutUs = () => {
               <div>
                 <div className="flex flex-row justify-center lg:justify-start pt-4">
                   <div className="flex flex-col bg-zinc-50 px-2  mr -4">
-                    <Image src={TireIcon} />
+                    <Image src={CommercialTire} />
                     <div className="text-center">
                       Commercial <br />
                       Tires
                     </div>
                   </div>
-                  <div className="flex flex-col bg-zinc-50 px-2  mx-4 ">
-                    <Image src={TireIcon} />
+                  <div className="flex flex-col bg-zinc-50 px-2 py-4 mx-4 ">
+                    <Image src={OTRTires} />
                     <div className="text-center">
-                      Agricultural <br />
+                      OTR Tires <br />
                     </div>
                   </div>
-                  <div className="flex flex-col bg-zinc-50 px-2 mx-4">
-                    <Image src={TireIcon} />
+                  <div className="flex flex-col bg-zinc-50 px-2 py-4 mx-4">
+                    <Image src={AgriculturalTires} />
                     <div className="text-center">
                       Agricultural <br />
                       Tires
@@ -146,7 +148,7 @@ export const AboutUs = () => {
                 id="InnerphoneEmailRoad"
                 className="md:flex hidden mt-8 justify-center lg:justify-start"
               >
-                <div className="flex lg:justify-center lg:pb-0 pb-4 ">
+                <div className="flex lg:justify-start justify-center lg:pb-0 pb-4 ">
                   <div
                     id="Hotline"
                     className="flex items-center lg:pr-0 md:pr-4 pr-0"
