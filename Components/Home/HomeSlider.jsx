@@ -10,10 +10,11 @@ import { Pagination, Autoplay } from 'swiper';
 
 import { HomeSliderData } from '../../data/data';
 import HeroSection from './HeroSection';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const HomeSlider = () => {
   // const menu = ['1', '2', '3'];
-
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const pagination = {
     clickable: true,
     renderBullet(index, className) {
@@ -26,7 +27,7 @@ const HomeSlider = () => {
     },
   };
   return (
-    <div className="SliderWrapper">
+    <div className={`${isDesktop ? 'SliderWrapper' : ''}`}>
       <Swiper
         modules={[Pagination, Autoplay]}
         loop

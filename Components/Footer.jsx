@@ -74,7 +74,7 @@ const Footer = () => {
                   <div className="ml-4 flex flexcenter">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-xl xl:text-xl text-xl   ml-2  ">
+                      <div className="md:text-md xl:text-lg text-lg   ml-2  ">
                         800-385-8006
                       </div>{' '}
                     </a>
@@ -89,7 +89,7 @@ const Footer = () => {
                   <div className="ml-4">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-xl xl:text-xl text-xl   ml-2  ">
+                      <div className="md:text-lg xl:text-lg text-lg  ml-2  ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
                         92335
                       </div>{' '}
