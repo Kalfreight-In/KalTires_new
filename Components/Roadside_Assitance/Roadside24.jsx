@@ -13,7 +13,7 @@ const Roadside = () => (
             <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold ">
               <span className="block ">
                 <span className="text-kaltire-red font-poppins">24 / 7</span>{' '}
-                ROADSIDE ASSITANCE
+                <span>ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
           </div>
@@ -29,7 +29,7 @@ const Roadside = () => (
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
                 <span className="block font-poppins">
                   <span className="text-kaltire-red font-poppins">24 / 7</span>
-                  ROADSIDE ASSITANCE
+                  <span className="pl-4">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
               <p className="text-black mt-5 font-poppins">
