@@ -5,12 +5,12 @@ import { MdLocalPhone } from 'react-icons/md';
 import RoadSideAss from '../../Assets/Images/Home/RoadsideAssistant_Home.png';
 
 const RoadSideAssistant = () => (
-  <div>
+  <div className="mt-32">
     <div
       style={{
         backgroundImage:
           // eslint-disable-next-line operator-linebreak
-          'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png)',
+          'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Roadsidebackground.png)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}

@@ -6,11 +6,11 @@ const data = [
   {
     id: 1,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
-    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    Heading: 'WE HELP YOU ACHIEVE YOUR DREAMS',
+    // desc: 'WE HELP YOU ACHIEVE YOUR DREAMS',
 
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
+    CTA1: { heading: 'Apply Now', link: 'contactus' },
+    // CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];
 
