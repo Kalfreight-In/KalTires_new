@@ -74,12 +74,12 @@
     min-height: 85vh;
   }
 }
-.svg-container {
-  width: 50%;
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-}
+// .svg-container {
+//   width: 80%;
+//   @media (max-width: 768px) {
+//     width: 100%;
+//   }
+// }
 .item {
   flex: 1;
   margin: 0.2rem;
@@ -139,6 +139,8 @@
 }
 .svg-container {
   width: 60%;
+
+  // height: 90vh;
   @media (max-width: 1024px) {
     width: 60%;
   }

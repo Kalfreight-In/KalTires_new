@@ -1,6 +1,6 @@
 // import React from 'react';
 // import { useStateContext } from '../context/StateContext';
-import { MapData } from '../data/data';
+import { MapData1 } from '../data/data';
 
 // function distance(lat1, lon1, lat2, lon2, unit) {
 //   const radlat1 = (Math.PI * lat1) / 180;
@@ -52,7 +52,7 @@ function DistanceData(eachData, typeAddress) {
 
 function NearestLocation(typeAddress) {
   const distanceArray = [];
-  MapData.map((eachData, index) => {
+  MapData1.map((eachData, index) => {
     distanceArray.push(DistanceData(eachData, typeAddress));
     distanceArray.push(eachData);
     //     const first = distanceArray.sort();

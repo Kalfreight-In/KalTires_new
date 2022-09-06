@@ -36,7 +36,7 @@ import NearestLocation from '../../function/NearestLocation';
 const MapInside = styled.div`
   flex: 3;
   width: 100%;
-  height: 50%;
+
   zindex: 8;
   @media screen and (max-width: 768px) {
     height: 40% !important;
@@ -48,7 +48,7 @@ const covidIcon = new Icon({
     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
   iconSize: [25, 25],
 });
-const LeafMap = ({ Data, SData, location }) => {
+const LeafMap = ({ Data, Data2, SData, location }) => {
   const { userAddress, setUserAdress, setTypeAddress, typeAddress } =
     useStateContext();
   const mapRef = React.useRef(null);
@@ -57,8 +57,9 @@ const LeafMap = ({ Data, SData, location }) => {
   const [polyline, setpolyline] = useState(null);
   const [office, setoffice] = useState(null);
   let nearestlocationData = null;
-  let Polylines = [];
-  const [officeListss, setofficeListss] = useState(Data);
+  const Polylines = [];
+  const DataS = [...Data, ...Data2];
+  const [officeListss, setofficeListss] = useState(DataS);
   console.log(`..........${officeListss[0]}`);
   console.log(`...........${location}`);
   // function handleOnSerchResults(data) {
@@ -78,9 +79,9 @@ const LeafMap = ({ Data, SData, location }) => {
       nearestlocationData = NearestLocation(typeAddress);
       console.log(`lol location${nearestlocationData.geometry.coordinates}`);
       Polylines.push(nearestlocationData.geometry.coordinates);
-      let Adress = [typeAddress.lat, typeAddress.lng];
+      const Adress = [typeAddress.lat, typeAddress.lng];
       Polylines.push(Adress);
-      let ass = [Polylines];
+      const ass = [Polylines];
       console.log(ass);
       setpolyline(ass);
       console.log(`polyyyyyline${Polylines}`);
@@ -125,7 +126,7 @@ const LeafMap = ({ Data, SData, location }) => {
         zoom={5}
         ZoomControl={false}
         scrollWheelZoom={false}
-        style={{ height: '700px', width: '100%' }}
+        style={{ height: '940px', width: '100%' }}
       >
         {polyline ? (
           <Polyline pathOptions={limeOptions} positions={polyline} />

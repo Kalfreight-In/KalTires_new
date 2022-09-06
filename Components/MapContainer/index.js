@@ -6,7 +6,7 @@ import { BiMinus } from 'react-icons/bi';
 import dynamic from 'next/dynamic';
 
 import { MdKeyboardArrowDown } from 'react-icons/md';
-import { MapData } from '../../data/data';
+import { MapData1, MapData2 } from '../../data/data';
 
 import { useHover } from '../../Hooks/Hover';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
@@ -30,8 +30,6 @@ export const SidebarMenu = styled.ul`
   flex-direction: column;
   items-align: center;
   justify-content: center;
-  padding-left: 2rem;
-  padding-right: 1rem;
 `;
 export const SidebarLink = styled.a`
   display: flex;
@@ -113,8 +111,8 @@ const LeafMap = dynamic(
   }
 );
 
-const MapCaller = ({ Data, SData, location }) => (
-  <LeafMap Data={Data} SData={SData} location={location} />
+const MapCaller = ({ Data, Data2, SData, location }) => (
+  <LeafMap Data={Data} Data2={Data2} SData={SData} location={location} />
 );
 export const MapConatiner = () => {
   const [Maplocation, setMapocation] = useState();
@@ -133,19 +131,19 @@ export const MapConatiner = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
-    MapData.map((x) => false)
+    MapData1.map((x) => false)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
-    MapData.map((x) => false);
+    MapData1.map((x) => false);
   }, [visibilities]);
 
   const handleClick = (event, coordinates, city) => {
     setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
-    setVisibilities(() => MapData.map(() => false));
+    setVisibilities(() => MapData1.map(() => false));
 
     const newVisibilities = [...visibilities];
 
@@ -178,7 +176,7 @@ export const MapConatiner = () => {
   return (
     <div
       id="mainmapcontainer"
-      className="bg-black flex flex-col-reverse  md:flex-row bg-cover"
+      className="bg-black flex flex-col-reverse  md:flex-row bg-cover "
       style={{
         backgroundImage: `${
           isDesktop
@@ -187,7 +185,7 @@ export const MapConatiner = () => {
         }`,
       }}
     >
-      <div className=" svg-container  ">
+      <div className=" svg-container md:py-28 py-4">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -203,11 +201,16 @@ export const MapConatiner = () => {
           Lathrop={isLathrop}
           Calexico={isCalexico}
         /> */}
-        <MapCaller Data={MapData} SData={visibilities} location={Maplocation} />
+        <MapCaller
+          Data={MapData1}
+          Data2={MapData2}
+          SData={visibilities}
+          location={Maplocation}
+        />
       </div>
       <div className="w-full flex-1 ">
         <div
-          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full"
+          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full md:py-28 pt-12"
           style={{
             backgroundImage: `${
               isDesktop
@@ -217,10 +220,10 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full pl-16 md:mb-0 mb-24">
+          <div className="  w-full md:pl-16 md:mb-0 px-12 mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
-                <svg
+                {/* <svg
                   width="37"
                   height="35"
                   viewBox="0 0 37 35"
@@ -240,18 +243,18 @@ export const MapConatiner = () => {
                     ry="3.71275"
                     fill="white"
                   />
-                </svg>
+                </svg> */}
 
-                <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl pl-4">
+                <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
                   Our Locations
                 </h3>
               </div>
 
-              <div className="lg:mt-8 mt-2 text-white font-desc text-descnew ">
-                We serve you at multiple location
+              <div className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4">
+                United State
               </div>
             </div>
-            <SidebarMenu className="lg:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
@@ -304,7 +307,7 @@ export const MapConatiner = () => {
                   ) : null}
                 </div> */}
                 {isDesktop ? (
-                  MapData.map((value, index) => (
+                  MapData1.map((value, index) => (
                     <div key={value.id}>
                       <Divlink
                         data-index={index}
@@ -372,7 +375,115 @@ export const MapConatiner = () => {
                     >
                       {ShowDropdown ? (
                         <div className="flex flex-col">
-                          {MapData.map((value, index) => (
+                          {MapData1.map((value, index) => (
+                            <button
+                              data-index={index}
+                              onClick={(e) =>
+                                handleClick(
+                                  e,
+                                  value.geometry.coordinates,
+                                  value.properties.City
+                                )
+                              }
+                              type="button"
+                              className="group  relative     text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                            >
+                              <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                                {value.properties.City}
+                              </h4>
+                              <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                            </button>
+                          ))}
+                        </div>
+                      ) : null}
+                    </div>
+                  </>
+                )}
+              </div>
+
+              {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
+          <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
+          <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
+          <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
+          <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
+            </SidebarMenu>
+            <div className="my-8">
+              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4">
+                CANADA
+              </h3>
+            </div>
+            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+              <div className="">
+                {isDesktop ? (
+                  MapData2.map((value, index) => (
+                    <div key={value.id}>
+                      <Divlink
+                        data-index={index}
+                        onClick={(e) =>
+                          handleClick(e, value.geometry.coordinates)
+                        }
+                      >
+                        <h1
+                          className={
+                            visibilities[index]
+                              ? 'text-black font-bold'
+                              : 'text-black font-bold'
+                          }
+                        >
+                          {value.properties.City}
+                        </h1>
+
+                        <span>
+                          {visibilities[index] ? <BiMinus /> : <BsPlus />}
+
+                          {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                        </span>
+                      </Divlink>
+                      <div
+                        className={`Transition-Height-${
+                          visibilities[index] ? 'in' : 'out'
+                        }`}
+                        onClick={() =>
+                          setMapocation(value.geometry.coordinates)
+                        }
+                      >
+                        <ul>
+                          {visibilities[index] ? (
+                            <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
+                              {' '}
+                              {value.properties.Address}
+                            </div>
+                          ) : null}
+                        </ul>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <>
+                    <div
+                      onClick={() => {
+                        setShowDropdown(!ShowDropdown);
+                      }}
+                      className="group   flex flex-row justify-between px-6 py-4  text-center border-2 bg-black text-white   transition-all duration-100 delay-75 cursor-pointer "
+                    >
+                      {FeaatureCat}
+                      <span>
+                        {' '}
+                        <MdKeyboardArrowDown
+                          className={`transition-all duration-100${
+                            ShowDropdown ? '-rotate-180' : 'rotate-180'
+                          }`}
+                        />{' '}
+                      </span>
+                    </div>
+                    <div
+                      className={`Transition-Height-${
+                        ShowDropdown ? 'in' : 'out'
+                      }`}
+                    >
+                      {ShowDropdown ? (
+                        <div className="flex flex-col">
+                          {MapData2.map((value, index) => (
                             <button
                               data-index={index}
                               onClick={(e) =>

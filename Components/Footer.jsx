@@ -216,7 +216,7 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="https://kaltires.com/"
+                      href="https://kvlties.com/"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
@@ -407,7 +407,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer">
                           <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <a
-                            href="http://kaltires.com/#Advantages"
+                            href="http://kvlties.com/#Advantages"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -423,7 +423,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer">
                           <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <a
-                            href="http://kaltires.com/#Advantages"
+                            href="http://kvlties.com/#Advantages"
                             target="_blank"
                             rel="noreferrer"
                           >
