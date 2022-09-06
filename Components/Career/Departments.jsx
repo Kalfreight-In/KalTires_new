@@ -32,7 +32,18 @@ export const Departments = () => (
                       <div className=" text-center ">
                         <div className="flex">
                           <div>
-                            <Image src={index.img} alt="departments" />
+                            <Image
+                              src={index.img}
+                              alt="departments"
+                              className="relative"
+                            />
+                            {/* <div id="headingdepartment relative"> */}
+                            <h1
+                              className={`text-red font-poppins font-bold relative -mt-${index.mt} text-white lg:text-xl px-8 `}
+                            >
+                              {index.Heading}
+                            </h1>
+                            {/* </div> */}
                           </div>
                         </div>
                       </div>
