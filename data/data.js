@@ -522,7 +522,7 @@ export const HighPerformanceBrandsData = [
     logo: goodyearLogo_white,
     Image: goodyearTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
     src: 'Continental',
   },
   {
@@ -531,7 +531,7 @@ export const HighPerformanceBrandsData = [
     logo: Apollo_Tyres_white,
     Image: apolloTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
     src: 'Continental',
   },
   {
@@ -540,7 +540,7 @@ export const HighPerformanceBrandsData = [
     logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'Continental',
   },
   {
@@ -558,7 +558,7 @@ export const HighPerformanceBrandsData = [
     logo: ameristeel_white,
     Image: ameristeelTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
     src: 'Continental',
   },
   {
@@ -567,7 +567,7 @@ export const HighPerformanceBrandsData = [
     logo: Cooper_Tire_white,
     Image: coopertiresTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
     src: 'Continental',
   },
   {
@@ -576,7 +576,7 @@ export const HighPerformanceBrandsData = [
     logo: michelinLogo_white,
     Image: michelinTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'Continental',
   },
 ];
@@ -1209,8 +1209,8 @@ export const MapData1 = [
       State: 'CA',
       Manager: 'Telly Ingram',
       ZipCode: '95330',
-      City: 'LATHROP',
-      Address: '17100 S HARLAN RD,  LATHROP, CA ',
+      City: 'Lathrop',
+      Address: '17100 S HARLAN RD, Lathrop, CA ',
       Phone: '479-790-4137',
       Email: 'clayton@kaltrailers.com',
       url: 'https://www.google.com/maps/place/17100+S+Harlan+Rd,+Lathrop,+CA+95330,+USA/@37.8056626,-121.2968426,17z/data=!4m5!3m4!1s0x80901562ee55acd9:0x6e5659d42b7cd177!8m2!3d37.8058491!4d-121.2951796',
@@ -1701,8 +1701,8 @@ export const officeLists = [
       state: 'CA',
       Manager: 'Telly Ingram',
       ZipCode: '95330',
-      name: 'LATHROP',
-      address: '17100 S HARLAN RD,  LATHROP, CA ',
+      name: 'Lathrop',
+      address: '17100 S HARLAN RD,  Lathrop, CA ',
       phone: '479-790-4137',
       email: 'clayton@kaltrailers.com',
       url: 'https://www.google.com/maps/place/17100+S+Harlan+Rd,+Lathrop,+CA+95330,+USA/@37.8056626,-121.2968426,17z/data=!4m5!3m4!1s0x80901562ee55acd9:0x6e5659d42b7cd177!8m2!3d37.8058491!4d-121.2951796',

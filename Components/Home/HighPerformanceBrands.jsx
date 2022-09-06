@@ -53,11 +53,10 @@ const HighPerformanceBrands = () => {
       </h2>
       <div>
         <Swiper
-          modules={[Pagination, Autoplay]}
+          modules={[Autoplay]}
           loop
           slidesPerView={isDesktop ? 4 : 1}
           spaceBetween={30}
-          pagination={{ clickable: true }}
           className="mySwiper"
           autoplay={{
             delay: 2000,
