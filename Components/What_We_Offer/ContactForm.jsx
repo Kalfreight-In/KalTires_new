@@ -52,7 +52,7 @@ const Contactform = () => {
     <div id="maincontactform" className="justify-between lg:flex ">
       <div
         id="shadow"
-        className="md:p-8 p-4 bg-red-600"
+        className="md:p-0 p-4 bg-red-600"
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
@@ -104,123 +104,113 @@ const Contactform = () => {
           </div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-            <div className="xl:text-left text-center xl:pl-2">
-              <div
-                id="contactnew"
-                className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
-              >
-                {/* <img
+            <div className="xl:px-3">
+              <div className="xl:text-left text-center xl:pl-2">
+                <div
+                  id="contactnew"
+                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
+                >
+                  {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                <h1 className="text-white md:text-5xl text-2xl font-bold pl-2 text-left font-poppins">
-                  BOOK AN APPOINTMENT {isMobile ? null : <br />}NOW!
-                </h1>
+                  <h1 className="text-white md:text-3xl lg:text-5xl text-2xl font-bold pl-2 text-left font-poppins">
+                    BOOK AN APPOINTMENT {isMobile ? null : <br />}NOW!
+                  </h1>
+                </div>
               </div>
-              {/* <div className="2xl:hidden">
-                <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
-                  Got a question? Or request a quote? Contact us directly or
-                  fill up the form and we will get back to you promptly.
-                </p>
-              </div> */}
-              {/* <div className="hidden 2xl:block">
-                <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
-                  Got a question? Or request a quote? Contact us directly or
-                  fill up the form <br /> and we will get back to you promptly.
-                </p>
-              </div> */}
-            </div>
-            <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
-              <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 lg:pt-8 pt-0"
-                id="input_placeholder"
-              >
-                <input
-                  onChange={(e) => setName(e.target.value)}
-                  className="appearance-none font-poppins block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                  id="grid-first-name"
-                  type="text"
-                  value={name}
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 md:pt-4"
-                id="input_placeholder"
-              >
-                <input
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="appearance-none block font-poppins w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
-                  id="grid-first-name"
-                  type="email"
-                  value={email}
-                  placeholder="Email Address"
-                  required
-                />
-              </div>
-              <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 md:pt-4"
-                id="input_placeholder"
-              >
-                <select
-                  name="servicetype"
-                  className="appearance-none block font-poppins w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                  onChange={(e) => setservice(e.target.value)}
-                  type="select"
-                  value={service}
-                  placeholder="Service type"
-                  required
+              <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
+                <div
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-8 pt-0"
+                  id="input_placeholder"
                 >
-                  <option value="service">Select service type</option>
-                  <option value="newtires">New Tires</option>
-                  <option value="retreadtires">Retread Tires</option>
-                  <option value="heavyduty">Heavy Duty Front End Work</option>
-                  <option value="wheel">Wheel Alignment</option>
-                  <option value="otr">OTR Tires</option>
-                  <option value="speciality">Specialty</option>
-                  <option value="enquiry">Enquiry</option>
-                  <option value="others">Others</option>
-                </select>
+                  <input
+                    onChange={(e) => setName(e.target.value)}
+                    className="appearance-none font-poppins block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    id="grid-first-name"
+                    type="text"
+                    value={name}
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                  id="input_placeholder"
+                >
+                  <input
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="appearance-none block font-poppins w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    id="grid-first-name"
+                    type="email"
+                    value={email}
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                  id="input_placeholder"
+                >
+                  <select
+                    name="servicetype"
+                    className="appearance-none block font-poppins w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    onChange={(e) => setservice(e.target.value)}
+                    type="select"
+                    value={service}
+                    placeholder="Service type"
+                    required
+                  >
+                    <option value="service">Select service type</option>
+                    <option value="newtires">New Tires</option>
+                    <option value="retreadtires">Retread Tires</option>
+                    <option value="heavyduty">Heavy Duty Front End Work</option>
+                    <option value="wheel">Wheel Alignment</option>
+                    <option value="otr">OTR Tires</option>
+                    <option value="speciality">Specialty</option>
+                    <option value="enquiry">Enquiry</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+                <div
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                  id="input_placeholder"
+                >
+                  <input
+                    onChange={(e) => setMessage(e.target.value)}
+                    className="appearance-none font-poppins block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                    id="grid-first-name"
+                    type="text"
+                    value={message}
+                    placeholder="Message"
+                    required
+                  />
+                </div>
               </div>
               <div
-                className="w-full flex justify-center items-center  xl:px-3 mb-6 md:mb-0 md:pt-4"
-                id="input_placeholder"
+                id="submitallbutton"
+                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 block font-poppins "
               >
-                <input
-                  onChange={(e) => setMessage(e.target.value)}
-                  className="appearance-none font-poppins block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
-                  id="grid-first-name"
-                  type="text"
-                  value={message}
-                  placeholder="Message"
-                  required
-                />
-              </div>
-            </div>
-            <div
-              id="submitallbutton"
-              className="lg:pl-24 md:pl-16 pl-6 md:pt-8 block font-poppins "
-            >
-              <div>
-                <button
-                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-poppins"
-                  type="submit"
-                >
-                  {buttonText}
-                </button>
-              </div>
-              <a href="tel:800-385-8006">
                 <div>
-                  <p
-                    className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center"
+                  <button
+                    className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-poppins"
                     type="submit"
                   >
-                    Or call us now at 800-385-8006
-                  </p>
+                    {buttonText}
+                  </button>
                 </div>
-              </a>
+                <a href="tel:800-385-8006">
+                  <div>
+                    <p
+                      className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center"
+                      type="submit"
+                    >
+                      Or call us now at 800-385-8006
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
           </form>
         )}

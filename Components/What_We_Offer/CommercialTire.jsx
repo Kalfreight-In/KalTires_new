@@ -22,7 +22,7 @@ const CommercialTire = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col-reverse lg:block">
+                <div className="flex flex-col-reverse lg:block pl-8">
                   <div className="lg:hidden block  ">
                     <div className="lg:relative lg:mt-4 self-start">
                       <Image

@@ -436,23 +436,11 @@ export const CommercialTireone = [
     logos: [
       {
         id: 1,
-        img: continental,
+        img: contitread,
       },
       {
         id: 2,
-        img: GeneralTire,
-      },
-      {
-        id: 3,
-        img: ameristeel,
-      },
-      {
-        id: 4,
-        img: Apollo,
-      },
-      {
-        id: 5,
-        img: Bkt,
+        img: contilifecycle,
       },
     ],
   },
@@ -471,11 +459,23 @@ export const CommercialTiretwo = [
     logos: [
       {
         id: 1,
-        img: contitread,
+        img: continental,
       },
       {
         id: 2,
-        img: contilifecycle,
+        img: GeneralTire,
+      },
+      {
+        id: 3,
+        img: ameristeel,
+      },
+      {
+        id: 4,
+        img: Apollo,
+      },
+      {
+        id: 5,
+        img: Bkt,
       },
     ],
   },
