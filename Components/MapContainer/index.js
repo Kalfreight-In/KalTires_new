@@ -121,6 +121,7 @@ export const MapConatiner = () => {
 
   const [FeaatureCat, setFeaatureCat] = useState('Commercial Tires');
 
+  const [CaFeaatureCat, setCaFeaatureCat] = useState('Commercial Tires');
   const [ShowDropdown, setShowDropdown] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
@@ -358,7 +359,7 @@ export const MapConatiner = () => {
                       onClick={() => {
                         setShowDropdown(!ShowDropdown);
                       }}
-                      className="group   flex flex-row justify-between px-6 py-4  text-center border-2 bg-black text-white   transition-all duration-100 delay-75 cursor-pointer "
+                      className="group  rounded-md  mb-4 flex flex-row justify-between px-6 py-4  text-center border-2 bg-white text-black  transition-all duration-100 delay-75 cursor-pointer "
                     >
                       {FeaatureCat}
                       <span>
@@ -388,7 +389,7 @@ export const MapConatiner = () => {
                                 )
                               }
                               type="button"
-                              className="group  relative     text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                              className="group  relative   bg-white   text-center border-2   transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
                             >
                               <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
                                 {value.properties.City}
@@ -466,7 +467,7 @@ export const MapConatiner = () => {
                       onClick={() => {
                         setShowDropdown(!ShowDropdown);
                       }}
-                      className="group   flex flex-row justify-between px-6 py-4  text-center border-2 bg-black text-white   transition-all duration-100 delay-75 cursor-pointer "
+                      className="group rounded-md mb-4 flex flex-row justify-between px-6 py-4  text-center border-2 bg-white text-black   transition-all duration-100 delay-75 cursor-pointer "
                     >
                       {FeaatureCat}
                       <span>
@@ -496,7 +497,7 @@ export const MapConatiner = () => {
                                 )
                               }
                               type="button"
-                              className="group  relative     text-center border-2 border-black  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                              className="group  relative  bg-white    text-center border-2  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
                             >
                               <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
                                 {value.properties.City}

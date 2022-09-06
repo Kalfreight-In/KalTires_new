@@ -22,6 +22,7 @@ import { officeLists } from '../../data/data';
 import { statesData } from './GeoData.js';
 import { useStateContext } from '../../context/StateContext';
 import NearestLocation from '../../function/NearestLocation';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 // function style(feature) {
 //   return {
@@ -49,6 +50,7 @@ const covidIcon = new Icon({
   iconSize: [25, 25],
 });
 const LeafMap = ({ Data, Data2, SData, location }) => {
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const { userAddress, setUserAdress, setTypeAddress, typeAddress } =
     useStateContext();
   const mapRef = React.useRef(null);
@@ -126,7 +128,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
         zoom={5}
         ZoomControl={false}
         scrollWheelZoom={false}
-        style={{ height: '940px', width: '100%' }}
+        style={{ height: `${!isDesktop ? '940px' : '500px'}`, width: '100%' }}
       >
         {polyline ? (
           <Polyline pathOptions={limeOptions} positions={polyline} />
