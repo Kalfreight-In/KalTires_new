@@ -37,11 +37,13 @@ export const Departments = () => (
                               alt="departments"
                               className="relative"
                             />
-                            <div id="headingdepartment relative">
-                              <h1 className="text-red font-poppins font-bold relative -mt-16 text-white lg:text-2xl">
-                                {index.Heading}
-                              </h1>
-                            </div>
+                            {/* <div id="headingdepartment relative"> */}
+                            <h1
+                              className={`text-red font-poppins font-bold relative -mt-${index.mt} text-white lg:text-xl px-8 `}
+                            >
+                              {index.Heading}
+                            </h1>
+                            {/* </div> */}
                           </div>
                         </div>
                       </div>
