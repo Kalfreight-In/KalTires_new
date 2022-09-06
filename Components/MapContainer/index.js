@@ -30,6 +30,8 @@ export const SidebarMenu = styled.ul`
   flex-direction: column;
   items-align: center;
   justify-content: center;
+  padding-left: 2rem;
+  padding-right: 1rem;
 `;
 export const SidebarLink = styled.a`
   display: flex;
@@ -341,7 +343,7 @@ export const MapConatiner = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
+                            <div className="text-black h-8  2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
                               {' '}
                               {value.properties.Address}
                             </div>
