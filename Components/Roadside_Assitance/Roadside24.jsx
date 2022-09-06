@@ -13,7 +13,7 @@ const Roadside = () => (
             <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold ">
               <span className="block ">
                 <span className="text-kaltire-red font-poppins">24 / 7</span>{' '}
-                ROADSIDE ASSITANCE
+                <span>ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
           </div>
@@ -29,7 +29,7 @@ const Roadside = () => (
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
                 <span className="block font-poppins">
                   <span className="text-kaltire-red font-poppins">24 / 7</span>
-                  ROADSIDE ASSITANCE
+                  <span className="pl-4">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
               <p className="text-black mt-5 font-poppins">
@@ -87,7 +87,9 @@ const Roadside = () => (
                   </div>
                   <div id="Hotline-second">
                     <h1 className="font-bold font-poppins">Toll free</h1>
-                    <p className="font-poppins">800-808-0025</p>
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
+                      <p className="font-poppins">800-808-0025</p>
+                    </a>
                   </div>
                 </div>
                 {/* <div id="LiveChat" className="md:ml-6 ml-10 flex items-center">

@@ -55,7 +55,7 @@ const BrandsComponent = () => {
       <div className="bg-businessbackground" id="corevaluemain">
         <div className=" px-20 ">
           <div className="">
-            {isDesktop ? (
+            {/* {isDesktop ? (
               <div className="flex flex-row">
                 {mydata.map((data) => (
                   <div
@@ -74,39 +74,42 @@ const BrandsComponent = () => {
                         flex: '0  3  40%',
                       }}
                     /> */}
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <Swiper
-                centeredSlides
-                autoplay={{
-                  delay: 2500,
-                  disableOnInteraction: false,
-                }}
-                modules={[Autoplay]}
-                className="mySwiper flex justify-center"
-              >
-                {mydata.map((data) => (
-                  <SwiperSlide key={data.id}>
-                    <div className="flex-1 flex  flex-col justify-center hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
-                      <div className="flex justify-center">
-                        <div className="flex justify-center">
-                          <img src={data.imageurl} alt="service" />
-                        </div>
+            {/* </div> */}
+
+            {/* </div> */}
+            {/* ) : ( */}
+            <Swiper
+              centeredSlides
+              slidesPerView={isDesktop ? 7 : 1}
+              spaceBetween={50}
+              loop
+              autoplay={{
+                delay: 500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay]}
+              className="mySwiper"
+            >
+              {mydata.map((data) => (
+                <SwiperSlide key={data.id}>
+                  <div className="flex-1 flex  flex-col justify-center  hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
+                    <div className="flex justify-center items-center h-36">
+                      <div className="item-center  ">
+                        <img src={data.imageurl} alt="service" className=" " />
                       </div>
-                      {/* <div
+                    </div>
+                    {/* <div
                       className="flex-1 h-80  transition-all delay-75 bg-cover bg-no-repeat bg-center "
                       style={{
                         backgroundImage: `url(${data.imageurl})`,
                         flex: '0  3  40%',
                       }}
                     /> */}
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            )}
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            {/* )} */}
           </div>
         </div>
       </div>
