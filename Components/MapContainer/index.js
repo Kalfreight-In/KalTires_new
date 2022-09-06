@@ -121,6 +121,7 @@ export const MapConatiner = () => {
 
   const [FeaatureCat, setFeaatureCat] = useState('Commercial Tires');
 
+  const [CaFeaatureCat, setCaFeaatureCat] = useState('Commercial Tires');
   const [ShowDropdown, setShowDropdown] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
