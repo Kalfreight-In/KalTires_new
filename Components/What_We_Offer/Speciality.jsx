@@ -31,7 +31,7 @@ export const Speciality = () => {
               </h2>
             </div>
             <div className="lg:hidden block">
-              <div className="lg:relative lg:mt-4 self-start md:pr-0 pr-8">
+              <div className="lg:relative lg:mt-4 flex justify-center md:pr-0">
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={blacktire}
@@ -39,7 +39,7 @@ export const Speciality = () => {
                 />
               </div>
             </div>
-            <div className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left ml-8">
+            <div className="lg:py-12  px-0 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left lg:ml-8">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">
                   <span className="border-kaltire-red border-b-2 font-poppins">
@@ -47,7 +47,7 @@ export const Speciality = () => {
                   </span>
                 </span>
               </h2>
-              <p className="text-black mt-5 lg:px-0 px-8  text-justify font-poppins">
+              <p className="text-black mt-5   text-justify font-poppins lg:px-0 px-6 md:px-24">
                 We strive to provide the best quality tire for the application
                 suitable to your operation. The industrial sector performs
                 loading, excavating, and lifting material, increasing the need
@@ -108,9 +108,9 @@ export const Speciality = () => {
             </div>
 
             <div className="lg:block hidden">
-              <div className="lg:relative lg:mt-4 self-start ">
+              <div className="lg:relative lg:mt-4 self-start">
                 <Image
-                  className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
+                  className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md"
                   src={blacktire}
                   alt="tires"
                 />

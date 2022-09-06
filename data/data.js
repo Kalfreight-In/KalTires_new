@@ -632,7 +632,7 @@ export const IndustrialTiresdata = [
   {
     id: '2',
     img: two,
-    heading: 'Earthmover Tips',
+    heading: 'Earthmover Tires',
     pr: 8,
   },
   {

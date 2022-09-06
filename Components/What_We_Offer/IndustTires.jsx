@@ -8,76 +8,80 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { IndustrialTiresdata } from '../../data/data';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
-export const IndustTires = () => (
-  <>
-    <div id="industslidermainmobile" className="md:hidden">
-      <div id="industsliderinnermainmobile">
-        <div id="industslidermainmobile" className="block">
-          <div id="industsliderinnermainmobile">
-            <div id="industmainmobile">
-              <div
-                id="industmaininnermobile"
-                className="py-24"
-                style={{
-                  backgroundImage:
-                    // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
-                    ')',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundSize: 'cover',
-                }}
-              >
-                <div className="flex justify-center items-center">
-                  <Swiper
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    slidesPerGroup={1}
-                    loop
-                    loopFillGroupWithBlank
-                    navigation
-                    modules={[Pagination, Navigation]}
-                    className="mySwiper"
-                  >
-                    <div
-                      id="mainmobile"
-                      className="flex justify-center items-center"
+export const IndustTires = () => {
+  const isMobile = useMediaQuery('(max-width:768px)');
+
+  return (
+    <>
+      <div id="industslidermainmobile" className="lg:hidden">
+        <div id="industsliderinnermainmobile">
+          <div id="industslidermainmobile" className="block">
+            <div id="industsliderinnermainmobile">
+              <div id="industmainmobile">
+                <div
+                  id="industmaininnermobile"
+                  className="py-24"
+                  style={{
+                    backgroundImage:
+                      // eslint-disable-next-line operator-linebreak
+                      'url(' +
+                      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
+                      ')',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                  }}
+                >
+                  <div className="flex justify-center items-center">
+                    <Swiper
+                      slidesPerView={isMobile ? 1 : 2}
+                      spaceBetween={0}
+                      slidesPerGroup={1}
+                      loop
+                      loopFillGroupWithBlank
+                      navigation
+                      modules={[Pagination, Navigation]}
+                      className="mySwiper"
                     >
-                      {IndustrialTiresdata.map((index) => (
-                        <SwiperSlide key={index}>
-                          <div
-                            className="flex justify-center items-center"
-                            key={index.id}
-                          >
-                            <div className="flex flex-col justify-center ">
-                              <div className="lg:relative  self-start ">
-                                <Image
-                                  className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
-                                  src={index.img}
-                                  alt="tires"
-                                />
+                      <div
+                        id="mainmobile"
+                        className="flex justify-center items-center"
+                      >
+                        {IndustrialTiresdata.map((index) => (
+                          <SwiperSlide key={index}>
+                            <div
+                              className="flex justify-center items-center"
+                              key={index.id}
+                            >
+                              <div className="flex flex-col justify-center">
+                                <div className="lg:relative  self-start">
+                                  <Image
+                                    className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
+                                    src={index.img}
+                                    alt="tires"
+                                  />
+                                </div>
+                                <h1 className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
+                                  <span className="border-red-600 border-b-2 pb-2 font-poppins">
+                                    {index.heading}
+                                  </span>
+                                </h1>
                               </div>
-                              <h1 className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
-                                <span className="border-red-600 border-b-2 pb-2 font-poppins">
-                                  {index.heading}
-                                </span>
-                              </h1>
                             </div>
-                          </div>
-                        </SwiperSlide>
-                      ))}
-                    </div>
-                  </Swiper>
+                          </SwiperSlide>
+                        ))}
+                      </div>
+                    </Swiper>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="industslidermaintab" className="block">
+      {/* <div id="industslidermaintab" className="block">
       <div id="industsliderinnermain">
         <div id="specialmain" className="md:block hidden lg:hidden">
           <div
@@ -137,46 +141,47 @@ export const IndustTires = () => (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
-    <div id="industmain" className="lg:block hidden">
-      <div
-        id="industmaininner"
-        className="py-24"
-        style={{
-          backgroundImage:
-            // eslint-disable-next-line operator-linebreak
-            'url(' +
-            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
-            ')',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-        }}
-      >
-        <div className="">
-          <div className="flex justify-center items-end">
-            {IndustrialTiresdata.map((index) => (
-              <div
-                className={`flex flex-col justify-between px-2 pr-${index.pr}`}
-                key={index.id}
-              >
-                <div className="lg:relative  self-start ">
-                  <Image
-                    className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md  "
-                    src={index.img}
-                    alt="tires"
-                  />
+      <div id="industmain" className="lg:block hidden">
+        <div
+          id="industmaininner"
+          className="py-24"
+          style={{
+            backgroundImage:
+              // eslint-disable-next-line operator-linebreak
+              'url(' +
+              'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
+              ')',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+          }}
+        >
+          <div className="">
+            <div className="flex justify-center items-end">
+              {IndustrialTiresdata.map((index) => (
+                <div
+                  className={`flex flex-col justify-between px-2 pr-${index.pr}`}
+                  key={index.id}
+                >
+                  <div className="lg:relative  self-start ">
+                    <Image
+                      className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md  "
+                      src={index.img}
+                      alt="tires"
+                    />
+                  </div>
+                  <h1 className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
+                    <span className="border-red-600 border-b-2 pb-2 font-poppins">
+                      {index.heading}
+                    </span>
+                  </h1>
                 </div>
-                <h1 className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
-                  <span className="border-red-600 border-b-2 pb-2 font-poppins">
-                    {index.heading}
-                  </span>
-                </h1>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </>
-);
+    </>
+  );
+};

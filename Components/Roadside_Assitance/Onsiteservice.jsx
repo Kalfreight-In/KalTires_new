@@ -76,15 +76,17 @@ const Onsiteservice = () => {
                 {onsite.desc}
               </p>
               <div className="flex justify-center mt-8">
-                <button
-                  className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
-                  type="button"
-                >
-                  <span>
-                    <ImPhone className="text-2xl" />
-                  </span>
-                  {onsite.BTN}
-                </button>
+                <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
+                  <button
+                    className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
+                    type="button"
+                  >
+                    <span className="pr-2">
+                      <ImPhone className="text-2xl" />
+                    </span>
+                    {onsite.BTN}
+                  </button>
+                </a>
               </div>
             </div>
           </div>
