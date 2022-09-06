@@ -18,7 +18,7 @@ export const Departments = () => (
               id="departmentmaininner"
               className="bg-white 2xl:px-28 lg:px-8  lg:py-12 2xl:py-16"
             >
-              <h1 className="text-departmentheading text-4xl font-bold font-poppins pb-8">
+              <h1 className="text-departmentheading text-4xl font-bold font-poppins pb-8 md:ml-16 mt-12">
                 Our Departments
               </h1>
 
@@ -37,13 +37,14 @@ export const Departments = () => (
                               alt="departments"
                               className="relative"
                             />
-                            {/* <div id="headingdepartment relative"> */}
-                            <h1
-                              className={`text-red font-poppins font-bold relative -mt-${index.mt} text-white lg:text-xl px-8 `}
+                            <div
+                              id="headingdepartment"
+                              className="flex justify-center"
                             >
-                              {index.Heading}
-                            </h1>
-                            {/* </div> */}
+                              <h1 className="text-red font-poppins font-bold absolute -mt-16  text-white lg:text-xl md:text-base ">
+                                {index.Heading}
+                              </h1>
+                            </div>
                           </div>
                         </div>
                       </div>
