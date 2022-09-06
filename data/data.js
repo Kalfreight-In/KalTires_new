@@ -144,7 +144,38 @@ export const BrandCompnentHeader = [
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Cooper_Tire.png',
     heading: 'cooper-logo',
   },
+  {
+    id: '8',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/contitread.png',
+    heading: 'contitread-logo',
+  },
+  {
+    id: '9',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/michelin%20.png',
+    heading: 'michelin-logo',
+  },
+  {
+    id: '10',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/pirelli%20.png',
+    heading: 'pirelli-logo',
+  },
+  {
+    id: '11',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/prinx.png',
+    heading: 'prinx-logo',
+  },
+  {
+    id: '12',
+    imageurl:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/tornado%20.png',
+    heading: 'tornado-logo',
+  },
 ];
+
 export const FeaturedProductsData = [
   {
     id: 1,
