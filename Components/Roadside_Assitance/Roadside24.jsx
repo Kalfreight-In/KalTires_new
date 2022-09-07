@@ -32,7 +32,7 @@ const Roadside = () => (
                   <span className="pl-4">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
-              <p className="text-black mt-5 font-poppins">
+              <p className="text-black mt-5 font-poppins text-justify">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
                 roadside assistance. We provide 24-hour breakdown services to

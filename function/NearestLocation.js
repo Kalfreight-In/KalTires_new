@@ -28,7 +28,7 @@ function toRad(Value) {
   return (Value * Math.PI) / 180;
 }
 function distance(lat1, lon1, lat2, lon2) {
-  const R = 9999999; // km
+  const R = 6371e3; // km
   const dLat = toRad(lat2 - lat1);
   const dLon = toRad(lon2 - lon1);
   let lat1 = toRad(lat1);

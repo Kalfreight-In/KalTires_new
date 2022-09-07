@@ -158,10 +158,10 @@ const Navbar = ({ toggle }) => {
             </div>
           </Link>
         </div>
-        <MobileIcon onClick={toggle} className="">
+        {/* <MobileIcon onClick={toggle} className="absolute z-30">
           <FaBars color="#fff" />
-          {/* <SidebarFr /> */}
-        </MobileIcon>
+          <SidebarFr />
+        </MobileIcon> */}
       </div>
     </nav>
   );

@@ -63,8 +63,8 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <Link href="/" onClick={toggle}>
-            Home
+          <Link href="/" passHref onClick={toggle}>
+            <SidebarLinkR onClick={toggle}>Home</SidebarLinkR>
           </Link>
 
           {/* <Divlink
@@ -242,7 +242,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               Careers
             </Link>
           </Link> */}
-          <Link href="ContactSection" passHref onClick={toggle}>
+          <Link href="/#AboutUs_Section" passHref onClick={toggle}>
             <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
           </Link>
           <Link href="WhatWeOffer" passHref onClick={toggle}>

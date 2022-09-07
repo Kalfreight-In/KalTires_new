@@ -22,7 +22,7 @@ const MyApp = ({ Component, pageProps }) => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
       </ErrorBoundary>
 
-      <Topbar />
+      <Topbar toggle={toggle} />
       <ErrorBoundary>
         {' '}
         <Navbar toggle={toggle} />

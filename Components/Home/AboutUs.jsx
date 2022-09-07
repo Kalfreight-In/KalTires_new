@@ -118,20 +118,20 @@ export const AboutUs = () => {
               <div className="block h-auto">
                 <div>
                   <div className="flex flex-row justify-center md:justify-start pt-4">
-                    <div className="flex flex-col bg-zinc-50 px-2  mr -4">
+                    <div className="flex flex-col bg-zinc-50   mr-4">
                       <Image src={CommercialTire} />
                       <div className="text-center">
                         Commercial <br />
                         Tires
                       </div>
                     </div>
-                    <div className="flex flex-col bg-zinc-50 px-2 py-4 mx-4 ">
+                    <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
                       <Image src={OTRTires} />
                       <div className="text-center">
                         OTR Tires <br />
                       </div>
                     </div>
-                    <div className="flex flex-col bg-zinc-50 px-2 py-4 mx-4">
+                    <div className="flex flex-col bg-zinc-50 py-4 ">
                       <Image src={AgriculturalTires} />
                       <div className="text-center">
                         Agricultural <br />
@@ -150,7 +150,7 @@ export const AboutUs = () => {
                       id="Hotline"
                       className="flex items-center lg:pr-0 md:pr-4 pr-0"
                     >
-                      <div id="Hotline-first" className="md:mx-4 mx-2 ">
+                      <div id="Hotline-first" className="md:mr-4 mr-2 ">
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="Hotline-second">

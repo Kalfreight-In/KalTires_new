@@ -171,7 +171,7 @@ const location = () => {
     >
       <Search setTypedLocation />
 
-      <Element id="MapContanier" name="MapContanierElement">
+      <Element id="MapContanier" name="MapContanierElement" className="z-0">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
