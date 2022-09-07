@@ -6,7 +6,7 @@ import { Onsitecomponentdata, OnsiteGriddata } from '../../data/data';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const Onsiteservice = () => {
-  const isDesktop = useMediaQuery('(min-width:768px)');
+  const isMobile = useMediaQuery('(max-width:768px)');
   return (
     <div>
       <div>
@@ -37,11 +37,11 @@ const Onsiteservice = () => {
         <Swiper
           modules={[Autoplay]}
           loop
-          slidesPerView={isDesktop ? 2 : 1}
+          slidesPerView={isMobile ? 1 : 2}
           spaceBetween={30}
-          className="mySwiper"
+          // className="mySwiper"
           autoplay={{
-            delay: 2000,
+            delay: 1000,
             disableOnInteraction: false,
           }}
         >

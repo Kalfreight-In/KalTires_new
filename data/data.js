@@ -87,7 +87,10 @@ export const HomeSliderData = [
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check out our wide range of tires & services at affordable prices.  ',
 
-    CTA1: { heading: 'Connect with our Team ', link: 'contactus' },
+    CTA1: {
+      heading: 'Connect with our Team ',
+      link: 'contactus',
+    },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
   {

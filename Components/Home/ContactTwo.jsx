@@ -204,10 +204,13 @@ const ContactTwo = () => {
                 />
               </div>
             </div>
-            <div id="submitallbutton" className=" md:pt-8 pt-0 flex ">
+            <div
+              id="submitallbutton"
+              className=" md:pt-8 pt-0 md:flex block md:pb-0 pb-8"
+            >
               <div>
                 <button
-                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center  items-center cursor-pointer"
+                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 md:ml-0 ml-12 flex justify-center  items-center cursor-pointer"
                   type="submit"
                 >
                   {buttonText}

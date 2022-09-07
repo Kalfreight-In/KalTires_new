@@ -76,14 +76,23 @@ export const Departments = () => (
                   >
                     {Departmentsdata.map((data) => (
                       <SwiperSlide key={data.id}>
-                        <div
-                          id="grid"
-                          className="flex gap-2 flex-nowrap  justify-center"
-                        >
+                        <div id="grid">
                           <div className=" text-center ">
                             <div className="flex justify-center">
                               <div>
-                                <Image src={data.img} alt={data.Alt} />
+                                <Image
+                                  src={data.img}
+                                  alt="departments"
+                                  className="relative"
+                                />
+                                <div
+                                  id="headingdepartment"
+                                  className="flex justify-center"
+                                >
+                                  <h1 className="text-red font-poppins font-bold absolute -mt-16  text-white 2xl:text-xl lg:text-xs md:text-base ">
+                                    {data.Heading}
+                                  </h1>
+                                </div>
                               </div>
                             </div>
                           </div>
