@@ -41,8 +41,9 @@ export const Departments = () => (
                               id="headingdepartment"
                               className="flex justify-center"
                             >
-                              <h1 className="text-red font-poppins font-bold absolute -mt-16  text-white lg:text-xl md:text-base ">
-                                {index.Heading}
+                              <h1 className="text-red font-poppins font-bold absolute -mt-16  text-white lg:text-xl md:text-base">
+                                <span>{index.Heading}</span> <br />
+                                <span>{index.Headingtwo}</span>
                               </h1>
                             </div>
                           </div>

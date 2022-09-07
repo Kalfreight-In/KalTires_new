@@ -594,7 +594,8 @@ export const Departmentsdata = [
   {
     id: 2,
     img: Warehouse,
-    Heading: 'Warehouse Manager',
+    Heading: 'Warehouse',
+    Headingtwo: 'Manager',
     mt: '20',
   },
   {
@@ -613,7 +614,8 @@ export const Departmentsdata = [
   {
     id: 5,
     img: ServiceTechnicians,
-    Heading: 'Service Technicians',
+    Heading: 'Service',
+    Headingtwo: 'Technicians',
     mt: '20',
   },
   {
