@@ -138,14 +138,14 @@ const location = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
-    MapData1.map((x) => false)
+    MapData1.map((x) => true)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
     console.log(`location after typed${TypedLocation}`);
-    MapData1.map((x) => false);
+    MapData1.map((x) => true);
   }, [visibilities, TypedLocation]);
 
   const handleClick = (event, coordinates) => {
@@ -312,7 +312,7 @@ const location = () => {
                               </div>
                             </div>
                             <div className="flex flex-center flex-col lg:w-2/12 ">
-                              <img src="https://kalfreight.com/Uploads/image/21imguf_safty-small.jpg" />
+                              <img src={value.properties.bgimage} />
                               <div className="text-right  pt-2">
                                 <a
                                   className="text-blue-500"
