@@ -218,7 +218,7 @@ const Contactform = () => {
                 </div>
                 <a href="tel:800-385-8006" className="md:ml-16 ml-4">
                   <div>
-                    <p className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
+                    <p className="text-white font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
                       Or call us now at 800-385-8006
                     </p>
                   </div>

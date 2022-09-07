@@ -46,30 +46,29 @@ const HeroSection = ({ data }) => (
             <div className="lg:text-xl text-white font-xl hidden lg:block">
               {data.desc}
             </div>
-            <div className="lg:mt-10 mt-16 text-lg  ">
-              <Link
-                href="/WhatWeOffer"
-                className="flex flex-row justify-center lg:justify-start"
-                passHref
-                // smooth
-                // duration={500}
-                // spy
-                // offset={-80}
-              >
-                {/* <button
+            {data.CTA1 ? (
+              <div className="lg:mt-10 mt-16 text-lg  ">
+                <Link
+                  href="/WhatWeOffer"
+                  className="flex flex-row justify-center lg:justify-start"
+                  passHref
+                >
+                  {/* <button
                   type="button"
                   className="text-white bg-red-500  font-semibold   shadow-sm  shadow-yellow-shadow transition-all hover:drop-shadow-lg  hover:shadow-2xl hover:bg-red-700 flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
                 >
                   <p>{data.CTA1.heading}</p>
                 </button> */}
-                <button
-                  type="button"
-                  className="text-white   hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
-                >
-                  <p>{data.CTA1.heading}</p>
-                </button>
-              </Link>
-            </div>
+
+                  <button
+                    type="button"
+                    className="text-white   hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
+                  >
+                    <p>{data.CTA1.heading}</p>
+                  </button>
+                </Link>
+              </div>
+            ) : null}
           </div>
         </div>
         {/* <div className="flex flex-row lg:mt-16 mt-8  justify-center items-center lg:hidden">
