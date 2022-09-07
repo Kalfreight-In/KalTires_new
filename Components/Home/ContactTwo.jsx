@@ -176,6 +176,7 @@ const ContactTwo = () => {
                   value={email}
                   placeholder="Email Address"
                   required
+                  pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
                 />
               </div>
               <div className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
