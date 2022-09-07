@@ -18,7 +18,7 @@ export const Departments = () => (
               id="departmentmaininner"
               className="bg-white 2xl:px-28 lg:px-8  lg:py-12 2xl:py-16"
             >
-              <h1 className="text-departmentheading text-4xl font-bold font-poppins pb-8 md:ml-16 mt-12">
+              <h1 className="text-departmentheading text-4xl font-bold font-poppins pb-8 mt-12">
                 Our Departments
               </h1>
 
@@ -60,7 +60,7 @@ export const Departments = () => (
           <div>
             <div id="onsitemain">
               <div id="onsitemaininner" className="bg-white">
-                <h1 className="text-departmentheading text-3xl text-center pt-6 font-bold font-poppins pb-8">
+                <h1 className="text-departmentheading text-3xl text-center pt-6 font-semibold font-poppins pb-8">
                   Our Departments
                 </h1>
                 <div id="maingrid">

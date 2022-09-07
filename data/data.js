@@ -1911,6 +1911,6 @@ export const officeLists = [
 export const careerKvl = [
   {
     Headingm: 'CAREERS AT KVL TIRES',
-    desc: 'At KVL Tires, we build strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
+    desc: 'At KVL Tires, we b uild strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
   },
 ];

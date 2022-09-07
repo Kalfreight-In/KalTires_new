@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+import Link from 'next/link';
 import styled from 'styled-components';
 
 import {
@@ -47,12 +48,13 @@ const HeroSection = ({ data }) => (
             </div>
             <div className="lg:mt-10 mt-16 text-lg  ">
               <Link
-                to="AboutUs-Scroll"
+                href="/WhatWeOffer"
                 className="flex flex-row justify-center lg:justify-start"
-                smooth
-                duration={500}
-                spy
-                offset={-80}
+                passHref
+                // smooth
+                // duration={500}
+                // spy
+                // offset={-80}
               >
                 {/* <button
                   type="button"

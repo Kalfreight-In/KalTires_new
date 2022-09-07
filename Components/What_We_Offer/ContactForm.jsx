@@ -190,7 +190,7 @@ const Contactform = () => {
               </div>
               <div
                 id="submitallbutton"
-                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 block font-poppins "
+                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins "
               >
                 <div>
                   <button
@@ -200,7 +200,7 @@ const Contactform = () => {
                     {buttonText}
                   </button>
                 </div>
-                <a href="tel:800-385-8006">
+                <a href="tel:800-385-8006" className="md:ml-16 ml-4">
                   <div>
                     <p
                       className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center"

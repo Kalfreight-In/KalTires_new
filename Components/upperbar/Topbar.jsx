@@ -41,7 +41,7 @@ const Topbar = () => (
             {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
           </div>
           <div>
-            <div className="font-bold">TollFree Number </div>
+            <div className="font-bold">Toll Free </div>
             <div className=""> 800-808-0025</div>
           </div>
         </a>

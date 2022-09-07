@@ -35,7 +35,7 @@ export const Ykvl = () => {
                 className={
                   isMobile
                     ? 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-4 pl-8 text-justify font-poppins'
-                    : 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-16 pl-8 font-poppins'
+                    : 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-16 pl-8 font-poppins text-justify'
                 }
               >
                 {thisdata.desc}
