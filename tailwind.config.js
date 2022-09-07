@@ -34,6 +34,7 @@ module.exports = {
         contactredtwo: '#ff0000cf',
         PrimaryTwo: '#0076C8',
         Lightbox: '#000000d6',
+        Roadsidetxt: '#ffffffa3',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(4, minmax(250px, 1fr))',

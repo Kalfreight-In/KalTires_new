@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
@@ -16,6 +16,7 @@ const Contactform = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
+
   const resetForm = (e) => {
     setName('');
     setEmail('');
@@ -47,6 +48,18 @@ const Contactform = () => {
         console.log('Message not sent');
       });
   };
+
+  // useEffect(() => {
+  //   const emailval = document.querySelector('#emailValidate');
+  //   const submit = document.querySelector('#submitmain');
+  //   submit.addEventListener('click', () => {
+  //     if (emailval.validity.typeMismatch) {
+  //       emailval.setCustomValidity('Please enter correct email');
+  //     } else {
+  //       emailval.setCustomValidity('');
+  //     }
+  //   });
+  // });
 
   return (
     <div id="maincontactform" className="justify-between lg:flex ">
@@ -142,11 +155,13 @@ const Contactform = () => {
                   <input
                     onChange={(e) => setEmail(e.target.value)}
                     className="appearance-none block font-poppins w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
-                    id="grid-first-name"
+                    id="emailValidate"
                     type="email"
                     value={email}
                     placeholder="Email Address"
                     required
+                    pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                    // title="email is required like samosa"
                   />
                 </div>
                 <div
@@ -190,22 +205,20 @@ const Contactform = () => {
               </div>
               <div
                 id="submitallbutton"
-                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 block font-poppins "
+                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins md:pb-8 lg:pb-0 "
               >
                 <div>
                   <button
                     className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-poppins"
                     type="submit"
+                    id="submitmain"
                   >
                     {buttonText}
                   </button>
                 </div>
-                <a href="tel:800-385-8006">
+                <a href="tel:800-385-8006" className="md:ml-16 ml-4">
                   <div>
-                    <p
-                      className="text-white  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center"
-                      type="submit"
-                    >
+                    <p className="text-white font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
                       Or call us now at 800-385-8006
                     </p>
                   </div>
@@ -216,12 +229,14 @@ const Contactform = () => {
         )}
       </div>
 
-      <Image
-        src={mainimage}
-        alt="contactus"
-        objectFit="cover"
-        className="lg:block hidden"
-      />
+      <span className="lg:block hidden">
+        <Image
+          src={mainimage}
+          alt="contactus"
+          objectFit="cover"
+          className="lg:block hidden"
+        />
+      </span>
     </div>
   );
 };

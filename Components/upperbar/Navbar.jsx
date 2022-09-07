@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
     <nav className="bg-white">
       <div className="flexBetween z-10 mx-20  flex-row">
         <div className="ml-8 hidden flex-row justify-start items-center cursor-pointer lg:flex">
-          <Link href="/">
+          <Link href="/" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/' ? 'bg-red-500' : ''
@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/#AboutUs_Section" ref={AboutusRef}>
+          <Link href="/#AboutUs_Section" ref={AboutusRef} passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/#AboutUs_Section' ? 'bg-red-500' : ''
@@ -71,7 +71,7 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/WhatWeOffer">
+          <Link href="/WhatWeOffer" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/WhatWeOffer' ? 'bg-red-500' : ''
@@ -89,7 +89,7 @@ const Navbar = ({ toggle }) => {
             </div>
           </Link>
 
-          <Link href="/RoadsideAssistance">
+          <Link href="/RoadsideAssistance" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/RoadsideAssistance' ? 'bg-red-500' : ''
@@ -106,7 +106,7 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/location">
+          <Link href="/location" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/location' ? 'bg-red-500' : ''
@@ -140,7 +140,7 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </a>
-          <Link href="/career">
+          <Link href="/career" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/career' ? 'bg-red-500' : ''

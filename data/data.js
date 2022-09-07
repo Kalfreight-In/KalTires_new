@@ -87,7 +87,10 @@ export const HomeSliderData = [
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check out our wide range of tires & services at affordable prices.  ',
 
-    CTA1: { heading: 'Connect with our Team ', link: 'contactus' },
+    CTA1: {
+      heading: 'Connect with our Team ',
+      link: 'contactus',
+    },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
   {
@@ -591,7 +594,8 @@ export const Departmentsdata = [
   {
     id: 2,
     img: Warehouse,
-    Heading: 'Warehouse Manager',
+    Heading: 'Warehouse',
+    Headingtwo: 'Manager',
     mt: '20',
   },
   {
@@ -610,7 +614,8 @@ export const Departmentsdata = [
   {
     id: 5,
     img: ServiceTechnicians,
-    Heading: 'Service Technicians',
+    Heading: 'Service',
+    Headingtwo: 'Technicians',
     mt: '20',
   },
   {
@@ -1933,6 +1938,6 @@ export const MapData2 = [
 export const careerKvl = [
   {
     Headingm: 'CAREERS AT KVL TIRES',
-    desc: 'At KVL Tires, we build strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
+    desc: 'At KVL Tires, we b uild strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
   },
 ];

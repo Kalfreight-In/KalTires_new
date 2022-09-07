@@ -9,7 +9,7 @@ const data = [
     Heading: 'WE HELP YOU ACHIEVE YOUR DREAMS',
     // desc: 'WE HELP YOU ACHIEVE YOUR DREAMS',
 
-    CTA1: { heading: 'Apply Now', link: 'contactus' },
+    // CTA1: { heading: 'Apply Now', link: 'contactus' },
     // CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];
