@@ -257,7 +257,7 @@ export const MapConatiner = () => {
                 United State
               </div>
             </div>
-            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white  bg-none pb-2 2xl:mr-38 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
@@ -344,7 +344,7 @@ export const MapConatiner = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black h-8  2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
+                            <div className="text-black h-8  2xl:text-xl xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
                               {value.properties.Address}
                             </div>
@@ -359,7 +359,7 @@ export const MapConatiner = () => {
                       onClick={() => {
                         setShowDropdown(!ShowDropdown);
                       }}
-                      className="group  rounded-md  mb-4 flex flex-row justify-between px-6 py-4  text-center border-2 bg-white text-black  transition-all duration-100 delay-75 cursor-pointer "
+                      className="group  rounded-md  mb-4 flex flex-row justify-between px-6 py-4  text-center border-2 bg-white text-black    transition-all duration-100 delay-75 cursor-pointer "
                     >
                       {FeaatureCat}
                       <span>
