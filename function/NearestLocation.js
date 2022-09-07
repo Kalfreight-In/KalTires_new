@@ -27,26 +27,39 @@ import { MapData1 } from '../data/data';
 function toRad(Value) {
   return (Value * Math.PI) / 180;
 }
-function distance(lat1, lon1, lat2, lon2) {
-  const R = 6371e3; // km
-  const dLat = toRad(lat2 - lat1);
-  const dLon = toRad(lon2 - lon1);
-  let lat1 = toRad(lat1);
-  let lat2 = toRad(lat2);
+function distance(lat1, lat2, lon1, lon2) {
+  console.log(lat1, lat2, lon1, lon2);
+  // The math module contains a function
+  // named toRadians which converts from
+  // degrees to radians.
+  lon1 = (lon1 * Math.PI) / 180;
+  lon2 = (lon2 * Math.PI) / 180;
+  lat1 = (lat1 * Math.PI) / 180;
+  lat2 = (lat2 * Math.PI) / 180;
 
+  // Haversine formula
+  const dlon = lon2 - lon1;
+  const dlat = lat2 - lat1;
   const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  const d = (R * c) / 1000;
-  return d;
+    Math.sin(dlat / 2) ** 2 +
+    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dlon / 2) ** 2;
+
+  const c = 2 * Math.asin(Math.sqrt(a));
+
+  // Radius of earth in kilometers. Use 3956
+  // for miles
+  const r = 6371;
+  console.log(c * r);
+  // calculate the result
+  return c * r;
 }
 function DistanceData(eachData, typeAddress) {
   return distance(
     typeAddress.lat,
-    typeAddress.lng,
     eachData.geometry.coordinates[0],
-    eachData.geometry.coordinates[0]
+    typeAddress.lng,
+
+    eachData.geometry.coordinates[1]
   ).toFixed(1);
 }
 
@@ -58,9 +71,8 @@ function NearestLocation(typeAddress) {
     //     const first = distanceArray.sort();
     // }
   });
-  const filtered = distanceArray.filter((element, index) => {
-    return index % 2 === 0;
-  });
+  console.log(`.......${distanceArray}`);
+  const filtered = distanceArray.filter((element, index) => index % 2 === 0);
   // var firstelement = filtered.sort()[0];
   // const firstData = distanceArray.filter((element, index) => {
   //   return firstelement === filtered;
@@ -68,10 +80,11 @@ function NearestLocation(typeAddress) {
   const shortElement =
     distanceArray[distanceArray.indexOf(filtered.sort()[0]) + 1];
 
-  // console.log(
-  //   `.........in nearest function ${shortElement.geometry.coordinates}`
-  // );
-  console.log(`.........in nearest function ${filtered}`);
+  console.log(
+    `.........in nearest function ${shortElement.geometry.coordinates}`
+  );
+  console.log(`.........in nearest function ${filtered.sort()}`);
+  console.log(`.........in nearest function ${filtered.sort()[0]}`);
   return shortElement;
 }
 
