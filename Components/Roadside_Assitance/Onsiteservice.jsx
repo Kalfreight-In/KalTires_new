@@ -5,6 +5,9 @@ import { Autoplay } from 'swiper';
 import { Onsitecomponentdata, OnsiteGriddata } from '../../data/data';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
+// const aamdata = [OnsiteGriddata];
+// console.log(aamdata);
+
 const Onsiteservice = () => {
   const isMobile = useMediaQuery('(max-width:768px)');
   return (
@@ -48,7 +51,7 @@ const Onsiteservice = () => {
         >
           {OnsiteGriddata.map((newdata) => (
             <SwiperSlide key={newdata.id}>
-              {/* <div className="lg:hidden">
+              <div className="lg:hidden">
                 <div id="grid" className=" bg-bg-white-1    pt-20 px-4">
                   <div className="bg-bg-white-1 text-center">
                     <div className="flex justify-center">
@@ -62,16 +65,6 @@ const Onsiteservice = () => {
                     </h1>
                   </div>
                 </div>
-              </div> */}
-              <div className="bg-kaltire-red  text-center text-white border-white hover:border-2">
-                <div className="flex justify-center">
-                  <div className="w-onsiteimage h-onsiteimage pt-6">
-                    <Image src={newdata.img} alt="service" />
-                  </div>
-                </div>
-                <h1 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
-                  {newdata.heading}
-                </h1>
               </div>
             </SwiperSlide>
           ))}

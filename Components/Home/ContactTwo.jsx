@@ -206,7 +206,7 @@ const ContactTwo = () => {
             </div>
             <div
               id="submitallbutton"
-              className=" md:pt-8 pt-0 md:flex block md:pb-0 pb-8"
+              className=" md:pt-8 pt-0 md:flex block lg:pb-0 md:pb-6"
             >
               <div>
                 <button

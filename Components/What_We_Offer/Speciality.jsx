@@ -25,7 +25,7 @@ export const Speciality = () => {
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
                 <span className="block">
                   <span className="border-b-2 border-red-600 px-4 font-poppins">
-                    Speciality
+                    Specialty Tires
                   </span>
                 </span>
               </h2>
@@ -43,7 +43,7 @@ export const Speciality = () => {
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">
                   <span className="border-kaltire-red border-b-2 font-poppins">
-                    Speciality
+                    Specialty Tires
                   </span>
                 </span>
               </h2>
@@ -86,7 +86,7 @@ export const Speciality = () => {
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="Hotline-second">
-                        <h1 className="font-bold font-poppins">Toll free</h1>
+                        <h1 className="font-bold font-poppins">Toll Free</h1>
                         <p className="font-poppins">800-808-0025</p>
                       </div>
                     </div>

@@ -402,6 +402,18 @@ export const OnsiteGriddata = [
     heading: 'Nationwide Presence',
     desc: 'Does an unexpected vehicle malfunction leave you stranded on the road for a long time? Connect with us for prompt, reliable, & affordable 24/7 roadside assistance. If you cannot understand the fault, you can tell us the vehicle’s indications. We can help you identify the problem, and then you can decide whether our commercial vehicle services suit you. With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs. Connect with us for instant tire inflation, brake repair, minor mechanical work, flat tire repair, and more. Be it passenger cars, light trucks, heavy-duty trucks & trailers, or any other commercial vehicle.   ',
   },
+  {
+    id: 3,
+    img: onsiteseven,
+    heading: 'Competitive Price',
+    desc: 'Be it a light-duty truck, passenger car, bus, commercial truck, or trailer, every vehicle requires tire changes after a specific time interval. But little do people know that the operating cost of tires is heavier on everyone’s pocket. Hence, we offer budget-friendly picks according to your vehicle’s needs. We have a large inventory of top-notch tire brands to choose from. Our unmatched prices make us one of the best & customers’ favorite tire companies in the US tires market. ',
+  },
+  {
+    id: 4,
+    img: onsiteeight,
+    heading: 'Freindly & Experience Technicians',
+    desc: 'It is widely known that a positive experience can enhance the value and customer loyalty toward a brand. The customer being our top-most priority, we function all day and night to cater to their needs. Our talented team of expert professionals works diligently to offer quick & hassle-free services.',
+  },
   // {
   //   id: 3,
   //   img: onsitethree,
@@ -426,18 +438,7 @@ export const OnsiteGriddata = [
   //   heading: 'Commercial Oil Change',
   //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   // },
-  {
-    id: 3,
-    img: onsiteseven,
-    heading: 'Competitive Price',
-    desc: 'Be it a light-duty truck, passenger car, bus, commercial truck, or trailer, every vehicle requires tire changes after a specific time interval. But little do people know that the operating cost of tires is heavier on everyone’s pocket. Hence, we offer budget-friendly picks according to your vehicle’s needs. We have a large inventory of top-notch tire brands to choose from. Our unmatched prices make us one of the best & customers’ favorite tire companies in the US tires market. ',
-  },
-  {
-    id: 4,
-    img: onsiteeight,
-    heading: 'Freindly & Experience Technicians',
-    desc: 'It is widely known that a positive experience can enhance the value and customer loyalty toward a brand. The customer being our top-most priority, we function all day and night to cater to their needs. Our talented team of expert professionals works diligently to offer quick & hassle-free services.',
-  },
+
   // {
   //   id: 9,
   //   img: onsitenine,
@@ -649,7 +650,7 @@ export const PerkBenifitsdata = [
     id: 4,
     img: paidtimeoff,
     Heading: 'Paid Time Off',
-    desc: 'Vacation? Staycation? Get some "you" time to recharge, travel, or chill.',
+    desc: 'Vacation? Staycation? Get some "me" time to recharge, travel, or chill.',
   },
   {
     id: 5,
@@ -2143,6 +2144,6 @@ export const MapData2 = [
 export const careerKvl = [
   {
     Headingm: 'CAREERS AT KVL TIRES',
-    desc: 'At KVL Tires, we b uild strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
+    desc: 'At KVL Tires, we build strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
   },
 ];
