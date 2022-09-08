@@ -223,7 +223,6 @@ const Contactform = () => {
                     {buttonText}
                   </button>
                 </div>
-<<<<<<< HEAD
 
                 <div>
                   <p className="text-white ml-16 font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
@@ -233,15 +232,6 @@ const Contactform = () => {
                     </a>
                   </p>
                 </div>
-=======
-                <a href="tel:800-808-0025" className="md:ml-16 ml-4">
-                  <div>
-                    <p className="text-white font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
-                      Or call us now at 800-808-0025
-                    </p>
-                  </div>
-                </a>
->>>>>>> 71fdd88f96b600c7c10a64a044e4ce248e4af1f3
               </div>
             </div>
           </form>
