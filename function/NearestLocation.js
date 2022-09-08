@@ -78,7 +78,7 @@ function NearestLocation(typeAddress) {
   //   return firstelement === filtered;
   // });
   const shortElement =
-    distanceArray[distanceArray.indexOf(filtered.sort()[0]) + 1];
+    distanceArray[distanceArray.indexOf(filtered.sort((a, b) => a - b)[0]) + 1];
 
   console.log(
     `.........in nearest function ${shortElement.geometry.coordinates}`

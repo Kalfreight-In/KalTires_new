@@ -49,9 +49,7 @@ const HeroSection = ({ data }) => (
               </div>
             </div>
             {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
-            <div className="lg:text-xl text-white font-xl hidden lg:block">
-              {data.desc}
-            </div>
+
             {data.CTA1 ? (
               <div className="lg:mt-10 mt-16 text-lg  ">
                 <Link
