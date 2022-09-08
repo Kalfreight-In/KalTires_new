@@ -427,13 +427,13 @@ export const OnsiteGriddata = [
   //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   // },
   {
-    id: 7,
+    id: 3,
     img: onsiteseven,
     heading: 'Competitive Price',
     desc: 'Be it a light-duty truck, passenger car, bus, commercial truck, or trailer, every vehicle requires tire changes after a specific time interval. But little do people know that the operating cost of tires is heavier on everyone’s pocket. Hence, we offer budget-friendly picks according to your vehicle’s needs. We have a large inventory of top-notch tire brands to choose from. Our unmatched prices make us one of the best & customers’ favorite tire companies in the US tires market. ',
   },
   {
-    id: 8,
+    id: 4,
     img: onsiteeight,
     heading: 'Freindly & Experience Technicians',
     desc: 'It is widely known that a positive experience can enhance the value and customer loyalty toward a brand. The customer being our top-most priority, we function all day and night to cater to their needs. Our talented team of expert professionals works diligently to offer quick & hassle-free services.',
