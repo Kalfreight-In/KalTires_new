@@ -118,9 +118,9 @@ export const AboutUs = () => {
               <div className="block h-auto">
                 <div>
                   <div className="flex flex-row justify-center md:justify-start pt-4">
-                    <div className="flex flex-col bg-zinc-50   mr-4">
+                    <div className="flex flex-col bg-zinc-50  py-4  ">
                       <div className="px-4">
-                        <Image src={CommercialTire} />
+                        <Image src={CommercialTire} width={100} height={100} />
                       </div>
 
                       <div className="text-center">
@@ -130,7 +130,7 @@ export const AboutUs = () => {
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
                       <div className="px-4">
-                        <Image src={OTRTires} />
+                        <Image src={OTRTires} width={100} height={100} />
                       </div>
 
                       <div className="text-center">
@@ -139,7 +139,11 @@ export const AboutUs = () => {
                     </div>
                     <div className="flex flex-col bg-zinc-50 py-4 ">
                       <div className="px-4">
-                        <Image src={AgriculturalTires} />
+                        <Image
+                          src={AgriculturalTires}
+                          width={100}
+                          height={100}
+                        />
                       </div>
 
                       <div className="text-center">
@@ -154,7 +158,7 @@ export const AboutUs = () => {
                   id="InnerphoneEmailRoad"
                   className="flex  mt-8 justify-center md:justify-start"
                 >
-                  <div className="flex lg:justify-start justify-center lg:pb-4 pb-2  ">
+                  <div className="flex lg:justify-start justify-center lg:pb-4 pb-4  ">
                     <div
                       id="Hotline"
                       className="flex items-center lg:pr-0 md:pr-4 pr-0"
