@@ -74,15 +74,6 @@ import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
-    Heading: '  Off-The-Road Tires  ',
-    desc: 'Tires for the toughest driving conditions  ',
-
-    CTA1: { heading: 'Explore', link: '/WhatWeOffer' },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
-  },
-  {
-    id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check out our wide range of tires & services at affordable prices.  ',
@@ -93,6 +84,16 @@ export const HomeSliderData = [
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
+  {
+    id: 2,
+    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    Heading: '  Off-The-Road Tires  ',
+    desc: 'Tires for the toughest driving conditions  ',
+
+    CTA1: { heading: 'Explore', link: '/WhatWeOffer' },
+    CTA12: { heading: 'Inventory', link: 'contactus' },
+  },
+
   {
     id: 3,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-3.png',

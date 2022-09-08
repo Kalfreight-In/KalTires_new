@@ -131,7 +131,7 @@ export const MapConatiner = () => {
   // if (!isBrowser) {
   //   return null;
   // }
-  const isDesktop = useMediaQuery('(min-width: 768px)');
+  const isDesktop = useMediaQuery('(min-width:1147px)');
 
   const [visibilities, setVisibilities] = useState(() =>
     MapData1.map((x) => false)
@@ -253,7 +253,7 @@ export const MapConatiner = () => {
                 </h3>
               </div>
 
-              <div className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4">
+              <div className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4 text-2xl font-bold">
                 United State
               </div>
             </div>
@@ -411,7 +411,7 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </SidebarMenu>
             <div className="my-8">
-              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4">
+              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4  text-2xl font-bold">
                 CANADA
               </h3>
             </div>
