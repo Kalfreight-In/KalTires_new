@@ -128,9 +128,16 @@ const Contactform = () => {
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <h1 className="text-white md:text-3xl lg:text-5xl text-2xl font-bold pl-2 text-left  font-poppins">
-                    BOOK AN APPOINTMENT {isMobile ? null : <br />}NOW!
-                  </h1>
+                  <div>
+                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left ">
+                      BOOK AN APPOINTMENT NOW
+                    </h1>
+                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16">
+                      Let’s grow your business together. Please provide your
+                      details, and a KVL tire expert will get in touch with you
+                      shortly.{' '}
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
@@ -205,7 +212,7 @@ const Contactform = () => {
               </div>
               <div
                 id="submitallbutton"
-                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins md:pb-8 lg:pb-0 "
+                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins md:pb-8 lg:pb-0 md:flex-row flex-col"
               >
                 <div>
                   <button

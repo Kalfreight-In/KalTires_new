@@ -379,7 +379,7 @@ const Footer = () => {
                             rel="noreferrer"
                           >
                             <span className="mt-5px lg:leading-7">
-                              Truck & Trailer Alignment
+                              Subscribe for latest updates
                             </span>
                           </a>
                         </span>
@@ -431,7 +431,7 @@ const Footer = () => {
                   }}
                 >
                   <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-desc md:ml-0 pl-0  ">
-                    Truck & Trailer Alignment
+                    Subscribe for latest updates
                   </h1>
                 </div>
 
