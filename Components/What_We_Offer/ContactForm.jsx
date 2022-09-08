@@ -212,7 +212,7 @@ const Contactform = () => {
               </div>
               <div
                 id="submitallbutton"
-                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins md:pb-8 lg:pb-0 md:flex-row flex-col"
+                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins md:pb-8 lg:pb-4  md:flex-row flex-col"
               >
                 <div>
                   <button
@@ -223,27 +223,24 @@ const Contactform = () => {
                     {buttonText}
                   </button>
                 </div>
-                <a href="tel:800-385-8006" className="md:ml-16 ml-4">
-                  <div>
-                    <p className="text-white font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
-                      Or call us now at 800-385-8006
-                    </p>
-                  </div>
-                </a>
+
+                <div>
+                  <p className="text-white ml-16 font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
+                    Or call us now at &nbsp;
+                    <a href="tel:8008080025" className="cursor-pointer">
+                      800-808 0025
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </form>
         )}
       </div>
 
-      <span className="lg:block hidden">
-        <Image
-          src={mainimage}
-          alt="contactus"
-          objectFit="cover"
-          className="lg:block hidden"
-        />
-      </span>
+      {/* <span className="lg:block hidden"> */}
+      <Image src={mainimage} alt="contactus" objectFit="cover" />
+      {/* </span> */}
     </div>
   );
 };
