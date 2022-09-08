@@ -21,23 +21,23 @@ export const PerkBenifits = () => {
             </h1>
             <div
               id="Perkgrid"
-              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate pt-12 px-20"
+              className="grid gap-4    bg-bg-white-1 lg:grid-cols-perkTemplatetwo  xl:grid-cols-PerkTemplate pt-12 px-20"
             >
               {PerkBenifitsdata.map((index) => (
                 <div
                   className="bg-bg-white-1 text-center border border-perkbenefitsborder  "
                   key={index.id}
                 >
-                  <div className="flex justify-start pl-8 pt-12 h-perkimageheight w-perkimagewidth">
+                  <div className="flex justify-start pl-8 pt-12 h-perkimageheight w-perkimagewidth px-4">
                     <div className="flex ">
                       <Image src={index.img} alt="service" />
                     </div>
                   </div>
 
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 h-8">
+                  <h1 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8">
                     {index.Heading}
                   </h1>
-                  <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left font-poppins ">
+                  <p className="pt-16 pb-8 lg:text-sm font-normal  text-justify px-4 font-poppins ">
                     {index.desc}
                   </p>
                 </div>

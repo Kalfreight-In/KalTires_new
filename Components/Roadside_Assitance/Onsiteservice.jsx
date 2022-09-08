@@ -39,41 +39,52 @@ const Onsiteservice = () => {
           loop
           slidesPerView={isMobile ? 1 : 2}
           spaceBetween={30}
+          // pagination={{ clickable: true }}
           // className="mySwiper"
           autoplay={{
             delay: 1000,
             disableOnInteraction: false,
           }}
         >
-          {OnsiteGriddata.map((data) => (
-            <SwiperSlide key={data.id}>
-              <div className="lg:hidden">
-                <div id="grid" className="    bg-bg-white-1    pt-20 px-4">
+          {OnsiteGriddata.map((newdata) => (
+            <SwiperSlide key={newdata.id}>
+              {/* <div className="lg:hidden">
+                <div id="grid" className=" bg-bg-white-1    pt-20 px-4">
                   <div className="bg-bg-white-1 text-center">
                     <div className="flex justify-center">
                       <div className="w-onsiteimage h-onsiteimage flex">
-                        <Image src={data.img} alt="service" />
+                        <Image src={newdata.img} alt="service" />
                       </div>
                     </div>
 
                     <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                      {data.heading}
+                      {newdata.heading}
                     </h1>
                   </div>
                 </div>
+              </div> */}
+              <div className="bg-kaltire-red  text-center text-white border-white hover:border-2">
+                <div className="flex justify-center">
+                  <div className="w-onsiteimage h-onsiteimage pt-6">
+                    <Image src={newdata.img} alt="service" />
+                  </div>
+                </div>
+                <h1 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
+                  {newdata.heading}
+                </h1>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        {Onsitecomponentdata.map((onsite) => (
-          <div id="secondonsite" className="mt-12 mb-4" key={onsite.id}>
+        {Onsitecomponentdata.map((onsitemain) => (
+          <div id="secondonsite" className="mt-12 mb-4" key={onsitemain.id}>
             <div id="innersecondonsite" className="text-center">
               <h1 className="md:text-2xl font-bold font-poppins">
-                {onsite.heading}
+                {onsitemain.heading}
               </h1>
               <p className="pt-2 md:text-xl text-onsite-text font-poppins lg:px-80 px-8">
-                {onsite.desc}
+                {onsitemain.desc}
               </p>
               <div className="flex justify-center mt-8">
                 <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
@@ -84,7 +95,7 @@ const Onsiteservice = () => {
                     <span className="pr-2">
                       <ImPhone className="text-2xl" />
                     </span>
-                    {onsite.BTN}
+                    {onsitemain.BTN}
                   </button>
                 </a>
               </div>
