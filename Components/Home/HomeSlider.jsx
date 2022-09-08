@@ -25,7 +25,7 @@ const HomeSlider = () => {
        <circle class="path" cx="8" cy="8" r="5.5" fill="none" transform="rotate(-90 8 8)" stroke="#FFF"
        stroke-opacity="1" stroke-width="1.5px"></circle>
      <circle cx="8" cy="8" r="3" fill="#FFF"></circle>
-       </svg> 0 ${index + 1}`
+       </svg>0 ${index + 1}`
            : ''
        } </span>`;
     },

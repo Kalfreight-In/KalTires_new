@@ -9,66 +9,68 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 // console.log(aamdata);
 
 const Onsiteservice = () => {
-  const isMobile = useMediaQuery('(max-width:768px)');
+  const isDesktop = useMediaQuery('(min-width:1148px)');
+  const isMobile = useMediaQuery('(min-width:768px)');
   return (
     <div>
       <div>
-        <div className="lg:block hidden">
-          <div
-            id="grid"
-            className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-4 2xl:px-16"
-          >
-            {OnsiteGriddata.map((index) => (
-              <div className="bg-bg-white-1 text-center" key={index.id}>
-                <div className="flex justify-center">
-                  <div className="w-onsiteimage h-onsiteimage flex">
-                    <Image src={index.img} alt="service" />
-                  </div>
-                </div>
-
-                <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                  {index.heading}
-                </h1>
-                <p className="pt-6 lg:text-sm font-normal px-2 text-justify font-poppins">
-                  {index.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <Swiper
-          modules={[Autoplay]}
-          loop
-          slidesPerView={isMobile ? 1 : 2}
-          spaceBetween={30}
-          // pagination={{ clickable: true }}
-          // className="mySwiper"
-          autoplay={{
-            delay: 1000,
-            disableOnInteraction: false,
-          }}
-        >
-          {OnsiteGriddata.map((newdata) => (
-            <SwiperSlide key={newdata.id}>
-              <div className="lg:hidden">
-                <div id="grid" className=" bg-bg-white-1    pt-20 px-4">
-                  <div className="bg-bg-white-1 text-center">
-                    <div className="flex justify-center">
-                      <div className="w-onsiteimage h-onsiteimage flex">
-                        <Image src={newdata.img} alt="service" />
-                      </div>
+        {isDesktop ? (
+          <div>
+            <div
+              id="grid"
+              className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-4 2xl:px-16"
+            >
+              {OnsiteGriddata.map((index) => (
+                <div className="bg-bg-white-1 text-center" key={index.id}>
+                  <div className="flex justify-center">
+                    <div className="w-onsiteimage h-onsiteimage flex">
+                      <Image src={index.img} alt="service" />
                     </div>
+                  </div>
 
-                    <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                      {newdata.heading}
-                    </h1>
+                  <h1 className="lg:text-xl text-lg font-bold font-poppins ">
+                    {index.heading}
+                  </h1>
+                  <p className="pt-6 lg:text-sm font-normal px-2 text-justify font-poppins">
+                    {index.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <Swiper
+            modules={[Autoplay]}
+            loop
+            slidesPerView={isMobile ? 2 : 1}
+            spaceBetween={30}
+            // pagination={{ clickable: true }}
+            // className="mySwiper"
+            autoplay={{
+              delay: 1000,
+            }}
+          >
+            {OnsiteGriddata.map((newdata) => (
+              <SwiperSlide key={newdata.id}>
+                <div>
+                  <div id="grid" className=" bg-bg-white-1    pt-20 px-4">
+                    <div className="bg-bg-white-1 text-center">
+                      <div className="flex justify-center">
+                        <div className="w-onsiteimage h-onsiteimage flex">
+                          <Image src={newdata.img} alt="service" />
+                        </div>
+                      </div>
+
+                      <h1 className="lg:text-xl text-lg font-bold font-poppins ">
+                        {newdata.heading}
+                      </h1>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
 
         {Onsitecomponentdata.map((onsitemain) => (
           <div id="secondonsite" className="mt-12 mb-4" key={onsitemain.id}>

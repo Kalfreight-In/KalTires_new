@@ -89,15 +89,15 @@ const Navbar = ({ toggle }) => {
             </div>
           </Link>
 
-          <Link href="/RoadsideAssistance" passHref>
+          <Link href="/roadsideAssistance" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
-                router.pathname === '/RoadsideAssistance' ? 'bg-red-500' : ''
+                router.pathname === '/roadsideAssistance' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/RoadsideAssistance'
+                  router.pathname === '/roadsideAssistance'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500 '
                 }  `}

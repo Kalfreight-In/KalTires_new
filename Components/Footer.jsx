@@ -118,7 +118,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center ">
+                    <h1 className="text-xl md:font-bold font-normal xl:text-left text-center ">
                       Inventory
                     </h1>
                   </div>
@@ -182,7 +182,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
+                    <h1 className="text-xl md:font-bold font-normal xl:text-left text-center   ">
                       Who Are We
                     </h1>
                   </div>
@@ -229,7 +229,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left  text-center ">
+                    <h1 className="text-xl md:font-bold font-normal xl:text-left  text-center ">
                       Quick Links
                     </h1>
                   </div>
@@ -302,7 +302,7 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-desc md:ml-0 pl-0 ">
+                    <h1 className=" md:font-bold font-normal  xl:text-left text-center   text-xl md:ml-0 pl-0 ">
                       Services
                     </h1>
                   </div>
@@ -430,7 +430,7 @@ const Footer = () => {
                     setHcontactus(!Hcontactus);
                   }}
                 >
-                  <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-desc md:ml-0 pl-0  ">
+                  <h1 className=" md:font-bold font-normal  xl:text-left text-center   text-xl md:ml-0 pl-0  ">
                     Truck & Trailer Alignment
                   </h1>
                 </div>

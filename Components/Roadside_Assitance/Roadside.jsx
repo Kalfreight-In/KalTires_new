@@ -86,7 +86,7 @@ const Roadside = () => (
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second">
-                    <h1 className="font-bold font-poppins">Toll Free</h1>
+                    <h1 className="font-bold font-poppins">Toll free</h1>
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <p className="font-poppins">800-808-0025</p>
                     </a>
