@@ -8,10 +8,10 @@ const data = [
   {
     id: 1,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.png',
-    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    Heading: 'Are you stuck on the side of the road? ',
+    desc: 'We’ve got your back. ',
 
-    CTA1: { heading: 'Inventory', link: 'contactus' },
+    CTA1: { heading: 'Call Now', link: 'contactus' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];
