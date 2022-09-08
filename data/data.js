@@ -1384,24 +1384,7 @@ export const MapData1 = [
       url: 'https://www.google.com/maps/place/2025+English+Ave,+Indianapolis,+IN+46201,+USA/@39.7591968,-86.1289827,17z/data=!3m1!4b1!4m5!3m4!1s0x886b507bb4588c77:0xd0b2698ed1a53b6d!8m2!3d39.7591968!4d-86.126794',
     },
   },
-  // {
-  //   id: 6,
-  //   type: 'Feature',
-  //   geometry: {
-  //     type: 'Point',
-  //     coordinates: [39.13748253294858, -94.52642871473977],
-  //   },
-  //    timing: [
 
-  //     State: 'MO',
-  //     Manager: 'Telly Ingram',
-  // ZipCode: '64120',
-  //     City: 'Kansas City',
-  //     Address: '4700 Deramus Avenue',
-  //     Phone: '316-393-2153',
-  //     Email: 'trucktiresandparts@outlook.com',
-  //   },
-  // },
   {
     id: 7,
     type: 'Feature',
@@ -1495,7 +1478,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [33.6608207, -84.3749728],
+      coordinates: [33.6608251, -84.3749728],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1515,8 +1498,8 @@ export const MapData1 = [
       Phone: '951-834-3103',
       Email: 'acampbell@kaltires.com',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/atlantaGm.png',
+      url: 'https://www.google.com/maps/place/3435+Jonesboro+Rd+SE,+Atlanta,+GA+30354,+USA/@33.6608251,-84.3749728,17z/data=!3m1!4b1!4m5!3m4!1s0x88f4fdf304d4cbb7:0xf1f5c6fa319c16be!8m2!3d33.6608207!4d-84.3727841',
     },
   },
   {
@@ -1524,7 +1507,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [33.6371068, -84.3234401],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1544,8 +1527,8 @@ export const MapData1 = [
       Phone: '951-834-3103',
       Email: 'acampbell@kaltires.com',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Atlanta%20Georgia.png',
+      url: 'https://www.google.com/maps/place/4285+Moreland+Ave,+Conley,+GA+30288,+USA/@33.6371068,-84.3234401,17z/data=!3m1!4b1!4m5!3m4!1s0x88f4fe4f3db5a2ab:0xd873cbdc7e77783c!8m2!3d33.6371024!4d-84.3212514',
     },
   },
   {
@@ -1553,7 +1536,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [32.7522649, -97.0554702],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1573,8 +1556,8 @@ export const MapData1 = [
       Phone: '972-741-2606',
       Email: 'tgant@kaltires.com',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/arlingtonM.png',
+      url: 'https://www.google.com/maps/place/600+109th+St+b,+Arlington,+TX+76011,+USA/@32.7522649,-97.0554702,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0xffacfc0f2f100cf6!8m2!3d32.7522604!4d-97.0532815',
     },
   },
   {
@@ -1582,7 +1565,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [39.7255402, -86.1722341],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1597,13 +1580,13 @@ export const MapData1 = [
       State: 'Indianapolis',
       Manager: 'Telly Ingram',
       ZipCode: '46225',
-      City: 'IN',
+      City: 'Indiana',
       Address: '2916 Bluff Rd Blg. 6,Indianapolis,IN',
       Phone: '317-520-8545',
-      Email: 'ingram@kaltires.com',
+      Email: 'tingram@kaltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+      url: 'https://www.google.com/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454',
     },
   },
   {
@@ -1611,7 +1594,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [27.5836842, -99.5091438],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1631,19 +1614,134 @@ export const MapData1 = [
       Phone: '972-741-2606',
       Email: 'tgant@kaltires.com',
       bgimage:
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/LaredoTexasM.png',
+      url: 'https://www.google.com/maps/place/8115+Las+Cruces+Dr,+Laredo,+TX+78045,+USA/@27.5836842,-99.5091438,17z/data=!3m1!4b1!4m5!3m4!1s0x8661206462f5488d:0x889064ef3b3fe134!8m2!3d27.5836795!4d-99.5069551',
+    },
+  },
+  {
+    id: 14,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [37.6074485, -122.0791125],
+    },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
+    properties: {
+      State: 'CA',
+      Manager: 'Tim ',
+      ZipCode: '94587',
+      City: 'Union City',
+      Address: '30089 Ahern Ave,Union City,CA',
+      Phone: '',
+      Email: '',
+      bgimage:
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/unioncityCaM.png',
+      url: 'https://www.google.com/maps/place/30089+Ahern+Ave,+Union+City,+CA+94587,+USA/@37.6074485,-122.0791125,17z/data=!3m1!4b1!4m5!3m4!1s0x808f95d30d6a6b09:0x3202ef51f7e03ef4!8m2!3d37.6074443!4d-122.0769238',
+    },
+  },
+  {
+    id: 15,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [32.9777939, -115.5215828],
+    },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
+    properties: {
+      State: 'CA',
+      Manager: '',
+      ZipCode: '92227',
+      City: 'Brawley',
+      Address: '1300 Main St,Brawley,CA',
+      Phone: '',
+      Email: '',
+      bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+      url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
+    },
+  },
+  {
+    id: 16,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [42.2373151, -83.3094285],
+    },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
+    properties: {
+      State: 'MI',
+      Manager: '',
+      ZipCode: '48180',
+      City: 'Taylor',
+      Address: '9445 Inkster Rd,Taylor,MI',
+      Phone: '',
+      Email: '',
+      bgimage:
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/TaylormichigabM.png',
+      url: 'https://www.google.com/maps/place/9445+Inkster+Rd,+Taylor,+MI+48180,+USA/@42.2373151,-83.3094285,17z/data=!3m1!4b1!4m5!3m4!1s0x883b48e26460bb7f:0x58f5d02d24efb430!8m2!3d42.2373111!4d-83.3072398',
+    },
+  },
+  {
+    id: 17,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [39.2352997, -84.4635713],
+    },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
+    properties: {
+      State: 'OH',
+      Manager: '',
+      ZipCode: '45215',
+      City: 'Cincinnati',
+      Address: '603 Shepard Dr,Cincinnati,OH',
+      Phone: '',
+      Email: '',
+      bgimage:
+        'https://github.com/Kalfreight-In/KalTires_new/blob/main/Assets/bgImage/Cincinnati%20Ohio.png',
+      url: 'https://www.google.com/maps/place/603+Shepherd+Dr,+Cincinnati,+OH+45215,+USA/@39.2352997,-84.4635713,17z/data=!3m1!4b1!4m5!3m4!1s0x88404da19b4311b1:0x9d9adb6d3b891a25!8m2!3d39.2352956!4d-84.4613826',
     },
   },
 ];
 export const MapData2 = [
   {
-    id: 11,
+    id: 1,
     type: 'Feature',
-
     geometry: {
       type: 'Point',
-      coordinates: [49.0243763, -122.27483],
+      coordinates: [35.3911406, -119.0399986],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1655,25 +1753,24 @@ export const MapData2 = [
       'Sunday: Closed',
     ],
     properties: {
-      State: 'CA',
+      State: 'BC',
       Manager: 'Colin',
-      ZipCode: '92335',
-
-      City: 'Abbotsford BC',
-      Address: '1225 Riverside Rd',
-      Phone: '562-278-4931',
-      Email: 'rmartinez@kvlties.com',
+      ZipCode: 'V2S 7P1',
+      City: 'Abbotsford',
+      Address: '1225 Riverside Rd,Abbotsford,BC',
+      Phone: '',
+      Email: '',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Arlington%20Texas.png',
-      url: 'https://www.google.com/maps/place/15083+Valley+Blvd,+Fontana,+CA+92335,+USA/@34.0693237,-117.4780847,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b41ac34562d:0x6e84801266440fc5!8m2!3d34.0693237!4d-117.475896',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
+      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
     },
   },
   {
-    id: 12,
+    id: 2,
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [50.9717234, -113.9610187],
+      coordinates: [35.3911406, -119.0399986],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1685,16 +1782,45 @@ export const MapData2 = [
       'Sunday: Closed',
     ],
     properties: {
-      State: 'CA',
+      State: 'AB',
       Manager: 'Arthur',
-      ZipCode: '92078',
-      City: 'Calgary, CA',
-      Address: '9115 52st SE',
-      Phone: '760-249-2862',
-      Email: 'carlosg@kvlties.com',
+      ZipCode: 'T2C 2R4',
+      City: 'Calgary',
+      Address: '9115 52st SE,Calgary,AB',
+      Phone: '',
+      Email: 'arthurp@bigrigcanada.com',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/San%20Marcos%20California.png',
-      url: 'https://www.google.com/maps/place/160+Industrial+St,+San+Marcos,+CA+92078,+USA/@33.136296,-117.1602352,17z/data=!3m1!4b1!4m5!3m4!1s0x80db8ab3b9f18c1b:0x6b10250b71a8172e!8m2!3d33.136296!4d-117.1580465',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
+      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+    },
+  },
+  {
+    id: 3,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [35.3911406, -119.0399986],
+    },
+    timing: [
+      'Monday: 8:00 AM - 5:00 PM',
+      'Tuesday: 8:00 AM - 5:00 PM',
+      'Wednesday: 8:00 AM - 5:00 PM',
+      'Thursday: 8:00 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
+    properties: {
+      State: 'AB',
+      Manager: '',
+      ZipCode: '',
+      City: 'Edmonton',
+      Address: '',
+      Phone: '',
+      Email: '',
+      bgimage:
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
+      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
     },
   },
 ];
