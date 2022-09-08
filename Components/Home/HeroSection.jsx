@@ -32,15 +32,21 @@ const HeroSection = ({ data }) => (
     <HeroContent>
       <div className=" 2xl:pl-28 xl:pl-22 lg:pl-8  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
         <div className="lg:flex flex-row lg:mx-0 mx-16">
-          <div className="lg:border-l-4 border-PrimaryTwo sm:block " />
+          <div className=" sm:block " />
 
           <div
-            className={`lg:ml-8 ml-0 ${
+            className={` ml-0 ${
               data.Heading.length > 25 ? 'lg:w-8/12' : 'lg:w-7/4'
             }  w-full `}
           >
-            <div className="2xl:text-5xl xl:text-4xl lg:text-3xl text-4xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
-              {data.Heading}
+            <div className="lg:border-l-4 border-PrimaryTwo pl-3">
+              <div className="2xl:text-5xl xl:text-4xl lg:text-3xl text-4xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
+                {data.Heading.toUpperCase()}
+              </div>
+              {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
+              <div className="lg:text-xl text-white font-xl hidden lg:block">
+                {data.desc}
+              </div>
             </div>
             {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
             <div className="lg:text-xl text-white font-xl hidden lg:block">

@@ -139,6 +139,7 @@
 }
 .svg-container {
   width: 60%;
+  z-index: 1;
 
   // height: 90vh;
   @media (max-width: 1024px) {
@@ -368,6 +369,11 @@
     animation-delay: 0.3s;
     font-size: medium;
     color: #04152609;
+
+    @media screen and (max-width: 1025px) {
+      color: #ffffff00;
+      opacity: 0;
+    }
   }
 
   .swiper-pagination-bullet-active {
@@ -383,6 +389,10 @@
     animation-duration: 2s;
     animation-delay: 0.3s;
     color: #ffffff;
+
+    @media screen and (max-width: 1025px) {
+      display: hidden !important;
+    }
   }
   .swiper-pagination-bullet-active .path {
     display: inline-block !important;
@@ -390,6 +400,10 @@
     stroke-dashoffset: 0;
     animation: dash linear 60s;
     animation-iteration-count: unset;
+
+    @media screen and (max-width: 1025px) {
+      display: hidden !important;
+    }
   }
   .swiper-pagination {
     display: flex;

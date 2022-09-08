@@ -415,7 +415,7 @@ export const MapConatiner = () => {
                 CANADA
               </h3>
             </div>
-            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-48 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-38 xl:mr-32 lg:mr-20 ">
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (

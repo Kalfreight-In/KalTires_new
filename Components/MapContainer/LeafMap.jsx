@@ -109,7 +109,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     }
     if (maps) {
       setTimeout(() => {
-        maps.flyTo(location || [40.8054, -99.0241], 5, {
+        maps.flyTo(location || [40.8054, -99.0241], isDesktop ? 5 : 4, {
           duration: 1,
         });
       }, 1000);
@@ -125,10 +125,11 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
         ref={setMaps}
         // whenCreated={(map) => setMaps(map)}
         center={[40.8054, -99.0241]}
-        zoom={5}
+        zoom={isDesktop ? 5 : 4}
         ZoomControl={false}
         scrollWheelZoom={false}
-        style={{ height: `${!isDesktop ? '940px' : '500px'}`, width: '100%' }}
+        className="lg:h-mapheightFull h-mapheightMob"
+        style={{ width: '100%' }}
       >
         {polyline ? (
           <Polyline pathOptions={limeOptions} positions={polyline} />

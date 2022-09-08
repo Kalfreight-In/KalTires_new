@@ -67,6 +67,7 @@ const Search = (setTypedLocation) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(`.........is number......${Address.isNaN}`);
     setBulltonText('Sending...');
     const url = `${GOOGLE_MAP_API_URL}?address=${Address}&sensor=true&key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng`;
 

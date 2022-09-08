@@ -42,9 +42,9 @@ const Footer = () => {
                   <img
                     src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
-                    className="2xl:h-24 xl:h-18 h-20 md:block hidden"
+                    className="2xl:h-20 xl:h-16 h-20 md:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
-                    height={80}
+                    height={70}
                   />
                 </div>
 
@@ -132,7 +132,6 @@ const Footer = () => {
                       href="#"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                     >
-                      <span className="text-xl px-1"> </span>
                       Commercial Tires
                     </a>
                     <Slink
@@ -144,7 +143,6 @@ const Footer = () => {
                       offset={-80}
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                     >
-                      <span className="text-xl px-1"> </span>
                       OTR Tires
                     </Slink>
                     <a
@@ -153,7 +151,6 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span className="text-xl px-1"> </span>
                       Industrial Tires
                     </a>
                     <a
@@ -162,7 +159,6 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span className="text-xl px-1"> </span>
                       Agricultural Tires
                     </a>
                     <a
@@ -171,7 +167,6 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span className="text-xl px-1"> </span>
                       Retreads
                     </a>
                   </div>
@@ -203,7 +198,6 @@ const Footer = () => {
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       rel="noreferrer"
                     >
-                      <span className="text-xl px-1"> </span>
                       About Us
                     </a>
                     <a
@@ -212,7 +206,6 @@ const Footer = () => {
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       rel="noreferrer"
                     >
-                      <span className="text-xl px-1"> </span>
                       Group of Companies
                     </a>
                     <a
@@ -221,7 +214,6 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span className="text-xl px-1"> </span>
                       CSR
                     </a>
                   </div>
@@ -255,7 +247,6 @@ const Footer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span className="text-xl px-1"> </span>
                         About Us
                       </a>
                     </div>
@@ -266,7 +257,6 @@ const Footer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span className="text-xl px-1"> </span>
                         Roadside Assistance
                       </a>
                     </div>
@@ -277,7 +267,6 @@ const Footer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span className="text-xl px-1"> </span>
                         Locations
                       </a>
                     </div>
@@ -288,7 +277,6 @@ const Footer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span className="text-xl px-1"> </span>
                         Brands we offer
                       </a>
                     </div>
@@ -299,7 +287,6 @@ const Footer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span className="text-xl px-1"> </span>
                         Credit Application
                       </a>
                     </div>
@@ -328,7 +315,6 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                         <span className="flex cursor-pointer ">
-                          <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <span className="mt-5px lg:leading-7">
                             <Slink
                               to="ContactSection"
@@ -353,7 +339,6 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <Slink
                             to="NewsRoom"
                             smooth
@@ -372,7 +357,6 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <a
                             href="https://kalfreight.com/what-we-do"
                             target="_blank"
@@ -389,7 +373,6 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <a
                             href="https://kaltrailers.com/credit-application/"
                             target="_blank"
@@ -405,7 +388,6 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <a
                             href="http://kvlties.com/#Advantages"
                             target="_blank"
@@ -421,7 +403,6 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow" />
                           <a
                             href="http://kvlties.com/#Advantages"
                             target="_blank"
@@ -473,12 +454,12 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-row space-x-2 align-center justify-center xl:justify-end">
+                  <div className="flex flex-row space-x-2 align-center justify-center  bg-white rounded w-1/2">
                     <a
                       to=""
-                      className="block md:text-xl text-navsmall font-semibold hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                      className=" block md:text-xl text-navsmall  hover:text-yellow-shadowhover cursor-pointer text-kaltire-red   mt-1  font-bold text-center"
                     >
-                      Subscribe Now
+                      Submit
                     </a>
                   </div>
 
@@ -603,9 +584,9 @@ const Footer = () => {
                     <div className="flex flex-row align-center justify-center xl:justify-end">
                       <a
                         to=""
-                        className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover  text-Description   text-center"
+                        className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center"
                       >
-                        Subscribe Now
+                        Submit
                       </a>
                     </div>
                   </div>
