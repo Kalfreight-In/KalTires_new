@@ -119,20 +119,29 @@ export const AboutUs = () => {
                 <div>
                   <div className="flex flex-row justify-center md:justify-start pt-4">
                     <div className="flex flex-col bg-zinc-50   mr-4">
-                      <Image src={CommercialTire} />
+                      <div className="px-4">
+                        <Image src={CommercialTire} />
+                      </div>
+
                       <div className="text-center">
                         Commercial <br />
                         Tires
                       </div>
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
-                      <Image src={OTRTires} />
+                      <div className="px-4">
+                        <Image src={OTRTires} />
+                      </div>
+
                       <div className="text-center">
                         OTR Tires <br />
                       </div>
                     </div>
                     <div className="flex flex-col bg-zinc-50 py-4 ">
-                      <Image src={AgriculturalTires} />
+                      <div className="px-4">
+                        <Image src={AgriculturalTires} />
+                      </div>
+
                       <div className="text-center">
                         Agricultural <br />
                         Tires
@@ -145,7 +154,7 @@ export const AboutUs = () => {
                   id="InnerphoneEmailRoad"
                   className="flex  mt-8 justify-center md:justify-start"
                 >
-                  <div className="flex lg:justify-start justify-center lg:pb-0 pb-4 ">
+                  <div className="flex lg:justify-start justify-center lg:pb-4 pb-2  ">
                     <div
                       id="Hotline"
                       className="flex items-center lg:pr-0 md:pr-4 pr-0"

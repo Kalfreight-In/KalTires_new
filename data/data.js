@@ -78,7 +78,7 @@ export const HomeSliderData = [
     Heading: '  Off-The-Road Tires  ',
     desc: 'Tires for the toughest driving conditions  ',
 
-    CTA1: { heading: 'Explore', link: 'contactus' },
+    CTA1: { heading: 'Explore', link: '/contactus' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
   {
@@ -88,8 +88,8 @@ export const HomeSliderData = [
     desc: 'Check out our wide range of tires & services at affordable prices.  ',
 
     CTA1: {
-      heading: 'Connect with our Team ',
-      link: 'contactus',
+      heading: 'Contact Us',
+      Slink: '/#maincontactformhome',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
@@ -99,7 +99,7 @@ export const HomeSliderData = [
     Heading: 'Looking for new tires for your fleet?  ',
     desc: 'Find your next set of tires here at KVL Tires.  ',
 
-    CTA1: { heading: 'Inventory', link: 'contactus' },
+    CTA1: { heading: 'Contact Us', Slink: '/#maincontactformhome' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];

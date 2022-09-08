@@ -48,48 +48,46 @@ const Footer = () => {
                   />
                 </div>
 
-                <div className="text-white flex justify-start  xl:mt-12  ml-0 ">
-                  <div className="mt-8">
+                <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
+                  <div className="mt-11">
                     <a href="tel:8003858006" target="_blank" rel="noreferrer">
-                      <IoMdMail className="md:h-8 h-6 md:w-8 w-6 " />
+                      <IoMdMail className="h-8 w-6  " />
                     </a>
                   </div>
                   <div className="block xl:ml-0 ">
-                    <div className="flex justify-start  items-start  text-left -ml-6  font-medium">
+                    <div className="flex justify-start text-lg mb-4 items-start  text-left -ml-6  font-medium">
                       Reach out to us
                     </div>
 
-                    <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl  cursor-pointer">
+                    <div className=" text-md ml-2 xl:ml-4 text-xl  cursor-pointer">
                       info@kaltire.com
                     </div>
                   </div>
                 </div>
 
-                <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
-                  <div className="mt-2">
+                <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
+                  <div className="">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                      <MdPhone className="md:h-8 h-6 md:w-8 w-6 " />
+                      <MdPhone className="h-8 w-6" />
                     </a>
                   </div>
                   <div className="ml-4 flex flexcenter">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-md xl:text-lg text-lg   ml-2  ">
-                        800-385-8006
-                      </div>{' '}
+                      <div className=" text-md   ">800-808-0025</div>{' '}
                     </a>
                   </div>
                 </div>
-                <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
+                <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
                   <div className="mt-2">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                      <MdLocationPin className="md:h-8 h-6 md:w-8 w-6 " />
+                      <MdLocationPin className=" h-8 w-6 " />
                     </a>
                   </div>
                   <div className="ml-4">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-lg xl:text-lg text-lg  ml-2  ">
+                      <div className="md:text-md xl:text-md text-md   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
                         92335
                       </div>{' '}
@@ -118,7 +116,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center ">
+                    <h1 className="2xl:text-2xl mb-4  text-xl md:font-bold font-normal xl:text-left text-center ">
                       Inventory
                     </h1>
                   </div>
@@ -130,7 +128,7 @@ const Footer = () => {
                   >
                     <a
                       href="#"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                     >
                       Commercial Tires
                     </a>
@@ -141,13 +139,13 @@ const Footer = () => {
                       spy
                       exact
                       offset={-80}
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                     >
                       OTR Tires
                     </Slink>
                     <a
                       href="https://kalfreight.com/who-we-are/csr"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -155,7 +153,7 @@ const Footer = () => {
                     </a>
                     <a
                       href="https://kalfreight.com/who-we-are/csr"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -163,7 +161,7 @@ const Footer = () => {
                     </a>
                     <a
                       href="https://kalfreight.com/who-we-are/csr"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -182,7 +180,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
+                    <h1 className="2xl:text-2xl mb-4 text-xl md:font-bold font-normal xl:text-left text-center   ">
                       Who Are We
                     </h1>
                   </div>
@@ -195,7 +193,7 @@ const Footer = () => {
                     <a
                       href="https://kalfreight.com/"
                       target="_blank"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       rel="noreferrer"
                     >
                       About Us
@@ -203,14 +201,14 @@ const Footer = () => {
                     <a
                       href="https://kaltrailers.com/"
                       target="_blank"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       rel="noreferrer"
                     >
                       Group of Companies
                     </a>
                     <a
                       href="https://kvlties.com/"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -229,7 +227,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left  text-center ">
+                    <h1 className="2xl:text-2xl mb-4  text-xl md:font-bold font-normal xl:text-left  text-center ">
                       Quick Links
                     </h1>
                   </div>
@@ -243,7 +241,7 @@ const Footer = () => {
                     <div>
                       <a
                         href="https://kaltrailers.com/product-category/trucks/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                        className="block text-md hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -253,7 +251,7 @@ const Footer = () => {
                     <div>
                       <a
                         href="https://kaltrailers.com/product-tag/dry-van/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                        className="block text-md hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -263,7 +261,7 @@ const Footer = () => {
                     <div>
                       <a
                         href="https://kaltrailers.com/product-tag/reefer/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
+                        className="block text-md hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -273,7 +271,7 @@ const Footer = () => {
                     <div>
                       <a
                         href="https://kaltrailers.com/product-category/trailers/new-trailers/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                        className="block text-md hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -283,7 +281,7 @@ const Footer = () => {
                     <div>
                       <a
                         href="https://kaltrailers.com/product-category/trucks/used-trucks/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
+                        className="block text-md hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -302,7 +300,7 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-desc md:ml-0 pl-0 ">
+                    <h1 className=" md:font-bold mb-4  font-normal  xl:text-left text-center   2xl:text-2xl text-xl md:ml-0 pl-0 ">
                       Services
                     </h1>
                   </div>
@@ -313,7 +311,7 @@ const Footer = () => {
                     }`}
                   >
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
-                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
+                      <div className="block text-md hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                         <span className="flex cursor-pointer ">
                           <span className="mt-5px lg:leading-7">
                             <Slink
@@ -333,11 +331,11 @@ const Footer = () => {
                         href="mailto:hr@bigrigcanada.com"
                         target="_blank"
                         rel="noreferrer"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
+                        className="block text-md hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                       />
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
-                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
+                      <div className="block text-md hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Slink
                             to="NewsRoom"
@@ -355,7 +353,7 @@ const Footer = () => {
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className="block text-md hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
                             href="https://kalfreight.com/what-we-do"
@@ -371,7 +369,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className=" antialiased w-max block text-md hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
                             href="https://kaltrailers.com/credit-application/"
@@ -386,7 +384,7 @@ const Footer = () => {
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className=" antialiased w-max block text-md hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
                             href="http://kvlties.com/#Advantages"
@@ -401,7 +399,7 @@ const Footer = () => {
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className=" antialiased w-max block text-md hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
                             href="http://kvlties.com/#Advantages"
@@ -454,16 +452,16 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-row space-x-2 align-center justify-center  bg-white rounded w-1/2">
+                  <div className="flex flex-row ml-28 space-x-2  item-center justify-end  bg-kaltire-red  rounded">
                     <a
                       to=""
-                      className=" block md:text-xl text-navsmall  hover:text-yellow-shadowhover cursor-pointer text-kaltire-red   mt-1  font-bold text-center"
+                      className=" block md:text-xl text-navsmall pr-8 2xl:pr-14  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-bold text-center"
                     >
                       Submit
                     </a>
                   </div>
 
-                  <div id="mainiconcontainer" className=" justify-end  mt-20  ">
+                  <div id="mainiconcontainer" className=" justify-end  mt-6 ">
                     <div id="allicons" className="flex justify-end">
                       <IoLogoFacebook
                         onClick={() =>
@@ -472,7 +470,7 @@ const Footer = () => {
                             '_blank'
                           )
                         }
-                        className="text-white hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                        className="text-white hover:text-footersocialnew  h-8 w-6 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                       />
                       <RiInstagramFill
                         onClick={() =>
@@ -481,7 +479,7 @@ const Footer = () => {
                             '_blank'
                           )
                         }
-                        className="text-white hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                        className="text-white hover:text-instafooterhover  h-8 w-6 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                       />
                       <IoLogoLinkedin
                         onClick={() =>
@@ -490,7 +488,7 @@ const Footer = () => {
                             '_blank'
                           )
                         }
-                        className="text-white hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                        className="text-white hover:text-linkdenfooterhover   h-8 w-6 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                       />
                     </div>
                   </div>
@@ -511,19 +509,19 @@ const Footer = () => {
                   <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
                     <div className="mt-0">
                       <a href="mailto:info@kalgroup.com">
-                        <MdEmail className="md:h-8 h-6 md:w-8 w-6  " />
+                        <MdEmail className="md:h-8 w-6 h-8 w-6 md:w-8 w-6  " />
                       </a>
                     </div>
                     <div className="block xl:ml-3 ml-2 text-center">
                       {/* <div className="block">Working hours</div> */}
-                      <div className="md:text-xl text-lg font-bold xl:font-semibold text-center">
+                      <div className="md:text-xl text-md font-bold xl:font-semibold text-center">
                         <a href="mailto:info@kalgroup.com">info@kalgroup.com</a>
                       </div>
                     </div>
                   </div>
 
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
-                    <div className="mt-2">
+                    <div className="">
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
                         <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
@@ -536,8 +534,8 @@ const Footer = () => {
                     <div className="ml-4">
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
                         {' '}
-                        <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
-                          800-385-8006
+                        <div className="md:text-2xl text-md font-bold xl:font-semibold  ">
+                          800-808-0025
                         </div>{' '}
                       </a>
                     </div>
@@ -561,7 +559,7 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" md:font-semibold   xl:text-left text-center text-Description   text-lg md:ml-0 pl-0  ">
+                    <h1 className=" md:font-semibold   xl:text-left text-center text-Description   text-md md:ml-0 pl-0  ">
                       For latest news & updates
                     </h1>
                   </div>
@@ -603,7 +601,7 @@ const Footer = () => {
                           '_blank'
                         )
                       }
-                      className="text-white hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                      className="text-white hover:text-footersocialnew  h-8 w-6 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                     />
                     <RiInstagramFill
                       onClick={() =>
@@ -612,7 +610,7 @@ const Footer = () => {
                           '_blank'
                         )
                       }
-                      className="text-white hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                      className="text-white hover:text-instafooterhover  h-8 w-6 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                     />
                     <IoLogoLinkedin
                       onClick={() =>
@@ -621,7 +619,7 @@ const Footer = () => {
                           '_blank'
                         )
                       }
-                      className="text-white hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                      className="text-white hover:text-linkdenfooterhover   h-8 w-6 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                     />
                   </div>
                 </div>
