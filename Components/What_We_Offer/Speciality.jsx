@@ -129,7 +129,7 @@ export const Speciality = () => {
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second font-poppins">
-                    <h1 className="font-bold">Hot Line</h1>
+                    <h1 className="font-bold">Toll Free</h1>
                     <p>800-808-0025</p>
                   </div>
                 </div>
