@@ -177,7 +177,7 @@ export const AboutUs = () => {
             </div>
 
             <div />
-            <div className="lg:block hidden col-span-5  2xl:mr-20 ">
+            <div className="lg:block hidden col-span-5  xl:mr-20 ">
               <div className="  ">
                 <Image className="  " src={AboutUsTire} alt="tires" />
               </div>

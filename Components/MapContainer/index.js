@@ -77,7 +77,7 @@ export const Divlink = styled.div`
   width: 100%;
   margin: 0rem;
   font-size: 1rem;
-  padding: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem 0rem;
   font-weight: 600;
   text-decoration: none;
   // padding-right: 3rem;
@@ -117,6 +117,7 @@ const MapCaller = ({ Data, Data2, SData, location }) => (
   <LeafMap Data={Data} Data2={Data2} SData={SData} location={location} />
 );
 export const MapConatiner = () => {
+  const isDesktop = useMediaQuery('(min-width:768px)');
   const [Maplocation, setMapocation] = useState();
 
   const [FeaatureCat, setFeaatureCat] = useState('Commercial Tires');
@@ -131,7 +132,6 @@ export const MapConatiner = () => {
   // if (!isBrowser) {
   //   return null;
   // }
-  const isDesktop = useMediaQuery('(min-width:1147px)');
 
   const [visibilities, setVisibilities] = useState(() =>
     MapData1.map((x) => false)
@@ -344,9 +344,14 @@ export const MapConatiner = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black h-8  2xl:text-xl xl:text-md block lg:text-md md:text-sm mb-2 ">
+                            <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
                               {value.properties.Address}
+                              <span>
+                                {visibilities[index] ? <BiMinus /> : <BsPlus />}
+
+                                {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                              </span>
                             </div>
                           ) : null}
                         </ul>

@@ -138,20 +138,20 @@ const location = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
-    MapData1.map((x) => true)
+    MapData1.map((x) => false)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
     console.log(`location after typed${TypedLocation}`);
-    MapData1.map((x) => true);
+    MapData1.map((x) => false);
   }, [visibilities, TypedLocation]);
 
   const handleClick = (event, coordinates) => {
     scroller.scrollTo('MapContanierElement', {
       duration: 1500,
-      delay: 100,
+      delay: 30,
       smooth: true,
 
       offset: isDesktop ? 0 : 100, // Scrolls to element + 50 pixels down the page
@@ -210,7 +210,7 @@ const location = () => {
             <SidebarMenu className=" ">
               <div className="">
                 {MapData1.map((value, index) => (
-                  <div key={value.id} className="bg-black mb-4">
+                  <div key={value.id} className="bg-locationGrey mb-4">
                     <Divlink
                       spy
                       smooth
@@ -259,15 +259,15 @@ const location = () => {
                           Our Locations
                         </h3>
                       </div>
-                      <span>
+                      {/* <span>
                         {visibilities[index] ? (
                           <BiMinus color="bg-white" />
                         ) : (
                           <BsPlus color="bg-white" />
                         )}
 
-                        {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                      </span>
+                        <BsPlus onClick={()=>setPlus(<BiMinus/>)}/>
+                      </span> */}
                     </Divlink>
                     <div
                       className={`Transition-Height-${

@@ -24,7 +24,9 @@ const mydata = BrandCompnentHeader;
 
 const BrandsComponent = () => {
   //   const [hoverRef, isHovered] = useHover();
-  const isDesktop = useMediaQuery('(min-width: 768px)');
+  const isMobile = useMediaQuery('(min-width: 768px)');
+  const isDesktop = useMediaQuery('(min-width:1148px)');
+  const isLaptop = useMediaQuery('(min-width:1407px)');
 
   //   const Quality = styled.div`
   //     background: ${(props) => `url(${props.background}) no-repeat top center`};
@@ -48,6 +50,20 @@ const BrandsComponent = () => {
   //     to: [{ transform: 'translateY(15px)' }],
   //     config: { mass: 3, tension: 500, friction: 25 },
   //   });
+  function SliderComp() {
+    if (isLaptop) {
+      return 5;
+    }
+    if (isDesktop) {
+      return 4;
+    }
+
+    if (isMobile) {
+      return 3;
+    }
+
+    return 1;
+  }
 
   return (
     <>
@@ -80,7 +96,7 @@ const BrandsComponent = () => {
             {/* ) : ( */}
             <Swiper
               centeredSlides
-              slidesPerView={isDesktop ? 7 : 1}
+              slidesPerView={SliderComp()}
               spaceBetween={50}
               loop
               autoplay={{

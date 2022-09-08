@@ -10,14 +10,14 @@ const Topbar = ({ toggle }) => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div className={`bg-black ${isDesktop ? '' : 'fixed z-30 w-full'}`}>
-      <div className=" xl:mx-20 mx-8  flexBetween z-10   p-3 flex-row">
+      <div className=" xl:mx-12 mx-8  flexBetween z-10   p-3 flex-row">
         <div className=" ml-0 flex-1 flex flex-row justify-start items-center ">
           <Image
             src={Navlogo}
             alt="place"
             objectFit="contain"
             className="cursor-pointer"
-            height={70}
+            height={55}
           />
           <div className="pt-2 relative ml-8 mx-auto text-gray-600 hidden lg:block">
             <input

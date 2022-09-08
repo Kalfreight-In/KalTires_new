@@ -48,48 +48,46 @@ const Footer = () => {
                   />
                 </div>
 
-                <div className="text-white flex justify-start  xl:mt-12  ml-0 ">
-                  <div className="mt-8">
+                <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
+                  <div className="mt-11">
                     <a href="tel:8003858006" target="_blank" rel="noreferrer">
-                      <IoMdMail className="md:h-8 h-6 md:w-8 w-6 " />
+                      <IoMdMail className="h-8 w-6  " />
                     </a>
                   </div>
                   <div className="block xl:ml-0 ">
-                    <div className="flex justify-start  items-start  text-left -ml-6  font-medium">
+                    <div className="flex justify-start text-lg mb-4 items-start  text-left -ml-6  font-medium">
                       Reach out to us
                     </div>
 
-                    <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl  cursor-pointer">
+                    <div className=" text-md ml-2 xl:ml-4 text-xl  cursor-pointer">
                       info@kaltire.com
                     </div>
                   </div>
                 </div>
 
-                <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
-                  <div className="mt-2">
+                <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
+                  <div className="">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                      <MdPhone className="md:h-8 h-6 md:w-8 w-6 " />
+                      <MdPhone className="h-8 w-6" />
                     </a>
                   </div>
                   <div className="ml-4 flex flexcenter">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-md xl:text-lg text-lg   ml-2  ">
-                        800-385-8006
-                      </div>{' '}
+                      <div className=" text-md   ">800-808-0025</div>{' '}
                     </a>
                   </div>
                 </div>
-                <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
+                <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
                   <div className="mt-2">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                      <MdLocationPin className="md:h-8 h-6 md:w-8 w-6 " />
+                      <MdLocationPin className=" h-8 w-6 " />
                     </a>
                   </div>
                   <div className="ml-4">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
-                      <div className="md:text-lg xl:text-lg text-lg  ml-2  ">
+                      <div className="md:text-md xl:text-md text-md   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
                         92335
                       </div>{' '}
@@ -430,8 +428,8 @@ const Footer = () => {
                     setHcontactus(!Hcontactus);
                   }}
                 >
-                  <h1 className=" md:font-bold font-normal  xl:text-left text-center   text-xl md:ml-0 pl-0  ">
-                    Truck & Trailer Alignment
+                  <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-lg md:ml-0 pl-0  ">
+                    Subscribe for latest updates
                   </h1>
                 </div>
 
@@ -454,16 +452,16 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-row space-x-2 align-center justify-center  bg-white rounded w-1/2">
+                  <div className="flex flex-row ml-28 space-x-2  item-center justify-end  bg-kaltire-red  rounded">
                     <a
                       to=""
-                      className=" block md:text-xl text-navsmall  hover:text-yellow-shadowhover cursor-pointer text-kaltire-red   mt-1  font-bold text-center"
+                      className=" block md:text-xl text-navsmall pr-8 2xl:pr-7  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-bold text-center"
                     >
                       Submit
                     </a>
                   </div>
 
-                  <div id="mainiconcontainer" className=" justify-end  mt-20  ">
+                  <div id="mainiconcontainer" className=" justify-end  mt-12  ">
                     <div id="allicons" className="flex justify-end">
                       <IoLogoFacebook
                         onClick={() =>
