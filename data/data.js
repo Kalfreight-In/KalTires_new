@@ -1565,7 +1565,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [39.7255402, -86.1722341],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1586,7 +1586,7 @@ export const MapData1 = [
       Email: 'tingram@kaltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+      url: 'https://www.google.com/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454',
     },
   },
   {
