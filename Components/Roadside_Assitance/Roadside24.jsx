@@ -12,7 +12,7 @@ const Roadside = () => (
           <div className="lg:hidden  flex justify-center  relative md:-mb-28 md:py-8 py-8 z-10 bg-Roadsidetxt">
             <h2 className="text-4xl tracking-tight  text-black font-poppins font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
-                <span className="text-kaltire-red font-poppins">24 / 7</span>{' '}
+                <span className="text-kaltire-red font-poppins">24/7</span>{' '}
                 <span>ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
@@ -28,7 +28,7 @@ const Roadside = () => (
             <div className="md:px-10 px-6 lg:px-0 max-w-4xl lg:max-w-md md:mx-12 mx-2   pt-0">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
                 <span className="block font-poppins">
-                  <span className="text-kaltire-red font-poppins">24 / 7</span>
+                  <span className="text-kaltire-red font-poppins">24/7</span>
                   <span className="pl-4">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
@@ -82,7 +82,7 @@ const Roadside = () => (
               <div className="block pt-4" id="PhoneEmailRoad" />
               <div id="InnerphoneEmailRoad" className="flex">
                 <div id="Hotline" className="flex items-center">
-                  <div id="Hotline-first" className="md:mx-4 mx-2">
+                  <div id="Hotline-first" className=" mr-2">
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second">

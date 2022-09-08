@@ -53,7 +53,7 @@ const HeroSection = ({ data }) => (
             {data.CTA1 ? (
               <div className="lg:mt-10 mt-16 text-lg  ">
                 <Link
-                  href="/WhatWeOffer"
+                  href={data.CTA1.Slink ? data.CTA1.Slink : data.CTA1.link}
                   className="flex flex-row justify-center lg:justify-start"
                   passHref
                 >

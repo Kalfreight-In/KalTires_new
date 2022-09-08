@@ -89,6 +89,12 @@ module.exports = {
         perkimageheight: '7.5rem',
         contactheighttab: '6rem',
         contactheightmobile: '4.5rem',
+        heading: '3rem',
+        subheading: '1.6rem',
+
+        navsmall: '14px',
+        navsmallne: '10px;',
+        descnew: '1rem',
       },
 
       inset: {
