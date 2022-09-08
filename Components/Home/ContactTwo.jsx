@@ -5,7 +5,7 @@ import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const ContactTwo = () => {
-  const isMobile = useMediaQuery('max-width:768px');
+  const isTab = useMediaQuery('max-width:1080px');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -230,16 +230,8 @@ const ContactTwo = () => {
             </div>
           </form>
         )}
-      </div>
-
-      <span id="formtwo" className="lg:block hidden">
-        <Image
-          src={mainimage}
-          alt="contactus"
-          objectFit="cover"
-          className="hidden"
-        />
-      </span>
+      </div>{' '}
+      <Image src={mainimage} alt="contactus" objectFit="cover" />
     </div>
   );
 };

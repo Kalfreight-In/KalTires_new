@@ -16,7 +16,7 @@ export const Departments = () => (
           <div id="departmentmain">
             <div
               id="departmentmaininner"
-              className="bg-white 2xl:px-28 lg:px-8  lg:py-12 2xl:py-16"
+              className="bg-white lg:px-20 md:px-8  lg:py-12 2xl:py-16"
             >
               <h1 className="text-departmentheading text-4xl font-bold font-poppins pb-8 mt-12">
                 Our Departments
