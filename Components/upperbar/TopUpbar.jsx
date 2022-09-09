@@ -50,7 +50,7 @@ const extractAddress = (place) => {
 };
 
 const TopUpbar = () => {
-  const { userLocation } = useStateContext();
+  const { userLocation, setUserLocation } = useStateContext();
 
   // const { data } = getLocationByLatLng(
   //   location.coordinates.lat,
@@ -64,9 +64,19 @@ const TopUpbar = () => {
           <div className="flex flex-row flexCenter">
             <div className="text-white font-bold ml-8">
               {' '}
-              {userLocation
-                ? `${userLocation.city} , ${userLocation.state}`
-                : 'Location data not available yet.'}
+              {userLocation ? (
+                `${userLocation.city} , ${userLocation.state}`
+              ) : (
+                <div className="flex flex-row">
+                  Location data not available yet.{' '}
+                  <div
+                    className="cursor-pointer"
+                    onClick={findMyLocation(setUserLocation)}
+                  >
+                    Shoow Your Location
+                  </div>
+                </div>
+              )}
             </div>
             <div className="ml-2 font-bold">
               <GoLocation color="white " />
