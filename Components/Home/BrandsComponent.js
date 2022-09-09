@@ -108,7 +108,7 @@ const BrandsComponent = () => {
             >
               {mydata.map((data) => (
                 <SwiperSlide key={data.id}>
-                  <div className="flex-1 flex  flex-col justify-center  hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
+                  <div className="flex-1 flex  flex-col justify-center  hover:scale-105 hover:z-10  hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
                     <div className="flex justify-center items-center h-36">
                       <div className="item-center  ">
                         <img src={data.imageurl} alt="service" className=" " />
