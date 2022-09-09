@@ -4,12 +4,15 @@ const Context = createContext();
 
 export const StateContext = ({ children }) => {
   const [userAddress, setUserAdress] = useState(null);
+  const [userLocation, setUserLocation] = useState(null);
   const [typeAddress, setTypeAddress] = useState(null);
   const [NearestLocation, setNearestLocation] = useState(null);
   return (
     <Context.Provider
       value={{
         userAddress,
+        userLocation,
+        setUserLocation,
         setUserAdress,
         setTypeAddress,
         typeAddress,

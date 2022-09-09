@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { GoLocation } from 'react-icons/go';
 import axios from 'axios';
+import { findMyLocation } from '../../HelpFunctions/findMyLocation';
+import { useStateContext } from '../../context/StateContext';
 
 const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 // import Image from 'next/image';
@@ -48,37 +50,7 @@ const extractAddress = (place) => {
 };
 
 const TopUpbar = () => {
-  const [address, setAddress] = useState(null);
-  async function reverseGeocode({ latitude: lat, longitude: lng }) {
-    const url = `${GOOGLE_MAP_API_URL}?key=AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk&latlng=${lat},${lng}`;
-    try {
-      axios.get(url).then(
-        (response) =>
-          // eslint-disable-next-line implicit-arrow-linebreak, comma-dangle
-          setAddress(extractAddress(response.data.results[0]))
-        // eslint-disable-next-line function-paren-newline
-      );
-    } catch (err) {
-      console.log(err);
-    }
-
-    // .then((location) => {
-    //   const place = location.results[0];
-    //   const Aaddress = extractAddress(place);
-    //   setAddress(Aaddress);
-    // });
-  }
-
-  const findMyLocation = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        reverseGeocode(position.coords);
-      });
-    }
-  };
-  useEffect(() => {
-    findMyLocation();
-  }, []);
+  const { userLocation } = useStateContext();
 
   // const { data } = getLocationByLatLng(
   //   location.coordinates.lat,
@@ -92,8 +64,8 @@ const TopUpbar = () => {
           <div className="flex flex-row flexCenter">
             <div className="text-white font-bold ml-8">
               {' '}
-              {address
-                ? `${address.city} , ${address.state}`
+              {userLocation
+                ? `${userLocation.city} , ${userLocation.state}`
                 : 'Location data not available yet.'}
             </div>
             <div className="ml-2 font-bold">
