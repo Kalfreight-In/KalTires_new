@@ -18,7 +18,7 @@ const data = [
     // commsfsdf
     // commsfsdf
 
-    CTA1: { heading: 'Call Now', link: 'contactus' },
+    CTA1: { heading: 'Call Now', link: '/#maincontactformhome' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];

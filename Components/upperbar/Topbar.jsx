@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import Navlogo from '../../Assets/Images/NavLogo.png';
 import call from '../../Assets/Icons/call.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { MobileIcon } from './Navbar';
+import { findMyLocation } from '../../HelpFunctions/findMyLocation';
+import { useStateContext } from '../../context/StateContext';
 
 const Topbar = ({ toggle }) => {
+  const { userLocation, setUserLocation } = useStateContext();
+  useEffect(() => {
+    findMyLocation(setUserLocation);
+  }, []);
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div className={`bg-black ${isDesktop ? '' : 'fixed z-30 w-full'}`}>
