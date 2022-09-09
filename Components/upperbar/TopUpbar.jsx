@@ -50,7 +50,8 @@ const extractAddress = (place) => {
 };
 
 const TopUpbar = () => {
-  const { userLocation, setUserLocation } = useStateContext();
+  const { userLocation, setUserLocation, setCurrentlatlong } =
+    useStateContext();
 
   // const { data } = getLocationByLatLng(
   //   location.coordinates.lat,
@@ -71,7 +72,7 @@ const TopUpbar = () => {
                   Location data not available yet.{' '}
                   <div
                     className="cursor-pointer"
-                    onClick={findMyLocation(setUserLocation)}
+                    onClick={findMyLocation(setUserLocation, setCurrentlatlong)}
                   >
                     Shoow Your Location
                   </div>

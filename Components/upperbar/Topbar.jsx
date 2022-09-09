@@ -9,9 +9,9 @@ import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 
 const Topbar = ({ toggle }) => {
-  const { setUserLocation } = useStateContext();
+  const { setUserLocation, setCurrentlatlong } = useStateContext();
   useEffect(() => {
-    findMyLocation(setUserLocation);
+    findMyLocation(setUserLocation, setCurrentlatlong);
   }, []);
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (

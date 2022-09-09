@@ -105,56 +105,56 @@ export const HomeSliderData = [
 ];
 export const BrandCompnentHeader = [
   {
-    id: '1',
+    id: 1,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Continental.png',
     heading: 'continental-logo',
   },
   {
-    id: '2',
+    id: 2,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/GoodYear.png',
     heading: 'Goodyear logo',
   },
   {
-    id: '3',
+    id: 3,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/apollo-tyres.png',
     heading: 'apollo-logo',
   },
   {
-    id: '4',
+    id: 4,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png',
     heading: 'Bkt-logo',
   },
   {
-    id: '5',
+    id: 5,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/General_Tire.png',
     heading: 'general-logo',
   },
   {
-    id: '6',
+    id: 6,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/ameri.png',
     heading: 'americansteel-logo',
   },
 
   {
-    id: '7',
+    id: 7,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png',
     heading: 'cooper-logo',
   },
   {
-    id: '8',
+    id: 8,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/contitread.png',
     heading: 'contitread-logo',
   },
   {
-    id: '9',
+    id: 9,
     imageurl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/michelin.png',
     heading: 'michelin-logo',
@@ -1101,7 +1101,7 @@ export const NavbarData = [
 ];
 export const MapData1 = [
   {
-    id: 1,
+    id: 20,
     type: 'Feature',
 
     geometry: {
@@ -1132,7 +1132,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 1,
+    id: 19,
     type: 'Feature',
 
     geometry: {
@@ -1163,7 +1163,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 2,
+    id: 18,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1192,7 +1192,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 3,
+    id: 0,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1221,7 +1221,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 3,
+    id: 1,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1268,7 +1268,7 @@ export const MapData1 = [
   //   },
   // },
   {
-    id: 4,
+    id: 2,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1297,7 +1297,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 5,
+    id: 3,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1326,7 +1326,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 5,
+    id: 4,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1355,7 +1355,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 6,
+    id: 5,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1385,7 +1385,7 @@ export const MapData1 = [
   },
 
   {
-    id: 7,
+    id: 6,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1414,7 +1414,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 8,
+    id: 7,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1736,7 +1736,7 @@ export const MapData1 = [
 ];
 export const MapData2 = [
   {
-    id: 1,
+    id: 21,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1765,7 +1765,7 @@ export const MapData2 = [
     },
   },
   {
-    id: 2,
+    id: 22,
     type: 'Feature',
     geometry: {
       type: 'Point',
