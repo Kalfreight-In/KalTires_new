@@ -14,14 +14,13 @@ export const IndustTires = () => {
   const isMobile = useMediaQuery('(max-width:768px)');
 
   return (
-    <>
-      <div id="industslidermainmobile" className="lg:hidden">
-        <div id="industsliderinnermainmobile">
-          <div id="industslidermainmobile" className="block">
-            <div id="industsliderinnermainmobile">
-              <div id="industmainmobile">
+    <div id="industmain">
+      <div className="lg:hidden">
+        <div>
+          <div className="block">
+            <div>
+              <div>
                 <div
-                  id="industmaininnermobile"
                   className="py-24"
                   style={{
                     backgroundImage:
@@ -143,9 +142,8 @@ export const IndustTires = () => {
       </div>
     </div> */}
 
-      <div id="industmain" className="lg:block hidden">
+      <div className="lg:block hidden">
         <div
-          id="industmaininner"
           className="py-24"
           style={{
             backgroundImage:
@@ -182,6 +180,6 @@ export const IndustTires = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
