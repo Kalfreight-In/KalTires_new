@@ -35,6 +35,7 @@ module.exports = {
         PrimaryTwo: '#0076C8',
         Lightbox: '#000000d6',
         Roadsidetxt: '#ffffffa3',
+        locationGrey: '#2C2C2C',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(4, minmax(250px, 1fr))',
@@ -82,7 +83,7 @@ module.exports = {
       height: {
         300: '300px',
         557: '557px',
-        mapheightFull: '900px',
+        mapheightFull: '1000px',
         mapheightMob: '500px',
         Onsiteheight: '95vh',
         onsitegridheight: '75vh',

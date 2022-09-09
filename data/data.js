@@ -137,14 +137,14 @@ export const BrandCompnentHeader = [
   {
     id: '6',
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/ameristeel.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/ameri.png',
     heading: 'americansteel-logo',
   },
 
   {
     id: '7',
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Cooper_Tire.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png',
     heading: 'cooper-logo',
   },
   {
@@ -156,7 +156,7 @@ export const BrandCompnentHeader = [
   {
     id: '9',
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/michelin%20.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/michelin.png',
     heading: 'michelin-logo',
   },
   {

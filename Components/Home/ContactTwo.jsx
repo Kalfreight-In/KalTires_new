@@ -106,7 +106,7 @@ const ContactTwo = () => {
             </div>
           </div>
         ) : (
-          <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
+          <form className="w-fit mb-8" onSubmit={(e) => handleSubmit(e)}>
             <div className="xl:text-left text-center ">
               <div
                 id="contactnew"

@@ -51,7 +51,7 @@ const HeroSection = ({ data }) => (
             {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
 
             {data.CTA1 ? (
-              <div className="lg:mt-10 mt-16 text-lg  ">
+              <div className="lg:mt-10 mt-16 text-lg flex justify-center lg:justify-start ">
                 <Link
                   href={data.CTA1.Slink ? data.CTA1.Slink : data.CTA1.link}
                   className="flex flex-row justify-center lg:justify-start"

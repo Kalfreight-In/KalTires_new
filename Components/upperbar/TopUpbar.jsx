@@ -87,7 +87,7 @@ const TopUpbar = () => {
 
   return (
     <div className="bg-tire-gray-3 ">
-      <div className="flexBetween z-10 mx-20 p-3 flex-row">
+      <div className="flexBetween z-10 mx-20 p-0 flex-row">
         <Link href="/">
           <div className="flex flex-row flexCenter">
             <div className="text-white font-bold ml-8">
