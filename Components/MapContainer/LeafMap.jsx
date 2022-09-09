@@ -49,6 +49,11 @@ const covidIcon = new Icon({
     'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
   iconSize: [25, 25],
 });
+const userIcon = new Icon({
+  iconUrl:
+    'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/478d02cff59c0d7439d979755f5172ea0a32fc9b/Assets/Images/userIcon.svg',
+  iconSize: [25, 25],
+});
 const LeafMap = ({ Data, Data2, SData, location }) => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   const { userAddress, setUserAdress, setTypeAddress, typeAddress } =
@@ -233,7 +238,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 // },
               }
             }
-            icon={covidIcon}
+            icon={userIcon}
           />
         ) : null}
 
