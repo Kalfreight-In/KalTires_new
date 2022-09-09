@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/#AboutUs_Section" ref={AboutusRef} passHref>
+          <Link href="/#AboutUs_Section" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
                 router.pathname === '/#AboutUs_Section' ? 'bg-red-500' : ''
