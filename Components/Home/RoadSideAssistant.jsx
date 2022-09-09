@@ -53,7 +53,7 @@ const RoadSideAssistant = () => {
                 ROADSIDE ASSISTANCE
               </h2>
 
-              <p className=" mt-5 text-justify text-neutral-500 xl:text-lg text-sm font-medium">
+              <p className=" mt-5 text-justify text-neutral-500 2xl:text-lg xl:text-md text-sm font-medium">
                 Driving a commercial vehicle keeps you on the move, making it
                 necessary to be aware of your vehicle’s condition. You must
                 ensure that your tires deliver great mileage, superior traction,

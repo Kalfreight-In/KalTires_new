@@ -254,7 +254,7 @@ export const MapConatiner = () => {
               </div>
 
               <div className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4 text-2xl font-bold">
-                United State
+                UNITED STATES
               </div>
             </div>
             <SidebarMenu className="md:bg-white  bg-none pb-2 2xl:mr-38 xl:mr-32 lg:mr-20 ">
@@ -457,7 +457,7 @@ export const MapConatiner = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black h-8 2xl:text-xl xl:text-lg block lg:text-md md:text-sm mb-2 ">
+                            <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
                               {value.properties.Address}
                             </div>

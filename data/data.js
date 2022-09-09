@@ -1793,35 +1793,35 @@ export const MapData2 = [
       url: 'https://www.google.com/maps/place/9115+52+St+SE,+Calgary,+AB+T2C+2R4,+Canada/@50.9717234,-113.9610187,17z/data=!3m1!4b1!4m5!3m4!1s0x537179f3e2e183d5:0xf426e9c504fa0b82!8m2!3d50.97172!4d-113.95883',
     },
   },
-  {
-    id: 3,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
-    },
-    timing: [
-      'Monday: 8:00 AM - 5:00 PM',
-      'Tuesday: 8:00 AM - 5:00 PM',
-      'Wednesday: 8:00 AM - 5:00 PM',
-      'Thursday: 8:00 AM - 5:00 PM',
-      'Friday: 7:30 AM - 5:00 PM',
-      'Saturday: Closed',
-      'Sunday: Closed',
-    ],
-    properties: {
-      State: 'AB',
-      Manager: '',
-      ZipCode: '',
-      City: 'Edmonton',
-      Address: '',
-      Phone: '',
-      Email: '',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
-    },
-  },
+  // {
+  //   id: 3,
+  //   type: 'Feature',
+  //   geometry: {
+  //     type: 'Point',
+  //     coordinates: [35.3911406, -119.0399986],
+  //   },
+  //   timing: [
+  //     'Monday: 8:00 AM - 5:00 PM',
+  //     'Tuesday: 8:00 AM - 5:00 PM',
+  //     'Wednesday: 8:00 AM - 5:00 PM',
+  //     'Thursday: 8:00 AM - 5:00 PM',
+  //     'Friday: 7:30 AM - 5:00 PM',
+  //     'Saturday: Closed',
+  //     'Sunday: Closed',
+  //   ],
+  //   properties: {
+  //     State: 'AB',
+  //     Manager: '',
+  //     ZipCode: '',
+  //     City: 'Edmonton',
+  //     Address: '',
+  //     Phone: '',
+  //     Email: '',
+  //     bgimage:
+  //       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
+  //     url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+  //   },
+  // },
 ];
 
 export const careerKvl = [
