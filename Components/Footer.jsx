@@ -5,6 +5,7 @@ import { RiInstagramFill } from 'react-icons/ri';
 import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 import { Link as Slink } from 'react-scroll';
+import Link from 'next/link';
 
 const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
@@ -32,7 +33,6 @@ const Footer = () => {
           className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
         />
       </div>
-
       <div className="flex md:flex-row flex-col-reverse 2xl:pb-8 xl:pt-8 md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
@@ -126,24 +126,23 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <a
-                      href="#"
+                    <Link
+                      href="/WhatWeOffer#commercialtiremain"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                     >
                       Commercial Tires
-                    </a>
-                    <Slink
-                      to="corevaluemain"
-                      smooth
-                      duration={1000}
-                      spy
-                      offset={-80}
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
-                    >
-                      OTR Tires
-                    </Slink>
+                    </Link>
+                    <Link href="/#maincontactformhome" passHref>
+                      <button
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
+                        type="button"
+                      >
+                        {' '}
+                        OTR Tires
+                      </button>
+                    </Link>
                     <a
-                      href="https://kalfreight.com/who-we-are/csr"
+                      href="/WhatWeOffer#industmain"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
