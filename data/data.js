@@ -1753,12 +1753,12 @@ export const MapData2 = [
     ],
     properties: {
       State: 'BC',
-      Manager: 'Colin',
+      Manager: 'Colin Menzel',
       ZipCode: 'V2S 7P1',
       City: 'Abbotsford',
       Address: '1225 Riverside Rd,Abbotsford,BC',
-      Phone: '',
-      Email: '',
+      Phone: '236-998-9502',
+      Email: 'collinm@bigrigcanada.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
       url: 'https://www.google.com/maps/place/1225+Riverside+Rd,+Abbotsford,+BC+V2S+7P1,+Canada/@49.0243763,-122.27483,17z/data=!3m1!4b1!4m5!3m4!1s0x54844ae9d00fadc1:0xd47fb33380922fab!8m2!3d49.0243728!4d-122.2726413',
@@ -1782,11 +1782,11 @@ export const MapData2 = [
     ],
     properties: {
       State: 'AB',
-      Manager: 'Arthur',
+      Manager: 'Arthur Pierce',
       ZipCode: 'T2C 2R4',
       City: 'Calgary',
-      Address: '9115 52st SE,Calgary,AB',
-      Phone: '',
+      Address: '9115 52sd SE,Calgary,AB',
+      Phone: '403-800-2095',
       Email: 'arthurp@bigrigcanada.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
