@@ -9,11 +9,6 @@ export const SubResume = () => (
             <h1 className="text-2xl font-bold text-resumeheading font-poppins">
               Join our Impressive & Diversified Team
             </h1>
-            {/* <p className="text-resumedescription py-2 text-xl font-poppins">
-              Many new women Hosts have started hosting on Airbnb during the
-              pandemic, and women <br /> with only one listing have collectively
-              earned over a half billion{' '}
-            </p> */}
           </div>
         </div>
 
@@ -23,17 +18,6 @@ export const SubResume = () => (
               className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-4 w-full inline-flex justify-center items-center rounded-md"
               type="button"
             >
-              {/* <svg
-              fill="#000"
-              height="18"
-              viewBox="0 0 24 24"
-              width="18"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M0 0h24v24H0z" fill="none" />
-              <path d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z" />
-            </svg> */}
-
               <span className="ml-2 text-xl font-poppins">
                 SUBMIT YOUR RESUME
               </span>

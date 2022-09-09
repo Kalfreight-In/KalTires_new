@@ -394,25 +394,25 @@ export const OnsiteGriddata = [
     id: 1,
     img: onsiteone,
     heading: 'On Site Service',
-    desc: 'KVL Tires offers you onsite services like wheel mounting, flat tire repair, and light mechanical work.',
+    desc: 'KVL Tires offers you onsite services like wheel mounting, flat tire repair, and light mechanical work',
   },
   {
     id: 2,
     img: onsitetwo,
     heading: 'Nationwide Presence',
-    desc: 'With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs ',
+    desc: 'With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs.',
   },
   {
     id: 3,
     img: onsiteseven,
     heading: 'Competitive Price',
-    desc: 'We offer customized solutions to our customers at budget-friendly and competitive prices',
+    desc: 'We offer customized solutions to our customers at budget-friendly and competitive prices. ',
   },
   {
     id: 4,
     img: onsiteeight,
     heading: 'Freindly & Experience Technicians',
-    desc: 'With a Customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services.',
+    desc: 'With a customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services. ',
   },
   // {
   //   id: 3,
@@ -462,7 +462,7 @@ export const CommercialTireone = [
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Also known as Recap or Re-moulded tires, a high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. With new tire retreading tools and the latest manufacturing processes in place, the quality of retread tires has improved significantly. Retread accounts for one-half of all replacement tires in the North American truck tire market. For more information, check out our partnered brands. ',
+    desc: 'Also known as Recap or Re-moulded tires, a high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. With the introduction of latest retreading tools and machines, the quality of retread tires has improved significantly.  . Retread accounts for one-half of all replacement tires in the North American tires market. For more information, check out our partnered brands.',
     logos: [
       {
         id: 1,
@@ -485,7 +485,7 @@ export const CommercialTiretwo = [
     Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. The Commercial Tires also offers high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move. These tires are made up of harder rubber and tend to have more tread. Commercial tires are lesser prone to puncture and have a comparatively longer life. Choose the right commercial truck tires and services for your fleet from recognized brands.',
+    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. The Commercial Tires also offers high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move. These tires are made up of harder rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively longer life.  ',
     logos: [
       {
         id: 1,
@@ -1344,7 +1344,7 @@ export const MapData1 = [
     properties: {
       State: 'IN',
       Manager: 'Greg Watson',
-      ZipCode: '46201',
+      ZipCode: '46225',
       City: 'Indianapolis',
       Address: '2916 Bluff Rd Blg. 6',
       Phone: '317-670-8866',
@@ -1355,7 +1355,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 5,
+    id: 6,
     type: 'Feature',
     geometry: {
       type: 'Point',
