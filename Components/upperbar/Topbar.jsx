@@ -9,7 +9,7 @@ import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 
 const Topbar = ({ toggle }) => {
-  const { userLocation, setUserLocation } = useStateContext();
+  const { setUserLocation } = useStateContext();
   useEffect(() => {
     findMyLocation(setUserLocation);
   }, []);
