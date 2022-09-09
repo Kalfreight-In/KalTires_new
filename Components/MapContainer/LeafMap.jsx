@@ -78,6 +78,16 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
         maps.flyTo(typeAddress || [40.8054, -99.0241], 9, {
           duration: 1,
         });
+        // setTimeout(() => {
+        //   maps.flyTo([40.8054, -99.0241], 9, {
+        //     duration: 1,
+        //   });
+        // }, 2000);
+        setTimeout(() => {
+          maps.flyTo(nearestlocationData.geometry.coordinates, 9, {
+            duration: 2,
+          });
+        }, 2000);
       }, 1000);
     }
 
