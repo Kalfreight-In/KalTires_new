@@ -218,7 +218,7 @@ const ContactTwo = () => {
               </div>
               <div>
                 <p
-                  className="text-white font-bold   bg-red-600 text-opacity-80  bg-opacity-20 h-12 rounded  mt-2 flex justify-start items-center md:ml-16 ml-4"
+                  className="text-white font-bold   bg-red-600 text-opacity-80  bg-opacity-20 h-12 rounded  mt-2 flex justify-start items-center md:ml-16 ml-0"
                   type="submit"
                 >
                   Or call us now at &nbsp;
