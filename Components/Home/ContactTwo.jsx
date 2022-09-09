@@ -210,7 +210,7 @@ const ContactTwo = () => {
             >
               <div>
                 <button
-                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 md:ml-0 ml-12 flex justify-center  items-center cursor-pointer"
+                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 md:ml-0  flex justify-center  items-center cursor-pointer"
                   type="submit"
                 >
                   {buttonText}
