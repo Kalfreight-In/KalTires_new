@@ -455,7 +455,7 @@ const Footer = () => {
                   <div className="flex flex-row ml-28 space-x-2  item-center justify-end  bg-kaltire-red  rounded">
                     <a
                       to=""
-                      className=" block md:text-xl text-navsmall pr-8 2xl:pr-7  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-bold text-center"
+                      className=" block text-lg pr-8 2xl:pr-8 pb-1  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-semibold text-center"
                     >
                       Submit
                     </a>
