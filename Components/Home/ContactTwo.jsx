@@ -5,7 +5,7 @@ import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const ContactTwo = () => {
-  const isTab = useMediaQuery('max-width:1080px');
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -231,7 +231,9 @@ const ContactTwo = () => {
           </form>
         )}
       </div>{' '}
-      <Image src={mainimage} alt="contactus" objectFit="cover" />
+      {isDesktop ? (
+        <Image src={mainimage} alt="contactus" objectFit="cover" />
+      ) : null}
     </div>
   );
 };

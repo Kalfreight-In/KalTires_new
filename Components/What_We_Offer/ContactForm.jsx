@@ -5,7 +5,7 @@ import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const Contactform = () => {
-  const isMobile = useMediaQuery('max-width:768px');
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -238,9 +238,9 @@ const Contactform = () => {
         )}
       </div>
 
-      {/* <span className="lg:block hidden"> */}
-      <Image src={mainimage} alt="contactus" objectFit="cover" />
-      {/* </span> */}
+      {isDesktop ? (
+        <Image src={mainimage} alt="contactus" objectFit="cover" />
+      ) : null}
     </div>
   );
 };

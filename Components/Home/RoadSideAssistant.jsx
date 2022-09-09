@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
-
-import { ImPhone } from 'react-icons/im';
 import RoadSideAss from '../../Assets/Images/Home/RoadsideAssistant_Home.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
