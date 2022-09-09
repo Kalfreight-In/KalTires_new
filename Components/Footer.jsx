@@ -317,7 +317,6 @@ const Footer = () => {
                               smooth
                               duration={1000}
                               spy
-                              exact
                               offset={-80}
                             >
                               Pick up & Delivery Service
@@ -340,7 +339,6 @@ const Footer = () => {
                             smooth
                             duration={1000}
                             spy
-                            exact
                             offset={-80}
                           >
                             <span className="mt-5px lg:leading-7">
