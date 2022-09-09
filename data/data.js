@@ -1520,7 +1520,7 @@ export const MapData1 = [
     properties: {
       State: 'GA',
       Manager: 'Telly Ingram',
-      ZipCode: '72762',
+      ZipCode: '30288',
       City: 'Atlanta ',
       Address: '4285 Moreland Ave, Conley GA 30288',
       Phone: '951-834-3103',
@@ -1806,7 +1806,7 @@ export const MapData2 = [
   //     'Wednesday: 8:00 AM - 5:00 PM',
   //     'Thursday: 8:00 AM - 5:00 PM',
   //     'Friday: 7:30 AM - 5:00 PM',
-  //     'Saturday: Closed',
+  //     'Saturday: Closed',a
   //     'Sunday: Closed',
   //   ],
   //   properties: {
