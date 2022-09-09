@@ -138,6 +138,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     <MapInside id="map">
       <MapContainer
         ref={setMaps}
+        dragging={isDesktop}
         // whenCreated={(map) => setMaps(map)}
         center={[40.8054, -99.0241]}
         zoom={isDesktop ? 5 : 4}
