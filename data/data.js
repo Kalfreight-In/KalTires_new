@@ -37,7 +37,6 @@ import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
 import sixs from '../Assets/Images/Whatweoffer/services/six.png';
 import eights from '../Assets/Images/Whatweoffer/services/eight.png';
-
 // import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
 // import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
 // import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
@@ -1741,7 +1740,7 @@ export const MapData2 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [49.0243763, -122.27483],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1762,7 +1761,7 @@ export const MapData2 = [
       Email: '',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+      url: 'https://www.google.com/maps/place/1225+Riverside+Rd,+Abbotsford,+BC+V2S+7P1,+Canada/@49.0243763,-122.27483,17z/data=!3m1!4b1!4m5!3m4!1s0x54844ae9d00fadc1:0xd47fb33380922fab!8m2!3d49.0243728!4d-122.2726413',
     },
   },
   {
@@ -1770,7 +1769,7 @@ export const MapData2 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [35.3911406, -119.0399986],
+      coordinates: [50.9717234, -113.9610187],
     },
     timing: [
       'Monday: 8:00 AM - 5:00 PM',
@@ -1791,7 +1790,7 @@ export const MapData2 = [
       Email: 'arthurp@bigrigcanada.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
-      url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
+      url: 'https://www.google.com/maps/place/9115+52+St+SE,+Calgary,+AB+T2C+2R4,+Canada/@50.9717234,-113.9610187,17z/data=!3m1!4b1!4m5!3m4!1s0x537179f3e2e183d5:0xf426e9c504fa0b82!8m2!3d50.97172!4d-113.95883',
     },
   },
   {
