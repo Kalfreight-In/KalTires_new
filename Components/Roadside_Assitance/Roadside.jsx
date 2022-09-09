@@ -9,7 +9,7 @@ const Roadside = () => (
     <div id="roadmaininner">
       <div className="bg-bg-white-1">
         <div className="lg:grid lg:grid-cols-2">
-          <div className="lg:hidden  flex justify-center  relative md:-mb-28 md:py-8 py-8 z-10 bg-Roadsidetxt">
+          <div className="lg:hidden  flex justify-center  relative  md:py-8 py-8 z-10">
             <h2 className="text-4xl tracking-tight  text-black font-poppins font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
                 <span className="text-kaltire-red font-poppins">24/7</span>{' '}
@@ -17,15 +17,15 @@ const Roadside = () => (
               </span>
             </h2>
           </div>
-          <div className="absolute md:relative lg:my-12 lg:pl-12 z-0 md:px-0 px-8">
+          <div className="absolute md:relative lg:my-12 lg:pl-12 z-0 md:px-0 mx-8">
             <Image
-              className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
+              className="lg:absolute lg:inset-0 h-60 w-full  lg:h-full object-cover object-center lg:rounded-tl-md  "
               src={servicetruck}
               alt="servicetruck"
             />
           </div>
           <div className="flex items-center  2xl:pt-2 ">
-            <div className="md:px-10 px-6 lg:px-0 max-w-4xl lg:max-w-md md:mx-12 mx-2   pt-0">
+            <div className="md:px-0 px-6 lg:px-0 max-w-4xl lg:max-w-md md:mx-12 mx-2   pt-0">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
                 <span className="block font-poppins">
                   <span className="text-kaltire-red font-poppins">24/7</span>
