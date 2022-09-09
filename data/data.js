@@ -394,25 +394,25 @@ export const OnsiteGriddata = [
     id: 1,
     img: onsiteone,
     heading: 'On Site Service',
-    desc: 'How does it feel to get your tire job done at your convenience? Blissful, right? No need to rush from one place to another. You only need to make a quick call, and our knowledgeable technicians will come to you. You can get your tires inflated, wheel mounted, flat tire repair, or any light mechanical work done on-site. So, call KVL Tires for a quick appointment. ',
+    desc: 'KVL Tires offers you onsite services like wheel mounting, flat tire repair, and light mechanical work.',
   },
   {
     id: 2,
     img: onsitetwo,
     heading: 'Nationwide Presence',
-    desc: 'Does an unexpected vehicle malfunction leave you stranded on the road for a long time? Connect with us for prompt, reliable, & affordable 24/7 roadside assistance. If you cannot understand the fault, you can tell us the vehicle’s indications. We can help you identify the problem, and then you can decide whether our commercial vehicle services suit you. With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs. Connect with us for instant tire inflation, brake repair, minor mechanical work, flat tire repair, and more. Be it passenger cars, light trucks, heavy-duty trucks & trailers, or any other commercial vehicle.   ',
+    desc: 'With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs ',
   },
   {
     id: 3,
     img: onsiteseven,
     heading: 'Competitive Price',
-    desc: 'Be it a light-duty truck, passenger car, bus, commercial truck, or trailer, every vehicle requires tire changes after a specific time interval. But little do people know that the operating cost of tires is heavier on everyone’s pocket. Hence, we offer budget-friendly picks according to your vehicle’s needs. We have a large inventory of top-notch tire brands to choose from. Our unmatched prices make us one of the best & customers’ favorite tire companies in the US tires market. ',
+    desc: 'We offer customized solutions to our customers at budget-friendly and competitive prices',
   },
   {
     id: 4,
     img: onsiteeight,
     heading: 'Freindly & Experience Technicians',
-    desc: 'It is widely known that a positive experience can enhance the value and customer loyalty toward a brand. The customer being our top-most priority, we function all day and night to cater to their needs. Our talented team of expert professionals works diligently to offer quick & hassle-free services.',
+    desc: 'With a Customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services.',
   },
   // {
   //   id: 3,
@@ -462,7 +462,7 @@ export const CommercialTireone = [
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'A high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. Retread accounts for one-half of all replacement tires in the North American truck tire market. For more information, check out our partnered brands.  ',
+    desc: 'Also known as Recap or Re-moulded tires, a high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. With new tire retreading tools and the latest manufacturing processes in place, the quality of retread tires has improved significantly. Retread accounts for one-half of all replacement tires in the North American truck tire market. For more information, check out our partnered brands. ',
     logos: [
       {
         id: 1,
@@ -485,7 +485,7 @@ export const CommercialTiretwo = [
     Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Commercial Tires offer high mileage, superior traction, durability, longevity, and efficiency while you are moving. Choose the right commercial truck tires and services for your fleet from recognized brands. ',
+    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. The Commercial Tires also offers high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move. These tires are made up of harder rubber and tend to have more tread. Commercial tires are lesser prone to puncture and have a comparatively longer life. Choose the right commercial truck tires and services for your fleet from recognized brands.',
     logos: [
       {
         id: 1,
