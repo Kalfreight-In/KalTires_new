@@ -15,7 +15,7 @@ import {
   ZoomControl,
   Polyline,
 } from 'react-leaflet';
-import { Icon } from 'leaflet';
+import { Browser, Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { officeLists } from '../../data/data';
@@ -138,7 +138,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     <MapInside id="map">
       <MapContainer
         ref={setMaps}
-        dragging={isDesktop}
+        dragging={!Browser.mobile}
         // whenCreated={(map) => setMaps(map)}
         center={[40.8054, -99.0241]}
         zoom={isDesktop ? 5 : 4}
