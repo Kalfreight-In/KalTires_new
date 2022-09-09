@@ -225,7 +225,7 @@ const Contactform = () => {
                 </div>
 
                 <div>
-                  <p className="text-white ml-16 font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
+                  <p className="text-white md:ml-16 font-bold  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
                     Or call us now at &nbsp;
                     <a href="tel:8008080025" className="cursor-pointer">
                       800-808 0025
