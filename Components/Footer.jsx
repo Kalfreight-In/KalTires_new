@@ -286,7 +286,7 @@ const Footer = () => {
                         rel="noreferrer"
                         passHref
                       >
-                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text- cursor-pointer">
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Credit Application
                         </span>
                       </Link>
@@ -530,7 +530,7 @@ const Footer = () => {
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
                         {' '}
                         <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
-                          800-385-8006
+                          800-808-0025
                         </div>{' '}
                       </a>
                     </div>
