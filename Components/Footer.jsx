@@ -126,45 +126,47 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link
-                      href="/WhatWeOffer#commercialtiremain"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
-                    >
-                      Commercial Tires
+                    <Link href="/WhatWeOffer#commercialtiremain" passHref>
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer ">
+                        Commercial Tires
+                      </span>
                     </Link>
                     <Link href="/#maincontactformhome" passHref>
-                      <button
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
-                        type="button"
-                      >
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
-                      </button>
+                      </span>
                     </Link>
-                    <a
+                    <Link
                       href="/WhatWeOffer#industmain"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
+                      passHref
                     >
-                      Industrial Tires
-                    </a>
-                    <a
-                      href="https://kalfreight.com/who-we-are/csr"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
+                        Industrial Tires
+                      </span>
+                    </Link>
+                    <Link
+                      href="/WhatWeOffer#industmain"
                       target="_blank"
                       rel="noreferrer"
+                      passHref
                     >
-                      Agricultural Tires
-                    </a>
-                    <a
-                      href="https://kalfreight.com/who-we-are/csr"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
+                        Agriculture Tires
+                      </span>
+                    </Link>
+                    <Link
+                      href="WhatWeOffer#commercialtiremain"
                       target="_blank"
                       rel="noreferrer"
+                      passHref
                     >
-                      Retreads
-                    </a>
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
+                        Retreads
+                      </span>
+                    </Link>
                   </div>
                 </div>
 
@@ -188,16 +190,18 @@ const Footer = () => {
                       H_WA ? '' : 'hidden'
                     }`}
                   >
-                    <a
-                      href="https://kalfreight.com/"
+                    <Link
+                      href="/#AboutUs_Section"
                       target="_blank"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       rel="noreferrer"
+                      passHref
                     >
-                      About Us
-                    </a>
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
+                        About Us
+                      </span>
+                    </Link>
                     <a
-                      href="https://kaltrailers.com/"
+                      href="https://kalgroup.com/"
                       target="_blank"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       rel="noreferrer"
@@ -205,7 +209,7 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="https://kvlties.com/"
+                      href="https://kalfreight.com/who-we-are/csr"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
@@ -236,55 +240,56 @@ const Footer = () => {
                     }`}
                   >
                     <div />
+
                     <div>
-                      <a
-                        href="https://kaltrailers.com/product-category/trucks/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                      <Link
+                        href="/roadside-Assistance"
                         target="_blank"
                         rel="noreferrer"
+                        passHref
                       >
-                        About Us
-                      </a>
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
+                          {' '}
+                          Roadside Assistance
+                        </span>
+                      </Link>
                     </div>
                     <div>
-                      <a
-                        href="https://kaltrailers.com/product-tag/dry-van/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                      <Link
+                        href="/location"
                         target="_blank"
                         rel="noreferrer"
+                        passHref
                       >
-                        Roadside Assistance
-                      </a>
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
+                          Locations
+                        </span>
+                      </Link>
                     </div>
                     <div>
-                      <a
-                        href="https://kaltrailers.com/product-tag/reefer/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
+                      <Link
+                        href="/#corevaluemain"
                         target="_blank"
                         rel="noreferrer"
+                        passHref
                       >
-                        Locations
-                      </a>
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
+                          {' '}
+                          Brands we offer
+                        </span>
+                      </Link>
                     </div>
                     <div>
-                      <a
-                        href="https://kaltrailers.com/product-category/trailers/new-trailers/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                      <Link
+                        href="/Credit"
                         target="_blank"
                         rel="noreferrer"
+                        passHref
                       >
-                        Brands we offer
-                      </a>
-                    </div>
-                    <div>
-                      <a
-                        href="https://kaltrailers.com/product-category/trucks/used-trucks/"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Credit Application
-                      </a>
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text- cursor-pointer">
+                          Credit Application
+                        </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -334,17 +339,11 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <Slink
-                            to="NewsRoom"
-                            smooth
-                            duration={1000}
-                            spy
-                            offset={-80}
-                          >
-                            <span className="mt-5px lg:leading-7">
+                          <Link href="/roadside-Assistance#onsiteid" passHref>
+                            <span className="mt-5px lg:leading-7 cursor-pointer">
                               On-Site Services
                             </span>
-                          </Slink>
+                          </Link>
                         </span>
                       </div>
                     </div>
