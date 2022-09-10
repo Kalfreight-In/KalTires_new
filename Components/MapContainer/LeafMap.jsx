@@ -56,12 +56,19 @@ const userIcon = new Icon({
 });
 const LeafMap = ({ Data, Data2, SData, location }) => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
-  const { userAddress, setUserAdress, setTypeAddress, typeAddress } =
-    useStateContext();
+  const { typeAddress, Currentlatlong } = useStateContext();
+  console.log(
+    `changes in location inside the fetch from the context api${
+      Currentlatlong
+        ? [Currentlatlong.latitude, Currentlatlong.longitude]
+        : null
+    }`
+  );
   const mapRef = React.useRef(null);
   const [maps, setMaps] = useState(null);
 
   const [polyline, setpolyline] = useState(null);
+  const [currentPopup, setcurrentPopup] = useState(null);
   const [office, setoffice] = useState(null);
   let nearestlocationData = null;
   const Polylines = [];
@@ -226,6 +233,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
             position={eachData.geometry.coordinates}
             eventHandlers={{
               click: () => {
+                setcurrentPopup(null);
                 setoffice(eachData);
               },
               hover: () => {
@@ -239,16 +247,38 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
           <Marker
             animate
             position={typeAddress}
-            eventHandlers={
-              {
-                // click: () => {
-                //   setoffice(eachData);
-                // },
-                // hover: () => {
-                //   setoffice(eachData);
-                // },
-              }
-            }
+            eventHandlers={{
+              click: () => {
+                setcurrentPopup({
+                  coordinates: [typeAddress],
+                  text: 'this is your Location',
+                });
+              },
+              // hover: () => {
+              //   setoffice(eachData);
+              // },
+            }}
+            icon={userIcon}
+          />
+        ) : null}
+        {Currentlatlong ? (
+          <Marker
+            animate
+            position={[Currentlatlong.latitude, Currentlatlong.longitude]}
+            eventHandlers={{
+              click: () => {
+                setcurrentPopup({
+                  coordinates: [
+                    Currentlatlong.latitude,
+                    Currentlatlong.longitude,
+                  ],
+                  text: 'this is your Location',
+                });
+              },
+              // hover: () => {
+              //   setoffice(eachData);
+              // },
+            }}
             icon={userIcon}
           />
         ) : null}
@@ -283,6 +313,20 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 <a href="/">{office.properties.Email}</a>
               </div>
             </div>
+          </Popup>
+        )}
+        {currentPopup && (
+          <Popup
+            position={
+              currentPopup.lat
+                ? [currentPopup.lat, currentPopup.lng]
+                : [currentPopup.coordinates[0], currentPopup.coordinates[1]]
+            }
+            onClose={() => {
+              setoffice(null);
+            }}
+          >
+            <div>{currentPopup.text}</div>
           </Popup>
         )}
       </MapContainer>

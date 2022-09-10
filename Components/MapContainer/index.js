@@ -120,9 +120,9 @@ export const MapConatiner = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');
   const [Maplocation, setMapocation] = useState();
 
-  const [FeaatureCat, setFeaatureCat] = useState('Commercial Tires');
+  const [FeaatureCat, setFeaatureCat] = useState('Select Your Location');
 
-  const [CaFeaatureCat, setCaFeaatureCat] = useState('Commercial Tires');
+  const [CaFeaatureCat, setCaFeaatureCat] = useState('Select Your Location');
   const [ShowDropdown, setShowDropdown] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {

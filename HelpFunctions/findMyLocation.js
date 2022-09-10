@@ -13,10 +13,7 @@ export const findMyLocation = (setUserLocation, setCurrentlatlong) => {
         .then((response) => {
           const { data } = response;
 
-          const locations = [
-            { latitude: data.latitude, longitude: data.longitude },
-          ];
-          setCurrentlatlong(locations);
+          setCurrentlatlong(data);
           reverseGeocode(data, setUserLocation);
           console.log('Your current position is:');
           console.log(`Latitude longitude: ${data.latitude} ${data.longitude}`);
@@ -34,6 +31,7 @@ export const findMyLocation = (setUserLocation, setCurrentlatlong) => {
 
   function success(pos) {
     const crd = pos.coords;
+    setCurrentlatlong(pos.coords);
     reverseGeocode(pos.coords, setUserLocation);
     console.log('Your current position is:');
     console.log(`Latitude longitude: ${pos.coords}`);
