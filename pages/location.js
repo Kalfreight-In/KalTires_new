@@ -331,10 +331,10 @@ const location = () => {
               </div>
 
               {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
-          <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
-          <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
-          <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
-          <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
+            <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
+             <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
+             <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
+             <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </SidebarMenu>
           </div>
         </div>
