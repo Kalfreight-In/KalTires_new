@@ -771,7 +771,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'https://kvlties.com/',
+          url: 'https://kvltiers.com/',
           link: 'a',
         },
         id: 3,
@@ -937,7 +937,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'http://kvlties.com/#Advantages',
+          url: 'http://kvltiers.com/#Advantages',
           link: 'a',
         },
         id: 3,
@@ -945,7 +945,7 @@ export const NavbarData = [
         navItems: [
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 1,
@@ -953,7 +953,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 2,
@@ -961,7 +961,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 3,
@@ -969,7 +969,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 4,
@@ -977,7 +977,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 5,
@@ -985,7 +985,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 6,
@@ -993,7 +993,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kvlties.com/#Advantages',
+              url: 'http://kvltiers.com/#Advantages',
               link: 'a',
             },
             id: 7,
@@ -1156,7 +1156,7 @@ export const MapData1 = [
       City: 'Fontana',
       Address: '14887 Valley Blvd',
       Phone: '909-306-5571',
-      Email: 'rmartinez@kvlties.com',
+      Email: 'rmartinez@kvltiers.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Arlington%20Texas.png',
       url: 'https://www.google.com/maps/place/15083+Valley+Blvd,+Fontana,+CA+92335,+USA/@34.0693237,-117.4780847,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b41ac34562d:0x6e84801266440fc5!8m2!3d34.0693237!4d-117.475896',
@@ -1185,7 +1185,7 @@ export const MapData1 = [
       City: 'San Marcos',
       Address: '160 Industrial St',
       Phone: '760-249-2862',
-      Email: 'carlosg@kvlties.com',
+      Email: 'carlosg@kvltiers.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Arlington%20Texas.png',
       url: 'https://www.google.com/maps/place/160+Industrial+St,+San+Marcos,+CA+92078,+USA/@33.136296,-117.1602352,17z/data=!3m1!4b1!4m5!3m4!1s0x80db8ab3b9f18c1b:0x6b10250b71a8172e!8m2!3d33.136296!4d-117.1580465',
@@ -1319,7 +1319,7 @@ export const MapData1 = [
       City: 'Indianapolis DC',
       Address: '2025 ENGLISH AVE',
       Phone: '951-834-2907',
-      Email: 'tingram@kvlties.com',
+      Email: 'tingram@kvltiers.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Indianapolis_%20IN.png',
       url: 'https://www.google.com/maps/place/2025+English+Ave,+Indianapolis,+IN+46201,+USA/@39.7591968,-86.1289827,17z/data=!3m1!4b1!4m5!3m4!1s0x886b507bb4588c77:0xd0b2698ed1a53b6d!8m2!3d39.7591968!4d-86.126794',
@@ -1407,7 +1407,7 @@ export const MapData1 = [
       City: 'Hampton',
       Address: '15 FRONTAGE RD, ROUTE 173',
       Phone: '562-556-9034',
-      Email: 'roger@kvlties.com',
+      Email: 'roger@kvltiers.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Arlington%20Texas.png',
       url: 'https://www.google.com/maps/place/15+Frontage+Rd,+Asbury,+NJ+08802,+USA/@40.6414871,-74.9932845,17z/data=!3m1!4b1!4m5!3m4!1s0x89c475135348f553:0xe4a6f37f018d1695!8m2!3d40.6414871!4d-74.9910958',
@@ -1436,7 +1436,7 @@ export const MapData1 = [
       City: 'Bakersfield',
       Address: '3401 Sillect Ave',
       Phone: '661-371-7294',
-      Email: 'jaimerodriguez@kvlties.com',
+      Email: 'jaimerodriguez@kvltiers.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/Bakersfield%20California.png',
       url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',

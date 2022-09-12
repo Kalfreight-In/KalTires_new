@@ -120,9 +120,9 @@ export const MapConatiner = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');
   const [Maplocation, setMapocation] = useState();
 
-  const [FeaatureCat, setFeaatureCat] = useState('Commercial Tires');
+  const [FeaatureCat, setFeaatureCat] = useState('Select Your Location');
 
-  const [CaFeaatureCat, setCaFeaatureCat] = useState('Commercial Tires');
+  const [CaFeaatureCat, setCaFeaatureCat] = useState('Select Your Location');
   const [ShowDropdown, setShowDropdown] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
@@ -258,7 +258,7 @@ export const MapConatiner = () => {
               </div>
             </div>
             <SidebarMenu className="md:bg-white  bg-none pb-2 2xl:mr-38 xl:mr-32 lg:mr-20 ">
-              <div className="">
+              <div>
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
                 >
@@ -310,54 +310,60 @@ export const MapConatiner = () => {
                   ) : null}
                 </div> */}
                 {isDesktop ? (
-                  MapData1.map((value, index) => (
-                    <div key={value.id}>
-                      <Divlink
-                        data-index={index}
-                        onClick={(e) =>
-                          handleClick(e, value.geometry.coordinates)
-                        }
-                      >
-                        <h1
-                          className={
-                            visibilities[index]
-                              ? 'text-black font-bold'
-                              : 'text-black font-bold'
+                  <div className="overflow-auto h-mapScrollheightFull">
+                    {MapData1.map((value, index) => (
+                      <div key={value.id}>
+                        <Divlink
+                          data-index={index}
+                          onClick={(e) =>
+                            handleClick(e, value.geometry.coordinates)
                           }
                         >
-                          {value.properties.City}
-                        </h1>
+                          <h1
+                            className={
+                              visibilities[index]
+                                ? 'text-black font-bold'
+                                : 'text-black font-bold'
+                            }
+                          >
+                            {value.properties.City}
+                          </h1>
 
-                        <span>
-                          {visibilities[index] ? <BiMinus /> : <BsPlus />}
+                          <span>
+                            {visibilities[index] ? <BiMinus /> : <BsPlus />}
 
-                          {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                        </span>
-                      </Divlink>
-                      <div
-                        className={`Transition-Height-${
-                          visibilities[index] ? 'in' : 'out'
-                        }`}
-                        onClick={() =>
-                          setMapocation(value.geometry.coordinates)
-                        }
-                      >
-                        <ul>
-                          {visibilities[index] ? (
-                            <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
-                              {' '}
-                              {value.properties.Address}
-                              <span>
-                                {visibilities[index] ? <BiMinus /> : <BsPlus />}
+                            {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                          </span>
+                        </Divlink>
+                        <div
+                          className={`Transition-Height-${
+                            visibilities[index] ? 'in' : 'out'
+                          }`}
+                          onClick={() =>
+                            setMapocation(value.geometry.coordinates)
+                          }
+                        >
+                          <ul>
+                            {visibilities[index] ? (
+                              <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
+                                {' '}
+                                {value.properties.Address.toLowerCase()}
+                                <span>
+                                  {visibilities[index] ? (
+                                    <BiMinus />
+                                  ) : (
+                                    <BsPlus />
+                                  )}
 
-                                {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                              </span>
-                            </div>
-                          ) : null}
-                        </ul>
+                                  {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                </span>
+                              </div>
+                            ) : null}
+                          </ul>
+                        </div>
                       </div>
-                    </div>
-                  ))
+                    ))}
+                  </div>
                 ) : (
                   <>
                     <div
@@ -416,7 +422,7 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </SidebarMenu>
             <div className="my-8">
-              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4  text-2xl font-bold">
+              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-1  text-2xl font-bold">
                 CANADA
               </h3>
             </div>
@@ -459,7 +465,7 @@ export const MapConatiner = () => {
                           {visibilities[index] ? (
                             <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
-                              {value.properties.Address}
+                              {value.properties.Address.toLowerCase()}
                             </div>
                           ) : null}
                         </ul>

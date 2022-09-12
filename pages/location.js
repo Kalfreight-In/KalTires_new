@@ -1,21 +1,15 @@
-import React, { useEffect, useReducer, useState } from 'react';
+/* eslint-disable comma-dangle */
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { BsPlus } from 'react-icons/bs';
-import { BiMinus } from 'react-icons/bi';
+
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
-import {
-  animateScroll as scroll,
-  Scroll,
-  scroller,
-  Element,
-  Button,
-} from 'react-scroll';
+import { scroller, Element } from 'react-scroll';
 import { MapData1, MapData2 } from '../data/data';
 
-import { useHover } from '../Hooks/Hover';
+// import { useHover } from '../Hooks/Hover';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 import Search from '../Components/location/Search';
 
@@ -99,19 +93,19 @@ export const Divlink = styled.div`
 `;
 // use hover reducer to change the visibility on hover of the sidebar when dynimically created links
 
-const useHoverReducer = (initialState, reducer) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
+// const useHoverReducer = (initialState, reducer) => {
+//   const [state, dispatch] = useReducer(reducer, initialState);
 
-  const [ref, isHovered] = useHover();
-  useEffect(() => {
-    if (isHovered) {
-      dispatch({ type: 'HOVER' });
-    } else {
-      dispatch({ type: 'UNHOVER' });
-    }
-  }, [isHovered]);
-  return [state, ref];
-};
+//   const [ref, isHovered] = useHover();
+//   useEffect(() => {
+//     if (isHovered) {
+//       dispatch({ type: 'HOVER' });
+//     } else {
+//       dispatch({ type: 'UNHOVER' });
+//     }
+//   }, [isHovered]);
+//   return [state, ref];
+// };
 const LeafMap = dynamic(
   () => import('../Components/MapContainer/LeafMap'), // replace '@components/map' with your component's location
   {
@@ -138,14 +132,14 @@ const location = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
-    MapData1.map((x) => false)
+    MapData1.map((x) => true)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
     console.log(`location after typed${TypedLocation}`);
-    MapData1.map((x) => false);
+    MapData1.map((x) => true);
   }, [visibilities, TypedLocation]);
 
   const handleClick = (event, coordinates) => {
@@ -225,8 +219,8 @@ const location = () => {
                         <h1
                           className={
                             visibilities[index]
-                              ? 'text-white text-center font-bold '
-                              : 'text-white text-center font-bold'
+                              ? 'text-white text-center font-bold text-2xl '
+                              : 'text-white text-center font-bold text-2xl '
                           }
                         >
                           {value.properties.City}
@@ -284,7 +278,7 @@ const location = () => {
                                   KVL Tires, KAL Partz, KAL Freight English Ave
                                 </div>
                                 <div className=" font-light text-lg">
-                                  {value.properties.Address}
+                                  {value.properties.Address.toLowerCase()}
                                 </div>
                                 <div className=" font-light text-lg">
                                   Manager: {value.properties.Manager}
@@ -331,10 +325,10 @@ const location = () => {
               </div>
 
               {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
-          <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
-          <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
-          <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
-          <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
+            <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
+             <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
+             <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
+             <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </SidebarMenu>
           </div>
         </div>

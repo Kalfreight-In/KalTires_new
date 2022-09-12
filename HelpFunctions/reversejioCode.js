@@ -54,11 +54,7 @@ export async function reverseGeocode(
     axios.get(url).then(
       (response) =>
         // eslint-disable-next-line implicit-arrow-linebreak, comma-dangle
-        [
-          setUserLocation(extractAddress(response.data.results[0])),
-          console.log(extractAddress(response.data.results[0])),
-          console.log(setUserLocation),
-        ]
+        [setUserLocation(extractAddress(response.data.results[0]))]
       // eslint-disable-next-line function-paren-newline
     );
   } catch (err) {

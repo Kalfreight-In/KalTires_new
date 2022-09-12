@@ -41,19 +41,15 @@ const Topbar = ({ toggle }) => {
             href="tel:8009770010"
           >
             <div className="pr-2 flex flexCenter">
-              <Image
-                src={call}
-                alt="call"
-                objectFit="contain"
-                className="cursor-pointer"
-                height={30}
-              />
+              <Image src={call} alt="call" objectFit="contain" height={30} />
               {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
             </div>
-            <div>
-              <div className="font-bold">Toll Free</div>
-              <div className=""> 800-808-0025</div>
-            </div>
+            <a href="tel:8009770010" className="cursor-pointer">
+              <div>
+                <div className="font-bold">Toll Free</div>
+                <div className=""> 800-808-0025</div>
+              </div>
+            </a>
           </a>
           {/* <div className="text-white">Search</div> */}
         </div>

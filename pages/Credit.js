@@ -36,7 +36,7 @@ const Credit = () => {
       </Head>
       <HeroSection data={data[0]} />
       <div className="text-center 2xl:text-5xl text-black py-12">
-        Credit Application
+        {/* Credit Application */}
       </div>
       <div
         data-aidaform-widget="form-2019-12"
