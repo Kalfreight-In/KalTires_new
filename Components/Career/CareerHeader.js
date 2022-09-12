@@ -10,6 +10,7 @@ const data = [
     id: 1,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.png',
     Heading: '',
+
     // desc: 'WE HELP YOU ACHIEVE YOUR DREAMS',
 
     // CTA1: { heading: 'Apply Now', link: 'contactus' },

@@ -39,7 +39,11 @@ const HeroSection = ({ data }) => (
               data.Heading.length > 25 ? 'lg:w-8/12' : 'lg:w-7/4'
             }  w-full `}
           >
-            <div className="lg:border-l-4 border-PrimaryTwo pl-3">
+            <div
+              className={` ${
+                data.Heading ? 'lg:border-l-4' : null
+              } border-PrimaryTwo pl-3`}
+            >
               <div className="2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
                 {data.Heading.toUpperCase()}
               </div>
