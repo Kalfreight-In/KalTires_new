@@ -84,7 +84,7 @@ export const Divlink = styled.div`
   // padding-right: 3rem;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  border-bottom: 1px solid black;
+
   color: #000;
   cursor: pointer;
   &:hover {
@@ -205,7 +205,7 @@ const location = () => {
             <SidebarMenu className=" ">
               <div className="">
                 {MapData1.map((value, index) => (
-                  <div key={value.id} className="bg-locationGrey mb-4">
+                  <div key={value.id} className="bg-locationGrey ">
                     <Divlink
                       spy
                       smooth
@@ -216,12 +216,12 @@ const location = () => {
                         handleClick(e, value.geometry.coordinates)
                       }
                     >
-                      <div className="bg-red-600 p-5 ml-6 xl:w-1/6 w-1/3">
+                      <div className="bg-red-600 p-2 ml-6 xl:w-1/6 w-1/3 m-0">
                         <h1
                           className={
                             visibilities[index]
-                              ? 'text-white text-center font-bold text-2xl '
-                              : 'text-white text-center font-bold text-2xl '
+                              ? 'text-white text-center font-bold text-xl '
+                              : 'text-white text-center font-bold text-xl '
                           }
                         >
                           {value.properties.City}
@@ -229,8 +229,8 @@ const location = () => {
                       </div>
                       <div className="flex flex-row ml-10">
                         <svg
-                          width="37"
-                          height="35"
+                          width="27"
+                          height="25"
                           viewBox="0 0 37 35"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +250,7 @@ const location = () => {
                           />
                         </svg>
 
-                        <h3 className="xl:text-2xl self-start text-white font-bold md:text-2xl pl-4">
+                        <h3 className="xl:text-lg self-start text-white font-bold md:text-xl pl-4">
                           Our Locations
                         </h3>
                       </div>
@@ -272,19 +272,19 @@ const location = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-8    justify-between ">
+                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-3    justify-between ">
                             <div className="flex flex-center flex-col pl-6">
                               <div className="mb-6">
-                                <div className="font-semibold text-lg">
+                                <div className="font-semibold text-md">
                                   KVL Tires, KAL Partz, KAL Freight English Ave
                                 </div>
-                                <div className=" font-light text-lg">
+                                <div className=" font-light text-md">
                                   {`${toTitleCase(
                                     value.properties.Address
-                                  )}${' , '} ${value.properties.ZipCode}`}
+                                  )}${', '} ${value.properties.ZipCode}`}
                                 </div>
                                 {value.properties.Manager ? (
-                                  <div className=" font-light text-lg">
+                                  <div className=" font-light text-md">
                                     Manager:{' '}
                                     {toTitleCase(value.properties.Manager)}
                                   </div>
@@ -292,11 +292,11 @@ const location = () => {
                               </div>
                               {value.properties.Phone ? (
                                 <div className="pb-2">
-                                  <div className=" font-light text-lg flex flex-row items-center ">
+                                  <div className=" font-light text-md flex flex-row items-center ">
                                     <RiPhoneFill className="mr-4" />
                                     {value.properties.Phone}
                                   </div>
-                                  <div className=" font-light text-lg flex flex-row items-center ">
+                                  <div className=" font-light text-md flex flex-row items-center ">
                                     <MdEmail className="mr-4" />
                                     {value.properties.Email}
                                   </div>
@@ -317,7 +317,7 @@ const location = () => {
                             </div>
                             <div className="flex flex-center flex-col lg:w-2/12 ">
                               <img src={value.properties.bgimage} />
-                              <div className="text-right  pt-2">
+                              <div className="text-right text-md pt-2">
                                 <a
                                   className="text-blue-500"
                                   href={value.properties.url}

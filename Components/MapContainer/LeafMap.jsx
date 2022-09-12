@@ -300,19 +300,22 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 {toTitleCase(office.properties.Address)},{' '}
                 {office.properties.State}, {office.properties.ZipCode}
               </div>
-
-              <div className="text-sm mb-2 flex flex-row">
-                <span>
-                  <RiPhoneFill className="text-md m-1" />
-                </span>
-                {office.properties.Phone}
-              </div>
-              <div className="text-sm mb-2 flex flex-row">
-                <span>
-                  <MdEmail className="text-md m-1" />
-                </span>
-                <a href="/">{office.properties.Email}</a>
-              </div>
+              {office.properties.Phone ? (
+                <>
+                  <div className="text-sm mb-2 flex flex-row">
+                    <span>
+                      <RiPhoneFill className="text-md m-1" />
+                    </span>
+                    {office.properties.Phone}
+                  </div>
+                  <div className="text-sm mb-2 flex flex-row">
+                    <span>
+                      <MdEmail className="text-md m-1" />
+                    </span>
+                    <a href="/">{office.properties.Email}</a>
+                  </div>
+                </>
+              ) : null}
             </div>
           </Popup>
         )}

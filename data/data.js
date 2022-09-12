@@ -1242,7 +1242,7 @@ export const MapData1 = [
       ZipCode: '92507',
       City: 'Riverside',
       Address: '3011 E. La Cadena Dr',
-      Phone: '(951) 787-6884',
+      Phone: '951-787-6884',
       Email: 'dfox@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/riversideM.png',
@@ -1329,7 +1329,7 @@ export const MapData1 = [
       ZipCode: '95330',
       City: 'Lathrop DC',
       Address: '17100 S HARLAN RD',
-      Phone: '(209) 275-4993 ',
+      Phone: '209-275-4993 ',
       Email: 'Tandarajinder@kalgroup.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
