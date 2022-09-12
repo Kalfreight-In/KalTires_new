@@ -293,7 +293,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex-1 block xl:block mt-4 sm:mt-0 ">
+                <div className="2xl:flex-1 flex-1 block xl:block mt-4 sm:mt-0 ">
                   <div
                     className="text-white cursor-pointer"
                     onClick={() => {
@@ -316,9 +316,9 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                         <span className="flex cursor-pointer ">
-                          <span className="mt-5px lg:leading-7">
+                          <span className="mt-5px lg:leading-7 w-44">
                             <Slink
-                              to="ContactSection"
+                              to="ContactSection "
                               smooth
                               duration={1000}
                               spy
@@ -412,7 +412,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="  xl:flex-1 flex-1 xl:w-2/12 hidden xl:flex md:justify-end justify-center mr-12  ">
+            <div className="  xl:flex-auto flex-0 xl:w-1/12 hidden xl:flex md:justify-end justify-center mr-12  ">
               <div>
                 <div
                   className="text-white cursor-pointer"

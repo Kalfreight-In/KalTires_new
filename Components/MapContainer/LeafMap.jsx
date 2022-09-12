@@ -162,7 +162,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
        https://api.mapbox.com/styles/v1/ssoam/cl77qs9yq000c14uk4kv9ecog/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic3NvYW0iLCJhIjoiY2w3N3J5ZTgyMDJwZzNwb3gzYWtxdWttciJ9.g2IBgPyHpz_bDNTAe3g2fw`}
           // attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
         />
-        <ZoomControl position="bottomright" zoomInText="😎" zoomOutText="😶‍🌫️" />
+        <ZoomControl position="bottomright" zoomInText="+" zoomOutText="-" />
         {statesData.features.map((state) => {
           const coordinates = state.geometry.coordinates[0].map((item) => [
             item[1],

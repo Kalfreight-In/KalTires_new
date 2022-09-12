@@ -153,7 +153,7 @@ const Navbar = ({ toggle }) => {
                     : 'group-hover:text-red-500'
                 }  `}
               >
-                Career
+                Careers
               </div>
             </div>
           </Link>

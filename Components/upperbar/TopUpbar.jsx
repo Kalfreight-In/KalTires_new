@@ -69,12 +69,12 @@ const TopUpbar = () => {
               {userLocation ? (
                 <div className="flex flex-row gap-5">
                   {userLocation.city} , {userLocation.state}
-                  <div
+                  {/* <div
                     className="cursor-pointer"
                     onClick={findMyLocation(setUserLocation, setCurrentlatlong)}
                   >
                     @
-                  </div>
+                  </div> */}
                 </div>
               ) : (
                 <div className="flex flex-row">
