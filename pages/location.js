@@ -279,7 +279,7 @@ const location = () => {
                                   KVL Tires, KAL Partz, KAL Freight English Ave
                                 </div>
                                 <div className=" font-light text-lg">
-                                  {toTitleCase(value.properties.Address) +
+                                  {toTitleCase(value.properties.Address) +{ ' 's} +
                                     value.properties.ZipCode}
                                 </div>
                                 <div className=" font-light text-lg">
