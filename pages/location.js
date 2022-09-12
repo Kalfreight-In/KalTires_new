@@ -281,23 +281,27 @@ const location = () => {
                                 <div className=" font-light text-lg">
                                   {`${toTitleCase(
                                     value.properties.Address
-                                  )}${' '} ${value.properties.ZipCode}`}
+                                  )}${' , '} ${value.properties.ZipCode}`}
                                 </div>
-                                <div className=" font-light text-lg">
-                                  Manager:{' '}
-                                  {toTitleCase(value.properties.Manager)}
-                                </div>
+                                {value.properties.Manager ? (
+                                  <div className=" font-light text-lg">
+                                    Manager:{' '}
+                                    {toTitleCase(value.properties.Manager)}
+                                  </div>
+                                ) : null}
                               </div>
-                              <div className="pb-2">
-                                <div className=" font-light text-lg flex flex-row items-center ">
-                                  <RiPhoneFill className="mr-4" />
-                                  {value.properties.Phone}
+                              {value.properties.Phone ? (
+                                <div className="pb-2">
+                                  <div className=" font-light text-lg flex flex-row items-center ">
+                                    <RiPhoneFill className="mr-4" />
+                                    {value.properties.Phone}
+                                  </div>
+                                  <div className=" font-light text-lg flex flex-row items-center ">
+                                    <MdEmail className="mr-4" />
+                                    {value.properties.Email}
+                                  </div>
                                 </div>
-                                <div className=" font-light text-lg flex flex-row items-center ">
-                                  <MdEmail className="mr-4" />
-                                  {value.properties.Email}
-                                </div>
-                              </div>
+                              ) : null}
                             </div>
                             <div className="lg:flex flex-center flex-col lg:w-1/4 hidden">
                               <span className="text-black font-semibold text-lg">
@@ -305,7 +309,9 @@ const location = () => {
                               </span>
                               <div>
                                 {value.timing.map((time) => (
-                                  <p key={index}>{time}</p>
+                                  <p className="text-md" key={index}>
+                                    {time}
+                                  </p>
                                 ))}
                               </div>
                             </div>
