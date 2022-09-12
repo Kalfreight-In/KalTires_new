@@ -50,7 +50,11 @@ const Footer = () => {
 
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
                   <div className="mt-11">
-                    <a href="tel:8003858006" target="_blank" rel="noreferrer">
+                    <a
+                      href="mailto:info@kaltire.com target="
+                      _blank
+                      rel="noreferrer"
+                    >
                       <IoMdMail className="h-8 w-6  " />
                     </a>
                   </div>
@@ -58,10 +62,11 @@ const Footer = () => {
                     <div className="flex justify-start text-lg mb-4 items-start  text-left -ml-6  font-medium">
                       Reach out to us
                     </div>
-
-                    <div className=" text-md ml-2 xl:ml-4 text-xl  cursor-pointer">
-                      info@kaltire.com
-                    </div>
+                    <a href="mailto:info@kaltire.com">
+                      <div className=" text-md ml-2 xl:ml-4 text-xl  cursor-pointer">
+                        info@kaltire.com
+                      </div>
+                    </a>
                   </div>
                 </div>
 
