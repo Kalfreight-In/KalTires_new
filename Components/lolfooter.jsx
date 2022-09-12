@@ -67,12 +67,12 @@ const Footer = () => {
 
                 <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
                   <div className="">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <MdPhone className="h-8 w-6" />
                     </a>
                   </div>
                   <div className="ml-4 flex flexcenter">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {' '}
                       <div className=" text-md   ">800-808-0025</div>{' '}
                     </a>
@@ -80,12 +80,12 @@ const Footer = () => {
                 </div>
                 <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
                   <div className="mt-2">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <MdLocationPin className=" h-8 w-6 " />
                     </a>
                   </div>
                   <div className="ml-4">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {' '}
                       <div className="md:text-md xl:text-md text-md   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
@@ -522,7 +522,11 @@ const Footer = () => {
 
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                     <div className="">
-                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <a
+                        href="tel:800-808-0025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
@@ -532,7 +536,11 @@ const Footer = () => {
                       </a>
                     </div>
                     <div className="ml-4">
-                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <a
+                        href="tel:800-808-0025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         {' '}
                         <div className="md:text-2xl text-md font-bold xl:font-semibold  ">
                           800-808-0025

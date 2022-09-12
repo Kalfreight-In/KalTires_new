@@ -50,7 +50,11 @@ const Footer = () => {
 
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
                   <div className="mt-11">
-                    <a href="tel:8003858006" target="_blank" rel="noreferrer">
+                    <a
+                      href="mailto:info@kvltires.com target="
+                      _blank
+                      rel="noreferrer"
+                    >
                       <IoMdMail className="h-8 w-6  " />
                     </a>
                   </div>
@@ -58,21 +62,22 @@ const Footer = () => {
                     <div className="flex justify-start text-lg mb-4 items-start  text-left -ml-6  font-medium">
                       Reach out to us
                     </div>
-
-                    <div className=" text-md ml-2 xl:ml-4 text-xl  cursor-pointer">
-                      info@kaltire.com
-                    </div>
+                    <a href="mailto:info@kvltires.com">
+                      <div className=" text-md ml-2 xl:ml-4   cursor-pointer">
+                        info@kvltires.com
+                      </div>
+                    </a>
                   </div>
                 </div>
 
                 <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
                   <div className="">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <MdPhone className="h-8 w-6" />
                     </a>
                   </div>
                   <div className="ml-4 flex flexcenter">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {' '}
                       <div className=" text-md   ">800-808-0025</div>{' '}
                     </a>
@@ -80,12 +85,12 @@ const Footer = () => {
                 </div>
                 <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
                   <div className="mt-2">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <MdLocationPin className=" h-8 w-6 " />
                     </a>
                   </div>
                   <div className="ml-4">
-                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {' '}
                       <div className="md:text-md xl:text-md text-md   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
@@ -116,7 +121,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-xl md:font-bold font-normal xl:text-left text-center ">
+                    <h1 className="text-lg md:font-bold font-normal xl:text-left text-center ">
                       Inventory
                     </h1>
                   </div>
@@ -180,7 +185,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-xl md:font-bold font-normal xl:text-left text-center   ">
+                    <h1 className="text-lg md:font-bold font-normal xl:text-left text-center   ">
                       Who Are We
                     </h1>
                   </div>
@@ -229,7 +234,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-xl md:font-bold font-normal xl:text-left  text-center ">
+                    <h1 className="text-lg md:font-bold font-normal xl:text-left  text-center ">
                       Quick Links
                     </h1>
                   </div>
@@ -303,7 +308,7 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" md:font-bold font-normal  xl:text-left text-center   text-xl md:ml-0 pl-0 ">
+                    <h1 className=" md:font-bold font-normal  xl:text-left text-center   text-lg md:ml-0 pl-0 ">
                       Services
                     </h1>
                   </div>
@@ -517,7 +522,11 @@ const Footer = () => {
 
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                     <div className="mt-2">
-                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <a
+                        href="tel:800-808-0025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
@@ -527,7 +536,11 @@ const Footer = () => {
                       </a>
                     </div>
                     <div className="ml-4">
-                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <a
+                        href="tel:800-808-0025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         {' '}
                         <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
                           800-808-0025
