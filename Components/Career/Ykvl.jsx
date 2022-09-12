@@ -19,7 +19,7 @@ export const Ykvl = () => {
               id="firstboxykvl"
               className="flex items-center lg:justify-start justify-center "
             >
-              <h1 className="text-2xl text-departmentheading font-poppins font-bold mr-8 ">
+              <h1 className="text-4xl text-departmentheading font-poppins font-bold mr-8 ">
                 {thisdata.Headingm}
               </h1>
             </div>
@@ -35,7 +35,7 @@ export const Ykvl = () => {
                 className={
                   isMobile
                     ? 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-4 pl-8 text-justify font-poppins'
-                    : 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-16 pl-8 font-poppins text-justify tracking-wide'
+                    : 'text-ykvldesc  border-l-2 border-kaltire-red pr-16 pl-8 font-poppins text-justify tracking-wide'
                 }
               >
                 {thisdata.desc}
