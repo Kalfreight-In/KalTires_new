@@ -177,7 +177,7 @@ const Contactform = () => {
                 >
                   <select
                     name="servicetype"
-                    className="appearance-none block font-poppins w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="block font-poppins w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setservice(e.target.value)}
                     type="select"
                     value={service}

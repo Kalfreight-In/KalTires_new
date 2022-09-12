@@ -205,7 +205,7 @@ const location = () => {
             <SidebarMenu className=" ">
               <div className="">
                 {MapData1.map((value, index) => (
-                  <div key={value.id} className="bg-locationGrey ">
+                  <div key={value.id} className="bg-locationGrey mb-2">
                     <Divlink
                       spy
                       smooth
@@ -272,7 +272,7 @@ const location = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-3    justify-between ">
+                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
                             <div className="flex flex-center flex-col pl-6">
                               <div className="mb-6">
                                 <div className="font-semibold text-md">
