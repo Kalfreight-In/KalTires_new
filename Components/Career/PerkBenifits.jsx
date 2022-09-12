@@ -21,7 +21,7 @@ export const PerkBenifits = () => {
             </h1>
             <div
               id="Perkgrid"
-              className="grid gap-4    bg-bg-white-1 lg:grid-cols-perkTemplatetwo  xl:grid-cols-PerkTemplate pt-12 px-20"
+              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-20"
             >
               {PerkBenifitsdata.map((index) => (
                 <div
