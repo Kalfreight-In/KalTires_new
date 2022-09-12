@@ -30,13 +30,13 @@ const HeroSection = ({ data }) => (
     {/* <Gradients /> */}
     <HeroBg className=" mt-0 " BackgroundImage={data.img} />
     <HeroContent>
-      <div className=" 2xl:pl-28 xl:pl-22 lg:pl-8  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
+      <div className=" 2xl:pl-28 xl:pl-12 pl-8  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
         <div className="lg:flex flex-row lg:mx-0 mx-16">
           <div className=" sm:block " />
 
           <div
             className={` ml-0 ${
-              data.Heading.length > 25 ? 'lg:w-8/12' : 'lg:w-7/4'
+              data.Heading.length > 25 ? 'lg:w-8/12' : 'lg:w-7/4 '
             }  w-full `}
           >
             <div
