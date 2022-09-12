@@ -382,7 +382,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
-                            href="http://kvlties.com/#Advantages"
+                            href="http://kvltiers.com/#Advantages"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -397,7 +397,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
-                            href="http://kvlties.com/#Advantages"
+                            href="http://kvltiers.com/#Advantages"
                             target="_blank"
                             rel="noreferrer"
                           >

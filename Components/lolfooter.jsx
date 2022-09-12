@@ -207,7 +207,7 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="https://kvlties.com/"
+                      href="https://kvltiers.com/"
                       className="block text-md hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
@@ -387,7 +387,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block text-md hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
-                            href="http://kvlties.com/#Advantages"
+                            href="http://kvltiers.com/#Advantages"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -402,7 +402,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block text-md hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <a
-                            href="http://kvlties.com/#Advantages"
+                            href="http://kvltiers.com/#Advantages"
                             target="_blank"
                             rel="noreferrer"
                           >
