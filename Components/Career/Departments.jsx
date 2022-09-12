@@ -14,28 +14,26 @@ export const Departments = () => (
       <div id="departmentgrid">
         <div className="hidden md:block">
           <div id="departmentmain">
-            <div
-              id="departmentmaininner"
-              className="bg-white lg:px-20 md:px-8  lg:py-12 2xl:py-16"
-            >
+            <div className="bg-white lg:px-20 md:px-8  lg:py-12 2xl:py-16">
               <h1 className="text-departmentheading text-4xl font-bold font-poppins pb-8 mt-12">
                 Our Departments
               </h1>
 
               <div
                 id="departmentmaingrid"
-                className="flex gap-6 xl:flex-nowrap flex-wrap xl:justify-center justify-evenly  flex-row"
+                // className="flex gap-6 xl:flex-nowrap flex-wrap xl:justify-center justify-evenly  flex-row"
+                className="grid gap-2 grid-flow-col 2xl:grid-cols-DepartmentsTemplate 2xl:grid-rows-1 grid-rows-2 lg:px-24 2xl:px-0"
               >
                 {Departmentsdata.map((index) => (
                   <div id="departmentmaingrid" key={index.id}>
-                    <div id="grid">
+                    <div>
                       <div className=" text-center ">
                         <div className="flex">
                           <div>
                             <Image
                               src={index.img}
                               alt="departments"
-                              className="relative"
+                              className="relative bg-cover"
                             />
                             <div
                               id="headingdepartment"
@@ -59,12 +57,12 @@ export const Departments = () => (
 
         <div className="md:hidden">
           <div>
-            <div id="onsitemain">
-              <div id="onsitemaininner" className="bg-white">
+            <div>
+              <div className="bg-white">
                 <h1 className="text-departmentheading text-3xl text-center pt-6 font-semibold font-poppins pb-8">
                   Our Departments
                 </h1>
-                <div id="maingrid">
+                <div>
                   <Swiper
                     spaceBetween={0}
                     centeredSlides
