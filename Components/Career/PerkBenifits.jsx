@@ -10,14 +10,14 @@ import 'swiper/css/navigation';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const PerkBenifits = () => {
-  const isMobile = useMediaQuery('(max-width:768px)');
+  const isMobile = useMediaQuery('(max-width:600px)');
   return (
     <div id="Perkmain">
       <div id="Perkmaininner">
         <div id="Perkmaingrid" className="pb-8 ">
           <div className="lg:block hidden">
             <h1 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-poppins">
-              Perks & Benefits
+              Perks & Benefitss
             </h1>
             <div
               id="Perkgrid"
