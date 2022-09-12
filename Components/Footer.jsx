@@ -33,7 +33,7 @@ const Footer = () => {
           className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
         />
       </div>
-      <div className="flex md:flex-row flex-col-reverse 2xl:pb-8 xl:pt-8 md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">
+      <div className="flex md:flex-row flex-col-reverse md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
@@ -70,7 +70,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
+                <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <MdPhone className="h-8 w-6" />
@@ -83,8 +83,8 @@ const Footer = () => {
                     </a>
                   </div>
                 </div>
-                <div className="text-white flex xl:justify- start justify-start mt-2 md:ml-0 ml-0 ">
-                  <div className="mt-2">
+                <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
+                  <div className="">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <MdLocationPin className=" h-8 w-6 " />
                     </a>
@@ -100,7 +100,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="text-white flex mb-8 xl:mb-2  pt-5">
+                <div className="text-white flex mb-8 xl:mb-2 mt-2">
                   <div className=" ml-0">
                     <div className="w-full  md:ml-0  ml:-0 ">
                       English, ਪੰਜਾਬੀ, Español, हिन्दी, Français
