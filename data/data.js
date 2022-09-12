@@ -411,7 +411,7 @@ export const OnsiteGriddata = [
   {
     id: 4,
     img: onsiteeight,
-    heading: 'Freindly & Experience Technicians',
+    heading: 'Friendly & Experienced Technicians',
     desc: 'With a customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services. ',
   },
   // {
