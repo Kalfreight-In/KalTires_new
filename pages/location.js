@@ -219,8 +219,8 @@ const location = () => {
                         <h1
                           className={
                             visibilities[index]
-                              ? 'text-white text-center font-bold '
-                              : 'text-white text-center font-bold'
+                              ? 'text-white text-center font-bold text-2xl '
+                              : 'text-white text-center font-bold text-2xl '
                           }
                         >
                           {value.properties.City}
@@ -278,7 +278,7 @@ const location = () => {
                                   KVL Tires, KAL Partz, KAL Freight English Ave
                                 </div>
                                 <div className=" font-light text-lg">
-                                  {value.properties.Address}
+                                  {value.properties.Address.toLowerCase()}
                                 </div>
                                 <div className=" font-light text-lg">
                                   Manager: {value.properties.Manager}
