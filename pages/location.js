@@ -12,6 +12,7 @@ import { MapData1, MapData2 } from '../data/data';
 // import { useHover } from '../Hooks/Hover';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 import Search from '../Components/location/Search';
+import { toTitleCase } from '../HelpFunctions/toTitlecase';
 
 // eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
@@ -278,7 +279,7 @@ const location = () => {
                                   KVL Tires, KAL Partz, KAL Freight English Ave
                                 </div>
                                 <div className=" font-light text-lg">
-                                  {value.properties.Address.toLowerCase()}
+                                  {toTitleCase(value.properties.Address)}
                                 </div>
                                 <div className=" font-light text-lg">
                                   Manager: {value.properties.Manager}

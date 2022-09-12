@@ -10,6 +10,7 @@ import { MapData1, MapData2 } from '../../data/data';
 
 import { useHover } from '../../Hooks/Hover';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
+import { toTitleCase } from '../../HelpFunctions/toTitlecase';
 
 // eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
@@ -347,7 +348,7 @@ export const MapConatiner = () => {
                             {visibilities[index] ? (
                               <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                                 {' '}
-                                {value.properties.Address.toLowerCase()}
+                                {toTitleCase(value.properties.Address)}
                                 <span>
                                   {visibilities[index] ? (
                                     <BiMinus />
@@ -465,7 +466,7 @@ export const MapConatiner = () => {
                           {visibilities[index] ? (
                             <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
-                              {value.properties.Address.toLowerCase()}
+                              {toTitleCase(value.properties.Address)}
                             </div>
                           ) : null}
                         </ul>
