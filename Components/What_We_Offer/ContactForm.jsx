@@ -62,7 +62,7 @@ const Contactform = () => {
   // });
 
   return (
-    <div id="maincontactform" className="justify-between lg:flex ">
+    <div id="maincontactform" className="justify-between lg:flex">
       <div
         id="shadow"
         className="md:p-0 p-4 bg-red-600"
