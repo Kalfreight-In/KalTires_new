@@ -346,7 +346,7 @@ export const MapConatiner = () => {
                           {visibilities[index] ? (
                             <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
-                              {value.properties.Address}
+                              {value.properties.Address.toLowerCase()}
                               <span>
                                 {visibilities[index] ? <BiMinus /> : <BsPlus />}
 
@@ -459,7 +459,7 @@ export const MapConatiner = () => {
                           {visibilities[index] ? (
                             <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
                               {' '}
-                              {value.properties.Address}
+                              {value.properties.Address.toLowerCase()}
                             </div>
                           ) : null}
                         </ul>
