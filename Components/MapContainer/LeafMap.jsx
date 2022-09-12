@@ -23,6 +23,7 @@ import { statesData } from './GeoData.js';
 import { useStateContext } from '../../context/StateContext';
 import NearestLocation from '../../function/NearestLocation';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
+import { toTitleCase } from '../../HelpFunctions/toTitlecase';
 
 // function style(feature) {
 //   return {
@@ -296,8 +297,8 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
             <div>
               <h2 className="font-bold text-lg">{office.properties.City}</h2>
               <div className="text-sm mb-2">
-                {office.properties.Address}, {office.properties.State},{' '}
-                {office.properties.ZipCode}
+                {toTitleCase(office.properties.Address)},{' '}
+                {office.properties.State}, {office.properties.ZipCode}
               </div>
 
               <div className="text-sm mb-2 flex flex-row">
