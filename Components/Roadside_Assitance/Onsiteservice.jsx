@@ -28,7 +28,7 @@ const Onsiteservice = () => {
                     </div>
                   </div>
 
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins ">
+                  <h1 className="lg:text-xl text-lg font-bold font-poppins h-12">
                     {index.heading}
                   </h1>
                   <p className="pt-6 lg:text-sm font-normal px-2 text-center font-poppins">
