@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const PerkBenifits = () => {
-  const isMobile = useMediaQuery('(max-width:768px)');
+  const isMobile = useMediaQuery('(max-width:600px)');
   return (
     <div id="Perkmain">
       <div id="Perkmaininner">
