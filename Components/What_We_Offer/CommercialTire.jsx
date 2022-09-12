@@ -64,7 +64,7 @@ const CommercialTire = () => {
                     <p className="text-white mt-5 text-justify font-poppins">
                       {alldata.desc}
                     </p>
-                    <div className="flex items-center h-24 pr-12">
+                    <div className="flex items-center  pr-12">
                       {alldata.logos.map((indexnew) => (
                         <div
                           id="commlogos"
