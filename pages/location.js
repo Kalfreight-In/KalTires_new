@@ -132,14 +132,14 @@ const location = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
-    MapData1.map((x) => false)
+    MapData1.map((x) => true)
   );
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
     console.log(`location after typed${TypedLocation}`);
-    MapData1.map((x) => false);
+    MapData1.map((x) => true);
   }, [visibilities, TypedLocation]);
 
   const handleClick = (event, coordinates) => {
