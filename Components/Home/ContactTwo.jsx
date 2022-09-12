@@ -123,7 +123,7 @@ const ContactTwo = () => {
                   </h1>
                   <p className="text-white pt-4  text-justify lg:pr-0 mr-16">
                     Let’s grow your business together. Please provide your
-                    details, and a KVL tire expert will get in touch with you
+                    details, and a KVL Tire expert will get in touch with you
                     shortly.{' '}
                   </p>
                 </div>
@@ -157,7 +157,7 @@ const ContactTwo = () => {
                 />
               </div>
 
-              <div className="w-full flex   items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
+              <div className="w-full flex  items-center  xl:px-3 mb-4 md:mb-0 md:pt-4">
                 <input
                   type="tel"
                   // pattern="^\(\d{3}\)\s\d{3}-\d{4}$"
@@ -174,7 +174,7 @@ const ContactTwo = () => {
                   id="grid-first-name"
                   type="email"
                   value={email}
-                  placeholder="Email Address"
+                  placeholder="Email Id"
                   required
                   pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
                 />

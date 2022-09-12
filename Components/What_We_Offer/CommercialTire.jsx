@@ -22,7 +22,7 @@ const CommercialTire = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col-reverse lg:block lg:pl-8">
+                <div className="flex flex-col-reverse lg:block pl-8">
                   <div className="lg:hidden block  ">
                     <div className="lg:relative lg:mt-4 self-start">
                       <Image
@@ -64,7 +64,7 @@ const CommercialTire = () => {
                     <p className="text-white mt-5 text-justify font-poppins">
                       {alldata.desc}
                     </p>
-                    <div className="flex items-center  pr-12">
+                    <div className="flex items-center h-24 pr-12">
                       {alldata.logos.map((indexnew) => (
                         <div
                           id="commlogos"
