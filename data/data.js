@@ -1125,7 +1125,7 @@ export const MapData1 = [
       City: 'Fontana DC',
       Address: '10156 Live Oak Ave',
       Phone: '909-306-5571',
-      Email: 'rmartinez@kaltires.com',
+      Email: 'rmartinez@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/LiveoakfontanaM.png',
       url: 'https://www.google.co.in/maps/place/10156+Live+Oak+Ave,+Fontana,+CA+92335,+USA/@34.0687994,-117.4834404,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fc6e50489:0xde8aefe027f7319!8m2!3d34.068795!4d-117.4812517?hl=en',
@@ -1209,12 +1209,12 @@ export const MapData1 = [
     ],
     properties: {
       State: 'CA',
-      Manager: 'jaime Rodriguez',
+      Manager: 'Jaime Rodriguez',
       ZipCode: '93308',
       City: 'Bakersfield',
       Address: '3401 N Sillect Ave',
       Phone: '661-371-7294',
-      Email: 'jaimerodriguez@kaltires.com',
+      Email: 'jaimerodriguez@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/bakersfiledM.png',
       url: 'https://www.google.co.in/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.391145,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099?hl=en',
@@ -1243,7 +1243,7 @@ export const MapData1 = [
       City: 'Riverside',
       Address: '3011 E. La Cadena Dr',
       Phone: '(951) 787-6884',
-      Email: 'dfox@kaltires.com',
+      Email: 'dfox@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/riversideM.png',
       url: 'https://www.google.co.in/maps/place/3011+E+La+Cadena+Dr,+Riverside,+CA+92507,+USA/@33.9863907,-117.3647773,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcb1fd437fedd1:0x6caf019abf3c6c16!8m2!3d33.9863863!4d-117.3625886?hl=en',
@@ -1272,7 +1272,7 @@ export const MapData1 = [
       City: 'Calexico',
       Address: '840 Emerson Ave',
       Phone: '760-768-8696',
-      Email: 'avasquez@kaltires.com',
+      Email: 'avasquez@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/EmersonCalexM.png',
       url: '',
@@ -1301,7 +1301,7 @@ export const MapData1 = [
       City: 'Calexico',
       Address: '165 W. 5th st',
       Phone: '760-768-8696',
-      Email: 'avasquez@kaltires.com',
+      Email: 'avasquez@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/calexicoM.png',
       url: 'https://www.google.co.in/maps/place/165+W+5th+St,+Calexico,+CA+92231,+USA/@32.6702259,-115.5029613,17z/data=!3m1!4b1!4m5!3m4!1s0x80d76534f00f0807:0xd1c019f6c4b6a038!8m2!3d32.6702214!4d-115.5007726?hl=en',
@@ -1359,7 +1359,7 @@ export const MapData1 = [
       City: 'Arlington ',
       Address: '600 109th St Suite B',
       Phone: '909-202-8831',
-      Email: 'gwright@kaltires.com',
+      Email: 'gwright@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/arlingtonM.png',
       url: 'https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en',
@@ -1418,7 +1418,7 @@ export const MapData1 = [
       City: 'Indianapolis DC',
       Address: '2025 ENGLISH AVE',
       Phone: '951-834-2907',
-      Email: 'tingram@kaltires.com',
+      Email: 'tingram@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/indianapolistM.png',
       url: 'https://www.google.co.in/maps/place/2025+English+Ave,+Indianapolis,+IN+46201,+USA/@39.7592009,-86.1289827,17z/data=!3m1!4b1!4m5!3m4!1s0x886b507bb4588c77:0xd0b2698ed1a53b6d!8m2!3d39.7591968!4d-86.126794?hl=en',
@@ -1447,7 +1447,7 @@ export const MapData1 = [
       City: 'Indianapolis',
       Address: '2916 Bluff Rd Blg. 6',
       Phone: '317-670-8866',
-      Email: 'gwatson@kaltires.com',
+      Email: 'gwatson@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/indianaM.png',
       url: 'https://www.google.co.in/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454?hl=en',
@@ -1505,7 +1505,7 @@ export const MapData1 = [
       City: 'Hampton',
       Address: '15 FRONTAGE RD, ROUTE 173',
       Phone: '908-914-2577',
-      Email: 'smalia@kaltires.com',
+      Email: 'smalia@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
       url: 'https://www.google.com/maps/place/15+Frontage+Rd,+Asbury,+NJ+08802,+USA/@40.6414871,-74.9932845,17z/data=!3m1!4b1!4m5!3m4!1s0x89c475135348f553:0xe4a6f37f018d1695!8m2!3d40.6414871!4d-74.9910958',
@@ -1535,7 +1535,7 @@ export const MapData1 = [
       City: 'Atlanta DC',
       Address: '3435 JONESBORO ROAD SE',
       Phone: '951-834-3103',
-      Email: 'acampbell@kaltires.com',
+      Email: 'acampbell@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/atlantaGm.png',
       url: 'https://www.google.co.in/maps/place/3435+Jonesboro+Rd+SE,+Atlanta,+GA+30354,+USA/@33.6608251,-84.3749728,17z/data=!3m1!4b1!4m5!3m4!1s0x88f4fdf304d4cbb7:0xf1f5c6fa319c16be!8m2!3d33.6608207!4d-84.3727841?hl=en',
@@ -1564,7 +1564,7 @@ export const MapData1 = [
       City: 'Conley ',
       Address: '4285 Moreland Ave',
       Phone: '951-834-3103',
-      Email: 'acampbell@kaltires.com',
+      Email: 'acampbell@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/GeorgiaM.png',
       url: 'https://www.google.co.in/maps/place/4285+Moreland+Ave,+Conley,+GA+30288,+USA/@33.6371068,-84.3234401,17z/data=!4m5!3m4!1s0x88f4fe4f3db5a2ab:0xd873cbdc7e77783c!8m2!3d33.6371024!4d-84.3212514?hl=en',
@@ -1593,7 +1593,7 @@ export const MapData1 = [
       City: 'Arlington DC ',
       Address: '600 109th St Suite B',
       Phone: '972-741-2606',
-      Email: 'tgant@kaltires.com',
+      Email: 'tgant@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
       url: 'https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en',
@@ -1622,7 +1622,7 @@ export const MapData1 = [
       City: 'Indianapolis',
       Address: '2916 Bluff Rd Blg. 6',
       Phone: '317-520-8545',
-      Email: 'tingram@kaltires.com',
+      Email: 'tingram@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
       url: 'https://www.google.com/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454',
@@ -1651,7 +1651,7 @@ export const MapData1 = [
       City: 'Laredo',
       Address: '8115 Las Cruces Dr',
       Phone: '972-741-2606',
-      Email: 'tgant@kaltires.com',
+      Email: 'tgant@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/LaredoTexasM.png',
       url: 'https://www.google.com/maps/place/8115+Las+Cruces+Dr,+Laredo,+TX+78045,+USA/@27.5836842,-99.5091438,17z/data=!3m1!4b1!4m5!3m4!1s0x8661206462f5488d:0x889064ef3b3fe134!8m2!3d27.5836795!4d-99.5069551',
