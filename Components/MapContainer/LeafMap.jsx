@@ -263,27 +263,25 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
           />
         ) : null}
         {Currentlatlong ? (
-          <motion.div>
-            <Marker
-              animate
-              position={[Currentlatlong.latitude, Currentlatlong.longitude]}
-              eventHandlers={{
-                click: () => {
-                  setcurrentPopup({
-                    coordinates: [
-                      Currentlatlong.latitude,
-                      Currentlatlong.longitude,
-                    ],
-                    text: 'this is your Location',
-                  });
-                },
-                // hover: () => {
-                //   setoffice(eachData);
-                // },
-              }}
-              icon={userIcon}
-            />
-          </motion.div>
+          <Marker
+            animate
+            position={[Currentlatlong.latitude, Currentlatlong.longitude]}
+            eventHandlers={{
+              click: () => {
+                setcurrentPopup({
+                  coordinates: [
+                    Currentlatlong.latitude,
+                    Currentlatlong.longitude,
+                  ],
+                  text: 'this is your Location',
+                });
+              },
+              // hover: () => {
+              //   setoffice(eachData);
+              // },
+            }}
+            icon={userIcon}
+          />
         ) : null}
 
         {office && (
