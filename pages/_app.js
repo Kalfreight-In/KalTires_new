@@ -16,7 +16,7 @@ const MyApp = ({ Component, pageProps }) => {
   };
   return (
     <StateContext>
-      {isDesktop ? <TopUpbar /> : null}
+      {/* {isDesktop ? <TopUpbar /> : null} */}
 
       <ErrorBoundary>
         <Sidebar isOpen={isOpen} toggle={toggle} />

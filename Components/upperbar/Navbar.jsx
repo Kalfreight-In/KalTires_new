@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <div className="ml-8 hidden flex-row justify-start items-center cursor-pointer lg:flex">
           <Link href="/" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/' ? 'bg-red-500' : ''
               }`}
             >
@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
           </Link>
           <Link href="/#AboutUs_Section" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/#AboutUs_Section' ? 'bg-red-500' : ''
               }`}
             >
@@ -73,7 +73,7 @@ const Navbar = ({ toggle }) => {
           </Link>
           <Link href="/WhatWeOffer" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/WhatWeOffer' ? 'bg-red-500' : ''
               }`}
             >
@@ -91,7 +91,7 @@ const Navbar = ({ toggle }) => {
 
           <Link href="/roadside-Assistance" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/roadside-Assistance' ? 'bg-red-500' : ''
               }`}
             >
@@ -108,7 +108,7 @@ const Navbar = ({ toggle }) => {
           </Link>
           <Link href="/location" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/location' ? 'bg-red-500' : ''
               }`}
             >
@@ -125,7 +125,7 @@ const Navbar = ({ toggle }) => {
           </Link>
           <a href="/Credit">
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/Credit' ? 'bg-red-500' : ''
               }`}
             >
@@ -142,7 +142,7 @@ const Navbar = ({ toggle }) => {
           </a>
           <Link href="/career" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-3 border-grey  ${
+              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/career' ? 'bg-red-500' : ''
               }`}
             >

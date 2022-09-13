@@ -25,7 +25,7 @@ const Topbar = ({ toggle }) => {
             className="cursor-pointer"
             height={55}
           />
-          <div className="pt-2 relative ml-8 mx-auto text-gray-600 hidden lg:block">
+          {/* <div className="pt-2 relative ml-8 mx-auto text-gray-600 hidden lg:block">
             <input
               className="border-2 border-gray-300 bg-white h-10 px-5 pr-36 rounded-lg text-sm focus:outline-none"
               type="search"
@@ -35,7 +35,7 @@ const Topbar = ({ toggle }) => {
             <button type="submit" className="absolute right-0 top-0 mt-5 mr-4">
               <FaSearch color="red" />
             </button>
-          </div>
+          </div> */}
           <a
             className="text-white flex-1 justify-end hidden lg:flex "
             href="tel:800-808-0025"

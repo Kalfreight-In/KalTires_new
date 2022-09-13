@@ -239,7 +239,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               exact
               offset={-80}
             >
-              Careers
+              career
             </Link>
           </Link> */}
           <Link href="/#AboutUs_Section" passHref onClick={toggle}>
@@ -261,7 +261,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLinkR onClick={toggle}>Career</SidebarLinkR>
           </Link>
           {/* <Link to="/Ecommerce">Ecommerce</Link>
-          <Link to="/Careers">Careers</Link>
+          <Link to="/career">career</Link>
           <Link to="/Shipfreight">Shipfreight</Link>
           <Link to="/Industries">Industries</Link>
           <Link to="/KalPower">KalPower</Link> */}
