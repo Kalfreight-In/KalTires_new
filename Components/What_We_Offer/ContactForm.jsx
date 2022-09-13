@@ -184,7 +184,7 @@ const Contactform = () => {
                     placeholder="Service type"
                     required
                   >
-                    <option value="service">Select service type</option>
+                    <option value="service">Select Service Type</option>
                     <option value="newtires">New Tires</option>
                     <option value="retreadtires">Retread Tires</option>
                     <option value="heavyduty">Heavy Duty Front End Work</option>
