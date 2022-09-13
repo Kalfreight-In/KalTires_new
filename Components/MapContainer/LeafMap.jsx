@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 // import 'leaflet-defaulticon-compatibility';
 // import 'esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
+
 import {
   MapContainer,
   TileLayer,
