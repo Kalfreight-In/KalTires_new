@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-
+import { SwiperSlide, Swiper } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper';
 import { CommercialTireone, CommercialTiretwo } from '../../data/data';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const CommercialTire = () => {
   const [alldata, setalldata] = useState(CommercialTireone[0]);
+  const isMobile = useMediaQuery('(max-width:600px)');
 
   return (
     <div id="commercialtiremain">
@@ -22,7 +25,7 @@ const CommercialTire = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col-reverse lg:block pl-8">
+                <div className="flex flex-col-reverse lg:block lg:pl-8">
                   <div className="lg:hidden block  ">
                     <div className="lg:relative lg:mt-4 self-start">
                       <Image
@@ -32,7 +35,7 @@ const CommercialTire = () => {
                       />
                     </div>
                   </div>
-                  <div className="lg:py-2 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left mt-16  ">
+                  <div className="lg:py-2 md:px-10 px-6 lg:px-0 md:max-w-3xl lg:max-w-5xl max-w-sm  mx-auto col-span-2  text-center lg:text-left mt-16  ">
                     <h1 className="text-white font-poppins text-4xl font-bold">
                       {alldata.Heading}
                     </h1>
@@ -64,17 +67,36 @@ const CommercialTire = () => {
                     <p className="text-white mt-5 text-justify font-poppins">
                       {alldata.desc}
                     </p>
-                    <div className="flex items-center h-24 pr-12">
-                      {alldata.logos.map((indexnew) => (
-                        <div
-                          id="commlogos"
-                          className="mt-8 ml-4"
-                          key={indexnew.id}
-                        >
-                          <Image src={indexnew.img} className="flex" />
-                        </div>
-                      ))}
-                    </div>
+                    <Swiper
+                      modules={[Pagination, Autoplay]}
+                      loop
+                      slidesPerView={
+                        alldata.Heading === 'Retread Tires'
+                          ? isMobile
+                            ? 2
+                            : 2
+                          : isMobile
+                          ? 2
+                          : 3
+                      }
+                      spaceBetween={30}
+                      // pagination={{ clickable: true }}
+                      // className="mySwiper"
+                      autoplay={{
+                        delay: 700,
+                        disableOnInteraction: false,
+                      }}
+                    >
+                      <div className="flex items-center h-24 pr-12">
+                        {alldata.logos.map((indexnew) => (
+                          <SwiperSlide key={indexnew.id}>
+                            <div id="commlogos" className="mt-8 ml-4">
+                              <Image src={indexnew.img} className="flex" />
+                            </div>
+                          </SwiperSlide>
+                        ))}
+                      </div>
+                    </Swiper>
                   </div>
                 </div>
               </div>

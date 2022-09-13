@@ -393,7 +393,7 @@ export const OnsiteGriddata = [
   {
     id: 1,
     img: onsiteone,
-    heading: 'On Site Service',
+    heading: 'On-Site Service',
     desc: 'KVL Tires offers you onsite services like wheel mounting, flat tire repair, and light mechanical work',
   },
   {

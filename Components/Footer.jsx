@@ -355,15 +355,16 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <a
-                            href="https://kalfreight.com/what-we-do"
+                          <Link
+                            href="/#maincontactformhome"
                             target="_blank"
                             rel="noreferrer"
+                            passHref
                           >
                             <span className="mt-5px lg:leading-7">
                               Mounted Wheel Programs
                             </span>
-                          </a>
+                          </Link>
                         </span>
                       </div>
                     </div>
@@ -371,45 +372,48 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <a
-                            href="https://kaltrailers.com/credit-application/"
+                          <Link
+                            href="/#maincontactformhome"
                             target="_blank"
                             rel="noreferrer"
+                            passHref
                           >
                             <span className="mt-5px lg:leading-7">
                               Truck & Trailer Alignment
                             </span>
-                          </a>
+                          </Link>
                         </span>
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <a
-                            href="http://kvltiers.com/#Advantages"
+                          <Link
+                            href="/#maincontactformhome"
                             target="_blank"
                             rel="noreferrer"
+                            passHref
                           >
                             <span className="mt-5px lg:leading-7">
                               Flat Tire Repairs
                             </span>
-                          </a>
+                          </Link>
                         </span>
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <a
-                            href="http://kvltiers.com/#Advantages"
+                          <Link
+                            href="WhatWeOffer#commercialtiremain"
                             target="_blank"
                             rel="noreferrer"
+                            passHref
                           >
                             <span className="mt-5px lg:leading-7">
                               Retread Tires
                             </span>
-                          </a>
+                          </Link>
                         </span>
                       </div>
                     </div>
