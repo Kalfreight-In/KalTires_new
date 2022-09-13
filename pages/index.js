@@ -1,3 +1,4 @@
+// import Head from 'next/head';
 import { AboutUs } from '../Components/Home/AboutUs';
 import BrandsComponent from '../Components/Home/BrandsComponent';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
@@ -10,8 +11,12 @@ import ContactTwo from '../Components/Home/ContactTwo';
 
 const Home = () => (
   <div>
+    {/* <Head>
+      <script async src="https://cse.google.com/cse.js?cx=a645312b2331e4b91" />;
+    </Head> */}
     <HomeSlider />
     <BrandsComponent />
+    {/* <div className="gcse-search" /> */}
     <AboutUs />
     {/* <FeaturedProducts /> */}
     <RoadSideAssistant />
