@@ -21,6 +21,7 @@ module.exports = {
   rules: {
     'no-console': 0,
     'jsx-a11y/label-has-associated-control': 0,
+    indent: 'off',
     'no-nested-ternary': 0,
     'consistent-return': 0,
     'no-alert': 0,
