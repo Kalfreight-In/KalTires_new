@@ -737,7 +737,7 @@ export const Servicesdata = [
   {
     id: 8,
     img: eights,
-    heading: 'Scheduled Maintainance program',
+    heading: 'Scheduled Maintenance Program',
     desc: 'Schedule maintenance of commercial vehicles is necessary for safety & extend the vehicle’s life. The program can ensure your wheels run smoothly without unforeseen costly repairs coming your way. Fleet owners can primarily benefit from this program by reducing tire-related operating expenses. Fine tune your tire performance today for a longer ride every day.  ',
   },
 ];
