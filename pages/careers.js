@@ -1,13 +1,13 @@
 import React from 'react';
-import { Departments } from '../Components/Careers/Departments';
-import { PerkBenifits } from '../Components/Careers/PerkBenifits';
-import { Ykvl } from '../Components/Careers/Ykvl';
-import { SubResume } from '../Components/Careers/SubResume';
-import { CareersHeader } from '../Components/Careers/CareersHeader';
+import { Departments } from '../Components/Career/Departments';
+import { PerkBenifits } from '../Components/Career/PerkBenifits';
+import { Ykvl } from '../Components/Career/Ykvl';
+import { SubResume } from '../Components/Career/SubResume';
+import { careerHeader } from '../Components/Career/careerHeader';
 
-const Careers = () => (
+const career = () => (
   <div>
-    <CareersHeader />
+    <careerHeader />
     <Ykvl />
     <Departments />
     <PerkBenifits />
@@ -15,4 +15,4 @@ const Careers = () => (
   </div>
 );
 
-export default Careers;
+export default career;
