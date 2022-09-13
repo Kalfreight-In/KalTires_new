@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 // import 'leaflet-defaulticon-compatibility';
 // import 'esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css';
 import styled from 'styled-components';
-
+import { motion } from 'framer-motion';
 import {
   MapContainer,
   TileLayer,
@@ -263,25 +263,27 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
           />
         ) : null}
         {Currentlatlong ? (
-          <Marker
-            animate
-            position={[Currentlatlong.latitude, Currentlatlong.longitude]}
-            eventHandlers={{
-              click: () => {
-                setcurrentPopup({
-                  coordinates: [
-                    Currentlatlong.latitude,
-                    Currentlatlong.longitude,
-                  ],
-                  text: 'this is your Location',
-                });
-              },
-              // hover: () => {
-              //   setoffice(eachData);
-              // },
-            }}
-            icon={userIcon}
-          />
+          <motion.div>
+            <Marker
+              animate
+              position={[Currentlatlong.latitude, Currentlatlong.longitude]}
+              eventHandlers={{
+                click: () => {
+                  setcurrentPopup({
+                    coordinates: [
+                      Currentlatlong.latitude,
+                      Currentlatlong.longitude,
+                    ],
+                    text: 'this is your Location',
+                  });
+                },
+                // hover: () => {
+                //   setoffice(eachData);
+                // },
+              }}
+              icon={userIcon}
+            />
+          </motion.div>
         ) : null}
 
         {office && (
