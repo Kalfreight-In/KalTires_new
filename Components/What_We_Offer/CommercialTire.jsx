@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
 import { CommercialTireone, CommercialTiretwo } from '../../data/data';
@@ -72,9 +73,7 @@ const CommercialTire = () => {
                       loop
                       slidesPerView={
                         alldata.Heading === 'Retread Tires'
-                          ? isMobile
-                            ? 2
-                            : 2
+                          ? 2
                           : isMobile
                           ? 2
                           : 3

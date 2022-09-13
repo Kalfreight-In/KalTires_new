@@ -82,7 +82,7 @@ export const Speciality = () => {
                       id="Hotline"
                       className="flex items-center lg:pr-0 md:pr-4 pr-0"
                     >
-                      <div id="Hotline-first" className="md:mx-4 mx-2 ">
+                      <div id="Hotline-first" className="md:mr-4 mr-2 ">
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="Hotline-second">

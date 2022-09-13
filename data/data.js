@@ -485,7 +485,7 @@ export const CommercialTiretwo = [
     Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. The Commercial Tires also offers high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move. These tires are made up of harder rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively longer life.  ',
+    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. The Commercial Tires also offers high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move. These tires are made up of hard rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively longer life.  ',
     logos: [
       {
         id: 1,
@@ -650,7 +650,7 @@ export const PerkBenifitsdata = [
     id: 4,
     img: paidtimeoff,
     Heading: 'Paid Time Off',
-    desc: 'Vacation? Staycation? Get some "me" time to recharge, travel, or chill.',
+    desc: 'Vacation? Staycation? Get some "Me" time to recharge, travel, or chill.',
   },
   {
     id: 5,
