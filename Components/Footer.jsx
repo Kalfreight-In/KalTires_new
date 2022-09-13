@@ -335,7 +335,7 @@ const Footer = () => {
                         </span>
                       </div>
                       <a
-                        href="mailto:hr@bigrigcanada.com"
+                        href="mailto:info@kvltires.com"
                         target="_blank"
                         rel="noreferrer"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
