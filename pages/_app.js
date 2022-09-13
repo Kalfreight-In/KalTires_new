@@ -7,6 +7,7 @@ import { StateContext } from '../context/StateContext';
 import Sidebar from '../Components/Sidebar';
 import ErrorBoundary from '../Components/ErrorBoundary';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
+import BottomBar from '../Components/Bottombar';
 
 const MyApp = ({ Component, pageProps }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ const MyApp = ({ Component, pageProps }) => {
 
       <Component {...pageProps} />
       <Footer />
+      <BottomBar />
       {/* <Script
       src="https://kit.fontawesome.com/d16bf6a891.js"
       crossOrigin="anonymous"

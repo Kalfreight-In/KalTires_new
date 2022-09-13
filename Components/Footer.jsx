@@ -321,7 +321,7 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                         <span className="flex cursor-pointer ">
-                          <span className="mt-5px lg:leading-7 w-44">
+                          <span className="mt-5px  w-44">
                             <Slink
                               to="ContactSection "
                               smooth
@@ -345,7 +345,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link href="/roadside-Assistance#onsiteid" passHref>
-                            <span className="mt-5px lg:leading-7 cursor-pointer">
+                            <span className="mt-5px  cursor-pointer">
                               On-Site Services
                             </span>
                           </Link>
@@ -361,7 +361,7 @@ const Footer = () => {
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px lg:leading-7">
+                            <span className="mt-5px">
                               Mounted Wheel Programs
                             </span>
                           </Link>
@@ -378,7 +378,7 @@ const Footer = () => {
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px lg:leading-7">
+                            <span className="mt-5px ">
                               Truck & Trailer Alignment
                             </span>
                           </Link>
@@ -394,9 +394,7 @@ const Footer = () => {
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px lg:leading-7">
-                              Flat Tire Repairs
-                            </span>
+                            <span className="mt-5px ">Flat Tire Repairs</span>
                           </Link>
                         </span>
                       </div>
@@ -410,9 +408,7 @@ const Footer = () => {
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px lg:leading-7">
-                              Retread Tires
-                            </span>
+                            <span className="mt-5px">Retread Tires</span>
                           </Link>
                         </span>
                       </div>
