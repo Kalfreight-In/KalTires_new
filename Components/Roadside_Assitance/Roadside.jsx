@@ -25,9 +25,9 @@ const Roadside = () => (
             />
           </div>
           <div className="flex items-center  2xl:pt-2 ">
-            <div className="md:px-0 px-6 lg:px-0 max-w-4xl lg:max-w-md md:mx-12 mx-2   pt-0">
+            <div className="md:px-0 px-6 lg:px-0 max-w-4xl lg:max-w-3xl md:mx-12 mx-2   pt-0">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
-                <span className="block font-poppins">
+                <span className="block font-poppins text-4xl">
                   <span className="text-kaltire-red font-poppins">24/7</span>
                   <span className="pl-4">ROADSIDE ASSISTANCE</span>
                 </span>
