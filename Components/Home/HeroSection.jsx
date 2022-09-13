@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-scroll';
 import Link from 'next/link';
 import styled from 'styled-components';
-
+import { motion } from 'framer-motion';
 import {
   HeroContainer,
   HeroContent,
@@ -39,19 +39,39 @@ const HeroSection = ({ data }) => (
               data.Heading.length > 25 ? 'lg:w-8/12' : 'lg:w-7/4 '
             }  w-full `}
           >
-            <div
-              className={` ${
-                data.Heading ? 'lg:border-l-4' : null
-              } border-PrimaryTwo pl-3`}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.9 }}
             >
-              <div className="2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
-                {data.Heading.toUpperCase()}
+              <div
+                className={` ${
+                  data.Heading ? 'lg:border-l-4' : null
+                } border-PrimaryTwo anima pl-3`}
+              >
+                <motion.div
+                  initial={{ x: -100, opacity: 0.5 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <div className="2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
+                    {data.Heading.toUpperCase()}
+                  </div>
+                </motion.div>
+
+                {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
+                <motion.div
+                  initial={{ x: -100, opacity: 0.5 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <div className="lg:text-xl text-white font-xl hidden lg:block">
+                    {data.desc}
+                  </div>
+                </motion.div>
               </div>
-              {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
-              <div className="lg:text-xl text-white font-xl hidden lg:block">
-                {data.desc}
-              </div>
-            </div>
+            </motion.div>
+
             {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
 
             {data.CTA1 ? (
@@ -68,12 +88,18 @@ const HeroSection = ({ data }) => (
                   <p>{data.CTA1.heading}</p>
                 </button> */}
 
-                  <button
-                    type="button"
-                    className="text-white   hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
+                  <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
                   >
-                    <p>{data.CTA1.heading}</p>
-                  </button>
+                    {' '}
+                    <button
+                      type="button"
+                      className="text-white   hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
+                    >
+                      <p>{data.CTA1.heading}</p>
+                    </button>
+                  </motion.button>
                 </Link>
               </div>
             ) : null}
