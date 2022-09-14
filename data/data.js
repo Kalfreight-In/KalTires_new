@@ -75,7 +75,7 @@ export const HomeSliderData = [
     id: 1,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Check out our wide range of tires & services at affordable prices.  ',
+    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices.  ',
 
     CTA1: {
       heading: 'Contact Us',
@@ -87,7 +87,7 @@ export const HomeSliderData = [
     id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
     Heading: '  Off-The-Road Tires  ',
-    desc: 'Tires for the toughest driving conditions  ',
+    desc: 'Tires For The Toughest Driving Conditions.',
 
     CTA1: { heading: 'Explore', link: '/WhatWeOffer' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
@@ -97,7 +97,7 @@ export const HomeSliderData = [
     id: 3,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-3.png',
     Heading: 'Looking for new tires for your fleet?  ',
-    desc: 'Find your next set of tires here at KVL Tires.  ',
+    desc: 'Find Your Next Set Of Tires Here At KVL Tires.',
 
     CTA1: { heading: 'Contact Us', Slink: '/#maincontactformhome' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
@@ -411,7 +411,7 @@ export const OnsiteGriddata = [
   {
     id: 4,
     img: onsiteeight,
-    heading: 'Friendly & Experience Technicians',
+    heading: 'Friendly & Experienced Technicians',
     desc: 'With a customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services. ',
   },
   // {

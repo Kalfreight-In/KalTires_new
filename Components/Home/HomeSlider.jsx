@@ -39,7 +39,7 @@ const HomeSlider = () => {
         pagination={pagination}
         className="mySwiper"
         autoplay={{
-          delay: 2600,
+          delay: 4000,
           disableOnInteraction: false,
         }}
       >
