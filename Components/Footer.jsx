@@ -186,7 +186,7 @@ const Footer = () => {
                     }}
                   >
                     <h1 className="text-lg md:font-bold font-normal xl:text-left text-center   ">
-                      Who Are We
+                      Who We Are
                     </h1>
                   </div>
 

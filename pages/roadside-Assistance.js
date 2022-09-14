@@ -14,7 +14,7 @@ const data = [
     id: 1,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.png',
     Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE ? ',
-    desc: 'We Have Got Your Back! ',
+    desc: 'We  Got Your Back! ',
     // commsfsdf
     // commsfsdf
 

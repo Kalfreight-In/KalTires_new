@@ -224,7 +224,7 @@ const location = () => {
                               : 'text-white text-center font-bold text-xl '
                           }
                         >
-                          {value.properties.City}
+                          {`${value.properties.City} ${value.properties.State}`}
                         </h1>
                       </div>
                       <div className="flex flex-row ml-10">
@@ -356,7 +356,7 @@ const location = () => {
                               : 'text-white text-center font-bold text-xl '
                           }
                         >
-                          {value.properties.City}
+                          {`${value.properties.City} ${value.properties.State}`}
                         </h1>
                       </div>
                       <div className="flex flex-row ml-10">
