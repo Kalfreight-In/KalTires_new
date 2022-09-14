@@ -129,7 +129,8 @@ module.exports = {
     //   minlg: '2100px',
     // },
     fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
+      // poppins: ['Poppins', 'sans-serif'],
+      poppins: ['Helvetica'],
     },
   },
   variants: {
