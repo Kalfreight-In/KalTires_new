@@ -46,7 +46,7 @@ const HeroSection = ({ data }) => (
             >
               <div
                 className={` ${
-                  data.Heading ? 'lg:border-l-4' : null
+                  data.Heading ? 'lg:border-l-4 ' : null
                 } border-PrimaryTwo anima pl-3`}
               >
                 <motion.div

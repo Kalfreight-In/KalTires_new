@@ -19,7 +19,7 @@ const EmergencyAssists = () => (
     >
       <div id="content" className="md:pt-0 pt-8">
         <h1 className="text-2xl md:text-3xl lg:text-5xl text-white lg:leading-70 font-semibold font-poppins">
-          WE GOT YOUR BACK.
+          WE GOT YOUR BACK!
           <br /> EMERGENCY ASSISTANCE
         </h1>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
