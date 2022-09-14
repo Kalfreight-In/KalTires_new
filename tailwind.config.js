@@ -104,6 +104,7 @@ module.exports = {
       inset: {
         45: '45%',
         65: '65px',
+        navbargap: '4.9rem',
       },
       spacing: {
         65: '65px',

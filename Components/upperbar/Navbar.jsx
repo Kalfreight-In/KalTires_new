@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
     console.log(AboutusRef);
   }, [AboutusRef]);
   return (
-    <nav className="bg-white">
+    <nav className="bg-white sticky top-navbargap z-10">
       <div className="flexBetween z-10 mx-20  flex-row">
         <div className="ml-8 hidden flex-row justify-start items-center cursor-pointer lg:flex">
           <Link href="/" passHref>

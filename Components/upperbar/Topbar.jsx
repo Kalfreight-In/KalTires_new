@@ -16,7 +16,11 @@ const Topbar = ({ toggle }) => {
   }, []);
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
-    <div className={`bg-black ${isDesktop ? '' : 'fixed z-30 w-full'}`}>
+    <div
+      className={`bg-black sticky top-0 z-10 ${
+        isDesktop ? '' : 'fixed z-30 w-full'
+      }`}
+    >
       <div className=" xl:mx-12 mx-8  flexBetween z-10   p-3 flex-row">
         <div className=" ml-0 flex-1 flex flex-row justify-start items-center ">
           <Link href="/" passHref>

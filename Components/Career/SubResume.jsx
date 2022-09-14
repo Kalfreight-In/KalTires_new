@@ -33,7 +33,8 @@ export const SubResume = () => (
 
         <div id="lastresumecontent" className="text-center text-kaltire-red">
           <p className="text-xl font-poppins">
-            Or mail your resume directly at info@kvltires.com
+            Or mail your resume directly at{' '}
+            <a href="mailto:info@kvltires.com">info@kvltires.com</a>
           </p>
         </div>
       </div>
