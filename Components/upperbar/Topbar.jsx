@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 import { FaBars, FaSearch } from 'react-icons/fa';
+import Link from 'next/link';
 import Navlogo from '../../Assets/Images/NavLogo.png';
 import call from '../../Assets/Icons/call.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
@@ -18,13 +19,15 @@ const Topbar = ({ toggle }) => {
     <div className={`bg-black ${isDesktop ? '' : 'fixed z-30 w-full'}`}>
       <div className=" xl:mx-12 mx-8  flexBetween z-10   p-3 flex-row">
         <div className=" ml-0 flex-1 flex flex-row justify-start items-center ">
-          <Image
-            src={Navlogo}
-            alt="place"
-            objectFit="contain"
-            className="cursor-pointer"
-            height={55}
-          />
+          <Link href="/" passHref>
+            <Image
+              src={Navlogo}
+              alt="place"
+              objectFit="contain"
+              className="cursor-pointer"
+              height={55}
+            />
+          </Link>
           {/* <div className="pt-2 relative ml-8 mx-auto text-gray-600 hidden lg:block">
             <input
               className="border-2 border-gray-300 bg-white h-10 px-5 pr-36 rounded-lg text-sm focus:outline-none"

@@ -169,7 +169,7 @@ const Footer = () => {
                       passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
-                        Retreads
+                        Retread Tires
                       </span>
                     </Link>
                   </div>
@@ -407,7 +407,7 @@ const Footer = () => {
                         </span>
                       </div>
                     </div>
-                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
+                    {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
@@ -416,11 +416,11 @@ const Footer = () => {
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px">Retread Tires</span>
+                            <span className="mt-5px">Retread Services </span>
                           </Link>
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

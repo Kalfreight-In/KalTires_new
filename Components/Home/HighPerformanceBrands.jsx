@@ -58,10 +58,10 @@ const HighPerformanceBrands = () => {
           slidesPerView={isDesktop ? 4 : 1}
           spaceBetween={30}
           className="mySwiper"
-          // autoplay={{
-          //   delay: 2000,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
         >
           {HighPerformanceBrandsData.map((data) => (
             <SwiperSlide key={data.id}>

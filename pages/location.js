@@ -319,12 +319,12 @@ const location = () => {
                             </div>
                             <div className="flex flex-center flex-col lg:w-2/12 ">
                               <img src={value.properties.bgimage} />
-                              <div className="text-right text-md pt-2">
+                              <div className="text-right text-sm pt-2">
                                 <a
                                   className="text-blue-500"
                                   href={value.properties.url}
                                 >
-                                  See on maps
+                                  See on map
                                 </a>
                               </div>
                             </div>
