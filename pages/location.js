@@ -281,7 +281,9 @@ const location = () => {
                                 <div className=" font-light text-md">
                                   {`${toTitleCase(
                                     value.properties.Address
-                                  )}${', '} ${value.properties.ZipCode}`}
+                                  )}${', '} ${value.properties.ZipCode} ${
+                                    value.properties.City
+                                  } ${value.properties.State}`}
                                 </div>
                                 {value.properties.Manager ? (
                                   <div className=" font-light text-md">
