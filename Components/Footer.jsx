@@ -474,7 +474,7 @@ const Footer = () => {
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/kalgroupusa',
+                            'https://www.facebook.com/kvltires',
                             '_blank'
                           )
                         }
@@ -483,7 +483,7 @@ const Footer = () => {
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            'https://www.instagram.com/kalgroupusa/',
+                            'https://www.instagram.com/kvltires/',
                             '_blank'
                           )
                         }
@@ -492,7 +492,7 @@ const Footer = () => {
                       <IoLogoLinkedin
                         onClick={() =>
                           window.open(
-                            'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                            'https://www.facebook.com/kvltires',
                             '_blank'
                           )
                         }

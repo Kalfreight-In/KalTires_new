@@ -36,21 +36,25 @@ const Topbar = ({ toggle }) => {
               <FaSearch color="red" />
             </button>
           </div> */}
-          <a
+          <div
             className="text-white flex-1 justify-end hidden lg:flex "
             href="tel:800-808-0025"
           >
-            <div className="pr-2 flex flexCenter">
+            <a
+              href="tel:800-808-0025"
+              className="pr-2 flex flexCenter cursor-pointer"
+            >
               <Image src={call} alt="call" objectFit="contain" height={30} />
+
               {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
-            </div>
+            </a>
             <a href="tel:800-808-0025" className="cursor-pointer">
               <div>
                 <div className="font-bold">Toll Free</div>
                 <div className=""> 800-808-0025</div>
               </div>
             </a>
-          </a>
+          </div>
           {/* <div className="text-white">Search</div> */}
         </div>
       </div>
