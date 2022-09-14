@@ -13,8 +13,8 @@ const data = [
   {
     id: 1,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.png',
-    Heading: 'Are you stuck on the side of the road? ',
-    desc: 'We’ve got your back. ',
+    Heading: 'ARE YOU STUCK ON THE ROAD WITH FLAT TIRE ? ',
+    desc: 'We Have Got Your Back! ',
     // commsfsdf
     // commsfsdf
 
