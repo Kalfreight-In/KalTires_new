@@ -143,7 +143,7 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/#maincontactformhome" passHref>
+                    <Link href="/WhatWeOffer#industmain" passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
