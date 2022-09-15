@@ -195,7 +195,7 @@ export const MapConatiner = () => {
         }`,
       }}
     >
-      <div className=" svg-container md:py-28 py-4">
+      <div className=" svg-container md:py-28 py-4" id="Map_SvgContainer">
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -443,7 +443,7 @@ export const MapConatiner = () => {
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
-                    <div key={value.id}>
+                    <a href="/#Map_SvgContainer" key={value.id}>
                       <Divlink
                         data-index={index}
                         onClick={(e) =>
@@ -488,7 +488,7 @@ export const MapConatiner = () => {
                           ) : null}
                         </ul>
                       </div>
-                    </div>
+                    </a>
                   ))
                 ) : (
                   <>

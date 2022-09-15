@@ -118,7 +118,7 @@ export const AboutUs = () => {
                 <div>
                   <div className="flex flex-row justify-center md:justify-start pt-4">
                     <div className="flex flex-col bg-zinc-50  py-4  ">
-                      <div className="px-4">
+                      <div className="px-6">
                         <Image src={CommercialTire} width={100} height={100} />
                       </div>
 
@@ -128,7 +128,7 @@ export const AboutUs = () => {
                       </div>
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
-                      <div className="px-4">
+                      <div className="px-6">
                         <Image src={OTRTires} width={100} height={100} />
                       </div>
 
@@ -137,7 +137,7 @@ export const AboutUs = () => {
                       </div>
                     </div>
                     <div className="flex flex-col bg-zinc-50 py-4 ">
-                      <div className="px-4">
+                      <div className="px-6">
                         <Image
                           src={AgriculturalTires}
                           width={100}
