@@ -660,7 +660,7 @@ export const PerkBenifitsdata = [
   },
 ];
 
-export const IndustrialTiresdata = [
+export const IndustrialTiresdatan = [
   {
     id: '1',
     img: one,
