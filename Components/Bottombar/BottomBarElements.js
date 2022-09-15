@@ -100,7 +100,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin-right: -1px;
-  padding-left: 18px;
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
@@ -110,12 +110,10 @@ export const NavItem = styled.li`
   display: block;
   padding-left: 3rem;
 
-  height: 30px;
   &:hover {
     color: #10101;
   }
   @media screen and (max-width: 768px) {
-    height: 30px;
     padding-left: 0rem;
   }
 `;
@@ -183,7 +181,7 @@ export const NavBtn = styled.div`
   flex-direction: row;
   align-items: right;
   justify-content: end;
-  padding: 25px;
+  padding: 12px;
 
   @media screen and (max-width: 768px) {
     text-align: center;
