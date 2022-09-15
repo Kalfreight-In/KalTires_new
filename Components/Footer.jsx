@@ -37,7 +37,7 @@ const Footer = () => {
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
-              <div className="xl:ml-16 w-max justify- start ml-4 xl:mt-0">
+              <div className="xl:ml-20 w-max justify- start ml-4 xl:mt-0">
                 <div>
                   <img
                     src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
@@ -221,14 +221,14 @@ const Footer = () => {
                     >
                       CSR
                     </a>
-                    <Link
-                      href="/#maincontactformhome"
+                    <a
+                      href="#"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
                       Contact Us
-                    </Link>
+                    </a>
                   </div>
                 </div>
 

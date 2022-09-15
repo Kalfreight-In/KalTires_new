@@ -100,7 +100,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin-right: -1px;
-
+  padding-left: 18px;
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
