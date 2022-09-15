@@ -224,7 +224,139 @@ const location = () => {
                               : 'text-white text-center font-bold text-xl '
                           }
                         >
-                          {value.properties.City}
+                          {`${value.properties.City} ${value.properties.State}`}
+                        </h1>
+                      </div>
+                      <div className="flex flex-row ml-10">
+                        <svg
+                          width="27"
+                          height="25"
+                          viewBox="0 0 37 35"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M18.1178 35C28.124 35 36.2357 27.165 36.2357 17.5C36.2357 7.83502 28.124 0 18.1178 0C8.11163 0 0 7.83502 0 17.5C0 27.165 8.11163 35 18.1178 35ZM18.0799 28.703C18.3894 27.2847 20.0584 23.5208 23.7808 19.4003C29.5466 13.0179 24.1047 6.07208 18.0799 6.21808C12.055 6.36409 5.83574 12.6839 13.0483 20.3597C15.1646 22.7376 16.7626 24.8234 18.0799 28.703Z"
+                            fill="white"
+                          />
+                          <ellipse
+                            cx="18.0963"
+                            cy="13.7665"
+                            rx="3.84383"
+                            ry="3.71275"
+                            fill="white"
+                          />
+                        </svg>
+
+                        <h3 className="xl:text-lg self-start text-white font-bold md:text-xl pl-4">
+                          Our Locations
+                        </h3>
+                      </div>
+                      {/* <span>
+                        {visibilities[index] ? (
+                          <BiMinus color="bg-white" />
+                        ) : (
+                          <BsPlus color="bg-white" />
+                        )}
+
+                        <BsPlus onClick={()=>setPlus(<BiMinus/>)}/>
+                      </span> */}
+                    </Divlink>
+                    <div
+                      className={`Transition-Height-${
+                        visibilities[index] ? 'in' : 'out'
+                      }`}
+                      onClick={() => setMapocation(value.geometry.coordinates)}
+                    >
+                      <ul>
+                        {visibilities[index] ? (
+                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
+                            <div className="flex flex-center flex-col pl-6">
+                              <div className="mb-6">
+                                <div className="font-semibold text-md">
+                                  KVL Tires, KAL Partz, KAL Freight English Ave
+                                </div>
+                                <div className=" font-light text-md">
+                                  {`${toTitleCase(
+                                    value.properties.Address
+                                  )}${', '} ${value.properties.ZipCode} ${
+                                    value.properties.City
+                                  } ${value.properties.State}`}
+                                </div>
+                                {value.properties.Manager ? (
+                                  <div className=" font-light text-md">
+                                    Manager:{' '}
+                                    {toTitleCase(value.properties.Manager)}
+                                  </div>
+                                ) : null}
+                              </div>
+                              {value.properties.Phone ? (
+                                <div className="pb-2">
+                                  <div className=" font-light text-md flex flex-row items-center ">
+                                    <RiPhoneFill className="mr-4" />
+                                    {value.properties.Phone}
+                                  </div>
+                                  <div className=" font-light text-md flex flex-row items-center ">
+                                    <MdEmail className="mr-4" />
+                                    {value.properties.Email}
+                                  </div>
+                                </div>
+                              ) : null}
+                            </div>
+                            <div className="lg:flex flex-center flex-col lg:w-1/4 hidden">
+                              <span className="text-black font-semibold text-lg">
+                                Hours
+                              </span>
+                              <div>
+                                {value.timing.map((time) => (
+                                  <p className="text-md" key={index}>
+                                    {time}
+                                  </p>
+                                ))}
+                              </div>
+                            </div>
+                            <div className="flex flex-center flex-col lg:w-2/12 ">
+                              <img src={value.properties.bgimage} />
+                              <div className="text-right text-sm pt-2">
+                                <a
+                                  className="text-blue-500"
+                                  href={value.properties.url}
+                                >
+                                  See on map
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        ) : null}
+                      </ul>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="">
+                {MapData2.map((value, index) => (
+                  <div key={value.id} className="bg-locationGrey mb-2">
+                    <Divlink
+                      spy
+                      smooth
+                      duration={500}
+                      delay={1000}
+                      data-index={index}
+                      onClick={(e) =>
+                        handleClick(e, value.geometry.coordinates)
+                      }
+                    >
+                      <div className="bg-red-600 p-2 ml-6 xl:w-1/6 w-1/3 m-0">
+                        <h1
+                          className={
+                            visibilities[index]
+                              ? 'text-white text-center font-bold text-xl '
+                              : 'text-white text-center font-bold text-xl '
+                          }
+                        >
+                          {`${value.properties.City} ${value.properties.State}`}
                         </h1>
                       </div>
                       <div className="flex flex-row ml-10">

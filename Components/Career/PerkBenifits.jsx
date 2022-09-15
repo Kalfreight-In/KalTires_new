@@ -34,7 +34,7 @@ export const PerkBenifits = () => {
                     </div>
                   </div>
 
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8">
+                  <h1 className="lg:text-xl text-lg font-bold font-mainpoppin text-left px-4   pt-8 h-8">
                     {index.Heading}
                   </h1>
                   <p className="pt-16 pb-8 lg:text-sm font-normal  text-justify px-4 font-poppins ">
@@ -50,7 +50,7 @@ export const PerkBenifits = () => {
               id="perksliderinnermain"
               className={isMobile ? 'px-6' : 'px-12'}
             >
-              <h1 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-poppins">
+              <h1 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-mainpoppin">
                 Perks & Benefits
               </h1>
               <Swiper
@@ -79,7 +79,7 @@ export const PerkBenifits = () => {
                             <Image src={data.img} alt="service" />
                           </div>
                         </div>
-                        <h1 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 ">
+                        <h1 className="lg:text-xl text-lg font-bold font-mainpoppin text-left pl-8 pt-8 ">
                           {data.Heading}
                         </h1>
                         <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left h-48 font-poppins">

@@ -46,7 +46,7 @@ const HeroSection = ({ data }) => (
             >
               <div
                 className={` ${
-                  data.Heading ? 'lg:border-l-4' : null
+                  data.Heading ? 'lg:border-l-4 ' : null
                 } border-PrimaryTwo anima pl-3`}
               >
                 <motion.div
@@ -65,7 +65,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="lg:text-xl text-white font-xl hidden lg:block">
+                  <div className="lg:text-xl text-white font-poppins font-xl hidden lg:block">
                     {data.desc}
                   </div>
                 </motion.div>

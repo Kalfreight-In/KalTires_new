@@ -75,7 +75,7 @@ export const HomeSliderData = [
     id: 1,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Check out our wide range of tires & services at affordable prices.  ',
+    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices.  ',
 
     CTA1: {
       heading: 'Contact Us',
@@ -87,7 +87,7 @@ export const HomeSliderData = [
     id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
     Heading: '  Off-The-Road Tires  ',
-    desc: 'Tires for the toughest driving conditions  ',
+    desc: 'Tires For The Toughest Driving Conditions.',
 
     CTA1: { heading: 'Explore', link: '/WhatWeOffer' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
@@ -97,7 +97,7 @@ export const HomeSliderData = [
     id: 3,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-3.png',
     Heading: 'Looking for new tires for your fleet?  ',
-    desc: 'Find your next set of tires here at KVL Tires.  ',
+    desc: 'Find Your Next Set Of Tires Here At KVL Tires.',
 
     CTA1: { heading: 'Contact Us', Slink: '/#maincontactformhome' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
@@ -411,7 +411,7 @@ export const OnsiteGriddata = [
   {
     id: 4,
     img: onsiteeight,
-    heading: 'Freindly & Experience Technicians',
+    heading: 'Friendly & Experienced Technicians',
     desc: 'With a customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services. ',
   },
   // {
@@ -462,7 +462,7 @@ export const CommercialTireone = [
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Also known as Recap or Re-moulded tires, a high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. With the introduction of latest retreading tools and machines, the quality of retread tires has improved significantly.  . Retread accounts for one-half of all replacement tires in the North American tires market. For more information, check out our partnered brands.',
+    desc: 'Also known as Recap or Re-moulded tires, a high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. With the introduction of latest retreading tools and machines, the quality of retread tires has improved significantly. Retread accounts for one-half of all replacement tires in the North American tires market. For more information, check out our partnered brands.',
     logos: [
       {
         id: 1,
@@ -1122,7 +1122,7 @@ export const MapData1 = [
       Manager: 'Rudy Martinez',
       ZipCode: '92335',
 
-      City: 'Fontana DC',
+      City: 'Fontana',
       Address: '10156 Live Oak Ave',
       Phone: '909-306-5571',
       Email: 'rmartinez@kvltires.com',
@@ -1327,7 +1327,7 @@ export const MapData1 = [
       State: 'CA',
       Manager: 'Rajinder Tanda',
       ZipCode: '95330',
-      City: 'Lathrop DC',
+      City: 'Lathrop',
       Address: '17100 S HARLAN RD',
       Phone: '209-275-4993 ',
       Email: 'Tandarajinder@kalgroup.com',
@@ -1341,7 +1341,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [32.7522887, -97.0555619],
+      coordinates: [37.6074485, -122.0791125],
     },
     timing: [
       'Monday: 7:30 AM - 5:00 PM',
@@ -1353,21 +1353,50 @@ export const MapData1 = [
       'Sunday: Closed',
     ],
     properties: {
-      State: 'TX',
-      Manager: 'Greg Wright',
-      ZipCode: '76011',
-      City: 'Arlington ',
-      Address: '600 109th St Suite B',
-      Phone: '909-202-8831',
-      Email: 'gwright@kvltires.com',
+      State: 'CA',
+      Manager: '',
+      ZipCode: '94587',
+      City: 'Union City',
+      Address: '30089 Ahern Ave',
+      Phone: '',
+      Email: '',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/arlingtonM.png',
-      url: 'https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/unioncityCaM.png',
+      url: 'https://www.google.com/maps/place/30089+Ahern+Ave,+Union+City,+CA+94587,+USA/@37.6074485,-122.0791125,17z/data=!3m1!4b1!4m5!3m4!1s0x808f95d30d6a6b09:0x3202ef51f7e03ef4!8m2!3d37.6074443!4d-122.0769238',
+    },
+  },
+  {
+    id: 9,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [32.9777939, -115.5215828],
+    },
+    timing: [
+      'Monday: 7:30 AM - 5:00 PM',
+      'Tuesday: 7:30 AM - 5:00 PM',
+      'Wednesday: 7:30 AM - 5:00 PM',
+      'Thursday: 7:30 AM - 5:00 PM',
+      'Friday: 7:30 AM - 5:00 PM',
+      'Saturday: Closed',
+      'Sunday: Closed',
+    ],
+    properties: {
+      State: 'CA',
+      Manager: '',
+      ZipCode: '92227',
+      City: 'Brawley',
+      Address: '1300 Main St',
+      Phone: '',
+      Email: '',
+      bgimage:
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+      url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
     },
   },
 
   {
-    id: 9,
+    id: 10,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1396,7 +1425,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 10,
+    id: 11,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1415,7 +1444,7 @@ export const MapData1 = [
       State: 'IN',
       Manager: 'Telly Ingram',
       ZipCode: '46225',
-      City: 'Indianapolis DC',
+      City: 'Indianapolis',
       Address: '2025 ENGLISH AVE',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
@@ -1425,7 +1454,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 11,
+    id: 12,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1454,7 +1483,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 12,
+    id: 13,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1483,7 +1512,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 13,
+    id: 14,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1513,7 +1542,7 @@ export const MapData1 = [
   },
 
   {
-    id: 14,
+    id: 15,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1532,7 +1561,7 @@ export const MapData1 = [
       State: 'GA',
       Manager: 'Antonio Campbell',
       ZipCode: '30354',
-      City: 'Atlanta DC',
+      City: 'Atlanta',
       Address: '3435 JONESBORO ROAD SE',
       Phone: '951-834-3103',
       Email: 'acampbell@kvltires.com',
@@ -1542,7 +1571,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 15,
+    id: 16,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1571,7 +1600,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 16,
+    id: 17,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1588,48 +1617,77 @@ export const MapData1 = [
     ],
     properties: {
       State: 'TX',
-      Manager: 'Tim Gant',
+      Manager: 'Greg Wright',
       ZipCode: '76011',
-      City: 'Arlington DC ',
+      City: 'Arlington ',
       Address: '600 109th St Suite B',
-      Phone: '972-741-2606',
-      Email: 'tgant@kvltires.com',
+      Phone: '909-202-8831',
+      Email: 'gwright@kvltires.com',
       bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/arlingtonM.png',
       url: 'https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en',
     },
   },
+  // {
+  //   id: 18,
+  //   type: 'Feature',
+  //   geometry: {
+  //     type: 'Point',
+  //     coordinates: [32.7522887, -97.0555619],
+  //   },
+  //   timing: [
+  //     'Monday: 7:30 AM - 5:00 PM',
+  //     'Tuesday: 7:30 AM - 5:00 PM',
+  //     'Wednesday: 7:30 AM - 5:00 PM',
+  //     'Thursday: 7:30 AM - 5:00 PM',
+  //     'Friday: 7:30 AM - 5:00 PM',
+  //     'Saturday: Closed',
+  //     'Sunday: Closed',
+  //   ],
+  //   properties: {
+  //     State: 'TX',
+  //     Manager: 'Tim Gant',
+  //     ZipCode: '76011',
+  //     City: 'Arlington  ',
+  //     Address: '600 109th St Suite B',
+  //     Phone: '972-741-2606',
+  //     Email: 'tgant@kvltires.com',
+  //     bgimage:
+  //       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+  //     url: 'https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en',
+  //   },
+  // },
+  // {
+  //   id: 17,
+  //   type: 'Feature',
+  //   geometry: {
+  //     type: 'Point',
+  //     coordinates: [39.7255402, -86.1722341],
+  //   },
+  //   timing: [
+  //     'Monday: 7:30 AM - 5:00 PM',
+  //     'Tuesday: 7:30 AM - 5:00 PM',
+  //     'Wednesday: 7:30 AM - 5:00 PM',
+  //     'Thursday: 7:30 AM - 5:00 PM',
+  //     'Friday: 7:30 AM - 5:00 PM',
+  //     'Saturday: Closed',
+  //     'Sunday: Closed',
+  //   ],
+  //   properties: {
+  //     State: 'IN',
+  //     Manager: 'Telly Ingram',
+  //     ZipCode: '46225',
+  //     City: 'Indianapolis',
+  //     Address: '2916 Bluff Rd Blg. 6',
+  //     Phone: '317-520-8545',
+  //     Email: 'tingram@kvltires.com',
+  //     bgimage:
+  //       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+  //     url: 'https://www.google.com/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454',
+  //   },
+  // },
   {
-    id: 17,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [39.7255402, -86.1722341],
-    },
-    timing: [
-      'Monday: 7:30 AM - 5:00 PM',
-      'Tuesday: 7:30 AM - 5:00 PM',
-      'Wednesday: 7:30 AM - 5:00 PM',
-      'Thursday: 7:30 AM - 5:00 PM',
-      'Friday: 7:30 AM - 5:00 PM',
-      'Saturday: Closed',
-      'Sunday: Closed',
-    ],
-    properties: {
-      State: 'IN',
-      Manager: 'Telly Ingram',
-      ZipCode: '46225',
-      City: 'Indianapolis',
-      Address: '2916 Bluff Rd Blg. 6',
-      Phone: '317-520-8545',
-      Email: 'tingram@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
-      url: 'https://www.google.com/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454',
-    },
-  },
-  {
-    id: 18,
+    id: 19,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1657,66 +1715,9 @@ export const MapData1 = [
       url: 'https://www.google.com/maps/place/8115+Las+Cruces+Dr,+Laredo,+TX+78045,+USA/@27.5836842,-99.5091438,17z/data=!3m1!4b1!4m5!3m4!1s0x8661206462f5488d:0x889064ef3b3fe134!8m2!3d27.5836795!4d-99.5069551',
     },
   },
-  {
-    id: 19,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [37.6074485, -122.0791125],
-    },
-    timing: [
-      'Monday: 7:30 AM - 5:00 PM',
-      'Tuesday: 7:30 AM - 5:00 PM',
-      'Wednesday: 7:30 AM - 5:00 PM',
-      'Thursday: 7:30 AM - 5:00 PM',
-      'Friday: 7:30 AM - 5:00 PM',
-      'Saturday: Closed',
-      'Sunday: Closed',
-    ],
-    properties: {
-      State: 'CA',
-      Manager: '',
-      ZipCode: '94587',
-      City: 'Union City',
-      Address: '30089 Ahern Ave',
-      Phone: '',
-      Email: '',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/unioncityCaM.png',
-      url: 'https://www.google.com/maps/place/30089+Ahern+Ave,+Union+City,+CA+94587,+USA/@37.6074485,-122.0791125,17z/data=!3m1!4b1!4m5!3m4!1s0x808f95d30d6a6b09:0x3202ef51f7e03ef4!8m2!3d37.6074443!4d-122.0769238',
-    },
-  },
+
   {
     id: 20,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [32.9777939, -115.5215828],
-    },
-    timing: [
-      'Monday: 7:30 AM - 5:00 PM',
-      'Tuesday: 7:30 AM - 5:00 PM',
-      'Wednesday: 7:30 AM - 5:00 PM',
-      'Thursday: 7:30 AM - 5:00 PM',
-      'Friday: 7:30 AM - 5:00 PM',
-      'Saturday: Closed',
-      'Sunday: Closed',
-    ],
-    properties: {
-      State: 'CA',
-      Manager: '',
-      ZipCode: '92227',
-      City: 'Brawley',
-      Address: '1300 Main St',
-      Phone: '',
-      Email: '',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
-      url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
-    },
-  },
-  {
-    id: 21,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1745,7 +1746,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 22,
+    id: 21,
     type: 'Feature',
     geometry: {
       type: 'Point',

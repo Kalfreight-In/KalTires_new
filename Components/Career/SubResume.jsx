@@ -6,7 +6,7 @@ export const SubResume = () => (
       <div id="resumeallcontent">
         <div id="maincontentresume">
           <div id="innermaincontentresume" className="text-center">
-            <h1 className="text-2xl font-bold text-resumeheading font-poppins">
+            <h1 className="text-2xl font-bold text-resumeheading font-mainpoppin">
               Join our Impressive & Diversified Team
             </h1>
           </div>
@@ -18,7 +18,7 @@ export const SubResume = () => (
               className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-4 w-full inline-flex justify-center items-center rounded-md"
               type="button"
             >
-              <span className="ml-2 text-xl font-poppins">
+              <span className="ml-2 text-xl font-mainpoppin">
                 SUBMIT YOUR RESUME
               </span>
               <input
@@ -32,8 +32,9 @@ export const SubResume = () => (
         </div>
 
         <div id="lastresumecontent" className="text-center text-kaltire-red">
-          <p className="text-xl font-poppins">
-            Or mail your resume directly at info@kvltires.com
+          <p className="text-xl font-mainpoppin">
+            Or mail your resume directly at{' '}
+            <a href="mailto:info@kvltires.com">info@kvltires.com</a>
           </p>
         </div>
       </div>

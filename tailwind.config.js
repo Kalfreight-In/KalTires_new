@@ -104,6 +104,7 @@ module.exports = {
       inset: {
         45: '45%',
         65: '65px',
+        navbargap: '4.9rem',
       },
       spacing: {
         65: '65px',
@@ -128,7 +129,9 @@ module.exports = {
     //   minlg: '2100px',
     // },
     fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
+      // poppins: ['Poppins', 'sans-serif'],
+      poppins: ['Helvetica'],
+      mainpoppin: ['Poppins', 'sans-serif'],
     },
   },
   variants: {

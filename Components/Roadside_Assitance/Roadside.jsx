@@ -13,7 +13,7 @@ const Roadside = () => (
             <h2 className="text-4xl tracking-tight  text-black font-poppins font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
                 <span className="text-kaltire-red font-poppins">24/7</span>{' '}
-                <span>ROADSIDE ASSISTANCE</span>
+                <span className="font-poppins">ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
           </div>
@@ -29,20 +29,20 @@ const Roadside = () => (
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
                 <span className="block font-poppins text-4xl">
                   <span className="text-kaltire-red font-poppins">24/7</span>
-                  <span className="pl-4">ROADSIDE ASSISTANCE</span>
+                  <span className="pl-4 font-poppins">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
               <p className="text-black md:mt-5 mt-72 font-poppins text-justify">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
-                roadside assistance. We provide 24-hour breakdown services to
+                roadside assistance. We provide 24-hours breakdown services to
                 everyone in need. With strategically located service facilities,
                 we can effectively service most, if not all, of your emergency
                 needs throughout North America. So next time, instead of
                 searching for ‘roadside assistance near me’, call our 24/7/365
                 service center at 800-808-0025. Our trained & knowledgeable
-                staff are always ready to answer your service calls. Dial
-                800-808-0025
+                staff are always ready to answer your service calls.
+                {/* Dial  800-808-0025 */}
               </p>
               {/* <div className="inline-block py-3">
                 <p className="pt-2">
@@ -86,7 +86,7 @@ const Roadside = () => (
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second">
-                    <h1 className="font-bold font-poppins">Toll free</h1>
+                    <h1 className="font-bold font-poppins">Toll Free</h1>
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       <p className="font-poppins">800-808-0025</p>
                     </a>

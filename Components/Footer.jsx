@@ -159,7 +159,7 @@ const Footer = () => {
                       passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
-                        Agriculture Tires
+                        Agricultural Tires
                       </span>
                     </Link>
                     <Link
@@ -169,7 +169,7 @@ const Footer = () => {
                       passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
-                        Retreads
+                        Retread Tires
                       </span>
                     </Link>
                   </div>
@@ -186,7 +186,7 @@ const Footer = () => {
                     }}
                   >
                     <h1 className="text-lg md:font-bold font-normal xl:text-left text-center   ">
-                      Who Are We
+                      Who We Are
                     </h1>
                   </div>
 
@@ -214,13 +214,21 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="https://kalfreight.com/who-we-are/csr"
+                      href="#"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
                       CSR
                     </a>
+                    <Link
+                      href="/#maincontactformhome"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Contact Us
+                    </Link>
                   </div>
                 </div>
 
@@ -408,7 +416,7 @@ const Footer = () => {
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px">Retread Tires</span>
+                            <span className="mt-5px">Retread Services </span>
                           </Link>
                         </span>
                       </div>
@@ -466,7 +474,7 @@ const Footer = () => {
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/kalgroupusa',
+                            'https://www.facebook.com/kvltires',
                             '_blank'
                           )
                         }
@@ -475,7 +483,7 @@ const Footer = () => {
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            'https://www.instagram.com/kalgroupusa/',
+                            'https://www.instagram.com/kvltires/',
                             '_blank'
                           )
                         }
@@ -484,7 +492,7 @@ const Footer = () => {
                       <IoLogoLinkedin
                         onClick={() =>
                           window.open(
-                            'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                            'https://www.facebook.com/kvltires',
                             '_blank'
                           )
                         }
@@ -605,7 +613,7 @@ const Footer = () => {
                     <IoLogoFacebook
                       onClick={() =>
                         window.open(
-                          'https://www.facebook.com/kaltireusa',
+                          'https://www.facebook.com/kvltires',
                           '_blank'
                         )
                       }
@@ -614,7 +622,7 @@ const Footer = () => {
                     <RiInstagramFill
                       onClick={() =>
                         window.open(
-                          'https://www.instagram.com/kaltireusa/',
+                          'https://www.instagram.com/kvltires/',
                           '_blank'
                         )
                       }
@@ -623,7 +631,7 @@ const Footer = () => {
                     <IoLogoLinkedin
                       onClick={() =>
                         window.open(
-                          'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                          'https://www.linkedin.com/company/kvltires',
                           '_blank'
                         )
                       }

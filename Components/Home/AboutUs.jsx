@@ -6,7 +6,6 @@ import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.png';
 import AgriculturalTires from '../../Assets/Images/Home/AgriculturalTires.png';
 import CommercialTire from '../../Assets/Images/Home/CommercialTires.png';
 import OTRTires from '../../Assets/Images/Home/OTRTires.png';
-
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const AboutUs = () => {
@@ -179,7 +178,7 @@ export const AboutUs = () => {
             <div />
             <div className="lg:block hidden col-span-5  xl:mr-20 ">
               <div className="  ">
-                <Image className="  " src={AboutUsTire} alt="tires" />
+                <Image className=" " src={AboutUsTire} alt="tires" />
               </div>
             </div>
           </div>

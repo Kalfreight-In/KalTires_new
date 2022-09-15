@@ -18,8 +18,8 @@ const EmergencyAssists = () => (
       }}
     >
       <div id="content" className="md:pt-0 pt-8">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl text-white lg:leading-70 font-semibold font-poppins">
-          WE GOT YOUR BACK.
+        <h1 className="text-2xl md:text-3xl lg:text-5xl text-white lg:leading-70 font-semibold font-mainpoppin">
+          WE GOT YOUR BACK!
           <br /> EMERGENCY ASSISTANCE
         </h1>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
@@ -29,7 +29,7 @@ const EmergencyAssists = () => (
               type="button"
             >
               <span>
-                <ImPhone className="text-2xl" />
+                <ImPhone className="text-2xl font-mainpoppin" />
               </span>{' '}
               &nbsp; 800-808-0025
             </button>
