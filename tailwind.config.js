@@ -131,6 +131,7 @@ module.exports = {
     fontFamily: {
       // poppins: ['Poppins', 'sans-serif'],
       poppins: ['Helvetica'],
+      mainpoppin: ['Poppins', 'sans-serif'],
     },
   },
   variants: {

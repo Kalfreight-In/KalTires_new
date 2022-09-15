@@ -57,7 +57,7 @@ export const Services = () => {
               backgroundSize: 'cover',
             }}
           >
-            <h1 className="text-white text-5xl font-bold font-poppins pb-8">
+            <h1 className="text-white  text-5xl font-bold font-mainpoppin pb-8">
               Services
             </h1>
             <div
@@ -205,7 +205,7 @@ export const Services = () => {
                                 <Image src={mydata.img} alt="service" />
                               </div>
                             </div>
-                            <h1 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
+                            <h1 className="lg:text-xl text-lg font-bold font-mainpoppin pb-16 pt-4 h-12">
                               {mydata.heading}
                             </h1>
                           </div>

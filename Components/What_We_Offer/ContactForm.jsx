@@ -16,7 +16,6 @@ const Contactform = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
-
   const resetForm = (e) => {
     setName('');
     setEmail('');
@@ -129,10 +128,10 @@ const Contactform = () => {
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
                   <div>
-                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left ">
+                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-mainpoppin">
                       BOOK AN APPOINTMENT NOW
                     </h1>
-                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16">
+                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-poppins">
                       Let’s grow your business together. Please provide your
                       details, and a KVL Tire expert will get in touch with you
                       shortly.{' '}
@@ -229,7 +228,7 @@ const Contactform = () => {
                     Or call us now at &nbsp;
                     <a
                       href="tel:8008080025"
-                      className="cursor-pointer font-bold "
+                      className="cursor-pointer font-bold font-poppins"
                     >
                       800-808 0025
                     </a>

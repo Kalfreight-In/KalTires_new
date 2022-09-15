@@ -24,7 +24,7 @@ export const Speciality = () => {
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
                 <span className="block">
-                  <span className="border-b-2 border-red-600 px-4 font-poppins">
+                  <span className="border-b-2 border-red-600 px-4 font-mainpoppin">
                     Specialty Tires
                   </span>
                 </span>
@@ -42,7 +42,7 @@ export const Speciality = () => {
             <div className="lg:py-12  px-0 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left lg:ml-8">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">
-                  <span className="border-kaltire-red border-b-2 font-poppins">
+                  <span className="border-kaltire-red border-b-2 font-mainpoppin">
                     Specialty Tires
                   </span>
                 </span>
