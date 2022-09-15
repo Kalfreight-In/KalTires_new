@@ -121,9 +121,9 @@ export const MapConatiner = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');
   const [Maplocation, setMapocation] = useState();
 
-  const [FeaatureCat, setFeaatureCat] = useState('Select Your Location');
+  const [FeaatureCat, setFeaatureCat] = useState('United States');
 
-  const [CaFeaatureCat, setCaFeaatureCat] = useState('Select Your Location');
+  const [CaFeaatureCat, setCaFeaatureCat] = useState('Canada');
   const [ShowDropdown, setShowDropdown] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
@@ -137,13 +137,6 @@ export const MapConatiner = () => {
   const [visibilities, setVisibilities] = useState(() =>
     MapData1.map((x) => false)
   );
-  const FilterDataCA = (city) => {
-    const bol = false;
-    MapData2.filter((x) => {
-      x.properties.City === city ? (bol = true) : (bol = false);
-    });
-    return bol;
-  };
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -151,7 +144,14 @@ export const MapConatiner = () => {
     MapData1.map((x) => false);
   }, [visibilities]);
 
-  const handleClick = (event, coordinates, city) => {
+  const handleClick = (event, coordinates, city, country) => {
+    if (country === 'CA') {
+      console.log(`inside CA ${city}`);
+      setCaFeaatureCat(city);
+    } else {
+      console.log(`outside CA ${city}`);
+      setFeaatureCat(city);
+    }
     setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
     setVisibilities(() => MapData1.map(() => false));
@@ -161,12 +161,6 @@ export const MapConatiner = () => {
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
     setShowDropdown(!ShowDropdown);
-
-    if (FilterDataCA(city)) {
-      setCaFeaatureCat(city);
-    } else {
-      setFeaatureCat(city);
-    }
   };
   // const [selectedPosition, setSelectedPosition] = React.useState(null);
   // const [Services, setServices] = useState(false);
@@ -261,12 +255,12 @@ export const MapConatiner = () => {
                   />
                 </svg> */}
 
-                <h3 className="xl:text-4xl self-start text-white font-bold text-3xl ">
+                <h3 className="xl:text-4xl self-center text-white font-bold text-3xl md:pb-0 pb-8">
                   Our Locations
                 </h3>
               </div>
 
-              <div className="lg:mt-8 mt-2 text-white font-poppins font-desc text-descnew pb-4 text-2xl font-bold">
+              <div className="lg:mt-8 mt-2 text-white font-poppins font-desc text-descnew pb-4 text-2xl font-bold md:block hidden">
                 UNITED STATES
               </div>
             </div>
@@ -329,7 +323,12 @@ export const MapConatiner = () => {
                         <Divlink
                           data-index={index}
                           onClick={(e) =>
-                            handleClick(e, value.geometry.coordinates)
+                            handleClick(
+                              e,
+                              value.geometry.coordinates,
+                              value.properties.City,
+                              'US'
+                            )
                           }
                         >
                           <h1
@@ -409,7 +408,8 @@ export const MapConatiner = () => {
                                 handleClick(
                                   e,
                                   value.geometry.coordinates,
-                                  value.properties.City
+                                  value.properties.City,
+                                  'US'
                                 )
                               }
                               type="button"
@@ -435,7 +435,7 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </SidebarMenu>
             <div className="my-4">
-              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-1  text-2xl font-bold">
+              <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-1  text-2xl font-bold  md:block hidden">
                 CANADA
               </h3>
             </div>
@@ -447,7 +447,12 @@ export const MapConatiner = () => {
                       <Divlink
                         data-index={index}
                         onClick={(e) =>
-                          handleClick(e, value.geometry.coordinates)
+                          handleClick(
+                            e,
+                            value.geometry.coordinates,
+                            value.properties.City,
+                            'CA'
+                          )
                         }
                       >
                         <h1
@@ -517,7 +522,8 @@ export const MapConatiner = () => {
                                 handleClick(
                                   e,
                                   value.geometry.coordinates,
-                                  value.properties.City
+                                  value.properties.City,
+                                  'CA'
                                 )
                               }
                               type="button"

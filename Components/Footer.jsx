@@ -121,7 +121,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-lg md:font-bold font-normal xl:text-left text-center ">
+                    <h1 className="text-lg font-bold xl:text-left text-center ">
                       Inventory
                     </h1>
                   </div>
@@ -185,7 +185,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-lg md:font-bold font-normal xl:text-left text-center   ">
+                    <h1 className="text-lg font-bold xl:text-left text-center   ">
                       Who We Are
                     </h1>
                   </div>
@@ -242,7 +242,7 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-lg md:font-bold font-normal xl:text-left  text-center ">
+                    <h1 className="text-lg font-bold xl:text-left  text-center ">
                       Quick Links
                     </h1>
                   </div>
@@ -316,7 +316,7 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" md:font-bold font-normal  xl:text-left text-center   text-lg md:ml-0 pl-0 ">
+                    <h1 className=" font-bold xl:text-left text-center   text-lg md:ml-0 pl-0 ">
                       Services
                     </h1>
                   </div>
@@ -329,7 +329,7 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                         <span className="flex cursor-pointer ">
-                          <span className="mt-5px  w-44">
+                          <span className="mt-5px  xl:w-44">
                             <Slink
                               to="ContactSection "
                               smooth
