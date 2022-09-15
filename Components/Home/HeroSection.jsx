@@ -3,12 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import {
-  HeroContainer,
-  HeroContent,
-  HeroBg,
-  HeroPromoContainer,
-} from './HeroElements';
+import { HeroContainer, HeroContent, HeroBg } from './HeroElements';
 // import Video from './media/bgvideo.mp4';
 
 const Gradients = styled.div`
