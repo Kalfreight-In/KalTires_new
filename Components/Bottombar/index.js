@@ -136,7 +136,7 @@ const BottomBar = ({ toggle }) => {
             Copyright © BigRig Group, 2022. All Rights Reserved
           </h3> */}
           <h3 className="2xl:text-desc mr-4 text-navsmall md:text-sm lg:text-xs text-black font-bold">
-            Copyright ©KvlTires, 2022. All Rights Reserved
+            Copyright ©KVLTires, 2022. All Rights Reserved
           </h3>
         </NavBtn>
       </div>
