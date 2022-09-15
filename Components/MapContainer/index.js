@@ -249,12 +249,12 @@ export const MapConatiner = () => {
                   />
                 </svg> */}
 
-                <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
+                <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl font-poppins">
                   Our Locations
                 </h3>
               </div>
 
-              <div className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-4 text-2xl font-bold">
+              <div className="lg:mt-8 mt-2 text-white font-poppins font-desc text-descnew pb-4 text-2xl font-bold">
                 UNITED STATES
               </div>
             </div>

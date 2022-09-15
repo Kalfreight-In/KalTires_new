@@ -26,7 +26,7 @@ export const AboutUs = () => {
         <div className="">
           <div className="lg:grid lg:grid-cols-10 items-center ">
             <div className="lg:hidden block">
-              <h2 className="text-3xl tracking-tight pb-4 text-black font-Helvetica font-semibold lg:block text-center">
+              <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
                 <span className="block">About us</span>
               </h2>
             </div>
@@ -44,12 +44,12 @@ export const AboutUs = () => {
                 //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
                 className="  inline-block     mx-auto   "
               >
-                <h2 className="text-4xl tracking-tight   font-Helvetica font-semibold lg:inline-block hidden">
+                <h2 className="text-4xl tracking-tight   font-poppins font-semibold lg:inline-block hidden">
                   <span className=" text-neutral-800  border-b-2 hover:border-b-4 hover:pb-0 transition-all ease-in-out -pb-2 duration-100  border-y-PrimaryTwo   2xl:w-1/2 xl:w-3/5 w-4/5">
                     ABOUT US
                   </span>
                 </h2>
-                <div className="text-neutral-500 mt-5 2xl:text-lg lg:text-md text-sm  font-medium text-justify">
+                <div className="text-neutral-500 mt-5 2xl:text-lg lg:text-base text-sm  font-medium text-justify font-Helvetica">
                   Are you looking for quality tires for your fleet? Does a
                   blowout leave you stranded on your way? Are you looking for
                   24/7 roadside assistance? Are you short of time and unable to
@@ -69,7 +69,7 @@ export const AboutUs = () => {
                   services to a diverse clientele at affordable prices.
                   <br />
                   <p
-                    className={`text-justify mt-4 Transition-Height-${
+                    className={`text-justify mt-4 font-Helvetica Transition-Height-${
                       ShowMoreAboutUS ? 'in' : 'out'
                     }`}
                   >
@@ -122,7 +122,7 @@ export const AboutUs = () => {
                         <Image src={CommercialTire} width={100} height={100} />
                       </div>
 
-                      <div className="text-center">
+                      <div className="text-center font-poppins">
                         Commercial <br />
                         Tires
                       </div>
@@ -132,7 +132,7 @@ export const AboutUs = () => {
                         <Image src={OTRTires} width={100} height={100} />
                       </div>
 
-                      <div className="text-center">
+                      <div className="text-center font-poppins">
                         OTR Tires <br />
                       </div>
                     </div>
@@ -145,7 +145,7 @@ export const AboutUs = () => {
                         />
                       </div>
 
-                      <div className="text-center">
+                      <div className="text-center font-poppins">
                         Agricultural <br />
                         Tires
                       </div>
@@ -166,7 +166,9 @@ export const AboutUs = () => {
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="Hotline-second">
-                        <h1 className="font-bold text-left">Toll Free</h1>
+                        <h1 className="font-bold text-left font-poppins">
+                          Toll Free
+                        </h1>
                         <p>800-808-0025</p>
                       </div>
                     </div>
