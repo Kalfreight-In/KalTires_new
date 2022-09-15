@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
@@ -6,6 +6,7 @@ import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 import { Link as Slink } from 'react-scroll';
 import Link from 'next/link';
+import { useStateContext } from '../context/StateContext';
 
 const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
@@ -13,6 +14,7 @@ const Footer = () => {
   const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
+  const { setWWOtires } = useStateContext();
   return (
     <div
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
@@ -132,7 +134,12 @@ const Footer = () => {
                     }`}
                   >
                     <Link href="/WhatWeOffer#commercialtiremain" passHref>
-                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer ">
+                      <span
+                        onClick={() => {
+                          setWWOtires('commerce');
+                        }}
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer "
+                      >
                         Commercial Tires
                       </span>
                     </Link>
@@ -163,12 +170,17 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="WhatWeOffer#commercialtiremain"
+                      href="/WhatWeOffer#commercialtiremain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
                     >
-                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
+                      <span
+                        onClick={() => {
+                          setWWOtires('retread');
+                        }}
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
+                      >
                         Retread Tires
                       </span>
                     </Link>

@@ -8,6 +8,7 @@ export const StateContext = ({ children }) => {
   const [typeAddress, setTypeAddress] = useState(null);
   const [NearestLocation, setNearestLocation] = useState(null);
   const [Currentlatlong, setCurrentlatlong] = useState(null);
+  const [WWOtires, setWWOtires] = useState('commerce');
   return (
     <Context.Provider
       value={{
@@ -19,6 +20,8 @@ export const StateContext = ({ children }) => {
         setUserAdress,
         setTypeAddress,
         typeAddress,
+        WWOtires,
+        setWWOtires,
         NearestLocation,
         setNearestLocation,
       }}

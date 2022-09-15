@@ -81,7 +81,7 @@ export const AboutUs = () => {
                         agricultural, off-the-road (OTR), industrial, and
                         earthmover tires. We have partnered with trusted tire
                         manufacturers such as Continental, Goodyear, BKT,
-                        General, Ameristeel, Tornado, Cooper, and many more
+                        General, Ameristeel, Tornado, Cooper, and many more.
                         <br />
                         <br />
                         Besides selling new tires, KVL Tires also offers 24/7
