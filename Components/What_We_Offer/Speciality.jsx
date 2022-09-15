@@ -22,9 +22,9 @@ export const Speciality = () => {
         <div className="bg-speciality-background">
           <div className="lg:grid lg:grid-cols-3 items-center">
             <div className="lg:hidden block">
-              <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
+              <h2 className="text-3xl tracking-tight pb-4 text-black font-Helvetica font-semibold lg:block text-center">
                 <span className="block">
-                  <span className="border-b-2 border-red-600 px-4 font-mainpoppin">
+                  <span className="border-b-2 border-red-600 px-4 font-poppins">
                     Specialty Tires
                   </span>
                 </span>
@@ -40,14 +40,14 @@ export const Speciality = () => {
               </div>
             </div>
             <div className="lg:py-12  px-0 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left lg:ml-8">
-              <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
+              <h2 className="text-3xl tracking-tight  text-black font-Helvetica font-semibold lg:block hidden">
                 <span className="block">
-                  <span className="border-kaltire-red border-b-2 font-mainpoppin">
+                  <span className="border-kaltire-red border-b-2 font-poppins">
                     Specialty Tires
                   </span>
                 </span>
               </h2>
-              <p className="text-black mt-5   text-justify font-poppins lg:px-0 px-6 md:px-24">
+              <p className="text-black mt-5   text-justify font-Helvetica lg:px-0 px-6 md:px-24">
                 We strive to provide the best quality tire for the application
                 suitable to your operation. The industrial sector performs
                 loading, excavating, and lifting material, increasing the need
@@ -86,8 +86,8 @@ export const Speciality = () => {
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="Hotline-second">
-                        <h1 className="font-bold font-poppins">Toll Free</h1>
-                        <p className="font-poppins">800-808-0025</p>
+                        <h1 className="font-bold font-Helvetica">Toll Free</h1>
+                        <p className="font-Helvetica">800-808-0025</p>
                       </div>
                     </div>
                   </a>
@@ -128,7 +128,7 @@ export const Speciality = () => {
                   <div id="Hotline-first" className="md:mx-4 mx-2 ">
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
-                  <div id="Hotline-second font-poppins">
+                  <div id="Hotline-second font-Helvetica">
                     <h1 className="font-bold">Toll Free</h1>
                     <p>800-808-0025</p>
                   </div>

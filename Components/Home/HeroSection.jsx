@@ -65,7 +65,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="lg:text-xl text-white font-poppins font-xl hidden lg:block">
+                  <div className="lg:text-xl text-white font-Helvetica font-xl hidden lg:block">
                     {data.desc}
                   </div>
                 </motion.div>

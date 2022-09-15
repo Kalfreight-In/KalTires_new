@@ -57,7 +57,7 @@ export const Services = () => {
               backgroundSize: 'cover',
             }}
           >
-            <h1 className="text-white  text-5xl font-bold font-mainpoppin pb-8">
+            <h1 className="text-white  text-5xl font-bold font-poppins pb-8">
               Services
             </h1>
             <div
@@ -78,13 +78,13 @@ export const Services = () => {
                         // <h1 */}{' '}
               {/* className={`font-bold text-white ${ */}
               {/* //             lol ? 'text-2xl' : 'text-lg'
-                //           } font-poppins`}
+                //           } font-Helvetica`}
                 //         >
                 //           {lightboxData.heading}
                 //         </h1>
                 //       </div>
                 //       <div id="lightdesc" className="pt-2">
-                //         <p className="text-justify px-6 text-white font-poppins">
+                //         <p className="text-justify px-6 text-white font-Helvetica">
                 //           {lightboxData.desc}
                 //         </p>
                 //       </div>
@@ -109,7 +109,7 @@ export const Services = () => {
                         <Image src={data.img} alt="service" />
                       </div>
                     </div>
-                    <h1 className="lg:text-xl text-lg font-bold font-poppins h-16">
+                    <h1 className="lg:text-xl text-lg font-bold font-Helvetica h-16">
                       {data.heading}
                     </h1>
                   </div>
@@ -134,7 +134,7 @@ export const Services = () => {
                 backgroundSize: 'cover',
               }}
             >
-              <h1 className="text-white text-5xl font-bold font-poppins py-12 pl-28 text-left">
+              <h1 className="text-white text-5xl font-bold font-Helvetica py-12 pl-28 text-left">
                 Services
               </h1>
               <div
@@ -162,13 +162,13 @@ export const Services = () => {
                             <h1
                               className={`font-bold text-white ${
                                 lol ? 'text-2xl' : 'text-lg'
-                              } font-poppins`}
+                              } font-Helvetica`}
                             >
                               {lightboxData.heading}
                             </h1>
                           </div>
                           <div id="lightdesc" className="pt-2">
-                            <p className="text-justify px-6 text-white font-poppins">
+                            <p className="text-justify px-6 text-white font-Helvetica">
                               {lightboxData.desc}
                             </p>
                           </div>
@@ -205,7 +205,7 @@ export const Services = () => {
                                 <Image src={mydata.img} alt="service" />
                               </div>
                             </div>
-                            <h1 className="lg:text-xl text-lg font-bold font-mainpoppin pb-16 pt-4 h-12">
+                            <h1 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
                               {mydata.heading}
                             </h1>
                           </div>

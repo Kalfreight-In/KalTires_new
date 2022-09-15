@@ -26,7 +26,7 @@ export const AboutUs = () => {
         <div className="">
           <div className="lg:grid lg:grid-cols-10 items-center ">
             <div className="lg:hidden block">
-              <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
+              <h2 className="text-3xl tracking-tight pb-4 text-black font-Helvetica font-semibold lg:block text-center">
                 <span className="block">About us</span>
               </h2>
             </div>
@@ -44,7 +44,7 @@ export const AboutUs = () => {
                 //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
                 className="  inline-block     mx-auto   "
               >
-                <h2 className="text-4xl tracking-tight   font-poppins font-semibold lg:inline-block hidden">
+                <h2 className="text-4xl tracking-tight   font-Helvetica font-semibold lg:inline-block hidden">
                   <span className=" text-neutral-800  border-b-2 hover:border-b-4 hover:pb-0 transition-all ease-in-out -pb-2 duration-100  border-y-PrimaryTwo   2xl:w-1/2 xl:w-3/5 w-4/5">
                     ABOUT US
                   </span>
