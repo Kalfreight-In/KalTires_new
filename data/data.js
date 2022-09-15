@@ -384,7 +384,7 @@ export const Onsitecomponentdata = [
   {
     id: '1',
     heading: 'Do you Need Roadside Assistance Now?',
-    desc: 'Many new women Hosts have started hosting on Airbnb during the pandemic, and women with only one listing have collectively earned over a half billion',
+    // desc: 'Many new women Hosts have started hosting on Airbnb during the pandemic, and women with only one listing have collectively earned over a half billion',
     BTN: '800-808-0025',
   },
 ];
