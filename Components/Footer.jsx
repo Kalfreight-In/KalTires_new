@@ -206,7 +206,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <a
-                      href="https://kalgroup.com/"
+                      href="https://kvltires.com/"
                       target="_blank"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       rel="noreferrer"
@@ -516,14 +516,14 @@ const Footer = () => {
                 <div className="md:flex block md:flex-row gap-x-8">
                   <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
                     <div className="mt-0">
-                      <a href="mailto:info@kalgroup.com">
+                      <a href="mailto:info@kvltires.com">
                         <MdEmail className="md:h-8 h-6 md:w-8 w-6  " />
                       </a>
                     </div>
                     <div className="block xl:ml-3 ml-2 text-center">
                       {/* <div className="block">Working hours</div> */}
                       <div className="md:text-xl text-lg font-bold xl:font-semibold text-center">
-                        <a href="mailto:info@kalgroup.com">info@kalgroup.com</a>
+                        <a href="mailto:info@kvltires.com">info@kvltires.com</a>
                       </div>
                     </div>
                   </div>
