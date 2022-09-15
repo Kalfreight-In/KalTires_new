@@ -180,10 +180,11 @@ const Contactform = () => {
                     onChange={(e) => setservice(e.target.value)}
                     type="select"
                     value={service}
-                    placeholder="Service type"
                     required
                   >
-                    <option value="service">Select Service Type</option>
+                    <option value="service" hidden>
+                      Select Service Type
+                    </option>
                     <option value="newtires">New Tires</option>
                     <option value="retreadtires">Retread Tires</option>
                     <option value="heavyduty">Heavy Duty Front End Work</option>
