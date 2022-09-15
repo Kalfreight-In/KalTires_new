@@ -70,11 +70,11 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className={`mr-2 ${
+                          className={`mr-2 font-bold ${
                             alldata.Heading === 'Commercial Tires'
-                              ? 'text-kaltire-red border-white border-b-2 font-Helvetica'
+                              ? 'text-kaltire-red border-white border-b-2 font-Helvetica '
                               : 'text-white font-Helvetica'
-                          }font-bold text-center focus:border-b-2 font-poppins border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red `}
+                          }font-bold text-center focus:border-b-2 font-poppins  border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red `}
                           onClick={() => setalldata(CommercialTiretwo[0])}
                         >
                           {alldata.titletwo}
