@@ -25,7 +25,7 @@ const HeroSection = ({ data }) => (
     {/* <Gradients /> */}
     <HeroBg className=" mt-0 " BackgroundImage={data.img} />
     <HeroContent>
-      <div className=" 2xl:pl-28 xl:pl-12 pl-0  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
+      <div className=" 2xl:pl-28 xl:pl-12 pl-8  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
         <div className="lg:flex flex-row lg:mx-0 mx-16">
           <div className=" sm:block " />
 
@@ -49,7 +49,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <div className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
+                  <div className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-0 lg:pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
                     {data.Heading.toUpperCase()}
                   </div>
                 </motion.div>
@@ -60,7 +60,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="lg:text-xl text-white  font-Helvetica font-xl hidden lg:block">
+                  <div className="lg:text-xl text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2">
                     {data.desc}
                   </div>
                 </motion.div>
