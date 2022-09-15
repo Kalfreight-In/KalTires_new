@@ -10,10 +10,10 @@ const Roadside = () => (
       <div className="bg-bg-white-1">
         <div className="lg:grid lg:grid-cols-2">
           <div className="lg:hidden  flex justify-center  relative  md:py-8 py-8 z-10">
-            <h2 className="text-4xl tracking-tight  text-black font-poppins font-semibold ">
+            <h2 className="text-4xl tracking-tight  text-black font-Helvetica font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
-                <span className="text-kaltire-red font-poppins">24/7</span>{' '}
-                <span className="font-poppins">ROADSIDE ASSISTANCE</span>
+                <span className="text-kaltire-red font-Helvetica">24/7</span>{' '}
+                <span className="font-Helvetica">ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
           </div>
@@ -26,13 +26,15 @@ const Roadside = () => (
           </div>
           <div className="flex items-center  2xl:pt-2 ">
             <div className="md:px-0 px-6 lg:px-0 max-w-4xl lg:max-w-3xl md:mx-12 mx-2   pt-0">
-              <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
-                <span className="block font-poppins text-4xl">
-                  <span className="text-kaltire-red font-poppins">24/7</span>
-                  <span className="pl-4 font-poppins">ROADSIDE ASSISTANCE</span>
+              <h2 className="text-3xl tracking-tight  text-black font-Helvetica font-semibold hidden lg:block">
+                <span className="block font-Helvetica text-4xl">
+                  <span className="text-kaltire-red font-Helvetica">24/7</span>
+                  <span className="pl-4 font-Helvetica">
+                    ROADSIDE ASSISTANCE
+                  </span>
                 </span>
               </h2>
-              <p className="text-black md:mt-5 mt-72 font-poppins text-justify">
+              <p className="text-black md:mt-5 mt-72 font-Helvetica text-justify">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
                 roadside assistance. We provide 24-hours breakdown services to
@@ -86,9 +88,9 @@ const Roadside = () => (
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second">
-                    <h1 className="font-bold font-poppins">Toll Free</h1>
+                    <h1 className="font-bold font-Helvetica">Toll Free</h1>
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
-                      <p className="font-poppins">800-808-0025</p>
+                      <p className="font-Helvetica">800-808-0025</p>
                     </a>
                   </div>
                 </div>

@@ -28,10 +28,10 @@ const Onsiteservice = () => {
                     </div>
                   </div>
 
-                  <h1 className="lg:text-xl text-lg font-bold font-mainpoppin h-12">
+                  <h1 className="lg:text-xl text-lg font-bold font-poppins h-12">
                     {index.heading}
                   </h1>
-                  <p className="pt-6 lg:text-sm font-normal px-2 text-center font-poppins">
+                  <p className="pt-6 lg:text-sm font-normal px-2 text-center font-Helvetica">
                     {index.desc}
                   </p>
                 </div>
@@ -61,7 +61,7 @@ const Onsiteservice = () => {
                         </div>
                       </div>
 
-                      <h1 className="lg:text-xl text-lg font-bold font-poppins ">
+                      <h1 className="lg:text-xl text-lg font-bold font-Helvetica ">
                         {newdata.heading}
                       </h1>
                     </div>
@@ -75,10 +75,10 @@ const Onsiteservice = () => {
         {Onsitecomponentdata.map((onsitemain) => (
           <div id="secondonsite" className="mt-12 mb-4" key={onsitemain.id}>
             <div id="innersecondonsite" className="text-center">
-              <h1 className="md:text-2xl font-bold font-mainpoppin">
+              <h1 className="md:text-2xl font-bold font-poppins">
                 {onsitemain.heading}
               </h1>
-              <p className="pt-2 md:text-xl  text-onsite-text font-poppins lg:px-80 px-8">
+              <p className="pt-2 md:text-xl  text-onsite-text font-Helvetica lg:px-80 px-8">
                 {onsitemain.desc}
               </p>
               <div className="flex justify-center mt-8">
@@ -87,7 +87,7 @@ const Onsiteservice = () => {
                     className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
                     type="button"
                   >
-                    <span className="pr-2 font-mainpoppin">
+                    <span className="pr-2 font-poppins">
                       <ImPhone className="text-2xl" />
                     </span>
                     {onsitemain.BTN}

@@ -37,18 +37,18 @@ const CommercialTire = () => {
                     </div>
                   </div>
                   <div className="lg:py-2 md:px-10 px-6 lg:px-0 md:max-w-3xl lg:max-w-5xl max-w-sm  mx-auto col-span-2  text-center lg:text-left mt-16  ">
-                    <h1 className="text-white font-mainpoppin text-4xl font-bold">
+                    <h1 className="text-white font-poppins text-4xl font-bold">
                       {alldata.Heading}
                     </h1>
                     <div id="combuttons" className="mt-12">
                       <span className="">
                         <button
                           type="button"
-                          className={` mr-2 text-center focus:border-b-2 font-bold font-poppins  border-white text-white ${
+                          className={` mr-2 text-center focus:border-b-2 font-bold font-Helvetica  border-white text-white ${
                             alldata.Heading === 'Retread Tires'
-                              ? 'text-kaltire-red border-white border-b-2 font-poppins'
-                              : 'text-white font-poppins'
-                          }  transition-all duration-100 delay-75 cursor-pointer  font-mainpoppin focus:text-kaltire-red`}
+                              ? 'text-kaltire-red border-white border-b-2 font-Helvetica'
+                              : 'text-white font-Helvetica'
+                          }  transition-all duration-100 delay-75 cursor-pointer  font-poppins focus:text-kaltire-red`}
                           onClick={() => setalldata(CommercialTireone[0])}
                         >
                           {alldata.titleone}
@@ -58,14 +58,14 @@ const CommercialTire = () => {
                       <span className="">
                         <button
                           type="button"
-                          className="mr-2 font-bold text-center focus:border-b-2 font-mainpoppin border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
+                          className="mr-2 font-bold text-center focus:border-b-2 font-poppins border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
                           onClick={() => setalldata(CommercialTiretwo[0])}
                         >
                           {alldata.titletwo}
                         </button>
                       </span>
                     </div>
-                    <p className="text-white mt-5 text-justify font-poppins">
+                    <p className="text-white mt-5 text-justify font-Helvetica">
                       {alldata.desc}
                     </p>
                     <Swiper

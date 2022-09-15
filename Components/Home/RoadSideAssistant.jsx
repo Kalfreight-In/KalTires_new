@@ -21,7 +21,7 @@ const RoadSideAssistant = () => {
         <div className="">
           <div className="lg:grid lg:grid-cols-12 items-center ">
             <div className="lg:hidden block">
-              <h2 className="text-4xl tracking-tight py-4 text-black font-poppins font-semibold lg:block text-center">
+              <h2 className="text-4xl tracking-tight py-4 text-black font-Helvetica font-semibold lg:block text-center">
                 <span className="text-red-500">24/7 </span>
                 ROADSIDE ASSISTANCE
               </h2>
@@ -46,7 +46,7 @@ const RoadSideAssistant = () => {
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
               className=" md:px-10 px-6 lg:px-0  2xl:col-span-5 2xl:mr-2 xl:col-span-6 xl:mr-32 max-w-5xl col-span-5 col mx-auto  text-center lg:text-left lg:ml-20 ml-0"
             >
-              <h2 className="2xl:text-4xl xl:text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
+              <h2 className="2xl:text-4xl xl:text-3xl tracking-tight  text-black font-Helvetica font-bold lg:block hidden">
                 <span className="text-red-500">24/7 </span>
                 ROADSIDE ASSISTANCE
               </h2>
@@ -69,7 +69,7 @@ const RoadSideAssistant = () => {
               >
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                   <button
-                    className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-lg font-poppins"
+                    className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-lg font-Helvetica"
                     type="button"
                   >
                     <span>
@@ -86,7 +86,7 @@ const RoadSideAssistant = () => {
             >
               <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                 <button
-                  className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-lg  font-poppins"
+                  className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-lg  font-Helvetica"
                   type="button"
                 >
                   <span>

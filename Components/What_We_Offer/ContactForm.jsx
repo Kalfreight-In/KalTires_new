@@ -89,7 +89,7 @@ const Contactform = () => {
                 /> */}
                 {/* </Sparkles> */}
               </div>
-              <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16 font-poppins ">
+              <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
                 {/* <Sparkles> */}
                 Thanks you for reaching out, we will get back to you as soon as
                 possible.
@@ -128,10 +128,10 @@ const Contactform = () => {
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
                   <div>
-                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-mainpoppin">
+                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       BOOK AN APPOINTMENT NOW
                     </h1>
-                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-poppins">
+                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-Helvetica">
                       Let’s grow your business together. Please provide your
                       details, and a KVL Tire expert will get in touch with you
                       shortly.{' '}
@@ -146,7 +146,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setName(e.target.value)}
-                    className="appearance-none font-poppins block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none font-Helvetica block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     id="grid-first-name"
                     type="text"
                     value={name}
@@ -160,7 +160,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setEmail(e.target.value)}
-                    className="appearance-none block font-poppins w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block font-Helvetica w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="emailValidate"
                     type="email"
                     value={email}
@@ -176,7 +176,7 @@ const Contactform = () => {
                 >
                   <select
                     name="servicetype"
-                    className=" block font-poppins w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className=" block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setservice(e.target.value)}
                     type="select"
                     value={service}
@@ -200,7 +200,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none font-poppins block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                    className="appearance-none font-Helvetica block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                     id="grid-first-name"
                     type="text"
                     value={message}
@@ -211,11 +211,11 @@ const Contactform = () => {
               </div>
               <div
                 id="submitallbutton"
-                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-poppins md:pb-8 lg:pb-4  md:flex-row flex-col"
+                className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
               >
                 <div>
                   <button
-                    className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-poppins"
+                    className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
                     type="submit"
                     id="submitmain"
                   >
@@ -224,11 +224,11 @@ const Contactform = () => {
                 </div>
 
                 <div>
-                  <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-poppins  mt-2 flex justify-start items-center">
+                  <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
                     Or call us now at &nbsp;
                     <a
                       href="tel:8008080025"
-                      className="cursor-pointer font-bold font-poppins"
+                      className="cursor-pointer font-bold font-Helvetica"
                     >
                       800-808 0025
                     </a>
