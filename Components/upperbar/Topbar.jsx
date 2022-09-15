@@ -21,7 +21,7 @@ const Topbar = ({ toggle }) => {
         isDesktop ? '' : 'fixed z-30 w-full'
       }`}
     >
-      <div className=" xl:mx-12 mx-8  flexBetween z-10   p-3 flex-row">
+      <div className=" xl:mx-2 mx-1  flexBetween z-10   p-3 flex-row">
         <div className=" ml-0 flex-1 flex flex-row justify-start items-center ">
           <Link href="/" passHref>
             <Image
@@ -55,7 +55,7 @@ const Topbar = ({ toggle }) => {
 
               {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
             </a>
-            <a href="tel:800-808-0025" className="cursor-pointer">
+            <a href="tel:800-808-0025" className="cursor-pointer pr-2">
               <div>
                 <div className="font-bold">Toll Free</div>
                 <div className=""> 800-808-0025</div>

@@ -137,6 +137,13 @@ export const MapConatiner = () => {
   const [visibilities, setVisibilities] = useState(() =>
     MapData1.map((x) => false)
   );
+  const FilterDataCA = (city) => {
+    const bol = false;
+    MapData2.filter((x) => {
+      x.properties.City === city ? (bol = true) : (bol = false);
+    });
+    return bol;
+  };
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -154,7 +161,12 @@ export const MapConatiner = () => {
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
     setShowDropdown(!ShowDropdown);
-    setFeaatureCat(city);
+
+    if (FilterDataCA(city)) {
+      setCaFeaatureCat(city);
+    } else {
+      setFeaatureCat(city);
+    }
   };
   // const [selectedPosition, setSelectedPosition] = React.useState(null);
   // const [Services, setServices] = useState(false);
@@ -249,7 +261,7 @@ export const MapConatiner = () => {
                   />
                 </svg> */}
 
-                <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
+                <h3 className="xl:text-4xl self-start text-white font-bold text-3xl ">
                   Our Locations
                 </h3>
               </div>
@@ -481,7 +493,7 @@ export const MapConatiner = () => {
                       }}
                       className="group rounded-md mb-4 flex flex-row justify-between px-6 py-4  text-center border-2 bg-white text-black   transition-all duration-100 delay-75 cursor-pointer "
                     >
-                      {FeaatureCat}
+                      {CaFeaatureCat}
                       <span>
                         {' '}
                         <MdKeyboardArrowDown
