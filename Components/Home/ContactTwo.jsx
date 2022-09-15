@@ -204,31 +204,33 @@ const ContactTwo = () => {
                 />
               </div>
             </div>
-            <div
-              id="submitallbutton"
-              className=" md:pt-8 pt-0 md:flex block lg:pb-0 md:pb-6"
-            >
-              <div>
-                <button
-                  className="text-black bg-white rounded h-12 p-4 w-48 mt-2 md:ml-0  flex justify-center  items-center cursor-pointer"
-                  type="submit"
-                >
-                  {buttonText}
-                </button>
-              </div>
-              <div>
-                <p
-                  className="text-white   bg-red-600 text-opacity-80  bg-opacity-20 h-12 rounded  mt-2 flex justify-start items-center md:ml-16 ml-0"
-                  type="submit"
-                >
-                  Or call us now at &nbsp;
-                  <a
-                    href="tel:8008080025"
-                    className="cursor-pointer font-bold "
+            <div className="flex justify-center md:justify-start">
+              <div
+                id="submitallbutton"
+                // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+                className="lg:pl-16 md:pl-16  md:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+              >
+                <div className="flex justify-center items-center">
+                  <button
+                    className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
+                    type="submit"
+                    id="submitmain"
                   >
-                    800-808 0025
-                  </a>
-                </p>
+                    {buttonText}
+                  </button>
+                </div>
+
+                <div>
+                  <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
+                    Or call us now at &nbsp;
+                    <a
+                      href="tel:8008080025"
+                      className="cursor-pointer font-bold font-Helvetica"
+                    >
+                      800-808 0025
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </form>
