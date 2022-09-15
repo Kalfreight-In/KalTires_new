@@ -31,7 +31,7 @@ const HeroSection = ({ data }) => (
 
           <div
             className={` ml-0 ${
-              data.Heading.length > 25 ? 'lg:w-8/12' : 'lg:w-7/4 '
+              data.Heading.length > 25 ? 'lg:w-7/12' : 'lg:w-full '
             }  w-full `}
           >
             <motion.div
@@ -42,7 +42,7 @@ const HeroSection = ({ data }) => (
               <div
                 className={` ${
                   data.Heading ? 'lg:border-l-4 ' : null
-                } border-PrimaryTwo anima pl-3`}
+                } border-PrimaryTwo anima lg:pl-3 pl-0`}
               >
                 <motion.div
                   initial={{ x: -100, opacity: 0.5 }}
