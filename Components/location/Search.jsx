@@ -88,7 +88,7 @@ const Search = (setTypedLocation) => {
   return (
     <form onSubmit={(e) => handleSubmit(e)} className="pokemon-form">
       <div className="bg-black h-16 flex justify-end flex-center ">
-        <div className="  text-gray-600 flex m-2 mr-8">
+        <div className="  text-gray-600 flex m-2 ">
           <input
             onChange={(e) => setAddress(e.target.value)}
             className="  bg-white  px-5 pr-8 w-60 text-sm focus:outline-none"

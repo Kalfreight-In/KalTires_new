@@ -89,7 +89,7 @@ const CommercialTire = () => {
                       <div className="flex items-center h-24 pr-12">
                         {alldata.logos.map((indexnew) => (
                           <SwiperSlide key={indexnew.id}>
-                            <div id="commlogos" className="mt-8 ml-4">
+                            <div id="commlogos" className="mt-8 ml-4 ">
                               <Image src={indexnew.img} className="flex" />
                             </div>
                           </SwiperSlide>

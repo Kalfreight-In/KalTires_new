@@ -8,9 +8,9 @@ import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { scroller, Element } from 'react-scroll';
 import { MapData1, MapData2 } from '../data/data';
+import useMediaQuery from '../Hooks/CustomMediaQuery';
 
 // import { useHover } from '../Hooks/Hover';
-import useMediaQuery from '../Hooks/CustomMediaQuery';
 import Search from '../Components/location/Search';
 import { toTitleCase } from '../HelpFunctions/toTitlecase';
 
@@ -122,6 +122,7 @@ const MapCaller = ({ Data, SData, location }) => (
 const location = () => {
   const [Maplocation, setMapocation] = useState();
   const [TypedLocation, setTypedLocation] = useState();
+  const isDesktop = useMediaQuery('(min-width:1120px)');
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
   //   setIsBrowser(true);
@@ -130,7 +131,6 @@ const location = () => {
   // if (!isBrowser) {
   //   return null;
   // }
-  const isDesktop = useMediaQuery('(min-width: 768px)');
 
   const [visibilities, setVisibilities] = useState(() =>
     MapData1.map((x) => true)
@@ -159,12 +159,15 @@ const location = () => {
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
   };
+
   return (
     <div
       id="mainmapcontainer"
-      className="bg-black flex flex-col-reverse  md:flex-col bg-cover"
+      className="bg-black flex flex-col  md:flex-col  bg-cover"
     >
-      <Search setTypedLocation />
+      <div className="flex items-center justify-center md:justify-end">
+        <Search setTypedLocation />
+      </div>
 
       <Element id="MapContanier" name="MapContanierElement" className="z-0">
         {/* <Map

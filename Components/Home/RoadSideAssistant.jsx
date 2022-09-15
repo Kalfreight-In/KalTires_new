@@ -21,7 +21,7 @@ const RoadSideAssistant = () => {
         <div className="">
           <div className="lg:grid lg:grid-cols-12 items-center ">
             <div className="lg:hidden block">
-              <h2 className="text-4xl tracking-tight py-4 text-black font-Helvetica font-semibold lg:block text-center">
+              <h2 className="text-4xl tracking-tight py-4 text-black font-poppins font-semibold lg:block text-center">
                 <span className="text-red-500">24/7 </span>
                 ROADSIDE ASSISTANCE
               </h2>
@@ -46,12 +46,12 @@ const RoadSideAssistant = () => {
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
               className=" md:px-10 px-6 lg:px-0  2xl:col-span-5 2xl:mr-2 xl:col-span-6 xl:mr-32 max-w-5xl col-span-5 col mx-auto  text-center lg:text-left lg:ml-20 ml-0"
             >
-              <h2 className="2xl:text-4xl xl:text-3xl tracking-tight  text-black font-Helvetica font-bold lg:block hidden">
+              <h2 className="2xl:text-4xl xl:text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
                 <span className="text-red-500">24/7 </span>
                 ROADSIDE ASSISTANCE
               </h2>
 
-              <p className=" mt-5 text-justify text-neutral-500 2xl:text-lg xl:text-md text-sm font-medium">
+              <p className=" mt-5 text-justify text-neutral-500 2xl:text-lg xl:text-md text-sm font-medium font-Helvetica">
                 Driving a commercial vehicle keeps you on the move, making it
                 necessary to be aware of your vehicle’s condition. You must
                 ensure that your tires deliver great mileage, superior traction,
@@ -73,7 +73,7 @@ const RoadSideAssistant = () => {
                     type="button"
                   >
                     <span>
-                      <MdLocalPhone className="text-2xl" />
+                      <MdLocalPhone className="text-2xl font-poppins" />
                     </span>{' '}
                     &nbsp; 800-808-0025
                   </button>
@@ -90,7 +90,7 @@ const RoadSideAssistant = () => {
                   type="button"
                 >
                   <span>
-                    <MdLocalPhone className="text-2xl" />
+                    <MdLocalPhone className="text-2xl font-poppins" />
                   </span>{' '}
                   &nbsp; 800-808-0025
                 </button>

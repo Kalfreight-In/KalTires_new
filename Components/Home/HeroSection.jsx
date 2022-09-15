@@ -49,7 +49,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <div className="2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
+                  <div className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
                     {data.Heading.toUpperCase()}
                   </div>
                 </motion.div>
@@ -60,7 +60,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="lg:text-xl text-white font-Helvetica font-xl hidden lg:block">
+                  <div className="lg:text-xl text-white  font-Helvetica font-xl hidden lg:block">
                     {data.desc}
                   </div>
                 </motion.div>
@@ -90,7 +90,7 @@ const HeroSection = ({ data }) => (
                     {' '}
                     <button
                       type="button"
-                      className="text-white   hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
+                      className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
                     >
                       <p>{data.CTA1.heading}</p>
                     </button>
