@@ -231,11 +231,14 @@ const Footer = () => {
                     </a>
                     <Link
                       href="/#maincontactform"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       target="_blank"
                       rel="noreferrer"
+                      passHref
                     >
-                      Contact Us
+                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
+                        Contact Us
+                      </span>
                     </Link>
                   </div>
                 </div>
