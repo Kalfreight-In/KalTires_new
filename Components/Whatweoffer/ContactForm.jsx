@@ -129,10 +129,10 @@ const Contactform = () => {
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
                     <div>
-                      <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold text-left font-poppins">
+                      <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold lg:text-left text-justify font-poppins">
                         BOOK AN APPOINTMENT NOW
                       </h1>
-                      <p className="text-white pt-4  text-left lg:pr-0 mr-16 font-Helvetica px-2">
+                      <p className="text-white pt-4  lg:text-left text-justify lg:pr-0 mr-16 font-Helvetica px-2">
                         Let’s grow your business together. Please provide your
                         details, and a KVL Tire expert will get in touch with
                         you shortly.{' '}
