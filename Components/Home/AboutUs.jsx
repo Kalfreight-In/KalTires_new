@@ -62,7 +62,7 @@ export const AboutUs = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="text-neutral-500 mt-5 2xl:text-lg lg:text-base text-sm  font-normal text-justify font-Helvetica">
+                  <div className="text-neutral-500 mt-5 2xl:text-lg h-96 pr-4  overflow-y-scroll  lg:text-base text-sm  font-normal text-justify font-Helvetica">
                     Are you looking for quality tires for your fleet? Does a
                     blowout leave you stranded on your way? Are you looking for
                     24/7 roadside assistance? Are you short of time and unable
@@ -81,8 +81,38 @@ export const AboutUs = () => {
                     across the US and growing. KVL Tires offers high-quality
                     products and services to a diverse clientele at affordable
                     prices.
+                    <p>
+                      Our unparalleled range of new, used & retread tires caters
+                      to the needs of all commercial vehicles. The extensive
+                      tire product lines include commercial, agricultural,
+                      off-the-road (OTR), industrial, and earthmover tires. We
+                      have partnered with trusted tire manufacturers such as
+                      Continental, Goodyear, BKT, General, Ameristeel, Tornado,
+                      Cooper, and many more.
+                      <br />
+                      <br />
+                      Besides selling new tires, KVL Tires also offers 24/7
+                      Roadside Assistance Service. You can quickly find skilled
+                      technicians nearby, even in remote areas. Our services
+                      include pick-up & delivery, on-site services, flat
+                      repairs, mounted wheel programs, wheel alignment services,
+                      light mechanical services, and more.
+                      <br />
+                      <br />
+                      At KVL Tires, everybody is welcome, whether an owner
+                      operator, repair shop or fleet owner. Our trained
+                      specialists strive to deliver quality, safety, and value
+                      for a smooth tire buying & service experience. We put the
+                      time into understanding our customer’s needs and providing
+                      them with satisfactory solutions. We continue to invest in
+                      our service facilities, employees, equipment, vehicles,
+                      and technology systems to provide you with top-notch tires
+                      & services. So, if you need ‘passenger car tires’ or ‘tire
+                      alignment near me’, reach out to us without a second
+                      thought.
+                    </p>
                     <br />
-                    <p
+                    {/* <p
                       className={`text-justify mt-4 block font-Helvetica Transition-Height-${
                         ShowMoreAboutUS ? 'in' : 'out'
                       }`}
@@ -125,7 +155,7 @@ export const AboutUs = () => {
                       className="underline decoration-2 decoration-sky-500 text-PrimaryTwo font-medium cursor-pointer "
                     >
                       {!ShowMoreAboutUS ? 'Show More' : 'Show less'}
-                    </div>
+                    </div> */}
                   </div>
                 </motion.div>
               </div>
