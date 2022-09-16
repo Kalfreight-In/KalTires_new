@@ -60,7 +60,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="lg:text-xl text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2">
+                  <div className="lg:text-xl text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2 lg:pr-28 pr-0">
                     {data.desc}
                   </div>
                 </motion.div>
