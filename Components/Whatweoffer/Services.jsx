@@ -45,7 +45,7 @@ export const Services = () => {
   return (
     <>
       <div className="hidden lg:block">
-        <div id="onsitemain">
+        <div id="onServicesMain">
           <div
             id="onsitemaininner"
             className="bg-black 2xl:px-56 lg:px-16 lg:py-12 2xl:py-16 "
@@ -97,22 +97,27 @@ export const Services = () => {
                 className=" static grid gap-4 grid-cols-servicesTemplate "
               >
                 {Servicesdata.map((data) => (
-                  <div
-                    className="bg-kaltire-red  text-center text-white border-white hover:border"
+                  <a
+                    className="bg-kaltire-red  text-center text-white border-white hover:border cursor-pointer"
                     key={data.id}
+                    href="tel:800-808-0025"
                     // onClick={() => {
                     //   UpdateLightbox(data);
                     // }}
                   >
                     <div className="flex justify-center">
                       <div className="w-onsiteimage h-onsiteimage pt-4">
-                        <Image src={data.img} alt="service" />
+                        <Image
+                          src={data.img}
+                          alt="service"
+                          title="click to call"
+                        />
                       </div>
                     </div>
                     <h1 className="lg:text-xl text-lg font-bold font-Helvetica h-16">
                       {data.heading}
                     </h1>
-                  </div>
+                  </a>
                 ))}
               </div>
             </div>
@@ -192,12 +197,12 @@ export const Services = () => {
                   <div className="flex">
                     <div
                       id="grid"
-                      className="grid gap-4 grid-cols-servicesTabTemplate justify-center items-center py-16 px-4"
+                      className="grid gap-4 grid-cols-servicesTabTemplate justify-center items-center py-16 px-4 "
                     >
                       {Servicesdata.map((mydata) => (
                         <SwiperSlide key={mydata.id}>
                           <div
-                            className="bg-kaltire-red  text-center text-white border-white hover:border-2"
+                            className="bg-kaltire-red  text-center text-white border-white hover:border-2 "
                             // onClick={() => UpdateLightbox(mydata)}
                           >
                             <div className="flex justify-center">

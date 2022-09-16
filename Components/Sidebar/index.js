@@ -245,7 +245,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/#AboutUs_Section" passHref onClick={toggle}>
             <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
           </Link>
-          <Link href="/Whatweoffer" passHref onClick={toggle}>
+          <Link href="/tiresandservices" passHref onClick={toggle}>
             <SidebarLinkR onClick={toggle}>Tires & Services</SidebarLinkR>
           </Link>
           <Link onClick={toggle} href="/roadside-Assistance" passHref>

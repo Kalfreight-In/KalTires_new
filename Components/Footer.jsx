@@ -1,10 +1,10 @@
 import React, { useContext, useState } from 'react';
-
+import { Link as Slink } from 'react-scroll';
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
 import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
-import { Link as Slink } from 'react-scroll';
+
 import Link from 'next/link';
 import { useStateContext } from '../context/StateContext';
 
@@ -229,18 +229,18 @@ const Footer = () => {
                     >
                       CSR
                     </a>
-                    <Link
-                      href="/#maincontactform"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
-                      target="_blank"
+                    <Slink
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                       rel="noreferrer"
-                      passHref
+                      to="maincontactform"
+                      spy
+                      smooth
+                      hashSpy
+                      offset={-80}
                       // scroll={false}
                     >
-                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
-                        Contact Us
-                      </span>
-                    </Link>
+                      Contact Us
+                    </Slink>
                   </div>
                 </div>
 
@@ -342,24 +342,18 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                         <span className="flex cursor-pointer ">
                           <span className="mt-5px  xl:w-44">
-                            <Slink
-                              to="ContactSection "
+                            <a
+                              href="/tiresandservices#onServicesMain"
                               smooth
                               duration={1000}
                               spy
                               offset={-80}
                             >
                               Pick up & Delivery Service
-                            </Slink>
+                            </a>
                           </span>
                         </span>
                       </div>
-                      <a
-                        href="mailto:info@kvltires.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
-                      />
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
@@ -376,7 +370,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/#maincontactformhome"
+                            href="/tiresandservices#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -393,7 +387,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/#maincontactformhome"
+                            href="/tiresandservices#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -409,7 +403,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/#maincontactformhome"
+                            href="/tiresandservices#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -423,12 +417,19 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="tiresandservices#commercialtiremain"
+                            href="/tiresandservices#commercialtiremain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px">Retread Services </span>
+                            <span
+                              onClick={() => {
+                                setWWOtires('retread');
+                              }}
+                              className="mt-5px"
+                            >
+                              Retread Services
+                            </span>
                           </Link>
                         </span>
                       </div>
@@ -608,10 +609,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-row align-center justify-center xl:justify-end">
-                      <a
-                        to=""
-                        className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center"
-                      >
+                      <a className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center">
                         Submit
                       </a>
                     </div>
