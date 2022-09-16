@@ -8,7 +8,7 @@ export const StateContext = ({ children }) => {
   const [typeAddress, setTypeAddress] = useState(null);
   const [NearestLocation, setNearestLocation] = useState(null);
   const [Currentlatlong, setCurrentlatlong] = useState(null);
-  const [WWOtires, setWWOtires] = useState('commerce');
+  const [WWOtires, setWWOtires] = useState('retread');
   return (
     <Context.Provider
       value={{

@@ -25,7 +25,7 @@ const HeroSection = ({ data }) => (
     {/* <Gradients /> */}
     <HeroBg className=" mt-0 " BackgroundImage={data.img} />
     <HeroContent>
-      <div className=" 2xl:pl-28 xl:pl-12 pl-0  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
+      <div className=" pl-20  lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
         <div className="lg:flex flex-row lg:mx-0 mx-16">
           <div className=" sm:block " />
 

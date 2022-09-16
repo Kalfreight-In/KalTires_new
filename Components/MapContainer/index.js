@@ -230,7 +230,7 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full md:pl-16 md:mb-0 px-12 mb-24">
+          <div className="  w-full md:mb-0 pr-0 pl-16 mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
                 {/* <svg
@@ -264,7 +264,7 @@ export const MapConatiner = () => {
                 UNITED STATES
               </div>
             </div>
-            <SidebarMenu className="md:bg-white  bg-none pb-2 2xl:mr-38 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white  bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 ">
               <div>
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
@@ -439,7 +439,7 @@ export const MapConatiner = () => {
                 CANADA
               </h3>
             </div>
-            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-38 xl:mr-32 lg:mr-20 ">
+            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 ">
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (

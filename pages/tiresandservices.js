@@ -1,9 +1,9 @@
 import React from 'react';
-import { Speciality } from '../Components/What_We_Offer/Speciality';
-import { Services } from '../Components/What_We_Offer/Services';
-import { IndustTires } from '../Components/What_We_Offer/IndustTires';
-import CommercialTire from '../Components/What_We_Offer/CommercialTire';
-import Contactform from '../Components/What_We_Offer/ContactForm';
+import { Speciality } from '../Components/Whatweoffer/Speciality';
+import { Services } from '../Components/Whatweoffer/Services';
+import { IndustTires } from '../Components/Whatweoffer/IndustTires';
+import CommercialTire from '../Components/Whatweoffer/CommercialTire';
+import Contactform from '../Components/Whatweoffer/ContactForm';
 import HeroSection from '../Components/Home/HeroSection';
 // import Onsiteservice from '../Components/Roadside_Assitance/Onsiteservice';
 
@@ -18,7 +18,7 @@ const data = [
   },
 ];
 
-const WhatWeOffer = () => (
+const tiresandservices = () => (
   <div>
     <HeroSection data={data[0]} />
     <CommercialTire />
@@ -29,4 +29,4 @@ const WhatWeOffer = () => (
   </div>
 );
 
-export default WhatWeOffer;
+export default tiresandservices;

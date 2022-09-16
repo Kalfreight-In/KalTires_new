@@ -133,7 +133,7 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/WhatWeOffer#commercialtiremain" passHref>
+                    <Link href="/tiresandservices#commercialtiremain" passHref>
                       <span
                         onClick={() => {
                           setWWOtires('commerce');
@@ -143,14 +143,14 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/WhatWeOffer#industmain" passHref>
+                    <Link href="/tiresandservices#industmain" passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
                     </Link>
                     <Link
-                      href="/WhatWeOffer#industmain"
+                      href="/tiresandservices#industmain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -160,7 +160,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/WhatWeOffer#industmain"
+                      href="/tiresandservices#industmain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -170,7 +170,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/WhatWeOffer#commercialtiremain"
+                      href="/tiresandservices#commercialtiremain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -423,7 +423,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="WhatWeOffer#commercialtiremain"
+                            href="tiresandservices#commercialtiremain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
