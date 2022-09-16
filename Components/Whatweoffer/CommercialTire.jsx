@@ -81,7 +81,7 @@ const CommercialTire = () => {
                         </button>
                       </span>
                     </div>
-                    <p className="text-white mt-5 text-left font-Helvetica">
+                    <p className="text-white mt-5 lg:text-left text-justify font-Helvetica">
                       {alldata.desc}
                     </p>
                     <Swiper
