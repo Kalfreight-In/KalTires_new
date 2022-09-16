@@ -34,7 +34,7 @@ const Roadside = () => (
                   </span>
                 </span>
               </h2>
-              <p className="text-black md:mt-5 mt-72 font-Helvetica text-justify">
+              <p className="text-black md:mt-5 mt-72 font-Helvetica text-left">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
                 roadside assistance. We provide 24-hours breakdown services to

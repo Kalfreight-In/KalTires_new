@@ -123,7 +123,7 @@
 //                     <h1 className="text-white md:text-5xl text-2xl font-bold text-left ">
 //                       CONTACT US
 //                     </h1>
-//                     <p className="text-white pt-4  text-justify lg:pr-0 mr-16">
+//                     <p className="text-white pt-4  text-left lg:pr-0 mr-16">
 //                       Let’s grow your business together. Please provide your
 //                       details, and a KVL Tire expert will get in touch with you
 //                       shortly.{' '}
@@ -383,7 +383,7 @@ const Contactform = () => {
                     <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       CONTACT US
                     </h1>
-                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-Helvetica">
+                    <p className="text-white pt-4  text-left lg:pr-0 mr-16 font-Helvetica">
                       Let’s grow your business together. Please provide your
                       details, and a KVL Tire expert will get in touch with you
                       shortly.{' '}

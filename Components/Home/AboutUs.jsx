@@ -115,7 +115,7 @@ export const AboutUs = () => {
                     </p>
                     <br />
                     {/* <p
-                      className={`text-justify mt-4 block font-Helvetica Transition-Height-${
+                      className={`text-left mt-4 block font-Helvetica Transition-Height-${
                         ShowMoreAboutUS ? 'in' : 'out'
                       }`}
                     >
