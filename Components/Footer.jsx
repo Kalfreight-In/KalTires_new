@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
                   <div className="mt-11">
                     <a href="mailto:info@kvltires.com target=" rel="noreferrer">
-                      <IoMdMail className="h-8 w-6  " />
+                      <IoMdMail className="h-6 w-5  " />
                     </a>
                   </div>
                   <div className="block xl:ml-0 ">
@@ -61,7 +61,7 @@ const Footer = () => {
                       Reach out to us
                     </div>
                     <a href="mailto:info@kvltires.com">
-                      <div className=" text-md ml-2 xl:ml-4   cursor-pointer">
+                      <div className=" text-md ml-2 xl:ml-2   cursor-pointer">
                         info@kvltires.com
                       </div>
                     </a>
@@ -71,10 +71,10 @@ const Footer = () => {
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
-                      <MdPhone className="h-8 w-6" />
+                      <MdPhone className="h-6 w-5" />
                     </a>
                   </div>
-                  <div className="ml-4 flex flexcenter">
+                  <div className="ml-2 flex flexcenter">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {' '}
                       <div className=" text-md   ">800-808-0025</div>{' '}
@@ -84,10 +84,10 @@ const Footer = () => {
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
-                      <MdLocationPin className=" h-8 w-6 " />
+                      <MdLocationPin className=" h-6 w-5 " />
                     </a>
                   </div>
-                  <div className="ml-4">
+                  <div className="ml-2">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {' '}
                       <div className="md:text-md xl:text-md text-md   ">
