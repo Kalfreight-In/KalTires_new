@@ -55,7 +55,7 @@ const Topbar = ({ toggle }) => {
 
               {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
             </a>
-            <a href="tel:800-808-0025" className="cursor-pointer pr-2">
+            <a href="tel:800-808-0025" className="cursor-pointer pr-16">
               <div>
                 <div className="font-bold">Toll Free</div>
                 <div className=""> 800-808-0025</div>

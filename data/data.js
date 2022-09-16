@@ -89,7 +89,7 @@ export const HomeSliderData = [
     Heading: '  Off-The-Road Tires  ',
     desc: 'Tires For The Toughest Driving Conditions.',
 
-    CTA1: { heading: 'Explore', link: '/WhatWeOffer' },
+    CTA1: { heading: 'Explore', link: '/tiresandservices' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 

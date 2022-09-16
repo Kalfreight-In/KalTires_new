@@ -71,20 +71,20 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/WhatWeOffer" passHref>
+          <Link href="/tiresandservices" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/WhatWeOffer' ? 'bg-red-500' : ''
+                router.pathname === '/tiresandservices' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`2xl:text-lg xl:text-md  lg:text-sm  ${
-                  router.pathname === '/WhatWeOffer'
+                  router.pathname === '/tiresandservices'
                     ? 'text-white  font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
               >
-                What We Offer
+                Tires & Services
               </div>
             </div>
           </Link>
