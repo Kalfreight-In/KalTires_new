@@ -83,7 +83,7 @@ export const AboutUs = () => {
                     prices.
                     <br />
                     <p
-                      className={`text-justify mt-4 font-Helvetica Transition-Height-${
+                      className={`text-justify mt-4 block font-Helvetica Transition-Height-${
                         ShowMoreAboutUS ? 'in' : 'out'
                       }`}
                     >
