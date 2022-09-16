@@ -16,9 +16,9 @@ export const PerkBenifits = () => {
       <div id="Perkmaininner">
         <div id="Perkmaingrid" className="pb-8 ">
           <div className="lg:block hidden">
-            <h1 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-Helvetica">
+            <h3 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-Helvetica">
               Perks & Benefits
-            </h1>
+            </h3>
             <div
               id="Perkgrid"
               className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-20"
@@ -34,9 +34,9 @@ export const PerkBenifits = () => {
                     </div>
                   </div>
 
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8">
+                  <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8">
                     {index.Heading}
-                  </h1>
+                  </h3>
                   <p className="pt-16 pb-8 lg:text-sm font-normal  text-left px-4 font-Helvetica ">
                     {index.desc}
                   </p>
@@ -50,9 +50,9 @@ export const PerkBenifits = () => {
               id="perksliderinnermain"
               className={isMobile ? 'px-6' : 'px-12'}
             >
-              <h1 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-poppins">
+              <h3 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-poppins">
                 Perks & Benefits
-              </h1>
+              </h3>
               <Swiper
                 slidesPerView={isMobile ? 1 : 2}
                 spaceBetween={30}
@@ -79,9 +79,9 @@ export const PerkBenifits = () => {
                             <Image src={data.img} alt="service" />
                           </div>
                         </div>
-                        <h1 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 ">
+                        <h4 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 ">
                           {data.Heading}
-                        </h1>
+                        </h4>
                         <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left h-48 font-Helvetica">
                           {data.desc}
                         </p>
