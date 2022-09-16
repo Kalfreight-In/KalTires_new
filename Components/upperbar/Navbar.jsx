@@ -31,7 +31,6 @@ const Navbar = ({ toggle }) => {
   useEffect(() => {
     if (router.pathname === '/#AboutUs_Section') {
     }
-    console.log(AboutusRef);
   }, [AboutusRef]);
   return (
     <nav className="bg-white sticky top-navbargap z-10 shadow-xl">
