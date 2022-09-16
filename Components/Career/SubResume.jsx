@@ -6,9 +6,9 @@ export const SubResume = () => (
       <div id="resumeallcontent">
         <div id="maincontentresume">
           <div id="innermaincontentresume" className="text-center">
-            <h1 className="text-2xl font-bold text-resumeheading font-poppins">
+            <h4 className="text-2xl font-bold text-resumeheading font-poppins">
               Join our Impressive & Diversified Team
-            </h1>
+            </h4>
           </div>
         </div>
 
