@@ -32,7 +32,7 @@ const HomeSlider = () => {
   };
 
   return (
-    <div className={`${isDesktop ? 'SliderWrapper' : ''}`}>
+    <div className={`${isDesktop ? 'SliderWrapper' : ''}`} id="corevaluemain">
       <Swiper
         modules={[Pagination, Autoplay]}
         loop

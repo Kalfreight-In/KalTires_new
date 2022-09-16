@@ -68,7 +68,7 @@ const BrandsComponent = () => {
   return (
     <>
       {/* <div class="social"></div> */}
-      <div className="bg-businessbackground" id="corevaluemain">
+      <div className="bg-businessbackground">
         <div className=" px-20 " id="AboutUs_Section">
           <div className="">
             {/* {isDesktop ? (
