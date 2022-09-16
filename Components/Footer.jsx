@@ -235,6 +235,7 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                       passHref
+                      // scroll={false}
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
                         Contact Us
