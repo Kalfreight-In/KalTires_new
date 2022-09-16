@@ -317,7 +317,7 @@ export const MapConatiner = () => {
                   ) : null}
                 </div> */}
                 {isDesktop ? (
-                  <div className="overflow-auto h-mapScrollheightFull">
+                  <div className="overflow-auto h-mapScrollheightFull scrollbar">
                     {MapData1.map((value, index) => (
                       <div key={value.id}>
                         <Divlink
