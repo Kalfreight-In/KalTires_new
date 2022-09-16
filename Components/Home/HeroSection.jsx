@@ -62,7 +62,11 @@ const HeroSection = ({ data }) => (
                 >
                   <div
                     className={`lg:text-xl  text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2  pr-0   ${
-                      data.desc.length > 66 ? 'lg:pr-28' : 'lg:pr-0'
+                      data.desc
+                        ? data.desc.length > 66
+                          ? 'lg:pr-28'
+                          : 'lg:pr-0'
+                        : null
                     } `}
                   >
                     {data.desc}

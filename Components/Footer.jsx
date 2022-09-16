@@ -129,7 +129,7 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/tiresandservices#commercialtiremain" passHref>
+                    <Link href="/tires-services#commercialtiremain" passHref>
                       <span
                         onClick={() => {
                           setWWOtires('commerce');
@@ -139,14 +139,14 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/tiresandservices#industmain" passHref>
+                    <Link href="/tires-services#industmain" passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
                     </Link>
                     <Link
-                      href="/tiresandservices#industmain"
+                      href="/tires-services#industmain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -156,7 +156,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/tiresandservices#industmain"
+                      href="/tires-services#industmain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -166,7 +166,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/tiresandservices#commercialtiremain"
+                      href="/tires-services#commercialtiremain"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -232,16 +232,11 @@ const Footer = () => {
                     <Slink
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                       rel="noreferrer"
-<<<<<<< HEAD
                       to="maincontactform"
                       spy
                       smooth
                       hashSpy
                       offset={-80}
-=======
-                      passHref
-
->>>>>>> 6f93cedfcfb3bf05078114a8f2d7ea88ac0839b3
                       // scroll={false}
                     >
                       Contact Us
@@ -273,7 +268,7 @@ const Footer = () => {
 
                     <div>
                       <Link
-                        href="/roadside-Assistance"
+                        href="/24X7-roadside-assistance"
                         target="_blank"
                         rel="noreferrer"
                         passHref
@@ -286,7 +281,7 @@ const Footer = () => {
                     </div>
                     <div>
                       <Link
-                        href="/location"
+                        href="/locations"
                         target="_blank"
                         rel="noreferrer"
                         passHref
@@ -311,13 +306,13 @@ const Footer = () => {
                     </div>
                     <div>
                       <Link
-                        href="/Credit"
+                        href="/credit-application"
                         target="_blank"
                         rel="noreferrer"
                         passHref
                       >
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
-                          Credit Application
+                          credit-application Application
                         </span>
                       </Link>
                     </div>
@@ -348,7 +343,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer ">
                           <span className="mt-5px  xl:w-44">
                             <a
-                              href="/tiresandservices#onServicesMain"
+                              href="/tires-services#onServicesMain"
                               smooth
                               duration={1000}
                               spy
@@ -363,7 +358,10 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
-                          <Link href="/roadside-Assistance#onsiteid" passHref>
+                          <Link
+                            href="/24X7-roadside-assistance#onsiteid"
+                            passHref
+                          >
                             <span className="mt-5px  cursor-pointer">
                               On-Site Services
                             </span>
@@ -375,7 +373,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/tiresandservices#onServicesMain"
+                            href="/tires-services#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -392,7 +390,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/tiresandservices#onServicesMain"
+                            href="/tires-services#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -408,7 +406,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/tiresandservices#onServicesMain"
+                            href="/tires-services#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -422,7 +420,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/tiresandservices#commercialtiremain"
+                            href="/tires-services#commercialtiremain"
                             target="_blank"
                             rel="noreferrer"
                             passHref

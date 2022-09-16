@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { Speciality } from '../Components/Whatweoffer/Speciality';
 import { Services } from '../Components/Whatweoffer/Services';
 import { IndustTires } from '../Components/Whatweoffer/IndustTires';
@@ -21,6 +22,18 @@ const data = [
 
 const tiresandservices = () => (
   <div>
+    <Head>
+      <title>
+        2 Buy New Tires | Tires Services for Industrial, Earthmover, Commercial
+        Tires
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+      <meta
+        name="description"
+        content="KVL Tires offers Heavy Duty, Commercial, Retread, Tires, and solutions adapted for the challenges of your daily uses and Heavy Activities."
+      />
+    </Head>
     <HeroSection data={data[0]} />
     <CommercialTire />
     <Speciality />

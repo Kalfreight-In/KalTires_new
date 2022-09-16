@@ -1,4 +1,5 @@
 // import Head from 'next/head';
+import Head from 'next/head';
 import { AboutUs } from '../Components/Home/AboutUs';
 import BrandsComponent from '../Components/Home/BrandsComponent';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
@@ -11,9 +12,19 @@ import ContactTwo from '../Components/Home/ContactTwo';
 
 const Home = () => (
   <div>
-    {/* <Head>
-      <script async src="https://cse.google.com/cse.js?cx=a645312b2331e4b91" />;
-    </Head> */}
+    <Head>
+      <title>
+        {' '}
+        Best Quality Commercial Tires & Heavy-Duty Tires | RSA services for
+        Tires
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+      <meta
+        name="description"
+        content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
+      />
+    </Head>
     <HomeSlider />
     <BrandsComponent />
     {/* <div className="gcse-search" /> */}

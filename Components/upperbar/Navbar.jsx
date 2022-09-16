@@ -70,15 +70,15 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/tiresandservices" passHref>
+          <Link href="/tires-services" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/tiresandservices' ? 'bg-red-500' : ''
+                router.pathname === '/tires-services' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`2xl:text-lg xl:text-md  lg:text-sm  ${
-                  router.pathname === '/tiresandservices'
+                  router.pathname === '/tires-services'
                     ? 'text-white  font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -88,15 +88,17 @@ const Navbar = ({ toggle }) => {
             </div>
           </Link>
 
-          <Link href="/roadside-Assistance" passHref>
+          <Link href="/24X7-roadside-assistance" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/roadside-Assistance' ? 'bg-red-500' : ''
+                router.pathname === '/24X7-roadside-assistance'
+                  ? 'bg-red-500'
+                  : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/roadside-Assistance'
+                  router.pathname === '/24X7-roadside-assistance'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500 '
                 }  `}
@@ -105,15 +107,15 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <Link href="/location" passHref>
+          <Link href="/locations" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/location' ? 'bg-red-500' : ''
+                router.pathname === '/locations' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`2xl:text-lg xl:text-md  lg:text-sm  ${
-                  router.pathname === '/location'
+                  router.pathname === '/locations'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -122,15 +124,15 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <a href="/Credit">
+          <a href="/credit-application">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/Credit' ? 'bg-red-500' : ''
+                router.pathname === '/credit-application' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`text-black 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/Credit'
+                  router.pathname === '/credit-application'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -139,15 +141,15 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </a>
-          <Link href="/career" passHref>
+          <Link href="/careers" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/career' ? 'bg-red-500' : ''
+                router.pathname === '/careers' ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={`text-black  2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/career'
+                  router.pathname === '/careers'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}

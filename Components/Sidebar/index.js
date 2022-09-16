@@ -239,29 +239,29 @@ const Sidebar = ({ isOpen, toggle }) => {
               exact
               offset={-80}
             >
-              career
+              careers
             </Link>
           </Link> */}
           <Link href="/#AboutUs_Section" passHref onClick={toggle}>
             <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
           </Link>
-          <Link href="/tiresandservices" passHref onClick={toggle}>
+          <Link href="/tires-services" passHref onClick={toggle}>
             <SidebarLinkR onClick={toggle}>Tires & Services</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/roadside-Assistance" passHref>
+          <Link onClick={toggle} href="/24X7-roadside-assistance" passHref>
             <SidebarLinkR onClick={toggle}>Roadside Assistance</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/location" passHref>
+          <Link onClick={toggle} href="/locations" passHref>
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/Credit" passHref>
+          <Link onClick={toggle} href="/credit-application" passHref>
             <SidebarLinkR onClick={toggle}>Credit Application</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/career" passHref>
+          <Link onClick={toggle} href="/careers" passHref>
             <SidebarLinkR onClick={toggle}>Careers</SidebarLinkR>
           </Link>
           {/* <Link to="/Ecommerce">Ecommerce</Link>
-          <Link to="/career">career</Link>
+          <Link to="/careers">careers</Link>
           <Link to="/Shipfreight">Shipfreight</Link>
           <Link to="/Industries">Industries</Link>
           <Link to="/KalPower">KalPower</Link> */}
