@@ -214,7 +214,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <a
-                      href="https://kvltires.com/"
+                      href="http://kalgroup.com/"
                       target="_blank"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       rel="noreferrer"
@@ -222,7 +222,7 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="#"
+                      href="https://kalfreight.com/who-we-are/csr"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
@@ -230,7 +230,7 @@ const Footer = () => {
                       CSR
                     </a>
                     <a
-                      href="#"
+                      href="#maincontactform"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"

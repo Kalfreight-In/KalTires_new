@@ -75,7 +75,7 @@ export const HomeSliderData = [
     id: 1,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices.  ',
+    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices.',
 
     CTA1: {
       heading: 'Contact Us',

@@ -22,9 +22,9 @@ const CommercialTire = () => {
   }, [WWOtires]);
   return (
     <div id="commercialtiremain">
-      <div id="RetreadTire">
-        <div id="commercemain">
-          <div id="commercemaininner">
+      <div>
+        <div>
+          <div>
             <div className="bg-black">
               <div className="lg:grid lg:grid-cols-2 2xl:pr-16 xl:pr-12 lg:pr-8">
                 <div className="lg:block hidden ">
