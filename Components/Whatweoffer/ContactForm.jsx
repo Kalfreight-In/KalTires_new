@@ -218,7 +218,7 @@ const Contactform = () => {
                   <div
                     id="submitallbutton"
                     // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                    className="lg:pl-12 md:pl-16 xl:pl-12 2xl:pl-20   md:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+                    className="lg:pl-12 md:pl-16 xl:pl-12 2xl:pl-20   md:pt-4 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
                   >
                     <div className="flex justify-center items-center">
                       <button
