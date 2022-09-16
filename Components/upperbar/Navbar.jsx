@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
         <div className="ml-8 hidden flex-row justify-start items-center cursor-pointer lg:flex">
           <Link href="/" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
+              className={`group border-solid  border-x 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/' ? 'bg-red-500' : ''
               }`}
             >

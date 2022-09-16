@@ -219,7 +219,7 @@ const location = () => {
                         handleClick(e, value.geometry.coordinates)
                       }
                     >
-                      <div className="bg-red-600 p-2 ml-6 xl:w-1/6 w-1/3 m-0">
+                      <div className="bg-red-600 p-2 ml-20 xl:w-1/6 w-1/3 m-0">
                         <h1
                           className={
                             visibilities[index]
@@ -275,8 +275,8 @@ const location = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
-                            <div className="flex flex-center flex-col pl-6">
+                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  px-20  justify-between ">
+                            <div className="flex flex-center flex-col ">
                               <div className="mb-6">
                                 <div className="font-semibold text-md">
                                   KVL Tires
@@ -338,7 +338,7 @@ const location = () => {
                   </div>
                 ))}
               </div>
-              <div className="">
+              <div>
                 {MapData2.map((value, index) => (
                   <div key={value.id} className="bg-locationGrey mb-2">
                     <Divlink
@@ -351,7 +351,7 @@ const location = () => {
                         handleClick(e, value.geometry.coordinates)
                       }
                     >
-                      <div className="bg-red-600 p-2 ml-6 xl:w-1/6 w-1/3 m-0">
+                      <div className="bg-red-600 p-2 mx-20 xl:w-1/6 w-1/3 m-0">
                         <h1
                           className={
                             visibilities[index]
@@ -407,8 +407,8 @@ const location = () => {
                     >
                       <ul>
                         {visibilities[index] ? (
-                          <div className="text-black bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
-                            <div className="flex flex-center flex-col pl-6">
+                          <div className="text-black px-20 bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
+                            <div className="flex flex-center flex-col  ">
                               <div className="mb-6">
                                 <div className="font-semibold text-md">
                                   KVL Tires

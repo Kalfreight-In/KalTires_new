@@ -99,6 +99,7 @@ const BrandsComponent = () => {
               slidesPerView={SliderComp()}
               spaceBetween={50}
               loop
+              speed={900}
               autoplay={{
                 delay: 500,
                 disableOnInteraction: false,

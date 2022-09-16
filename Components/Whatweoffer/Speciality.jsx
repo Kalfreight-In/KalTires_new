@@ -16,11 +16,11 @@ export const Speciality = () => {
             // eslint-disable-next-line operator-linebreak
             'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png)',
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
+          backgroundSize: 'contain',
         }}
       >
         <div className="bg-speciality-background">
-          <div className="lg:grid lg:grid-cols-3 items-center">
+          <div className="lg:grid lg:grid-cols-3 items-center pl-12">
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-Helvetica font-semibold lg:block text-center">
                 <span className="block">
