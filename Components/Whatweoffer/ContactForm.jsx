@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
@@ -128,7 +128,7 @@ const Contactform = () => {
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
                   <div>
-                    <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
+                    <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold text-left font-poppins">
                       BOOK AN APPOINTMENT NOW
                     </h1>
                     <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-Helvetica">
@@ -176,7 +176,8 @@ const Contactform = () => {
                 >
                   <select
                     name="servicetype"
-                    className=" block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="w-10/12 ont-Helvetica block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
                     onChange={(e) => setservice(e.target.value)}
                     type="select"
                     value={service}
@@ -185,7 +186,18 @@ const Contactform = () => {
                     <option value="service" hidden>
                       Select Service Type
                     </option>
-                    <option value="newtires">New Tires</option>
+
+                    <option
+                      value="newtires"
+                      // style={{
+                      //   textAlign: 'left',
+                      //   background: 'black',
+                      //   fontSize: '10px',
+                      // }}
+                      // className="appearance-none"
+                    >
+                      New Tires
+                    </option>
                     <option value="retreadtires">Retread Tires</option>
                     <option value="heavyduty">Heavy Duty Front End Work</option>
                     <option value="wheel">Wheel Alignment</option>
