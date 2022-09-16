@@ -84,7 +84,7 @@ const Footer = () => {
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
-                      <MdLocationPin className=" h-6 w-5 " />
+                      <MdLocationPin className=" h-6 w-5b " />
                     </a>
                   </div>
                   <div className="ml-2">
