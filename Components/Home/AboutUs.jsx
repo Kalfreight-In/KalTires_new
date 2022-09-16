@@ -62,7 +62,7 @@ export const AboutUs = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="text-neutral-500 mt-5 2xl:text-lg h-96 pr-4  overflow-y-scroll  lg:text-base text-sm  font-normal text-justify font-Helvetica scrollbar">
+                  <div className="text-neutral-500 mt-5 2xl:text-lg h-96 pr-4  overflow-y-scroll  lg:text-base text-sm  font-normal text-left font-Helvetica scrollbar">
                     Are you looking for quality tires for your fleet? Does a
                     blowout leave you stranded on your way? Are you looking for
                     24/7 roadside assistance? Are you short of time and unable
@@ -81,6 +81,8 @@ export const AboutUs = () => {
                     across the US and growing. KVL Tires offers high-quality
                     products and services to a diverse clientele at affordable
                     prices.
+                    <br />
+                    <br />
                     <p>
                       Our unparalleled range of new, used & retread tires caters
                       to the needs of all commercial vehicles. The extensive
@@ -113,7 +115,7 @@ export const AboutUs = () => {
                     </p>
                     <br />
                     {/* <p
-                      className={`text-justify mt-4 block font-Helvetica Transition-Height-${
+                      className={`text-left mt-4 block font-Helvetica Transition-Height-${
                         ShowMoreAboutUS ? 'in' : 'out'
                       }`}
                     >

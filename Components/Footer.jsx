@@ -232,11 +232,16 @@ const Footer = () => {
                     <Slink
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                       rel="noreferrer"
+<<<<<<< HEAD
                       to="maincontactform"
                       spy
                       smooth
                       hashSpy
                       offset={-80}
+=======
+                      passHref
+
+>>>>>>> 6f93cedfcfb3bf05078114a8f2d7ea88ac0839b3
                       // scroll={false}
                     >
                       Contact Us

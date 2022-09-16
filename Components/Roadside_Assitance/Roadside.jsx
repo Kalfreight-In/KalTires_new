@@ -19,7 +19,7 @@ const Roadside = () => (
           </div>
           <div className="absolute md:relative lg:my-12 lg:pl-12 z-0 md:px-0 mx-8">
             <Image
-              className="lg:absolute lg:inset-0 h-60 w-full  lg:h-full object-cover object-center lg:rounded-tl-md  "
+              className="lg:absolute lg:inset-0 h-60 w-full  lg:h-full object-cover object-center  "
               src={servicetruck}
               alt="servicetruck"
             />
@@ -34,7 +34,7 @@ const Roadside = () => (
                   </span>
                 </span>
               </h2>
-              <p className="text-black md:mt-5 mt-72 font-Helvetica text-justify">
+              <p className="text-black md:mt-5 mt-72 font-Helvetica text-left">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
                 roadside assistance. We provide 24-hours breakdown services to

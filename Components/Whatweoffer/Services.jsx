@@ -84,7 +84,7 @@ export const Services = () => {
                 //         </h1>
                 //       </div>
                 //       <div id="lightdesc" className="pt-2">
-                //         <p className="text-justify px-6 text-white font-Helvetica">
+                //         <p className="text-left px-6 text-white font-Helvetica">
                 //           {lightboxData.desc}
                 //         </p>
                 //       </div>
@@ -173,7 +173,7 @@ export const Services = () => {
                             </h1>
                           </div>
                           <div id="lightdesc" className="pt-2">
-                            <p className="text-justify px-6 text-white font-Helvetica">
+                            <p className="text-left px-6 text-white font-Helvetica">
                               {lightboxData.desc}
                             </p>
                           </div>

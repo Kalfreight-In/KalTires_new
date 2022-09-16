@@ -34,8 +34,8 @@ export const Ykvl = () => {
                 id="secondboxykvl"
                 className={
                   isMobile
-                    ? 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-4 pl-8 text-justify font-Helvetica'
-                    : 'text-ykvldesc  border-l-2 border-kaltire-red pr-16 pl-8 font-Helvetica text-justify tracking-wide'
+                    ? 'text-ykvldesc text-xl border-l-2 border-kaltire-red pr-4 pl-8 text-left font-Helvetica'
+                    : 'text-ykvldesc  border-l-2 border-kaltire-red pr-16 pl-8 font-Helvetica text-left tracking-wide'
                 }
               >
                 {thisdata.desc}

@@ -132,7 +132,7 @@ const Contactform = () => {
                       <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold text-left font-poppins">
                         BOOK AN APPOINTMENT NOW
                       </h1>
-                      <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-Helvetica">
+                      <p className="text-white pt-4  text-left lg:pr-0 mr-16 font-Helvetica px-2">
                         Let’s grow your business together. Please provide your
                         details, and a KVL Tire expert will get in touch with
                         you shortly.{' '}
@@ -147,7 +147,7 @@ const Contactform = () => {
                   >
                     <input
                       onChange={(e) => setName(e.target.value)}
-                      className="appearance-none font-Helvetica font-medium block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                      className="appearance-none  font-medium block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                       id="grid-first-name"
                       type="text"
                       value={name}
@@ -161,7 +161,7 @@ const Contactform = () => {
                   >
                     <input
                       onChange={(e) => setEmail(e.target.value)}
-                      className="appearance-none font-medium block font-Helvetica w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                      className="appearance-none font-medium block  w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                       id="emailValidate"
                       type="email"
                       value={email}
@@ -177,7 +177,7 @@ const Contactform = () => {
                     <select
                       name="servicetype"
                       // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                      className="w-10/12 ont-Helvetica block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
+                      className="w-10/12  block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
                       onChange={(e) => setservice(e.target.value)}
                       type="select"
                       value={service}
@@ -205,7 +205,7 @@ const Contactform = () => {
                   >
                     <input
                       onChange={(e) => setMessage(e.target.value)}
-                      className="appearance-none font-medium font-Helvetica block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                      className="appearance-none font-medium block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                       id="grid-first-name"
                       type="text"
                       value={message}
