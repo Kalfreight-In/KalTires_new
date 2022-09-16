@@ -18,7 +18,7 @@ export const SubResume = () => (
               className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-4 w-full inline-flex justify-center items-center rounded-md"
               type="button"
             >
-              <span className="ml-2 text-xl font-poppins">
+              <span className=" text-xl text-center font-poppins">
                 SUBMIT YOUR RESUME
               </span>
               <input
