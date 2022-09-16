@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SubResume = () => (
   <div id="Mainresumecontainer">
-    <div id="innermainresumecontainer" className="py-16">
+    <div id="innermainresumecontainer" className="2xl:py-16 py-12">
       <div id="resumeallcontent">
         <div id="maincontentresume">
           <div id="innermaincontentresume" className="text-center">
