@@ -119,6 +119,9 @@ module.exports = {
         '-5': '-5',
         0: '0',
       },
+      fontSize: {
+        contactheading: '2.5rem',
+      },
     },
     // screens: {
     //   lg: { max: '1800px' },
@@ -134,9 +137,6 @@ module.exports = {
       poppins: ['Poppins', 'sans-serif'],
       cursive: [' cursive'],
     },
-    // fontSize: {
-    //   contactheading: '2.5rem',
-    // },
   },
   variants: {
     extend: {},
