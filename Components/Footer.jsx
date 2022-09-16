@@ -229,14 +229,14 @@ const Footer = () => {
                     >
                       CSR
                     </a>
-                    <a
-                      href="#maincontactform"
+                    <Link
+                      href="/#maincontactform"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
