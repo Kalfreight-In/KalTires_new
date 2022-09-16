@@ -15,7 +15,7 @@ export const Departments = () => (
         <div className="hidden md:block">
           <div id="departmentmain">
             <div className="bg-white lg:px-20 md:px-8  lg:py-12 2xl:py-16">
-              <h2 className="text-departmentheading text-4xl font-bold font-Helvetica pb-8 mt-12">
+              <h2 className="text-departmentheading text-4xl font-bold font-poppins pb-8 mt-12">
                 Our Departments
               </h2>
 
