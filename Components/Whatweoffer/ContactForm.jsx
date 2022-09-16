@@ -116,138 +116,131 @@ const Contactform = () => {
           </div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-            <div className="xl:px-3">
-              <div className="xl:text-left text-center xl:pl-2">
-                <div
-                  id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
-                >
-                  {/* <img
+            <div id="thisform">
+              <div className="xl:px-3">
+                <div className="xl:text-left text-center xl:pl-2">
+                  <div
+                    id="contactnew"
+                    className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
+                  >
+                    {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <div>
-                    <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold text-left font-poppins">
-                      BOOK AN APPOINTMENT NOW
-                    </h1>
-                    <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-Helvetica">
-                      Let’s grow your business together. Please provide your
-                      details, and a KVL Tire expert will get in touch with you
-                      shortly.{' '}
-                    </p>
+                    <div>
+                      <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold text-left font-poppins">
+                        BOOK AN APPOINTMENT NOW
+                      </h1>
+                      <p className="text-white pt-4  text-justify lg:pr-0 mr-16 font-Helvetica">
+                        Let’s grow your business together. Please provide your
+                        details, and a KVL Tire expert will get in touch with
+                        you shortly.{' '}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
-                <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-8 pt-0"
-                  id="input_placeholder"
-                >
-                  <input
-                    onChange={(e) => setName(e.target.value)}
-                    className="appearance-none font-Helvetica block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                    id="grid-first-name"
-                    type="text"
-                    value={name}
-                    placeholder="Name"
-                    required
-                  />
-                </div>
-                <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
-                  id="input_placeholder"
-                >
-                  <input
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="appearance-none block font-Helvetica w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
-                    id="emailValidate"
-                    type="email"
-                    value={email}
-                    placeholder="Email Id"
-                    required
-                    pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
-                    // title="email is required like samosa"
-                  />
-                </div>
-                <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
-                  id="input_placeholder"
-                >
-                  <select
-                    name="servicetype"
-                    // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                    className="w-10/12 ont-Helvetica block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
-                    onChange={(e) => setservice(e.target.value)}
-                    type="select"
-                    value={service}
-                    required
+                <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
+                  <div
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-8 pt-0"
+                    id="input_placeholder"
                   >
-                    <option value="service" hidden>
-                      Select Service Type
-                    </option>
-
-                    <option
-                      value="newtires"
-                      // style={{
-                      //   textAlign: 'left',
-                      //   background: 'black',
-                      //   fontSize: '10px',
-                      // }}
-                      // className="appearance-none"
-                    >
-                      New Tires
-                    </option>
-                    <option value="retreadtires">Retread Tires</option>
-                    <option value="heavyduty">Heavy Duty Front End Work</option>
-                    <option value="wheel">Wheel Alignment</option>
-                    <option value="otr">OTR Tires</option>
-                    <option value="speciality">Specialty</option>
-                    <option value="enquiry">Enquiry</option>
-                    <option value="others">Others</option>
-                  </select>
-                </div>
-                <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
-                  id="input_placeholder"
-                >
-                  <input
-                    onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none font-Helvetica block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
-                    id="grid-first-name"
-                    type="text"
-                    value={message}
-                    placeholder="Message"
-                    required
-                  />
-                </div>
-              </div>
-              <div className="flex justify-center md:justify-start">
-                <div
-                  id="submitallbutton"
-                  // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                  className="lg:pl-16 md:pl-16  md:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                >
-                  <div className="flex justify-center items-center">
-                    <button
-                      className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
-                      type="submit"
-                      id="submitmain"
-                    >
-                      {buttonText}
-                    </button>
+                    <input
+                      onChange={(e) => setName(e.target.value)}
+                      className="appearance-none font-Helvetica font-medium block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                      id="grid-first-name"
+                      type="text"
+                      value={name}
+                      placeholder="Name"
+                      required
+                    />
                   </div>
+                  <div
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                    id="input_placeholder"
+                  >
+                    <input
+                      onChange={(e) => setEmail(e.target.value)}
+                      className="appearance-none font-medium block font-Helvetica w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                      id="emailValidate"
+                      type="email"
+                      value={email}
+                      placeholder="Email Id"
+                      required
+                      pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                    />
+                  </div>
+                  <div
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                    id="input_placeholder"
+                  >
+                    <select
+                      name="servicetype"
+                      // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                      className="w-10/12 ont-Helvetica block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
+                      onChange={(e) => setservice(e.target.value)}
+                      type="select"
+                      value={service}
+                      required
+                    >
+                      <option value="service" hidden>
+                        Select Service Type
+                      </option>
 
-                  <div>
-                    <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
-                      Or call us now at &nbsp;
-                      <a
-                        href="tel:8008080025"
-                        className="cursor-pointer font-bold font-Helvetica"
+                      <option value="newtires">New Tires</option>
+                      <option value="retreadtires">Retread Tires</option>
+                      <option value="heavyduty">
+                        Heavy Duty Front End Work
+                      </option>
+                      <option value="wheel">Wheel Alignment</option>
+                      <option value="otr">OTR Tires</option>
+                      <option value="speciality">Specialty</option>
+                      <option value="enquiry">Enquiry</option>
+                      <option value="others">Others</option>
+                    </select>
+                  </div>
+                  <div
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                    id="input_placeholder"
+                  >
+                    <input
+                      onChange={(e) => setMessage(e.target.value)}
+                      className="appearance-none font-medium font-Helvetica block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                      id="grid-first-name"
+                      type="text"
+                      value={message}
+                      placeholder="Message"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-center md:justify-start">
+                  <div
+                    id="submitallbutton"
+                    // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+                    className="lg:pl-12 md:pl-16 xl:pl-12 2xl:pl-20   md:pt-0 2xl:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+                  >
+                    <div className="flex justify-center items-center">
+                      <button
+                        className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
+                        type="submit"
+                        id="submitmain"
                       >
-                        800-808 0025
-                      </a>
-                    </p>
+                        {buttonText}
+                      </button>
+                    </div>
+
+                    <div>
+                      <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
+                        Or call us now at &nbsp;
+                        <a
+                          href="tel:8008080025"
+                          className="cursor-pointer font-bold font-Helvetica"
+                        >
+                          800-808 0025
+                        </a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
