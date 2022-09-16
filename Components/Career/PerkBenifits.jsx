@@ -16,7 +16,7 @@ export const PerkBenifits = () => {
       <div id="Perkmaininner">
         <div id="Perkmaingrid" className="pb-8 ">
           <div className="lg:block hidden">
-            <h3 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-Helvetica">
+            <h3 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-poppins">
               Perks & Benefits
             </h3>
             <div
