@@ -279,7 +279,7 @@ const location = () => {
                             <div className="flex flex-center flex-col pl-6">
                               <div className="mb-6">
                                 <div className="font-semibold text-md">
-                                  KVL Tires, KAL Partz, KAL Freight English Ave
+                                  KVL Tires
                                 </div>
                                 <div className=" font-light text-md">
                                   {`${toTitleCase(
