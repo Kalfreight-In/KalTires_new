@@ -46,11 +46,8 @@ export const IndustTires = () => {
                         className="flex justify-center items-center"
                       >
                         {IndustrialTiresdatan.map((indust) => (
-                          <SwiperSlide key={indust}>
-                            <div
-                              className="flex justify-center items-center"
-                              key={indust.id}
-                            >
+                          <SwiperSlide key={indust.id}>
+                            <div className="flex justify-center items-center">
                               <div className="flex flex-col justify-center">
                                 <div className="lg:relative  self-start">
                                   <Image

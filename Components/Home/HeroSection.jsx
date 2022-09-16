@@ -60,7 +60,7 @@ const HeroSection = ({ data }) => (
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="lg:text-xl text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2">
+                  <div className="lg:text-xl text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2 lg:pr-28 pr-0">
                     {data.desc}
                   </div>
                 </motion.div>
@@ -86,14 +86,10 @@ const HeroSection = ({ data }) => (
                   <motion.button
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
+                    type="button"
+                    className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
                   >
-                    {' '}
-                    <button
-                      type="button"
-                      className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
-                    >
-                      <p>{data.CTA1.heading}</p>
-                    </button>
+                    <p>{data.CTA1.heading}</p>
                   </motion.button>
                 </Link>
               </div>

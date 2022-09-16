@@ -52,11 +52,7 @@ const Footer = () => {
 
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
                   <div className="mt-11">
-                    <a
-                      href="mailto:info@kvltires.com target="
-                      _blank
-                      rel="noreferrer"
-                    >
+                    <a href="mailto:info@kvltires.com target=" rel="noreferrer">
                       <IoMdMail className="h-8 w-6  " />
                     </a>
                   </div>
