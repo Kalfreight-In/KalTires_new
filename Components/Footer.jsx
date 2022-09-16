@@ -126,7 +126,6 @@ const Footer = () => {
                     <h1 className="text-lg font-bold xl:text-left text-center ">
                       Inventory
                     </h1>
-                    f
                   </div>
 
                   <div
