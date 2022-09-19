@@ -535,7 +535,7 @@ const Footer = () => {
                             '_blank'
                           )
                         }
-                        className="text-white hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                        className="text-white hover:text-linkdenfooterhover   h-8 w-8 ml-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                       />
                     </div>
                   </div>
