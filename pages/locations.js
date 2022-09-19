@@ -294,7 +294,7 @@ const location = () => {
                                   <div className="font-semibold text-md">
                                     KVL Tires
                                   </div>
-                                  <div className=" font-light text-md">
+                                  <div className=" font-normal text-md">
                                     {`${toTitleCase(
                                       value.properties.Address
                                     )}${', '} ${value.properties.ZipCode} ${
@@ -302,7 +302,7 @@ const location = () => {
                                     } ${value.properties.State}`}
                                   </div>
                                   {value.properties.Manager ? (
-                                    <div className=" font-light text-md">
+                                    <div className=" font-normal text-md">
                                       Manager:{' '}
                                       {toTitleCase(value.properties.Manager)}
                                     </div>
@@ -310,11 +310,11 @@ const location = () => {
                                 </div>
                                 {value.properties.Phone ? (
                                   <div className="pb-2">
-                                    <div className=" font-light text-md flex flex-row items-center ">
+                                    <div className=" font-normal text-md flex flex-row items-center ">
                                       <RiPhoneFill className="mr-4" />
                                       {value.properties.Phone}
                                     </div>
-                                    <div className=" font-light text-md flex flex-row items-center ">
+                                    <div className=" font-normal text-md flex flex-row items-center ">
                                       <MdEmail className="mr-4" />
                                       {value.properties.Email}
                                     </div>
@@ -420,19 +420,19 @@ const location = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black px-20 bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
+                            <div className="text-neutral-500  px-20 bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
                               <div className="flex flex-center flex-col  ">
                                 <div className="mb-6">
                                   <div className="font-semibold text-md">
                                     KVL Tires
                                   </div>
-                                  <div className=" font-light text-md">
+                                  <div className=" font-normal text-md">
                                     {`${toTitleCase(
                                       value.properties.Address
                                     )}${', '} ${value.properties.ZipCode}`}
                                   </div>
                                   {value.properties.Manager ? (
-                                    <div className=" font-light text-md">
+                                    <div className=" font-normal text-md">
                                       Manager:{' '}
                                       {toTitleCase(value.properties.Manager)}
                                     </div>
@@ -440,11 +440,11 @@ const location = () => {
                                 </div>
                                 {value.properties.Phone ? (
                                   <div className="pb-2">
-                                    <div className=" font-light text-md flex flex-row items-center ">
+                                    <div className=" font-normal text-md flex flex-row items-center ">
                                       <RiPhoneFill className="mr-4" />
                                       {value.properties.Phone}
                                     </div>
-                                    <div className=" font-light text-md flex flex-row items-center ">
+                                    <div className=" font-normal text-md flex flex-row items-center ">
                                       <MdEmail className="mr-4" />
                                       {value.properties.Email}
                                     </div>
@@ -452,7 +452,7 @@ const location = () => {
                                 ) : null}
                               </div>
                               <div className="lg:flex flex-center flex-col lg:w-1/4 hidden">
-                                <span className="text-black font-semibold text-lg">
+                                <span className="text-neutral-500 font-semibold text-lg">
                                   Hours
                                 </span>
                                 <div>

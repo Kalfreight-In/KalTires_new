@@ -313,7 +313,7 @@ const Footer = () => {
                       >
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           {' '}
-                          Brands we offer
+                          Brands We Offer
                         </span>
                       </Link>
                     </div>
@@ -425,7 +425,7 @@ const Footer = () => {
                         </span>
                       </div>
                     </div>
-                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
+                    {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
@@ -438,7 +438,7 @@ const Footer = () => {
                           </Link>
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
@@ -464,7 +464,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="  xl:flex-auto flex-0 xl:w-1/12 hidden xl:flex md:justify-end justify-center mr-12  ">
+            <div className="  xl:flex-auto flex-0 xl:w-1/12 hidden xl:flex md:justify-end justify-center mr-20  ">
               <div>
                 <div
                   className="text-white cursor-pointer"
