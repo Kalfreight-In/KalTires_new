@@ -117,7 +117,7 @@ const Contactform = () => {
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
             <div id="thisform">
-              <div className="xl:px-3">
+              <div className="xl:px-3 lg:ml-6 2xl:ml-3">
                 <div className="xl:text-left text-center xl:pl-2">
                   <div
                     id="contactnew"
