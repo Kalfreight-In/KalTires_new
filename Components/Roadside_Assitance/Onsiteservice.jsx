@@ -18,7 +18,7 @@ const Onsiteservice = () => {
           <div>
             <div
               id="grid"
-              className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-4 2xl:px-16"
+              className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-20"
             >
               {OnsiteGriddata.map((index) => (
                 <div className="bg-bg-white-1 text-center" key={index.id}>
