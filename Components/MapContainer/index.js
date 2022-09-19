@@ -481,7 +481,7 @@ export const MapConatiner = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black h-4  2xl:text-lg xl:text-md block lg:text-md md:text-sm mb-2 ">
+                            <div className="text-neutral-500 h-4   block lg:text-lg mb-2 ">
                               {' '}
                               {toTitleCase(value.properties.Address)}
                             </div>
