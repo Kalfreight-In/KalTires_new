@@ -9,7 +9,7 @@ const Roadside = () => (
     <div id="roadmaininner">
       <div className="bg-bg-white-1">
         <div className="lg:grid lg:grid-cols-2">
-          <div className="lg:hidden  flex justify-center  relative  md:py-8 py-8 z-10">
+          <div className="lg:hidden  flex justify-center    md:py-8 py-8 z-10">
             <h2 className="text-4xl tracking-tight  text-black font-Helvetica font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
                 <span className="text-kaltire-red font-Helvetica">24/7</span>{' '}
@@ -17,16 +17,16 @@ const Roadside = () => (
               </span>
             </h2>
           </div>
-          <div className="absolute md:relative lg:my-12 lg:pl-12 z-0 md:px-0 mx-8">
+          <div className="  lg:my-12 lg:pl-12 z-0 md:px-0 mx-8">
             <Image
-              className="lg:absolute lg:inset-0 h-60 w-full  lg:h-full object-cover object-center  "
+              className="lg:inset-0 h-60 w-full  lg:h-full object-cover object-center  "
               src={servicetruck}
               alt="servicetruck"
             />
           </div>
           <div className="flex items-center  2xl:pt-2 ">
-            <div className="md:px-0 px-6 lg:px-0 max-w-4xl lg:max-w-3xl md:mx-12 mx-2   pt-0">
-              <h2 className="text-3xl tracking-tight  text-black font-Helvetica font-semibold hidden lg:block">
+            <div className="md:px-0 px-6 lg:px-0 md:mx-12 mx-2   pt-0">
+              <h2 className="text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
                 <span className="block font-Helvetica text-4xl">
                   <span className="text-kaltire-red font-Helvetica">24/7</span>
                   <span className="pl-4 font-Helvetica">
@@ -34,7 +34,7 @@ const Roadside = () => (
                   </span>
                 </span>
               </h2>
-              <p className="text-black md:mt-5 mt-72 font-Helvetica lg:text-left text-justify">
+              <p className="text-neutral-500 mt-5 2xl:text-lg pr-4 overflow-y-scroll lg:text-base text-sm font-normal text-left font-Helvetica ">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
                 roadside assistance. We provide 24-hours breakdown services to
