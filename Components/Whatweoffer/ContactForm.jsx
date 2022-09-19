@@ -128,7 +128,7 @@ const Contactform = () => {
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                    <div className="">
+                    <div className="2xl:ml-4">
                       <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold lg:text-left text-justify font-poppins">
                         BOOK AN APPOINTMENT NOW
                       </h1>
@@ -142,7 +142,7 @@ const Contactform = () => {
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-8 pt-0"
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-4 pt-0"
                     id="input_placeholder"
                   >
                     <input
