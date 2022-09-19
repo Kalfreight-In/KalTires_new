@@ -337,7 +337,7 @@ const Footer = () => {
                         passHref
                       >
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
-                          careers
+                          Careers
                         </span>
                       </Link>
                     </div>
