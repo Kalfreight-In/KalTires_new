@@ -96,7 +96,7 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <MdLocationPin className=" h-6 w-5b " />
+                      <MdLocationPin className=" h-6 w-5 " />
                     </a>
                   </div>
                   <div className="ml-2">
