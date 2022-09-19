@@ -278,7 +278,19 @@ const Footer = () => {
                     }`}
                   >
                     <div />
-
+                    <div>
+                      <Link
+                        href="/tires-services"
+                        target="_blank"
+                        rel="noreferrer"
+                        passHref
+                      >
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
+                          {' '}
+                          Tires & Services
+                        </span>
+                      </Link>
+                    </div>
                     <div>
                       <Link
                         href="/24X7-roadside-assistance"
@@ -304,19 +316,7 @@ const Footer = () => {
                         </span>
                       </Link>
                     </div>
-                    <div>
-                      <Link
-                        href="/#corevaluemain"
-                        target="_blank"
-                        rel="noreferrer"
-                        passHref
-                      >
-                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
-                          {' '}
-                          Brands We Offer
-                        </span>
-                      </Link>
-                    </div>
+
                     <div>
                       <Link
                         href="/credit-application"
