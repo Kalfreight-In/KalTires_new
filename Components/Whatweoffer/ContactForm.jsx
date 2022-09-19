@@ -128,7 +128,7 @@ const Contactform = () => {
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                    <div className="2xl:ml-4">
+                    <div className="2xl:ml-4 md:ml-6 xl:ml-0">
                       <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold lg:text-left text-justify font-poppins">
                         BOOK AN APPOINTMENT NOW
                       </h1>
