@@ -368,18 +368,18 @@ const Contactform = () => {
           </div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-            <div className="xl:px-3">
+            <div className="xl:px-3 lg:ml-6 2xl:ml-0">
               <div className="xl:text-left text-center xl:pl-2">
                 <div
                   id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
+                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-8 pl-4"
                 >
                   {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <div>
+                  <div className="2xl:ml-4">
                     <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       CONTACT US
                     </h1>
