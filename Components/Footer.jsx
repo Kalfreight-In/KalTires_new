@@ -61,7 +61,7 @@ const Footer = () => {
                       Reach out to us
                     </div>
                     <a href="mailto:info@kvltires.com">
-                      <div className=" text-md ml-2 xl:ml-2   cursor-pointer">
+                      <div className=" text-sm ml-2 xl:ml-2   cursor-pointer">
                         info@kvltires.com
                       </div>
                     </a>
@@ -85,7 +85,7 @@ const Footer = () => {
                       rel="noreferrer"
                     >
                       {' '}
-                      <div className=" text-md   ">+1-800-808-0025</div>{' '}
+                      <div className=" text-sm   ">+1-800-808-0025</div>{' '}
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const Footer = () => {
                       rel="noreferrer"
                     >
                       {' '}
-                      <div className="md:text-md xl:text-md text-md   ">
+                      <div className="text-sm   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
                         92335
                       </div>{' '}
@@ -116,7 +116,7 @@ const Footer = () => {
 
                 <div className="text-white flex mb-8 xl:mb-2 mt-2">
                   <div className=" ml-0">
-                    <div className="w-full  md:ml-0  ml:-0 ">
+                    <div className="w-full  md:ml-0  ml:-0 text-sm">
                       English, ਪੰਜਾਬੀ, Español, हिन्दी, Français
                     </div>
                   </div>
@@ -329,6 +329,18 @@ const Footer = () => {
                         </span>
                       </Link>
                     </div>
+                    <div>
+                      <Link
+                        href="/careers"
+                        target="_blank"
+                        rel="noreferrer"
+                        passHref
+                      >
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
+                          Careers
+                        </span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
                 <div className="2xl:flex-1 flex-1 block xl:block mt-4 sm:mt-0 ">
@@ -360,7 +372,7 @@ const Footer = () => {
                               duration={1000}
                               offset={-80}
                             >
-                              Pick up & Delivery Service
+                              Pick up & Delivery Services
                             </a>
                           </span>
                         </span>

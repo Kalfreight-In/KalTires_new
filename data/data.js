@@ -709,7 +709,7 @@ export const Servicesdata = [
   {
     id: 3,
     img: threes,
-    heading: 'Pick Up & Delivery Services',
+    heading: 'Pick up & Delivery Servicess',
   },
   {
     id: 4,
