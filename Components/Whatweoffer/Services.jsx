@@ -48,7 +48,7 @@ export const Services = () => {
         <div id="onServicesMain">
           <div
             id="onsitemaininner"
-            className="bg-black 2xl:px-56 lg:px-16 lg:py-12 2xl:py-16 "
+            className="bg-black lg:px-20 px-2 "
             style={{
               backgroundImage:
                 // eslint-disable-next-line operator-linebreak
@@ -98,9 +98,9 @@ export const Services = () => {
               >
                 {Servicesdata.map((data) => (
                   <a
-                    className="bg-kaltire-red  text-center text-white border-white hover:border cursor-pointer"
+                    className="bg-kaltire-red   text-center text-white border-white hover:border cursor-pointer"
                     key={data.id}
-                    href="tel:+1-800-808-0025"
+                    href="tel:800-808-0025"
                     // onClick={() => {
                     //   UpdateLightbox(data);
                     // }}
