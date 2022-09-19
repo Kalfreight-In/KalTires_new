@@ -329,6 +329,18 @@ const Footer = () => {
                         </span>
                       </Link>
                     </div>
+                    <div>
+                      <Link
+                        href="/careers"
+                        target="_blank"
+                        rel="noreferrer"
+                        passHref
+                      >
+                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
+                          careers
+                        </span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
                 <div className="2xl:flex-1 flex-1 block xl:block mt-4 sm:mt-0 ">
