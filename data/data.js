@@ -144,7 +144,7 @@ export const BrandCompnentHeader = [
   {
     id: 7,
     imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/cooperTirelogo.png',
     heading: 'cooper-logo',
   },
   {
