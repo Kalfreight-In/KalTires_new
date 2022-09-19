@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
@@ -67,7 +67,7 @@ const Contactform = () => {
     <div id="maincontactform" className="justify-between lg:flex">
       <div
         id="shadow"
-        className="md:p-0 p-4 bg-red-600"
+        className="md:p-0 p-4 bg-red-600 2xl:w-1/2 xl:w-9/12"
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
@@ -144,7 +144,7 @@ const Contactform = () => {
               </div>
               <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
                 <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-2 pt-0"
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   <input
