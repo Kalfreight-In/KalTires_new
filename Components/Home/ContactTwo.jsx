@@ -144,7 +144,7 @@ const Contactform = () => {
               </div>
               <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
                 <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-8 pt-0"
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-2 pt-0"
                   id="input_placeholder"
                 >
                   <input
