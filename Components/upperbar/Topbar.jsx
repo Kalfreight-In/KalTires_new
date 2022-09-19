@@ -45,20 +45,20 @@ const Topbar = ({ toggle }) => {
           </div> */}
           <div
             className="text-white flex-1 justify-end hidden lg:flex "
-            href="tel:800-808-0025"
+            href="tel:+1-800-808-0025"
           >
             <a
-              href="tel:800-808-0025"
+              href="tel:+1-800-808-0025"
               className="pr-2 flex flexCenter cursor-pointer"
             >
               <Image src={call} alt="call" objectFit="contain" height={30} />
 
               {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
             </a>
-            <a href="tel:800-808-0025" className="cursor-pointer pr-16">
+            <a href="tel:+1-800-808-0025" className="cursor-pointer pr-16">
               <div>
                 <div className="font-bold">Toll Free</div>
-                <div className=""> 800-808-0025</div>
+                <div className="">+1-800-808-0025</div>
               </div>
             </a>
           </div>

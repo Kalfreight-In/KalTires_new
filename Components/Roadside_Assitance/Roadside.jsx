@@ -42,9 +42,9 @@ const Roadside = () => (
                 we can effectively service most, if not all, of your emergency
                 needs throughout North America. So next time, instead of
                 searching for ‘roadside assistance near me’, call our 24/7/365
-                service center at 800-808-0025. Our trained & knowledgeable
+                service center at+1-800-808-0025. Our trained & knowledgeable
                 staff are always ready to answer your service calls.
-                {/* Dial  800-808-0025 */}
+                {/* Dial +1-800-808-0025 */}
               </p>
               {/* <div className="inline-block py-3">
                 <p className="pt-2">
@@ -89,8 +89,12 @@ const Roadside = () => (
                   </div>
                   <div id="Hotline-second">
                     <h1 className="font-bold font-Helvetica">Toll Free</h1>
-                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
-                      <p className="font-Helvetica">800-808-0025</p>
+                    <a
+                      href="tel:+1-800-808-0025"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <p className="font-Helvetica">+1-800-808-0025</p>
                     </a>
                   </div>
                 </div>
