@@ -25,7 +25,7 @@ const tiresandservices = () => (
   <div>
     <Head>
       <title>
-        2 Buy New Tires | Tires Services for Industrial, Earthmover, Commercial
+        Buy New Tires | Tires Services for Industrial, Earthmover, Commercial
         Tires
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
