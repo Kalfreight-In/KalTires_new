@@ -715,7 +715,7 @@ export const Servicesdata = [
     id: 4,
     img: fours,
     heading: '24x7 Roadside Assistance',
-    desc: 'You can’t schedule a blowout! A flat tire or a minor mechanical default can bring your vehicle to a halt. To save you from such hassles, you need a reliable service provider to get back on the road. Call KVL Tires at+1-800-808-0025. Sunset or sunrise, connect with our roadside assistance expert for quick help 24/7/365 days a year. Keep all your worries aside and drive away with pride.',
+    desc: 'You can’t schedule a blowout! A flat tire or a minor mechanical default can bring your vehicle to a halt. To save you from such hassles, you need a reliable service provider to get back on the road. Call KVL Tires at +1-800-808-0025. Sunset or sunrise, connect with our roadside assistance expert for quick help 24/7/365 days a year. Keep all your worries aside and drive away with pride.',
   },
   {
     id: 5,
