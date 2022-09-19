@@ -61,7 +61,7 @@ const Footer = () => {
                       Reach out to us
                     </div>
                     <a href="mailto:info@kvltires.com">
-                      <div className=" text-md ml-2 xl:ml-2   cursor-pointer">
+                      <div className=" text-sm ml-2 xl:ml-2   cursor-pointer">
                         info@kvltires.com
                       </div>
                     </a>
@@ -85,7 +85,7 @@ const Footer = () => {
                       rel="noreferrer"
                     >
                       {' '}
-                      <div className=" text-md   ">+1-800-808-0025</div>{' '}
+                      <div className=" text-sm   ">+1-800-808-0025</div>{' '}
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const Footer = () => {
                       rel="noreferrer"
                     >
                       {' '}
-                      <div className="md:text-md xl:text-md text-md   ">
+                      <div className="text-sm   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
                         92335
                       </div>{' '}
@@ -116,7 +116,7 @@ const Footer = () => {
 
                 <div className="text-white flex mb-8 xl:mb-2 mt-2">
                   <div className=" ml-0">
-                    <div className="w-full  md:ml-0  ml:-0 ">
+                    <div className="w-full  md:ml-0  ml:-0 text-sm">
                       English, ਪੰਜਾਬੀ, Español, हिन्दी, Français
                     </div>
                   </div>
