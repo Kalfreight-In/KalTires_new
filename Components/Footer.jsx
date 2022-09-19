@@ -360,7 +360,7 @@ const Footer = () => {
                               duration={1000}
                               offset={-80}
                             >
-                              Pick up & Delivery Service
+                              Pick up & Delivery Services
                             </a>
                           </span>
                         </span>
