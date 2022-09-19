@@ -48,7 +48,7 @@ export const Services = () => {
         <div id="onServicesMain">
           <div
             id="onsitemaininner"
-            className="bg-black lg:px-20 px-2 "
+            className="bg-black lg:px-20 lg:py-12 2xl:py-16 "
             style={{
               backgroundImage:
                 // eslint-disable-next-line operator-linebreak
