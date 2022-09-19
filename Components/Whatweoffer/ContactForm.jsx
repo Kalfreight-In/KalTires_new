@@ -121,14 +121,14 @@ const Contactform = () => {
                 <div className="xl:text-left text-center xl:pl-2">
                   <div
                     id="contactnew"
-                    className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-12 pl-4"
+                    className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-8 pl-4"
                   >
                     {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                    <div>
+                    <div className="">
                       <h1 className="text-white md:text-4xl 2xl:text-5xl lg:text-contactheading text-2xl font-bold lg:text-left text-justify font-poppins">
                         BOOK AN APPOINTMENT NOW
                       </h1>
@@ -184,7 +184,7 @@ const Contactform = () => {
                       required
                     >
                       <option value="service" hidden>
-                        Select Service Type
+                        Inquiry
                       </option>
 
                       <option value="newtires">New Tires</option>
@@ -194,8 +194,8 @@ const Contactform = () => {
                       </option>
                       <option value="wheel">Wheel Alignment</option>
                       <option value="otr">OTR Tires</option>
-                      <option value="speciality">Specialty</option>
-                      <option value="enquiry">Enquiry</option>
+                      {/* <option value="speciality">Specialty</option>
+                      <option value="enquiry">Enquiry</option> */}
                       <option value="others">Others</option>
                     </select>
                   </div>
