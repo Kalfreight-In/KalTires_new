@@ -100,7 +100,7 @@ export const Services = () => {
                   <a
                     className="bg-kaltire-red  text-center text-white border-white hover:border cursor-pointer"
                     key={data.id}
-                    href="tel:800-808-0025"
+                    href="tel:+1-800-808-0025"
                     // onClick={() => {
                     //   UpdateLightbox(data);
                     // }}

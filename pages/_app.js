@@ -1,6 +1,8 @@
 // import Script from 'next/script';
 import React, { useState } from 'react';
+
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
+
 import '../styles/globals.css';
 import '../styles/Home.scss';
 import { StateContext } from '../context/StateContext';
@@ -15,6 +17,7 @@ const MyApp = ({ Component, pageProps }) => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <StateContext>
       {/* {isDesktop ? <TopUpbar /> : null} */}

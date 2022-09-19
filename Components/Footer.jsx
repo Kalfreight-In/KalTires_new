@@ -57,7 +57,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="block xl:ml-0 ">
-                    <div className="flex justify-start text-lg mb-4 items-start  text-left -ml-6  font-medium">
+                    <div className="flex justify-start text-lg mb-4 items-start  text-left -ml-5  font-medium">
                       Reach out to us
                     </div>
                     <a href="mailto:info@kvltires.com">
@@ -70,25 +70,41 @@ const Footer = () => {
 
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
-                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
+                    <a
+                      href="tel:+1-800-808-0025"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <MdPhone className="h-6 w-5" />
                     </a>
                   </div>
                   <div className="ml-2 flex flexcenter">
-                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
+                    <a
+                      href="tel:+1-800-808-0025"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       {' '}
-                      <div className=" text-md   ">800-808-0025</div>{' '}
+                      <div className=" text-md   ">+1-800-808-0025</div>{' '}
                     </a>
                   </div>
                 </div>
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
-                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
+                    <a
+                      href="tel:+1-800-808-0025"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <MdLocationPin className=" h-6 w-5b " />
                     </a>
                   </div>
                   <div className="ml-2">
-                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
+                    <a
+                      href="tel:+1-800-808-0025"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       {' '}
                       <div className="md:text-md xl:text-md text-md   ">
                         Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
@@ -129,7 +145,7 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/tires-services#commercialtiremain" passHref>
+                    <Link href="/tires-services#tire" passHref>
                       <span
                         onClick={() => {
                           setWWOtires('commerce');
@@ -166,7 +182,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#commercialtiremain"
+                      href="/tires-services#tire"
                       target="_blank"
                       rel="noreferrer"
                       passHref
@@ -233,9 +249,6 @@ const Footer = () => {
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                       rel="noreferrer"
                       to="maincontactform"
-                      spy
-                      smooth
-                      hashSpy
                       offset={-80}
                       // scroll={false}
                     >
@@ -344,9 +357,7 @@ const Footer = () => {
                           <span className="mt-5px  xl:w-44">
                             <a
                               href="/tires-services#onServicesMain"
-                              smooth
                               duration={1000}
-                              spy
                               offset={-80}
                             >
                               Pick up & Delivery Service
@@ -406,7 +417,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/tires-services#onServicesMain"
+                            href="/24X7-roadside-assistance"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -547,7 +558,7 @@ const Footer = () => {
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                     <div className="mt-2">
                       <a
-                        href="tel:800-808-0025"
+                        href="tel:+1-800-808-0025"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -561,13 +572,13 @@ const Footer = () => {
                     </div>
                     <div className="ml-4">
                       <a
-                        href="tel:800-808-0025"
+                        href="tel:+1-800-808-0025"
                         target="_blank"
                         rel="noreferrer"
                       >
                         {' '}
                         <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
-                          800-808-0025
+                          +1-800-808-0025
                         </div>{' '}
                       </a>
                     </div>

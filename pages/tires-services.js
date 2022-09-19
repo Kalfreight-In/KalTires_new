@@ -17,6 +17,7 @@ const data = [
      18+ Locations & Growing.  `,
     CTA1: { heading: 'Contact Us', link: '/#maincontactform' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
+    page: 'tire',
   },
 ];
 

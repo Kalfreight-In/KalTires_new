@@ -87,7 +87,7 @@ export const Speciality = () => {
                       </div>
                       <div id="Hotline-second">
                         <h1 className="font-bold font-Helvetica">Toll Free</h1>
-                        <p className="font-Helvetica">800-808-0025</p>
+                        <p className="font-Helvetica">+1-800-808-0025</p>
                       </div>
                     </div>
                   </a>
@@ -130,7 +130,7 @@ export const Speciality = () => {
                   </div>
                   <div id="Hotline-second font-Helvetica">
                     <h1 className="font-bold">Toll Free</h1>
-                    <p>800-808-0025</p>
+                    <p>+1-800-808-0025</p>
                   </div>
                 </div>
                 {/* <div

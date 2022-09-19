@@ -148,7 +148,6 @@ const location = () => {
     scroller.scrollTo('MapContanierElement', {
       duration: 1500,
       delay: 30,
-      smooth: true,
 
       offset: isDesktop ? 0 : 100, // Scrolls to element + 50 pixels down the page
     });
@@ -224,8 +223,6 @@ const location = () => {
                   {MapData1.map((value, index) => (
                     <div key={value.id} className="bg-locationGrey mb-2">
                       <Divlink
-                        spy
-                        smooth
                         duration={500}
                         delay={1000}
                         data-index={index}
@@ -358,8 +355,6 @@ const location = () => {
                   {MapData2.map((value, index) => (
                     <div key={value.id} className="bg-locationGrey mb-2">
                       <Divlink
-                        spy
-                        smooth
                         duration={500}
                         delay={1000}
                         data-index={index}
