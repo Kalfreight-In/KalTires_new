@@ -151,7 +151,7 @@ export const IndustTires = () => {
           }}
         >
           <div className="">
-            <div className="flex justify-center items-end xl:px-10 2xl:px-0">
+            <div className="flex justify-center items-end mx-8">
               {IndustrialTiresdatan.map((industtwo) => (
                 <div
                   className={`flex flex-col justify-between  px-2 pr-${industtwo.pr}`}
