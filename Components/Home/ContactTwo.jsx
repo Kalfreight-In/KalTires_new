@@ -119,7 +119,7 @@ const Contactform = () => {
           </div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-            <div className="xl:px-3 lg:ml-6 2xl:ml-3">
+            <div className="xl:px-4 lg:ml-6 ">
               <div className="xl:text-left text-center xl:pl-2">
                 <div
                   id="contactnew"
@@ -247,7 +247,7 @@ const Contactform = () => {
                 <div
                   id="submitallbutton"
                   // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                  className="lg:pl-12 md:pl-16 xl:pl-12 2xl:pl-20   md:pt-0 2xl:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+                  className="lg:pl-12 md:pl-16 xl:pl-12 2xl:pl-16   md:pt-0 2xl:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
                 >
                   <div className="flex justify-center items-center">
                     <button
