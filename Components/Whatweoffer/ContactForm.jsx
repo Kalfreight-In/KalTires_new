@@ -184,7 +184,7 @@ const Contactform = () => {
                       required
                     >
                       <option value="service" hidden>
-                        Inquiry
+                        Inquiry Type
                       </option>
 
                       <option value="newtires">New Tires</option>
