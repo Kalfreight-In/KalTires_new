@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
 // import { BiMessageDetail } from 'react-icons/bi';
 import blacktire from '../../Assets/Images/Whatweoffer/speciality/blacktire.png';
+import blacktiremobile from '../../Assets/Images/Whatweoffer/speciality/blacktire - Copy.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const Speciality = () => {
@@ -21,11 +22,14 @@ export const Speciality = () => {
       >
         <div className="bg-speciality-background">
           <div className="lg:grid lg:grid-cols-3 items-center lg:pl-12 lg:pr-8">
-            <div className="lg:hidden block">
+            <div className="lg:hidden block pt-6">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-Helvetica font-semibold lg:block text-center">
                 <span className="block">
-                  <span className="border-b-2 border-red-600 px-4 font-poppins">
-                    Specialty Tires
+                  <span className=" px-4 font-poppins ">
+                    {' '}
+                    <span className="border-b-2 border-red-600">
+                      Specialty Tires
+                    </span>{' '}
                   </span>
                 </span>
               </h2>
@@ -34,7 +38,7 @@ export const Speciality = () => {
               <div className="lg:relative lg:mt-4 flex justify-center md:pr-0">
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
-                  src={blacktire}
+                  src={blacktiremobile}
                   alt="tires"
                 />
               </div>
