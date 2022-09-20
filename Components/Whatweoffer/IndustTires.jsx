@@ -150,16 +150,16 @@ export const IndustTires = () => {
             backgroundSize: 'cover',
           }}
         >
-          <div className="xl:px-10 2xl:px-0">
-            <div className="flex justify-center items-end">
+          <div className="">
+            <div className="flex justify-center items-end xl:px-10 2xl:px-0">
               {IndustrialTiresdatan.map((industtwo) => (
                 <div
-                  className={`flex flex-col justify-between px-2 pr-${industtwo.pr}`}
+                  className={`flex flex-col justify-between  px-2 pr-${industtwo.pr}`}
                   key={industtwo.id}
                 >
-                  <div className="lg:relative  self-start ">
+                  <div className="lg:relative  self-start  ">
                     <Image
-                      className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md  "
+                      className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                       src={industtwo.img}
                       alt="tires"
                     />
