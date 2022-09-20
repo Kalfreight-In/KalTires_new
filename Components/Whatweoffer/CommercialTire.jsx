@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
-
+import { motion } from 'framer-motion';
 import { CommercialTireone, CommercialTiretwo } from '../../data/data';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { useStateContext } from '../../context/StateContext';
@@ -28,62 +28,86 @@ const CommercialTire = () => {
             <div className="bg-black">
               <div className="lg:grid lg:grid-cols-2 2xl:pr-16 xl:pr-12 lg:pr-8">
                 <div className="lg:block hidden ">
-                  <div className="lg:relative self-start">
-                    {alldata ? (
-                      <Image
-                        className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
-                        src={alldata.mainimage}
-                        alt="tires"
-                      />
-                    ) : null}
-                  </div>
+                  <motion.div
+                    initial={{ x: -100, opacity: 0.5 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <div className="lg:relative self-start">
+                      {alldata ? (
+                        <Image
+                          className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
+                          src={alldata.mainimage}
+                          alt="tires"
+                        />
+                      ) : null}
+                    </div>
+                  </motion.div>
                 </div>
                 <div className="flex flex-col-reverse lg:block lg:pl-8">
                   <div className="lg:hidden block  ">
-                    <div className="lg:relative lg:mt-4 self-start">
-                      <Image
-                        className="lg:absolute lg:inset-0  lg:h-full object-cover object-center lg:rounded-tl-md  "
-                        src={alldata.mainimagetab}
-                        alt="tires"
-                      />
-                    </div>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.5 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 2 }}
+                    >
+                      <div className="lg:relative lg:mt-4 self-start">
+                        <Image
+                          className="lg:absolute lg:inset-0  lg:h-full object-cover object-center lg:rounded-tl-md  "
+                          src={alldata.mainimagetab}
+                          alt="tires"
+                        />
+                      </div>
+                    </motion.div>
                   </div>
                   <div className="lg:py-2 md:px-10 px-6 lg:px-0 md:max-w-3xl lg:max-w-5xl max-w-sm  mx-auto col-span-2  text-center lg:text-left mt-16  ">
                     <h1 className="text-white font-poppins text-4xl font-bold">
                       {alldata.Heading}
                     </h1>
                     <div id="combuttons" className="mt-12">
-                      <span className="">
-                        <button
-                          type="button"
-                          className={` mr-2 text-center focus:border-b-2 font-bold font-Helvetica  border-white  ${
-                            alldata.Heading === 'Retread Tires'
-                              ? 'text-kaltire-red border-white border-b-2 font-Helvetica'
-                              : 'text-white font-Helvetica'
-                          }  transition-all duration-100 delay-75 cursor-pointer  font-poppins focus:text-kaltire-red`}
-                          onClick={() => setalldata(CommercialTireone[0])}
-                        >
-                          {alldata.titleone}
-                        </button>
-                      </span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <span className="">
-                        <button
-                          type="button"
-                          className={`mr-2 font-bold ${
-                            alldata.Heading === 'Commercial Tires'
-                              ? 'text-kaltire-red border-white border-b-2 font-Helvetica '
-                              : 'text-white font-Helvetica'
-                          }font-bold text-center focus:border-b-2 font-poppins  border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red `}
-                          onClick={() => setalldata(CommercialTiretwo[0])}
-                        >
-                          {alldata.titletwo}
-                        </button>
-                      </span>
+                      <motion.div
+                        initial={{ y: 100, opacity: 0.4 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.4 }}
+                      >
+                        <span className="">
+                          <button
+                            type="button"
+                            className={` mr-2 text-center focus:border-b-2 font-bold font-Helvetica  border-white  ${
+                              alldata.Heading === 'Retread Tires'
+                                ? 'text-kaltire-red border-white border-b-2 font-Helvetica'
+                                : 'text-white font-Helvetica'
+                            }  transition-all duration-100 delay-75 cursor-pointer  font-poppins focus:text-kaltire-red`}
+                            onClick={() => setalldata(CommercialTireone[0])}
+                          >
+                            {alldata.titleone}
+                          </button>
+                        </span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span className="">
+                          <button
+                            type="button"
+                            className={`mr-2 font-bold ${
+                              alldata.Heading === 'Commercial Tires'
+                                ? 'text-kaltire-red border-white border-b-2 font-Helvetica '
+                                : 'text-white font-Helvetica'
+                            }font-bold text-center focus:border-b-2 font-poppins  border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red `}
+                            onClick={() => setalldata(CommercialTiretwo[0])}
+                          >
+                            {alldata.titletwo}
+                          </button>
+                        </span>
+                      </motion.div>
                     </div>
-                    <p className="text-white mt-5 lg:text-left text-justify font-Helvetica">
-                      {alldata.desc}
-                    </p>
+                    <motion.div
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      <p className="text-white mt-5 lg:text-left text-justify font-Helvetica">
+                        {alldata.desc}
+                      </p>
+                    </motion.div>
                     <Swiper
                       modules={[Pagination, Autoplay]}
                       loop

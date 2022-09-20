@@ -318,7 +318,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                      <Link
+                      <a
                         href="/credit-application"
                         target="_blank"
                         rel="noreferrer"
@@ -327,15 +327,10 @@ const Footer = () => {
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Credit Application
                         </span>
-                      </Link>
+                      </a>
                     </div>
                     <div>
-                      <Link
-                        href="/careers"
-                        target="_blank"
-                        rel="noreferrer"
-                        passHref
-                      >
+                      <Link href="/careers" rel="noreferrer" passHref>
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Careers
                         </span>
