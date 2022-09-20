@@ -12,8 +12,8 @@ const Roadside = () => (
           <div className="lg:hidden  flex justify-center    md:py-8 py-8 z-10">
             <h2 className="text-4xl tracking-tight  text-black font-Helvetica font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
-                <span className="text-kaltire-red font-Helvetica">24/7</span>{' '}
-                <span className="font-Helvetica">ROADSIDE ASSISTANCE</span>
+                <span className="text-kaltire-red font-poppins">24/7</span>{' '}
+                <span className="font-poppins">ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
           </div>
