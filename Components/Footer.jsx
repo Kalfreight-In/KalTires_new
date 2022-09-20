@@ -615,7 +615,7 @@ const Footer = () => {
                     }}
                   >
                     <h1 className=" md:font-semibold   xl:text-left text-center text-Description   text-lg md:ml-0 pl-0  ">
-                      For latest news & updates
+                      Subscribe for latest updates
                     </h1>
                   </div>
 
