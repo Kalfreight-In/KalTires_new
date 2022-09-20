@@ -37,7 +37,7 @@ const Roadside = () => (
               <p className="text-neutral-500 mt-5 2xl:text-lg pr-4 lg:text-base text-sm font-normal text-left font-Helvetica ">
                 We understand how much you depend on your vehicle. So, if you
                 ever encounter a sudden blowout, get in touch with us for quick
-                roadside assistance. We provide 24-hours breakdown services to
+                roadside assistance. We provide 24-hour breakdown services to
                 everyone in need. With strategically located service facilities,
                 we can effectively service most, if not all, of your emergency
                 needs throughout North America. So next time, instead of
