@@ -150,7 +150,7 @@ export const IndustTires = () => {
             backgroundSize: 'cover',
           }}
         >
-          <div className="">
+          <div className="xl:px-10 2xl:px-0">
             <div className="flex justify-center items-end">
               {IndustrialTiresdatan.map((industtwo) => (
                 <div
