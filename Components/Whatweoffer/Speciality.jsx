@@ -51,7 +51,7 @@ export const Speciality = () => {
                   </span>
                 </span>
               </h2>
-              <p className="text-neutral-500  mt-5   lg:text-left text-justify font-Helvetica lg:px-0 px-6 md:px-24">
+              <p className="xl:text-lg md:text-base text-neutral-500  mt-5   lg:text-left text-justify font-Helvetica lg:px-0 px-6 md:px-24">
                 We strive to provide the best quality tire for the application
                 suitable to your operation. The industrial sector performs
                 loading, excavating, and lifting material, increasing the need
