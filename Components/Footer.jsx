@@ -245,15 +245,15 @@ const Footer = () => {
                     >
                       CSR
                     </a>
-                    <Slink
+                    <Link
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                       rel="noreferrer"
-                      to="maincontactform"
-                      offset={-80}
+                      href="/#maincontactform"
+                      // offset={-80}
                       // scroll={false}
                     >
                       Contact Us
-                    </Slink>
+                    </Link>
                   </div>
                 </div>
 
