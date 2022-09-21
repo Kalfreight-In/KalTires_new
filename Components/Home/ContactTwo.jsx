@@ -163,11 +163,14 @@ const Contactform = () => {
                 >
                   <input
                     type="tel"
-                    // pattern="^\(\d{3}\)\s\d{3}-\d{4}$"
+                    // pattern="\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}"
+                    maxLength="11"
+                    minLength="10"
                     placeholder="Contact Number"
                     value={phone}
                     className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setPhone(e.target.value)}
+                    defaultValue="+1"
                   />
                 </div>
                 <div
@@ -224,7 +227,8 @@ const Contactform = () => {
                     type="text"
                     value={zip}
                     placeholder="ZIP Code"
-                    pattern="^\d{5}(-\d{4})?$"
+                    // pattern="^\d{5}(-\d{4})?$"
+                    maxLength="6"
                     required
                   />
                 </div>
