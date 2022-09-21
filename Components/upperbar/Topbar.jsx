@@ -22,16 +22,16 @@ const Topbar = ({ toggle }) => {
       }`}
     >
       <div className=" xl:mx-2 mx-1  flexBetween z-10   p-3 flex-row">
-        <div className=" ml-0 flex-1 flex flex-row justify-start items-center ">
-          <a href="/">
+        <div className=" ml-0 flex-1 flex flex-row justify-start items-center lg:pl-16 pl-4">
+          <Link href="/" passHrefs>
             <Image
               src={Navlogo}
               alt="place"
-              objectFit="contain"
-              className="cursor-pointer"
+              className="cursor-pointer "
               height={55}
+              width={200}
             />
-          </a>
+          </Link>
           {/* <div className="pt-2 relative ml-8 mx-auto text-gray-600 hidden lg:block">
             <input
               className="border-2 border-gray-300 bg-white h-10 px-5 pr-36 rounded-lg text-sm focus:outline-none"
