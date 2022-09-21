@@ -333,6 +333,13 @@ const location = () => {
                                   ))}
                                 </div>
                               </div>
+                              <div className="lg:hidden block flex-center flex-col lg:w-1/4 pb-2">
+                                <span className="text-black font-semibold text-lg">
+                                  Hours
+                                </span>
+                                <div>"Monday to friday: 7:30 AM - 5:00 PM"</div>
+                                <div>"Saturday & Sunday- Closed"</div>
+                              </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
                                 <img src={value.properties.bgimage} />
                                 <div className="text-right text-sm pt-2">
@@ -464,6 +471,13 @@ const location = () => {
                                     </p>
                                   ))}
                                 </div>
+                              </div>
+                              <div className="lg:hidden block flex-center flex-col lg:w-1/4 pb-2">
+                                <span className="text-black font-semibold text-lg">
+                                  Hours
+                                </span>
+                                <div>"Monday to friday: 7:30 AM - 5:00 PM"</div>
+                                <div>"Saturday & Sunday- Closed"</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
                                 <img src={value.properties.bgimage} />
