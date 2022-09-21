@@ -125,6 +125,7 @@ export const MapConatiner = () => {
 
   const [CaFeaatureCat, setCaFeaatureCat] = useState('Canada');
   const [ShowDropdown, setShowDropdown] = useState(false);
+  const [ShowDropdownCa, setShowDropdownCa] = useState(false);
   // const [isBrowser, setIsBrowser] = useState(false);
   // useEffect(() => {
   //   setIsBrowser(true);
@@ -148,9 +149,11 @@ export const MapConatiner = () => {
     if (country === 'CA') {
       console.log(`inside CA ${city}`);
       setCaFeaatureCat(city);
+      setShowDropdownCa(!ShowDropdownCa);
     } else {
       console.log(`outside CA ${city}`);
       setFeaatureCat(city);
+      setShowDropdown(!ShowDropdown);
     }
     setMapocation(coordinates);
     const index = parseInt(event.currentTarget.dataset.index, 10);
@@ -160,7 +163,6 @@ export const MapConatiner = () => {
 
     newVisibilities[index] = !newVisibilities[index];
     setVisibilities(newVisibilities);
-    setShowDropdown(!ShowDropdown);
   };
   // const [selectedPosition, setSelectedPosition] = React.useState(null);
   // const [Services, setServices] = useState(false);
@@ -494,7 +496,7 @@ export const MapConatiner = () => {
                   <>
                     <div
                       onClick={() => {
-                        setShowDropdown(!ShowDropdown);
+                        setShowDropdownCa(!ShowDropdownCa);
                       }}
                       className="group rounded-md mb-4 flex flex-row justify-between px-6 py-4  text-center border-2 bg-white text-black   transition-all duration-100 delay-75 cursor-pointer "
                     >
@@ -503,17 +505,17 @@ export const MapConatiner = () => {
                         {' '}
                         <MdKeyboardArrowDown
                           className={`transition-all duration-100${
-                            ShowDropdown ? '-rotate-180' : 'rotate-180'
+                            ShowDropdownCa ? '-rotate-180' : 'rotate-180'
                           }`}
                         />{' '}
                       </span>
                     </div>
                     <div
                       className={`Transition-Height-${
-                        ShowDropdown ? 'in' : 'out'
+                        ShowDropdownCa ? 'in' : 'out'
                       }`}
                     >
-                      {ShowDropdown ? (
+                      {ShowDropdownCa ? (
                         <div className="flex flex-col">
                           {MapData2.map((value, index) => (
                             <button

@@ -44,8 +44,8 @@ export const Services = () => {
   // }
   return (
     <>
-      <div className="hidden lg:block">
-        <div id="onServicesMain">
+      <div className="hidden lg:block" id="onServicesMain">
+        <div>
           <div
             id="onsitemaininner"
             className="bg-black lg:px-20 lg:py-12 2xl:py-16 "
