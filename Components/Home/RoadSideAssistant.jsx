@@ -47,7 +47,7 @@ const RoadSideAssistant = () => {
               className=" md:px-10 px-6 lg:px-0  lg:col-span-6  max-w-5xl col mx-auto  text-center lg:text-left lg:ml-20 lg:mr-20 ml-0"
             >
               <h2 className=" text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
-                <span className="text-red-500">24/7 </span>
+                <span className="text-kaltire-red font-Verdana">24/7 </span>
                 ROADSIDE ASSISTANCE
               </h2>
 
