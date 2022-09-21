@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/Io';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
@@ -16,6 +17,7 @@ const Contactform = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
+  const [select, setSelect] = useState(false);
   const resetForm = (e) => {
     setName('');
     setEmail('');
@@ -171,7 +173,7 @@ const Contactform = () => {
                     />
                   </div>
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 relative"
                     id="input_placeholder"
                   >
                     <select
@@ -182,6 +184,9 @@ const Contactform = () => {
                       type="select"
                       value={service}
                       required
+                      onClick={() => {
+                        setSelect(!select);
+                      }}
                     >
                       <option value="service" hidden>
                         Inquiry Type
@@ -198,6 +203,9 @@ const Contactform = () => {
                       <option value="enquiry">Enquiry</option> */}
                       <option value="others">Others</option>
                     </select>
+                    <div className="absolute z-30 text-white font-xl right-20 ">
+                      {select ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                    </div>
                   </div>
                   <div
                     className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
