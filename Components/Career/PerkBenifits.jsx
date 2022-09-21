@@ -34,7 +34,7 @@ export const PerkBenifits = () => {
                     </div>
                   </div>
 
-                  <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8 text-red-600">
+                  <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8 text-black">
                     {index.Heading}
                   </h3>
                   <p className="pt-16 pb-8 lg:text-sm font-normal  text-left px-4 font-Helvetica text-neutral-500">
