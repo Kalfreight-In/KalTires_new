@@ -31,7 +31,7 @@ const HeroSection = ({ data }) => (
 
           <div
             className={` ml-0 ${
-              data.Heading.length > 25 ? 'lg:w-7/12' : 'lg:w-full '
+              data.Heading.length > 31 ? 'lg:w-7/12' : 'lg:w-10/12'
             }  w-full `}
           >
             <motion.div

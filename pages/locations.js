@@ -230,7 +230,7 @@ const location = () => {
                           handleClick(e, value.geometry.coordinates)
                         }
                       >
-                        <div className="bg-red-600 p-2 ml-20 xl:w-1/6 w-1/3 m-0">
+                        <div className="bg-red-600 p-2 lg:ml-20 ml-8 xl:w-1/6 w-1/3 m-0">
                           <h1
                             className={
                               visibilities[index]
@@ -290,7 +290,7 @@ const location = () => {
                           {visibilities[index] ? (
                             <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  px-20  justify-between ">
                               <div className="flex flex-center flex-col ">
-                                <div className="mb-6">
+                                <div className="mb-2">
                                   <div className="font-semibold text-md">
                                     KVL Tires
                                   </div>
@@ -362,7 +362,7 @@ const location = () => {
                           handleClick(e, value.geometry.coordinates)
                         }
                       >
-                        <div className="bg-red-600 p-2 mx-20 xl:w-1/6 w-1/3 m-0">
+                        <div className="bg-red-600 p-2 lg:ml-20 ml-8 xl:w-1/6 w-1/3 m-0">
                           <h1
                             className={
                               visibilities[index]
@@ -420,16 +420,18 @@ const location = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-neutral-500  px-20 bg-white flex flex-center lg:flex-row flex-col p-2    justify-between ">
-                              <div className="flex flex-center flex-col  ">
-                                <div className="mb-6">
+                            <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  px-20  justify-between ">
+                              <div className="flex flex-center flex-col ">
+                                <div className="mb-2">
                                   <div className="font-semibold text-md">
                                     KVL Tires
                                   </div>
                                   <div className=" font-normal text-md">
                                     {`${toTitleCase(
                                       value.properties.Address
-                                    )}${', '} ${value.properties.ZipCode}`}
+                                    )}${', '} ${value.properties.ZipCode} ${
+                                      value.properties.City
+                                    } ${value.properties.State}`}
                                   </div>
                                   {value.properties.Manager ? (
                                     <div className=" font-normal text-md">
@@ -452,7 +454,7 @@ const location = () => {
                                 ) : null}
                               </div>
                               <div className="lg:flex flex-center flex-col lg:w-1/4 hidden">
-                                <span className="text-neutral-500 font-semibold text-lg">
+                                <span className="text-black font-semibold text-lg">
                                   Hours
                                 </span>
                                 <div>
@@ -465,12 +467,12 @@ const location = () => {
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
                                 <img src={value.properties.bgimage} />
-                                <div className="text-right text-md pt-2">
+                                <div className="text-right text-sm pt-2">
                                   <a
                                     className="text-blue-500"
                                     href={value.properties.url}
                                   >
-                                    See on maps
+                                    See on map
                                   </a>
                                 </div>
                               </div>
