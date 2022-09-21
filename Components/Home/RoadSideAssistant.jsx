@@ -22,7 +22,7 @@ const RoadSideAssistant = () => {
           <div className="lg:grid lg:grid-cols-12 items-center ">
             <div className="lg:hidden block">
               <h2 className="text-4xl tracking-tight py-4 text-black font-poppins font-semibold lg:block text-center">
-                <span className="text-red-500">24/7 </span>
+                <span className="text-kaltire-red font-Verdana">24/7 </span>
                 ROADSIDE ASSISTANCE
               </h2>
             </div>

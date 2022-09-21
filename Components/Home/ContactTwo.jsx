@@ -130,7 +130,7 @@ const Contactform = () => {
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <div className="2xl:ml-4">
+                  <div className="2xl:ml-4 md:ml-0 ml-2">
                     <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       CONTACT US
                     </h1>
