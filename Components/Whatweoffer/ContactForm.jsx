@@ -204,7 +204,7 @@ const Contactform = () => {
                       <option value="others">Others</option>
                     </select>
                     <div className="absolute z-30 text-white font-xl right-20 ">
-                      {select ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                      {select ? <IoIosArrowUp /> : <IoIosArrowDown />}
                     </div>
                   </div>
                   <div
