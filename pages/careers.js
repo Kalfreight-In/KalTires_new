@@ -23,7 +23,6 @@ const career = () => (
     <Departments />
     <PerkBenifits />
     <SubResume />
-    <Onsiteservice />
   </div>
 );
 
