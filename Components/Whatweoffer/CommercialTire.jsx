@@ -121,6 +121,8 @@ const CommercialTire = () => {
                       spaceBetween={30}
                       // pagination={{ clickable: true }}
                       // className="mySwiper"
+                      auto
+                      speed={1400}
                       autoplay={{
                         delay: 700,
                         disableOnInteraction: false,
