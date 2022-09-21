@@ -31,7 +31,7 @@ export const SidebarMenu = styled.ul`
   flex-direction: column;
   items-align: center;
   justify-content: center;
-  padding-left: 2rem;
+  padding-left: 0rem;
   padding-right: 1rem;
 `;
 export const SidebarLink = styled.a`
@@ -266,7 +266,7 @@ export const MapConatiner = () => {
                 UNITED STATES
               </div>
             </div>
-            <SidebarMenu className="md:bg-white  bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 ">
+            <div className="md:bg-white  bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20  lg:pl-6 pl-0 lg:pr-4 pr-0 mr-6">
               <div>
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
@@ -435,13 +435,13 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
           <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
-            </SidebarMenu>
+            </div>
             <div className="my-4">
               <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-1  text-2xl font-bold  md:block hidden">
                 CANADA
               </h3>
             </div>
-            <SidebarMenu className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 ">
+            <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 lg:pl-6 pl-0 lg:pr-4 pr-0  mr-6">
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
@@ -549,7 +549,7 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
           <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
-            </SidebarMenu>
+            </div>
           </div>
         </div>
       </div>
