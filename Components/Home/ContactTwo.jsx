@@ -123,7 +123,7 @@ const Contactform = () => {
               <div className="xl:text-left text-center xl:pl-2">
                 <div
                   id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-8 pl-4"
+                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-14 lg:pl-8 pl-4 "
                 >
                   {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
