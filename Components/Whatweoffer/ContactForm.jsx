@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/Io';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
@@ -204,7 +204,7 @@ const Contactform = () => {
                       <option value="others">Others</option>
                     </select>
                     <div className="absolute z-30 text-white font-xl right-20 ">
-                      {select ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                      {select ? <IoIosArrowUp /> : <IoIosArrowDown />}
                     </div>
                   </div>
                   <div
