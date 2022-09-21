@@ -361,45 +361,41 @@ const Footer = () => {
                   >
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
-                        <span className="flex cursor-pointer ">
-                          <span className="mt-5px  xl:w-44">
-                            <a
+                        <span className="flex cursor-pointer overflow-visible">
+                          <span className="mt-5px  xl:w-44 overflow-visible">
+                            <Link
                               href="/tires-services#onServicesMain"
                               duration={1000}
                               offset={-80}
                             >
                               Pick up & Delivery Services
-                            </a>
+                            </Link>
                           </span>
                         </span>
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
-                        <span className="flex cursor-pointer">
+                        <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/24X7-roadside-assistance#onsiteid"
                             passHref
                           >
-                            <span className="mt-5px  cursor-pointer">
-                              On-Site Services
-                            </span>
+                            On-Site Services
                           </Link>
                         </span>
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                        <span className="flex cursor-pointer">
+                        <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/tires-services#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px">
-                              Mounted Wheel Programs
-                            </span>
+                            Mounted Wheel Programs
                           </Link>
                         </span>
                       </div>
@@ -407,16 +403,14 @@ const Footer = () => {
 
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                        <span className="flex cursor-pointer">
+                        <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/tires-services#onServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
                           >
-                            <span className="mt-5px ">
-                              Truck & Trailer Alignment
-                            </span>
+                            Truck & Trailer Alignment
                           </Link>
                         </span>
                       </div>
