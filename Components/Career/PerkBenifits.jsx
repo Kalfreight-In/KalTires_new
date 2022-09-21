@@ -57,7 +57,12 @@ export const PerkBenifits = () => {
                 slidesPerView={isMobile ? 1 : 2}
                 spaceBetween={30}
                 slidesPerGroup={1}
-                // loop
+                auto
+                preventInteractionOnTransition
+                preloadImages
+                touchMoveStopPropagation
+                allowTouchMove={false}
+                loop
                 autoplay={{
                   delay: 1300,
                 }}
