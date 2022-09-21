@@ -364,7 +364,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <span className="mt-5px  xl:w-44 overflow-visible">
                             <Link
-                              href="/tires-services#mainservices"
+                              href="/tires-services#ServicesMain"
                               duration={1000}
                               offset={-80}
                             >
@@ -390,7 +390,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#mainservices"
+                            href="/tires-services#ServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -405,7 +405,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#mainservices"
+                            href="/tires-services#ServicesMain"
                             target="_blank"
                             rel="noreferrer"
                             passHref
