@@ -21,7 +21,7 @@ export const PerkBenifits = () => {
             </h3>
             <div
               id="Perkgrid"
-              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-20"
+              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-24"
             >
               {PerkBenifitsdata.map((index) => (
                 <div
@@ -66,7 +66,7 @@ export const PerkBenifits = () => {
               >
                 <div
                   id="Perkgrid"
-                  className="grid gap-4  grid-cols-PerkTemplate pt-20 bg-bg-white-1  px-4"
+                  className="grid gap-4   grid-cols-PerkTemplate pt-20 bg-bg-white-1  px-4"
                 >
                   {PerkBenifitsdata.map((data) => (
                     <SwiperSlide key={data}>
