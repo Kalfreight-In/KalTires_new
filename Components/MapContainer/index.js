@@ -4,7 +4,7 @@ import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
-
+import Link from 'next/link';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { MapData1, MapData2 } from '../../data/data';
 
@@ -232,7 +232,7 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full md:mb-0 pr-0 pl-16 mb-24">
+          <div className="  w-full md:mb-0 pr-0 lg:pl-16 pl-8 mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
                 {/* <svg
@@ -266,7 +266,7 @@ export const MapConatiner = () => {
                 UNITED STATES
               </div>
             </div>
-            <div className="md:bg-white  bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20  lg:pl-6 pl-0 lg:pr-4 pr-0 mr-6">
+            <div className="md:bg-white  bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20  lg:pl-6 pl-0 lg:pr-4 pr-0 mr-8">
               <div>
                 {/* <div
                   className={`Transition-Height-${ShowDropdown ? 'in' : 'out'}`}
@@ -404,24 +404,27 @@ export const MapConatiner = () => {
                       {ShowDropdown ? (
                         <div className="flex flex-col">
                           {MapData1.map((value, index) => (
-                            <button
-                              data-index={index}
-                              onClick={(e) =>
-                                handleClick(
-                                  e,
-                                  value.geometry.coordinates,
-                                  value.properties.City,
-                                  'US'
-                                )
-                              }
-                              type="button"
-                              className="group  relative   bg-white   text-center border-2   transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
-                            >
-                              <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
-                                {value.properties.City}
-                              </h4>
-                              <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
-                            </button>
+                            <Link href="/#Map_SvgContainer">
+                              <button
+                                data-index={index}
+                                onClick={(e) =>
+                                  handleClick(
+                                    e,
+                                    value.geometry.coordinates,
+                                    value.properties.City,
+                                    'US'
+                                  )
+                                }
+                                type="button"
+                                className="group  relative   bg-white   text-center border-2   transition-all duration-100 delay-75 cursor-pointer active:bg-red-500 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                              >
+                                <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                                  {value.properties.City}
+                                </h4>
+
+                                <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                              </button>
+                            </Link>
                           ))}
                         </div>
                       ) : null}
@@ -441,7 +444,7 @@ export const MapConatiner = () => {
                 CANADA
               </h3>
             </div>
-            <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 lg:pl-6 pl-0 lg:pr-4 pr-0  mr-6">
+            <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 lg:pl-6 pl-0 lg:pr-4 pr-0  mr-8">
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
@@ -518,24 +521,26 @@ export const MapConatiner = () => {
                       {ShowDropdownCa ? (
                         <div className="flex flex-col">
                           {MapData2.map((value, index) => (
-                            <button
-                              data-index={index}
-                              onClick={(e) =>
-                                handleClick(
-                                  e,
-                                  value.geometry.coordinates,
-                                  value.properties.City,
-                                  'CA'
-                                )
-                              }
-                              type="button"
-                              className="group  relative  bg-white    text-center border-2  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
-                            >
-                              <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
-                                {value.properties.City}
-                              </h4>
-                              <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
-                            </button>
+                            <Link href="/#Map_SvgContainer">
+                              <button
+                                data-index={index}
+                                onClick={(e) =>
+                                  handleClick(
+                                    e,
+                                    value.geometry.coordinates,
+                                    value.properties.City,
+                                    'CA'
+                                  )
+                                }
+                                type="button"
+                                className="group  relative  bg-white    text-center border-2  transition-all duration-100 delay-75 cursor-pointer active:bg-violet-700 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
+                              >
+                                <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
+                                  {value.properties.City}
+                                </h4>
+                                <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
+                              </button>
+                            </Link>
                           ))}
                         </div>
                       ) : null}
