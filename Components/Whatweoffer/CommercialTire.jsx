@@ -122,7 +122,7 @@ const CommercialTire = () => {
                       // pagination={{ clickable: true }}
                       // className="mySwiper"
                       auto
-                      speed={1400}
+                      speed={700}
                       autoplay={{
                         delay: 700,
                         disableOnInteraction: false,
