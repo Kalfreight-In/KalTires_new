@@ -27,14 +27,14 @@ export const Ykvl = () => {
               className={
                 isMobile
                   ? 'lg:pl-24 pl-0 lg:pt-0 pt-8'
-                  : 'lg:pl-0 pl-0 lg:pt-0 pt-8'
+                  : 'lg:pl-0 pl-0 lg:pt-0 pt-8 md:mx-8 lg:mx-0'
               }
             >
               <div
                 id="secondboxykvl"
                 className={
                   isMobile
-                    ? 'text-ykvldesc text-base border-l-2 ml-12 pl-8 border-kaltire-red pr-12  lg:pl-4 lg:text-left text-justify font-Helvetica'
+                    ? 'text-ykvldesc text-base border-l-2 ml-12 pl-8  border-kaltire-red pr-12  lg:pl-4 lg:text-left text-justify font-Helvetica'
                     : 'text-ykvldesc lg:text-lg  border-l-2 border-kaltire-red pr-0 pl-8 font-Helvetica lg:text-left text-justify tracking-wide'
                 }
               >
