@@ -6,7 +6,7 @@ import Link from 'next/link';
 export const SlidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
-  width:80%;
+  width:20rem;
   height: 100%;
   background: #282828;
   display: flex;
