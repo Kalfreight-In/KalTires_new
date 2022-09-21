@@ -12,8 +12,8 @@ const Roadside = () => (
           <div className="lg:hidden  flex justify-center    md:py-8 py-8 z-10">
             <h2 className="text-4xl tracking-tight  text-black font-Helvetica font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
-                <span className="text-kaltire-red font-Helvetica">24/7</span>{' '}
-                <span className="font-Helvetica">ROADSIDE ASSISTANCE</span>
+                <span className="text-kaltire-red font-poppins">24/7</span>{' '}
+                <span className="font-poppins">ROADSIDE ASSISTANCE</span>
               </span>
             </h2>
           </div>
@@ -24,14 +24,12 @@ const Roadside = () => (
               alt="servicetruck"
             />
           </div>
-          <div className="flex items-center  2xl:pt-2 ">
+          <div className="flex items-center  2xl:pt-2 md:py-8 lg:py-0">
             <div className="md:px-0 px-6 lg:px-0 md:mx-12 mx-2   pt-0">
-              <h2 className="text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
+              <h2 className="text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden ">
                 <span className="block font-Helvetica text-4xl">
-                  <span className="text-kaltire-red font-Helvetica">24/7</span>
-                  <span className="pl-4 font-Helvetica">
-                    ROADSIDE ASSISTANCE
-                  </span>
+                  <span className="text-kaltire-red font-poppins">24/7</span>
+                  <span className="pl-4 font-poppins">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
               <p className="text-neutral-500 mt-5 2xl:text-lg pr-4 lg:text-base text-sm font-normal text-left font-Helvetica ">
@@ -88,13 +86,13 @@ const Roadside = () => (
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
                   <div id="Hotline-second">
-                    <h1 className="font-bold font-Helvetica">Toll Free</h1>
+                    <h1 className="font-bold font-poppins">Toll Free</h1>
                     <a
                       href="tel:+1-800-808-0025"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <p className="font-Helvetica">+1-800-808-0025</p>
+                      <p className="font-poppins">+1-800-808-0025</p>
                     </a>
                   </div>
                 </div>
