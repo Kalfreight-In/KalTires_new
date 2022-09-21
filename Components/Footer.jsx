@@ -564,18 +564,19 @@ const Footer = () => {
                   </div>
 
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
-                    <div className="mt-2">
+                    <div className="mt-1">
                       <a
                         href="tel:+1-800-808-0025"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        {/* <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
                           className="text-white h-4 w-4"
                           width={50}
-                        />
+                        /> */}
+                        <MdPhone className="h-6 w-5" />
                       </a>
                     </div>
                     <div className="ml-4">
