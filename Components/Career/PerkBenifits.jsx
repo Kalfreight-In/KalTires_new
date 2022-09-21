@@ -58,13 +58,12 @@ export const PerkBenifits = () => {
                 spaceBetween={30}
                 slidesPerGroup={1}
                 auto
-                preventInteractionOnTransition
+                // preventInteractionOnTransition
                 preloadImages
                 touchMoveStopPropagation
-                allowTouchMove={false}
-                loop
                 autoplay={{
                   delay: 1300,
+                  disableOnInteraction: false,
                 }}
                 navigation
                 modules={[Pagination, Navigation, Autoplay]}
