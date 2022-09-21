@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/Io';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
