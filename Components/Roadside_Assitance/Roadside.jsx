@@ -28,7 +28,7 @@ const Roadside = () => (
             <div className="md:px-0 px-6 lg:px-0 md:mx-12 mx-2   pt-0">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden ">
                 <span className="block font-Helvetica text-4xl">
-                  <span className="text-kaltire-red font-poppins">24/7</span>
+                  <span className="text-kaltire-red font-Verdana">24/7</span>
                   <span className="pl-4 font-poppins">ROADSIDE ASSISTANCE</span>
                 </span>
               </h2>
