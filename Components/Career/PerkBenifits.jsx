@@ -60,12 +60,13 @@ export const PerkBenifits = () => {
                 auto
                 // preventInteractionOnTransition
                 preloadImages
-                touchMoveStopPropagation
+                // touchMoveStopPropagation
+                speed={1400}
                 autoplay={{
                   delay: 1300,
                   disableOnInteraction: false,
                 }}
-                navigation
+                // navigation
                 modules={[Pagination, Navigation, Autoplay]}
               >
                 <div
