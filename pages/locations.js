@@ -290,16 +290,17 @@ const location = () => {
                           {visibilities[index] ? (
                             <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  lg:px-20 px-8  justify-between ">
                               <div className="flex flex-center flex-col ">
-                                <div className="mb-2">
+                                <div className="mb-2 w-locationsection">
                                   <div className="font-semibold text-md">
                                     KVL Tires
                                   </div>
                                   <div className=" font-normal text-md">
                                     {`${toTitleCase(
                                       value.properties.Address
-                                    )}${', '} ${value.properties.ZipCode} ${
-                                      value.properties.City
-                                    } ${value.properties.State}`}
+                                    )}${', '}  ${value.properties.City} ${
+                                      value.properties.State
+                                    }
+                                    ${value.properties.ZipCode}`}
                                   </div>
                                   {value.properties.Manager ? (
                                     <div className=" font-normal text-md">
@@ -338,7 +339,7 @@ const location = () => {
                                   Hours
                                 </span>
                                 <div>Monday to Friday: 7:30 AM - 5:00 PM</div>
-                                <div>Saturday & Sunday- Closed</div>
+                                <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
                                 <img src={value.properties.bgimage} />
@@ -429,16 +430,16 @@ const location = () => {
                           {visibilities[index] ? (
                             <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  lg:px-20 px-8  justify-between ">
                               <div className="flex flex-center flex-col ">
-                                <div className="mb-2">
+                                <div className="mb-2 w-locationsection">
                                   <div className="font-semibold text-md">
                                     KVL Tires
                                   </div>
                                   <div className=" font-normal text-md">
                                     {`${toTitleCase(
                                       value.properties.Address
-                                    )}${', '} ${value.properties.ZipCode} ${
-                                      value.properties.City
-                                    } ${value.properties.State}`}
+                                    )}${', '}  ${value.properties.City} ${
+                                      value.properties.State
+                                    } ${value.properties.ZipCode}`}
                                   </div>
                                   {value.properties.Manager ? (
                                     <div className=" font-normal text-md">
@@ -477,7 +478,7 @@ const location = () => {
                                   Hours
                                 </span>
                                 <div>Monday to Friday: 7:30 AM - 5:00 PM</div>
-                                <div>Saturday & Sunday- Closed</div>
+                                <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
                                 <img src={value.properties.bgimage} />

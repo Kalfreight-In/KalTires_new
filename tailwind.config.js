@@ -64,6 +64,7 @@ module.exports = {
         onsiteimage: '155px',
         perkimagewidth: '6.75rem',
         contactwidthmobile: '22rem',
+        locationsection: '18rem',
       },
       backgroundImage: {
         'footer-texture':
