@@ -114,7 +114,7 @@ export const Services = () => {
                         />
                       </div>
                     </div>
-                    <h1 className="lg:text-xl text-lg font-bold font-Helvetica h-16">
+                    <h1 className="lg:text-xl text-lg font-bold font-Helvetica h-16 mx-4">
                       {data.heading}
                     </h1>
                   </a>
