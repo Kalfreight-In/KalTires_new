@@ -21,7 +21,7 @@ export const PerkBenifits = () => {
             </h3>
             <div
               id="Perkgrid"
-              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-20 lg:mr-2 2xl:mr-0"
+              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-20 lg:mx-4 2xl:mx-0 "
             >
               {PerkBenifitsdata.map((index) => (
                 <div
@@ -34,7 +34,7 @@ export const PerkBenifits = () => {
                     </div>
                   </div>
 
-                  <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8">
+                  <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8 text-red-600">
                     {index.Heading}
                   </h3>
                   <p className="pt-16 pb-8 lg:text-sm font-normal  text-left px-4 font-Helvetica text-neutral-500">
@@ -57,7 +57,7 @@ export const PerkBenifits = () => {
                 slidesPerView={isMobile ? 1 : 2}
                 spaceBetween={30}
                 slidesPerGroup={1}
-                loop
+                // loop
                 autoplay={{
                   delay: 1300,
                 }}

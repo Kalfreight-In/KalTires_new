@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+// import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
@@ -114,7 +114,9 @@ export const Services = () => {
                         />
                       </div>
                     </div>
-                    <h1 className="lg:text-xl text-lg font-bold font-Helvetica h-16 mx-4">
+                    <h1
+                      className={`lg:text-xl text-lg font-bold font-poppins xl:px-8 md:px-0 whitespace-${data.linebrk} h-16`}
+                    >
                       {data.heading}
                     </h1>
                   </a>

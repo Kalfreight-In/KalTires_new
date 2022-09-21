@@ -136,6 +136,7 @@ module.exports = {
       Helvetica: ['Helvetica'],
       poppins: ['Poppins', 'sans-serif'],
       cursive: [' cursive'],
+      Verdana: ['Verdana, Arial, Tahoma, Serif'],
     },
   },
   variants: {

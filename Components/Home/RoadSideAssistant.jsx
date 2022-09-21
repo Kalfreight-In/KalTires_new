@@ -55,12 +55,12 @@ const RoadSideAssistant = () => {
                 Driving a commercial vehicle keeps you on the move, making it
                 necessary to be aware of your vehicle’s condition. You must
                 ensure that your tires deliver great mileage, superior traction,
-                and fuel efficiency while on the road. Also, you should be ready
-                to deal with emergency breakdown situations; a trusted tire
-                partner is what you need! KVL Tires provides quick and reliable
-                24/7 roadside assistance. Our network across the United States
-                gives us accessibility even in remote locations. We are ready to
-                help in times of need!
+                and fuel efficiency while on the road. For all of your
+                unforeseen emergency breakdowns, a reliable tire partner is all
+                you need. KVL tires are here for you to provide hassle free and
+                reliable 24/7 roadside assistance. Our network across the United
+                States gives us accessibility even in remote locations. We are
+                ready to help in times of need!
               </p>
               <div className="block pt-4 " id="PhoneEmailRoad" />
               <div
