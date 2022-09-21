@@ -91,7 +91,7 @@ const Search = (setTypedLocation) => {
         <div className="  text-gray-600 flex m-2 ">
           <input
             onChange={(e) => setAddress(e.target.value)}
-            className="  bg-white  px-5 pr-8 w-60 text-sm focus:outline-none"
+            className="  bg-white  px-5 pr-8 w-60 text-sm focus:outline-none appearance-none"
             type="search"
             name="search"
             placeholder="Enter your city or ZIP code"

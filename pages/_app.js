@@ -5,6 +5,7 @@ import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 
 import '../styles/globals.css';
 import '../styles/Home.scss';
+import '../styles/Customswiper.css';
 import { StateContext } from '../context/StateContext';
 import Sidebar from '../Components/Sidebar';
 import ErrorBoundary from '../Components/ErrorBoundary';
