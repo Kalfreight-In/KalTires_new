@@ -139,30 +139,38 @@ export const MapConatiner = () => {
     MapData1.map((x) => false)
   );
 
+  const [Cvisibilities, setCVisibilities] = useState(() =>
+    MapData2.map((x) => false)
+  );
   // Similar to componentDidMount and componentDidUpdate:
-  useEffect(() => {
-    // Update the document title using the browser API
-    MapData1.map((x) => false);
-  }, [visibilities]);
+  // useEffect(() => {
+  //   // Update the document title using the browser API
+  //   MapData1.map((x) => false);
+  // }, [visibilities]);
 
   const handleClick = (event, coordinates, city, country) => {
     if (country === 'CA') {
+      const index = parseInt(event.currentTarget.dataset.index, 10);
+      const newCVisibilities = [...Cvisibilities];
+
+      newCVisibilities[index] = !newCVisibilities[index];
+      setCVisibilities(newCVisibilities);
       console.log(`inside CA ${city}`);
       setCaFeaatureCat(city);
       setShowDropdownCa(!ShowDropdownCa);
     } else {
+      const index = parseInt(event.currentTarget.dataset.index, 10);
+      const newVisibilities = [...visibilities];
+
+      newVisibilities[index] = !newVisibilities[index];
+      setVisibilities(newVisibilities);
       console.log(`outside CA ${city}`);
       setFeaatureCat(city);
       setShowDropdown(!ShowDropdown);
     }
     setMapocation(coordinates);
-    const index = parseInt(event.currentTarget.dataset.index, 10);
-    setVisibilities(() => MapData1.map(() => false));
 
-    const newVisibilities = [...visibilities];
-
-    newVisibilities[index] = !newVisibilities[index];
-    setVisibilities(newVisibilities);
+    // setVisibilities(() => MapData1.map(() => false));
   };
   // const [selectedPosition, setSelectedPosition] = React.useState(null);
   // const [Services, setServices] = useState(false);
@@ -462,7 +470,7 @@ export const MapConatiner = () => {
                       >
                         <h1
                           className={
-                            visibilities[index]
+                            Cvisibilities[index]
                               ? 'text-black font-bold'
                               : 'text-black font-bold'
                           }
@@ -471,21 +479,21 @@ export const MapConatiner = () => {
                         </h1>
 
                         <span>
-                          {visibilities[index] ? <BiMinus /> : <BsPlus />}
+                          {Cvisibilities[index] ? <BiMinus /> : <BsPlus />}
 
                           {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                         </span>
                       </Divlink>
                       <div
                         className={`Transition-Height-${
-                          visibilities[index] ? 'in' : 'out'
+                          Cvisibilities[index] ? 'in' : 'out'
                         }`}
                         onClick={() =>
                           setMapocation(value.geometry.coordinates)
                         }
                       >
                         <ul>
-                          {visibilities[index] ? (
+                          {Cvisibilities[index] ? (
                             <div className="text-neutral-500 h-4   block  lg:text-md mb-2 ">
                               {' '}
                               {toTitleCase(value.properties.Address)}
