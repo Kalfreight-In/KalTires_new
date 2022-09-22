@@ -61,6 +61,7 @@ module.exports = {
         215: '215px',
         357: '357px',
         557: '557px',
+        InputPrac: '78%',
         onsiteimage: '155px',
         perkimagewidth: '6.75rem',
         contactwidthmobile: '22rem',

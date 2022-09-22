@@ -123,7 +123,7 @@ const Contactform = () => {
               <div className="xl:text-left text-center xl:pl-2">
                 <div
                   id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-14 lg:pl-8 pl-4 "
+                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-14 lg:pl-14 xl:pl-10 pl-4 "
                 >
                   {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
@@ -149,7 +149,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setName(e.target.value)}
-                    className="appearance-none font-Helvetica block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none font-Helvetica block lg:w-InputPrac w-10/12 xl:w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     id="grid-first-name"
                     type="text"
                     value={name}
@@ -168,7 +168,7 @@ const Contactform = () => {
                     minLength="10"
                     placeholder="Contact Number"
                     value={phone}
-                    className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none block lg:w-InputPrac w-10/12 xl:w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setPhone(e.target.value)}
                     defaultValue="+1"
                   />
@@ -179,7 +179,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setEmail(e.target.value)}
-                    className="appearance-none block font-Helvetica w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block font-Helvetica lg:w-InputPrac w-10/12 xl:w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="emailValidate"
                     type="email"
                     value={email}
@@ -222,7 +222,7 @@ const Contactform = () => {
                   <input
                     onChange={(e) => setZip(e.target.value)}
                     inputMode="numeric"
-                    className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block lg:w-InputPrac w-10/12 xl:w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="grid-first-name"
                     type="text"
                     value={zip}
@@ -238,7 +238,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none font-Helvetica block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                    className="appearance-none font-Helvetica block lg:w-InputPrac w-10/12 xl:w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                     id="grid-first-name"
                     type="text"
                     value={message}
