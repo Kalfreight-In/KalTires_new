@@ -16,12 +16,12 @@ export const PerkBenifits = () => {
       <div id="Perkmaininner">
         <div id="Perkmaingrid" className="pb-8 ">
           <div className="lg:block hidden">
-            <h3 className="text-departmentheading font-bold text-4xl xl:pl-20 lg:pl-16 pl-20 pr-20 pt-8 font-poppins">
+            <h3 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-poppins">
               Perks & Benefits
             </h3>
             <div
               id="Perkgrid"
-              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 px-20  lg:mx-4 2xl:mx-0 "
+              className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 xl:pl-20 lg:pl-16 pl-20 pr-20  "
             >
               {PerkBenifitsdata.map((index) => (
                 <div
