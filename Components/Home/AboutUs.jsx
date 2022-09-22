@@ -204,22 +204,24 @@ export const AboutUs = () => {
                   id="InnerphoneEmailRoad"
                   className="flex  mt-8 justify-center md:justify-start"
                 >
-                  <div className="flex lg:justify-start justify-center lg:pb-4 pb-4  ">
-                    <div
-                      id="Hotline"
-                      className="flex items-center lg:pr-0 md:pr-4 pr-0"
-                    >
-                      <div id="Hotline-first" className="md:mr-4 mr-2 ">
-                        <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
-                      </div>
-                      <div id="Hotline-second">
-                        <h1 className="font-bold text-left font-poppins">
-                          Toll Free
-                        </h1>
-                        <p>+1-800-808-0025</p>
+                  <a href="tel:8008080025">
+                    <div className="flex lg:justify-start justify-center lg:pb-4 pb-4  ">
+                      <div
+                        id="Hotline"
+                        className="flex items-center lg:pr-0 md:pr-4 pr-0"
+                      >
+                        <div id="Hotline-first" className="md:mr-4 mr-2 ">
+                          <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
+                        </div>
+                        <div id="Hotline-second">
+                          <h1 className="font-bold text-left font-poppins">
+                            Toll Free
+                          </h1>
+                          <p>+1-800-808-0025</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
