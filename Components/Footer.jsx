@@ -245,7 +245,7 @@ const Footer = () => {
                       CSR
                     </a>
                     <Link
-                      className="block md:text-xs  hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
+                      className="block md:text-xs  hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer anchor"
                       rel="noreferrer"
                       href="/#maincontactform"
                       passHref
