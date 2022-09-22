@@ -173,38 +173,40 @@ const Contactform = () => {
                     />
                   </div>
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 relative"
+                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 "
                     id="input_placeholder"
                   >
-                    <select
-                      name="servicetype"
-                      // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                      className="w-10/12  appearance-none block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
-                      onChange={(e) => setservice(e.target.value)}
-                      type="select"
-                      value={service}
-                      required
-                      onClick={() => {
-                        setSelect(!select);
-                      }}
-                    >
-                      <option value="service" hidden>
-                        Inquiry Type
-                      </option>
+                    <div className="w-10/12 relative    appearance-none block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
+                      <select
+                        name="servicetype"
+                        // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                        className="w-full appearance-none block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
+                        onChange={(e) => setservice(e.target.value)}
+                        type="select"
+                        value={service}
+                        required
+                        onClick={() => {
+                          setSelect(!select);
+                        }}
+                      >
+                        <option value="service" hidden>
+                          Inquiry Type
+                        </option>
 
-                      <option value="newtires">New Tires</option>
-                      <option value="retreadtires">Retread Tires</option>
-                      <option value="heavyduty">
-                        Heavy Duty Front End Work
-                      </option>
-                      <option value="wheel">Wheel Alignment</option>
-                      <option value="otr">OTR Tires</option>
-                      {/* <option value="speciality">Specialty</option>
+                        <option value="newtires">New Tires</option>
+                        <option value="retreadtires">Retread Tires</option>
+                        <option value="heavyduty">
+                          Heavy Duty Front End Work
+                        </option>
+                        <option value="wheel">Wheel Alignment</option>
+                        <option value="otr">OTR Tires</option>
+                        {/* <option value="speciality">Specialty</option>
                       <option value="enquiry">Enquiry</option> */}
-                      <option value="others">Others</option>
-                    </select>
-                    <div className="absolute z-30 text-white font-xl right-20 ">
-                      {select ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                        <option value="others">Others</option>
+                      </select>
+                      <div className="absolute z-30 text-white font-xl right-5 bottom-5">
+                        {select ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                      </div>
                     </div>
                   </div>
                   <div
