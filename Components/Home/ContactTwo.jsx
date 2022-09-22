@@ -119,18 +119,18 @@ const Contactform = () => {
           </div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
-            <div className="xl:px-4 lg:ml-6 ">
-              <div className="xl:text-left text-center xl:pl-2">
+            <div className="lg:ml-20 ml-4">
+              <div className="lg:text-left text-center">
                 <div
                   id="contactnew"
-                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12 md:pl-14 lg:pl-8 pl-4 "
+                  className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12   "
                 >
                   {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
-                  <div className="2xl:ml-4 md:ml-0 ml-2">
+                  <div>
                     <h1 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       CONTACT US
                     </h1>
@@ -142,14 +142,14 @@ const Contactform = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
+              <div className="flex flex-wrap  mb-6 md:mt-8 lg:mt-0 lg:mr-12 md:mr-8 mr-4">
                 <div
                   className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   <input
                     onChange={(e) => setName(e.target.value)}
-                    className="appearance-none font-Helvetica block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none font-Helvetica block w-full h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     id="grid-first-name"
                     type="text"
                     value={name}
@@ -158,7 +158,7 @@ const Contactform = () => {
                   />
                 </div>
                 <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                  className="w-full flex justify-center items-center   mb-6 md:mb-0 pt-4"
                   id="input_placeholder"
                 >
                   <input
@@ -168,7 +168,7 @@ const Contactform = () => {
                     minLength="10"
                     placeholder="Contact Number"
                     value={phone}
-                    className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setPhone(e.target.value)}
                     defaultValue="+1"
                   />
@@ -179,7 +179,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setEmail(e.target.value)}
-                    className="appearance-none block font-Helvetica w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block font-Helvetica w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="emailValidate"
                     type="email"
                     value={email}
@@ -222,7 +222,7 @@ const Contactform = () => {
                   <input
                     onChange={(e) => setZip(e.target.value)}
                     inputMode="numeric"
-                    className="appearance-none block w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="grid-first-name"
                     type="text"
                     value={zip}
@@ -238,7 +238,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none font-Helvetica block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                    className="appearance-none font-Helvetica block w-full h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                     id="grid-first-name"
                     type="text"
                     value={message}
@@ -247,11 +247,11 @@ const Contactform = () => {
                   />
                 </div>
               </div>
-              <div className="flex justify-center md:justify-start">
+              <div className="flex justify-center md:justify-start ">
                 <div
                   id="submitallbutton"
                   // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                  className="lg:pl-12 md:pl-16 xl:pl-12 2xl:pl-16   md:pt-0 2xl:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
+                  className="  md:pt-0 2xl:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
                 >
                   <div className="flex justify-center items-center">
                     <button
