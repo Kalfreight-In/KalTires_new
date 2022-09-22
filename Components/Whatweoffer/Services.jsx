@@ -43,9 +43,9 @@ export const Services = () => {
   //   setlightboxData(data);
   // }
   return (
-    <>
+    <div id="ServicesMain">
       <div className="hidden lg:block">
-        <div id="ServicesMain">
+        <div>
           <div
             id="onsitemaininner"
             className="bg-black lg:px-20 lg:py-12 2xl:py-16 "
@@ -101,9 +101,6 @@ export const Services = () => {
                     className="bg-kaltire-red   text-center text-white border-white hover:border cursor-pointer"
                     key={data.id}
                     href="tel:800-808-0025"
-                    // onClick={() => {
-                    //   UpdateLightbox(data);
-                    // }}
                   >
                     <div className="flex justify-center">
                       <div className="w-onsiteimage h-onsiteimage pt-4">
@@ -226,6 +223,6 @@ export const Services = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
