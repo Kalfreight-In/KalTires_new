@@ -15,9 +15,13 @@ export const Speciality = () => {
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
-            'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png)',
+
+            isDesktop
+              ? 'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png)'
+              : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/speciality/cooperbackgmobile.png)',
+
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'contain',
+          backgroundSize: 'cover',
         }}
       >
         <div className="bg-speciality-background ">
