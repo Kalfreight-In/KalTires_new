@@ -84,7 +84,7 @@ export const PerkBenifits = () => {
                             <Image src={data.img} alt="service" />
                           </div>
                         </div>
-                        <h4 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 text-kaltire-red">
+                        <h4 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 text-black">
                           {data.Heading}
                         </h4>
                         <p className="pt-16 pb-8 lg:text-sm font-normal pl-8 text-left h-48 font-Helvetica text-neutral-500">
