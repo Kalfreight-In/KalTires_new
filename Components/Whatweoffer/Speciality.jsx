@@ -20,7 +20,7 @@ export const Speciality = () => {
           backgroundSize: 'contain',
         }}
       >
-        <div className="bg-speciality-background">
+        <div className="bg-speciality-background ">
           <div className="lg:grid lg:grid-cols-3 items-center lg:pl-12 lg:pr-8">
             <div className="lg:hidden block pt-6">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-Helvetica font-semibold lg:block text-center">
@@ -44,7 +44,7 @@ export const Speciality = () => {
               </div>
             </div>
             <div className=" px-0 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left lg:ml-8">
-              <h2 className="text-3xl tracking-tight  text-black font-Helvetica font-semibold lg:block hidden">
+              <h2 className="text-3xl tracking-tight   text-black font-Helvetica pt-6 font-semibold lg:block hidden ">
                 <span className="block">
                   <span className="border-kaltire-red border-b-2 font-poppins">
                     Specialty Tires
@@ -75,10 +75,10 @@ export const Speciality = () => {
                 Quaerat omnis optio reiciendis asperiores soluta dolorem? */}
               </p>
 
-              <div className="block pt-4 " id="PhoneEmailRoad" />
+              <div className="block pt-4" id="PhoneEmailRoad" />
               <div
                 id="InnerphoneEmailRoad"
-                className="md:flex hidden mt-8 justify-center lg:justify-start "
+                className="md:flex hidden 2xl:mt-8  pb-6  justify-center lg:justify-start "
               >
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                   <a href="tel:8008080025" className="cursor-pointer">
