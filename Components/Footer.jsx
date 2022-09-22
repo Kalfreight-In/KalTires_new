@@ -107,8 +107,7 @@ const Footer = () => {
                     >
                       {' '}
                       <div className="text-sm   ">
-                        Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
-                        92335
+                        10156 Live Oak Ave Fontana, CA 92335
                       </div>{' '}
                     </a>
                   </div>

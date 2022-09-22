@@ -79,8 +79,10 @@ body {
   color: yellow;
   font-size: 9px;
 }
-a {
-  offset: 200px;
+a.anchor {
+  top: -250px;
+  position: relative;
+  visibility: hidden;
 }
 .animated {
   -webkit-animation-duration: 1s;
