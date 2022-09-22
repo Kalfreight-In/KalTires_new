@@ -1,10 +1,10 @@
 import React, { useContext, useState } from 'react';
-import { Link as Slink } from 'react-scroll';
+// import { Link as Slink } from 'react-scroll';
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
 import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
-
+// import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
 import { useStateContext } from '../context/StateContext';
 
