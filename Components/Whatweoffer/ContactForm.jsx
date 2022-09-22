@@ -149,7 +149,7 @@ const Contactform = () => {
                   >
                     <input
                       onChange={(e) => setName(e.target.value)}
-                      className="appearance-none  font-medium block w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                      className="appearance-none  font-medium block lg:w-InputPrac w-10/12 xl:w-10/12 h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                       id="grid-first-name"
                       type="text"
                       value={name}
@@ -163,7 +163,7 @@ const Contactform = () => {
                   >
                     <input
                       onChange={(e) => setEmail(e.target.value)}
-                      className="appearance-none font-medium block  w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                      className="appearance-none font-medium block  lg:w-InputPrac w-10/12 xl:w-10/12 h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                       id="emailValidate"
                       type="email"
                       value={email}
@@ -176,7 +176,7 @@ const Contactform = () => {
                     className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 "
                     id="input_placeholder"
                   >
-                    <div className="w-10/12 relative    appearance-none block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
+                    <div className="lg:w-InputPrac w-10/12 xl:w-10/12 relative    appearance-none block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
                       <select
                         name="servicetype"
                         // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
@@ -215,7 +215,7 @@ const Contactform = () => {
                   >
                     <input
                       onChange={(e) => setMessage(e.target.value)}
-                      className="appearance-none font-medium block w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                      className="appearance-none font-medium block lg:w-InputPrac w-10/12 xl:w-10/12 h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                       id="grid-first-name"
                       type="text"
                       value={message}
