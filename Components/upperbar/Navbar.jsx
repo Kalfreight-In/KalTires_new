@@ -124,7 +124,7 @@ const Navbar = ({ toggle }) => {
               </div>
             </div>
           </Link>
-          <a href="/credit-application">
+          {/* <a href="/credit-application">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
                 router.pathname === '/credit-application' ? 'bg-red-500' : ''
@@ -140,7 +140,7 @@ const Navbar = ({ toggle }) => {
                 Credit Application
               </div>
             </div>
-          </a>
+          </a> */}
           <Link href="/careers" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${

@@ -27,15 +27,15 @@ const Topbar = ({ toggle, postion }) => {
           <Link href="/" passHrefs>
             <div
               className={`${
-                postion.y === 0 ? '-mt-8 ' : ''
-              } transition-all duration-300 ease-in-out ${
+                postion.y === 0 ? '-mt-8' : ''
+              } transition-all duration-300 ease-in    ${
                 postion.y === 0 ? 'h-20 w-56' : 'h-20 w-44'
               } `}
             >
               <Image
                 src={Navlogo}
                 alt="place"
-                className="cursor-pointer   transition-all  ease-in delay-150 duration-1000 "
+                className="cursor-pointer  "
                 // height={postion.y === 0 ? 85 : 65}
                 // width={postion.y === 0 ? 240 : 195}
               />
@@ -58,7 +58,7 @@ const Topbar = ({ toggle, postion }) => {
             href="tel:+1-800-808-0025"
           >
             <span className="align-bottom pr-8">
-              Scheduled Your Apppointment Today
+              Schedule Your Appointment Today
             </span>
             {/* <a
               href="tel:+1-800-808-0025"
