@@ -265,7 +265,7 @@ const location = () => {
                                 : 'text-white text-center font-bold text-lg ml-3'
                             }
                           >
-                            {`${value.properties.City} ${value.properties.State}`}
+                            {`${value.properties.City}, ${value.properties.State}`}
                           </h1>
                         </div>
 
@@ -298,7 +298,7 @@ const location = () => {
                                   <div className=" font-normal text-md">
                                     {`${toTitleCase(
                                       value.properties.Address
-                                    )}${', '}  ${value.properties.City} ${
+                                    )}${', '}  ${value.properties.City}, ${
                                       value.properties.State
                                     }
                                     ${value.properties.ZipCode}`}
