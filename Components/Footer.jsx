@@ -389,7 +389,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServicesMain"
+                            href="/tires-services#ServiceScroll"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -404,7 +404,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServicesMain"
+                            href="/tires-services#ServiceScroll"
                             target="_blank"
                             rel="noreferrer"
                             passHref
