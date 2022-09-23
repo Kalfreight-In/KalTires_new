@@ -11,7 +11,7 @@ export const SubResume = () => {
           <div id="maincontentresume">
             <div id="innermaincontentresume" className="text-center">
               <h4 className="text-2xl font-bold text-resumeheading font-poppins">
-                Join our Impressive & Diversified Team
+                Join our diversified team and make a difference!
               </h4>
             </div>
           </div>
@@ -19,14 +19,14 @@ export const SubResume = () => {
           <div id="mainuploadbutton" className="flex justify-center pt-4">
             <div className="overflow-hidden relative w-64 mt-2 mb-4">
               <button
-                className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-4 w-full inline-flex justify-center items-center rounded-md"
+                className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-2 w-full inline-flex justify-center items-center rounded-md"
                 type="button"
                 onClick={() => {
                   setPopup(!Popup);
                 }}
               >
                 <span className=" text-xl text-center font-poppins">
-                  SUBMIT YOUR RESUME
+                  Apply Now
                 </span>
                 <input className="cursor-pointer absolute block py-2 px-4 w-full opacity-0 pin-r pin-t text-black" />
               </button>
