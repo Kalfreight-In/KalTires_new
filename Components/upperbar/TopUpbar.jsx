@@ -2,9 +2,32 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { GoLocation } from 'react-icons/go';
 import axios from 'axios';
+import styled from 'styled-components';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 import { useHover } from '../../Hooks/Hover';
+
+export const CreditAppContainer = styled.div`
+  display: flex;
+  width: 350px;
+  padding: 10px 0px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: -0.5rem;
+  z-index: 20;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
+  background-color: #ef4444;
+`;
+export const MondayToFridayContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  margin-right: -15rem;
+  padding: 8px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
+  background-color: #000000;
+`;
 
 const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 // import Image from 'next/image';
@@ -60,21 +83,16 @@ const TopUpbar = () => {
   // );
 
   return (
-    <div className="bg-tire-gray-3 ">
-      <div className="flexBetween z-10 mx-20 p-0 flex-row">
+    <div className="bg-tire-gray-3">
+      <div className="flexBetween z-10  p-0 flex-row">
         <Link href="/">
           <div className="flex flex-row flexCenter" ref={Hover}>
-            <div className="text-white font-bold ml-8">
+            {/* <div className="text-white font-bold ml-8">
               {' '}
               {userLocation ? (
                 <div className="flex flex-row gap-5">
                   {userLocation.city} , {userLocation.state}
-                  {/* <div
-                    className="cursor-pointer"
-                    onClick={findMyLocation(setUserLocation, setCurrentlatlong)}
-                  >
-                    @
-                  </div> */}
+
                 </div>
               ) : (
                 <div className="flex flex-row">
@@ -87,28 +105,38 @@ const TopUpbar = () => {
                   </div>
                 </div>
               )}
-            </div>
-            <div className="ml-2 font-bold">
-              <GoLocation color="white " />
-              <div className="relative z-20">
-                {isHover ? (
-                  <div className="absolute flex flex-col bg-white rounded-md p-6 w-48 pb-4">
-                    if the location is not Preciouse
-                    <button
-                      type="button"
-                      className="rounded-md p-2 bg-red-500 font-semibold text-white"
-                    >
-                      click here
-                    </button>
-                  </div>
-                ) : null}
-              </div>
-            </div>
+            </div> */}
           </div>
         </Link>
-        <Link href="/">
-          <div className="text-white" />
-        </Link>
+
+        <div className="ml-2 font-bold">
+          {/* <GoLocation color="white " /> */}
+          <div className="relative z-20">
+            {isHover ? (
+              <div className="absolute flex flex-col bg-white rounded-md p-6 w-48 pb-4">
+                if the location is not Preciouse
+                <button
+                  type="button"
+                  className="rounded-md p-2 bg-red-500 font-semibold text-white"
+                >
+                  click here
+                </button>
+              </div>
+            ) : null}
+          </div>
+        </div>
+        <MondayToFridayContainer className="text-white font-bold pl-20 ">
+          Monday - Friday
+          <span className="text-red-500 pl-2">7:30AM - 5:00 PM</span>
+        </MondayToFridayContainer>
+        <CreditAppContainer>
+          <span className="h-5 w-5 animate-bounce bg-black rounded-full text-white flex flexCenter">
+            <MdOutlineKeyboardArrowRight />
+          </span>
+          <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
+            Credit Application
+          </span>
+        </CreditAppContainer>
       </div>
     </div>
   );
