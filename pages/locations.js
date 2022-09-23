@@ -339,7 +339,7 @@ const location = () => {
                                 <span className="text-black font-semibold text-lg">
                                   Hours
                                 </span>
-                                <div>Monday to Friday: 7:30 AM - 5:00 PM</div>
+                                <div>Monday to Friday: 7:30 AM - 5:00PM</div>
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
@@ -478,7 +478,7 @@ const location = () => {
                                 <span className="text-black font-semibold text-lg">
                                   Hours
                                 </span>
-                                <div>Monday to Friday: 7:30 AM - 5:00 PM</div>
+                                <div>Monday to Friday: 7:30 AM - 5:00PM</div>
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">

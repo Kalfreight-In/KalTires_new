@@ -28,9 +28,9 @@ const random = () => (
     <div className="flex flex-center flex-col w-1/4">
       <span className="text-black font-semibold text-lg">Hours</span>
       <div>
-        Monday: 7:30 AM - 5:00 PM Tuesday: 7:30 AM - 5:00 PM Wednesday: 7:30 AM
-        - 5:00 PM Thursday: 7:30 AM - 5:00 PM Friday: 7:30 AM - 5:00 PM
-        Saturday: Closed Sunday: Closed
+        Monday: 7:30 AM - 5:00PM Tuesday: 7:30 AM - 5:00PM Wednesday: 7:30 AM -
+        5:00PM Thursday: 7:30 AM - 5:00PM Friday: 7:30 AM - 5:00PM Saturday:
+        Closed Sunday: Closed
       </div>
     </div>
     <div className="flex flex-center flex-col w-2/12 ">
