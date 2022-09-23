@@ -447,7 +447,7 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </div>
-            <div className="my-4">
+            <div className="my-4" id="CanadaContact">
               <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-1  text-2xl font-bold  md:block hidden">
                 CANADA
               </h3>

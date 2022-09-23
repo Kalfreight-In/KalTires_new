@@ -98,7 +98,7 @@ export const Services = () => {
               >
                 {Servicesdata.map((data) => (
                   <a
-                    className="bg-kaltire-red   text-center text-white border-white hover:border cursor-pointer"
+                    className="bg-kaltire-red   text-center text-white  cursor-pointer"
                     key={data.id}
                     href="tel:800-808-0025"
                   >

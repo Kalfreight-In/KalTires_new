@@ -247,7 +247,7 @@ const Footer = () => {
                     <Link
                       className="block md:text-xs  hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer anchor"
                       rel="noreferrer"
-                      href="/#maincontactform"
+                      href="/#CanadaContact"
                       passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">

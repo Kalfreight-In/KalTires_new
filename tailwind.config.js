@@ -124,6 +124,7 @@ module.exports = {
       },
       fontSize: {
         contactheading: '2.5rem',
+        careeremail: '1.10rem',
       },
     },
     // screens: {
