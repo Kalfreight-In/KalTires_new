@@ -497,7 +497,7 @@ const Footer = () => {
                     </a>
                   </div>
 
-                  <div id="mainiconcontainer" className=" justify-end  mt-12  ">
+                  <div id="mainiconcontainer" className=" justify-end  mt-12 ">
                     <div id="allicons" className="flex justify-end">
                       <IoLogoFacebook
                         onClick={() =>
@@ -624,7 +624,7 @@ const Footer = () => {
                       </div>
                     </div>
 
-                    <div className="flex flex-row align-center justify-center xl:justify-end">
+                    <div className="flex flex-row align-center justify-center xl:justify-end ">
                       <a className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center">
                         Submit
                       </a>
@@ -635,7 +635,7 @@ const Footer = () => {
                   id="mainiconcontainer"
                   className=" justify-end pb-4 mt-4  "
                 >
-                  <div id="allicons" className="flex justify-between  ">
+                  <div id="allicons" className="flex justify-between   ">
                     <IoLogoFacebook
                       onClick={() =>
                         window.open(
@@ -643,7 +643,7 @@ const Footer = () => {
                           '_blank'
                         )
                       }
-                      className="text-white hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                      className="text-white  hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                     />
                     <RiInstagramFill
                       onClick={() =>
