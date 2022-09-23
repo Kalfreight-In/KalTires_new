@@ -29,7 +29,7 @@ const Topbar = ({ toggle, postion }) => {
               className={`${
                 postion.y === 0 ? '-mt-8 ' : ''
               } transition-all duration-300 ease-in-out ${
-                postion.y === 0 ? 'h-20 w-56' : 'h-2 w-40'
+                postion.y === 0 ? 'h-20 w-56' : 'h-20 w-44'
               } `}
             >
               <Image
