@@ -231,7 +231,7 @@ const location = () => {
                         }
                       >
                         <div className="bg-red-600 p-2 lg:ml-20 ml-4 xl:w-1/6 lg:w-1/4 md:w-1/3 m-0 flex md:items-center md:justify-center">
-                          <div className="flex flex-row md:ml-10">
+                          <div className="flex flex-row ">
                             <svg
                               width="21"
                               height="29"
