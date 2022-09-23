@@ -30,7 +30,7 @@ const CommercialTire = () => {
                 <div className="lg:block hidden ">
                   <motion.div
                     whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 1 }}
                   >
                     <div className="lg:relative self-start">
                       {alldata ? (
