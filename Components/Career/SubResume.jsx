@@ -44,11 +44,11 @@ export const SubResume = () => {
             id="lastresumecontent"
             className="text-center text-black font-poppins"
           >
-            <p className="text-xl font-poppins">
+            <p className="text-careeremail font-poppins">
               Or mail your resume directly at{' '}
               <a
                 href="mailto:info@kvltires.com"
-                className="text-kaltire-red font-poppins"
+                className="text-kaltire-red font-poppins font-semibold"
               >
                 info@kvltires.com
               </a>
