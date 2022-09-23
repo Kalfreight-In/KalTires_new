@@ -8,7 +8,7 @@ import HomeSlider from '../Components/Home/HomeSlider';
 import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
 import { MapConatiner } from '../Components/MapContainer';
 import ContactTwo from '../Components/Home/ContactTwo';
-// import FeaturedProducts from '../Components/Home/FeaturedProducts';
+import FeaturedProducts from '../Components/Home/FeaturedProducts';
 
 const Home = () => (
   <div>
@@ -29,7 +29,7 @@ const Home = () => (
     <BrandsComponent />
     {/* <div className="gcse-search" /> */}
     <AboutUs />
-    {/* <FeaturedProducts /> */}
+    <FeaturedProducts />
     <RoadSideAssistant />
     <HighPerformanceBrands />
     <MapConatiner />

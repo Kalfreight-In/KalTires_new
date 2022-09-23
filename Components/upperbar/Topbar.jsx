@@ -9,31 +9,38 @@ import { MobileIcon } from './Navbar';
 import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 
-const Topbar = ({ toggle }) => {
+const Topbar = ({ toggle, postion }) => {
   const { setUserLocation, setCurrentlatlong } = useStateContext();
   useEffect(() => {
-    findMyLocation(setUserLocation, setCurrentlatlong);
-  }, []);
+    // findMyLocation(setUserLocation, setCurrentlatlong);
+    console.log(`postion ${postion.y}`);
+  }, [postion]);
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div
-      className={`bg-black sticky top-0 z-10 ${
+      className={` bg-tire-gray-3 sticky top-0 z-10  ${
         isDesktop ? '' : 'fixed z-30 w-full'
       }`}
     >
-      <div className=" xl:mx-2 mx-1  flexBetween z-10   p-3 flex-row">
-        <div className=" ml-0 flex-1 flex flex-row justify-start items-center lg:pl-16 pl-4">
-          <div>
-            <Link href="/" passHrefs>
+      <div className="transition-all ease-in-out  mx-1  flexBetween z-10   p-1 flex-row ">
+        <div className=" ml-0 flex-1 flex flex-row justify-start items-center lg:pl-16 pl-4 ">
+          <Link href="/" passHrefs>
+            <div
+              className={`${
+                postion.y === 0 ? '-mt-8 ' : ''
+              } transition-all duration-300 ease-in-out `}
+            >
               <Image
                 src={Navlogo}
                 alt="place"
-                className="cursor-pointer   "
-                height={65}
-                width={195}
+                className={`cursor-pointer   transition-all  ease-in delay-150 duration-1000 ${
+                  postion.y === 0 ? 'h-20 w-12' : 'h-2 w-32'
+                }`}
+                height={postion.y === 0 ? 85 : 65}
+                width={postion.y === 0 ? 240 : 195}
               />
-            </Link>
-          </div>
+            </div>
+          </Link>
 
           {/* <div className="pt-2 relative ml-8 mx-auto text-gray-600 hidden lg:block">
             <input
@@ -47,21 +54,25 @@ const Topbar = ({ toggle }) => {
             </button>
           </div> */}
           <div
-            className="text-white flex-1 justify-end hidden lg:flex "
+            className="text-white flex-1 justify-end hidden lg:flex items-end -mb-4"
             href="tel:+1-800-808-0025"
           >
-            <a
+            <span className="align-bottom pr-8">
+              Scheduled Your Apppointment Today
+            </span>
+            {/* <a
               href="tel:+1-800-808-0025"
               className="pr-2 flex flexCenter cursor-pointer"
             >
               <Image src={call} alt="call" objectFit="contain" height={30} />
 
-              {/* <MdOutlineMessage size={50} className="-rotate-180" color="red" /> */}
-            </a>
-            <a href="tel:+1-800-808-0025" className="cursor-pointer pr-16">
+            </a> */}
+            <a href="tel:+1-800-808-0025" className="cursor-pointer pr-16 ">
               <div>
-                <div className="font-bold">Toll Free</div>
-                <div className="">+1-800-808-0025</div>
+                {/* <div className="font-bold">Toll Free</div> */}
+                <div className="text-3xl font-bold align-bottom">
+                  +1-<span className="text-red-500">808</span>-800-0025
+                </div>
               </div>
             </a>
           </div>
