@@ -112,7 +112,7 @@ export const Services = () => {
                       </div>
                     </div>
                     <h1
-                      className={`lg:text-xl text-lg font-bold font-poppins xl:px-8 md:px-0 whitespace-${data.linebrk} h-16`}
+                      className={`lg:text-xl text-lg font-bold font-poppins ${data.paddingX} md:px-0 whitespace-${data.linebrk} h-16`}
                     >
                       {data.heading}
                     </h1>
