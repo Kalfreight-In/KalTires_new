@@ -33,7 +33,7 @@ export const SubResume = () => {
             </div>
           </div>
           {Popup ? (
-            <div className="relative bottom-52 z-30   mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+            <div className="relative    mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
               <div className="sticky  top-0 left-0 right-0">
                 <DropBox className=" absolute" />
               </div>

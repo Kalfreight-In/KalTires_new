@@ -59,7 +59,11 @@ const DropBox = () => {
   return (
     <div>
       <header className="App-header">
-        <form onSubmit={(e) => handleSubmit(e)}>
+        <form
+          onSubmit={(e) => handleSubmit(e)}
+          className="flex justify-center flex-col items-center
+        "
+        >
           <div className="drop-zone" onClick={clickInput}>
             <span className="drop-zone__prompt">
               Drop file here or click to upload
@@ -73,7 +77,7 @@ const DropBox = () => {
             />
           </div>
           <button
-            className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
+            className="text-white rounded font-bold text-xl  h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica bg-red-500 "
             type="submit"
             id="submitmain"
           >
@@ -81,7 +85,7 @@ const DropBox = () => {
           </button>
         </form>
       </header>
-      <div className="progress">
+      {/* <div className="progress">
         <ProgressBarLine
           value={Progress}
           min={0}
@@ -102,7 +106,7 @@ const DropBox = () => {
             },
           }}
         />
-      </div>
+      </div> */}
     </div>
   );
 };

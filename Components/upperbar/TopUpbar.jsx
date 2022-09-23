@@ -18,6 +18,7 @@ export const CreditAppContainer = styled.div`
   z-index: 20;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
   background-color: #ef4444;
+  cursor: pointer;
 `;
 export const MondayToFridayContainer = styled.div`
   display: flex;
@@ -129,14 +130,16 @@ const TopUpbar = () => {
           Monday - Friday
           <span className="text-red-500 pl-2">7:30AM - 5:00 PM</span>
         </MondayToFridayContainer>
-        <CreditAppContainer>
-          <span className="h-5 w-5 animate-bounce bg-black rounded-full text-white flex flexCenter">
-            <MdOutlineKeyboardArrowRight />
-          </span>
-          <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
-            Credit Application
-          </span>
-        </CreditAppContainer>
+        <a href="/credit-application">
+          <CreditAppContainer>
+            <span className="h-5 w-5 animate-bounce bg-black rounded-full text-white flex flexCenter">
+              <MdOutlineKeyboardArrowRight />
+            </span>
+            <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
+              Credit Application
+            </span>
+          </CreditAppContainer>
+        </a>
       </div>
     </div>
   );
