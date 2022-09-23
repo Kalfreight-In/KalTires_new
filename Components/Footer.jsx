@@ -363,7 +363,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <span className="mt-5px  xl:w-44 overflow-visible">
                             <Link
-                              href="/tires-services#ServicesMain"
+                              href="/tires-services#ServiceScroll"
                               duration={1000}
                               offset={-80}
                             >
