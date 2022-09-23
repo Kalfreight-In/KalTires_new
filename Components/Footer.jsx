@@ -363,7 +363,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <span className="mt-5px  xl:w-44 overflow-visible">
                             <Link
-                              href="/tires-services#ServicesMain"
+                              href="/tires-services#ServiceScroll"
                               duration={1000}
                               offset={-80}
                             >
@@ -389,7 +389,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServicesMain"
+                            href="/tires-services#ServiceScroll"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -404,7 +404,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServicesMain"
+                            href="/tires-services#ServiceScroll"
                             target="_blank"
                             rel="noreferrer"
                             passHref
@@ -497,7 +497,7 @@ const Footer = () => {
                     </a>
                   </div>
 
-                  <div id="mainiconcontainer" className=" justify-end  mt-12  ">
+                  <div id="mainiconcontainer" className=" justify-end  mt-12 ">
                     <div id="allicons" className="flex justify-end">
                       <IoLogoFacebook
                         onClick={() =>
@@ -624,7 +624,7 @@ const Footer = () => {
                       </div>
                     </div>
 
-                    <div className="flex flex-row align-center justify-center xl:justify-end">
+                    <div className="flex flex-row align-center justify-center xl:justify-end ">
                       <a className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center">
                         Submit
                       </a>
@@ -635,7 +635,7 @@ const Footer = () => {
                   id="mainiconcontainer"
                   className=" justify-end pb-4 mt-4  "
                 >
-                  <div id="allicons" className="flex justify-between  ">
+                  <div id="allicons" className="flex justify-between   ">
                     <IoLogoFacebook
                       onClick={() =>
                         window.open(
@@ -643,7 +643,7 @@ const Footer = () => {
                           '_blank'
                         )
                       }
-                      className="text-white hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                      className="text-white  hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                     />
                     <RiInstagramFill
                       onClick={() =>

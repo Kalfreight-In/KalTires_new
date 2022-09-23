@@ -238,7 +238,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none font-Helvetica block w-full h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                    className="appearance-none outline-none font-Helvetica block w-full h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
                     id="grid-first-name"
                     type="text"
                     value={message}
