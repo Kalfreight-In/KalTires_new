@@ -8,28 +8,39 @@ const DropBox = () => {
   //   const [state, setState] = useState(true);
   //   const [loading, setloading] = useState(true);
   const [Error, setError] = useState(true);
-  const [Progress, setProgress] = useState(0);
+  // const [Progress, setProgress] = useState(0);
+  const [success, setSuccess] = useState(false);
   const [file, setFile] = useState();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [select, setSelect] = useState(false);
   const [service, setservice] = useState('');
+  const [buttonText, setButtonText] = useState('Submit');
   //   const [uploadedFile, setuploadedFile] = useState(null);
   const inputRef = useRef(null);
 
   const clickInput = () => {
     inputRef.current.click();
   };
+  const resetForm = () => {
+    setName('');
+    setEmail('');
+    setMessage('');
+
+    setError(false);
+
+    setButtonText('Submit');
+  };
 
   function handleSubmit(event) {
     event.preventDefault();
-    const url = 'http://localhost:3000/uploadFile';
-    const formData = new FormData();
+    const url = 'http://localhost:5000/load';
+    // const formData = new FormData();
 
-    formData.append('file', file);
+    // formData.append('file', file);
 
-    formData.append('fileName', file.name);
+    // formData.append('fileName', file.name);
 
     const config = {
       headers: {
@@ -38,13 +49,17 @@ const DropBox = () => {
     };
     const data = {
       site: 'ssoam@kalfreight.com',
+      name,
+      email,
+      message,
+      service,
       file,
-      email: 'email@mail.com',
       //   location,
     };
 
     axios
-      .post('http://localhost:5000/load', formData, config)
+      .post(url, data, config)
+      .then(() => [setSuccess(true), resetForm()])
       .then((uploadEvt) => {
         const percentCompleted = Math.round(
           (uploadEvt.loaded * 100) / uploadEvt.total
@@ -77,7 +92,7 @@ const DropBox = () => {
           >
             <input
               onChange={(e) => setName(e.target.value)}
-              className="appearance-none  font-medium block w-full h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+              className="appearance-none  font-medium block w-full h-full placeholder-white  bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
               id="grid-first-name"
               type="text"
               value={name}
@@ -106,9 +121,9 @@ const DropBox = () => {
           >
             <div className="w-full relative    appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
               <select
-                name="servicetype"
+                name="Department"
                 // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                className="w-full appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  border py-3 px-4 mb-3 leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
+                className="w-full appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  border py-3 px-4  leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
                 onChange={(e) => setservice(e.target.value)}
                 type="select"
                 value={service}
@@ -117,18 +132,22 @@ const DropBox = () => {
                   setSelect(!select);
                 }}
               >
-                <option value="service" hidden>
-                  Inquiry Type
+                <option value="Department" hidden>
+                  Department
                 </option>
 
-                <option value="newtires">New Tires</option>
-                <option value="retreadtires">Retread Tires</option>
-                <option value="heavyduty">Heavy Duty Front End Work</option>
-                <option value="wheel">Wheel Alignment</option>
-                <option value="otr">OTR Tires</option>
+                <option value="Administration">Administration</option>
+
+                <option value="WareHouse Manager">WareHouse Manager</option>
+                <option value="Service Technician">Service Technician</option>
+                <option value="Delivery Drivers">Delivery Drivers</option>
+
+                <option value="Inventory Control">Inventory Control</option>
+                <option value="Operations">Operations</option>
                 {/* <option value="speciality">Specialty</option>
           <option value="enquiry">Enquiry</option> */}
-                <option value="others">Others</option>
+                <option value="Sales">Sales</option>
+                <option value="others">Other</option>
               </select>
               <div className="absolute z-30 text-white font-xl right-5 bottom-5">
                 {select ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -143,9 +162,9 @@ const DropBox = () => {
               onChange={(e) => setMessage(e.target.value)}
               className="appearance-none font-medium block w-full h-full  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
               id="grid-first-name"
-              type="text"
+              type="number"
               value={message}
-              placeholder="Message"
+              placeholder="Year Of Experience"
               required
             />
           </div>
@@ -166,7 +185,7 @@ const DropBox = () => {
             type="submit"
             id="submitmain"
           >
-            submit
+            {buttonText}
           </button>
         </form>
       </header>

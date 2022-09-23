@@ -29,9 +29,8 @@ const CommercialTire = () => {
               <div className="lg:grid lg:grid-cols-2 2xl:pr-16 xl:pr-12 lg:pr-8">
                 <div className="lg:block hidden ">
                   <motion.div
-                    initial={{ x: -100, opacity: 0.5 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5 }}
+                    whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
+                    transition={{ duration: 1 }}
                   >
                     <div className="lg:relative self-start">
                       {alldata ? (
@@ -47,8 +46,7 @@ const CommercialTire = () => {
                 <div className="flex flex-col-reverse lg:block lg:pl-8">
                   <div className="lg:hidden block  ">
                     <motion.div
-                      initial={{ x: -100, opacity: 0.5 }}
-                      animate={{ x: 0, opacity: 1 }}
+                      whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
                       transition={{ duration: 2 }}
                     >
                       <div className="lg:relative lg:mt-4 self-start">
@@ -66,8 +64,7 @@ const CommercialTire = () => {
                     </h1>
                     <div id="combuttons" className="mt-12">
                       <motion.div
-                        initial={{ y: 100, opacity: 0.4 }}
-                        animate={{ y: 0, opacity: 1 }}
+                        whileInView={{ y: [100, 0], opacity: [0.4, 1] }}
                         transition={{ duration: 0.4 }}
                       >
                         <span className="">
@@ -100,8 +97,7 @@ const CommercialTire = () => {
                       </motion.div>
                     </div>
                     <motion.div
-                      initial={{ y: 100, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
+                      whileInView={{ y: [100, 0], opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
                       <p className="text-white mt-5 lg:text-left text-justify font-Helvetica">

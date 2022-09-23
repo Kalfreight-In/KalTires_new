@@ -11,10 +11,7 @@ import { useStateContext } from '../../context/StateContext';
 
 const Topbar = ({ toggle, postion }) => {
   const { setUserLocation, setCurrentlatlong } = useStateContext();
-  useEffect(() => {
-    // findMyLocation(setUserLocation, setCurrentlatlong);
-    console.log(`postion ${postion.y}`);
-  }, [postion]);
+
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div
@@ -27,7 +24,7 @@ const Topbar = ({ toggle, postion }) => {
           <Link href="/" passHrefs>
             <div
               className={`${
-                postion.y === 0 ? '-mt-8' : ''
+                postion.y === 0 ? '-mt-8' : '-mt-0'
               } transition-all duration-300 ease-in    ${
                 postion.y === 0 ? 'h-20 w-56' : 'h-20 w-44'
               } `}
