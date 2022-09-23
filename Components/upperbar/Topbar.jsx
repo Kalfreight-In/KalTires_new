@@ -28,16 +28,16 @@ const Topbar = ({ toggle, postion }) => {
             <div
               className={`${
                 postion.y === 0 ? '-mt-8 ' : ''
-              } transition-all duration-300 ease-in-out `}
+              } transition-all duration-300 ease-in-out ${
+                postion.y === 0 ? 'h-20 w-56' : 'h-2 w-40'
+              } `}
             >
               <Image
                 src={Navlogo}
                 alt="place"
-                className={`cursor-pointer   transition-all  ease-in delay-150 duration-1000 ${
-                  postion.y === 0 ? 'h-20 w-12' : 'h-2 w-32'
-                }`}
-                height={postion.y === 0 ? 85 : 65}
-                width={postion.y === 0 ? 240 : 195}
+                className="cursor-pointer   transition-all  ease-in delay-150 duration-1000 "
+                // height={postion.y === 0 ? 85 : 65}
+                // width={postion.y === 0 ? 240 : 195}
               />
             </div>
           </Link>
