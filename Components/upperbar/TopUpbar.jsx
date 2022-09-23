@@ -126,10 +126,13 @@ const TopUpbar = () => {
             ) : null}
           </div>
         </div>
-        <MondayToFridayContainer className="text-white font-bold pl-20 ">
-          Monday - Friday
-          <span className="text-red-500 pl-2">7:30AM - 5:00PM</span>
-        </MondayToFridayContainer>
+        <div className="animate-pulse">
+          <MondayToFridayContainer className="text-white font-bold pl-20  ">
+            Monday - Friday
+            <span className="text-red-500 pl-2">7:30AM - 5:00PM</span>
+          </MondayToFridayContainer>
+        </div>
+
         <a href="/credit-application">
           <CreditAppContainer>
             <span className="h-5 w-5 animate-bounce bg-black rounded-full text-white flex flexCenter">

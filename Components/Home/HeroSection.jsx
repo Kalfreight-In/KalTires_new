@@ -35,8 +35,7 @@ const HeroSection = ({ data }) => (
             }  w-full `}
           >
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.9 }}
             >
               <div
@@ -45,8 +44,7 @@ const HeroSection = ({ data }) => (
                 } border-PrimaryTwo anima lg:pl-3 pl-0`}
               >
                 <motion.div
-                  initial={{ x: -100, opacity: 0.5 }}
-                  animate={{ x: 0, opacity: 1 }}
+                  whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
                   transition={{ duration: 0.5 }}
                 >
                   <div className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-0 lg:pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
@@ -56,8 +54,7 @@ const HeroSection = ({ data }) => (
 
                 {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
                 <motion.div
-                  initial={{ x: -100, opacity: 0.5 }}
-                  animate={{ x: 0, opacity: 1 }}
+                  whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
                   transition={{ duration: 0.4 }}
                 >
                   <div

@@ -12,7 +12,7 @@ const Onsiteservice = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   const isMobile = useMediaQuery('(min-width:768px)');
   return (
-    <div id="onsiteid">
+    <div id="onsiteid" className="mb-8">
       <div>
         {isDesktop ? (
           <div>
@@ -72,7 +72,7 @@ const Onsiteservice = () => {
           </Swiper>
         )}
 
-        {Onsitecomponentdata.map((onsitemain) => (
+        {/* {Onsitecomponentdata.map((onsitemain) => (
           <div id="secondonsite" className="mt-12 mb-4" key={onsitemain.id}>
             <div id="innersecondonsite" className="text-center">
               <h1 className="md:text-2xl font-bold font-poppins">
@@ -96,7 +96,7 @@ const Onsiteservice = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
