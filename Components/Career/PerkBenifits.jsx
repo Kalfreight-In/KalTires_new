@@ -25,7 +25,7 @@ export const PerkBenifits = () => {
             >
               {PerkBenifitsdata.map((index) => (
                 <div
-                  className="bg-bg-white-1 text-center border border-perkbenefitsborder  "
+                  className="bg-bg-white-1 text-center border border-perkbenefitsborder "
                   key={index.id}
                 >
                   <div className="flex justify-start  pt-12 h-perkimageheight w-perkimagewidth px-4">
