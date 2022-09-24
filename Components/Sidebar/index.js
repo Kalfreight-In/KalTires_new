@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <Link href="/" passHref onClick={toggle}>
+          <Link href="/" onClick={toggle}>
             <SidebarLinkR onClick={toggle}>Home</SidebarLinkR>
           </Link>
 
@@ -242,22 +242,22 @@ const Sidebar = ({ isOpen, toggle }) => {
               careers
             </Link>
           </Link> */}
-          <Link href="/#AboutUs_Section" passHref onClick={toggle}>
+          <Link href="/#AboutUs_Section" onClick={toggle}>
             <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
           </Link>
-          <Link href="/tires-services" passHref onClick={toggle}>
+          <Link href="/tires-services" onClick={toggle}>
             <SidebarLinkR onClick={toggle}>Tires & Services</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/24X7-roadside-assistance" passHref>
+          <Link onClick={toggle} href="/24X7-roadside-assistance">
             <SidebarLinkR onClick={toggle}>Roadside Assistance</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/locations" passHref>
+          <Link onClick={toggle} href="/locations">
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/credit-application" passHref>
+          <Link onClick={toggle} href="/credit-application">
             <SidebarLinkR onClick={toggle}>Credit Application</SidebarLinkR>
           </Link>
-          <Link onClick={toggle} href="/careers" passHref>
+          <Link onClick={toggle} href="/careers">
             <SidebarLinkR onClick={toggle}>Careers</SidebarLinkR>
           </Link>
           {/* <Link to="/Ecommerce">Ecommerce</Link>

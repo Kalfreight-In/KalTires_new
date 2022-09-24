@@ -32,40 +32,14 @@ const BottomBar = ({ toggle }) => {
   };
   return (
     <Nav scrollNav={scrollNav}>
-      {/* <NavLogo to="/" onClick={toggleHome}>
-          <h3 className="text-left text-gray-200 font-bold md:text-2xl md:text-3xl">
-            BIG-RIG
-          </h3>
-        </NavLogo> */}
-
-      {/* <Bars onClick={toggle}/> */}
       <NavMenu>
-        {/* <NavItem>
-            <NavLinks
-              to="/"
-              onClick={toggleHome}
-              className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
-            >
-              <a to="/">Home</a>
-            </NavLinks>
-          </NavItem> */}
-
-        {/* <NavItem>
-            <NavLinks
-              to="/About"
-              onClick={toggleHome}
-              className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
-            >
-              <a to="/About">Trailer & Leasing</a>
-            </NavLinks>
-          </NavItem> */}
         <NavItem>
           <NavLinks
             to="/About"
             onClick={toggleHome}
             className="2xl:text-desc text-black md:text-sm md:text-xs"
           >
-            <a to="/About">Sitemap</a>
+            Sitemap
           </NavLinks>
         </NavItem>
         <NavItem>
@@ -74,7 +48,7 @@ const BottomBar = ({ toggle }) => {
             onClick={toggleHome}
             className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
           >
-            <a to="/About">Terms of Use</a>
+            Terms of Use
           </NavLinks>
         </NavItem>
         {/* <NavItem>
@@ -115,7 +89,7 @@ const BottomBar = ({ toggle }) => {
             onClick={toggleHome}
             className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
           >
-            <a to="/Contact">Privacy Policy</a>
+            Privacy Policy
           </NavLinks>
         </NavItem>
         {/* <NavItem>

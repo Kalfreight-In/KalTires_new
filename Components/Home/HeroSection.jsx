@@ -38,7 +38,7 @@ const HeroSection = ({ data }) => (
               // initial={{ opacity: 0 }}
               // animate={{ opacity: 1 }}
               whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.9 }}
+              transition={{ duration: 1.9 }}
             >
               <div
                 className={` ${
@@ -47,7 +47,7 @@ const HeroSection = ({ data }) => (
               >
                 <motion.div
                   whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 1.5 }}
                 >
                   <div className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-0 lg:pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
                     {data.Heading.toUpperCase()}
@@ -57,7 +57,7 @@ const HeroSection = ({ data }) => (
                 {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
                 <motion.div
                   whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
-                  transition={{ duration: 0.4 }}
+                  transition={{ duration: 1.4 }}
                 >
                   <div
                     className={`lg:text-xl  text-white  font-Helvetica font-xl  lg:block lg:pt-0 pt-2  pr-0   ${
@@ -81,7 +81,6 @@ const HeroSection = ({ data }) => (
                 <Link
                   href={data.CTA1.Slink ? data.CTA1.Slink : data.CTA1.link}
                   className="flex flex-row justify-center lg:justify-start"
-                  passHref
                 >
                   {/* <button
                   type="button"

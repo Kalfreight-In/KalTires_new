@@ -21,7 +21,7 @@ const Topbar = ({ toggle, postion }) => {
     >
       <div className="transition-all ease-in-out  mx-1  flexBetween z-10   p-1 flex-row ">
         <div className=" ml-0 flex-1 flex flex-row justify-start items-center lg:pl-16 pl-4 ">
-          <Link href="/" passHrefs>
+          <Link href="/">
             <div
               className={`${
                 postion.y === 0 ? '-mt-8' : '-mt-0'
