@@ -1434,7 +1434,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [39.7592009, -86.1289827],
+      coordinates: [39.7591968, -86.126794],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
@@ -1447,14 +1447,14 @@ export const MapData1 = [
     properties: {
       State: 'IN',
       Manager: 'Telly Ingram',
-      ZipCode: '46225',
+      ZipCode: '46201',
       City: 'Indianapolis',
       Address: '2025 ENGLISH AVE',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/indianapolistM.png',
-      url: 'https://www.google.co.in/maps/place/2025+English+Ave,+Indianapolis,+IN+46201,+USA/@39.7592009,-86.1289827,17z/data=!3m1!4b1!4m5!3m4!1s0x886b507bb4588c77:0xd0b2698ed1a53b6d!8m2!3d39.7591968!4d-86.126794?hl=en',
+      url: 'https://goo.gl/maps/6ansb7uMWcfBT6QU7',
     },
   },
   {
@@ -1518,7 +1518,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [40.6414871, -74.9932845],
+      coordinates: [40.6336157, -74.9586495],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
@@ -1533,12 +1533,12 @@ export const MapData1 = [
       Manager: 'Steve Malia',
       ZipCode: '08827',
       City: 'Hampton',
-      Address: '15 FRONTAGE RD, ROUTE 173',
+      Address: '15 NJ Route 173',
       Phone: '908-914-2577',
       Email: 'smalia@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
-      url: 'https://www.google.com/maps/place/15+Frontage+Rd,+Asbury,+NJ+08802,+USA/@40.6414871,-74.9932845,17z/data=!3m1!4b1!4m5!3m4!1s0x89c475135348f553:0xe4a6f37f018d1695!8m2!3d40.6414871!4d-74.9910958',
+      url: 'https://goo.gl/maps/dJGKjLarLFAgw9y58',
     },
   },
 
