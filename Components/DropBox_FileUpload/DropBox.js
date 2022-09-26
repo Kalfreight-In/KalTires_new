@@ -165,6 +165,7 @@ const DropBox = () => {
               type="number"
               min={0}
               value={message}
+              min="0"
               placeholder="Year Of Experience"
               required
             />
