@@ -33,7 +33,7 @@ export const SubResume = () => {
             </div>
           </div>
           {Popup ? (
-            <div className="fixed  bottom-0 left-96 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+            <div className="fixed  bottom-0 left-1/3 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
               <div className="sticky top-0 left-0 right-0">
                 <AiOutlineClose
                   className="cursor-pointer"
