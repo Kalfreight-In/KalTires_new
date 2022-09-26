@@ -24,7 +24,7 @@ const Topbar = ({ toggle, postion }) => {
           <Link href="/">
             <div
               className={`${
-                postion.y === 0 ? '-mt-8' : '-mt-0'
+                postion.y === 0 && isDesktop ? '-mt-8' : '-mt-0'
               } transition-all duration-300 ease-in    ${
                 postion.y === 0 ? 'h-20 w-56' : 'h-20 w-44'
               } `}

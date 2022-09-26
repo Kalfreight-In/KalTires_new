@@ -240,7 +240,7 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full md:mb-0 pr-0 lg:pl-16 pl-8 mb-24">
+          <div className="  w-full md:mb-0 pr-0 lg:pl-16 pl-8 mb-2 lg:mb-24">
             <div className="w-full ">
               <div className="flex flex-row">
                 {/* <svg
