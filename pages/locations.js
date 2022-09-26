@@ -296,11 +296,9 @@ const location = () => {
                                     KVL Tires
                                   </div>
                                   <div className=" font-normal text-md">
-                                    {`${toTitleCase(
-                                      value.properties.Address
-                                    )}${', '}  ${value.properties.City}, ${
-                                      value.properties.State
-                                    }
+                                    {`${value.properties.Address}${', '}  ${
+                                      value.properties.City
+                                    }, ${value.properties.State}
                                     ${value.properties.ZipCode}`}
                                   </div>
                                   {value.properties.Manager ? (
@@ -348,6 +346,8 @@ const location = () => {
                                   <a
                                     className="text-blue-500"
                                     href={value.properties.url}
+                                    target="_blank"
+                                    rel="noreferrer"
                                   >
                                     See on map
                                   </a>
