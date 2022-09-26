@@ -53,7 +53,7 @@ const Onsiteservice = () => {
             {OnsiteGriddata.map((newdata) => (
               <SwiperSlide key={newdata.id}>
                 <div>
-                  <div id="grid" className=" bg-bg-white-1    pt-20 px-4">
+                  <div id="grid" className=" bg-bg-white-1   px-4">
                     <div className="bg-bg-white-1 text-center">
                       <div className="flex justify-center">
                         <div className="w-onsiteimage h-onsiteimage flex">
