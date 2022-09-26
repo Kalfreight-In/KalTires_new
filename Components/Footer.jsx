@@ -30,6 +30,21 @@ const Footer = () => {
         width: 'full',
       }}
     >
+      {popup ? (
+        <div className="fixed  bottom-8 left-1/3 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+          <div className="sticky top-0 left-0 right-0">
+            <AiOutlineClose
+              className="cursor-pointer"
+              onClick={() => {
+                setPopup(!popup);
+              }}
+            ></AiOutlineClose>
+            <div className="text-3xl w-96 h-96 bg-white">
+              Thank you For Subscribing
+            </div>
+          </div>
+        </div>
+      ) : null}
       <div className="p-8  md:p-0 xl:block flex justify-center ">
         <img
           src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
@@ -69,19 +84,7 @@ const Footer = () => {
                     </a>
                   </div>
                 </div>
-                {popup ? (
-                  <div className="fixed  bottom-0 left-96 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
-                    <div className="sticky top-0 left-0 right-0">
-                      <AiOutlineClose
-                        className="cursor-pointer"
-                        onClick={() => {
-                          setPopup(!popup);
-                        }}
-                      ></AiOutlineClose>
-                      <div className="text-3xl"> thankyou</div>
-                    </div>
-                  </div>
-                ) : null}
+
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a
@@ -468,12 +471,14 @@ const Footer = () => {
                   </div>
 
                   <div className="flex flex-row ml-28 space-x-2  item-center justify-end  bg-kaltire-red  rounded">
-                    <a
-                      to=""
+                    <div
+                      onClick={() => {
+                        setPopup(!popup);
+                      }}
                       className=" block text-lg pr-8 2xl:pr-8 pb-1  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-semibold text-center"
                     >
                       Submit
-                    </a>
+                    </div>
                   </div>
 
                   <div id="mainiconcontainer" className=" justify-end  mt-12 ">
@@ -604,15 +609,15 @@ const Footer = () => {
                       </div>
                     </div>
 
-                    <div
-                      onClick={() => {
-                        setPopup(!popup);
-                      }}
-                      className="flex flex-row align-center justify-center xl:justify-end "
-                    >
-                      <a className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center">
+                    <div className="flex flex-row align-center justify-center xl:justify-end ">
+                      <div
+                        onClick={() => {
+                          setPopup(!popup);
+                        }}
+                        className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center"
+                      >
                         Submit
-                      </a>
+                      </div>
                     </div>
                   </div>
                 </div>
