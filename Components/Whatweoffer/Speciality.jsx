@@ -31,7 +31,7 @@ export const Speciality = () => {
                 <span className="block">
                   <span className=" px-4 font-poppins ">
                     {' '}
-                    <span className="border-b-2 border-red-600">
+                    <span className="border-b-2 border-red-600 py-2">
                       Specialty Tires
                     </span>{' '}
                   </span>
@@ -50,7 +50,7 @@ export const Speciality = () => {
             <div className=" px-0 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left lg:ml-8">
               <h2 className="text-3xl tracking-tight   text-black font-Helvetica pt-6 font-semibold lg:block hidden ">
                 <span className="block">
-                  <span className="border-kaltire-red border-b-2 font-poppins">
+                  <span className="border-kaltire-red border-b-2 font-poppins py-2">
                     Specialty Tires
                   </span>
                 </span>
