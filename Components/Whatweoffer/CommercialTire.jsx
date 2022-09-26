@@ -20,6 +20,27 @@ const CommercialTire = () => {
       setalldata(CommercialTiretwo[0]);
     }
   }, [WWOtires]);
+  const containerVariants = {
+    open: {
+      width: '240px',
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+    closed: {
+      width: '60px',
+      transition: {
+        staggerChildren: 0.1,
+        when: 'afterChildren',
+        staggerDirection: -1,
+      },
+    },
+  };
+  const childVariants = {
+    open: { opacity: 1 },
+    closed: { opacity: 0 },
+  };
+
   return (
     <div id="commercialtiremain">
       <div>
@@ -29,8 +50,8 @@ const CommercialTire = () => {
               <div className="lg:grid lg:grid-cols-2 2xl:pr-16 xl:pr-12 lg:pr-8">
                 <div className="lg:block hidden ">
                   <motion.div
-                    whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
-                    transition={{ duration: 1 }}
+                    whileInView={{ x: [-200, 0], opacity: [0.5, 1] }}
+                    transition={{ duration: 0.6 }}
                   >
                     <div className="lg:relative self-start">
                       {alldata ? (
