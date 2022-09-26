@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DropBox from '../DropBox_FileUpload/DropBox';
-import { AiOutlineClose } from 'react-icons/Ai';
+import { AiOutlineClose } from 'react-icons/ai';
 export const SubResume = () => {
   const [Popup, setPopup] = useState(false);
 

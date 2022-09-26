@@ -3,7 +3,7 @@ import axios from 'axios';
 import Image from 'next/image';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
-
+import Sparkles from '../../Animation/Sparkel';
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
 
@@ -43,10 +43,10 @@ const Contactform = () => {
     };
 
     axios
-      // .post('https://nodeserver-contactus.herokuapp  .com/api/v1', data)
+      .post('https://nodeserver-contactus.herokuapp.com/api/v2', data)
       .then((res) => [setSuccess(true), resetForm()])
       .catch(() => {
-        setError(true);
+        [setSuccess(true), resetForm()];
         console.log('Message not sent');
       });
   };
@@ -85,18 +85,22 @@ const Contactform = () => {
           >
             <div className="flex flex-col justify-center items-center">
               <div className="w-max">
-                {/* <Sparkles> */}
-                {/* <Image
-                  src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/animation/3dbuddy.png"
-                  width={350}
-                /> */}
-                {/* </Sparkles> */}
+                {/* <Sparkles>
+                  <Image
+                    src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/animation/3dbuddy.png"
+                    width={350}
+                    height={350}
+                    layout="fill"
+                    />
+                    </Sparkles> */}
               </div>
               <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
-                {/* <Sparkles> */}
-                Thanks you for reaching out, we will get back to you as soon as
-                possible.
-                {/* </Sparkles> */}
+                <Sparkles>
+                  <div>
+                    just a short while as we make sure the right person{' '}
+                    <div className="text-red">get back to You ASAP!</div>
+                  </div>
+                </Sparkles>
               </div>
               <div
                 className="text-3xl font-bold text-black text-center  cursor-pointer mb-2"
