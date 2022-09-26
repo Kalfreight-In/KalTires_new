@@ -3,6 +3,7 @@ import React, { useContext, useState } from 'react';
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
 import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
+import { AiOutlineClose } from 'react-icons/ai';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
@@ -68,7 +69,19 @@ const Footer = () => {
                     </a>
                   </div>
                 </div>
-
+                {popup ? (
+                  <div className="fixed  bottom-0 left-96 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+                    <div className="sticky top-0 left-0 right-0">
+                      <AiOutlineClose
+                        className="cursor-pointer"
+                        onClick={() => {
+                          setPopup(!popup);
+                        }}
+                      ></AiOutlineClose>
+                      <div className="text-3xl"> thankyou</div>
+                    </div>
+                  </div>
+                ) : null}
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a
