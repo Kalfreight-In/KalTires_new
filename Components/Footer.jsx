@@ -359,7 +359,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServiceScroll"
+                            href="/tires-services#ServicesMain"
                             rel="noreferrer"
                           >
                             Mounted Wheel Programs
@@ -372,7 +372,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServiceScroll"
+                            href="/tires-services#ServicesMain"
                             rel="noreferrer"
                           >
                             Truck & Trailer Alignment
@@ -398,7 +398,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="tires-services#ServiceScroll"
+                            href="tires-services#ServicesMain"
                             rel="noreferrer"
                             passHref
                           >
