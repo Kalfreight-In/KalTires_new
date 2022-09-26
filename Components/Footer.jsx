@@ -484,7 +484,7 @@ const Footer = () => {
                       <IoLogoLinkedin
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/kvltires',
+                            'https://www.linkedin.com/company/kvltires/',
                             '_blank'
                           )
                         }
