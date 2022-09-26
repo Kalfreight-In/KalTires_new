@@ -52,7 +52,7 @@ const Footer = () => {
 
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
                   <div className="mt-11">
-                    <a href="mailto:info@kvltires.com target=" rel="noreferrer">
+                    <a href="mailto:info@kvltires.com" rel="noreferrer">
                       <IoMdMail className="h-6 w-5  " />
                     </a>
                   </div>
@@ -179,7 +179,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#ScrollIndust"
+                      href="/tires-services#tire"
                       // target="_blank"
                       rel="noreferrer"
                       passHref
@@ -216,11 +216,7 @@ const Footer = () => {
                       H_WA ? '' : 'hidden'
                     }`}
                   >
-                    <Link
-                      href="/#AboutUs_Section"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <Link href="/#AboutUs_Section" rel="noreferrer">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
                         About Us
                       </span>
@@ -275,11 +271,7 @@ const Footer = () => {
                   >
                     <div />
                     <div>
-                      <Link
-                        href="/tires-services"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                      <Link href="/tires-services" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           {' '}
                           Tires & Services
@@ -287,11 +279,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link
-                        href="/24X7-roadside-assistance"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                      <Link href="/24X7-roadside-assistance" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           {' '}
                           Roadside Assistance
@@ -299,7 +287,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link href="/locations" target="_blank" rel="noreferrer">
+                      <Link href="/locations" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           Locations
                         </span>
@@ -307,11 +295,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                      <a
-                        href="/credit-application"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                      <a href="/credit-application" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Credit Application
                         </span>
@@ -375,7 +359,6 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/tires-services#ServiceScroll"
-                            target="_blank"
                             rel="noreferrer"
                           >
                             Mounted Wheel Programs
@@ -389,7 +372,6 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/tires-services#ServiceScroll"
-                            target="_blank"
                             rel="noreferrer"
                           >
                             Truck & Trailer Alignment
@@ -415,9 +397,9 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/tires-services#tire"
-                            target="_blank"
+                            href="tires-services#ServiceScroll"
                             rel="noreferrer"
+                            passHref
                           >
                             <span
                               onClick={() => {

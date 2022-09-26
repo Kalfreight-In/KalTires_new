@@ -123,7 +123,7 @@ const Contactform = () => {
                 <div className="xl:text-left text-center">
                   <div
                     id="contactnew"
-                    className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12"
+                    className="flex justify-start items-center xl:justify-start xl:items-start pb-8 md:pb-0 pt-12"
                   >
                     {/* <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
@@ -144,7 +144,7 @@ const Contactform = () => {
                 </div>
                 <div className="flex flex-wrap mb-6 md:mt-8 lg:mr-12 md:mr-8 mr-4">
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-4 pt-0"
+                    className="w-full flex justify-center    mb-6 md:mb-0 lg:pt-4 pt-0"
                     id="input_placeholder"
                   >
                     <input
@@ -158,7 +158,7 @@ const Contactform = () => {
                     />
                   </div>
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                    className="w-full flex justify-center    mb-6 md:mb-0 md:pt-4"
                     id="input_placeholder"
                   >
                     <input
@@ -173,7 +173,7 @@ const Contactform = () => {
                     />
                   </div>
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 "
+                    className="w-full flex justify-center    mb-6 md:mb-0 md:pt-4 "
                     id="input_placeholder"
                   >
                     <div className="w-full relative    appearance-none block h-full  bg-red-600 bg-opacity-30 focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
@@ -210,7 +210,7 @@ const Contactform = () => {
                     </div>
                   </div>
                   <div
-                    className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                    className="w-full flex justify-center   mb-6 md:mb-0 md:pt-4"
                     id="input_placeholder"
                   >
                     <input

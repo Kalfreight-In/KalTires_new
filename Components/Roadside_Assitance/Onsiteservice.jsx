@@ -18,10 +18,10 @@ const Onsiteservice = () => {
           <div>
             <div
               id="grid"
-              className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-20"
+              className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate  px-20"
             >
               {OnsiteGriddata.map((index) => (
-                <div className="bg-bg-white-1 text-center" key={index.id}>
+                <div className="bg-bg-white-1 text-center py-8" key={index.id}>
                   <div className="flex justify-center">
                     <div className="w-onsiteimage h-onsiteimage flex">
                       <Image src={index.img} alt="service" />
@@ -53,7 +53,7 @@ const Onsiteservice = () => {
             {OnsiteGriddata.map((newdata) => (
               <SwiperSlide key={newdata.id}>
                 <div>
-                  <div id="grid" className=" bg-bg-white-1    pt-20 px-4">
+                  <div id="grid" className=" bg-bg-white-1   px-4">
                     <div className="bg-bg-white-1 text-center">
                       <div className="flex justify-center">
                         <div className="w-onsiteimage h-onsiteimage flex">
