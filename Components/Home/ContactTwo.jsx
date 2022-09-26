@@ -4,6 +4,7 @@ import Image from 'next/image';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
+
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
 
@@ -169,14 +170,15 @@ const Contactform = () => {
                 >
                   <input
                     type="tel"
-                    // pattern="\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}"
+                    pattern="^[0-9-+\s()]*$"
                     maxLength="11"
                     minLength="10"
                     placeholder="Contact Number"
+                    accept="number"
                     value={phone}
                     className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setPhone(e.target.value)}
-                    defaultValue="+1"
+                    // defaultValue="+1"
                   />
                 </div>
                 <div
