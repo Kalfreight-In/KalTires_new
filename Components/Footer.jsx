@@ -17,6 +17,12 @@ const Footer = () => {
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
   const { setWWOtires } = useStateContext();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setPopup(true);
+    setEmail('');
+  };
   return (
     <div
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
@@ -30,21 +36,6 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      {popup ? (
-        <div className="fixed  bottom-8 left-1/3 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
-          <div className="sticky top-0 left-0 right-0">
-            <AiOutlineClose
-              className="cursor-pointer"
-              onClick={() => {
-                setPopup(!popup);
-              }}
-            ></AiOutlineClose>
-            <div className="text-3xl w-96 h-96 bg-white">
-              Thank you For Subscribing
-            </div>
-          </div>
-        </div>
-      ) : null}
       <div className="p-8  md:p-0 xl:block flex justify-center ">
         <img
           src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
@@ -455,31 +446,36 @@ const Footer = () => {
                     Hcontactus ? '' : 'hidden'
                   }`}
                 >
-                  <div className="  mt-8">
-                    <div className="w-full ">
-                      <input
-                        onChange={(e) => setEmail(e.target.value)}
-                        value={email}
-                        className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="email"
-                        placeholder="Email Address"
-                        type="email"
-                        pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
-                        required
-                      />
+                  <form onSubmit={(e) => handleSubmit(e)}>
+                    <div className="  mt-8">
+                      <div className="w-full ">
+                        <input
+                          onChange={(e) => setEmail(e.target.value)}
+                          value={email}
+                          className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                          id="email"
+                          placeholder="Email Address"
+                          type="email"
+                          pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                          required
+                        />
+                      </div>
+                      {popup ? (
+                        <div className="text-xl text-white">
+                          Thank you For Subscribing
+                        </div>
+                      ) : null}
                     </div>
-                  </div>
 
-                  <div className="flex flex-row ml-28 space-x-2  item-center justify-end  bg-kaltire-red  rounded">
-                    <div
-                      onClick={() => {
-                        setPopup(!popup);
-                      }}
-                      className=" block text-lg pr-8 2xl:pr-8 pb-1  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-semibold text-center"
-                    >
-                      Submit
+                    <div className="flex flex-row ml-28 space-x-2  item-center justify-end  bg-kaltire-red  rounded">
+                      <button
+                        type="submit"
+                        className=" block text-lg pr-8 2xl:pr-8 pb-1  hover:text-yellow-shadowhover items-center cursor-pointer text-white   mt-1  font-semibold text-center"
+                      >
+                        Submit
+                      </button>
                     </div>
-                  </div>
+                  </form>
 
                   <div id="mainiconcontainer" className=" justify-end  mt-12 ">
                     <div id="allicons" className="flex justify-end">
@@ -594,31 +590,31 @@ const Footer = () => {
                   </div>
 
                   <div className="text-white 2xl:leading-8 leading-6 xl:block ">
-                    <div className="  mt-1">
-                      <div className="w-full ">
-                        <input
-                          onChange={(e) => setEmail(e.target.value)}
-                          value={email}
-                          className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                          id="email"
-                          placeholder="Email Address"
-                          type="email"
-                          pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
-                          required
-                        />
+                    <form onSubmit={(e) => handleSubmit(e)}>
+                      <div className="  mt-1">
+                        <div className="w-full ">
+                          <input
+                            onChange={(e) => setEmail(e.target.value)}
+                            value={email}
+                            className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            id="email"
+                            placeholder="Email Address"
+                            type="email"
+                            pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                            required
+                          />
+                        </div>
                       </div>
-                    </div>
 
-                    <div className="flex flex-row align-center justify-center xl:justify-end ">
-                      <div
-                        onClick={() => {
-                          setPopup(!popup);
-                        }}
-                        className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center"
-                      >
-                        Submit
+                      <div className="flex flex-row align-center justify-center xl:justify-end ">
+                        <div
+                          type="submit"
+                          className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center"
+                        >
+                          Submit
+                        </div>
                       </div>
-                    </div>
+                    </form>
                   </div>
                 </div>
                 <div

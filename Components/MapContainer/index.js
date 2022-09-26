@@ -452,7 +452,7 @@ export const MapConatiner = () => {
                 CANADA
               </h3>
             </div>
-            <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 lg:pl-6 pl-0 lg:pr-4 pr-0  mr-8">
+            <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 md:pl-6 pl-0 md:pr-4 pr-0  mr-8">
               <div className="">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
