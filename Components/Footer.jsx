@@ -144,7 +144,7 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/tires-services#tire">
+                    <Link href="/tires-services#tire" passHref>
                       <span
                         onClick={() => {
                           setWWOtires('commerce');
@@ -154,34 +154,35 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/tires-services#industmain">
+                    <Link href="/tires-services#ScrollIndust" passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#industmain"
-                      target="_blank"
+                      href="/tires-services#ScrollIndust"
                       rel="noreferrer"
+                      passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Industrial Tires
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#industmain"
-                      target="_blank"
+                      href="/tires-services#ScrollIndust"
                       rel="noreferrer"
+                      passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Agricultural Tires
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#tire"
-                      target="_blank"
+                      href="/tires-services#ScrollIndust"
+                      // target="_blank"
                       rel="noreferrer"
+                      passHref
                     >
                       <span
                         onClick={() => {
