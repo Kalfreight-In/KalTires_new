@@ -123,7 +123,7 @@ const DropBox = () => {
               <select
                 name="Department"
                 // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                className="w-full appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  border py-3 px-4  leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
+                className="w-full z-10 relative appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  border py-3 px-4  leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
                 onChange={(e) => setservice(e.target.value)}
                 type="select"
                 value={service}
@@ -149,7 +149,7 @@ const DropBox = () => {
                 <option value="Sales">Sales</option>
                 <option value="others">Other</option>
               </select>
-              <div className="absolute z-30 text-white font-xl right-5 bottom-5">
+              <div className="absolute z-20 text-white font-xl right-5 bottom-5">
                 {select ? <IoIosArrowUp /> : <IoIosArrowDown />}
               </div>
             </div>

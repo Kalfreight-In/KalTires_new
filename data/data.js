@@ -86,7 +86,7 @@ export const HomeSliderData = [
   {
     id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
-    Heading: '  Off-The-Road Tires  ',
+    Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions.',
 
     CTA1: { heading: 'Explore', link: '/tires-services' },
