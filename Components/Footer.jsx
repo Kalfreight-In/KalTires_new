@@ -12,6 +12,7 @@ const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
   const [H_WA, setHWA] = useState(false);
   const [email, setEmail] = useState('');
+  const [popup, setPopup] = useState(false);
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
   const { setWWOtires } = useStateContext();
@@ -447,6 +448,7 @@ const Footer = () => {
                         id="email"
                         placeholder="Email Address"
                         type="email"
+                        pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
                         required
                       />
                     </div>
@@ -583,12 +585,18 @@ const Footer = () => {
                           id="email"
                           placeholder="Email Address"
                           type="email"
+                          pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
                           required
                         />
                       </div>
                     </div>
 
-                    <div className="flex flex-row align-center justify-center xl:justify-end ">
+                    <div
+                      onClick={() => {
+                        setPopup(!popup);
+                      }}
+                      className="flex flex-row align-center justify-center xl:justify-end "
+                    >
                       <a className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center">
                         Submit
                       </a>

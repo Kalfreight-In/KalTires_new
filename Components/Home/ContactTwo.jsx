@@ -80,10 +80,11 @@ const Contactform = () => {
       >
         {success ? (
           <div
+            className="flex flex-center justify-center "
             animate={{ scale: [0.5, 1] }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex bg-white flex-col justify-center items-center">
               <div className="w-max">
                 {/* <Sparkles>
                   <Image
@@ -94,11 +95,12 @@ const Contactform = () => {
                     />
                     </Sparkles> */}
               </div>
-              <div className="text-2xl font-bold text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
+              <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>
-                  <div>
+                  <div className="text-black flex flex-col">
+                    <div className="text-4xl">Thank you</div>
                     just a short while as we make sure the right person{' '}
-                    <div className="text-red">get back to You ASAP!</div>
+                    <div className="text-red-500">get back to You ASAP!</div>
                   </div>
                 </Sparkles>
               </div>
