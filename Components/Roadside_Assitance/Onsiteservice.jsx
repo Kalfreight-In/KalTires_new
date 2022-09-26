@@ -21,7 +21,7 @@ const Onsiteservice = () => {
               className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate  px-20"
             >
               {OnsiteGriddata.map((index) => (
-                <div className="bg-bg-white-1 text-center" key={index.id}>
+                <div className="bg-bg-white-1 text-center py-8" key={index.id}>
                   <div className="flex justify-center">
                     <div className="w-onsiteimage h-onsiteimage flex">
                       <Image src={index.img} alt="service" />
