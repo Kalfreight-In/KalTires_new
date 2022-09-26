@@ -129,18 +129,20 @@ export const Speciality = () => {
               className="md:hidden flex mt-8 justify-center lg:justify-start"
             >
               <div className="flex lg:justify-center lg:pb-0 pb-4 ">
-                <div
-                  id="Hotline"
-                  className="flex items-center lg:pr-0 md:pr-4 pr-0"
-                >
-                  <div id="Hotline-first" className="md:mx-4 mx-2 ">
-                    <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
+                <a href="tel:8008080025">
+                  <div
+                    id="Hotline"
+                    className="flex items-center lg:pr-0 md:pr-4 pr-0"
+                  >
+                    <div id="Hotline-first" className="md:mx-4 mx-2 ">
+                      <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
+                    </div>
+                    <div>
+                      <h1 className="font-bold">Toll Free</h1>
+                      <p>+1-800-808-0025</p>
+                    </div>
                   </div>
-                  <div>
-                    <h1 className="font-bold">Toll Free</h1>
-                    <p>+1-800-808-0025</p>
-                  </div>
-                </div>
+                </a>
                 {/* <div
                   id="LiveChat"
                   className="md:ml-6 ml-10 flex items-center lg:pr-0 pr-4 "
