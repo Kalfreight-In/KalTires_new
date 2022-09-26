@@ -437,11 +437,11 @@ const location = () => {
                                     KVL Tires
                                   </div>
                                   <div className=" font-normal text-md">
-                                    {`${toTitleCase(
-                                      value.properties.Address
-                                    )}${', '}  ${value.properties.City} ${
-                                      value.properties.State
-                                    } ${value.properties.ZipCode}`}
+                                    {`${value.properties.Address}${', '}  ${
+                                      value.properties.City
+                                    }, ${value.properties.State} ${
+                                      value.properties.ZipCode
+                                    }`}
                                   </div>
                                   {value.properties.Manager ? (
                                     <div className=" font-normal text-md">
