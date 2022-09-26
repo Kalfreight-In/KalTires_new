@@ -348,6 +348,8 @@ const location = () => {
                                   <a
                                     className="text-blue-500"
                                     href={value.properties.url}
+                                    target="_blank"
+                                    rel="noreferrer"
                                   >
                                     See on map
                                   </a>

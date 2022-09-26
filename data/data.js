@@ -1361,12 +1361,12 @@ export const MapData1 = [
     ],
     properties: {
       State: 'CA',
-      Manager: '',
+      Manager: 'Roger Negrete',
       ZipCode: '94587',
       City: 'Union City',
       Address: '30089 Ahern Ave',
-      Phone: '',
-      Email: '',
+      Phone: ' (562) 556-9034',
+      Email: 'roger@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/unioncityCaM.png',
       url: 'https://www.google.com/maps/place/30089+Ahern+Ave,+Union+City,+CA+94587,+USA/@37.6074485,-122.0791125,17z/data=!3m1!4b1!4m5!3m4!1s0x808f95d30d6a6b09:0x3202ef51f7e03ef4!8m2!3d37.6074443!4d-122.0769238',
@@ -1389,12 +1389,12 @@ export const MapData1 = [
     ],
     properties: {
       State: 'CA',
-      Manager: '',
+      Manager: 'Daniel Fox',
       ZipCode: '92227',
       City: 'Brawley',
       Address: '1300 Main St',
-      Phone: '',
-      Email: '',
+      Phone: '(951) 787-6884   ',
+      Email: 'dfox@kaltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
       url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
