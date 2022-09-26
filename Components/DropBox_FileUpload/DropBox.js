@@ -119,7 +119,7 @@ const DropBox = () => {
             className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 "
             id="input_placeholder"
           >
-            <div className="w-full relative    appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
+            <div className="w-full relative  appearance-none  block h-full  bg-red-600  focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
               <select
                 name="Department"
                 // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
@@ -163,6 +163,7 @@ const DropBox = () => {
               className="appearance-none font-medium block w-full h-full  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
               id="grid-first-name"
               type="number"
+              min={0}
               value={message}
               placeholder="Year Of Experience"
               required
