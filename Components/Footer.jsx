@@ -162,7 +162,7 @@ const Footer = () => {
                     </Link>
                     <Link
                       href="/tires-services#ScrollIndus"
-                      target="_blank"
+                      // target="_blank"
                       rel="noreferrer"
                       passHref
                     >
@@ -172,7 +172,7 @@ const Footer = () => {
                     </Link>
                     <Link
                       href="/tires-services#ScrollIndus"
-                      target="_blank"
+                      // target="_blank"
                       rel="noreferrer"
                       passHref
                     >
@@ -182,7 +182,7 @@ const Footer = () => {
                     </Link>
                     <Link
                       href="/tires-services#tire"
-                      target="_blank"
+                      // target="_blank"
                       rel="noreferrer"
                       passHref
                     >
