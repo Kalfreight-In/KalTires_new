@@ -93,7 +93,7 @@ export const Speciality = () => {
                       <div id="Hotline-first" className="md:mr-4 mr-2 ">
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
-                      <div id="Hotline-second">
+                      <div id="ScrollIndust">
                         <h1 className="font-bold font-Helvetica">Toll Free</h1>
                         <p className="font-Helvetica">+1-800-808-0025</p>
                       </div>
@@ -136,7 +136,7 @@ export const Speciality = () => {
                   <div id="Hotline-first" className="md:mx-4 mx-2 ">
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                   </div>
-                  <div id="Hotline-second font-Helvetica">
+                  <div>
                     <h1 className="font-bold">Toll Free</h1>
                     <p>+1-800-808-0025</p>
                   </div>
