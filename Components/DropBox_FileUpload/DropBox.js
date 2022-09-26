@@ -83,16 +83,16 @@ const DropBox = () => {
 
         <form
           onSubmit={(e) => handleSubmit(e)}
-          className="flex justify-center flex-col items-center
+          className="flex justify-center flex-col items-center 
         "
         >
           <div
-            className="w-full flex justify-center items-center   mb-6 md:mb-0 lg:pt-4 pt-0"
+            className="w-full flex justify-center items-center   mt-2    md:mb-0 lg:pt-4 pt-0"
             id="input_placeholder"
           >
             <input
               onChange={(e) => setName(e.target.value)}
-              className="appearance-none  font-medium block w-full h-full placeholder-white  bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+              className="appearance-none   font-medium block w-full h-full placeholder-white  bg-red-600  text-white border rounded py-3 px-4     leading-tight focus:outline-none"
               id="grid-first-name"
               type="text"
               value={name}
@@ -101,12 +101,12 @@ const DropBox = () => {
             />
           </div>
           <div
-            className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+            className="w-full flex justify-center items-center       md:mb-0 md:pt-4"
             id="input_placeholder"
           >
             <input
               onChange={(e) => setEmail(e.target.value)}
-              className="appearance-none font-medium block  w-full h-full   bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+              className="appearance-none font-medium block  w-full h-full   bg-red-600 placeholder-white text-white border rounded py-3 px-4     leading-tight focus:outline-none "
               id="emailValidate"
               type="email"
               value={email}
@@ -116,13 +116,13 @@ const DropBox = () => {
             />
           </div>
           <div
-            className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4 "
+            className="w-full flex justify-center items-center       md:mb-0 md:pt-4 "
             id="input_placeholder"
           >
             <div className="w-full relative  appearance-none  block h-full  bg-red-600  focus:bg-red-600 rounded  leading-tight focus:outline-none text-white text-base">
               <select
                 name="Department"
-                // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4     leading-tight focus:outline-none"
                 className="w-full z-10 relative appearance-none block h-full  bg-red-600  focus:bg-red-600 rounded  border py-3 px-4  leading-tight focus:outline-none text-white text-base font-medium  p-2.5 "
                 onChange={(e) => setservice(e.target.value)}
                 type="select"
@@ -155,12 +155,12 @@ const DropBox = () => {
             </div>
           </div>
           <div
-            className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+            className="w-full flex justify-center items-center       md:mb-0 md:pt-4"
             id="input_placeholder"
           >
             <input
               onChange={(e) => setMessage(e.target.value)}
-              className="appearance-none font-medium block w-full h-full  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+              className="appearance-none font-medium block w-full h-full  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-1 leading-tight focus:outline-non"
               id="grid-first-name"
               type="number"
               min={0}

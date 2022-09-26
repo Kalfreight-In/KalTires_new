@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DropBox from '../DropBox_FileUpload/DropBox';
-
+import { AiOutlineClose } from 'react-icons/Ai';
 export const SubResume = () => {
   const [Popup, setPopup] = useState(false);
 
@@ -33,8 +33,14 @@ export const SubResume = () => {
             </div>
           </div>
           {Popup ? (
-            <div className="relative    mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
-              <div className="sticky  top-0 left-0 right-0">
+            <div className="fixed  bottom-0 left-96 z-30 overflow-hidden  mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+              <div className="sticky top-0 left-0 right-0">
+                <AiOutlineClose
+                  className="cursor-pointer"
+                  onClick={() => {
+                    setPopup(!Popup);
+                  }}
+                ></AiOutlineClose>
                 <DropBox className=" absolute" />
               </div>
             </div>
