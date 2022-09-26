@@ -14,7 +14,7 @@ const RoadSideAssistant = () => {
             // eslint-disable-next-line operator-linebreak
             'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Roadsidebackground.png)',
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'contain',
+          backgroundSize: 'cover',
           backgroundPosition: `${isDesktop ? 'right' : 'bottom'}`,
         }}
       >
@@ -38,7 +38,12 @@ const RoadSideAssistant = () => {
 
             <div className="lg:block hidden col-span-6 ">
               <div className="  ">
-                <Image className="  " src={RoadSideAss} alt="tires" />
+                <Image
+                  className="  "
+                  src={RoadSideAss}
+                  alt="tires"
+                  layout="responsive"
+                />
               </div>
             </div>
 
