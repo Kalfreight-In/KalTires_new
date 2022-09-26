@@ -1265,7 +1265,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [32.6757848, -115.5017598],
+      coordinates: [32.675681, -115.5016876],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
@@ -1285,7 +1285,7 @@ export const MapData1 = [
       Email: 'avasquez@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/EmersonCalexM.png',
-      url: '',
+      url: 'https://www.google.co.in/maps/place/840+Emerson+Ave,+Calexico,+CA+92231,+USA/@32.675681,-115.5016876,17z/data=!3m1!4b1!4m5!3m4!1s0x80d765365a70050f:0xc3b8b7461f1f2402!8m2!3d32.6756765!4d-115.4994989?hl=en',
     },
   },
   {
@@ -1426,7 +1426,7 @@ export const MapData1 = [
       Email: 'clayton@kaltrailers.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/springdaleArkansasM.png',
-      url: 'https://www.google.com/maps/place/Kal+Trailers+%26+Leasing,+Tires,+Kal+Partz/@32.7525584,-97.0554258,17z/data=!4m9!1m2!2m1!1sb,+600+109th+St,+Arlington,+TX+76011,+USA!3m5!1s0x864e87a1adfa9395:0xa6c1a29fe22014b5!8m2!3d32.7522842!4d-97.0533732!15sCiliLCA2MDAgMTA5dGggU3QsIEFybGluZ3RvbiwgVFggNzYwMTEsIFVTQZIBEWxvZ2lzdGljc19zZXJ2aWNl',
+      url: 'https://www.google.co.in/maps/place/1080+W+Henri+De+Tonti+Blvd,+Springdale,+AR+72762,+USA/@36.1781487,-94.254271,17z/data=!3m1!4b1!4m5!3m4!1s0x87c972b7967b5855:0xc59619ee1ceb2cc0!8m2!3d36.1781444!4d-94.2520823?hl=en',
     },
   },
   {
@@ -1533,7 +1533,7 @@ export const MapData1 = [
       Manager: 'Steve Malia',
       ZipCode: '08827',
       City: 'Hampton',
-      Address: '15 NJ Route 173(test)',
+      Address: '15 NJ Route 173',
       Phone: '908-914-2577',
       Email: 'smalia@kvltires.com',
       bgimage:
