@@ -14,7 +14,7 @@ export const CreditAppContainer = styled.div`
   padding: 10px 0px;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: -0.5rem;
+  // margin-bottom: -0.8rem;
   z-index: 20;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
   background-color: #ef4444;
