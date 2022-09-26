@@ -649,7 +649,7 @@ export const PerkBenifitsdata = [
   {
     id: 4,
     img: paidtimeoff,
-    Heading: 'Paid Time Off',
+    Heading: 'Paid Time-Off',
     desc: 'Vacation? Staycation? Get some "Me" time to recharge, travel, or chill.',
   },
   {
