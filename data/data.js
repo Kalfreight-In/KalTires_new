@@ -75,7 +75,7 @@ export const HomeSliderData = [
     id: 1,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices.',
+    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
 
     CTA1: {
       heading: 'Contact Us',
@@ -87,7 +87,7 @@ export const HomeSliderData = [
     id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
     Heading: 'Off-The-Road Tires',
-    desc: 'Tires For The Toughest Driving Conditions.',
+    desc: 'Tires For The Toughest Driving Conditions',
 
     CTA1: { heading: 'Explore', link: '/tires-services' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
@@ -97,7 +97,7 @@ export const HomeSliderData = [
     id: 3,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-3.png',
     Heading: 'Looking for new tires for your fleet?  ',
-    desc: 'Find Your Next Set Of Tires Here At KVL Tires.',
+    desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
     CTA1: { heading: 'Contact Us', Slink: '/#maincontactform' },
     CTA12: { heading: 'Inventory', link: 'contactus' },

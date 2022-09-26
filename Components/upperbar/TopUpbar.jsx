@@ -128,7 +128,7 @@ const TopUpbar = () => {
         </div>
         <div className="animate-pulse">
           <MondayToFridayContainer className="text-white font-bold pl-20  ">
-            Monday - Friday :
+            Monday - Friday
             <span className="text-red-500 pl-2">7:30AM - 5:00PM</span>
           </MondayToFridayContainer>
         </div>
