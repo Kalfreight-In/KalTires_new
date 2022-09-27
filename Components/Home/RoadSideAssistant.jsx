@@ -106,7 +106,7 @@ const RoadSideAssistant = () => {
               </div>
             </div>
 
-            {/* The Phone and Email icons end */}
+            {/* The Phone and Email icons endiv */}
           </div>
         </div>
       </div>
