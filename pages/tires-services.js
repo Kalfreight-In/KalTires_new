@@ -13,7 +13,7 @@ const data = [
     id: 1,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/WhatWeOfferBg.png',
     Heading: 'Get back on the road safely with KVL Tires  ',
-    desc: 'Offering Major Tire Brands, Quality Tire Repair Services across 18+ Locations & Growing.  ',
+    desc: 'Offering Major Tire Brands, Quality Tire Repair Services across 18+ Locations & Growing ',
     CTA1: { heading: 'Contact Us', link: '/#maincontactform' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
     page: 'tire',
