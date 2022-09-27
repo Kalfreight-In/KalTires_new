@@ -89,7 +89,9 @@ export const Departments = () => (
                                   className="flex justify-center"
                                 >
                                   <h2 className="text-red font-poppins font-bold absolute -mt-16  text-white 2xl:text-xl lg:text-xs md:text-base ">
-                                    {data.Heading}
+                                    {/* {data.Heading} */}
+                                    <span>{data.Heading}</span> <br />
+                                    <span>{data.Headingtwo}</span>
                                   </h2>
                                 </div>
                               </div>

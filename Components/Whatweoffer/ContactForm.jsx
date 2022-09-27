@@ -203,7 +203,7 @@ const Contactform = () => {
                         <option value="newtires">New Tires</option>
                         <option value="retreadtires">Retread Tires</option>
                         <option value="heavyduty">
-                          Heavy Duty Front End Work
+                          Heavy Duty Front-End Work
                         </option>
                         <option value="wheel">Wheel Alignment</option>
                         <option value="otr">OTR Tires</option>
