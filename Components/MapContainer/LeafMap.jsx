@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 // import 'leaflet-defaulticon-compatibility';
 // import 'esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css';
 import styled from 'styled-components';
-
+import { useRouter } from 'next/router';
 import {
   MapContainer,
   TileLayer,
@@ -142,6 +142,40 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     //   control.off('results', handleOnSerchResults);
     // };
   }, [location, maps]);
+  useEffect(() => {
+    const query = window.location.search;
+    const target = query.split('=')[1];
+    if (window.location.search) {
+      console.log(`lool${target}`);
+      const element = document.getElementById(target);
+      const headerOffset = 97;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  }, []);
+  const router = useRouter();
+  function scrollToTargetAdjusted(target) {
+    if (window.location.pathname === '/') {
+      router.push({ pathname: '/locations', query: { scroll: target } });
+      return;
+    }
+    console.log(`lool${target}`);
+    const element = document.getElementById(target);
+    const headerOffset = 117;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }
 
   return (
     <MapInside id="map">
@@ -319,12 +353,16 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                     <span>
                       <BsArrowRightCircleFill className="text-md m-1" />
                     </span>
-                    <Link
-                      href={`/locations#${office.properties.ZipCode}`}
+                    <div
+                      className="cursor-pointer text-blue-400"
+                      onClick={() => {
+                        scrollToTargetAdjusted(office.properties.ZipCode);
+                      }}
+                      // href={`/locations#${office.properties.ZipCode}`}
                       passHref
                     >
                       See More
-                    </Link>
+                    </div>
                   </div>
                 </>
               ) : null}
