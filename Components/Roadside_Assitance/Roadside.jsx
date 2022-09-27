@@ -8,7 +8,7 @@ const Roadside = () => (
   <div id="roadmain">
     <div id="roadmaininner">
       <div className="bg-bg-white-1">
-        <div className="lg:grid lg:grid-cols-2">
+        <div className="lg:grid lg:grid-cols-2 ">
           <div className="lg:hidden  flex justify-center    md:py-8 py-8 z-10">
             <h2 className="text-4xl tracking-tight  text-black font-Helvetica font-semibold ">
               <span className="block text-center md:text-2xl text-xl">
@@ -19,13 +19,13 @@ const Roadside = () => (
           </div>
           <div className="  lg:my-12 lg:pl-12 z-0 md:px-0 mx-8">
             <Image
-              className="lg:inset-0 h-60 w-full  lg:h-full object-cover object-center  "
+              className="lg:inset-0 h-60 w-full  lg:h-full object-cover object-center "
               src={servicetruck}
               alt="servicetruck"
             />
           </div>
           <div className="flex items-center  2xl:pt-2 md:py-8 lg:py-0">
-            <div className="md:px-0 px-6 lg:px-0 md:mx-12 mx-2   pt-0 md:pb-0 pb-6 md:pt-8 xl:pt-0">
+            <div className="md:px-0 px-6 lg:px-0 md:mx-12 mx-2   pt-0">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-bold lg:block hidden ">
                 <span className="block font-Helvetica text-4xl">
                   <span className="text-kaltire-red font-Verdana">24/7</span>
@@ -80,7 +80,7 @@ const Roadside = () => (
               </div> */}
               {/* The Phone and Email icons start  */}
               <div className="block pt-4" id="PhoneEmailRoad" />
-              <div id="InnerphoneEmailRoad" className="flex md:pb-8 xl:pb-0">
+              <div id="InnerphoneEmailRoad" className="flex">
                 <div id="Hotline" className="flex items-center">
                   <div id="Hotline-first" className=" mr-2">
                     <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
