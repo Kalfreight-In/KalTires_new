@@ -205,7 +205,10 @@ export const MapConatiner = () => {
         }`,
       }}
     >
-      <div className=" svg-container md:py-28 py-4" id="Map_SvgContainer">
+      <div
+        className=" svg-container md:pt-12 md:pb-0 py-4"
+        id="Map_SvgContainer"
+      >
         {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
@@ -230,7 +233,7 @@ export const MapConatiner = () => {
       </div>
       <div className="w-full flex-1 ">
         <div
-          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full md:py-28 pt-12"
+          className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full  md:pt-12 md:pb-0 pt-12"
           style={{
             backgroundImage: `${
               isDesktop
@@ -240,7 +243,7 @@ export const MapConatiner = () => {
             display: 'flex',
           }}
         >
-          <div className="  w-full md:mb-0 pr-0 lg:pl-16 pl-8 mb-2 lg:mb-24">
+          <div className="  w-full md:mb-0 pr-0 lg:pl-16 pl-8 mb-2 lg:mb-12">
             <div className="w-full ">
               <div className="flex flex-row">
                 {/* <svg

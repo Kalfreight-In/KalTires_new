@@ -75,6 +75,22 @@ const DropBox = () => {
 
   function handleChange(event) {
     setFile(event.target.files[0]);
+    const fileObj = event.target.files && event.target.files[0];
+    if (!fileObj) {
+      return;
+    }
+
+    console.log('fileObj is', fileObj);
+
+    // // 👇️ reset file input
+    // event.target.value = null;
+
+    // // 👇️ is now empty
+    // console.log(event.target.files);
+
+    // // 👇️ can still access file object here
+    // console.log(fileObj);
+    // console.log(fileObj.name);
   }
 
   return (
@@ -129,7 +145,7 @@ const DropBox = () => {
         ) : (
           <form
             onSubmit={(e) => handleSubmit(e)}
-            className="flex justify-center flex-col items-center 
+            className="flex justify-center flex-col items-center
         "
           >
             <div
@@ -228,6 +244,7 @@ const DropBox = () => {
                 onChange={handleChange}
               />
             </div>
+            <div className="text-black text-xl">{file}</div>
             <button
               className="text-white rounded font-bold text-xl  h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica bg-red-500 "
               type="submit"
