@@ -8,8 +8,10 @@ import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
 import { useStateContext } from '../context/StateContext';
+import useMediaQuery from '../Hooks/CustomMediaQuery';
 
 const Footer = () => {
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const [Hinventery, setHinventery] = useState(false);
   const [H_WA, setHWA] = useState(false);
   const [email, setEmail] = useState('');
@@ -343,9 +345,14 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <span className="mt-5px  xl:w-44 overflow-visible">
                             <Link
-                              href="/tires-services#ServiceScroll"
-                              duration={1000}
-                              offset={-80}
+                              href={
+                                isDesktop
+                                  ? '/tires-services#ServiceScroll'
+                                  : '/tires-services#ServiceScrlTwo'
+                              }
+                              // duration={1000}
+                              // offset={-80}
+                              // ServiceScrlTwo
                             >
                               Pick up & Delivery Services
                             </Link>
@@ -366,7 +373,11 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServicesMain"
+                            href={
+                              isDesktop
+                                ? '/tires-services#ServiceScroll'
+                                : '/tires-services#ServiceScrlTwo'
+                            }
                             rel="noreferrer"
                           >
                             Mounted Wheel Programs
@@ -379,7 +390,11 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
-                            href="/tires-services#ServicesMain"
+                            href={
+                              isDesktop
+                                ? '/tires-services#ServiceScroll'
+                                : '/tires-services#ServiceScrlTwo'
+                            }
                             rel="noreferrer"
                           >
                             Truck & Trailer Alignment
@@ -405,7 +420,11 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="tires-services#ServicesMain"
+                            href={
+                              isDesktop
+                                ? '/tires-services#ServiceScroll'
+                                : '/tires-services#ServiceScrlTwo'
+                            }
                             rel="noreferrer"
                             passHref
                           >

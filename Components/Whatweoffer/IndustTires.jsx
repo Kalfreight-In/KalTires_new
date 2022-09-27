@@ -56,11 +56,12 @@ export const IndustTires = () => {
                                     alt="tires"
                                   />
                                 </div>
-                                <h1
-                                  className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12"
-                                  id="ServiceScroll"
-                                >
-                                  <span className="border-red-600 border-b-2 pb-2 font-poppins">
+
+                                <h1 className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
+                                  <span
+                                    className="border-red-600 border-b-2 pb-2 font-poppins"
+                                    id="ServiceScrlTwo"
+                                  >
                                     {indust.heading}
                                   </span>
                                 </h1>
