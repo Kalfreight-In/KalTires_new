@@ -74,15 +74,15 @@ const RoadSideAssistant = () => {
               >
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                   <a href="tel:8008080025">
-                    <button
+                    <div
                       className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-lg font-Helvetica"
-                      type="button"
+                      // type="button"
                     >
                       <span>
                         <MdLocalPhone className="text-2xl font-poppins" />
                       </span>{' '}
                       &nbsp;+1-800-808-0025
-                    </button>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -93,15 +93,15 @@ const RoadSideAssistant = () => {
             >
               <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                 <a href="tel:8008080025">
-                  <button
+                  <div
                     className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-lg  font-Helvetica"
-                    type="button"
+                    // type="button"
                   >
                     <span>
                       <MdLocalPhone className="text-2xl font-poppins" />
                     </span>{' '}
                     &nbsp;+1-800-808-0025
-                  </button>
+                  </div>
                 </a>
               </div>
             </div>
