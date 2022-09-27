@@ -99,7 +99,7 @@ export const HomeSliderData = [
     Heading: 'Looking for new tires for your fleet?  ',
     desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
-    CTA1: { heading: 'Contact Us', Slink: '/#maincontactform' },
+    CTA1: { heading: 'Contact Us', Slink: '/#CanadaContact' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];
