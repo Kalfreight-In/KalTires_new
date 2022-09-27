@@ -347,8 +347,8 @@ const Footer = () => {
                             <Link
                               href={
                                 isDesktop
-                                  ? '/tires-services#ServiceScroll'
-                                  : '/tires-services#ServiceScrlTwo'
+                                  ? '/tires-services#IndustrialTires'
+                                  : '/tires-services#IndustrialTiresTwo'
                               }
                               // duration={1000}
                               // offset={-80}
@@ -375,8 +375,8 @@ const Footer = () => {
                           <Link
                             href={
                               isDesktop
-                                ? '/tires-services#ServiceScroll'
-                                : '/tires-services#ServiceScrlTwo'
+                                ? '/tires-services#IndustrialTires'
+                                : '/tires-services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
                           >
@@ -392,8 +392,8 @@ const Footer = () => {
                           <Link
                             href={
                               isDesktop
-                                ? '/tires-services#ServiceScroll'
-                                : '/tires-services#ServiceScrlTwo'
+                                ? '/tires-services#IndustrialTires'
+                                : '/tires-services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
                           >
@@ -422,8 +422,8 @@ const Footer = () => {
                           <Link
                             href={
                               isDesktop
-                                ? '/tires-services#ServiceScroll'
-                                : '/tires-services#ServiceScrlTwo'
+                                ? '/tires-services#IndustrialTires'
+                                : '/tires-services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
                             passHref
