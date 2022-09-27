@@ -221,7 +221,11 @@ const location = () => {
               <SidebarMenu className=" ">
                 <div className="">
                   {MapData1.map((value, index) => (
-                    <div key={value.id} className="bg-locationGrey mb-2">
+                    <div
+                      id={`${value.properties.ZipCode}`}
+                      key={value.id}
+                      className="bg-locationGrey mb-2"
+                    >
                       <Divlink
                         duration={500}
                         delay={1000}
@@ -362,7 +366,11 @@ const location = () => {
                 </div>
                 <div>
                   {MapData2.map((value, index) => (
-                    <div key={value.id} className="bg-locationGrey mb-2">
+                    <div
+                      id={`${value.properties.ZipCode}`}
+                      key={value.id}
+                      className="bg-locationGrey mb-2"
+                    >
                       <Divlink
                         duration={500}
                         delay={1000}
@@ -430,7 +438,7 @@ const location = () => {
                       >
                         <ul>
                           {visibilities[index] ? (
-                            <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  lg:px-20 px-8  justify-between ">
+                            <div className="text-black bg-white window.location.pathname flex flex-center lg:flex-row flex-col  py-2  lg:px-20 px-8  justify-between ">
                               <div className="flex flex-center flex-col ">
                                 <div className="mb-2 w-locationsection">
                                   <div className="font-semibold text-md">
