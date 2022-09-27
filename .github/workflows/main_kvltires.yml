@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'kvltires'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B54B70BA9B1648A994926B3E20A10956 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FBAF92DDD36942DE9068DD0B656F9FBF }}
           package: .
