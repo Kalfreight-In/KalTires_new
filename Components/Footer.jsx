@@ -162,14 +162,14 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/tires-services#ScrollIndust" passHref>
+                    <Link href="/tires-services#InnerphoneEmailRoad " passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#ScrollIndust"
+                      href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
                       passHref
                     >
@@ -178,7 +178,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#ScrollIndust"
+                      href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
                       passHref
                     >
@@ -605,14 +605,18 @@ const Footer = () => {
                           />
                         </div>
                       </div>
-
+                      {popup ? (
+                        <div className="text-xl text-white">
+                          Thank you For Subscribing
+                        </div>
+                      ) : null}
                       <div className="flex flex-row align-center justify-center xl:justify-end ">
-                        <div
+                        <button
                           type="submit"
                           className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover cursor-pointer text-kaltire-red  text-Description   text-center"
                         >
                           Submit
-                        </div>
+                        </button>
                       </div>
                     </form>
                   </div>
