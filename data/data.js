@@ -1365,7 +1365,7 @@ export const MapData1 = [
       ZipCode: '94587',
       City: 'Union City',
       Address: '30089 Ahern Ave',
-      Phone: ' (562) 556-9034',
+      Phone: ' 562-556-9034',
       Email: 'roger@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/unioncityCaM.png',
@@ -1393,7 +1393,7 @@ export const MapData1 = [
       ZipCode: '92227',
       City: 'Brawley',
       Address: '1300 Main St',
-      Phone: '(951) 787-6884   ',
+      Phone: '951-787-6884   ',
       Email: 'dfox@kaltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
