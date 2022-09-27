@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Image from 'next/image';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import Link from 'next/link';
-import Navlogo from '../../Assets/Images/NavLogo.png';
+import Navlogo from '../../Assets/Images/KvlTiresLogo.png';
 import call from '../../Assets/Icons/call.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { MobileIcon } from './Navbar';
@@ -32,7 +32,7 @@ const Topbar = ({ toggle, postion }) => {
               <Image
                 src={Navlogo}
                 alt="place"
-                className="cursor-pointer  "
+                className="cursor-pointer"
                 // height={postion.y === 0 ? 85 : 65}
                 // width={postion.y === 0 ? 240 : 195}
               />
