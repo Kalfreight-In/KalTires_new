@@ -1394,7 +1394,7 @@ export const MapData1 = [
       City: 'Brawley',
       Address: '1300 Main St',
       Phone: '951-787-6884   ',
-      Email: 'dfox@kaltires.com',
+      Email: 'dfox@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
       url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
@@ -1735,7 +1735,7 @@ export const MapData1 = [
       City: 'Taylor',
       Address: '9445 Inkster Rd',
       Phone: '951-834-2907',
-      Email: 'tingram@kaltires.com',
+      Email: 'tingram@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/TaylormichigabM.png',
       url: 'https://www.google.com/maps/place/9445+Inkster+Rd,+Taylor,+MI+48180,+USA/@42.2373151,-83.3094285,17z/data=!3m1!4b1!4m5!3m4!1s0x883b48e26460bb7f:0x58f5d02d24efb430!8m2!3d42.2373111!4d-83.3072398',
@@ -1763,7 +1763,7 @@ export const MapData1 = [
       City: 'Cincinnati',
       Address: '603 Shephard Dr',
       Phone: '951-834-2907',
-      Email: 'tingram@kaltires.com',
+      Email: 'tingram@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/ohioM.png',
       url: 'https://www.google.com/maps/place/603+Shepherd+Dr,+Cincinnati,+OH+45215,+USA/@39.2352997,-84.4635713,17z/data=!3m1!4b1!4m5!3m4!1s0x88404da19b4311b1:0x9d9adb6d3b891a25!8m2!3d39.2352956!4d-84.4613826',
