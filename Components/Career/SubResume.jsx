@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import DropBox from '../DropBox_FileUpload/DropBox';
 import { AiOutlineClose } from 'react-icons/ai';
+import DropBox from '../DropBox_FileUpload/DropBox';
+
 export const SubResume = () => {
   const [Popup, setPopup] = useState(false);
 
@@ -18,18 +19,20 @@ export const SubResume = () => {
 
           <div id="mainuploadbutton" className="flex justify-center pt-4">
             <div className="overflow-hidden relative w-64 mt-2 mb-4">
-              <button
+              <a
+                href="/resume"
                 className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-2 w-full inline-flex justify-center items-center rounded-md"
                 type="button"
-                onClick={() => {
-                  setPopup(!Popup);
-                }}
+                target="_blank"
+                // onClick={() => {
+                //   setPopup(!Popup);
+                // }}
               >
                 <span className=" text-xl text-center font-poppins">
                   Apply Now
                 </span>
                 <input className="cursor-pointer absolute block py-2 px-4 w-full opacity-0 pin-r pin-t text-black" />
-              </button>
+              </a>
             </div>
           </div>
           {Popup ? (
@@ -40,8 +43,8 @@ export const SubResume = () => {
                   onClick={() => {
                     setPopup(!Popup);
                   }}
-                ></AiOutlineClose>
-                <DropBox className=" absolute" />
+                />
+                {/* <DropBox className=" absolute" /> */}
               </div>
             </div>
           ) : null}
