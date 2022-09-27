@@ -1,7 +1,7 @@
 /* eslint-disable comma-dangle */
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-
+import { useRouter } from 'next/router';
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
 import { RiPhoneFill } from 'react-icons/ri';
