@@ -109,7 +109,7 @@ const Footer = () => {
                   </div>
                   <div className="ml-2">
                     <a
-                      href="tel:+1-800-808-0025"
+                      href="https://www.google.co.in/maps/place/10156+Live+Oak+Ave,+Fontana,+CA+92335,+USA/@34.0687994,-117.4834404,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fc6e50489:0xde8aefe027f7319!8m2!3d34.068795!4d-117.4812517"
                       target="_blank"
                       rel="noreferrer"
                     >
