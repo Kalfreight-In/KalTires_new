@@ -18,7 +18,7 @@ import {
 import { Browser, Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
-import { BsArrowRightCircleFill } from 'react-icons/Bs';
+import { BsArrowRightCircleFill } from 'react-icons/bs';
 import Link from 'next/link.js';
 import { statesData } from './GeoData.js';
 import { useStateContext } from '../../context/StateContext';
