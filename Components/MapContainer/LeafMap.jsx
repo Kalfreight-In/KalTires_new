@@ -319,12 +319,12 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                     <span>
                       <BsArrowRightCircleFill className="text-md m-1" />
                     </span>
-                    <a
+                    <Link
                       href={`/locations#${office.properties.ZipCode}`}
                       passHref
                     >
-                      locatins
-                    </a>
+                      See More
+                    </Link>
                   </div>
                 </>
               ) : null}

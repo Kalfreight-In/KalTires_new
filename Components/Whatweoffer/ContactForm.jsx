@@ -183,7 +183,10 @@ const Contactform = () => {
                     className="w-full flex justify-center    mb-6 md:mb-0 md:pt-4 "
                     id="input_placeholder"
                   >
-                    <div className="w-full relative    appearance-none block h-full  bg-red-600 bg-opacity-30  z-10 rounded  leading-tight focus:outline-none text-white text-base">
+                    <div
+                      style={{ zIndex: 3 }}
+                      className="w-full relative    appearance-none block h-full  bg-red-600 bg-opacity-30  rounded  leading-tight focus:outline-none text-white text-base"
+                    >
                       <select
                         name="servicetype"
                         // className="block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600   bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
