@@ -227,11 +227,15 @@ export const AboutUs = () => {
             </div>
 
             <div />
-            <div className="lg:block hidden col-span-5  xl:mr-20 ">
+            <motion.div
+              whileInView={{ x: [0, -100], opacity: [0.5, 1] }}
+              transition={{ duration: 0.5 }}
+              className="lg:block hidden col-span-5  xl:mr-20 "
+            >
               <div className="  ">
                 <Image className=" " src={AboutUsTire} alt="tires" />
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
