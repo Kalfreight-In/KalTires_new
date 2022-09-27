@@ -339,7 +339,7 @@ const Footer = () => {
                     }`}
                   >
                     <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
-                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
+                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0   ">
                         <span className="flex cursor-pointer overflow-visible">
                           <span className="mt-5px  xl:w-44 overflow-visible">
                             <Link
@@ -354,7 +354,7 @@ const Footer = () => {
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
-                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
+                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link href="/24X7-roadside-assistance#onsiteid">
                             On-Site Services
@@ -363,7 +363,7 @@ const Footer = () => {
                       </div>
                     </div>
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/tires-services#ServicesMain"
@@ -376,7 +376,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href="/tires-services#ServicesMain"
@@ -388,7 +388,7 @@ const Footer = () => {
                       </div>
                     </div>
                     {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer">
                           <Link
                             href="/24X7-roadside-assistance#roadside"
@@ -402,7 +402,7 @@ const Footer = () => {
                       </div>
                     </div> */}
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer">
                           <Link
                             href="tires-services#ServicesMain"
