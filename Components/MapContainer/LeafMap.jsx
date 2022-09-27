@@ -12,13 +12,14 @@ import {
   Marker,
   Popup,
   Polygon,
-  ZoomControl,
+  // ZoomControl,
   Polyline,
 } from 'react-leaflet';
 import { Browser, Icon } from 'leaflet';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
-
+import { BsArrowRightCircleFill } from 'react-icons/Bs';
+import Link from 'next/link.js';
 import { statesData } from './GeoData.js';
 import { useStateContext } from '../../context/StateContext';
 import NearestLocation from '../../function/NearestLocation';
@@ -313,6 +314,17 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                       <MdEmail className="text-md m-1" />
                     </span>
                     <a href="/">{office.properties.Email}</a>
+                  </div>
+                  <div className="text-sm mb-2 flex flex-row">
+                    <span>
+                      <BsArrowRightCircleFill className="text-md m-1" />
+                    </span>
+                    <Link
+                      href={`/locations#${office.properties.ZipCode}`}
+                      passHref
+                    >
+                      <a>locatins</a>
+                    </Link>
                   </div>
                 </>
               ) : null}
