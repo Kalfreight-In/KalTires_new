@@ -71,6 +71,10 @@ module.exports = {
         'footer-texture':
           "url('https://raw.githubusercontent.com/kalfreight-in/BigRigGroups/master/src/assets/Images/abouthomeimage.png')",
       },
+      zIndex: {
+        n2: -2,
+        n1: -1,
+      },
       minWidth: {
         155: '155px',
         190: '190px',

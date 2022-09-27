@@ -162,14 +162,14 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/tires-services#ScrollIndust" passHref>
+                    <Link href="/tires-services#InnerphoneEmailRoad " passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#ScrollIndust"
+                      href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
                       passHref
                     >
@@ -178,7 +178,7 @@ const Footer = () => {
                       </span>
                     </Link>
                     <Link
-                      href="/tires-services#ScrollIndust"
+                      href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
                       passHref
                     >
