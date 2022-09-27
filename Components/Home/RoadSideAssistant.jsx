@@ -62,7 +62,7 @@ const RoadSideAssistant = () => {
                 ensure that your tires deliver great mileage, superior traction,
                 and fuel efficiency while on the road. For all of your
                 unforeseen emergency breakdowns, a reliable tire partner is all
-                you need. KVL tires are here for you to provide hassle free and
+                you need. KVL Tires are here for you to provide hassle free and
                 reliable 24/7 roadside assistance. Our network across the United
                 States gives us accessibility even in remote locations. We are
                 ready to help in times of need!
