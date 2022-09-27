@@ -1761,7 +1761,7 @@ export const MapData1 = [
       Manager: 'Telly Ingram',
       ZipCode: '45215',
       City: 'Cincinnati',
-      Address: '603 Shepard Dr',
+      Address: '603 Shephard Dr',
       Phone: '951-834-2907',
       Email: 'tingram@kaltires.com',
       bgimage:
