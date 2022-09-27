@@ -1308,7 +1308,7 @@ export const MapData1 = [
       Manager: 'Adriana Vasquez',
       ZipCode: '92231',
       City: 'Calexico',
-      Address: '165 W. 5th st',
+      Address: '165 W. 5th St',
       Phone: '760-768-8696',
       Email: 'avasquez@kvltires.com',
       bgimage:
@@ -1336,7 +1336,7 @@ export const MapData1 = [
       Manager: 'Rajinder Tanda',
       ZipCode: '95330',
       City: 'Lathrop',
-      Address: '17100 S HARLAN RD',
+      Address: '17100 S Harlan Rd',
       Phone: '209-275-4993 ',
       Email: 'Tandarajinder@kalgroup.com',
       bgimage:
@@ -1449,7 +1449,7 @@ export const MapData1 = [
       Manager: 'Telly Ingram',
       ZipCode: '46201',
       City: 'Indianapolis',
-      Address: '2025 ENGLISH AVE',
+      Address: '2025 English Ave',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
       bgimage:
@@ -1562,7 +1562,7 @@ export const MapData1 = [
       Manager: 'Antonio Campbell',
       ZipCode: '30354',
       City: 'Atlanta',
-      Address: '3435 JONESBORO Rd SE',
+      Address: '3435 Jonesboro Rd SE',
       Phone: '951-834-3103',
       Email: 'acampbell@kvltires.com',
       bgimage:
@@ -1819,7 +1819,7 @@ export const MapData2 = [
       Manager: 'Arthur Pierce',
       ZipCode: 'T2C 2R4',
       City: 'Calgary',
-      Address: '9115 52st SE',
+      Address: '9115 52 St SE',
       Phone: '403-800-2095',
       Email: 'arthurp@bigrigcanada.com',
       bgimage:
