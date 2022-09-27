@@ -344,7 +344,8 @@ export const MapConatiner = () => {
                             )
                           }
                         >
-                          <h1
+                          <Link
+                            href="/#Map_SvgContainer"
                             className={
                               visibilities[index]
                                 ? 'text-black font-bold'
@@ -352,7 +353,7 @@ export const MapConatiner = () => {
                             }
                           >
                             {value.properties.City}
-                          </h1>
+                          </Link>
 
                           <span>
                             {visibilities[index] ? <BiMinus /> : <BsPlus />}
