@@ -24,16 +24,16 @@ const EmergencyAssists = () => (
         </h1>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
           <a href="tel:8008080025" target="_blank" rel="noreferrer">
-            <button
+            <div
               id="onsiteid"
               className="flex items-center  bg-kaltire-red py-3  px-12 text-white lg:text-2xl lg:font-bold font-Helvetica"
-              type="button"
+              // type="button"
             >
               <span>
                 <ImPhone className=" ph_Ring transition-all text-2xl font-poppins " />
               </span>{' '}
               &nbsp;+1-800-808-0025
-            </button>
+            </div>
           </a>
         </div>
       </div>
