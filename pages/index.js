@@ -29,6 +29,7 @@ const Home = () => (
     <BrandsComponent />
     {/* <div className="gcse-search" /> */}
     <AboutUs />
+
     {/* <FeaturedProducts /> */}
     <RoadSideAssistant />
     <HighPerformanceBrands />
