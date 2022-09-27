@@ -87,14 +87,14 @@ const Contactform = () => {
           >
             <div className="flex bg-white flex-col justify-center items-center">
               <div className="w-max">
-                {/* <Sparkles>
-                  <Image
+                <Sparkles>
+                  <img
                     src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/animation/3dbuddy.png"
                     width={350}
                     height={350}
                     layout="fill"
-                    />
-                    </Sparkles> */}
+                  />
+                </Sparkles>
               </div>
               <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>
@@ -111,7 +111,7 @@ const Contactform = () => {
                   setSuccess(false);
                 }}
               >
-                {/* <div
+                <div
                   animate={{ scale: [0.8, 1] }}
                   transition={{
                     ease: 'linear',
@@ -120,7 +120,7 @@ const Contactform = () => {
                   }}
                 >
                   Something else <strong className="text-5xl ">!</strong>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

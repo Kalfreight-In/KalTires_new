@@ -133,7 +133,7 @@ const DropBox = () => {
         "
           >
             <div
-              className="w-full flex justify-center items-center   mt-2    md:mb-0 lg:pt-4 pt-0"
+              className="w-full flex justify-center items-center   mt-1   md:mb-0 lg:pt-4 pt-0"
               id="input_placeholder"
             >
               <input
