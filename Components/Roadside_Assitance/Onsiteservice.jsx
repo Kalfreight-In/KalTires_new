@@ -12,7 +12,7 @@ const Onsiteservice = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   const isMobile = useMediaQuery('(min-width:768px)');
   return (
-    <div id="onsiteid" className="mb-8">
+    <div className="mb-8">
       <div>
         {isDesktop ? (
           <div>
