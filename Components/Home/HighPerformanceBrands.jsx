@@ -32,10 +32,10 @@ const HighBrandsSlider = ({ data }) => (
     <div className="flex flex-col p-4">
       <div className="p-4 flex align-center justify-center">
         {' '}
-        <Image src={data.logo} className="m-6" />
+        <Image src={data.logo} className="m-6" alt={data.heading} />
       </div>
 
-      <Image src={data.Image} className="w-96" />
+      <Image src={data.Image} className="w-96" alt={data.headingImg} />
     </div>
   </HighBrandSliderComponent>
 );
