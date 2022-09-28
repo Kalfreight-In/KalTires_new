@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import DropBox from '../DropBox_FileUpload/DropBox';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const SubResume = () => {
   const [Popup, setPopup] = useState(false);
+  const isMobile = useMediaQuery('(max-width:648px)');
 
   return (
     <div id="Mainresumecontainer">
@@ -54,7 +56,7 @@ export const SubResume = () => {
             className="text-center text-black font-poppins"
           >
             <p className="text-careeremail font-poppins">
-              Or mail your resume directly at{' '}
+              Or mail your resume directly at {isMobile ? <br /> : null}
               <a
                 href="mailto:info@kvltires.com"
                 className="text-kaltire-red font-poppins font-semibold"
