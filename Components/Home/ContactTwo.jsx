@@ -28,18 +28,20 @@ const Contactform = () => {
     const query = window.location.hash;
     const target = query.split('#')[1];
     console.log(`lool${target}`);
-    setTimeout(() => {
-      const element = document.getElementById(target);
-      const headerOffset = 117;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition =
-        elementPosition + window.pageYOffset - headerOffset;
+    if (window.location.hash) {
+      setTimeout(() => {
+        const element = document.getElementById(target);
+        const headerOffset = 117;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - headerOffset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-    }, 1000);
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }, 1000);
+    }
   }, []);
   const resetForm = (e) => {
     setName('');
