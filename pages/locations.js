@@ -175,15 +175,15 @@ const location = () => {
           content="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
         />
       </Head>
-      {MapData1.map((data, index) => (
+      {MapData1.map((data) => (
         <LocalBusinessJsonLd
           key={data.id}
           keyOverride={data.id}
           type="Store"
-          id="http://davesdeptstore.example.com"
-          name="KVL Tire"
-          description="kvl Tire Business"
-          url="https://kvltires.com/locations"
+          id="https://kvltires.com/locations"
+          name="KVLTires"
+          description="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
+          url="https://kvltires.com"
           telephone="+1-800-808-0025"
           address={{
             streetAddress: data.properties.address,
@@ -214,6 +214,45 @@ const location = () => {
           ]}
         />
       ))}
+      {/* {MapData2.map((data) => (
+        <LocalBusinessJsonLd
+          key={data.id}
+          keyOverride={data.properties.city}
+          type="Store"
+          id="http://davesdeptstore.example.com"
+          name="KVLTires"
+          description="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
+          url="https://kvltires.com/locations"
+          telephone="+1-800-808-0025"
+          address={{
+            streetAddress: data.properties.address,
+            addressLocality: data.properties.city,
+            addressRegion: data.properties.Phone,
+            postalCode: data.properties.Email,
+            addressCountry: 'CANADA',
+          }}
+          geo={{
+            latitude: data.geometry.coordinates[0],
+            longitude: data.geometry.coordinates[1],
+          }}
+          images={[data.properties.bgimage]}
+          openingHours={[
+            {
+              opens: '07:00 Am',
+              closes: '5:00 PM',
+              dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+              ],
+              validFrom: '2019-12-23',
+              validThrough: '2020-04-02',
+            },
+          ]}
+        />
+      ))} */}
 
       <div
         id="mainmapcontainer"
