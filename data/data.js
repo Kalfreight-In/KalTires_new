@@ -523,6 +523,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '1',
     heading: 'Cotinental',
+    headingImg: 'Cotinental-Tire',
     logo: continental_logo_white,
     Image: ContinentalTire,
     bgImage:
@@ -532,6 +533,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '2',
     heading: 'Goodyear',
+    headingImg: 'Goodyear-Tire',
     logo: goodyearLogo_white,
     Image: goodyearTire,
     bgImage:
@@ -541,6 +543,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '3',
     heading: 'Apollo',
+    headingImg: 'Apollo-Tire',
     logo: Apollo_Tyres_white,
     Image: apolloTire,
     bgImage:
@@ -549,7 +552,8 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '4',
-    heading: 'Apollo',
+    heading: 'bkt',
+    headingImg: 'bkt-Tire',
     logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
@@ -558,7 +562,8 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '5',
-    heading: 'General Tire',
+    heading: 'General',
+    headingImg: 'General-Tire',
     logo: generalLogo_white,
     Image: generalTire,
     bgImage:
@@ -568,6 +573,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '6',
     heading: 'Ameri Steel',
+    headingImg: 'Ameri-Tire',
     logo: ameristeel_white,
     Image: ameristeelTire,
     bgImage:
@@ -577,6 +583,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '7',
     heading: 'CooperTires',
+    headingImg: 'Cooper-Tire',
     logo: Cooper_Tire_white,
     Image: coopertiresTire,
     bgImage:
@@ -586,6 +593,7 @@ export const HighPerformanceBrandsData = [
   {
     id: '8',
     heading: 'Michelin',
+    headingImg: 'Michelin-Tire',
     logo: michelinLogo_white,
     Image: michelinTire,
     bgImage:
