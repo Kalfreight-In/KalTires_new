@@ -28,7 +28,7 @@ export const Services = () => {
   //   // outside click
   //   setlightbox(false);
   // };
-
+  // hello world soidfhsdofhi
   // useEffect(() => {
   //   // add when mounted
   //   document.addEventListener('mousedown', handleClick);
