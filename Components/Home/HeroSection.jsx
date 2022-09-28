@@ -88,6 +88,7 @@ const HeroSection = ({ data }) => {
                   <Link
                     href={isDesktop ? data.CTA1.Slink : data.CTA1.link}
                     className="flex flex-row justify-center lg:justify-start"
+                    passHref
                   >
                     {/* <button
                   type="button"
