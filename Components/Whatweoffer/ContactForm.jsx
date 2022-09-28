@@ -88,9 +88,12 @@ const Contactform = () => {
           >
             <div className="flex bg-white flex-col justify-center items-center">
               <div className="w-max">
-                <Sparkles>
-                  <Image src={Logo} width={350} height={350} layout="fill" />
-                </Sparkles>
+                <img
+                  src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png"
+                  width={350}
+                  height={350}
+                  layout="fill"
+                />
               </div>
               <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>

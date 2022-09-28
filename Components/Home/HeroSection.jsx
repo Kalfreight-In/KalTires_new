@@ -37,6 +37,8 @@ const HeroSection = ({ data }) => {
                 data.Heading.length > 12
                   ? data.Heading === 'Off-The-Road Tires'
                     ? 'w-full'
+                    : data.Heading === 'WE HELP YOU ACHIEVE YOUR DREAMS'
+                    ? 'lg:w-8/12'
                     : 'lg:w-7/12'
                   : 'lg:w-10/12'
               }  w-full `}
