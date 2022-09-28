@@ -29,7 +29,7 @@ export const AboutUs = () => {
           <div className="lg:grid lg:grid-cols-10 items-center ">
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
-                <span className="block">ABOUT US</span>
+                ABOUT US
               </h2>
             </div>
             <div className="lg:hidden block">

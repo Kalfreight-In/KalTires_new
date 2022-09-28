@@ -28,9 +28,9 @@ const Onsiteservice = () => {
                     </div>
                   </div>
 
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins h-12">
+                  <h2 className="lg:text-xl text-lg font-bold font-poppins h-12">
                     {index.heading}
-                  </h1>
+                  </h2>
                   <p className="pt-6 lg:text-sm font-normal px-2 text-center font-Helvetica">
                     {index.desc}
                   </p>
@@ -61,9 +61,9 @@ const Onsiteservice = () => {
                         </div>
                       </div>
 
-                      <h1 className="lg:text-xl text-lg font-bold font-Helvetica ">
+                      <h2 className="lg:text-xl text-lg font-bold font-Helvetica ">
                         {newdata.heading}
-                      </h1>
+                      </h2>
                     </div>
                   </div>
                 </div>
