@@ -148,7 +148,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     if (window.location.search) {
       console.log(`lool${target}`);
       const element = document.getElementById(target);
-      const headerOffset = 97;
+      const headerOffset = 117;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition =
         elementPosition + window.pageYOffset - headerOffset;

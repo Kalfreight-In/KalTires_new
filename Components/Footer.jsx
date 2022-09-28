@@ -247,15 +247,13 @@ const Footer = () => {
                     >
                       CSR
                     </a>
-                    <Link
-                      className="block md:text-xs  hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer anchor"
-                      rel="noreferrer"
+
+                    <a
                       href="/#CanadaContact"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer"
                     >
-                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
-                        Contact Us
-                      </span>
-                    </Link>
+                      Contact Us
+                    </a>
                   </div>
                 </div>
 
@@ -387,7 +385,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
+                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0   ">
                         <span className="flex cursor-pointer overflow-visible">
                           <Link
                             href={
@@ -417,7 +415,7 @@ const Footer = () => {
                       </div>
                     </div> */}
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
-                      <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
+                      <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0">
                         <span className="flex cursor-pointer">
                           <Link
                             href={

@@ -451,13 +451,13 @@ export const MapConatiner = () => {
           <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
           <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
             </div>
-            <div className="my-4" id="CanadaContact">
+            <div className="my-4">
               <h3 className="lg:mt-8 mt-2 text-white font-desc text-descnew pb-1  text-2xl font-bold  md:block hidden">
                 CANADA
               </h3>
             </div>
             <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 md:pl-6 pl-0 md:pr-4 pr-0  mr-8">
-              <div className="">
+              <div id="CanadaContact">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
                     <a href="/#Map_SvgContainer" key={value.id}>
