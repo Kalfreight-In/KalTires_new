@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { motion } from 'framer-motion';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
+import { Logo } from '../../Assets/Images/KvlTiresLogo.png';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -79,21 +81,16 @@ const Contactform = () => {
         }}
       >
         {success ? (
-          <div
+          <motion.div
             className="flex flex-center justify-center items-center "
             animate={{ scale: [0.5, 1] }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
             <div className="flex bg-white flex-col justify-center items-center">
               <div className="w-max">
-                {/* <Sparkles>
-               <img
-                 src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/animation/3dbuddy.png"
-                 width={350}
-                 height={350}
-                 layout="fill"
-               />
-             </Sparkles> */}
+                <Sparkles>
+                  <Image src={Logo} width={350} height={350} layout="fill" />
+                </Sparkles>
               </div>
               <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>
@@ -110,7 +107,7 @@ const Contactform = () => {
                   setSuccess(false);
                 }}
               >
-                <div
+                <motion.div
                   animate={{ scale: [0.8, 1] }}
                   transition={{
                     ease: 'linear',
@@ -119,10 +116,10 @@ const Contactform = () => {
                   }}
                 >
                   Something else <strong className="text-5xl ">!</strong>
-                </div>
+                </motion.div>
               </div>
             </div>
-          </div>
+          </motion.div>
         ) : (
           <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
             <div id="thisform">
