@@ -478,7 +478,7 @@ const Footer = () => {
                         />
                       </div>
                       {popup ? (
-                        <div className="text-xl text-white">
+                        <div className=" text-base text-white pb-2">
                           Thank you For Subscribing
                         </div>
                       ) : null}

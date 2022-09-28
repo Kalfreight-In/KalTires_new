@@ -66,8 +66,8 @@ const Contactform = () => {
   return (
     <div id="maincontactformnew" className="justify-between lg:flex">
       <div
-        id="shadow"
-        className="md:p-0 p-4 bg-red-600"
+        id="shadowtwo"
+        className="md:p-0 p-4 bg-red-600 flex justify-center items-cente"
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
@@ -80,20 +80,20 @@ const Contactform = () => {
       >
         {success ? (
           <div
-            className="flex flex-center justify-center "
+            className="flex flex-center justify-center items-center "
             animate={{ scale: [0.5, 1] }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
             <div className="flex bg-white flex-col justify-center items-center">
               <div className="w-max">
-                <Sparkles>
-                  <img
-                    src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/animation/3dbuddy.png"
-                    width={350}
-                    height={350}
-                    layout="fill"
-                  />
-                </Sparkles>
+                {/* <Sparkles>
+               <img
+                 src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/animation/3dbuddy.png"
+                 width={350}
+                 height={350}
+                 layout="fill"
+               />
+             </Sparkles> */}
               </div>
               <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>
