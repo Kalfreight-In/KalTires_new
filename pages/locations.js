@@ -181,8 +181,8 @@ const location = () => {
           keyOverride={data.id}
           type="Store"
           id="http://davesdeptstore.example.com"
-          name="KVL Tire"
-          description="kvl Tire Business"
+          name="KVLTires"
+          description="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
           url="https://kvltires.com/locations"
           telephone="+1-800-808-0025"
           address={{
