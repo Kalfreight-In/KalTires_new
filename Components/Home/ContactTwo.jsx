@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
@@ -20,6 +21,24 @@ const Contactform = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
+  const router = useRouter();
+  useEffect(() => {
+    const query = window.location.hash;
+    const target = query.split('#')[1];
+    console.log(`lool${target}`);
+    setTimeout(() => {
+      const element = document.getElementById(target);
+      const headerOffset = 117;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }, 1000);
+  }, []);
   const resetForm = (e) => {
     setName('');
     setEmail('');
