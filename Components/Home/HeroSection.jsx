@@ -34,7 +34,7 @@ const HeroSection = ({ data }) => {
 
             <div
               className={` ml-0 ${
-                data.Heading.length > 32
+                data.Heading.length > 12
                   ? data.Heading === 'Off-The-Road Tires'
                     ? 'w-full'
                     : 'lg:w-7/12'

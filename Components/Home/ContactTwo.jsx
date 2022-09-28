@@ -110,21 +110,25 @@ const Contactform = () => {
           >
             <div className="flex bg-white flex-col justify-center items-center">
               <div className="w-max">
-                <Sparkles>
+                {/* <Sparkles>
                   <Image
                     src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/NavLogo.png"
                     width={350}
                     height={350}
                     layout="fill"
                   />
-                </Sparkles>
+                </Sparkles> */}
               </div>
-              <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
+              <div className="text-2xl font-bold bg-white text-black w-9/12 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>
                   <div className="text-black flex flex-col">
-                    <div className="text-4xl">Thank you</div>
-                    just a short while as we make sure the right person{' '}
-                    <div className="text-red-500">get back to You ASAP!</div>
+                    <div className="text-5xl pb-4">Thank you</div>
+                    <div className="text-2xl">
+                      Your submission has been received
+                    </div>
+                    <div className=" text-xl">
+                      We will be in touch and contact ou soon!
+                    </div>
                   </div>
                 </Sparkles>
               </div>
