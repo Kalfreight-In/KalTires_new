@@ -472,7 +472,7 @@ export const MapConatiner = () => {
                           )
                         }
                       >
-                        <h1
+                        <h2
                           className={
                             Cvisibilities[index]
                               ? 'text-black font-bold'
@@ -480,7 +480,7 @@ export const MapConatiner = () => {
                           }
                         >
                           {value.properties.City}
-                        </h1>
+                        </h2>
 
                         <span>
                           {Cvisibilities[index] ? <BiMinus /> : <BsPlus />}

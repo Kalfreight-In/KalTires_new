@@ -303,7 +303,7 @@ const location = () => {
                             Our Locations
                           </h3> */}
                           </div>
-                          <h1
+                          <h2
                             className={
                               visibilities[index]
                                 ? 'text-white text-center font-bold text-lg ml-3'
@@ -311,7 +311,7 @@ const location = () => {
                             }
                           >
                             {`${value.properties.City}, ${value.properties.State}`}
-                          </h1>
+                          </h2>
                         </div>
 
                         {/* <span>
@@ -448,7 +448,7 @@ const location = () => {
                             Our Locations
                           </h3> */}
                           </div>
-                          <h1
+                          <h2
                             className={
                               visibilities[index]
                                 ? 'text-white text-center font-bold text-lg ml-3'
@@ -456,7 +456,7 @@ const location = () => {
                             }
                           >
                             {`${value.properties.City} ${value.properties.State}`}
-                          </h1>
+                          </h2>
                         </div>
 
                         {/* <span>

@@ -72,7 +72,7 @@ const CommercialTire = () => {
                     >
                       <div className="lg:relative lg:mt-4 self-start">
                         <Image
-                          className="lg:absolute lg:inset-0  lg:h-full object-cover object-center lg:rounded-tl-md  "
+                          className="lg:absolute lg:inset-0  lg:h-full object-cover object-center lg:rounded-tl-md "
                           src={alldata.mainimagetab}
                           alt="tires"
                         />
@@ -80,9 +80,9 @@ const CommercialTire = () => {
                     </motion.div>
                   </div>
                   <div className="lg:py-2 md:px-10 px-6 lg:px-0 md:max-w-3xl lg:max-w-5xl max-w-sm  mx-auto col-span-2  text-center lg:text-left mt-16  ">
-                    <h1 className="text-white font-poppins text-4xl font-bold">
+                    <h2 className="text-white font-poppins text-4xl font-bold">
                       {alldata.Heading}
-                    </h1>
+                    </h2>
                     <div id="combuttons" className="mt-12">
                       <motion.div
                         whileInView={{ y: [100, 0], opacity: [0.4, 1] }}
@@ -98,7 +98,7 @@ const CommercialTire = () => {
                             }  transition-all duration-100 delay-75 cursor-pointer  font-poppins focus:text-kaltire-red`}
                             onClick={() => setalldata(CommercialTireone[0])}
                           >
-                            {alldata.titleone}
+                            <h1>{alldata.titleone}</h1>
                           </button>
                         </span>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

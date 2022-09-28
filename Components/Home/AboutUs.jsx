@@ -169,10 +169,12 @@ export const AboutUs = () => {
                         <Image src={CommercialTire} width={100} height={100} />
                       </div>
 
-                      <div className="text-center font-poppins text-sm">
+                      <h1 className="text-center font-poppins text-sm">
+                        {/* <h1> */}
                         Commercial <br />
                         Tires
-                      </div>
+                        {/* </h1> */}
+                      </h1>
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
                       <div className="px-6">
@@ -214,9 +216,9 @@ export const AboutUs = () => {
                           <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                         </div>
                         <div id="Hotline-second">
-                          <h1 className="font-bold text-left font-poppins">
+                          <h2 className="font-bold text-left font-poppins">
                             Toll Free
-                          </h1>
+                          </h2>
                           <p>+1-800-808-0025</p>
                         </div>
                       </div>
