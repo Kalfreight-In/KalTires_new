@@ -13,7 +13,7 @@ const data = [
     Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
     desc: 'Get Quick & Convenient Roadside Assistance',
 
-    CTA1: { heading: 'Call Now', link: 'tel:8008080025' },
+    CTA1: { heading: 'Call Now', Slink: 'tel:8008080025' },
     CTA12: { heading: 'Inventory', link: 'contactus' },
     page: 'roadside',
   },
