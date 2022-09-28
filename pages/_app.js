@@ -43,23 +43,6 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       {/* <Head>
         <link rel="alternate" hrefLang="en" />
-<<<<<<< HEAD
-      </Head>
-
-      <StateContext>
-        {isDesktop ? <TopUpbar /> : null}
-
-        <ErrorBoundary>
-          <Sidebar isOpen={isOpen} toggle={toggle} />
-        </ErrorBoundary>
-
-        <Topbar toggle={toggle} postion={PcurrPos} />
-        <ErrorBoundary>
-          {' '}
-          <Navbar toggle={toggle} />
-        </ErrorBoundary>
-
-=======
         <script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -91,7 +74,6 @@ const MyApp = ({ Component, pageProps }) => {
           <Navbar toggle={toggle} />
         </ErrorBoundary>
 
->>>>>>> 73c700b4ffd1692de2a90c54b2a6c38b58ce5971
         <Component {...pageProps} />
         <Footer />
         <BottomBar />
@@ -100,10 +82,7 @@ const MyApp = ({ Component, pageProps }) => {
       crossOrigin="anonymous"
     /> */}
       </StateContext>
-<<<<<<< HEAD
-=======
       {/* </body> */}
->>>>>>> 73c700b4ffd1692de2a90c54b2a6c38b58ce5971
     </>
   );
 };
