@@ -247,15 +247,13 @@ const Footer = () => {
                     >
                       CSR
                     </a>
-                    <Link
-                      className="block md:text-xs  hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer anchor"
-                      rel="noreferrer"
+
+                    <a
                       href="/#CanadaContact"
+                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer"
                     >
-                      <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
-                        Contact Us
-                      </span>
-                    </Link>
+                      Contact Us
+                    </a>
                   </div>
                 </div>
 
