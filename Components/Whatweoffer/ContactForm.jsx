@@ -86,31 +86,36 @@ const Contactform = () => {
             animate={{ scale: [0.5, 1] }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <div className="flex bg-white flex-col justify-center items-center">
+            <div className="flex bg-white flex-col justify-center items-center pt-2 pb-20">
               <div className="w-max">
                 <img
-                  src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png"
-                  width={350}
-                  height={350}
-                  layout="fill"
+                  className="pb-8"
+                  src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png"
+                  width={160}
+                  height={160}
                 />
               </div>
-              <div className="text-2xl font-bold bg-white text-black w-2/4 mt-3 text-center mb-16 font-Helvetica ">
+              <div className="text-2xl font-bold  bg-white text-black w-full m-20 mt-3 text-center mb-16 font-Helvetica ">
                 <Sparkles>
                   <div className="text-black flex flex-col">
-                    <div className="text-4xl">Thank you</div>
-                    just a short while as we make sure the right person{' '}
-                    <div className="text-red-500">get back to You ASAP!</div>
+                    <div className="text-5xl  pb-4 text-red-500">Thank you</div>
+                    <div className="text-xl font-light text-gray-700">
+                      Your submission has been received
+                    </div>
+                    <div className=" text-xl font-light text-gray-700">
+                      We will be in touch and contact us soon!
+                    </div>
                   </div>
                 </Sparkles>
               </div>
               <div
-                className="text-3xl font-bold text-black text-center  cursor-pointer mb-2"
+                className="text-xl font-normal text-white text-center  cursor-pointer mb-2"
                 onClick={() => {
                   setSuccess(false);
                 }}
               >
-                <motion.div
+                <div
+                  className="bg-blue-500 px-6 py-2"
                   animate={{ scale: [0.8, 1] }}
                   transition={{
                     ease: 'linear',
@@ -118,8 +123,8 @@ const Contactform = () => {
                     repeat: Infinity,
                   }}
                 >
-                  Something else <strong className="text-5xl ">!</strong>
-                </motion.div>
+                  Back To site
+                </div>
               </div>
             </div>
           </motion.div>
