@@ -250,7 +250,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                      href="/#CanadaContact"
+                      href="/#maincontactform"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer"
                     >
                       Contact Us
