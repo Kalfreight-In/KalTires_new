@@ -768,7 +768,7 @@ export const Servicesdata = [
     heading: 'Truck & Trailer Alignment',
     desc: 'Every trucker knows the importance of timely wheel alignment for commercial vehicles. In the transportation industry, fuel and tires have the highest operating costs. While fuel consumption is tough to manage, planning timely commercial truck alignments can be a cost-effective measure. Also, regular wheel alignments are essential to return wheels to a straight rolling position. Less rolling resistance means less friction, leading to better fuel economy, prolonged tire life, component wear, and enhancing driver’s comfort.  ',
     linebrk: 'normal',
-    paddingX: 0,
+    paddingX: 4,
     AltTag: 'Complete Truck & Trailer Alignment Solutions',
   },
   {
