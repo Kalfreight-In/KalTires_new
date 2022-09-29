@@ -32,18 +32,20 @@ const Footer = () => {
     const target = query.split('#')[1];
 
     if (window.location.hash) {
-      setTimeout(() => {
-        const element = document.getElementById(target);
-        const headerOffset = 117;
-        const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition =
-          elementPosition + window.pageYOffset - headerOffset;
+      if (target === 'maincontactform') {
+        setTimeout(() => {
+          const element = document.getElementById(target);
+          const headerOffset = 117;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition =
+            elementPosition + window.pageYOffset - headerOffset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      }, 1000);
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        }, 1000);
+      }
     }
   }, [changeState]);
   return (
