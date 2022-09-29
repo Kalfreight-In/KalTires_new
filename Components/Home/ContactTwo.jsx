@@ -255,7 +255,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setZip(e.target.value)}
-                    inputMode="numeric"
+                    // inputMode="numeric"
                     className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="grid-first-name"
                     type="text"
