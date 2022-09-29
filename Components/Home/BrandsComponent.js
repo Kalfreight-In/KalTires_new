@@ -69,7 +69,7 @@ const BrandsComponent = () => {
     <>
       {/* <div class="social"></div> */}
       <div className="bg-businessbackground">
-        <div className=" px-20 " id="AboutUs_Section">
+        <div className=" px-20 ">
           <div className="">
             {/* {isDesktop ? (
               <div className="flex flex-row">
