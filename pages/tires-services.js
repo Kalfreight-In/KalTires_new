@@ -16,8 +16,8 @@ const data = [
     desc: 'Offering Major Tire Brands, Quality Tire Repair Services across 18+ Locations & Growing ',
     CTA1: {
       heading: 'Contact Us',
-      Slink: '/#maincontactform',
-      link: '/#maincontactform',
+      Slink: '/#CanadaContact',
+      link: '/#CanadaContact',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
     page: 'tire',
