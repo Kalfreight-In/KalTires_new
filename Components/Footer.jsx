@@ -144,9 +144,9 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-lg font-bold xl:text-left text-center ">
+                    <h5 className="text-lg font-bold xl:text-left text-center ">
                       Inventory
-                    </h1>
+                    </h5>
                   </div>
 
                   <div
@@ -216,9 +216,9 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-lg font-bold xl:text-left text-center   ">
+                    <h5 className="text-lg font-bold xl:text-left text-center   ">
                       Who We Are
-                    </h1>
+                    </h5>
                   </div>
 
                   <div
@@ -267,9 +267,9 @@ const Footer = () => {
                       setHcontactus(false);
                     }}
                   >
-                    <h1 className="text-lg font-bold xl:text-left  text-center ">
+                    <h5 className="text-lg font-bold xl:text-left  text-center ">
                       Quick Links
-                    </h1>
+                    </h5>
                   </div>
 
                   <div
@@ -328,9 +328,9 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" font-bold xl:text-left text-center   text-lg md:ml-0 pl-0 ">
+                    <h5 className=" font-bold xl:text-left text-center   text-lg md:ml-0 pl-0 ">
                       Services
-                    </h1>
+                    </h5>
                   </div>
 
                   <div
@@ -453,9 +453,9 @@ const Footer = () => {
                     setHcontactus(!Hcontactus);
                   }}
                 >
-                  <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-lg md:ml-0 pl-0  ">
+                  <h5 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-lg md:ml-0 pl-0  ">
                     Subscribe for latest updates
-                  </h1>
+                  </h5>
                 </div>
 
                 <div
@@ -601,9 +601,9 @@ const Footer = () => {
                       setHcontactus(!Hcontactus);
                     }}
                   >
-                    <h1 className=" md:font-semibold   xl:text-left text-center text-Description   text-lg md:ml-0 pl-0  ">
+                    <h5 className=" md:font-semibold   xl:text-left text-center text-Description   text-lg md:ml-0 pl-0  ">
                       Subscribe for latest updates
-                    </h1>
+                    </h5>
                   </div>
 
                   <div className="text-white 2xl:leading-8 leading-6 xl:block ">
