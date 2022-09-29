@@ -18,10 +18,10 @@ const EmergencyAssists = () => (
       }}
     >
       <div id="content" className="md:pt-0 pt-8">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl text-white lg:leading-70 font-semibold font-poppins">
+        <h2 className="text-2xl md:text-3xl lg:text-5xl text-white lg:leading-70 font-semibold font-poppins">
           EMERGENCY ASSISTANCE
           <br /> KVL Tires is just a Call Away!
-        </h1>
+        </h2>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
           <a href="tel:8008080025" target="_blank" rel="noreferrer">
             <div
