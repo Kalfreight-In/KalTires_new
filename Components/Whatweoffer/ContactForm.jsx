@@ -103,7 +103,7 @@ const Contactform = () => {
                       Your submission has been received
                     </div>
                     <div className=" text-xl font-light text-gray-700">
-                      We will be in touch and contact you soon!
+                      We will contact you soon!
                     </div>
                   </div>
                 </Sparkles>

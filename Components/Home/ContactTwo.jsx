@@ -125,7 +125,7 @@ const Contactform = () => {
                       Your submission has been received
                     </div>
                     <div className=" text-xl font-light text-gray-700">
-                      We will be in touch and contact You soon!
+                      We will contact You soon!
                     </div>
                   </div>
                 </Sparkles>
