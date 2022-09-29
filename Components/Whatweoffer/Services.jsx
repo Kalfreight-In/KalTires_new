@@ -207,9 +207,9 @@ export const Services = () => {
                                   <Image src={mydata.img} alt="service" />
                                 </div>
                               </div>
-                              <h1 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
+                              <span className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
                                 {mydata.heading}
-                              </h1>
+                              </span>
                             </div>
                           </a>
                         </SwiperSlide>
