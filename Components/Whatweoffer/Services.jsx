@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
-
 import { Servicesdata } from '../../data/data';
 
 // eslint-disable-next-line import/no-unresolved
