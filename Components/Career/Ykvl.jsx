@@ -3,7 +3,6 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { careerKvl } from '../../data/data';
 
 const ydata = careerKvl;
-// console.log(ydata);
 
 export const Ykvl = () => {
   const isMobile = useMediaQuery('(max-width:768px)');

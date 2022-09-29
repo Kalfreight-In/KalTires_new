@@ -27,7 +27,7 @@ const Contactform = () => {
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];
-    console.log(`lool${target}`);
+
     if (window.location.hash) {
       setTimeout(() => {
         const element = document.getElementById(target);

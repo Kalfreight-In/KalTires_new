@@ -230,8 +230,8 @@ export const AboutUs = () => {
 
             <div />
             <motion.div
-              whileInView={{ x: [0, -100], opacity: [0.5, 1] }}
-              transition={{ duration: 0.5 }}
+              whileInView={{ x: [+100, 0], opacity: [0.5, 1] }}
+              transition={{ duration: 0.4 }}
               className="lg:block hidden col-span-5  xl:mr-20 "
             >
               <div className="  ">

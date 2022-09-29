@@ -141,7 +141,7 @@ const location = () => {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
-    console.log(`location after typed${TypedLocation}`);
+
     MapData1.map((x) => true);
   }, [visibilities, TypedLocation]);
 

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 // import { Link as Slink } from 'react-scroll';
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
@@ -25,6 +25,7 @@ const Footer = () => {
     setPopup(true);
     setEmail('');
   };
+
   return (
     <div
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
@@ -249,7 +250,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                      href="/#CanadaContact"
+                      href="/#maincontactform"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer"
                     >
                       Contact Us
