@@ -56,7 +56,7 @@ const Footer = () => {
                     src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
                     className="2xl:h-20 xl:h-16 h-20 md:block hidden"
-                    to="mailto:umarkhurshid3@gmail.com"
+                    to="mailto:info@kvltires.com"
                     height={70}
                   />
                 </div>
@@ -359,10 +359,14 @@ const Footer = () => {
                         </span>
                       </div>
                     </div>
+
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
-                          <Link href="/24X7-roadside-assistance#onsiteid">
+                          <Link
+                            href="/24X7-roadside-assistance#maineassist"
+                            scroll={false}
+                          >
                             On-Site Services
                           </Link>
                         </span>
