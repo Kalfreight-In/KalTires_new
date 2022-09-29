@@ -42,7 +42,7 @@ const Contactform = () => {
           top: offsetPosition,
           behavior: 'smooth',
         });
-      }, 800);
+      }, 1000);
     }
   }, []);
   const resetForm = (e) => {
