@@ -476,10 +476,12 @@ export const CommercialTireone = [
       {
         id: 1,
         img: contitread,
+        Alt: 'contitread',
       },
       {
         id: 2,
         img: contilifecycle,
+        Alt: 'contilifecycle',
       },
     ],
   },
@@ -499,22 +501,27 @@ export const CommercialTiretwo = [
       {
         id: 1,
         img: continental,
+        Alt: 'continental',
       },
       {
         id: 2,
         img: GeneralTire,
+        Alt: 'GeneralTire',
       },
       {
         id: 3,
         img: ameristeel,
+        Alt: 'ameristeel',
       },
       {
         id: 4,
         img: Apollo,
+        Alt: 'Apollo',
       },
       {
         id: 5,
         img: Bkt,
+        Alt: 'Bkt',
       },
     ],
   },
@@ -727,6 +734,7 @@ export const Servicesdata = [
     heading: 'Tire & Wheel Balancing',
     linebrk: 'normal',
     paddingX: 8,
+    AltTag: 'Tire & Wheel Balancing Services',
   },
   {
     id: 2,
@@ -735,6 +743,7 @@ export const Servicesdata = [
     desc: 'It is no secret that every fleet’s most significant investment is its tires and associated services. Look to our retreading services at KVL Tires for safe, reliable & cost-effective options. We have partnered with ContiTread to provide our customers with quality options only. So, get on the road with the most trusted retreads. Contact the nearest KVL Tires location for more information. Save a few bucks today & thank us later.',
     linebrk: 'normal',
     paddingX: 8,
+    AltTag: 'Retread Services Solutions',
   },
   {
     id: 3,
@@ -742,6 +751,7 @@ export const Servicesdata = [
     heading: 'Pick up & Delivery Services',
     linebrk: 'normal',
     paddingX: 0,
+    AltTag: 'Complete Pick up & Delivery Solution',
   },
   {
     id: 4,
@@ -750,6 +760,7 @@ export const Servicesdata = [
     desc: 'You can’t schedule a blowout! A flat tire or a minor mechanical default can bring your vehicle to a halt. To save you from such hassles, you need a reliable service provider to get back on the road. Call KVL Tires at +1-800-808-0025. Sunset or sunrise, connect with our roadside assistance expert for quick help 24/7/365 days a year. Keep all your worries aside and drive away with pride.',
     linebrk: 'normal',
     paddingX: 0,
+    AltTag: 'Vehicle Roadside Assistance',
   },
   {
     id: 5,
@@ -758,6 +769,7 @@ export const Servicesdata = [
     desc: 'Every trucker knows the importance of timely wheel alignment for commercial vehicles. In the transportation industry, fuel and tires have the highest operating costs. While fuel consumption is tough to manage, planning timely commercial truck alignments can be a cost-effective measure. Also, regular wheel alignments are essential to return wheels to a straight rolling position. Less rolling resistance means less friction, leading to better fuel economy, prolonged tire life, component wear, and enhancing driver’s comfort.  ',
     linebrk: 'normal',
     paddingX: 0,
+    AltTag: 'Complete Truck & Trailer Alignment Solutions',
   },
   {
     id: 6,
@@ -766,6 +778,7 @@ export const Servicesdata = [
     desc: 'Managing a fleet is no less than a herculean task and while at it, juggling between tire business is not a good option. Commercial Tires need regular upkeep for high performance, better mileage, and safety. The fleet owners are always looking to decrease their tire operating costs. KVL Tires has devised a strategic mounted wheel program to provide high-quality new commercial tires and retreads delivered according to their requirements. The tires come inflated and mounted on new or reconditioned wheels, ready for installation. This mounted program keeps all tire-associated troubles at bay. Speak to a tire specialist at your nearest location for a customer-friendly solution. ',
     linebrk: 'normal',
     paddingX: 0,
+    AltTag: 'Absolute Mounted Wheel Programs Solutions',
   },
   {
     id: 7,
@@ -773,6 +786,7 @@ export const Servicesdata = [
     heading: 'Heavy Duty Front-End Work',
     linebrk: 'normal',
     paddingX: 0,
+    AltTag: 'Complete Heavy Duty Front-End Work Solutions',
   },
   {
     id: 8,
@@ -781,6 +795,7 @@ export const Servicesdata = [
     desc: 'Schedule maintenance of commercial vehicles is necessary for safety & extend the vehicle’s life. The program can ensure your wheels run smoothly without unforeseen costly repairs coming your way. Fleet owners can primarily benefit from this program by reducing tire-related operating expenses. Fine tune your tire performance today for a longer ride every day.  ',
     linebrk: 'normal',
     paddingX: 4,
+    AltTag: 'Absolute Scheduled Maintenance Solutions',
   },
 ];
 

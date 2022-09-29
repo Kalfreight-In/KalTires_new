@@ -106,7 +106,7 @@ export const Services = () => {
                       <div className="w-onsiteimage h-onsiteimage pt-4">
                         <Image
                           src={data.img}
-                          alt="service"
+                          alt={data.AltTag}
                           title="click to call"
                         />
                       </div>
@@ -201,10 +201,10 @@ export const Services = () => {
                       {Servicesdata.map((mydata) => (
                         <SwiperSlide key={mydata.id}>
                           <a href="tel:8088000025">
-                            <div className="bg-kaltire-red  text-center text-white border-white hover:border-2 ">
+                            <div className="bg-kaltire-red  text-center text-white border-white hover:border-2 py-4 ">
                               <div className="flex justify-center">
                                 <div className="w-onsiteimage h-onsiteimage pt-6">
-                                  <Image src={mydata.img} alt="service" />
+                                  <Image src={mydata.img} alt={mydata.AltTag} />
                                 </div>
                               </div>
                               <span className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">

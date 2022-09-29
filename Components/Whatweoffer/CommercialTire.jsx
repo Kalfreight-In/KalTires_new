@@ -58,7 +58,11 @@ const CommercialTire = () => {
                         <Image
                           className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
                           src={alldata.mainimage}
-                          alt="tires"
+                          alt={
+                            alldata.Heading === 'Retread Tires'
+                              ? 'Affordable Retread Tires'
+                              : 'Tires For Truck & Trailers'
+                          }
                         />
                       ) : null}
                     </div>
@@ -74,7 +78,11 @@ const CommercialTire = () => {
                         <Image
                           className="lg:absolute lg:inset-0  lg:h-full object-cover object-center lg:rounded-tl-md "
                           src={alldata.mainimagetab}
-                          alt="tires"
+                          alt={
+                            alldata.Heading === 'Retread Tires'
+                              ? 'Affordable Retread Tires'
+                              : 'Tires For Truck & Trailers'
+                          }
                         />
                       </div>
                     </motion.div>
@@ -149,7 +157,11 @@ const CommercialTire = () => {
                         {alldata.logos.map((indexnew) => (
                           <SwiperSlide key={indexnew.id}>
                             <div id="commlogos" className="mt-8 ml-4 ">
-                              <Image src={indexnew.img} className="flex" />
+                              <Image
+                                src={indexnew.img}
+                                className="flex"
+                                alt={indexnew.Alt}
+                              />
                             </div>
                           </SwiperSlide>
                         ))}
