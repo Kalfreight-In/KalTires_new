@@ -56,9 +56,9 @@ export const Services = () => {
               backgroundSize: 'cover',
             }}
           >
-            <div className="text-white  text-5xl font-bold font-poppins pb-8">
+            <h2 className="text-white  text-5xl font-bold font-poppins pb-8">
               Services
-            </div>
+            </h2>
             <div
               id="maingrid "
               className="flex flex-col justify-center items-center"
@@ -110,11 +110,11 @@ export const Services = () => {
                         />
                       </div>
                     </div>
-                    <div
+                    <h3
                       className={`lg:text-xl text-lg font-bold font-poppins lg:px-${data.paddingX} px-0  whitespace-${data.linebrk} h-16`}
                     >
                       {data.heading}
-                    </div>
+                    </h3>
                   </a>
                 ))}
               </div>
@@ -137,9 +137,9 @@ export const Services = () => {
                 backgroundSize: 'cover',
               }}
             >
-              <h1 className="text-white text-5xl font-bold font-Helvetica py-12 pl-28 text-left">
+              <h2 className="text-white text-5xl font-bold font-Helvetica py-12 pl-28 text-left">
                 Services
-              </h1>
+              </h2>
               <div
                 id="maingrid"
                 className={isMobile ? 'px-10 pb-10' : 'px-20 pb-20'}
@@ -206,9 +206,9 @@ export const Services = () => {
                                   <Image src={mydata.img} alt={mydata.AltTag} />
                                 </div>
                               </div>
-                              <span className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
+                              <h3 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
                                 {mydata.heading}
-                              </span>
+                              </h3>
                             </div>
                           </a>
                         </SwiperSlide>

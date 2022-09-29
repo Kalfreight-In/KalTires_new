@@ -58,9 +58,9 @@ const HeroSection = ({ data }) => {
                     whileInView={{ x: [-100, 0], opacity: [0.5, 1] }}
                     transition={{ duration: 1.5 }}
                   >
-                    <h2 className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-0 lg:pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
+                    <div className="2xl:text-5xl xl:text-4xl font-poppins lg:text-3xl text-2xl font-bold text-white font-xl  pb-0 lg:pb-4 lg:border-b-0 border-b-4  border-y-PrimaryTwo lg:mx-0 block-inline">
                       {data.Heading.toUpperCase()}
-                    </h2>
+                    </div>
                   </motion.div>
 
                   {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}

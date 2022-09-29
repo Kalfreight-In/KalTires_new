@@ -58,12 +58,14 @@ export const IndustTires = () => {
                                 </div>
 
                                 <div className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
-                                  <span
-                                    className="border-red-600 border-b-2 pb-2 font-poppins"
-                                    id={`${indust.idmainMtab}`}
-                                  >
-                                    {indust.heading}
-                                  </span>
+                                  <h3>
+                                    <span
+                                      className="border-red-600 border-b-2 pb-2 font-poppins"
+                                      id={`${indust.idmainMtab}`}
+                                    >
+                                      {indust.heading}
+                                    </span>
+                                  </h3>
                                 </div>
                               </div>
                             </div>
@@ -169,12 +171,14 @@ export const IndustTires = () => {
                     />
                   </div>
                   <div className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">
-                    <span
-                      className="border-red-600 border-b-2 pb-2 font-poppins"
-                      id={`${industtwo.idmainDstop}`}
-                    >
-                      {industtwo.heading}
-                    </span>
+                    <h3>
+                      <span
+                        className="border-red-600 border-b-2 pb-2 font-poppins"
+                        id={`${industtwo.idmainDstop}`}
+                      >
+                        {industtwo.heading}
+                      </span>
+                    </h3>
                   </div>
                 </div>
               ))}
