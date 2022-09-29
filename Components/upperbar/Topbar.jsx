@@ -11,12 +11,12 @@ import { useStateContext } from '../../context/StateContext';
 
 const Topbar = ({ toggle, postion }) => {
   const { setUserLocation, setCurrentlatlong } = useStateContext();
-
+  console.log(`dsadasd ${postion.y}`);
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div
       className={` bg-tire-gray-3 sticky top-0 z-10  ${
-        isDesktop ? '' : 'fixed z-30 w-full'
+        isDesktop ? 'pb-6' : 'fixed z-30 w-full'
       }`}
     >
       <div className="transition-all ease-in-out  mx-1  flexBetween z-10   p-1 flex-row ">

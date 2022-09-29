@@ -18,13 +18,13 @@ import BottomBar from '../Components/Bottombar';
 
 const MyApp = ({ Component, pageProps }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [PcurrPos, setPcurrPos] = useState(false);
+  const [PcurrPos, setPcurrPos] = useState({ x: 0, y: 0 });
   const [hideOnScroll, setHideOnScroll] = useState(true);
-  const rendersCount = useRef(0);
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
       const isShow = currPos.y > prevPos.y;
+
       if (isShow !== hideOnScroll) setHideOnScroll(isShow);
       setPcurrPos(currPos);
     },
