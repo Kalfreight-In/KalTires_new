@@ -1460,7 +1460,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [39.7591968, -86.126794],
+      coordinates: [39.8399802, -86.2502276],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
@@ -1473,16 +1473,17 @@ export const MapData1 = [
     properties: {
       State: 'IN',
       Manager: 'Telly Ingram',
-      ZipCode: '46201',
+      ZipCode: '46254',
       City: 'Indianapolis',
-      Address: '2025 English Ave',
+      Address: '4641 Lafayette Ave',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
       bgimage:
         'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/indianapolistM.png',
-      url: 'https://goo.gl/maps/6ansb7uMWcfBT6QU7',
+      url: 'https://www.google.co.in/maps/place/4641+Lafayette+Rd,+Indianapolis,+IN+46254,+USA/@39.8399802,-86.2502276,17z/data=!3m1!4b1!4m5!3m4!1s0x886b55fd130f8613:0x8feef59d5c0456c5!8m2!3d39.8399761!4d-86.2480389?hl=en',
     },
   },
+
   {
     id: 12,
     type: 'Feature',
