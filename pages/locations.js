@@ -425,7 +425,10 @@ const location = () => {
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
-                                <img src={value.properties.bgimage} />
+                                <img
+                                  src={value.properties.bgimage}
+                                  alt={value.properties.City}
+                                />
                                 <div className="text-right text-sm pt-2">
                                   <a
                                     className="text-blue-500"
@@ -571,7 +574,10 @@ const location = () => {
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
-                                <img src={value.properties.bgimage} />
+                                <img
+                                  src={value.properties.bgimage}
+                                  alt={value.properties.City}
+                                />
                                 <div className="text-right text-sm pt-2">
                                   <a
                                     className="text-blue-500"

@@ -21,7 +21,7 @@ const Roadside = () => (
             <Image
               className="lg:inset-0 h-60 w-full  lg:h-full object-cover object-center "
               src={servicetruck}
-              alt="servicetruck"
+              alt="24/7 Roadside Assistance Tire Services"
             />
           </div>
           <div className="flex items-center  2xl:pt-2 md:py-8 lg:py-0">

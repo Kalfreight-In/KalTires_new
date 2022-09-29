@@ -691,6 +691,7 @@ export const IndustrialTiresdatan = [
     heading: 'Industrial Tires',
     idmainDstop: 'IndustrialTires',
     idmainMtab: 'IndustrialTiresTwo',
+    Alttag: 'High Performance Industrial Tires',
     pr: 0,
   },
   {
@@ -699,6 +700,7 @@ export const IndustrialTiresdatan = [
     heading: 'Earthmover Tires',
     idmain: 'EarthmoverTires',
     idmainMtab: 'EarthmoverTiresTwo',
+    Alttag: 'Earthmover Tires for sale',
     pr: 8,
   },
   {
@@ -707,6 +709,7 @@ export const IndustrialTiresdatan = [
     heading: 'Agricultural Tires',
     idmain: 'AgriculturalTires',
     idmainMtab: 'AgriculturalTiresTwo',
+    Alttag: 'Agricultural Tires and Tractor Tires',
     pr: 0,
   },
   {
@@ -715,6 +718,7 @@ export const IndustrialTiresdatan = [
     heading: 'Passenger Tires',
     idmain: 'PassengerTires',
     idmainMtab: 'PassengerTiresTwo',
+    Alttag: 'Passenger Tires for Car',
     pr: 0,
   },
   {
@@ -723,6 +727,7 @@ export const IndustrialTiresdatan = [
     heading: 'Light Truck Tires',
     idmain: 'LightTruckTires',
     idmainMtab: 'LightTruckTiresTwo',
+    Alttag: 'Best Selling Light Truck Tires',
     pr: 0,
   },
 ];

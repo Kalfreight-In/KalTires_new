@@ -93,6 +93,7 @@ const Contactform = () => {
                   src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png"
                   width={160}
                   height={160}
+                  alt="Thank You"
                 />
               </div>
               <div className="text-2xl font-bold  bg-white text-black w-full m-20 mt-3 text-center mb-16 font-Helvetica ">
@@ -148,7 +149,7 @@ const Contactform = () => {
                       </div>
                       <p className="text-white pt-4  lg:text-left text-justify lg:pr-0 md:mr-16 mr-4 font-Helvetica ">
                         Let’s grow your business together. Please provide your
-                        details, and a KVL Tire expert will get in touch with
+                        details, and a KVL Tires expert will get in touch with
                         you shortly.{' '}
                       </p>
                     </div>
