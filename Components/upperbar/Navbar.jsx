@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
     }
   }, [AboutusRef]);
   return (
-    <nav className="bg-white sticky top-navbargap z-10 shadow-xl -m-6">
+    <nav className="bg-white sticky top-navbargap z-10 shadow-xl -mt-6">
       <div className="flexBetween z-10 mx-12  flex-row">
         <div className="ml-8 hidden flex-row justify-start items-center cursor-pointer lg:flex">
           <Link href="/">
