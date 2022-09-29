@@ -227,7 +227,7 @@ const Footer = () => {
                       H_WA ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/#AboutUs_Section" rel="noreferrer">
+                    <Link href="/#AboutUs_Section" rel="noreferrer" passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
                         About Us
                       </span>
@@ -280,7 +280,7 @@ const Footer = () => {
                   >
                     <div />
                     <div>
-                      <Link href="/tires-services" rel="noreferrer">
+                      <Link href="/tires-services" rel="noreferrer" passHref>
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           {' '}
                           Tires & Services
@@ -288,7 +288,11 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link href="/24X7-roadside-assistance" rel="noreferrer">
+                      <Link
+                        href="/24X7-roadside-assistance"
+                        rel="noreferrer"
+                        passHref
+                      >
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           {' '}
                           Roadside Assistance
@@ -296,7 +300,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link href="/locations" rel="noreferrer">
+                      <Link href="/locations" rel="noreferrer" passHref>
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           Locations
                         </span>
@@ -311,7 +315,7 @@ const Footer = () => {
                       </a>
                     </div>
                     <div>
-                      <Link href="/careers" rel="noreferrer">
+                      <Link href="/careers" rel="noreferrer" passHref>
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Careers
                         </span>
