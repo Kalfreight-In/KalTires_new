@@ -30,7 +30,7 @@ const Footer = () => {
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];
-    console.log(`hashhhhhhhhhhhhhhhhh ${query} ${changeState}`);
+
     if (window.location.hash) {
       setTimeout(() => {
         const element = document.getElementById(target);
@@ -45,7 +45,7 @@ const Footer = () => {
         });
       }, 1000);
     }
-  }, []);
+  }, [changeState]);
   return (
     <div
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
@@ -269,7 +269,7 @@ const Footer = () => {
                       CSR
                     </a>
 
-                    <Link
+                    <a
                       href="/#maincontactform"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover mt-1 xl:text-left text-center cursor-pointer"
                       onClick={() => {
@@ -277,7 +277,7 @@ const Footer = () => {
                       }}
                     >
                       Contact Us
-                    </Link>
+                    </a>
                   </div>
                 </div>
 
