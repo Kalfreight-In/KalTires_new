@@ -53,7 +53,7 @@ export const IndustTires = () => {
                                   <Image
                                     className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                                     src={indust.img}
-                                    alt="tires"
+                                    alt={indust.Alttag}
                                   />
                                 </div>
 
@@ -165,7 +165,7 @@ export const IndustTires = () => {
                     <Image
                       className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                       src={industtwo.img}
-                      alt="tires"
+                      alt={industtwo.Alttag}
                     />
                   </div>
                   <div className="text-center 2xl:text-xl xl:text-lg lg:text-base font-poppins font-bold pt-12">

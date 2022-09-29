@@ -174,7 +174,7 @@ const Contactform = () => {
                     </h2>
                     <p className="text-white pt-4  text-left lg:pr-0 md:mr-16 mr-4 font-Helvetica">
                       Let’s grow your business together. Please provide your
-                      details, and a KVL Tire expert will get in touch with you
+                      details, and a KVL Tires expert will get in touch with you
                       shortly.{' '}
                     </p>
                   </div>
@@ -321,7 +321,7 @@ const Contactform = () => {
       </div>
 
       {isDesktop ? (
-        <Image src={mainimage} alt="contactus" objectFit="cover" />
+        <Image src={mainimage} alt="Book An Appointment" objectFit="cover" />
       ) : null}
     </div>
   );
