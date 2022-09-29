@@ -540,7 +540,7 @@ const Footer = () => {
                     src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 xl:block hidden"
-                    to="mailto:umarkhurshid3@gmail.com"
+                    to="mailto:info@kvltires.com"
                   />
                 </div>
                 <div className="md:flex block md:flex-row gap-x-8">
