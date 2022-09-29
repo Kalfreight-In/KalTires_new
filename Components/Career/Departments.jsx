@@ -32,7 +32,7 @@ export const Departments = () => (
                           <div>
                             <Image
                               src={index.img}
-                              alt="departments"
+                              alt={index.Alttag}
                               className="relative bg-cover"
                             />
                             <div
@@ -81,7 +81,7 @@ export const Departments = () => (
                               <div>
                                 <Image
                                   src={data.img}
-                                  alt="departments"
+                                  alt={data.Alttag}
                                   className="relative"
                                 />
                                 <div

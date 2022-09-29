@@ -614,6 +614,7 @@ export const Departmentsdata = [
     id: 1,
     img: Management,
     Heading: 'Management',
+    Alttag: 'Kvl Tires Management',
     mt: '16',
   },
   {
@@ -621,12 +622,14 @@ export const Departmentsdata = [
     img: Warehouse,
     Heading: 'Warehouse',
     Headingtwo: 'Manager',
+    Alttag: 'Kvl Tires Warehouse',
     mt: '20',
   },
   {
     id: 3,
     img: Sales,
     Heading: 'Sales Manager',
+    Alttag: 'Sales Manager',
     mt: '16',
   },
 
@@ -634,6 +637,7 @@ export const Departmentsdata = [
     id: 4,
     img: DeliveryDrivers,
     Heading: 'Delivery Drivers',
+    Alttag: 'Kvl Tires Delivery Drivers',
     mt: '16',
   },
   {
@@ -641,12 +645,14 @@ export const Departmentsdata = [
     img: ServiceTechnicians,
     Heading: 'Service',
     Headingtwo: 'Technicians',
+    Alttag: 'Kvl Tires Technicians',
     mt: '20',
   },
   {
     id: 6,
     img: Administration,
     Heading: 'Administration',
+    Alttag: 'Kvl Tires Administration',
     mt: '16',
   },
 ];

@@ -30,7 +30,7 @@ export const PerkBenifits = () => {
                 >
                   <div className="flex justify-start  pt-12 h-perkimageheight w-perkimagewidth px-4">
                     <div className="flex ">
-                      <Image src={index.img} alt="service" />
+                      <Image src={index.img} alt={index.Heading} />
                     </div>
                   </div>
 
@@ -81,7 +81,7 @@ export const PerkBenifits = () => {
                       >
                         <div className="flex justify-start pl-8 pt-12 h-perkimageheight w-perkimagewidth">
                           <div className="flex ">
-                            <Image src={data.img} alt="service" />
+                            <Image src={data.img} alt={data.Heading} />
                           </div>
                         </div>
                         <h4 className="lg:text-xl text-lg font-bold font-poppins text-left pl-8 pt-8 text-black">
