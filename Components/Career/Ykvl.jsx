@@ -18,9 +18,9 @@ export const Ykvl = () => {
               id="firstboxykvl"
               className="flex items-center lg:justify-start justify-center "
             >
-              <h1 className="lg:text-4xl text-3xl text-departmentheading font-poppins font-bold mr-8 ">
+              <h2 className="lg:text-4xl text-3xl text-departmentheading font-poppins font-bold mr-8 ">
                 {thisdata.Headingm}
-              </h1>
+              </h2>
             </div>
             <div
               className={
