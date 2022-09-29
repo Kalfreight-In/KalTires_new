@@ -24,6 +24,7 @@ const Contactform = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
   const router = useRouter();
+
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];

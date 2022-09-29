@@ -4,6 +4,7 @@ import Head from 'next/head';
 
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 
+import { BreadcrumbJsonLd, CorporateContactJsonLd } from 'next-seo';
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 
 import '../styles/globals.css';
@@ -60,6 +61,66 @@ const MyApp = ({ Component, pageProps }) => {
           __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHKPDRM"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         }}
+      />
+      <BreadcrumbJsonLd
+        itemListElements={[
+          {
+            position: 1,
+            name: 'KVL Tires',
+            item: 'https://kvltires.com/',
+          },
+          {
+            position: 2,
+            name: 'tires services',
+            item: 'https://kvltires.com/tires-services',
+          },
+          {
+            position: 3,
+            name: '24X7 roadside assistance',
+            item: 'https://kvltires.com/24X7-roadside-assistance',
+          },
+          {
+            position: 4,
+            name: 'locations',
+            item: 'https://kvltires.com/locations',
+          },
+          {
+            position: 4,
+            name: 'careers',
+            item: 'https://kvltires.com/careers',
+          },
+          {
+            position: 4,
+            name: 'credit application',
+            item: 'https://kvltires.com/credit-application',
+          },
+        ]}
+      />
+      <CorporateContactJsonLd
+        url="https://kvltires.com/"
+        logo="https://kvltires.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.c226bd2d.png&w=384&q=75"
+        contactPoint={[
+          // {
+          //   telephone: '+1-401-555-1212',
+          //   contactType: 'customer service',
+          //   areaServed: 'US',
+          //   availableLanguage: ['English', 'Spanish', 'French'],
+          // },
+          {
+            telephone: '+1-800-808-002',
+            contactType: 'customer service',
+            contactOption: 'TollFree',
+            availableLanguage: 'en',
+            areaServed: 'US',
+          },
+          // {
+          //   telephone: '+1-877-453-1304',
+          //   contactType: 'technical support',
+          //   contactOption: 'TollFree',
+          //   areaServed: ['US', 'CA'],
+          //   availableLanguage: ['English', 'French'],
+          // },
+        ]}
       />
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
