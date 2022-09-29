@@ -41,7 +41,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <>
-      {/* <Head>
+      <Head>
         <link rel="alternate" hrefLang="en" />
         <script
           strategy="afterInteractive"
@@ -53,14 +53,14 @@ const MyApp = ({ Component, pageProps }) => {
             })(window,document,'script','dataLayer','GTM-PHKPDRM');`,
           }}
         />
-      </Head> */}
+      </Head>
       {/* <body> */}
-      {/* <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHKPDRM"
+      <noscript
+        dangerouslySetInnerHTML={{
+          __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHKPDRM"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        /> */}
+        }}
+      />
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
 
