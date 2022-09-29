@@ -39,10 +39,10 @@ export const Departments = () => (
                               id="headingdepartment"
                               className="flex justify-center"
                             >
-                              <h2 className="text-red font-poppins font-bold absolute -mt-16  text-white lg:text-xl md:text-base">
+                              <h3 className="text-red font-poppins font-bold absolute -mt-16  text-white lg:text-xl md:text-base">
                                 <span>{index.Heading}</span> <br />
                                 <span>{index.Headingtwo}</span>
-                              </h2>
+                              </h3>
                             </div>
                           </div>
                         </div>
