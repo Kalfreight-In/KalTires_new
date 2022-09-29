@@ -196,7 +196,7 @@ export const MapConatiner = () => {
   return (
     <div
       id="mainmapcontainer"
-      className="bg-black flex flex-col-reverse  md:flex-row bg-cover "
+      className="bg-black flex flex-col  md:flex-row bg-cover "
       style={{
         backgroundImage: `${
           isDesktop
