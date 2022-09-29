@@ -57,9 +57,9 @@ export const Services = () => {
               backgroundSize: 'cover',
             }}
           >
-            <h1 className="text-white  text-5xl font-bold font-poppins pb-8">
+            <div className="text-white  text-5xl font-bold font-poppins pb-8">
               Services
-            </h1>
+            </div>
             <div
               id="maingrid "
               className="flex flex-col justify-center items-center"

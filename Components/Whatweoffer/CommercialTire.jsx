@@ -80,9 +80,9 @@ const CommercialTire = () => {
                     </motion.div>
                   </div>
                   <div className="lg:py-2 md:px-10 px-6 lg:px-0 md:max-w-3xl lg:max-w-5xl max-w-sm  mx-auto col-span-2  text-center lg:text-left mt-16  ">
-                    <h2 className="text-white font-poppins text-4xl font-bold">
+                    <h1 className="text-white font-poppins text-4xl font-bold">
                       {alldata.Heading}
-                    </h2>
+                    </h1>
                     <div id="combuttons" className="mt-12">
                       <motion.div
                         whileInView={{ y: [100, 0], opacity: [0.4, 1] }}
