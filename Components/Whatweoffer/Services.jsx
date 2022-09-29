@@ -111,11 +111,11 @@ export const Services = () => {
                         />
                       </div>
                     </div>
-                    <h1
+                    <div
                       className={`lg:text-xl text-lg font-bold font-poppins ${data.paddingX} md:px-0 whitespace-${data.linebrk} h-16`}
                     >
                       {data.heading}
-                    </h1>
+                    </div>
                   </a>
                 ))}
               </div>

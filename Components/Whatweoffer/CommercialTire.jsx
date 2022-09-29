@@ -98,7 +98,7 @@ const CommercialTire = () => {
                             }  transition-all duration-100 delay-75 cursor-pointer  font-poppins focus:text-kaltire-red`}
                             onClick={() => setalldata(CommercialTireone[0])}
                           >
-                            <h1>{alldata.titleone}</h1>
+                            <div>{alldata.titleone}</div>
                           </button>
                         </span>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

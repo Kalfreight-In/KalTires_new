@@ -94,7 +94,9 @@ export const Speciality = () => {
                         <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                       </div>
                       <div id="ScrollIndust">
-                        <h1 className="font-bold font-Helvetica">Toll Free</h1>
+                        <span className="font-bold font-Helvetica">
+                          Toll Free
+                        </span>
                         <p className="font-Helvetica">+1-800-808-0025</p>
                       </div>
                     </div>
@@ -138,7 +140,7 @@ export const Speciality = () => {
                       <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                     </div>
                     <div>
-                      <h1 className="font-bold">Toll Free</h1>
+                      <span className="font-bold">Toll Free</span>
                       <p>+1-800-808-0025</p>
                     </div>
                   </div>
