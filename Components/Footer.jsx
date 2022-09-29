@@ -18,6 +18,7 @@ const Footer = () => {
   const [popup, setPopup] = useState(false);
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
+  const [changeState, setchangeState] = useState(false);
   const { setWWOtires } = useStateContext();
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,7 +26,26 @@ const Footer = () => {
     setPopup(true);
     setEmail('');
   };
+  // console.log(`hashhhhhhhhhhhhhhhhh  ${changeState}`);
+  useEffect(() => {
+    const query = window.location.hash;
+    const target = query.split('#')[1];
+    console.log(`hashhhhhhhhhhhhhhhhh ${query} ${changeState}`);
+    if (window.location.hash) {
+      setTimeout(() => {
+        const element = document.getElementById(target);
+        const headerOffset = 117;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - headerOffset;
 
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }, 1000);
+    }
+  }, []);
   return (
     <div
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
@@ -249,12 +269,15 @@ const Footer = () => {
                       CSR
                     </a>
 
-                    <a
+                    <Link
                       href="/#maincontactform"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover mt-1 xl:text-left text-center cursor-pointer"
+                      onClick={() => {
+                        setchangeState(!changeState);
+                      }}
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
 

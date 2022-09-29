@@ -7,6 +7,7 @@ import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
 import { logo } from '../../Assets/Images/KvlTiresLogo.png';
+import { useStateContext } from '../../context/StateContext';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');

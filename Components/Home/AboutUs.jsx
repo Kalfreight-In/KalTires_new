@@ -14,7 +14,7 @@ export const AboutUs = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
 
   return (
-    <div>
+    <div id="AboutUs_Section">
       <div
         id="specialmaininner"
         style={{
