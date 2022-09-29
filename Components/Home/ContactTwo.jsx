@@ -26,25 +26,26 @@ const Contactform = () => {
   const [buttonText, setButtonText] = useState('Submit');
   const router = useRouter();
 
-  useEffect(() => {
-    const query = window.location.hash;
-    const target = query.split('#')[1];
+  // useEffect(() => {
+  //   const query = window.location.hash;
+  //   const target = query.split('#')[1];
 
-    if (window.location.hash) {
-      setTimeout(() => {
-        const element = document.getElementById(target);
-        const headerOffset = 117;
-        const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition =
-          elementPosition + window.pageYOffset - headerOffset;
+  //   if (window.location.hash) {
+  //     if (window.location.hash) {
+  //       setTimeout(() => {
+  //         const element = document.getElementById(target);
+  //         const headerOffset = 117;
+  //         const elementPosition = element.getBoundingClientRect().top;
+  //         const offsetPosition = elementPosition + window.pageYOffset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth',
-        });
-      }, 1000);
-    }
-  }, []);
+  //         window.scrollTo({
+  //           top: offsetPosition,
+  //           behavior: 'smooth',
+  //         });
+  //       }, 1000);
+  //     }
+  //   }
+  // }, []);
   const resetForm = (e) => {
     setName('');
     setEmail('');
