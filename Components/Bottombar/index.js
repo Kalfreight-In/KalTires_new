@@ -34,20 +34,12 @@ const BottomBar = ({ toggle }) => {
     <Nav scrollNav={scrollNav}>
       <NavMenu>
         <NavItem>
-          <NavLinks
-            to="/About"
-            onClick={toggleHome}
-            className="2xl:text-desc text-black md:text-sm md:text-xs"
-          >
+          <NavLinks className="2xl:text-desc text-black md:text-sm md:text-xs">
             Sitemap
           </NavLinks>
         </NavItem>
         <NavItem>
-          <NavLinks
-            to="/About"
-            onClick={toggleHome}
-            className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
-          >
+          <NavLinks className="2xl:text-desc text-navsmall md:text-sm md:text-xs">
             Terms of Use
           </NavLinks>
         </NavItem>
@@ -84,11 +76,7 @@ const BottomBar = ({ toggle }) => {
             </NavLinks>
           </NavItem> */}
         <NavItem>
-          <NavLinks
-            to="/Contact"
-            onClick={toggleHome}
-            className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
-          >
+          <NavLinks className="2xl:text-desc text-navsmall md:text-sm md:text-xs">
             Privacy Policy
           </NavLinks>
         </NavItem>

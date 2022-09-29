@@ -117,7 +117,7 @@ export const NavItem = styled.li`
     padding-left: 0rem;
   }
 `;
-export const NavLinks = styled.a`
+export const NavLinks = styled.div`
   color: #111111;
   display: flex;
   width: max-content;
@@ -127,7 +127,7 @@ export const NavLinks = styled.a`
   padding: 0 1rem;
   height: 100%;
   // font-size: 1.5rem;
-  cursor: pointer;
+  // cursor: pointer;
   &.active {
     color: #101010;
   }
