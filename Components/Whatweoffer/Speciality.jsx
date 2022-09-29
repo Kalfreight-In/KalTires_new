@@ -43,7 +43,7 @@ export const Speciality = () => {
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={blacktiremobile}
-                  alt="tires"
+                  alt="Speciality Tires for Heavy Duty"
                 />
               </div>
             </div>
@@ -122,7 +122,7 @@ export const Speciality = () => {
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md"
                   src={blacktire}
-                  alt="tires"
+                  alt="Speciality Tires for Heavy Duty"
                 />
               </div>
             </div>
