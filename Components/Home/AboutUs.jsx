@@ -28,9 +28,9 @@ export const AboutUs = () => {
         <div className="">
           <div className="lg:grid lg:grid-cols-10 items-center ">
             <div className="lg:hidden block">
-              <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
+              <div className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
                 ABOUT US
-              </h2>
+              </div>
             </div>
             <div className="lg:hidden block">
               <div className="lg:relative lg:mt-4 self-start ">
@@ -181,9 +181,9 @@ export const AboutUs = () => {
                         <Image src={OTRTires} width={100} height={100} />
                       </div>
 
-                      <div className="text-center font-poppins text-sm">
+                      <h2 className="text-center font-poppins text-sm">
                         OTR Tires <br />
-                      </div>
+                      </h2>
                     </div>
                     <div className="flex flex-col bg-zinc-50 py-4 ">
                       <div className="px-6">
@@ -194,10 +194,10 @@ export const AboutUs = () => {
                         />
                       </div>
 
-                      <div className="text-center font-poppins text-sm">
+                      <h2 className="text-center font-poppins text-sm">
                         Agricultural <br />
                         Tires
-                      </div>
+                      </h2>
                     </div>
                   </div>
                 </div>

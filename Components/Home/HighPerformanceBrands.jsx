@@ -44,14 +44,14 @@ const HighPerformanceBrands = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');
   return (
     <div className="2xl:px-20  md:px-20 px-4 py-12 flex flex-col flexcenter">
-      <h2
+      <h3
         className={` font-bold  text-center pb-8 ${
           isDesktop ? 'text-4xl' : 'text-2xl text-center'
         } `}
       >
         <span className="text-red-500 font-poppins">HIGH PERFORMANCE</span>{' '}
         BRANDS
-      </h2>
+      </h3>
       <div>
         <Swiper
           modules={[Autoplay]}

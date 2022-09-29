@@ -31,9 +31,9 @@ export const Speciality = () => {
                 <span className="block">
                   <span className=" px-4 font-poppins ">
                     {' '}
-                    <span className="border-b-2 border-red-600 py-2">
+                    <h2 className="border-b-2 border-red-600 py-2">
                       Specialty Tires
-                    </span>{' '}
+                    </h2>{' '}
                   </span>
                 </span>
               </h2>
