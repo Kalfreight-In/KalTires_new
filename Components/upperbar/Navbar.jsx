@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { Link as SLink } from 'react-scroll';
 import { FaBars } from 'react-icons/fa';
 import { useEffect, useRef } from 'react';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 // import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 export const MobileIcon = styled.div`
   display: none;
@@ -27,13 +28,18 @@ export const MobileIcon = styled.div`
 `;
 const Navbar = ({ toggle }) => {
   const AboutusRef = useRef();
+  const isDesktop = useMediaQuery('(min-width:1148px)');
   const router = useRouter();
   useEffect(() => {
     if (router.pathname === '/#AboutUs_Section') {
     }
   }, [AboutusRef]);
   return (
-    <nav className="bg-white sticky top-navbargap z-10 shadow-xl -mt-6">
+    <nav
+      className={`bg-white sticky top-navbargap z-10 shadow-xl ${
+        isDesktop ? '-mt-6' : ''
+      } `}
+    >
       <div className="flexBetween z-10 mx-12  flex-row">
         <div className="ml-8 hidden flex-row justify-start items-center cursor-pointer lg:flex">
           <Link href="/">

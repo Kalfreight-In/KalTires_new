@@ -73,6 +73,11 @@ const Contactform = () => {
         [setSuccess(true), resetForm()];
         console.log('Message not sent');
       });
+    console.log(`sucesss ${success}`);
+    setInterval(() => {
+      setSuccess(false);
+      console.log(`sucesss ${success}`);
+    }, 9000);
   };
 
   // useEffect(() => {
@@ -145,7 +150,7 @@ const Contactform = () => {
                     repeat: Infinity,
                   }}
                 >
-                  Back To site
+                  Make a new request
                 </div>
               </div>
             </div>
