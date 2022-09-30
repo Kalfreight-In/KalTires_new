@@ -195,13 +195,13 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <Link href="/tires-services#InnerphoneEmailRoad " passHref>
+                    <a href="/tires-services#InnerphoneEmailRoad " passHref>
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                       href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
                       passHref
@@ -209,8 +209,8 @@ const Footer = () => {
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Industrial Tires
                       </span>
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                       href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
                       passHref
@@ -218,7 +218,7 @@ const Footer = () => {
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Agricultural Tires
                       </span>
-                    </Link>
+                    </a>
                     <Link
                       href="/tires-services#tire"
                       // target="_blank"
