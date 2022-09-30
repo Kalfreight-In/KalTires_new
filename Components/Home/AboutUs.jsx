@@ -202,10 +202,7 @@ export const AboutUs = () => {
                   </div>
                 </div>
 
-                <div
-                  id="InnerphoneEmailRoad"
-                  className="flex  mt-8 justify-center md:justify-start"
-                >
+                <div className="flex  mt-8 justify-center md:justify-start">
                   <a href="tel:8008080025">
                     <div className="flex lg:justify-start justify-center lg:pb-4 pb-4  ">
                       <div

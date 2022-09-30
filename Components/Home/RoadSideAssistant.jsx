@@ -68,10 +68,7 @@ const RoadSideAssistant = () => {
                 ready to help in times of need!
               </p>
               <div className="block pt-4 " id="PhoneEmailRoad" />
-              <div
-                id="InnerphoneEmailRoad"
-                className="md:flex hidden mt-8 justify-center lg:justify-start"
-              >
+              <div className="md:flex hidden mt-8 justify-center lg:justify-start">
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                   <a href="tel:8008080025">
                     <div
@@ -87,10 +84,7 @@ const RoadSideAssistant = () => {
                 </div>
               </div>
             </div>
-            <div
-              id="InnerphoneEmailRoad"
-              className="md:hidden flex mt-8 justify-center lg:justify-start"
-            >
+            <div className="md:hidden flex mt-8 justify-center lg:justify-start">
               <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                 <a href="tel:8008080025">
                   <div
