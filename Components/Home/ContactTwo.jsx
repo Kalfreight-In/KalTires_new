@@ -50,7 +50,8 @@ const Contactform = () => {
     setName('');
     setEmail('');
     setMessage('');
-    setphoneno('');
+    setPhone('');
+    setZip('');
     setError(false);
     setErrorMessage('');
     setButtonText('Submit');
