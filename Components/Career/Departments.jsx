@@ -67,7 +67,7 @@ export const Departments = () => (
                     spaceBetween={0}
                     centeredSlides
                     autoplay={{
-                      delay: 1000,
+                      delay: 1600,
                       disableOnInteraction: false,
                     }}
                     modules={[Autoplay, Pagination, Navigation]}
