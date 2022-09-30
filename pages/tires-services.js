@@ -17,7 +17,7 @@ const data = [
     CTA1: {
       heading: 'Contact Us',
       Slink: '/#maincontactform',
-      link: '/#maincontactform',
+      link: '/#CanadaContact',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
     page: 'tire',
