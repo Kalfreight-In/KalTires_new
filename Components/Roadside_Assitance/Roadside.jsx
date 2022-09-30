@@ -93,7 +93,7 @@ const Roadside = () => {
               </div> */}
                 {/* The Phone and Email icons start  */}
                 <div className="block pt-4" id="PhoneEmailRoad" />
-                <div id="InnerphoneEmailRoad" className="flex">
+                <div className="flex">
                   <div id="Hotline" className="flex items-center">
                     <div id="Hotline-first" className=" mr-2">
                       <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
