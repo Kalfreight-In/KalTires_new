@@ -39,10 +39,10 @@ const HomeSlider = () => {
         pagination={pagination}
         className="mySwiper"
         speed={1400}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
       >
         {HomeSliderData.map((data) => (
           <SwiperSlide key={data.id}>
