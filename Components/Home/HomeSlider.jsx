@@ -42,6 +42,8 @@ const HomeSlider = () => {
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
+          longSwipes: true,
+          pauseOnMouseEnter: true,
         }}
       >
         {HomeSliderData.map((data) => (
