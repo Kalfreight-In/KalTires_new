@@ -37,7 +37,7 @@ export const PerkBenifits = () => {
                   <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8 text-black">
                     {index.Heading}
                   </h3>
-                  <p className="pt-16 pb-8 lg:text-sm font-normal  text-left px-4 font-Helvetica text-neutral-500">
+                  <p className="pt-16 pb-8 lg:text-sm font-normal  text-justify tracking-tight whitespace-normal px-4 font-Helvetica text-neutral-500">
                     {index.desc}
                   </p>
                 </div>
@@ -89,7 +89,7 @@ export const PerkBenifits = () => {
                         </h4>
                         <p
                           // className="pt-16 pt pb-8 lg:text-sm font-normal pl-8 text-left h-48 font-Helvetica text-neutral-500"
-                          className="pt-12 pt pb-8 lg:text-sm font-normal pl-8 text-left h-36 font-Helvetica text-neutral-500"
+                          className="pt-12 pt pb-8 lg:text-sm font-normal pl-8 text-justify tracking-tight whitespace-normal h-36 font-Helvetica text-neutral-500"
                         >
                           {data.desc}
                         </p>
