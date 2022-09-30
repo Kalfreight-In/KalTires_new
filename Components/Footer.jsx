@@ -18,7 +18,7 @@ const Footer = () => {
   const [popup, setPopup] = useState(false);
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
-  const [changeState, setchangeState] = useState(false);
+  const [changeState, setchangeState] = useState(true);
   const { setWWOtires } = useStateContext();
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,12 +26,18 @@ const Footer = () => {
     setPopup(true);
     setEmail('');
   };
-  // console.log(`hashhhhhhhhhhhhhhhhh  ${changeState}`);
+  console.log(`hashhhhhhhhhhhhhhhhh OUTSIDE................... ${changeState}`);
+
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];
-
+    console.log(
+      `set hash ................... outside if ${window.location.hash} ${changeState}`
+    );
     if (window.location.hash) {
+      console.log(
+        `set hash ................... ${window.location.hash} ${changeState}`
+      );
       if (target === 'maincontactform' || target === 'onsiteid') {
         setTimeout(() => {
           const element = document.getElementById(target);
@@ -271,15 +277,14 @@ const Footer = () => {
                       CSR
                     </a>
 
-                    <a
-                      href="/#maincontactform"
+                    <div
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover mt-1 xl:text-left text-center cursor-pointer"
                       onClick={() => {
                         setchangeState(!changeState);
                       }}
                     >
-                      Contact Us
-                    </a>
+                      <Link href="/#maincontactform">Contact Us</Link>
+                    </div>
                   </div>
                 </div>
 
