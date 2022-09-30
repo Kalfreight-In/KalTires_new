@@ -216,9 +216,9 @@ export const AboutUs = () => {
                           <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                         </div>
                         <div id="Hotline-second">
-                          <h2 className="font-bold text-left font-poppins">
+                          <div className="font-bold text-left font-poppins">
                             Toll Free
-                          </h2>
+                          </div>
                           <p>+1-800-808-0025</p>
                         </div>
                       </div>
