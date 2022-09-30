@@ -43,7 +43,11 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <link rel="alternate" hrefLang="en-us" />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://kvltires.vercel.app/"
+        />
         <script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
