@@ -65,13 +65,18 @@ export const Departments = () => (
                 <div>
                   <Swiper
                     spaceBetween={0}
-                    centeredSlides
+                    slidesPerGroup={1}
+                    auto
+                    // preventInteractionOnTransition
+                    preloadImages
+                    // touchMoveStopPropagation
+                    speed={1200}
                     autoplay={{
-                      delay: 1000,
+                      delay: 1300,
                       disableOnInteraction: false,
                     }}
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
+                    // navigation
+                    modules={[Pagination, Navigation, Autoplay]}
                   >
                     {Departmentsdata.map((data) => (
                       <SwiperSlide key={data.id}>
