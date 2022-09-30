@@ -626,37 +626,36 @@ const Footer = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
-                    <div className="mt-1">
-                      <a
-                        href="tel:+1-800-808-0025"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {/* <img
+                </div>
+                <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
+                  <div className="mt-1">
+                    <a
+                      href="tel:+1-800-808-0025"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {/* <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
                           className="text-white h-4 w-4"
                           width={50}
                         /> */}
-                        <MdLocationPin className=" h-6 w-5 " />
-                      </a>
-                    </div>
-                    <div className="block  text-center">
-                      <a
-                        href="https://www.google.co.in/maps/place/10156+Live+Oak+Ave,+Fontana,+CA+92335,+USA/@34.0687994,-117.4834404,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fc6e50489:0xde8aefe027f7319!8m2!3d34.068795!4d-117.4812517"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {' '}
-                        <div className="md:text-2xl text-lg font-semibold w-64">
-                          10156 Live Oak Ave Fontana, CA 92335
-                        </div>{' '}
-                      </a>
-                    </div>
+                      <MdLocationPin className=" h-6 w-5 " />
+                    </a>
+                  </div>
+                  <div className="block  text-center">
+                    <a
+                      href="https://www.google.co.in/maps/place/10156+Live+Oak+Ave,+Fontana,+CA+92335,+USA/@34.0687994,-117.4834404,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fc6e50489:0xde8aefe027f7319!8m2!3d34.068795!4d-117.4812517"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {' '}
+                      <div className="md:text-2xl text-lg font-semibold ">
+                        10156 Live Oak Ave Fontana, CA 92335
+                      </div>{' '}
+                    </a>
                   </div>
                 </div>
-
                 <div className="text-white flex  xl:mb-2  mb-8 pt-5">
                   <div className="xl:ml-4 ml-0">
                     <div className="w-full  md:ml-0 xl:ml-12 ml:-0 ">
