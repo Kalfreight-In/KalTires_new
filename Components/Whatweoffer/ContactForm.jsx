@@ -27,6 +27,7 @@ const Contactform = () => {
     setMessage('');
     setphoneno('');
     setError(false);
+    setservice('');
     setErrorMessage('');
     setButtonText('Submit');
   };
@@ -51,6 +52,10 @@ const Contactform = () => {
         [setSuccess(true), resetForm()];
         console.log('Message not sent');
       });
+    setInterval(() => {
+      setSuccess(false);
+      console.log(`sucesss ${success}`);
+    }, 5000);
   };
 
   // useEffect(() => {
