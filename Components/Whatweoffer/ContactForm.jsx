@@ -52,10 +52,10 @@ const Contactform = () => {
         [setSuccess(true), resetForm()];
         console.log('Message not sent');
       });
-    // setInterval(() => {
-    //   setSuccess(false);
-    //   console.log(`sucesss ${success}`);
-    // }, 8000);
+    setInterval(() => {
+      setSuccess(false);
+      console.log(`sucesss ${success}`);
+    }, 8000);
   };
 
   // useEffect(() => {
@@ -74,7 +74,8 @@ const Contactform = () => {
     <div id="maincontactformnew" className="justify-between lg:flex">
       <div
         id="shadowtwo"
-        className="md:p-0 p-4 bg-red-600 flex justify-center items-center"
+        // className="md:p-0 p-4 bg-red-600 flex justify-center items-center"
+        className="md:p-0 p-4 bg-red-600 2xl:w-1/2 xl:w-9/12 flex justify-center items-center"
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
