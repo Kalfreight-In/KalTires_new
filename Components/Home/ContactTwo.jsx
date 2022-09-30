@@ -78,10 +78,10 @@ const Contactform = () => {
         console.log('Message not sent');
       });
     console.log(`sucesss ${success}`);
-    // setInterval(() => {
-    //   setSuccess(false);
-    //   console.log(`sucesss ${success}`);
-    // }, 5000);
+    setInterval(() => {
+      setSuccess(false);
+      console.log(`sucesss ${success}`);
+    }, 5000);
   };
 
   // useEffect(() => {
