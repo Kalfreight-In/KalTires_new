@@ -52,14 +52,10 @@ const Contactform = () => {
         [setSuccess(true), resetForm()];
         console.log('Message not sent');
       });
-    // setInterval(() => {
-    //   setSuccess(false);
-    //   console.log(`sucesss ${success}`);
-<<<<<<< HEAD
-    // }, 5000);
-=======
-    // }, 8000);
->>>>>>> c5a94584c9f7eb7005d8452229d96b3363419e43
+    setInterval(() => {
+      setSuccess(false);
+      console.log(`sucesss ${success}`);
+    }, 8000);
   };
 
   // useEffect(() => {
