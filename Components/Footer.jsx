@@ -32,7 +32,7 @@ const Footer = () => {
     const target = query.split('#')[1];
 
     if (window.location.hash) {
-      if (target === 'maincontactform') {
+      if (target === 'maincontactform' || target === 'onsiteid') {
         setTimeout(() => {
           const element = document.getElementById(target);
           const headerOffset = 117;
@@ -44,7 +44,7 @@ const Footer = () => {
             top: offsetPosition,
             behavior: 'smooth',
           });
-        }, 1000);
+        }, 200);
       }
     }
   }, [changeState]);
@@ -392,12 +392,15 @@ const Footer = () => {
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
-                          <Link
+                          <a
                             href="/24X7-roadside-assistance#onsiteid"
                             scroll={false}
+                            // onClick={() => {
+                            //   setchangeState(!changeState);
+                            // }}
                           >
                             On-Site Services
-                          </Link>
+                          </a>
                         </span>
                       </div>
                     </div>

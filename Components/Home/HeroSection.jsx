@@ -87,7 +87,7 @@ const HeroSection = ({ data }) => {
 
               {data.CTA1 ? (
                 <div className="lg:mt-10 mt-16 text-lg flex justify-center lg:justify-start ">
-                  <Link
+                  <a
                     href={isDesktop ? data.CTA1.Slink : data.CTA1.link}
                     className="flex flex-row justify-center lg:justify-start"
                     passHref
@@ -108,7 +108,7 @@ const HeroSection = ({ data }) => {
                     >
                       <p>{data.CTA1.heading}</p>
                     </motion.button>
-                  </Link>
+                  </a>
                 </div>
               ) : null}
             </div>

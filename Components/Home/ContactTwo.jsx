@@ -80,7 +80,7 @@ const Contactform = () => {
     setInterval(() => {
       setSuccess(false);
       console.log(`sucesss ${success}`);
-    }, 9000);
+    }, 5000);
   };
 
   // useEffect(() => {
