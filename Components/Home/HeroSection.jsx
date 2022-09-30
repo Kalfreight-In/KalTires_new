@@ -92,22 +92,14 @@ const HeroSection = ({ data }) => {
                     className="flex flex-row justify-center lg:justify-start"
                     passHref
                   >
-                    {/* <button
-                  type="button"
-                  className="text-white bg-red-500  font-semibold   shadow-sm  shadow-yellow-shadow transition-all hover:drop-shadow-lg  hover:shadow-2xl hover:bg-red-700 flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
-                >
-                  <p>{data.CTA1.heading}</p>
-                </button> */}
-
-                    <motion.button
+                    <motion.div
                       id={data?.page}
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
-                      type="button"
                       className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
                     >
                       <p>{data.CTA1.heading}</p>
-                    </motion.button>
+                    </motion.div>
                   </a>
                 </div>
               ) : null}
