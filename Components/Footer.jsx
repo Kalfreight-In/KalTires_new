@@ -50,7 +50,7 @@ const Footer = () => {
             top: offsetPosition,
             behavior: 'smooth',
           });
-        }, 200);
+        }, 1300);
       }
     }
   }, [changeState]);
