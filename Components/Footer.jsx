@@ -283,7 +283,7 @@ const Footer = () => {
                         setchangeState(!changeState);
                       }}
                     >
-                      <Link href="/#maincontactform">Contact Us</Link>
+                      <a href="/#maincontactform">Contact Us</a>
                     </div>
                   </div>
                 </div>
