@@ -67,19 +67,21 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="p-8  md:p-0 xl:block flex justify-center ">
-        <img
-          src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
-          alt="logo"
-          className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
-        />
+      <div className="p-8  md:p-0 xl:block flex justify-center cursor-pointer">
+        <Link href="/">
+          <img
+            src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
+            alt="logo"
+            className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
+          />
+        </Link>
       </div>
       <div className="flex md:flex-row flex-col-reverse md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
-              <div className="xl:ml-20 w-max justify- start ml-4 xl:mt-0">
-                <div>
+              <div className="xl:ml-20 w-max justify- start ml-4 xl:mt-0 cursor-pointe">
+                <Link href="/">
                   <img
                     src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
@@ -87,7 +89,7 @@ const Footer = () => {
                     to="mailto:info@kvltires.com"
                     height={70}
                   />
-                </div>
+                </Link>
 
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">
                   <div className="mt-11">
@@ -572,14 +574,14 @@ const Footer = () => {
             </div>
             <div className="footer-info xl:w-1/3 md:px-4 xl:hidden flex items-center justify-center mt-4">
               <div className="xl:ml-16 w-max justify-center items-center  flex flex-col ml-4 xl:mt-0">
-                <div>
+                {/* <div>
                   <img
                     src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 xl:block hidden"
                     to="mailto:info@kvltires.com"
                   />
-                </div>
+                </div> */}
                 <div className="md:flex block md:flex-row gap-x-8">
                   <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
                     <div className="mt-0">
@@ -595,7 +597,7 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
+                  <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0">
                     <div className="mt-1">
                       <a
                         href="tel:+1-800-808-0025"
@@ -611,7 +613,7 @@ const Footer = () => {
                         <MdPhone className="h-6 w-5" />
                       </a>
                     </div>
-                    <div className="ml-4">
+                    <div className="block xl:ml-3 ml-2 text-center">
                       <a
                         href="tel:+1-800-808-0025"
                         target="_blank"
@@ -624,15 +626,45 @@ const Footer = () => {
                       </a>
                     </div>
                   </div>
+                  <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
+                    <div className="mt-1">
+                      <a
+                        href="tel:+1-800-808-0025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {/* <img
+                          src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
+                          alt=""
+                          className="text-white h-4 w-4"
+                          width={50}
+                        /> */}
+                        <MdLocationPin className=" h-6 w-5 " />
+                      </a>
+                    </div>
+                    <div className="ml-4">
+                      <a
+                        href="https://www.google.co.in/maps/place/10156+Live+Oak+Ave,+Fontana,+CA+92335,+USA/@34.0687994,-117.4834404,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fc6e50489:0xde8aefe027f7319!8m2!3d34.068795!4d-117.4812517"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {' '}
+                        <div className="md:text-2xl text-lg font-semibold w-56">
+                          10156 Live Oak Ave Fontana, CA 92335
+                        </div>{' '}
+                      </a>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="text-white flex mb-8 xl:mb-2  pt-5">
+                <div className="text-white flex  xl:mb-2  mb-8 pt-5">
                   <div className="xl:ml-4 ml-0">
                     <div className="w-full  md:ml-0 xl:ml-12 ml:-0 ">
                       English, ਪੰਜਾਬੀ, Español, हिन्दी, Français
                     </div>
                   </div>
                 </div>
+
                 <div>
                   <div
                     className="text-white cursor-pointer"
