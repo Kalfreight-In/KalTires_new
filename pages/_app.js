@@ -43,7 +43,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <link rel="alternate" hrefLang="en" />
+        <link rel="alternate" hrefLang="en-us" />
         <script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
