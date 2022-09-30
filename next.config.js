@@ -22,6 +22,9 @@ const nextConfig = {
   env: {
     REACT_APP_GOOGLE_APIKEY: 'AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk',
   },
+  experimental: {
+    nextScriptWorkers: true,
+  },
 };
 
 module.exports = nextConfig;

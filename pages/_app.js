@@ -3,8 +3,9 @@ import React, { useRef, useState } from 'react';
 import Head from 'next/head';
 
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
-
+import { Partytown } from '@builder.io/partytown/react';
 import { BreadcrumbJsonLd, CorporateContactJsonLd } from 'next-seo';
+import Script from 'next/script';
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 
 import '../styles/globals.css';
@@ -48,7 +49,26 @@ const MyApp = ({ Component, pageProps }) => {
           hrefLang="en"
           href="https://kvltires.vercel.app/"
         />
-        <script
+        <Partytown debug forward={['dataLayer.push']} />
+        <Script
+          strategy="worker"
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-PHKPDRM"
+        />
+        <Script
+          type="text/partytown"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'GTM-PHKPDRM', { 
+                page_path: window.location.pathname,
+            });
+        `,
+          }}
+        />
+        {/* <script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -57,7 +77,7 @@ const MyApp = ({ Component, pageProps }) => {
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-PHKPDRM');`,
           }}
-        />
+        /> */}
       </Head>
       {/* <body> */}
       <noscript
