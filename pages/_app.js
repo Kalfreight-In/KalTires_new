@@ -150,7 +150,7 @@ const MyApp = ({ Component, pageProps }) => {
         {isDesktop ? <TopUpbar /> : null}
 
         <ErrorBoundary>
-          <Sidebar isOpen={isOpen} toggle={toggle} />
+          {!isDesktop ? <Sidebar isOpen={isOpen} toggle={toggle} /> : null}
         </ErrorBoundary>
 
         <Topbar toggle={toggle} postion={PcurrPos} />

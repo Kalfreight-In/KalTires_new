@@ -6,21 +6,21 @@ import Link from 'next/link';
 export const SlidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
-  width:20rem;
+  width: 20rem;
   height: 100%;
   background: #282828;
   display: flex;
   overflow-y: auto;
   flex-direction: column;
   align-items: right;
-  justify-content:space-between;
+  justify-content: space-between;
   top: 0;
   right: 0;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-
-
+  @media screen and (min-width: 1148px) {
+    display: none;
   }
 `;
 export const CloseIcon = styled(FaTimes)`

@@ -67,12 +67,12 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="p-8  md:p-0 xl:block flex justify-center cursor-pointer">
+      <div className="p-8  md:p-0 xl:block flex justify-center ">
         <Link href="/">
           <img
             src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
             alt="logo"
-            className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
+            className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4 cursor-pointer"
           />
         </Link>
       </div>
@@ -80,12 +80,12 @@ const Footer = () => {
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
-              <div className="xl:ml-20 w-max justify- start ml-4 xl:mt-0 cursor-pointe">
+              <div className="xl:ml-20 w-max justify- start ml-4 xl:mt-0 ">
                 <Link href="/">
                   <img
                     src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
-                    className="2xl:h-20 xl:h-16 h-20 md:block hidden"
+                    className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer"
                     to="mailto:info@kvltires.com"
                     height={70}
                   />
