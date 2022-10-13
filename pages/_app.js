@@ -156,7 +156,7 @@ const MyApp = ({ Component, pageProps }) => {
         <Topbar toggle={toggle} postion={PcurrPos} />
         <ErrorBoundary>
           {' '}
-          <Navbar toggle={toggle} />
+          <Navbar toggle={toggle} postion={PcurrPos} />
         </ErrorBoundary>
 
         <Component {...pageProps} />

@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import Router from 'next/router';
 import { AiOutlineClose } from 'react-icons/ai';
 import DropBox from '../DropBox_FileUpload/DropBox';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
+import Portal from '../../HOC/Portal';
+import Resume from '../../pages/resume';
 
 export const SubResume = () => {
   const [Popup, setPopup] = useState(false);
@@ -21,23 +24,21 @@ export const SubResume = () => {
 
           <div id="mainuploadbutton" className="flex justify-center pt-4">
             <div className="overflow-hidden relative w-64 mt-2 mb-4">
-              <a
-                href="/resume"
+              <div
                 className="bg-kaltire-red hover:bg-blue-light text-white font-bold py-2 w-full inline-flex justify-center items-center rounded-md"
                 type="button"
-                target="_blank"
-                // onClick={() => {
-                //   setPopup(!Popup);
-                // }}
+                onClick={() => {
+                  setPopup(!Popup);
+                }}
               >
                 <span className=" text-xl text-center font-poppins">
                   Apply Now
                 </span>
                 <input className="cursor-pointer absolute block py-2 px-4 w-full opacity-0 pin-r pin-t text-black" />
-              </a>
+              </div>
             </div>
           </div>
-          {Popup ? (
+          {/* {Popup ? (
             <div className="fixed  bottom-20 left-1/3 z-30 overflow-hidden  mx-auto p-3 border w-96 shadow-lg rounded-md bg-white">
               <div className="sticky top-0 left-0 right-0">
                 <AiOutlineClose
@@ -46,10 +47,10 @@ export const SubResume = () => {
                     setPopup(!Popup);
                   }}
                 />
-                {/* <DropBox className=" absolute" /> */}
+                <DropBox className=" absolute" />
               </div>
             </div>
-          ) : null}
+          ) : null} */}
 
           <div
             id="lastresumecontent"
@@ -65,6 +66,24 @@ export const SubResume = () => {
               </a>
             </p>
           </div>
+          {Popup ? (
+            <div className="fixed xl:top-10 top-0 h-4/6 xl:h-4/6 bottom-20 xl:left-1/4 z-30  xl:w-1/2 w-full drop-shadow-xl ">
+              <AiOutlineClose
+                className="cursor-pointer text-right right-0 absolute text-3xl text-red-500 font-bold animate-pulse"
+                width={40}
+                onClick={() => {
+                  setPopup(!Popup);
+                  Router.reload(window.location.pathname);
+                }}
+              />
+              <div id="myportal" />
+              <Portal>
+                <Resume />
+              </Portal>
+            </div>
+          ) : null}
+
+          {/* <iframe title="My Daily Marathon Tracker" src="/resume" /> */}
         </div>
       </div>
     </div>

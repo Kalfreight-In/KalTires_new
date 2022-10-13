@@ -173,9 +173,9 @@ const Contactform = () => {
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               /> */}
                   <div>
-                    <h2 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
+                    <h3 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       CONTACT US
-                    </h2>
+                    </h3>
                     <p className="text-white pt-4  text-left lg:pr-0 md:mr-16 mr-4 font-Helvetica">
                       Let’s grow your business together. Please provide your
                       details, and a KVL Tires expert will get in touch with you

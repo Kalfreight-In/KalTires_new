@@ -33,7 +33,7 @@ const HeroSection = ({ data }) => {
             <div className=" sm:block " />
 
             <div
-              className={` ml-0 ${
+              className={`overflow-hidden ml-0 ${
                 data.Heading.length > 12
                   ? data.Heading === 'Off-The-Road Tires'
                     ? 'w-full'
