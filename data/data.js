@@ -49,6 +49,7 @@ import eights from '../Assets/Images/Whatweoffer/services/eight.png';
 // import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
 // import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
 // import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/Continental.png';
+
 import ameristeel_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/AMERISTEEL1.png';
 import Apollo_Tyres_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/APOLLO1.png';
 import BKT_Logo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/BKT1.png';

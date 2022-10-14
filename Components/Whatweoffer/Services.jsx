@@ -97,12 +97,12 @@ export const Services = () => {
               >
                 {Servicesdata.map((data) => (
                   <a
-                    className="bg-kaltire-red   text-center text-white  border-white hover:border hover:-m-0.5  cursor-pointer "
+                    className="bg-kaltire-red   text-center text-white  border-white hover:border hover:-m-0.5  cursor-pointer pt-4 "
                     key={data.id}
                     href="tel:800-808-0025"
                   >
                     <div className="flex justify-center">
-                      <div className="w-onsiteimage h-onsiteimage pt-4">
+                      <div className="w-onsiteimage h-onsiteimage pt-4 ">
                         <Image
                           src={data.img}
                           alt={data.AltTag}
