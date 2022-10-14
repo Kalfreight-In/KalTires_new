@@ -62,7 +62,7 @@ module.exports = {
         357: '357px',
         557: '557px',
         InputPrac: '78%',
-        onsiteimage: '155px',
+        onsiteimage: '125px',
         perkimagewidth: '6.75rem',
         contactwidthmobile: '22rem',
         locationsection: '25rem',
@@ -95,7 +95,7 @@ module.exports = {
         mapheightMob: '800px',
         Onsiteheight: '95vh',
         onsitegridheight: '75vh',
-        onsiteimage: '170px',
+        onsiteimage: '140px',
         perkimageheight: '7.5rem',
         contactheighttab: '6rem',
         contactheightmobile: '4.5rem',
@@ -106,6 +106,7 @@ module.exports = {
         navsmall: '14px',
         navsmallne: '10px;',
         descnew: '1rem',
+        highheight: '42 rem',
       },
 
       inset: {
