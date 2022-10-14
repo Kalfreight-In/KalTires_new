@@ -66,7 +66,6 @@ export const Departments = () => (
                   <Swiper
                     spaceBetween={0}
                     slidesPerGroup={1}
-                    auto
                     // preventInteractionOnTransition
                     preloadImages
                     // touchMoveStopPropagation

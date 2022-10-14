@@ -31,6 +31,7 @@ const RoadSideAssistant = () => {
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={RoadSideAss}
+                  priority
                   alt="tires"
                 />
               </div>
@@ -42,6 +43,7 @@ const RoadSideAssistant = () => {
                   className="  "
                   src={RoadSideAss}
                   alt="tires"
+                  priority
                   layout="responsive"
                 />
               </div>

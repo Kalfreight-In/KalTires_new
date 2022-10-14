@@ -21,7 +21,7 @@ const career = () => (
     <Ykvl />
     <Departments />
     <PerkBenifits />
-    <SubResume />
+    {/* <SubResume /> */}
   </div>
 );
 

@@ -23,22 +23,22 @@ export const PerkBenifits = () => {
               id="Perkgrid"
               className="grid gap-4    bg-bg-white-1   grid-cols-PerkTemplate  pt-12 xl:pl-20 lg:pl-16 pl-20 pr-20  "
             >
-              {PerkBenifitsdata.map((index) => (
+              {PerkBenifitsdata.map((data) => (
                 <div
                   className="bg-bg-white-1 text-center border border-perkbenefitsborder "
-                  key={index.id}
+                  key={data.id}
                 >
                   <div className="flex justify-start  pt-12 h-perkimageheight w-perkimagewidth px-4">
                     <div className="flex ">
-                      <Image src={index.img} alt={index.Heading} />
+                      <Image src={data.img} alt={data.Heading} />
                     </div>
                   </div>
 
                   <h3 className="lg:text-xl text-lg font-bold font-poppins text-left px-4   pt-8 h-8 text-black">
-                    {index.Heading}
+                    {data.Heading}
                   </h3>
                   <p className="pt-16 pb-8 lg:text-sm font-normal  text-justify whitespace-normal px-4 font-Helvetica text-neutral-500">
-                    {index.desc}
+                    {data.desc}
                   </p>
                 </div>
               ))}
@@ -57,7 +57,6 @@ export const PerkBenifits = () => {
                 slidesPerView={isMobile ? 1 : 2}
                 spaceBetween={30}
                 slidesPerGroup={1}
-                auto
                 // preventInteractionOnTransition
                 preloadImages
                 // touchMoveStopPropagation
@@ -74,11 +73,8 @@ export const PerkBenifits = () => {
                   className="grid gap-4  grid-cols-PerkTemplate pt-20 bg-bg-white-1  px-4"
                 >
                   {PerkBenifitsdata.map((data) => (
-                    <SwiperSlide key={data}>
-                      <div
-                        className="bg-bg-white-1 text-center border border-perkbenefitsborder "
-                        key={data.id}
-                      >
+                    <SwiperSlide key={data.id}>
+                      <div className="bg-bg-white-1 text-center border border-perkbenefitsborder ">
                         <div className="flex justify-start pl-8 pt-12 h-perkimageheight w-perkimagewidth">
                           <div className="flex ">
                             <Image src={data.img} alt={data.Heading} />

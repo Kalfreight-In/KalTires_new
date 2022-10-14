@@ -59,13 +59,13 @@ const userIcon = new Icon({
 const LeafMap = ({ Data, Data2, SData, location }) => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   const { typeAddress, Currentlatlong } = useStateContext();
-  console.log(
-    `changes in location inside the fetch from the context api${
-      Currentlatlong
-        ? [Currentlatlong.latitude, Currentlatlong.longitude]
-        : null
-    }`
-  );
+  // console.log(
+  //   `changes in location inside the fetch from the context api${
+  //     Currentlatlong
+  //       ? [Currentlatlong.latitude, Currentlatlong.longitude]
+  //       : null
+  //   }`
+  // );
   const mapRef = React.useRef(null);
   const [maps, setMaps] = useState(null);
 
@@ -76,8 +76,8 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
   const Polylines = [];
   const DataS = [...Data, ...Data2];
   const [officeListss, setofficeListss] = useState(DataS);
-  console.log(`..........${officeListss[0]}`);
-  console.log(`...........${location}`);
+  // console.log(`..........${officeListss[0]}`);
+  // console.log(`...........${location}`);
   // function handleOnSerchResults(data) {
   //   console.log('serch Results', data);
   // }
@@ -100,7 +100,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
       }, 1000);
     }
 
-    console.log(`from inside the laef an  d using context ${typeAddress}`);
+    // console.log(`from inside the laef an  d using context ${typeAddress}`);
     if (typeAddress) {
       nearestlocationData = NearestLocation(typeAddress);
       console.log(`lol location${nearestlocationData.geometry.coordinates}`);
@@ -118,7 +118,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     // control.addTo(MapContainer);
     // control.on('results', handleOnSerchResults);
 
-    console.log(`...........${maps}`);
+    // console.log(`...........${maps}`);
     // if(office){
     //   Data.filter
     // }
@@ -359,7 +359,6 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                         scrollToTargetAdjusted(office.properties.ZipCode);
                       }}
                       // href={`/locations#${office.properties.ZipCode}`}
-                      passHref
                     >
                       See More
                     </div>

@@ -7,7 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
-import { Axios } from 'axios';
+import axios from 'axios';
 import { useStateContext } from '../context/StateContext';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 
@@ -28,7 +28,8 @@ const Footer = () => {
 
       //   location,
     };
-    Axios.post('https://nodeserver-contactus.herokuapp.com/api/v2', data)
+    axios
+      .post('http://localhost:5000/api/subscribe', data)
       .then(() => setPopup(true))
       .catch(() => {
         console.log('Message not sent');
@@ -36,18 +37,18 @@ const Footer = () => {
 
     setEmail('');
   };
-  console.log(`hashhhhhhhhhhhhhhhhh OUTSIDE................... ${changeState}`);
+  // console.log(`hashhhhhhhhhhhhhhhhh OUTSIDE................... ${changeState}`);
 
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];
-    console.log(
-      `set hash ................... outside if ${window.location.hash} ${changeState}`
-    );
+    // console.log(
+    //   `set hash ................... outside if ${window.location.hash} ${changeState}`
+    // );
     if (window.location.hash) {
-      console.log(
-        `set hash ................... ${window.location.hash} ${changeState}`
-      );
+      // console.log(
+      //   `set hash ................... ${window.location.hash} ${changeState}`
+      // );
       if (target === 'maincontactform' || target === 'onsiteid') {
         setTimeout(() => {
           const element = document.getElementById(target);
@@ -205,7 +206,7 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <a href="/tires-services#InnerphoneEmailRoad " passHref>
+                    <a href="/tires-services#InnerphoneEmailRoad ">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
@@ -214,7 +215,6 @@ const Footer = () => {
                     <a
                       href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
-                      passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Industrial Tires
@@ -223,7 +223,6 @@ const Footer = () => {
                     <a
                       href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
-                      passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Agricultural Tires
@@ -233,7 +232,6 @@ const Footer = () => {
                       href="/tires-services#tire"
                       // target="_blank"
                       rel="noreferrer"
-                      passHref
                     >
                       <span
                         onClick={() => {
@@ -330,11 +328,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link
-                        href="/24X7-roadside-assistance"
-                        rel="noreferrer"
-                        passHref
-                      >
+                      <Link href="/24X7-roadside-assistance" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           {' '}
                           Roadside Assistance
@@ -411,7 +405,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <a
                             href="/24X7-roadside-assistance#onsiteid"
-                            scroll={false}
+
                             // onClick={() => {
                             //   setchangeState(!changeState);
                             // }}
@@ -478,7 +472,6 @@ const Footer = () => {
                                 : '/tires-services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
-                            passHref
                           >
                             <span
                               onClick={() => {
@@ -532,7 +525,7 @@ const Footer = () => {
                         />
                       </div>
                       {popup ? (
-                        <div className=" text-base text-white pb-2">
+                        <div className=" text-base text-green-500 pb-2">
                           Thank you For Subscribing
                         </div>
                       ) : null}
@@ -706,7 +699,7 @@ const Footer = () => {
                         </div>
                       </div>
                       {popup ? (
-                        <div className="text-xl text-white">
+                        <div className="text-xl text-green-500">
                           Thank you For Subscribing
                         </div>
                       ) : null}

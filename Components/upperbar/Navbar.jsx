@@ -35,19 +35,18 @@ const Navbar = ({ toggle, postion }) => {
 
   useEffect(() => {
     Setquery(window.location.hash);
-  
-      if (postion.y < -786 && postion.y > -1403) {
-        SetHomeMenuBar(true);
-      }else{
-        SetHomeMenuBar(false);
-      }
-    
 
-    console.log(
-      `change in true or false
-        ${postion.y} < '-787' && ${postion.y} > '-1403'
-       ${HomeMenuBar}`
-    );
+    if (postion.y < -786 && postion.y > -1403) {
+      SetHomeMenuBar(true);
+    } else {
+      SetHomeMenuBar(false);
+    }
+
+    // console.log(
+    //   `change in true or false
+    //     ${postion.y} < '-787' && ${postion.y} > '-1403'
+    //    ${HomeMenuBar}`
+    // );
     // if (router.pathname === '/#AboutUs_Section') {
     // }
   }, [AboutusRef, postion]);
@@ -79,12 +78,12 @@ const Navbar = ({ toggle, postion }) => {
           <Link href="/#AboutUs_Section">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                (query === '#AboutUs_Section' && HomeMenuBar) ? 'bg-red-500' : ''
+                query === '#AboutUs_Section' && HomeMenuBar ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm ${
-                  (query === '#AboutUs_Section' && HomeMenuBar)
+                  query === '#AboutUs_Section' && HomeMenuBar
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
