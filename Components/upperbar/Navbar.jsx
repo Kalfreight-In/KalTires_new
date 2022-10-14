@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import { Link as SLink } from 'react-scroll';
 import { FaBars } from 'react-icons/fa';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 // import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 export const MobileIcon = styled.div`
@@ -26,14 +26,31 @@ export const MobileIcon = styled.div`
     }
   }
 `;
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, postion }) => {
+  const [HomeMenuBar, SetHomeMenuBar] = useState(false);
+  const [query, Setquery] = useState(false);
   const AboutusRef = useRef();
   const isDesktop = useMediaQuery('(min-width:1148px)');
   const router = useRouter();
+
   useEffect(() => {
-    if (router.pathname === '/#AboutUs_Section') {
-    }
-  }, [AboutusRef]);
+    Setquery(window.location.hash);
+  
+      if (postion.y < -786 && postion.y > -1403) {
+        SetHomeMenuBar(true);
+      }else{
+        SetHomeMenuBar(false);
+      }
+    
+
+    console.log(
+      `change in true or false
+        ${postion.y} < '-787' && ${postion.y} > '-1403'
+       ${HomeMenuBar}`
+    );
+    // if (router.pathname === '/#AboutUs_Section') {
+    // }
+  }, [AboutusRef, postion]);
   return (
     <nav
       className={`bg-white sticky top-navbargap z-10 shadow-xl ${
@@ -45,12 +62,12 @@ const Navbar = ({ toggle }) => {
           <Link href="/">
             <div
               className={`group border-solid  border-x 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/' ? 'bg-red-500' : ''
+                router.pathname === '/' && !HomeMenuBar ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm  ${
-                  router.pathname === '/'
+                  router.pathname === '/' && !HomeMenuBar
                     ? 'text-white  font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
@@ -62,12 +79,12 @@ const Navbar = ({ toggle }) => {
           <Link href="/#AboutUs_Section">
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/#AboutUs_Section' ? 'bg-red-500' : ''
+                (query === '#AboutUs_Section' && HomeMenuBar) ? 'bg-red-500' : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/#AboutUs_Section'
+                  (query === '#AboutUs_Section' && HomeMenuBar)
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}

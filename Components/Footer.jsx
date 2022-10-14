@@ -7,6 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
+import { Axios } from 'axios';
 import { useStateContext } from '../context/StateContext';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 
@@ -22,8 +23,17 @@ const Footer = () => {
   const { setWWOtires } = useStateContext();
   const handleSubmit = (e) => {
     e.preventDefault();
+    const data = {
+      Email: email,
 
-    setPopup(true);
+      //   location,
+    };
+    Axios.post('https://nodeserver-contactus.herokuapp.com/api/v2', data)
+      .then(() => setPopup(true))
+      .catch(() => {
+        console.log('Message not sent');
+      });
+
     setEmail('');
   };
   console.log(`hashhhhhhhhhhhhhhhhh OUTSIDE................... ${changeState}`);
