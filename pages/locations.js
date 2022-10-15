@@ -292,7 +292,7 @@ const location = () => {
               backgroundImage: `${
                 isDesktop
                   ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
-                  : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
+                  : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
               }`,
               display: 'flex',
             }}
@@ -410,7 +410,7 @@ const location = () => {
                                   Hours
                                 </span>
                                 <div>
-                                  {value.timing.map((time) => (
+                                  {value.timing.map((time, index) => (
                                     <p className="text-md" key={index}>
                                       {time}
                                     </p>
@@ -559,7 +559,7 @@ const location = () => {
                                   Hours
                                 </span>
                                 <div>
-                                  {value.timing.map((time) => (
+                                  {value.timing.map((time, index) => (
                                     <p className="text-md" key={index}>
                                       {time}
                                     </p>

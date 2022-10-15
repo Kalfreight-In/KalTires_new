@@ -33,7 +33,7 @@ const Roadside = () => {
             <div className="flex items-center  2xl:pt-2 md:py-8 lg:py-0">
               <div className="md:px-0 px-6 lg:px-0 md:mx-12 mx-2   pt-0 pb-4 md:pb-0">
                 {isDesktop ? (
-                  <h1 className="text-3xl tracking-tight  text-black font-poppins font-bold block">
+                  <div className="text-3xl tracking-tight  text-black font-poppins font-bold block">
                     <h1 className="block font-Helvetica text-4xl">
                       <span className="text-kaltire-red font-Verdana">
                         24/7
@@ -42,7 +42,7 @@ const Roadside = () => {
                         ROADSIDE ASSISTANCE
                       </span>
                     </h1>
-                  </h1>
+                  </div>
                 ) : null}
                 <p className="text-neutral-500 mt-5 2xl:text-lg lg:pr-4 lg:text-base text-sm font-normal   whitespace-normal text-justify font-Helvetica ">
                   We understand how much you depend on your vehicle. So, if you

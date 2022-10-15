@@ -11,7 +11,7 @@ import { useStateContext } from '../../context/StateContext';
 
 const Topbar = ({ toggle, postion }) => {
   const { setUserLocation, setCurrentlatlong } = useStateContext();
-  console.log(`dsadasd ${postion.y}`);
+
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div
@@ -51,10 +51,10 @@ const Topbar = ({ toggle, postion }) => {
             </button>
           </div> */}
           <div
-            className="text-white flex-1 justify-end hidden lg:flex items-end -mb-4"
+            className="text-white flex-1 justify-end hidden lg:flex items-end -mb-4 pb-6  "
             href="tel:+1-800-808-0025"
           >
-            <span className="align-bottom pr-8">
+            <span className="align-bottom pr-8 pb-1">
               Schedule Your Appointment Today
             </span>
             {/* <a

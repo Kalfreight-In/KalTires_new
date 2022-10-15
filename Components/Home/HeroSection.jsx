@@ -90,7 +90,6 @@ const HeroSection = ({ data }) => {
                   <a
                     href={isDesktop ? data.CTA1.Slink : data.CTA1.link}
                     className="flex flex-row justify-center lg:justify-start"
-                    passHref
                   >
                     <motion.div
                       id={data?.page}

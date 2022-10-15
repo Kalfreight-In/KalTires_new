@@ -1804,7 +1804,7 @@ export const MapData1 = [
 ];
 export const MapData2 = [
   {
-    id: 1,
+    id: 22,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1831,7 +1831,7 @@ export const MapData2 = [
     },
   },
   {
-    id: 2,
+    id: 23,
     type: 'Feature',
     geometry: {
       type: 'Point',

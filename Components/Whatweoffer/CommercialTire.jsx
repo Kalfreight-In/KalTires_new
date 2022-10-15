@@ -13,7 +13,7 @@ const CommercialTire = () => {
   const isMobile = useMediaQuery('(max-width:600px)');
   const { WWOtires } = useStateContext();
   useEffect(() => {
-    console.log(`change inside the useeffect${WWOtires}`);
+    // console.log(`change inside the useeffect${WWOtires}`);
     if (WWOtires === 'retread') {
       setalldata(CommercialTireone[0]);
     } else {
@@ -146,7 +146,7 @@ const CommercialTire = () => {
                       spaceBetween={30}
                       // pagination={{ clickable: true }}
                       // className="mySwiper"
-                      auto
+
                       speed={700}
                       autoplay={{
                         delay: 700,
