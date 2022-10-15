@@ -25,6 +25,9 @@ const nextConfig = {
   experimental: {
     nextScriptWorkers: true,
   },
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
 };
 
 module.exports = nextConfig;

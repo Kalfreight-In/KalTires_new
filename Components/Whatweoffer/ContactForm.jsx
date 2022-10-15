@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
-import { Logo } from '../../Assets/Images/KvlTiresLogo.png';
+import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -94,12 +94,11 @@ const Contactform = () => {
           >
             <div className="flex bg-white flex-col justify-center items-center pt-2 pb-20">
               <div className="w-max">
-                <img
+                <Image
                   className="pb-8"
-                  src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png"
-                  width={160}
-                  height={160}
-                  alt="Thank You"
+                  src={kvlTirelogo}
+                  width={140}
+                  height={50}
                 />
               </div>
               <div className="text-2xl font-bold  bg-white text-black w-full m-20 mt-3 text-center mb-16 font-Helvetica ">

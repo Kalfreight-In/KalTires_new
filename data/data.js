@@ -71,6 +71,39 @@ import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
 
+import continentalone from '../Assets/Images/Home/BrandsLogo/Continental.png';
+import goodyearone from '../Assets/Images/Home/BrandsLogo/GoodYear.png';
+import apolloone from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
+import bktone from '../Assets/Images/Home/BrandsLogo/BKT.png';
+import generalone from '../Assets/Images/Home/BrandsLogo/General_Tire.png';
+import americanone from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
+import cooperone from '../Assets/Images/Home/BrandsLogo/cooperTirelogo.png';
+import contitreadone from '../Assets/Images/Home/BrandsLogo/contitread.png';
+import michelinone from '../Assets/Images/Home/BrandsLogo/michelin.png';
+import pirellione from '../Assets/Images/Home/BrandsLogo/pirelli.png';
+import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.png';
+import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.png';
+
+import LiveoakfontanaM from '../Assets/bgImage/LiveoakfontanaM.png';
+import valleyblvdFontanaCa from '../Assets/bgImage/valleyblvdFontanaCa.png';
+import sanmarcosM from '../Assets/bgImage/sanmarcosM.png';
+import bakersfiledM from '../Assets/bgImage/bakersfiledM.png';
+import riversideM from '../Assets/bgImage/riversideM.png';
+import EmersonCalexM from '../Assets/bgImage/EmersonCalexM.png';
+import calexicoM from '../Assets/bgImage/calexicoM.png';
+import mapPlaceholderimg from '../Assets/bgImage/mapPlaceholderimg.png';
+import unioncityCaM from '../Assets/bgImage/unioncityCaM.png';
+import springdaleArkansasM from '../Assets/bgImage/springdaleArkansasM.png';
+import indianapolistM from '../Assets/bgImage/indianapolistM.png';
+import indianaM from '../Assets/bgImage/indianaM.png';
+import kansasMisoouriM from '../Assets/bgImage/kansasMisoouriM.png';
+import atlantaGm from '../Assets/bgImage/atlantaGm.png';
+import GeorgiaM from '../Assets/bgImage/GeorgiaM.png';
+import arlingtonM from '../Assets/bgImage/arlingtonM.png';
+import LaredoTexasM from '../Assets/bgImage/LaredoTexasM.png';
+import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.png';
+import ohioM from '../Assets/bgImage/ohioM.png';
+
 export const HomeSliderData = [
   {
     id: 1,
@@ -116,75 +149,63 @@ export const HomeSliderData = [
 export const BrandCompnentHeader = [
   {
     id: 1,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/Continental.png',
+    imageurl: continentalone,
     heading: 'continental-logo',
   },
   {
     id: 2,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/GoodYear.png',
+    imageurl: goodyearone,
     heading: 'Goodyear logo',
   },
   {
     id: 3,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/apollo-tyres.png',
+    imageurl: apolloone,
     heading: 'apollo-logo',
   },
   {
     id: 4,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/BKT.png',
+    imageurl: bktone,
     heading: 'Bkt-logo',
   },
   {
     id: 5,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/General_Tire.png',
+    imageurl: generalone,
     heading: 'general-logo',
   },
   {
     id: 6,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/ameristeel.png',
+    imageurl: americanone,
     heading: 'americansteel-logo',
   },
 
   {
     id: 7,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/cooperTirelogo.png',
+    imageurl: cooperone,
     heading: 'cooper-logo',
   },
   {
     id: 8,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/contitread.png',
+    imageurl: contitreadone,
     heading: 'contitread-logo',
   },
   {
     id: 9,
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/michelin%20.png',
+    imageurl: michelinone,
     heading: 'michelin-logo',
   },
   {
     id: '10',
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/pirelli%20.png',
+    imageurl: pirellione,
     heading: 'pirelli-logo',
   },
   {
     id: '11',
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/prinx.png',
+    imageurl: prinxone,
     heading: 'prinx-logo',
   },
   {
     id: '12',
-    imageurl:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/BrandsLogo/tornado%20.png',
+    imageurl: tornadoone,
     heading: 'tornado-logo',
   },
 ];
@@ -194,8 +215,7 @@ export const FeaturedProductsData = [
     id: 1,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -203,8 +223,7 @@ export const FeaturedProductsData = [
     id: 2,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -212,8 +231,7 @@ export const FeaturedProductsData = [
     id: 3,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -221,8 +239,7 @@ export const FeaturedProductsData = [
     id: 4,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -230,8 +247,7 @@ export const FeaturedProductsData = [
     id: 5,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2013.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 13.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -239,8 +255,7 @@ export const FeaturedProductsData = [
     id: 6,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -248,8 +263,7 @@ export const FeaturedProductsData = [
     id: 7,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -257,8 +271,7 @@ export const FeaturedProductsData = [
     id: 8,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2014.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 14.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -266,8 +279,7 @@ export const FeaturedProductsData = [
     id: 9,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2015.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 15.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -275,8 +287,7 @@ export const FeaturedProductsData = [
     id: 10,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -284,8 +295,7 @@ export const FeaturedProductsData = [
     id: 11,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2020.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 20.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -293,8 +303,7 @@ export const FeaturedProductsData = [
     id: 12,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -302,8 +311,7 @@ export const FeaturedProductsData = [
     id: 13,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2021.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 21.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -311,8 +319,7 @@ export const FeaturedProductsData = [
     id: 14,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -320,8 +327,7 @@ export const FeaturedProductsData = [
     id: 15,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2022.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 22.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -329,8 +335,7 @@ export const FeaturedProductsData = [
     id: 16,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -338,8 +343,7 @@ export const FeaturedProductsData = [
     id: 17,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2023.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 23.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -347,8 +351,7 @@ export const FeaturedProductsData = [
     id: 18,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/spokewheels%209.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/spokewheels 9.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -356,8 +359,7 @@ export const FeaturedProductsData = [
     id: 19,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -365,8 +367,7 @@ export const FeaturedProductsData = [
     id: 20,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -374,8 +375,7 @@ export const FeaturedProductsData = [
     id: 21,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -383,8 +383,7 @@ export const FeaturedProductsData = [
     id: 22,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/FeaturedTires/image%2011.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -535,7 +534,7 @@ export const HighPerformanceBrandsData = [
     logo: continental_logo_white,
     Image: ContinentalTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
     src: 'Continental',
   },
   {
@@ -545,7 +544,7 @@ export const HighPerformanceBrandsData = [
     logo: goodyearLogo_white,
     Image: goodyearTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
     src: 'Continental',
   },
   {
@@ -555,7 +554,7 @@ export const HighPerformanceBrandsData = [
     logo: Apollo_Tyres_white,
     Image: apolloTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
     src: 'Continental',
   },
   {
@@ -565,7 +564,7 @@ export const HighPerformanceBrandsData = [
     logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'Continental',
   },
   {
@@ -575,7 +574,7 @@ export const HighPerformanceBrandsData = [
     logo: generalLogo_white,
     Image: generalTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.png',
     src: 'Continental',
   },
   {
@@ -585,7 +584,7 @@ export const HighPerformanceBrandsData = [
     logo: ameristeel_white,
     Image: ameristeelTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
     src: 'Continental',
   },
   {
@@ -595,7 +594,7 @@ export const HighPerformanceBrandsData = [
     logo: Cooper_Tire_white,
     Image: coopertiresTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.png',
     src: 'Continental',
   },
   {
@@ -605,7 +604,7 @@ export const HighPerformanceBrandsData = [
     logo: michelinLogo_white,
     Image: michelinTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
+      '../Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'Continental',
   },
 ];
@@ -1194,8 +1193,7 @@ export const MapData1 = [
       Address: '10156 Live Oak Ave',
       Phone: '909-306-5571',
       Email: 'rmartinez@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/LiveoakfontanaM.png',
+      bgimage: LiveoakfontanaM,
       url: 'https://www.google.co.in/maps/place/10156+Live+Oak+Ave,+Fontana,+CA+92335,+USA/@34.0687994,-117.4834404,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fc6e50489:0xde8aefe027f7319!8m2!3d34.068795!4d-117.4812517?hl=en',
     },
   },
@@ -1224,8 +1222,7 @@ export const MapData1 = [
       Address: '14887 Valley Blvd',
       Phone: '909-306-5571',
       Email: 'rmartinez@kvltiers.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/valleyblvdFontanaCa.png',
+      bgimage: valleyblvdFontanaCa,
       url: 'https://www.google.co.in/maps/place/14887+Valley+Blvd,+Fontana,+CA+92335,+USA/@34.0697634,-117.4825569,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fe61f8771:0x46a847e951608e46!8m2!3d34.069759!4d-117.4803682?hl=en',
     },
   },
@@ -1252,8 +1249,7 @@ export const MapData1 = [
       Address: '160 Industrial St',
       Phone: '760-249-2862',
       Email: 'carlosg@kvltiers.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/sanmarcosM.png',
+      bgimage: sanmarcosM,
       url: 'https://www.google.co.in/maps/place/160+Industrial+St,+San+Marcos,+CA+92078,+USA/@33.1363004,-117.1625312,17z/data=!3m1!4b1!4m5!3m4!1s0x80db8ab3b9f18c1b:0x6b10250b71a8172e!8m2!3d33.136296!4d-117.1580465?hl=en',
     },
   },
@@ -1280,8 +1276,7 @@ export const MapData1 = [
       Address: '3401 N Sillect Ave',
       Phone: '661-371-7294',
       Email: 'jaimerodriguez@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/bakersfiledM.png',
+      bgimage: bakersfiledM,
       url: 'https://www.google.co.in/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.391145,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099?hl=en',
     },
   },
@@ -1308,8 +1303,7 @@ export const MapData1 = [
       Address: '3011 E. La Cadena Dr',
       Phone: '951-787-6884',
       Email: 'dfox@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/riversideM.png',
+      bgimage: riversideM,
       url: 'https://www.google.co.in/maps/place/3011+E+La+Cadena+Dr,+Riverside,+CA+92507,+USA/@33.9863907,-117.3647773,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcb1fd437fedd1:0x6caf019abf3c6c16!8m2!3d33.9863863!4d-117.3625886?hl=en',
     },
   },
@@ -1336,8 +1330,7 @@ export const MapData1 = [
       Address: '840 Emerson Ave',
       Phone: '760-768-8696',
       Email: 'avasquez@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/EmersonCalexM.png',
+      bgimage: EmersonCalexM,
       url: 'https://www.google.co.in/maps/place/840+Emerson+Ave,+Calexico,+CA+92231,+USA/@32.675681,-115.5016876,17z/data=!3m1!4b1!4m5!3m4!1s0x80d765365a70050f:0xc3b8b7461f1f2402!8m2!3d32.6756765!4d-115.4994989?hl=en',
     },
   },
@@ -1364,8 +1357,7 @@ export const MapData1 = [
       Address: '165 W. 5th St',
       Phone: '760-768-8696',
       Email: 'avasquez@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/calexicoM.png',
+      bgimage: calexicoM,
       url: 'https://www.google.co.in/maps/place/165+W+5th+St,+Calexico,+CA+92231,+USA/@32.6702259,-115.5029613,17z/data=!3m1!4b1!4m5!3m4!1s0x80d76534f00f0807:0xd1c019f6c4b6a038!8m2!3d32.6702214!4d-115.5007726?hl=en',
     },
   },
@@ -1392,8 +1384,7 @@ export const MapData1 = [
       Address: '17100 S Harlan Rd',
       Phone: '209-275-4993 ',
       Email: 'Tandarajinder@kalgroup.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+      bgimage: mapPlaceholderimg,
       url: 'https://www.google.co.in/maps/place/17100+S+Harlan+Rd,+Lathrop,+CA+95330,+USA/@37.8058533,-121.2973683,17z/data=!4m5!3m4!1s0x80901562ee55acd9:0x6e5659d42b7cd177!8m2!3d37.8058491!4d-121.2951796?hl=en',
     },
   },
@@ -1420,8 +1411,7 @@ export const MapData1 = [
       Address: '30089 Ahern Ave',
       Phone: ' 562-556-9034',
       Email: 'roger@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/unioncityCaM.png',
+      bgimage: unioncityCaM,
       url: 'https://www.google.com/maps/place/30089+Ahern+Ave,+Union+City,+CA+94587,+USA/@37.6074485,-122.0791125,17z/data=!3m1!4b1!4m5!3m4!1s0x808f95d30d6a6b09:0x3202ef51f7e03ef4!8m2!3d37.6074443!4d-122.0769238',
     },
   },
@@ -1448,8 +1438,7 @@ export const MapData1 = [
       Address: '1300 Main St',
       Phone: '951-787-6884   ',
       Email: 'dfox@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+      bgimage: mapPlaceholderimg,
       url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
     },
   },
@@ -1477,8 +1466,7 @@ export const MapData1 = [
       Address: '1080 W. Henri De Tonti Blvd',
       Phone: '479-790-4137',
       Email: 'clayton@kaltrailers.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/springdaleArkansasM.png',
+      bgimage: springdaleArkansasM,
       url: 'https://www.google.co.in/maps/place/1080+W+Henri+De+Tonti+Blvd,+Springdale,+AR+72762,+USA/@36.1781487,-94.254271,17z/data=!3m1!4b1!4m5!3m4!1s0x87c972b7967b5855:0xc59619ee1ceb2cc0!8m2!3d36.1781444!4d-94.2520823?hl=en',
     },
   },
@@ -1505,8 +1493,7 @@ export const MapData1 = [
       Address: '4641 Lafayette Ave',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/indianapolistM.png',
+      bgimage: indianapolistM,
       url: 'https://www.google.co.in/maps/place/4641+Lafayette+Rd,+Indianapolis,+IN+46254,+USA/@39.8399802,-86.2502276,17z/data=!3m1!4b1!4m5!3m4!1s0x886b55fd130f8613:0x8feef59d5c0456c5!8m2!3d39.8399761!4d-86.2480389?hl=en',
     },
   },
@@ -1534,8 +1521,7 @@ export const MapData1 = [
       Address: '2916 Bluff Rd Blg. 6',
       Phone: '317-670-8866',
       Email: 'gwatson@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/indianaM.png',
+      bgimage: indianaM,
       url: 'https://www.google.co.in/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454?hl=en',
     },
   },
@@ -1562,8 +1548,7 @@ export const MapData1 = [
       Address: '4700 Deramus Avenue',
       Phone: '316-393-2153',
       Email: 'rupinder@kalgroup.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/kansasMisoouriM.png',
+      bgimage: kansasMisoouriM,
       url: 'https://www.google.co.in/maps/place/4700+Deramus+Ave,+Kansas+City,+MO+64120,+USA/@39.1374813,-94.5286172,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0fa3183f1f2cf:0x307805e88481e969!8m2!3d39.1374772!4d-94.5264285?hl=en',
     },
   },
@@ -1590,8 +1575,7 @@ export const MapData1 = [
       Address: '15 NJ Route 173',
       Phone: '908-914-2577',
       Email: 'smalia@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+      bgimage: mapPlaceholderimg,
       url: 'https://goo.gl/maps/dJGKjLarLFAgw9y58',
     },
   },
@@ -1619,8 +1603,7 @@ export const MapData1 = [
       Address: '3435 Jonesboro Rd SE',
       Phone: '951-834-3103',
       Email: 'acampbell@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/atlantaGm.png',
+      bgimage: atlantaGm,
       url: 'https://www.google.co.in/maps/place/3435+Jonesboro+Rd+SE,+Atlanta,+GA+30354,+USA/@33.6608251,-84.3749728,17z/data=!3m1!4b1!4m5!3m4!1s0x88f4fdf304d4cbb7:0xf1f5c6fa319c16be!8m2!3d33.6608207!4d-84.3727841?hl=en',
     },
   },
@@ -1647,8 +1630,7 @@ export const MapData1 = [
       Address: '4285 Moreland Ave',
       Phone: '951-834-3103',
       Email: 'acampbell@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/GeorgiaM.png',
+      bgimage: GeorgiaM,
       url: 'https://www.google.co.in/maps/place/4285+Moreland+Ave,+Conley,+GA+30288,+USA/@33.6371068,-84.3234401,17z/data=!4m5!3m4!1s0x88f4fe4f3db5a2ab:0xd873cbdc7e77783c!8m2!3d33.6371024!4d-84.3212514?hl=en',
     },
   },
@@ -1675,8 +1657,7 @@ export const MapData1 = [
       Address: '600 109th St Suite B',
       Phone: '909-202-8831',
       Email: 'gwright@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/arlingtonM.png',
+      bgimage: arlingtonM,
       url: 'https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en',
     },
   },
@@ -1734,7 +1715,7 @@ export const MapData1 = [
   //     Phone: '317-520-8545',
   //     Email: 'tingram@kvltires.com',
   //     bgimage:
-  //       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+  //       '../Assets/bgImage/mapPlaceholderimg.png',
   //     url: 'https://www.google.com/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454',
   //   },
   // },
@@ -1761,8 +1742,7 @@ export const MapData1 = [
       Address: '8115 Las Cruces Dr',
       Phone: '972-741-2606',
       Email: 'tgant@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/LaredoTexasM.png',
+      bgimage: LaredoTexasM,
       url: 'https://www.google.com/maps/place/8115+Las+Cruces+Dr,+Laredo,+TX+78045,+USA/@27.5836842,-99.5091438,17z/data=!3m1!4b1!4m5!3m4!1s0x8661206462f5488d:0x889064ef3b3fe134!8m2!3d27.5836795!4d-99.5069551',
     },
   },
@@ -1790,8 +1770,7 @@ export const MapData1 = [
       Address: '9445 Inkster Rd',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/TaylormichigabM.png',
+      bgimage: TaylormichigabM,
       url: 'https://www.google.com/maps/place/9445+Inkster+Rd,+Taylor,+MI+48180,+USA/@42.2373151,-83.3094285,17z/data=!3m1!4b1!4m5!3m4!1s0x883b48e26460bb7f:0x58f5d02d24efb430!8m2!3d42.2373111!4d-83.3072398',
     },
   },
@@ -1818,8 +1797,7 @@ export const MapData1 = [
       Address: '603 Shephard Dr',
       Phone: '951-834-2907',
       Email: 'tingram@kvltires.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/ohioM.png',
+      bgimage: ohioM,
       url: 'https://www.google.com/maps/place/603+Shepherd+Dr,+Cincinnati,+OH+45215,+USA/@39.2352997,-84.4635713,17z/data=!3m1!4b1!4m5!3m4!1s0x88404da19b4311b1:0x9d9adb6d3b891a25!8m2!3d39.2352956!4d-84.4613826',
     },
   },
@@ -1848,8 +1826,7 @@ export const MapData2 = [
       Address: '1225 Riverside Rd',
       Phone: '236-998-9502',
       Email: 'collinm@bigrigcanada.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+      bgimage: mapPlaceholderimg,
       url: 'https://www.google.com/maps/place/1225+Riverside+Rd,+Abbotsford,+BC+V2S+7P1,+Canada/@49.0243763,-122.27483,17z/data=!3m1!4b1!4m5!3m4!1s0x54844ae9d00fadc1:0xd47fb33380922fab!8m2!3d49.0243728!4d-122.2726413',
     },
   },
@@ -1876,8 +1853,7 @@ export const MapData2 = [
       Address: '9115 52 St SE',
       Phone: '403-800-2095',
       Email: 'arthurp@bigrigcanada.com',
-      bgimage:
-        'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+      bgimage: mapPlaceholderimg,
       url: 'https://www.google.com/maps/place/9115+52+St+SE,+Calgary,+AB+T2C+2R4,+Canada/@50.9717234,-113.9610187,17z/data=!3m1!4b1!4m5!3m4!1s0x537179f3e2e183d5:0xf426e9c504fa0b82!8m2!3d50.97172!4d-113.95883',
     },
   },
@@ -1906,7 +1882,7 @@ export const MapData2 = [
   //     Phone: '',
   //     Email: '',
   //     bgimage:
-  //       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/bgImage/mapPlaceholderimg.png',
+  //       '../Assets/bgImage/mapPlaceholderimg.png',
   //     url: 'https://www.google.com/maps/place/3401+Sillect+Ave,+Bakersfield,+CA+93308,+USA/@35.3911406,-119.0399986,17z/data=!3m1!4b1!4m5!3m4!1s0x80ea69dc654356ff:0xc71b91138884aaf6!8m2!3d35.3911406!4d-119.0378099',
   //   },
   // },

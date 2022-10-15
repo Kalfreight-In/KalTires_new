@@ -6,7 +6,7 @@ import React from 'react';
 // import businesstrailernew from "../../assets/Images/businesstrailernew";
 // import Accordion from '../Accordion';
 // import { useSpring } from 'react-spring';
-
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 
@@ -112,10 +112,12 @@ const BrandsComponent = () => {
                   <div className="flex-1 flex  flex-col justify-center  hover:scale-105 hover:z-10  hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
                     <div className="flex justify-center items-center h-36">
                       <div className="item-center  ">
-                        <img
+                        <Image
                           src={data.imageurl}
                           alt={data.heading}
-                          className=" "
+                          // layout="fill"
+                          // height={100}
+                          // width={200}
                         />
                       </div>
                     </div>

@@ -8,8 +8,10 @@ import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
 import { Axios } from 'axios';
+import Image from 'next/image';
 import { useStateContext } from '../context/StateContext';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
+import kvlTirelogo from '../Assets/Images/KvlTiresLogo.png';
 
 const Footer = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -77,28 +79,34 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="p-8  md:p-0 xl:block flex justify-center ">
-        <Link href="/">
-          <img
-            src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
+      <div className="p-8  md:p-0  justify-center xl:hidden flex ">
+        <Link href="/" passHref>
+          <Image
+            src={kvlTirelogo}
             alt="logo"
-            className="2xl:h-18 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4 cursor-pointer"
+            className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
           />
         </Link>
       </div>
       <div className="flex md:flex-row flex-col-reverse md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">
         <div className=" ">
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
-            <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
-              <div className="xl:ml-20 w-max justify- start ml-4 xl:mt-0 ">
-                <Link href="/">
-                  <img
-                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
-                    alt="logo"
-                    className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer"
-                    to="mailto:info@kvltires.com"
-                    height={70}
-                  />
+            <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items-start justify-start">
+              <div className="xl:ml-20 w-max justify-start ml-4 xl:mt-0  ">
+                <Link href="/" passHref>
+                  <div className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer">
+                    <Image
+                      layout="intrinsic"
+                      // width={700}
+                      height={75}
+                      width={238}
+                      src={kvlTirelogo}
+                      alt="logo"
+                      // className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer"
+                      // className=" md:block hidden cursor-pointer"
+                      to="mailto:info@kvltires.com"
+                    />
+                  </div>
                 </Link>
 
                 <div className="text-white flex justify-start  xl:mt-5  ml-0 ">

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
-import { logo } from '../../Assets/Images/KvlTiresLogo.png';
+import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
 import { useStateContext } from '../../context/StateContext';
 
 const Contactform = () => {
@@ -119,11 +119,11 @@ const Contactform = () => {
           >
             <div className="flex bg-white flex-col justify-center items-center pt-2 pb-20">
               <div className="w-max">
-                <img
+                <Image
                   className="pb-8"
-                  src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png"
-                  width={160}
-                  height={160}
+                  src={kvlTirelogo}
+                  width={140}
+                  height={50}
                 />
               </div>
               <div className="text-2xl font-bold  bg-white text-black w-full m-20 mt-3 text-center mb-16 font-Helvetica ">

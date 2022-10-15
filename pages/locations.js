@@ -9,9 +9,9 @@ import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
 import { scroller, Element } from 'react-scroll';
 import Head from 'next/head';
+import Image from 'next/image';
 import { MapData1, MapData2 } from '../data/data';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
-
 // import { useHover } from '../Hooks/Hover';
 import Search from '../Components/location/Search';
 import { toTitleCase } from '../HelpFunctions/toTitlecase';
@@ -425,7 +425,7 @@ const location = () => {
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
-                                <img
+                                <Image
                                   src={value.properties.bgimage}
                                   alt={value.properties.City}
                                 />
@@ -574,7 +574,7 @@ const location = () => {
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
-                                <img
+                                <Image
                                   src={value.properties.bgimage}
                                   alt={value.properties.City}
                                 />
