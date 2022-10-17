@@ -564,7 +564,7 @@ export const HighPerformanceBrandsData = [
     logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch./Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'Continental',
   },
   {
