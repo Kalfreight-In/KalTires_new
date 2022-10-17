@@ -149,10 +149,6 @@ const MyApp = ({ Component, pageProps }) => {
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
 
-        <ErrorBoundary>
-          {!isDesktop ? <Sidebar isOpen={isOpen} toggle={toggle} /> : null}
-        </ErrorBoundary>
-
         <Topbar toggle={toggle} postion={PcurrPos} />
         <ErrorBoundary>
           {' '}
@@ -166,6 +162,9 @@ const MyApp = ({ Component, pageProps }) => {
       src="https://kit.fontawesome.com/d16bf6a891.js"
       crossOrigin="anonymous"
     /> */}
+        <ErrorBoundary>
+          {!isDesktop ? <Sidebar isOpen={isOpen} toggle={toggle} /> : null}
+        </ErrorBoundary>
       </StateContext>
       {/* </body> */}
     </>

@@ -38,14 +38,11 @@ const Footer = () => {
 
     setEmail('');
   };
-  console.log(`hashhhhhhhhhhhhhhhhh OUTSIDE................... ${changeState}`);
 
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];
-    console.log(
-      `set hash ................... outside if ${window.location.hash} ${changeState}`
-    );
+
     if (window.location.hash) {
       console.log(
         `set hash ................... ${window.location.hash} ${changeState}`
@@ -80,7 +77,7 @@ const Footer = () => {
       }}
     >
       <div className="p-8  md:p-0  justify-center xl:hidden flex ">
-        <Link href="/" passHref>
+        <Link href="/">
           <Image
             src={kvlTirelogo}
             alt="logo"
@@ -93,7 +90,7 @@ const Footer = () => {
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items-start justify-start">
               <div className="xl:ml-20 w-max justify-start ml-4 xl:mt-0  ">
-                <Link href="/" passHref>
+                <Link href="/">
                   <div className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer">
                     <Image
                       layout="intrinsic"
@@ -203,7 +200,7 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/tires-services#tire" passHref>
+                    <Link href="/tires-services#tire">
                       <span
                         onClick={() => {
                           setWWOtires('commerce');
@@ -213,7 +210,7 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <a href="/tires-services#InnerphoneEmailRoad " passHref>
+                    <a href="/tires-services#InnerphoneEmailRoad ">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
@@ -222,7 +219,6 @@ const Footer = () => {
                     <a
                       href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
-                      passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Industrial Tires
@@ -231,7 +227,6 @@ const Footer = () => {
                     <a
                       href="/tires-services#InnerphoneEmailRoad "
                       rel="noreferrer"
-                      passHref
                     >
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Agricultural Tires
@@ -241,7 +236,6 @@ const Footer = () => {
                       href="/tires-services#tire"
                       // target="_blank"
                       rel="noreferrer"
-                      passHref
                     >
                       <span
                         onClick={() => {
@@ -275,7 +269,7 @@ const Footer = () => {
                       H_WA ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/#AboutUs_Section" rel="noreferrer" passHref>
+                    <Link href="/#AboutUs_Section" rel="noreferrer">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  cursor-pointer">
                         About Us
                       </span>
@@ -330,7 +324,7 @@ const Footer = () => {
                   >
                     <div />
                     <div>
-                      <Link href="/tires-services" rel="noreferrer" passHref>
+                      <Link href="/tires-services" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           {' '}
                           Tires & Services
@@ -338,11 +332,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link
-                        href="/24X7-roadside-assistance"
-                        rel="noreferrer"
-                        passHref
-                      >
+                      <Link href="/24X7-roadside-assistance" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           {' '}
                           Roadside Assistance
@@ -350,7 +340,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link href="/locations" rel="noreferrer" passHref>
+                      <Link href="/locations" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           Locations
                         </span>
@@ -365,7 +355,7 @@ const Footer = () => {
                       </a>
                     </div>
                     <div>
-                      <Link href="/careers" rel="noreferrer" passHref>
+                      <Link href="/careers" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Careers
                         </span>
@@ -419,7 +409,7 @@ const Footer = () => {
                         <span className="flex cursor-pointer overflow-visible">
                           <a
                             href="/24X7-roadside-assistance#onsiteid"
-                            scroll={false}
+
                             // onClick={() => {
                             //   setchangeState(!changeState);
                             // }}
@@ -486,7 +476,6 @@ const Footer = () => {
                                 : '/tires-services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
-                            passHref
                           >
                             <span
                               onClick={() => {

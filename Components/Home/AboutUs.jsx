@@ -168,8 +168,6 @@ export const AboutUs = () => {
                       <div className="px-6">
                         <Image
                           src={CommercialTire}
-                          width={100}
-                          height={100}
                           alt="Commercial
                           Tires"
                         />
@@ -184,12 +182,7 @@ export const AboutUs = () => {
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
                       <div className="px-6">
-                        <Image
-                          src={OTRTires}
-                          width={100}
-                          height={100}
-                          alt="OTR Tires"
-                        />
+                        <Image src={OTRTires} alt="OTR Tires" />
                       </div>
 
                       <h2 className="text-center font-poppins text-sm">
@@ -200,8 +193,6 @@ export const AboutUs = () => {
                       <div className="px-6">
                         <Image
                           src={AgriculturalTires}
-                          width={100}
-                          height={100}
                           alt="Agricultural
                           Tires"
                         />

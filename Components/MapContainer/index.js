@@ -200,7 +200,7 @@ export const MapConatiner = () => {
       style={{
         backgroundImage: `${
           isDesktop
-            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+            ? ''
             : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.png)'
         }`,
       }}
