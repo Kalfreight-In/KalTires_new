@@ -77,7 +77,7 @@ const Footer = () => {
       }}
     >
       <div className="p-8  md:p-0  justify-center xl:hidden flex ">
-        <Link href="/">
+        <Link href="/" passHref>
           <Image
             src={kvlTirelogo}
             alt="logo"
@@ -90,7 +90,7 @@ const Footer = () => {
           <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
             <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items-start justify-start">
               <div className="xl:ml-20 w-max justify-start ml-4 xl:mt-0  ">
-                <Link href="/">
+                <Link href="/" passHref>
                   <div className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer">
                     <Image
                       layout="intrinsic"
