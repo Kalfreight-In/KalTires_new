@@ -174,7 +174,7 @@ const Contactform = () => {
               /> */}
                   <div>
                     <h3 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
-                      CONTACT US
+                      Contact Us
                     </h3>
                     <p className="text-white pt-4  text-left lg:pr-0 md:mr-16 mr-4 font-Helvetica">
                       Let’s grow your business together. Please provide your
