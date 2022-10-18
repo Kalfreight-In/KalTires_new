@@ -258,8 +258,20 @@ const location = () => {
         id="mainmapcontainer"
         className="bg-black flex flex-col  md:flex-col  bg-cover"
       >
-        <div className="flex items-center justify-center md:justify-end">
-          <Search setTypedLocation />
+        <div className="flex flex-row items-center justify-center md:justify-end ">
+          <div className="md:flex hidden  items-center ">
+            <h1 className="text-white mr-2 font-semibold text-2xl ">
+              Search Your Nearest Location
+            </h1>
+            <img
+              src="https://media.giphy.com/media/lOTz29pS3qPKnV8QEe/giphy.gif"
+              className="h-12 w-12  rotate-90"
+            ></img>
+          </div>
+
+          <div className="flex items-center justify-center md:justify-end">
+            <Search setTypedLocation />
+          </div>
         </div>
 
         <Element id="MapContanier" name="MapContanierElement" className="z-0">
@@ -376,32 +388,32 @@ const location = () => {
                             <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  lg:px-20 px-8  justify-between ">
                               <div className="flex flex-center flex-col ">
                                 <div className="mb-2 w-locationsection">
-                                  <div className="font-semibold text-md">
+                                  <span className="font-semibold text-md">
                                     KVL Tires
-                                  </div>
-                                  <div className=" font-normal text-md">
+                                  </span>
+                                  <p className=" font-normal text-md">
                                     {`${value.properties.Address}${', '}  ${
                                       value.properties.City
                                     }, ${value.properties.State}
                                     ${value.properties.ZipCode}`}
-                                  </div>
+                                  </p>
                                   {value.properties.Manager ? (
-                                    <div className=" font-normal text-md">
+                                    <p className=" font-normal text-md">
                                       Manager:{' '}
                                       {toTitleCase(value.properties.Manager)}
-                                    </div>
+                                    </p>
                                   ) : null}
                                 </div>
                                 {value.properties.Phone ? (
                                   <div className="pb-2">
-                                    <div className=" font-normal text-md flex flex-row items-center ">
+                                    <p className=" font-normal text-md flex flex-row items-center ">
                                       <RiPhoneFill className="mr-4" />
                                       {value.properties.Phone}
-                                    </div>
-                                    <div className=" font-normal text-md flex flex-row items-center ">
+                                    </p>
+                                    <p className=" font-normal text-md flex flex-row items-center ">
                                       <MdEmail className="mr-4" />
                                       {value.properties.Email}
-                                    </div>
+                                    </p>
                                   </div>
                                 ) : null}
                               </div>

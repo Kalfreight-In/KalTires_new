@@ -51,11 +51,11 @@ export const AboutUs = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <div className="text-3xl tracking-tight   font-poppins font-semibold lg:inline-block hidden">
+                  <h3 className="text-3xl tracking-tight   font-poppins font-semibold lg:inline-block hidden">
                     <span className=" text-neutral-800  border-b-2 hover:border-b-4 hover:pb-0 transition-all ease-in-out -pb-2 duration-100  border-y-PrimaryTwo   2xl:w-1/2 xl:w-3/5 w-4/5">
                       ABOUT US
                     </span>
-                  </div>
+                  </h3>
                 </motion.div>
                 <motion.div
                   initial={{ y: +50, opacity: 0.5 }}
@@ -217,9 +217,9 @@ export const AboutUs = () => {
                           <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                         </div>
                         <div id="Hotline-second">
-                          <div className="font-bold text-left font-poppins">
+                          <p className="font-bold text-left font-poppins">
                             Toll Free
-                          </div>
+                          </p>
                           <p>+1-800-808-0025</p>
                         </div>
                       </div>
