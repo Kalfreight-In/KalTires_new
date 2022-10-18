@@ -50,9 +50,9 @@ export const PerkBenifits = () => {
               id="perksliderinnermain"
               className={isMobile ? 'px-6' : 'px-12'}
             >
-              <h3 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-poppins">
+              <h2 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-poppins">
                 Perks & Benefits
-              </h3>
+              </h2>
               <Swiper
                 slidesPerView={isMobile ? 1 : 2}
                 spaceBetween={30}
