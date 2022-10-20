@@ -471,7 +471,7 @@ export const CommercialTireone = [
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Retread Tires is also known as Recap or Re-moulded tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. Retread accounts for one-half of all replacement tires in the North American tires market. With the latest retreading tools and machines, the quality of retread tires has improved significantly. As compared to New Tires, Retread Tires are highly cost effective. For more information, check out our partnered brands',
+    desc: 'Retread Tires is also known as Recap or Re-moulded tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. \n \n Retread accounts for one-half of all replacement tires in the North American tires market. With the latest retreading tools and machines, the quality of retread tires has improved significantly. As compared to New Tires, Retread Tires are highly cost effective. For more information, check out our partnered brands',
     logos: [
       {
         id: 1,

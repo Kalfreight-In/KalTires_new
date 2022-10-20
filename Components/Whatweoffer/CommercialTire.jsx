@@ -129,7 +129,7 @@ const CommercialTire = () => {
                       whileInView={{ y: [100, 0], opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <p className="text-white mt-5   whitespace-normal text-justify font-Helvetica">
+                      <p className="text-white mt-5   whitespace-pre-line text-justify font-Helvetica">
                         {alldata.desc}
                       </p>
                     </motion.div>
