@@ -17,7 +17,7 @@ export const PerkBenifits = () => {
         <div id="Perkmaingrid" className="pb-8 ">
           <div className="lg:block hidden">
             <h3 className="text-departmentheading font-bold text-4xl px-20 pt-8 font-poppins">
-              Perks & Benefits
+              Carrier Opportunities
             </h3>
             <div
               id="Perkgrid"
@@ -51,7 +51,7 @@ export const PerkBenifits = () => {
               className={isMobile ? 'px-6' : 'px-12'}
             >
               <h2 className="text-departmentheading font-bold text-3xl  pt-8 pb-4  md:text-left text-center font-poppins">
-                Perks & Benefits
+                Carrier Opportunities
               </h2>
               <Swiper
                 slidesPerView={isMobile ? 1 : 2}

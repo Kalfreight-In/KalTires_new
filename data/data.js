@@ -471,7 +471,7 @@ export const CommercialTireone = [
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Also known as Recap or Re-moulded tires, a high-quality retread tire delivers mileage comparable to new tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. With the introduction of latest retreading tools and machines, the quality of retread tires has improved significantly. Retread accounts for one-half of all replacement tires in the North American tires market. For more information, check out our partnered brands.',
+    desc: 'Retread Tires is also known as Recap or Re-moulded tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. Retread accounts for one-half of all replacement tires in the North American tires market. With the latest retreading tools and machines, the quality of retread tires has improved significantly. As compared to New Tires, Retread Tires are highly cost effective. For more information, check out our partnered brands',
     logos: [
       {
         id: 1,
@@ -496,7 +496,7 @@ export const CommercialTiretwo = [
     Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. The Commercial Tires also offers high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move. These tires are made up of hard rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively longer life.  ',
+    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. These tires are made from hard rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively more extended life. These Tires also offer high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move.',
     logos: [
       {
         id: 1,
@@ -1891,6 +1891,6 @@ export const MapData2 = [
 export const careerKvl = [
   {
     Headingm: 'Careers at KVL Tires',
-    desc: 'At KVL Tires, we build strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
+    desc: 'At KVL Tires, we believe in building strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
   },
 ];
