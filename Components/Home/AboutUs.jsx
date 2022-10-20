@@ -76,11 +76,10 @@ export const AboutUs = () => {
                       </>
                     ) : null}
                     KVL Tires is a full-service commercial tire dealer based in
-                    the United States. With our headquarters in Fontana,
-                    California, we are currently operating in 18+ locations
-                    across the US and growing. KVL Tires offers high-quality
-                    products and services to a diverse clientele at affordable
-                    prices.
+                    the United States. We offer high-quality products and
+                    services to a diverse clientele at affordable prices. With
+                    our headquarters in Fontana, California, we are currently
+                    operating in 18+ locations across the US and growing.
                     <br />
                     <br />
                     <p>
