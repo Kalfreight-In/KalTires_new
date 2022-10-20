@@ -84,7 +84,13 @@ export const AboutUs = () => {
                     <br />
                     <br />
                     <p>
-                      Our unparalleled range of new, used & retread tires caters
+                      At KVL Tires, we welcome everybody, whether you are an
+                      owner-operator, repair shop, or fleet owner. Our trained
+                      specialists strive to deliver quality, safety, and value
+                      for a smooth tire buying & service experience. We put the
+                      time into understanding our customer’s needs and providing
+                      them with satisfactory solutions
+                      {/* Our unparalleled range of new, used & retread tires caters
                       to the needs of all commercial vehicles. The extensive
                       tire product lines include commercial, agricultural,
                       off-the-road (OTR), industrial, and earthmover tires. We
@@ -111,7 +117,7 @@ export const AboutUs = () => {
                       and technology systems to provide you with top-notch tires
                       & services. So, if you need ‘passenger car tires’ or ‘tire
                       alignment near me’, reach out to us without a second
-                      thought.
+                      thought. */}
                     </p>
                     <br />
                     {/* <p

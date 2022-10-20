@@ -177,6 +177,10 @@ const Contactform = () => {
                       Contact Us
                     </h3>
                     <p className="text-white pt-4  text-left lg:pr-0 md:mr-16 mr-4 font-Helvetica">
+                      <span className="font-bold text-lg">
+                        We are just one click away!
+                        <span> </span>
+                      </span>
                       Let’s grow your business together. Please provide your
                       details, and a KVL Tires expert will get in touch with you
                       shortly.{' '}
