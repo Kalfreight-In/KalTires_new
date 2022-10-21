@@ -332,8 +332,8 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
             <div>
               <h2 className="font-bold text-lg">{office.properties.City}</h2>
               <div className="text-sm mb-2">
-                {office.properties.Address}, {office.properties.State},{' '}
-                {office.properties.ZipCode}
+                {office.properties.Address},{office.properties.City},{' '}
+                {office.properties.State} {office.properties.ZipCode}
               </div>
               {office.properties.Phone ? (
                 <>
