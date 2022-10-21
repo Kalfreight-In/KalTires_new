@@ -128,7 +128,7 @@ export const Services = () => {
           <div id="mainservices">
             <div
               id="maininnerservices"
-              className="bg-black 2xl:px-56 lg:px-16 px-4 lg:py-12 2xl:py-16 z-0"
+              className="bg-black 2xl:px-56 lg:px-16 px-4 lg:py-12 2xl:py-16 z-0 "
               style={{
                 backgroundImage:
                   // eslint-disable-next-line operator-linebreak
@@ -137,7 +137,7 @@ export const Services = () => {
                 backgroundSize: 'cover',
               }}
             >
-              <h2 className="text-white text-5xl font-bold font-Helvetica py-12 pl-28 text-left">
+              <h2 className="text-white text-5xl font-bold font-Helvetica py-12 lg:pl-28 lg:text-left text-center flex justify-center">
                 Services
               </h2>
               <div
