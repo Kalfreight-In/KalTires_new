@@ -199,7 +199,7 @@ export const Services = () => {
                     >
                       {Servicesdata.map((mydata) => (
                         <SwiperSlide key={mydata.id}>
-                          <a href="tel:8088000025">
+                          <a href="tel:800-808-0025">
                             <div className="bg-kaltire-red  text-center text-white border-white hover:border-2 py-4">
                               <div className="flex justify-center">
                                 <div className="w-onsiteimage h-onsiteimage pt-6">
