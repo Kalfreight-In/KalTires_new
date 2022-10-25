@@ -109,6 +109,8 @@ import arlingtonM from '../Assets/bgImage/arlingtonM.png';
 import LaredoTexasM from '../Assets/bgImage/LaredoTexasM.png';
 import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.png';
 import ohioM from '../Assets/bgImage/ohioM.png';
+import Lastone from '../Assets/bgImage/Lastone.jpg';
+import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
 
 export const HomeSliderData = [
   {
@@ -1826,6 +1828,60 @@ export const MapData1 = [
       Email: 'tingram@kvltires.com',
       bgimage: ohioM,
       url: 'https://www.google.com/maps/place/603+Shepherd+Dr,+Cincinnati,+OH+45215,+USA/@39.2352997,-84.4635713,17z/data=!3m1!4b1!4m5!3m4!1s0x88404da19b4311b1:0x9d9adb6d3b891a25!8m2!3d39.2352956!4d-84.4613826',
+    },
+  },
+  {
+    id: 22,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [33.4227171, -112.0664996],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    properties: {
+      State: 'AZ',
+      Manager: '',
+      ZipCode: '85034',
+      City: 'Phoenix',
+      Address: '2611 S. 7th Street',
+      Phone: '',
+      Email: '',
+      bgimage: Lastone,
+      url: 'https://www.google.com/maps/place/2611+S+7th+St,+Phoenix,+AZ+85034,+USA/@33.4227171,-112.0664996,17z/data=!3m1!4b1!4m5!3m4!1s0x872b11c23edcd8e9:0x94817094b2214971!8m2!3d33.4227126!4d-112.0643109',
+    },
+  },
+  {
+    id: 23,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [33.8974742, -118.0571323],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    properties: {
+      State: 'CA',
+      Manager: '',
+      ZipCode: '90670',
+      City: 'Santa Fe Springs',
+      Address: '13000 Firestone Blvd',
+      Phone: '',
+      Email: '',
+      bgimage: Lasttwo,
+      url: 'https://www.google.com/maps/place/13000+Firestone+Blvd,+Santa+Fe+Springs,+CA+90670,+USA/@33.8974742,-118.0571323,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2cdac36e267f:0xa27555cc218de61!8m2!3d33.8974698!4d-118.0549436',
     },
   },
 ];
