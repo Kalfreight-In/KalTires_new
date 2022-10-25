@@ -140,7 +140,7 @@ export const MapConatiner = () => {
   );
 
   const [Cvisibilities, setCVisibilities] = useState(() =>
-    MapData2.map((x) => false)
+    MapData2.map((x) => true)
   );
   // Similar to componentDidMount and componentDidUpdate:
   // useEffect(() => {
@@ -165,6 +165,7 @@ export const MapConatiner = () => {
       newVisibilities[index] = !newVisibilities[index];
       setVisibilities(newVisibilities);
       console.log(`outside CA ${city}`);
+
       setFeaatureCat(city);
       setShowDropdown(!ShowDropdown);
     }
@@ -371,22 +372,26 @@ export const MapConatiner = () => {
                         >
                           <ul>
                             {visibilities[index] ? (
-                              <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
-                                {' '}
-                                {value.properties.Address},{' '}
-                                {value.properties.City},{' '}
-                                {value.properties.State}{' '}
-                                {value.properties.ZipCode}
-                                <span>
-                                  {visibilities[index] ? (
-                                    <BiMinus />
-                                  ) : (
-                                    <BsPlus />
-                                  )}
+                              value.properties.Address ? (
+                                <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                  {' '}
+                                  {value.properties.Address},{' '}
+                                  {value.properties.City},{' '}
+                                  {value.properties.State}{' '}
+                                  {value.properties.ZipCode}
+                                  <span>
+                                    {visibilities[index] ? (
+                                      <BiMinus />
+                                    ) : (
+                                      <BsPlus />
+                                    )}
 
-                                  {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                                </span>
-                              </div>
+                                    {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                  </span>
+                                </div>
+                              ) : (
+                                <div>Comming soon</div>
+                              )
                             ) : null}
                           </ul>
                         </div>

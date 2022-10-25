@@ -191,6 +191,15 @@ export const AboutUs = () => {
                       </div>
 
                       <h2 className="text-center font-poppins text-sm">
+                        Industrial tire <br />
+                      </h2>
+                    </div>
+                    <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
+                      <div className="px-6">
+                        <Image src={OTRTires} alt="OTR Tires" />
+                      </div>
+
+                      <h2 className="text-center font-poppins text-sm">
                         OTR Tires <br />
                       </h2>
                     </div>

@@ -331,40 +331,46 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
           >
             <div>
               <h2 className="font-bold text-lg">{office.properties.City}</h2>
-              <div className="text-sm mb-2">
-                {office.properties.Address},{office.properties.City},{' '}
-                {office.properties.State} {office.properties.ZipCode}
-              </div>
-              {office.properties.Phone ? (
-                <>
-                  <div className="text-sm mb-2 flex flex-row">
-                    <span>
-                      <RiPhoneFill className="text-md m-1" />
-                    </span>
-                    {office.properties.Phone}
+              {office.properties.Address ? (
+                <div>
+                  <div className="text-sm mb-2">
+                    {office.properties.Address},{office.properties.City},{' '}
+                    {office.properties.State} {office.properties.ZipCode}
                   </div>
-                  <div className="text-sm mb-2 flex flex-row">
-                    <span>
-                      <MdEmail className="text-md m-1" />
-                    </span>
-                    <a href="/">{office.properties.Email}</a>
-                  </div>
-                  <div className="text-sm mb-2 flex flex-row">
-                    <span>
-                      <BsArrowRightCircleFill className="text-md m-1" />
-                    </span>
-                    <div
-                      className="cursor-pointer text-blue-400"
-                      onClick={() => {
-                        scrollToTargetAdjusted(office.properties.ZipCode);
-                      }}
-                      // href={`/locations#${office.properties.ZipCode}`}
-                    >
-                      See More
-                    </div>
-                  </div>
-                </>
-              ) : null}
+                  {office.properties.Phone ? (
+                    <>
+                      <div className="text-sm mb-2 flex flex-row">
+                        <span>
+                          <RiPhoneFill className="text-md m-1" />
+                        </span>
+                        {office.properties.Phone}
+                      </div>
+                      <div className="text-sm mb-2 flex flex-row">
+                        <span>
+                          <MdEmail className="text-md m-1" />
+                        </span>
+                        <a href="/">{office.properties.Email}</a>
+                      </div>
+                      <div className="text-sm mb-2 flex flex-row">
+                        <span>
+                          <BsArrowRightCircleFill className="text-md m-1" />
+                        </span>
+                        <div
+                          className="cursor-pointer text-blue-400"
+                          onClick={() => {
+                            scrollToTargetAdjusted(office.properties.ZipCode);
+                          }}
+                          // href={`/locations#${office.properties.ZipCode}`}
+                        >
+                          See More
+                        </div>
+                      </div>
+                    </>
+                  ) : null}
+                </div>
+              ) : (
+                <div className="text-sm mt-2">Comming soon</div>
+              )}
             </div>
           </Popup>
         )}

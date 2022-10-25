@@ -387,24 +387,31 @@ const location = () => {
                           {visibilities[index] ? (
                             <div className="text-black bg-white flex flex-center lg:flex-row flex-col  py-2  lg:px-20 px-8  justify-between ">
                               <div className="flex flex-center flex-col ">
-                                <div className="mb-2 w-locationsection">
-                                  <span className="font-semibold text-md">
-                                    KVL Tires
-                                  </span>
-                                  <p className=" font-normal text-md">
-                                    {`${value.properties.Address}${', '}  ${
-                                      value.properties.City
-                                    }, ${value.properties.State}
-                                    ${value.properties.ZipCode}`}
-                                  </p>
-                                  {value.properties.Manager ? (
+                                {value.properties.Address ? (
+                                  <div className="mb-2 w-locationsection">
+                                    <span className="font-semibold text-md">
+                                      KVL Tires
+                                    </span>
                                     <p className=" font-normal text-md">
-                                      Manager:{' '}
-                                      {toTitleCase(value.properties.Manager)}
+                                      {`${value.properties.Address}${', '}  ${
+                                        value.properties.City
+                                      }, ${value.properties.State}
+                                    ${value.properties.ZipCode}`}
                                     </p>
-                                  ) : null}
-                                </div>
-                                {value.properties.Phone ? (
+                                    {value.properties.Manager ? (
+                                      <p className=" font-normal text-md">
+                                        Manager:{' '}
+                                        {toTitleCase(value.properties.Manager)}
+                                      </p>
+                                    ) : (
+                                      <div className="font-normal text-md">
+                                        Comming Soon
+                                      </div>
+                                    )}
+                                  </div>
+                                ) : null}
+
+                                {value.properties.Address ? (
                                   <div className="pb-2">
                                     <p className=" font-normal text-md flex flex-row items-center ">
                                       <RiPhoneFill className="mr-4" />
@@ -415,20 +422,31 @@ const location = () => {
                                       {value.properties.Email}
                                     </p>
                                   </div>
-                                ) : null}
+                                ) : (
+                                  <div className="font-normal text-md">
+                                    Comming Soon
+                                  </div>
+                                )}
                               </div>
-                              <div className="lg:flex flex-center flex-col lg:w-1/4 hidden">
-                                <span className="text-black font-semibold text-lg">
-                                  Hours
-                                </span>
-                                <div>
-                                  {value.timing.map((time, index) => (
-                                    <p className="text-md" key={index}>
-                                      {time}
-                                    </p>
-                                  ))}
+                              {value.properties.Address ? (
+                                <div className="lg:flex flex-center flex-col lg:w-1/4 hidden">
+                                  <span className="text-black font-semibold text-lg">
+                                    Hours
+                                  </span>
+                                  <div>
+                                    {value.timing.map((time, index) => (
+                                      <p className="text-md" key={index}>
+                                        {time}
+                                      </p>
+                                    ))}
+                                  </div>
                                 </div>
-                              </div>
+                              ) : (
+                                <div className="font-normal text-md">
+                                  Comming Soon
+                                </div>
+                              )}
+
                               <div className="lg:hidden block flex-center flex-col lg:w-1/4 pb-2">
                                 <span className="text-black font-semibold text-lg">
                                   Hours
@@ -436,22 +454,28 @@ const location = () => {
                                 <div>Monday to Friday: 7:30AM - 5:00PM</div>
                                 <div>Saturday & Sunday: Closed</div>
                               </div>
-                              <div className="flex flex-center flex-col lg:w-2/12 ">
-                                <Image
-                                  src={value.properties.bgimage}
-                                  alt={value.properties.City}
-                                />
-                                <div className="text-right text-sm pt-2">
-                                  <a
-                                    className="text-blue-500"
-                                    href={value.properties.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                  >
-                                    See on map
-                                  </a>
+                              {value.properties.Address ? (
+                                <div className="flex flex-center flex-col lg:w-2/12 ">
+                                  <Image
+                                    src={value.properties.bgimage}
+                                    alt={value.properties.City}
+                                  />
+                                  <div className="text-right text-sm pt-2">
+                                    <a
+                                      className="text-blue-500"
+                                      href={value.properties.url}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      See on map
+                                    </a>
+                                  </div>
                                 </div>
-                              </div>
+                              ) : (
+                                <div className="font-normal text-md">
+                                  Comming Soon
+                                </div>
+                              )}
                             </div>
                           ) : null}
                         </ul>

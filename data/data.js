@@ -27,11 +27,13 @@ import DeliveryDrivers from '../Assets/Images/Career/Departments/inventorycant.p
 import ServiceTechnicians from '../Assets/Images/Career/Departments/operations.png';
 import Administration from '../Assets/Images/Career/Departments/sales.png';
 import Warehouse from '../Assets/Images/Career/Departments/servicetech.png';
-import one from '../Assets/Images/Whatweoffer/Industrialtires/one.png';
-import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
-import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
-import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
-import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
+import one from '../Assets/Images/Whatweoffer/Industrialtires/Industrial.png';
+import two from '../Assets/Images/Whatweoffer/Industrialtires/Earthmover.png';
+import three from '../Assets/Images/Whatweoffer/Industrialtires/Agriculture.png';
+import six from '../Assets/Images/Whatweoffer/Industrialtires/OTR.png';
+
+import four from '../Assets/Images/Whatweoffer/Industrialtires/Passenger.png';
+import five from '../Assets/Images/Whatweoffer/Industrialtires/LighTruck.png';
 import twos from '../Assets/Images/Whatweoffer/services/two.png';
 import fours from '../Assets/Images/Whatweoffer/services/four.png';
 import fives from '../Assets/Images/Whatweoffer/services/five.png';
@@ -76,11 +78,15 @@ import goodyearone from '../Assets/Images/Home/BrandsLogo/GoodYear.png';
 import apolloone from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
 import bktone from '../Assets/Images/Home/BrandsLogo/BKT.png';
 import generalone from '../Assets/Images/Home/BrandsLogo/General_Tire.png';
+import westLake from '../Assets/Images/Home/BrandsLogo/westLake.png';
+
 import americanone from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
 import cooperone from '../Assets/Images/Home/BrandsLogo/cooperTirelogo.png';
 import contitreadone from '../Assets/Images/Home/BrandsLogo/contitread.png';
 import michelinone from '../Assets/Images/Home/BrandsLogo/michelin.png';
 import pirellione from '../Assets/Images/Home/BrandsLogo/pirelli.png';
+import Frentino from '../Assets/Images/Home/BrandsLogo/Ferentino.jpg';
+
 import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.png';
 import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.png';
 
@@ -107,19 +113,6 @@ import ohioM from '../Assets/bgImage/ohioM.png';
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
-    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
-
-    CTA1: {
-      heading: 'Contact Us',
-      Slink: '/#CanadaContact',
-      link: '/#CanadaContact',
-    },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
-  },
-  {
-    id: 2,
     img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
@@ -128,6 +121,19 @@ export const HomeSliderData = [
       heading: 'Explore',
       Slink: '/tires-services',
       link: '/tires-services',
+    },
+    CTA12: { heading: 'Inventory', link: 'contactus' },
+  },
+  {
+    id: 2,
+    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
+    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
+
+    CTA1: {
+      heading: 'Contact Us',
+      Slink: '/#CanadaContact',
+      link: '/#CanadaContact',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
@@ -198,14 +204,25 @@ export const BrandCompnentHeader = [
     imageurl: pirellione,
     heading: 'pirelli-logo',
   },
-  {
-    id: '11',
-    imageurl: prinxone,
-    heading: 'prinx-logo',
-  },
+
+  // {
+  //   id: '11',
+  //   imageurl: prinxone,
+  //   heading: 'prinx-logo',
+  // },
   {
     id: '12',
     imageurl: tornadoone,
+    heading: 'tornado-logo',
+  },
+  {
+    id: '13',
+    imageurl: Frentino,
+    heading: 'tornado-logo',
+  },
+  {
+    id: '14',
+    imageurl: westLake,
     heading: 'tornado-logo',
   },
 ];
@@ -709,6 +726,16 @@ export const IndustrialTiresdatan = [
     Alttag: 'Earthmover Tires for sale',
     pr: 8,
   },
+  {
+    id: '6',
+    img: six,
+    heading: 'OTR Tire',
+    idmain: 'OTR',
+    idmainMtab: 'LightTruckTiresTwo',
+    Alttag: 'Best Selling Light Truck Tires',
+    pr: 0,
+  },
+
   {
     id: '3',
     img: three,
@@ -1243,12 +1270,12 @@ export const MapData1 = [
     ],
     properties: {
       State: 'CA',
-      Manager: 'Carlos Garcia',
+      Manager: 'David Szymanski',
       ZipCode: '92078',
       City: 'San Marcos',
       Address: '160 Industrial St',
       Phone: '760-249-2862',
-      Email: 'carlosg@kvltiers.com',
+      Email: 'dszymanski@kvltires.com',
       bgimage: sanmarcosM,
       url: 'https://www.google.co.in/maps/place/160+Industrial+St,+San+Marcos,+CA+92078,+USA/@33.1363004,-117.1625312,17z/data=!3m1!4b1!4m5!3m4!1s0x80db8ab3b9f18c1b:0x6b10250b71a8172e!8m2!3d33.136296!4d-117.1580465?hl=en',
     },
@@ -1408,7 +1435,7 @@ export const MapData1 = [
       Manager: 'Roger Negrete',
       ZipCode: '94587',
       City: 'Union City',
-      Address: '30089 Ahern Ave',
+      Address: '',
       Phone: ' 562-556-9034',
       Email: 'roger@kvltires.com',
       bgimage: unioncityCaM,
@@ -1432,10 +1459,10 @@ export const MapData1 = [
     ],
     properties: {
       State: 'CA',
-      Manager: 'Daniel Fox',
+      Manager: 'Eddie Sampson',
       ZipCode: '92227',
       City: 'Brawley',
-      Address: '1300 Main St',
+      Address: '',
       Phone: '951-787-6884   ',
       Email: 'dfox@kvltires.com',
       bgimage: mapPlaceholderimg,
@@ -1739,7 +1766,7 @@ export const MapData1 = [
       Manager: 'Tim Gant',
       ZipCode: '78045',
       City: 'Laredo',
-      Address: '8115 Las Cruces Dr',
+      Address: '',
       Phone: '972-741-2606',
       Email: 'tgant@kvltires.com',
       bgimage: LaredoTexasM,
@@ -1747,33 +1774,33 @@ export const MapData1 = [
     },
   },
 
-  {
-    id: 20,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [42.2373151, -83.3094285],
-    },
-    timing: [
-      'Monday: 7:30AM - 5:00PM',
-      'Tuesday: 7:30AM - 5:00PM',
-      'Wednesday: 7:30AM - 5:00PM',
-      'Thursday: 7:30AM - 5:00PM',
-      'Friday: 7:30AM - 5:00PM',
-      'Saturday & Sunday: Closed',
-    ],
-    properties: {
-      State: 'MI',
-      Manager: 'Telly Ingram',
-      ZipCode: '48180',
-      City: 'Taylor',
-      Address: '9445 Inkster Rd',
-      Phone: '951-834-2907',
-      Email: 'tingram@kvltires.com',
-      bgimage: TaylormichigabM,
-      url: 'https://www.google.com/maps/place/9445+Inkster+Rd,+Taylor,+MI+48180,+USA/@42.2373151,-83.3094285,17z/data=!3m1!4b1!4m5!3m4!1s0x883b48e26460bb7f:0x58f5d02d24efb430!8m2!3d42.2373111!4d-83.3072398',
-    },
-  },
+  // {
+  //   id: 20,
+  //   type: 'Feature',
+  //   geometry: {
+  //     type: 'Point',
+  //     coordinates: [42.2373151, -83.3094285],
+  //   },
+  //   timing: [
+  //     'Monday: 7:30AM - 5:00PM',
+  //     'Tuesday: 7:30AM - 5:00PM',
+  //     'Wednesday: 7:30AM - 5:00PM',
+  //     'Thursday: 7:30AM - 5:00PM',
+  //     'Friday: 7:30AM - 5:00PM',
+  //     'Saturday & Sunday: Closed',
+  //   ],
+  //   properties: {
+  //     State: 'MI',
+  //     Manager: 'Telly Ingram',
+  //     ZipCode: '48180',
+  //     City: 'Taylor',
+  //     Address: '9445 Inkster Rd',
+  //     Phone: '951-834-2907',
+  //     Email: 'tingram@kvltires.com',
+  //     bgimage: TaylormichigabM,
+  //     url: 'https://www.google.com/maps/place/9445+Inkster+Rd,+Taylor,+MI+48180,+USA/@42.2373151,-83.3094285,17z/data=!3m1!4b1!4m5!3m4!1s0x883b48e26460bb7f:0x58f5d02d24efb430!8m2!3d42.2373111!4d-83.3072398',
+  //   },
+  // },
   {
     id: 21,
     type: 'Feature',
@@ -1794,8 +1821,8 @@ export const MapData1 = [
       Manager: 'Telly Ingram',
       ZipCode: '45215',
       City: 'Cincinnati',
-      Address: '603 Shephard Dr',
-      Phone: '951-834-2907',
+      Address: '',
+      Phone: '',
       Email: 'tingram@kvltires.com',
       bgimage: ohioM,
       url: 'https://www.google.com/maps/place/603+Shepherd+Dr,+Cincinnati,+OH+45215,+USA/@39.2352997,-84.4635713,17z/data=!3m1!4b1!4m5!3m4!1s0x88404da19b4311b1:0x9d9adb6d3b891a25!8m2!3d39.2352956!4d-84.4613826',
