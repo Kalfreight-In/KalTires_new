@@ -115,7 +115,7 @@ import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.png',
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
 
@@ -128,7 +128,7 @@ export const HomeSliderData = [
   },
   {
     id: 2,
-    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-2.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
 
@@ -142,7 +142,7 @@ export const HomeSliderData = [
 
   {
     id: 3,
-    img: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-3.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
     Heading: 'Looking for new tires for your fleet?  ',
     desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
