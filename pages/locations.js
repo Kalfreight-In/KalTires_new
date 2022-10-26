@@ -266,7 +266,7 @@ const location = () => {
             <img
               src="https://media.giphy.com/media/lOTz29pS3qPKnV8QEe/giphy.gif"
               className="h-12 w-12  rotate-90"
-            ></img>
+            />
           </div>
 
           <div className="flex items-center justify-center md:justify-end">
@@ -405,7 +405,7 @@ const location = () => {
                                       </p>
                                     ) : (
                                       <div className="font-normal text-md">
-                                        Comming Soon
+                                        Coming Soon
                                       </div>
                                     )}
                                   </div>
@@ -424,7 +424,7 @@ const location = () => {
                                   </div>
                                 ) : (
                                   <div className="font-normal text-md">
-                                    Comming Soon
+                                    Coming Soon
                                   </div>
                                 )}
                               </div>
@@ -443,7 +443,7 @@ const location = () => {
                                 </div>
                               ) : (
                                 <div className="font-normal text-md">
-                                  Comming Soon
+                                  Coming Soon
                                 </div>
                               )}
 
@@ -473,7 +473,7 @@ const location = () => {
                                 </div>
                               ) : (
                                 <div className="font-normal text-md">
-                                  Comming Soon
+                                  Coming Soon
                                 </div>
                               )}
                             </div>
