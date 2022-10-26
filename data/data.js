@@ -109,6 +109,8 @@ import arlingtonM from '../Assets/bgImage/arlingtonM.png';
 import LaredoTexasM from '../Assets/bgImage/LaredoTexasM.png';
 import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.png';
 import ohioM from '../Assets/bgImage/ohioM.png';
+import Lastone from '../Assets/bgImage/Lastone.jpg';
+import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
 
 export const HomeSliderData = [
   {
@@ -1469,9 +1471,36 @@ export const MapData1 = [
       url: 'https://www.google.com/maps/place/1300+Main+St,+Brawley,+CA+92227,+USA/@32.9777939,-115.5215828,17z/data=!3m1!4b1!4m5!3m4!1s0x80d75af57513204f:0x58810c2a2f533073!8m2!3d32.9777894!4d-115.5193941',
     },
   },
-
   {
     id: 10,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [33.8974742, -118.0571323],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    properties: {
+      State: 'CA',
+      Manager: 'Rudy Martinez',
+      ZipCode: '90670',
+      City: 'Santa Fe Springs',
+      Address: '13000 Firestone Blvd',
+      Phone: '909-306-5571',
+      Email: 'rmartinez@kvltiers.com',
+      bgimage: Lasttwo,
+      url: 'https://www.google.com/maps/place/13000+Firestone+Blvd,+Santa+Fe+Springs,+CA+90670,+USA/@33.8974742,-118.0571323,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2cdac36e267f:0xa27555cc218de61!8m2!3d33.8974698!4d-118.0549436',
+    },
+  },
+
+  {
+    id: 11,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1498,7 +1527,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 11,
+    id: 12,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1526,7 +1555,7 @@ export const MapData1 = [
   },
 
   {
-    id: 12,
+    id: 13,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1553,7 +1582,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 13,
+    id: 14,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1580,7 +1609,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 14,
+    id: 15,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1608,7 +1637,7 @@ export const MapData1 = [
   },
 
   {
-    id: 15,
+    id: 16,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1635,7 +1664,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 16,
+    id: 17,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1662,7 +1691,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 17,
+    id: 18,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1802,7 +1831,7 @@ export const MapData1 = [
   //   },
   // },
   {
-    id: 21,
+    id: 20,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1826,6 +1855,33 @@ export const MapData1 = [
       Email: 'tingram@kvltires.com',
       bgimage: ohioM,
       url: 'https://www.google.com/maps/place/603+Shepherd+Dr,+Cincinnati,+OH+45215,+USA/@39.2352997,-84.4635713,17z/data=!3m1!4b1!4m5!3m4!1s0x88404da19b4311b1:0x9d9adb6d3b891a25!8m2!3d39.2352956!4d-84.4613826',
+    },
+  },
+  {
+    id: 21,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [33.4227171, -112.0664996],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    properties: {
+      State: 'AZ',
+      Manager: '',
+      ZipCode: '',
+      City: 'Phoenix',
+      Address: '',
+      Phone: '',
+      Email: '',
+      bgimage: Lastone,
+      url: 'https://www.google.com/maps/place/2611+S+7th+St,+Phoenix,+AZ+85034,+USA/@33.4227171,-112.0664996,17z/data=!3m1!4b1!4m5!3m4!1s0x872b11c23edcd8e9:0x94817094b2214971!8m2!3d33.4227126!4d-112.0643109',
     },
   },
 ];
