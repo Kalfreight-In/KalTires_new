@@ -369,7 +369,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                   ) : null}
                 </div>
               ) : (
-                <div className="text-sm mt-2">Comming soon</div>
+                <div className="text-sm mt-2">Coming soon</div>
               )}
             </div>
           </Popup>
