@@ -7,6 +7,8 @@ import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.png';
 import AgriculturalTires from '../../Assets/Images/Home/AgriculturalTires.png';
 import CommercialTire from '../../Assets/Images/Home/CommercialTires.png';
 import OTRTires from '../../Assets/Images/Home/OTRTires.png';
+import industrialtire from '../../Assets/Images/Home/industrialtire_logo.png';
+
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const AboutUs = () => {
@@ -187,11 +189,11 @@ export const AboutUs = () => {
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
                       <div className="px-6">
-                        <Image src={OTRTires} alt="OTR Tires" />
+                        <Image src={industrialtire} alt="OTR Tires" />
                       </div>
 
                       <h2 className="text-center font-poppins text-sm">
-                        Industrial tire <br />
+                        Industrial Tires <br />
                       </h2>
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">

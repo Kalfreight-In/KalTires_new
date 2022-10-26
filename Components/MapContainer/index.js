@@ -134,13 +134,15 @@ export const MapConatiner = () => {
   // if (!isBrowser) {
   //   return null;
   // }
-
+  Array.prototype.insert = function (index, item) {
+    this.splice(index, 0, item);
+  };
   const [visibilities, setVisibilities] = useState(() =>
     MapData1.map((x) => false)
   );
 
   const [Cvisibilities, setCVisibilities] = useState(() =>
-    MapData2.map((x) => true)
+    MapData2.map((x) => false)
   );
   // Similar to componentDidMount and componentDidUpdate:
   // useEffect(() => {
@@ -160,9 +162,16 @@ export const MapConatiner = () => {
       setShowDropdownCa(!ShowDropdownCa);
     } else {
       const index = parseInt(event.currentTarget.dataset.index, 10);
-      const newVisibilities = [...visibilities];
 
-      newVisibilities[index] = !newVisibilities[index];
+      const newVisibilities = Array(visibilities.length);
+      newVisibilities.forEach((index) => {
+        newVisibilities[index] = false;
+      });
+      // newVisibilities[index] = !newVisibilities[index];
+
+      newVisibilities.insert(index, !newVisibilities[index]);
+      console.log(`${newVisibilities}changes in that`);
+
       setVisibilities(newVisibilities);
       console.log(`outside CA ${city}`);
 
@@ -332,71 +341,298 @@ export const MapConatiner = () => {
                 </div> */}
                 {isDesktop ? (
                   <div className="overflow-auto h-mapScrollheightFull scrollbar">
-                    {MapData1.map((value, index) => (
-                      <div key={value.id}>
-                        <Divlink
-                          data-index={index}
-                          onClick={(e) =>
-                            handleClick(
-                              e,
-                              value.geometry.coordinates,
-                              value.properties.City,
-                              'US'
-                            )
-                          }
-                        >
-                          <Link
-                            href="/#Map_SvgContainer"
-                            className={
-                              visibilities[index]
-                                ? 'text-black font-bold'
-                                : 'text-black font-bold'
+                    {MapData1.map((value, index, MapData1) =>
+                      MapData1[index + 1]?.properties.City ===
+                      value.properties.City ? (
+                        <div>
+                          <div key={value.id}>
+                            <Divlink
+                              data-index={index}
+                              onClick={(e) =>
+                                handleClick(
+                                  e,
+                                  value.geometry.coordinates,
+                                  value.properties.City,
+                                  'US'
+                                )
+                              }
+                            >
+                              <Link
+                                href="/#Map_SvgContainer"
+                                className={
+                                  visibilities[index]
+                                    ? 'text-black font-bold'
+                                    : 'text-black font-bold'
+                                }
+                              >
+                                {value.properties.City}
+                              </Link>
+
+                              <span>
+                                {visibilities[index] ? <BiMinus /> : <BsPlus />}
+
+                                {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                              </span>
+                            </Divlink>
+                            <div
+                              className={`Transition-Height-${
+                                visibilities[index] ? 'in' : 'out'
+                              }`}
+                              onClick={() =>
+                                setMapocation(value.geometry.coordinates)
+                              }
+                            >
+                              <ul>
+                                {visibilities[index] ? (
+                                  value.properties.Address ? (
+                                    <div className="text-neutral-500 h-32  ml-8 lg:text-md block   mb-2 ">
+                                      <div key={value.id}>
+                                        <Divlink
+                                          data-index={index}
+                                          onClick={(e) =>
+                                            handleClick(
+                                              e,
+                                              value.geometry.coordinates,
+                                              value.properties.City,
+                                              'US'
+                                            )
+                                          }
+                                        >
+                                          <Link href="/#Map_SvgContainer">
+                                            <div
+                                              className={
+                                                visibilities[index]
+                                                  ? 'text-zinc-500 font-bold'
+                                                  : 'text-zinc-500 font-bold'
+                                              }
+                                            >
+                                              {value.properties.City} 1
+                                            </div>
+                                          </Link>
+
+                                          <span>
+                                            {visibilities[index] ? (
+                                              <BiMinus />
+                                            ) : (
+                                              <BsPlus />
+                                            )}
+
+                                            {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                          </span>
+                                        </Divlink>
+                                        <div
+                                          className={`Transition-Height-${
+                                            visibilities[index] ? 'in' : 'out'
+                                          }`}
+                                          onClick={() =>
+                                            setMapocation(
+                                              value.geometry.coordinates
+                                            )
+                                          }
+                                        >
+                                          <ul>
+                                            {visibilities[index] ? (
+                                              value.properties.Address ? (
+                                                <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                                  {' '}
+                                                  {
+                                                    value.properties.Address
+                                                  }, {value.properties.City},{' '}
+                                                  {value.properties.State}{' '}
+                                                  {value.properties.ZipCode}
+                                                  <span>
+                                                    {visibilities[index] ? (
+                                                      <BiMinus />
+                                                    ) : (
+                                                      <BsPlus />
+                                                    )}
+
+                                                    {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                                  </span>
+                                                </div>
+                                              ) : (
+                                                <div>Comming soon</div>
+                                              )
+                                            ) : null}
+                                          </ul>
+                                        </div>
+                                      </div>
+                                      <div key={value.id}>
+                                        <Divlink
+                                          data-index={index}
+                                          onClick={(e) =>
+                                            handleClick(
+                                              e,
+                                              MapData1[index + 1]?.geometry
+                                                .coordinates,
+                                              MapData1[index + 1]?.properties
+                                                .City,
+                                              'US'
+                                            )
+                                          }
+                                        >
+                                          <Link
+                                            href="/#Map_SvgContainer"
+                                            className={
+                                              visibilities[index]
+                                                ? 'text-black font-bold'
+                                                : 'text-black font-bold'
+                                            }
+                                          >
+                                            <div
+                                              className={
+                                                visibilities[index]
+                                                  ? 'text-zinc-500 font-bold'
+                                                  : 'text-zinc-500 font-bold'
+                                              }
+                                            >
+                                              {
+                                                MapData1[index + 1].properties
+                                                  .City
+                                              }{' '}
+                                              2
+                                            </div>
+                                          </Link>
+
+                                          <span>
+                                            {visibilities[index] ? (
+                                              <BiMinus />
+                                            ) : (
+                                              <BsPlus />
+                                            )}
+
+                                            {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                          </span>
+                                        </Divlink>
+                                        <div
+                                          className={`Transition-Height-${
+                                            visibilities[index] ? 'in' : 'out'
+                                          }`}
+                                          onClick={() =>
+                                            setMapocation(
+                                              value.geometry.coordinates
+                                            )
+                                          }
+                                        >
+                                          <ul>
+                                            {visibilities[index] ? (
+                                              value.properties.Address ? (
+                                                <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                                  {' '}
+                                                  {
+                                                    MapData1[index + 1]
+                                                      ?.properties.Address
+                                                  }
+                                                  ,{' '}
+                                                  {
+                                                    MapData1[index + 1]
+                                                      ?.properties.City
+                                                  }
+                                                  ,{' '}
+                                                  {
+                                                    MapData1[index + 1]
+                                                      ?.properties.State
+                                                  }{' '}
+                                                  {
+                                                    MapData1[index + 1]
+                                                      ?.properties.ZipCode
+                                                  }
+                                                  <span>
+                                                    {visibilities[index] ? (
+                                                      <BiMinus />
+                                                    ) : (
+                                                      <BsPlus />
+                                                    )}
+
+                                                    {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                                  </span>
+                                                </div>
+                                              ) : (
+                                                <div>Comming soon</div>
+                                              )
+                                            ) : null}
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  ) : (
+                                    <div>Comming soon</div>
+                                  )
+                                ) : null}
+                              </ul>
+                            </div>
+                          </div>
+                          <div></div>
+                        </div>
+                      ) : value.properties.City ===
+                          MapData1[index + 1]?.properties.City ||
+                        value.properties.City ===
+                          MapData1[index - 1]?.properties.City ? null : (
+                        <div key={value.id}>
+                          <Divlink
+                            data-index={index}
+                            onClick={(e) =>
+                              handleClick(
+                                e,
+                                value.geometry.coordinates,
+                                value.properties.City,
+                                'US'
+                              )
                             }
                           >
-                            {value.properties.City}
-                          </Link>
+                            <Link
+                              href="/#Map_SvgContainer"
+                              className={
+                                visibilities[index]
+                                  ? 'text-black font-bold'
+                                  : 'text-black font-bold'
+                              }
+                            >
+                              {value.properties.City}
+                            </Link>
 
-                          <span>
-                            {visibilities[index] ? <BiMinus /> : <BsPlus />}
+                            <span>
+                              {visibilities[index] ? <BiMinus /> : <BsPlus />}
 
-                            {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                          </span>
-                        </Divlink>
-                        <div
-                          className={`Transition-Height-${
-                            visibilities[index] ? 'in' : 'out'
-                          }`}
-                          onClick={() =>
-                            setMapocation(value.geometry.coordinates)
-                          }
-                        >
-                          <ul>
-                            {visibilities[index] ? (
-                              value.properties.Address ? (
-                                <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
-                                  {' '}
-                                  {value.properties.Address},{' '}
-                                  {value.properties.City},{' '}
-                                  {value.properties.State}{' '}
-                                  {value.properties.ZipCode}
-                                  <span>
-                                    {visibilities[index] ? (
-                                      <BiMinus />
-                                    ) : (
-                                      <BsPlus />
-                                    )}
+                              {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                            </span>
+                          </Divlink>
+                          <div
+                            className={`Transition-Height-${
+                              visibilities[index] ? 'in' : 'out'
+                            }`}
+                            onClick={() =>
+                              setMapocation(value.geometry.coordinates)
+                            }
+                          >
+                            <ul>
+                              {visibilities[index] ? (
+                                value.properties.Address ? (
+                                  <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                    {' '}
+                                    {value.properties.Address},{' '}
+                                    {value.properties.City},{' '}
+                                    {value.properties.State}{' '}
+                                    {value.properties.ZipCode}
+                                    <span>
+                                      {visibilities[index] ? (
+                                        <BiMinus />
+                                      ) : (
+                                        <BsPlus />
+                                      )}
 
-                                    {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                                  </span>
-                                </div>
-                              ) : (
-                                <div>Comming soon</div>
-                              )
-                            ) : null}
-                          </ul>
+                                      {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                                    </span>
+                                  </div>
+                                ) : (
+                                  <div>Comming soon</div>
+                                )
+                              ) : null}
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                    ))}
+                      )
+                    )}
                   </div>
                 ) : (
                   <>

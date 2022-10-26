@@ -8,6 +8,7 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
 import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
 import { useStateContext } from '../../context/StateContext';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -45,6 +46,9 @@ const Contactform = () => {
   //       }, 1000);
   //     }
   //   }
+  // }, []);
+  // useEffect(() => {
+  //   loadReCaptcha();
   // }, []);
   const resetForm = (e) => {
     setName('');
@@ -294,6 +298,11 @@ const Contactform = () => {
                   />
                 </div>
               </div>
+              <ReCAPTCHA
+                sitekey="6LeCGLIiAAAAAKRyJeoCsg5gAaDf9CqCfzW75gHx"
+                // onChange={onChange}
+              />
+              ,{/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
               <div className="flex justify-center md:justify-start ">
                 <div
                   id="submitallbutton"
