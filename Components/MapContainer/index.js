@@ -390,7 +390,7 @@ export const MapConatiner = () => {
                                   </span>
                                 </div>
                               ) : (
-                                <div>Comming soon</div>
+                                <div>Coming soon</div>
                               )
                             ) : null}
                           </ul>
