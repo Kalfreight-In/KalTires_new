@@ -115,19 +115,6 @@ import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.png',
-    Heading: 'Off-The-Road Tires',
-    desc: 'Tires For The Toughest Driving Conditions',
-
-    CTA1: {
-      heading: 'Explore',
-      Slink: '/tires-services',
-      link: '/tires-services',
-    },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
-  },
-  {
-    id: 2,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
@@ -136,6 +123,19 @@ export const HomeSliderData = [
       heading: 'Contact Us',
       Slink: '/#CanadaContact',
       link: '/#CanadaContact',
+    },
+    CTA12: { heading: 'Inventory', link: 'contactus' },
+  },
+  {
+    id: 2,
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.png',
+    Heading: 'Off-The-Road Tires',
+    desc: 'Tires For The Toughest Driving Conditions',
+
+    CTA1: {
+      heading: 'Explore',
+      Slink: '/tires-services',
+      link: '/tires-services',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
