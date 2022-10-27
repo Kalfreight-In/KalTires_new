@@ -23,10 +23,14 @@ const Gradients = styled.div`
 
 const HeroSection = ({ data }) => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
+  const isMobile = useMediaQuery('(max-width:768px)');
   return (
     <HeroContainer>
       <Gradients />
-      <HeroBg className=" mt-0 " BackgroundImage={data.img} />
+      <HeroBg
+        className=" mt-0 "
+        BackgroundImage={isMobile ? data.imgMobile : data.img}
+      />
       <HeroContent>
         <div className=" lg:pl-20  pl-0 lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
           <div className="lg:flex flex-row lg:mx-0 mx-16">
