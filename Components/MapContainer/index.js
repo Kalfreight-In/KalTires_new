@@ -2,6 +2,7 @@ import React, { useEffect, useReducer, useState } from 'react';
 import styled from 'styled-components';
 import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
@@ -385,41 +386,8 @@ export const MapConatiner = () => {
                               <ul>
                                 {visibilities[index] ? (
                                   value.properties.Address ? (
-                                    <div className="text-neutral-500 h-32  ml-8 lg:text-md block   mb-2 ">
+                                    <div className="text-neutral-500 h-16   ml-4 lg:text-md block   mb-2 ">
                                       <div key={value.id}>
-                                        <Divlink
-                                          data-index={index}
-                                          onClick={(e) =>
-                                            handleClick(
-                                              e,
-                                              value.geometry.coordinates,
-                                              value.properties.City,
-                                              'US'
-                                            )
-                                          }
-                                        >
-                                          <Link href="/#Map_SvgContainer">
-                                            <div
-                                              className={
-                                                visibilities[index]
-                                                  ? 'text-zinc-500 font-bold'
-                                                  : 'text-zinc-500 font-bold'
-                                              }
-                                            >
-                                              {value.properties.City} 1
-                                            </div>
-                                          </Link>
-
-                                          <span>
-                                            {visibilities[index] ? (
-                                              <BiMinus />
-                                            ) : (
-                                              <BsPlus />
-                                            )}
-
-                                            {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                                          </span>
-                                        </Divlink>
                                         <div
                                           className={`Transition-Height-${
                                             visibilities[index] ? 'in' : 'out'
@@ -433,18 +401,25 @@ export const MapConatiner = () => {
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
-                                                <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                                <div
+                                                  onClick={() => {}}
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-8 cursor-pointer  lg:text-md    mb-2 "
+                                                >
                                                   {' '}
                                                   {
                                                     value.properties.Address
                                                   }, {value.properties.City},{' '}
                                                   {value.properties.State}{' '}
                                                   {value.properties.ZipCode}
-                                                  <span>
+                                                  <span className="text-center pr-2 ">
                                                     {visibilities[index] ? (
-                                                      <BiMinus />
+                                                      <div className="text-blue-500">
+                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                      </div>
                                                     ) : (
-                                                      <BsPlus />
+                                                      <div className="text-blue-500">
+                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                      </div>
                                                     )}
 
                                                     {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
@@ -456,54 +431,6 @@ export const MapConatiner = () => {
                                             ) : null}
                                           </ul>
                                         </div>
-                                      </div>
-                                      <div key={value.id}>
-                                        <Divlink
-                                          data-index={index}
-                                          onClick={(e) =>
-                                            handleClick(
-                                              e,
-                                              MapData1[index + 1]?.geometry
-                                                .coordinates,
-                                              MapData1[index + 1]?.properties
-                                                .City,
-                                              'US'
-                                            )
-                                          }
-                                        >
-                                          <Link
-                                            href="/#Map_SvgContainer"
-                                            className={
-                                              visibilities[index]
-                                                ? 'text-black font-bold'
-                                                : 'text-black font-bold'
-                                            }
-                                          >
-                                            <div
-                                              className={
-                                                visibilities[index]
-                                                  ? 'text-zinc-500 font-bold'
-                                                  : 'text-zinc-500 font-bold'
-                                              }
-                                            >
-                                              {
-                                                MapData1[index + 1].properties
-                                                  .City
-                                              }{' '}
-                                              2
-                                            </div>
-                                          </Link>
-
-                                          <span>
-                                            {visibilities[index] ? (
-                                              <BiMinus />
-                                            ) : (
-                                              <BsPlus />
-                                            )}
-
-                                            {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                                          </span>
-                                        </Divlink>
                                         <div
                                           className={`Transition-Height-${
                                             visibilities[index] ? 'in' : 'out'
@@ -517,7 +444,10 @@ export const MapConatiner = () => {
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
-                                                <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                                <div
+                                                  onClick={() => {}}
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-8 cursor-pointer  lg:text-md    mb-2 "
+                                                >
                                                   {' '}
                                                   {
                                                     MapData1[index + 1]
@@ -537,11 +467,15 @@ export const MapConatiner = () => {
                                                     MapData1[index + 1]
                                                       ?.properties.ZipCode
                                                   }
-                                                  <span>
+                                                  <span className="text-center pr-2">
                                                     {visibilities[index] ? (
-                                                      <BiMinus />
+                                                      <div className="text-blue-500">
+                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                      </div>
                                                     ) : (
-                                                      <BsPlus />
+                                                      <div className="text-blue-500">
+                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                      </div>
                                                     )}
 
                                                     {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}

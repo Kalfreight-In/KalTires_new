@@ -1609,6 +1609,33 @@ export const MapData1 = [
     },
   },
   {
+    id: 14,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [39.0917756, -94.6779375],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    properties: {
+      State: 'KS',
+      Manager: 'Rupinder Dhillon',
+      ZipCode: '66106',
+      City: 'Kansas City',
+      Address: '336 S 42nd Street',
+      Phone: '316-393-2153',
+      Email: 'rupinder@kalgroup.com',
+      bgimage: kansasMisoouriM,
+      url: 'https://www.google.com/maps/place/336+S+42nd+St,+Kansas+City,+KS+66106,+USA/@39.0917756,-94.6779375,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0f25a9cef34f9:0x885edb2b21b86c12!8m2!3d39.0917756!4d-94.6779375',
+    },
+  },
+  {
     id: 15,
     type: 'Feature',
     geometry: {

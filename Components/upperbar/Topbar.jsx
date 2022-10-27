@@ -24,7 +24,7 @@ const Topbar = ({ toggle, postion }) => {
           <Link href="/">
             <div
               className={`${
-                postion.y === 0 && isDesktop ? '-mt-8' : '-mt-0'
+                postion.y === 0 && isDesktop ? '-mt-12' : '-mt-0'
               } transition-all duration-300 ease-in    ${
                 postion.y === 0 ? 'h-20 w-56' : 'h-20 w-44'
               } `}
@@ -54,7 +54,7 @@ const Topbar = ({ toggle, postion }) => {
             className="text-white flex-1 justify-end hidden lg:flex items-end -mb-4 pb-6  "
             href="tel:+1-800-808-0025"
           >
-            <span className="align-bottom pr-8 pb-1">
+            <span className="align-bottom pr-8 pb-1 text-xl">
               Call for Emergency Road Service
             </span>
             {/* <a

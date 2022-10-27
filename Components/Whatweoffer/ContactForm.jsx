@@ -7,6 +7,7 @@ import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
 import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -251,6 +252,10 @@ const Contactform = () => {
                     />
                   </div>
                 </div>
+                <ReCAPTCHA
+                  sitekey="6LeCGLIiAAAAAKRyJeoCsg5gAaDf9CqCfzW75gHx"
+                  // onChange={onChange}
+                />
                 <div className="flex justify-center md:justify-start">
                   <div
                     id="submitallbutton"

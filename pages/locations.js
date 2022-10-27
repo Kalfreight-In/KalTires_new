@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 // import { Link } from 'react-scroll';
+import { AniArrow } from './../Assets/Icons/Arrow.gif';
 import { LocalBusinessJsonLd } from 'next-seo';
 import dynamic from 'next/dynamic';
 import { RiPhoneFill } from 'react-icons/ri';
@@ -263,10 +264,9 @@ const location = () => {
             <h1 className="text-white mr-2 font-semibold text-2xl ">
               Search Your Nearest Location
             </h1>
-            <img
-              src="https://media.giphy.com/media/lOTz29pS3qPKnV8QEe/giphy.gif"
-              className="h-12 w-12  rotate-90"
-            />
+            <div className="h-12 w-12  rotate-90">
+              <Image src={require('./../Assets/Icons/Arrow.gif')} />
+            </div>
           </div>
 
           <div className="flex items-center justify-center md:justify-end">
