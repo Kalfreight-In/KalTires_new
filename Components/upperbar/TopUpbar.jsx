@@ -25,7 +25,7 @@ export const MondayToFridayContainer = styled.div`
   justify-content: center;
   width: 60vw;
   margin-right: -15rem;
-  padding: 8px 0px;
+  // padding: 8px 0px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
   background-color: #000000;
 `;
@@ -127,8 +127,13 @@ const TopUpbar = () => {
           </div>
         </div>
         <div className="animate-pulse">
-          <MondayToFridayContainer className="text-black font-bold pl-20  ">
-            " "<span className="text-black pl-2">7:30AM - 5:00PM</span>
+          <MondayToFridayContainer className="text-black font-bold   ">
+            <img
+              src="https://media.tenor.com/aLgQw5HZ2pMAAAAi/dazzle-car-detailing.gif"
+              width="48"
+              height="92"
+            ></img>
+            {/* " "<span className="text-black pl-2">7:30AM - 5:00PM</span> */}
           </MondayToFridayContainer>
         </div>
 

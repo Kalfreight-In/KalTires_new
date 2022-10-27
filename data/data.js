@@ -726,7 +726,7 @@ export const IndustrialTiresdatan = [
     idmain: 'EarthmoverTires',
     idmainMtab: 'EarthmoverTiresTwo',
     Alttag: 'Earthmover Tires for sale',
-    pr: 8,
+    pr: 0,
   },
   {
     id: '6',
@@ -1213,10 +1213,11 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: true,
     properties: {
       State: 'CA',
       Manager: 'Rudy Martinez',
-      TOW: 'Destribution Center',
+      TOW: 'Distribution center',
       ZipCode: '92335',
 
       City: 'Fontana',
@@ -1243,6 +1244,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Rudy Martinez',
@@ -1272,6 +1274,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'David Szymanski',
@@ -1300,6 +1303,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Jaime Rodriguez',
@@ -1328,6 +1332,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Daniel Fox',
@@ -1356,6 +1361,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: true,
     properties: {
       State: 'CA',
       Manager: 'Adriana Vasquez',
@@ -1384,6 +1390,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Adriana Vasquez',
@@ -1412,10 +1419,11 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Rajinder Tanda',
-      TOW: 'Destribution Center',
+      TOW: 'Distribution center',
       ZipCode: '95330',
       City: 'Lathrop',
       Address: '17100 S Harlan Rd',
@@ -1440,6 +1448,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Roger Negrete',
@@ -1468,6 +1477,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Eddie Sampson',
@@ -1496,6 +1506,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'CA',
       Manager: 'Rudy Martinez',
@@ -1525,6 +1536,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'AR',
       Manager: 'Clayton Whelchel',
@@ -1536,6 +1548,36 @@ export const MapData1 = [
       Email: 'clayton@kaltrailers.com',
       bgimage: springdaleArkansasM,
       url: 'https://www.google.co.in/maps/place/1080+W+Henri+De+Tonti+Blvd,+Springdale,+AR+72762,+USA/@36.1781487,-94.254271,17z/data=!3m1!4b1!4m5!3m4!1s0x87c972b7967b5855:0xc59619ee1ceb2cc0!8m2!3d36.1781444!4d-94.2520823?hl=en',
+    },
+  },
+
+  {
+    id: 24,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [39.857384, -85.4099292],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    multi: true,
+    properties: {
+      State: 'IN',
+      Manager: 'Telly Ingram',
+      TOW: '',
+      ZipCode: '47362',
+      City: 'Indianapolis',
+      Address: '5080 S County RD 125 W New Castle',
+      Phone: '951-834-2907 ',
+      Email: 'tingram@kvltires.com',
+      bgimage: indianapolistM,
+      url: 'https://www.google.co.in/maps/place/5080+S+County+Rd+125+W,+New+Castle,+IN+47362,+USA/@39.857384,-85.4099292,219m/data=!3m2!1e3!4b1!4m5!3m4!1s0x886acd0e55bc1013:0x76a9bd7d7842e68!8m2!3d39.857383!4d-85.409382?hl=en',
     },
   },
   {
@@ -1553,10 +1595,11 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'IN',
       Manager: 'Telly Ingram',
-      TOW: 'Destribution Center',
+      TOW: 'Distribution center',
       ZipCode: '46254',
       City: 'Indianapolis',
       Address: '4641 Lafayette Ave',
@@ -1566,35 +1609,6 @@ export const MapData1 = [
       url: 'https://www.google.co.in/maps/place/4641+Lafayette+Rd,+Indianapolis,+IN+46254,+USA/@39.8399802,-86.2502276,17z/data=!3m1!4b1!4m5!3m4!1s0x886b55fd130f8613:0x8feef59d5c0456c5!8m2!3d39.8399761!4d-86.2480389?hl=en',
     },
   },
-  {
-    id: 24,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [39.857384, -85.4099292],
-    },
-    timing: [
-      'Monday: 7:30AM - 5:00PM',
-      'Tuesday: 7:30AM - 5:00PM',
-      'Wednesday: 7:30AM - 5:00PM',
-      'Thursday: 7:30AM - 5:00PM',
-      'Friday: 7:30AM - 5:00PM',
-      'Saturday & Sunday: Closed',
-    ],
-    properties: {
-      State: 'IN',
-      Manager: 'Telly Ingram',
-      TOW: '',
-      ZipCode: '47362',
-      City: 'Indianapolis',
-      Address: '5080 S County RD 125 W New Castle',
-      Phone: '951-834-2907 ',
-      Email: 'tingram@kvltires.com',
-      bgimage: indianapolistM,
-      url: 'https://www.google.co.in/maps/place/5080+S+County+Rd+125+W,+New+Castle,+IN+47362,+USA/@39.857384,-85.4099292,219m/data=!3m2!1e3!4b1!4m5!3m4!1s0x886acd0e55bc1013:0x76a9bd7d7842e68!8m2!3d39.857383!4d-85.409382?hl=en',
-    },
-  },
-
   {
     id: 13,
     type: 'Feature',
@@ -1610,6 +1624,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'IN',
       Manager: 'Greg Watson',
@@ -1638,6 +1653,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: true,
     properties: {
       State: 'MO',
       Manager: 'Rupinder Dhillon',
@@ -1666,6 +1682,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'KS',
       Manager: 'Rupinder Dhillon',
@@ -1694,6 +1711,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'NJ',
       Manager: 'Steve Malia',
@@ -1723,6 +1741,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'GA',
       Manager: 'Antonio Campbell',
@@ -1751,6 +1770,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'GA',
       Manager: 'Antonio Campbell',
@@ -1779,6 +1799,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'TX',
       Manager: 'Greg Wright',
@@ -1808,10 +1829,11 @@ export const MapData1 = [
   //     'Saturday: Closed',
   //     'Sunday: Closed',
   //   ],
-  //   properties: {
+  //   multi: false,
+  // properties: {
   //     State: 'TX',
   //     Manager: 'Tim Gant',
-  //     TOW: 'Destribution Center',
+  //     TOW: 'Distribution center',
 
   //     City: 'Arlington  ',
   //     Address: '600 109th St Suite B',
@@ -1838,10 +1860,11 @@ export const MapData1 = [
   //     'Saturday: Closed',
   //     'Sunday: Closed',
   //   ],
-  //   properties: {
+  //   multi: false,
+  // properties: {
   //     State: 'IN',
   //     Manager: 'Telly Ingram',
-  //     TOW: 'Destribution Center',
+  //     TOW: 'Distribution center',
 
   //     City: 'Indianapolis',
   //     Address: '2916 Bluff Rd Blg. 6',
@@ -1867,6 +1890,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'TX',
       Manager: 'Tim Gant',
@@ -1896,10 +1920,11 @@ export const MapData1 = [
   //     'Friday: 7:30AM - 5:00PM',
   //     'Saturday & Sunday: Closed',
   //   ],
-  //   properties: {
+  //   multi: false,
+  // properties: {
   //     State: 'MI',
   //     Manager: 'Telly Ingram',
-  //     TOW: 'Destribution Center',
+  //     TOW: 'Distribution center',
 
   //     City: 'Taylor',
   //     Address: '9445 Inkster Rd',
@@ -1924,6 +1949,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'OH',
       Manager: 'Telly Ingram',
@@ -1952,6 +1978,7 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'AZ',
       Manager: '',
@@ -1982,6 +2009,7 @@ export const MapData2 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'BC',
       Manager: 'Colin Menzel',
@@ -2010,6 +2038,7 @@ export const MapData2 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
+    multi: false,
     properties: {
       State: 'AB',
       Manager: 'Arthur Pierce',
@@ -2039,10 +2068,11 @@ export const MapData2 = [
   //     'Saturday: Closed',a
   //     'Sunday: Closed',
   //   ],
-  //   properties: {
+  //   multi: false,
+  // properties: {
   //     State: 'AB',
   //     Manager: '',
-  //     TOW: 'Destribution Center',
+  //     TOW: 'Distribution center',
 
   //     City: 'Edmonton',
   //     Address: '',

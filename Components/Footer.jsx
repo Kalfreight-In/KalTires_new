@@ -76,7 +76,7 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="p-8  md:p-0  justify-center xl:hidden flex ">
+      <div className="xl:p-8 p-32  md:p-0  justify-center xl:hidden flex ">
         <Link href="/" passHref>
           <Image
             src={kvlTirelogo}
