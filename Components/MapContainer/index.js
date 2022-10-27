@@ -154,9 +154,12 @@ export const MapConatiner = () => {
   const handleClick = (event, coordinates, city, country) => {
     if (country === 'CA') {
       const index = parseInt(event.currentTarget.dataset.index, 10);
-      const newCVisibilities = [...Cvisibilities];
-
-      newCVisibilities[index] = !newCVisibilities[index];
+      const newCVisibilities = Array(Cvisibilities.length);
+      newCVisibilities.forEach((index) => {
+        newCVisibilities[index] = false;
+      });
+      newCVisibilities.insert(index, !newCVisibilities[index]);
+      // newCVisibilities[index] = !newCVisibilities[index];
       setCVisibilities(newCVisibilities);
       console.log(`inside CA ${city}`);
       setCaFeaatureCat(city);
@@ -171,7 +174,7 @@ export const MapConatiner = () => {
       // newVisibilities[index] = !newVisibilities[index];
 
       newVisibilities.insert(index, !newVisibilities[index]);
-      console.log(`${newVisibilities}changes in that`);
+      // console.log(`${newVisibilities}changes in that`);
 
       setVisibilities(newVisibilities);
       console.log(`outside CA ${city}`);

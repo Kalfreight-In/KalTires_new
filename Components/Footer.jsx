@@ -76,10 +76,12 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="xl:p-8 p-32  md:p-0  justify-center xl:hidden flex ">
+      <div className="pt-8    justify-center xl:hidden flex ">
         <Link href="/" passHref>
           <Image
             src={kvlTirelogo}
+            height={100}
+            width={250}
             alt="logo"
             className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
           />
