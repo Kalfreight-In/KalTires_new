@@ -390,7 +390,10 @@ const location = () => {
                                 {value.properties.Address ? (
                                   <div className="mb-2 w-locationsection">
                                     <span className="font-semibold text-md">
-                                      KVL Tires
+                                      KVL Tires{' '}
+                                      {value.properties.TOW
+                                        ? `- ${value.properties.TOW}`
+                                        : null}
                                     </span>
                                     <p className=" font-normal text-md">
                                       {`${value.properties.Address}${', '}  ${
@@ -405,7 +408,7 @@ const location = () => {
                                       </p>
                                     ) : (
                                       <div className="font-normal text-md">
-                                        Coming Soon
+                                        {/* Coming Soon */}
                                       </div>
                                     )}
                                   </div>
@@ -423,7 +426,7 @@ const location = () => {
                                     </p>
                                   </div>
                                 ) : (
-                                  <div className="font-normal text-md">
+                                  <div className="text-xl font-bold">
                                     Coming Soon
                                   </div>
                                 )}
@@ -442,8 +445,8 @@ const location = () => {
                                   </div>
                                 </div>
                               ) : (
-                                <div className="font-normal text-md">
-                                  Coming Soon
+                                <div className=" text-xl font-bold">
+                                  {/* Coming Soon */}
                                 </div>
                               )}
 
@@ -473,7 +476,7 @@ const location = () => {
                                 </div>
                               ) : (
                                 <div className="font-normal text-md">
-                                  Coming Soon
+                                  {/* Coming Soon */}
                                 </div>
                               )}
                             </div>

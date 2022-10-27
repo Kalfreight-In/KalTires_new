@@ -544,22 +544,30 @@ export const MapConatiner = () => {
                             <ul>
                               {visibilities[index] ? (
                                 value.properties.Address ? (
-                                  <div className="text-neutral-500 h-4   lg:text-md block   mb-2 ">
+                                  <a
+                                    href={value.properties.url}
+                                    target="_blank"
+                                    className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-8 cursor-pointer  lg:text-md    mb-2 "
+                                  >
                                     {' '}
                                     {value.properties.Address},{' '}
                                     {value.properties.City},{' '}
                                     {value.properties.State}{' '}
                                     {value.properties.ZipCode}
-                                    <span>
+                                    <span className="text-center pr-2">
                                       {visibilities[index] ? (
-                                        <BiMinus />
+                                        <div className="text-blue-500">
+                                          <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                        </div>
                                       ) : (
-                                        <BsPlus />
+                                        <div className="text-blue-500">
+                                          <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                        </div>
                                       )}
 
                                       {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                     </span>
-                                  </div>
+                                  </a>
                                 ) : (
                                   <div>Coming soon</div>
                                 )

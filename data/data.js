@@ -731,7 +731,7 @@ export const IndustrialTiresdatan = [
   {
     id: '6',
     img: six,
-    heading: 'OTR Tire',
+    heading: 'Off The Road Tires',
     idmain: 'OTR',
     idmainMtab: 'LightTruckTiresTwo',
     Alttag: 'Best Selling Light Truck Tires',
@@ -1216,6 +1216,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Rudy Martinez',
+      TOW: 'Destribution Center',
       ZipCode: '92335',
 
       City: 'Fontana',
@@ -1245,6 +1246,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Rudy Martinez',
+      TOW: '',
       ZipCode: '92335',
 
       City: 'Fontana',
@@ -1273,6 +1275,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'David Szymanski',
+      TOW: '',
       ZipCode: '92078',
       City: 'San Marcos',
       Address: '160 Industrial St',
@@ -1300,6 +1303,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Jaime Rodriguez',
+      TOW: '',
       ZipCode: '93308',
       City: 'Bakersfield',
       Address: '3401 N Sillect Ave',
@@ -1327,6 +1331,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Daniel Fox',
+      TOW: '',
       ZipCode: '92507',
       City: 'Riverside',
       Address: '3011 E. La Cadena Dr',
@@ -1354,6 +1359,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Adriana Vasquez',
+      TOW: '',
       ZipCode: '92231',
       City: 'Calexico',
       Address: '840 Emerson Ave',
@@ -1381,6 +1387,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Adriana Vasquez',
+      TOW: '',
       ZipCode: '92231',
       City: 'Calexico',
       Address: '165 W. 5th St',
@@ -1408,6 +1415,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Rajinder Tanda',
+      TOW: 'Destribution Center',
       ZipCode: '95330',
       City: 'Lathrop',
       Address: '17100 S Harlan Rd',
@@ -1435,6 +1443,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Roger Negrete',
+      TOW: '',
       ZipCode: '94587',
       City: 'Union City',
       Address: '',
@@ -1462,6 +1471,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Eddie Sampson',
+      TOW: '',
       ZipCode: '92227',
       City: 'Brawley',
       Address: '',
@@ -1489,6 +1499,7 @@ export const MapData1 = [
     properties: {
       State: 'CA',
       Manager: 'Rudy Martinez',
+      TOW: '',
       ZipCode: '90670',
       City: 'Santa Fe Springs',
       Address: '13000 Firestone Blvd',
@@ -1517,6 +1528,7 @@ export const MapData1 = [
     properties: {
       State: 'AR',
       Manager: 'Clayton Whelchel',
+      TOW: '',
       ZipCode: '72762',
       City: 'Springdale',
       Address: '1080 W. Henri De Tonti Blvd',
@@ -1544,6 +1556,7 @@ export const MapData1 = [
     properties: {
       State: 'IN',
       Manager: 'Telly Ingram',
+      TOW: 'Destribution Center',
       ZipCode: '46254',
       City: 'Indianapolis',
       Address: '4641 Lafayette Ave',
@@ -1551,6 +1564,34 @@ export const MapData1 = [
       Email: 'tingram@kvltires.com',
       bgimage: indianapolistM,
       url: 'https://www.google.co.in/maps/place/4641+Lafayette+Rd,+Indianapolis,+IN+46254,+USA/@39.8399802,-86.2502276,17z/data=!3m1!4b1!4m5!3m4!1s0x886b55fd130f8613:0x8feef59d5c0456c5!8m2!3d39.8399761!4d-86.2480389?hl=en',
+    },
+  },
+  {
+    id: 24,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [39.857384, -85.4099292],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+      'Saturday & Sunday: Closed',
+    ],
+    properties: {
+      State: 'IN',
+      Manager: 'Telly Ingram',
+      TOW: '',
+      ZipCode: '47362',
+      City: 'Indianapolis',
+      Address: '5080 S County RD 125 W New Castle',
+      Phone: '951-834-2907 ',
+      Email: 'tingram@kvltires.com',
+      bgimage: indianapolistM,
+      url: 'https://www.google.co.in/maps/place/5080+S+County+Rd+125+W,+New+Castle,+IN+47362,+USA/@39.857384,-85.4099292,219m/data=!3m2!1e3!4b1!4m5!3m4!1s0x886acd0e55bc1013:0x76a9bd7d7842e68!8m2!3d39.857383!4d-85.409382?hl=en',
     },
   },
 
@@ -1572,6 +1613,7 @@ export const MapData1 = [
     properties: {
       State: 'IN',
       Manager: 'Greg Watson',
+      TOW: '',
       ZipCode: '46225',
       City: 'Indianapolis',
       Address: '2916 Bluff Rd Blg. 6',
@@ -1599,6 +1641,7 @@ export const MapData1 = [
     properties: {
       State: 'MO',
       Manager: 'Rupinder Dhillon',
+      TOW: '',
       ZipCode: '64120',
       City: 'Kansas City',
       Address: '4700 Deramus Avenue',
@@ -1626,6 +1669,7 @@ export const MapData1 = [
     properties: {
       State: 'KS',
       Manager: 'Rupinder Dhillon',
+      TOW: '',
       ZipCode: '66106',
       City: 'Kansas City',
       Address: '336 S 42nd Street',
@@ -1653,6 +1697,7 @@ export const MapData1 = [
     properties: {
       State: 'NJ',
       Manager: 'Steve Malia',
+      TOW: '',
       ZipCode: '08827',
       City: 'Hampton',
       Address: '15 NJ Route 173',
@@ -1681,6 +1726,7 @@ export const MapData1 = [
     properties: {
       State: 'GA',
       Manager: 'Antonio Campbell',
+      TOW: '',
       ZipCode: '30354',
       City: 'Atlanta',
       Address: '3435 Jonesboro Rd SE',
@@ -1708,6 +1754,7 @@ export const MapData1 = [
     properties: {
       State: 'GA',
       Manager: 'Antonio Campbell',
+      TOW: '',
       ZipCode: '30288',
       City: 'Conley',
       Address: '4285 Moreland Ave',
@@ -1735,6 +1782,7 @@ export const MapData1 = [
     properties: {
       State: 'TX',
       Manager: 'Greg Wright',
+      TOW: '',
       ZipCode: '76011',
       City: 'Arlington',
       Address: '600 109th St Suite B',
@@ -1763,7 +1811,8 @@ export const MapData1 = [
   //   properties: {
   //     State: 'TX',
   //     Manager: 'Tim Gant',
-  //     ZipCode: '76011',
+  //     TOW: 'Destribution Center',
+
   //     City: 'Arlington  ',
   //     Address: '600 109th St Suite B',
   //     Phone: '972-741-2606',
@@ -1792,7 +1841,8 @@ export const MapData1 = [
   //   properties: {
   //     State: 'IN',
   //     Manager: 'Telly Ingram',
-  //     ZipCode: '46225',
+  //     TOW: 'Destribution Center',
+
   //     City: 'Indianapolis',
   //     Address: '2916 Bluff Rd Blg. 6',
   //     Phone: '317-520-8545',
@@ -1820,6 +1870,7 @@ export const MapData1 = [
     properties: {
       State: 'TX',
       Manager: 'Tim Gant',
+      TOW: '',
       ZipCode: '78045',
       City: 'Laredo',
       Address: '',
@@ -1848,7 +1899,8 @@ export const MapData1 = [
   //   properties: {
   //     State: 'MI',
   //     Manager: 'Telly Ingram',
-  //     ZipCode: '48180',
+  //     TOW: 'Destribution Center',
+
   //     City: 'Taylor',
   //     Address: '9445 Inkster Rd',
   //     Phone: '951-834-2907',
@@ -1875,6 +1927,7 @@ export const MapData1 = [
     properties: {
       State: 'OH',
       Manager: 'Telly Ingram',
+      TOW: '',
       ZipCode: '45215',
       City: 'Cincinnati',
       Address: '',
@@ -1902,6 +1955,7 @@ export const MapData1 = [
     properties: {
       State: 'AZ',
       Manager: '',
+      TOW: '',
       ZipCode: '',
       City: 'Phoenix',
       Address: '',
@@ -1931,6 +1985,7 @@ export const MapData2 = [
     properties: {
       State: 'BC',
       Manager: 'Colin Menzel',
+      TOW: '',
       ZipCode: 'V2S 7P1',
       City: 'Abbotsford',
       Address: '1225 Riverside Rd',
@@ -1958,6 +2013,7 @@ export const MapData2 = [
     properties: {
       State: 'AB',
       Manager: 'Arthur Pierce',
+      TOW: '',
       ZipCode: 'T2C 2R4',
       City: 'Calgary',
       Address: '9115 52 St SE',
@@ -1986,7 +2042,8 @@ export const MapData2 = [
   //   properties: {
   //     State: 'AB',
   //     Manager: '',
-  //     ZipCode: '',
+  //     TOW: 'Destribution Center',
+
   //     City: 'Edmonton',
   //     Address: '',
   //     Phone: '',
