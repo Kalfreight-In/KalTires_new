@@ -401,8 +401,9 @@ export const MapConatiner = () => {
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
-                                                <div
-                                                  onClick={() => {}}
+                                                <a
+                                                  href={value.properties.url}
+                                                  target="_blank"
                                                   className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-8 cursor-pointer  lg:text-md    mb-2 "
                                                 >
                                                   {' '}
@@ -424,7 +425,7 @@ export const MapConatiner = () => {
 
                                                     {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                                   </span>
-                                                </div>
+                                                </a>
                                               ) : (
                                                 <div>Comming soon</div>
                                               )
@@ -444,8 +445,9 @@ export const MapConatiner = () => {
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
-                                                <div
-                                                  onClick={() => {}}
+                                                <a
+                                                  href={value.properties.url}
+                                                  target="_blank"
                                                   className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-8 cursor-pointer  lg:text-md    mb-2 "
                                                 >
                                                   {' '}
@@ -480,7 +482,7 @@ export const MapConatiner = () => {
 
                                                     {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                                   </span>
-                                                </div>
+                                                </a>
                                               ) : (
                                                 <div>Comming soon</div>
                                               )
