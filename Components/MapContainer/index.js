@@ -562,7 +562,7 @@ export const MapConatiner = () => {
                               </ul>
                             </div>
                           </div>
-                          <div></div>
+                          <div />
                         </div>
                       ) : value.properties.City ===
                           MapData1[index + 1]?.properties.City ||

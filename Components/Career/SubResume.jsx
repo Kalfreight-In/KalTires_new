@@ -17,7 +17,7 @@ export const SubResume = () => {
           <div id="maincontentresume">
             <div id="innermaincontentresume" className="text-center">
               <h4 className="text-2xl font-bold text-resumeheading font-poppins">
-                Join our diversified team and make a difference!
+                Join our team and make a difference!
               </h4>
             </div>
           </div>
