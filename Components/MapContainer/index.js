@@ -436,7 +436,7 @@ export const MapConatiner = () => {
                                                       value.properties.ZipCode
                                                     );
                                                   }}
-                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
                                                 >
                                                   {' '}
                                                   {
@@ -486,7 +486,7 @@ export const MapConatiner = () => {
                                                     );
                                                   }}
                                                   target="_blank"
-                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
                                                 >
                                                   {' '}
                                                   {
@@ -553,7 +553,7 @@ export const MapConatiner = () => {
                                                           .properties.ZipCode
                                                       );
                                                     }}
-                                                    className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
+                                                    className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
                                                   >
                                                     {' '}
                                                     {
@@ -656,7 +656,7 @@ export const MapConatiner = () => {
                                         value.properties.ZipCode
                                       );
                                     }}
-                                    className=" flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
+                                    className=" flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
                                   >
                                     {' '}
                                     {value.properties.Address},{' '}
