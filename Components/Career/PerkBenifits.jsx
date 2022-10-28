@@ -85,7 +85,7 @@ export const PerkBenifits = () => {
                         </h4>
                         <p
                           //  className="pt-12 pt pb-8 lg:text-sm font-normal pl-8 text-left h-36 font-Helvetica text-neutral-500"
-                          className="pt-12 pt pb-8 lg:text-sm font-normal  text-justify  whitespace-normal px-8 h-36 font-Helvetica text-neutral-500"
+                          className="pt-6 pt pb-2 lg:text-sm font-normal  text-left  whitespace-normal px-8 h-36 font-Helvetica text-neutral-500"
                         >
                           {data.desc}
                         </p>
