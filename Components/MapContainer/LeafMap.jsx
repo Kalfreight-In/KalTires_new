@@ -77,7 +77,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
   const DataS = [...Data, ...Data2];
   const [officeListss, setofficeListss] = useState(DataS);
   // console.log(`..........${officeListss[0]}`);
-  // console.log(`...........${location}`);
+  console.log(`...........${location}`);
   // function handleOnSerchResults(data) {
   //   console.log('serch Results', data);
   // }
