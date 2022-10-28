@@ -3,11 +3,11 @@ import axios from 'axios';
 import Image from 'next/image';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { motion } from 'framer-motion';
+import ReCAPTCHA from 'react-google-recaptcha';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
 import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -279,7 +279,7 @@ const Contactform = () => {
                           href="tel:8008080025"
                           className="cursor-pointer font-bold font-Helvetica"
                         >
-                          +1-800-808 0025
+                          +1-800-8080-0025
                         </a>
                       </p>
                     </div>
