@@ -3,12 +3,12 @@ import axios from 'axios';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
+import ReCAPTCHA from 'react-google-recaptcha';
 import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
 import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
 import { useStateContext } from '../../context/StateContext';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');

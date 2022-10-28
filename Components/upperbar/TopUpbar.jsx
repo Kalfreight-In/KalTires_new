@@ -128,11 +128,11 @@ const TopUpbar = () => {
         </div>
         <div className="animate-pulse">
           <MondayToFridayContainer className="text-black font-bold   ">
-            <img
+            {/* <img
               src="https://media.tenor.com/aLgQw5HZ2pMAAAAi/dazzle-car-detailing.gif"
               width="48"
               height="92"
-            ></img>
+            /> */}
             {/* " "<span className="text-black pl-2">7:30AM - 5:00PM</span> */}
           </MondayToFridayContainer>
         </div>
