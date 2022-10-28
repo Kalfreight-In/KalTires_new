@@ -187,7 +187,7 @@ export const AboutUs = () => {
                         {/* </h1> */}
                       </h1>
                     </div>
-                    <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
+                    <div className="flex flex-col bg-zinc-50  py-4 ml-4 ">
                       <div className="px-6">
                         <Image src={industrialtire} alt="OTR Tires" />
                       </div>

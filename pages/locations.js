@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 // import { Link } from 'react-scroll';
-import { AniArrow } from './../Assets/Icons/Arrow.gif';
 import { LocalBusinessJsonLd } from 'next-seo';
 import dynamic from 'next/dynamic';
 import { RiPhoneFill } from 'react-icons/ri';
@@ -11,6 +10,7 @@ import { MdEmail } from 'react-icons/md';
 import { scroller, Element } from 'react-scroll';
 import Head from 'next/head';
 import Image from 'next/image';
+import { AniArrow } from '../Assets/Icons/Arrow.gif';
 import { MapData1, MapData2 } from '../data/data';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 // import { useHover } from '../Hooks/Hover';
@@ -265,7 +265,7 @@ const location = () => {
               Search Your Nearest Location
             </h1>
             <div className="h-12 w-12  rotate-90">
-              <Image src={require('./../Assets/Icons/Arrow.gif')} />
+              <Image src={require('../Assets/Icons/Arrow.gif')} />
             </div>
           </div>
 
@@ -536,7 +536,7 @@ const location = () => {
                                 : 'text-white text-center font-bold text-lg ml-3'
                             }
                           >
-                            {`${value.properties.City} ${value.properties.State}`}
+                            {`${value.properties.City}, ${value.properties.State}`}
                           </h2>
                         </div>
 
