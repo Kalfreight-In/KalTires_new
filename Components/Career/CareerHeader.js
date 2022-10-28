@@ -60,7 +60,7 @@ export const CareerHeader = () => {
           }}
         >
           <h1 className="text-center flex justify-center items-end lg:h-careerheaderHeight h-careerheaderMobileH md:text-5xl xl:text-6xl text-4xl  font-poppins  font-bold text-white font-xl  pb-0 lg:pb-4   lg:mx-0 block-inline">
-            JOIN OUR DIVERSIFIED TEAM!
+            JOIN OUR <br></br>DIVERSIFIED TEAM!
           </h1>
         </div>
       </div>
