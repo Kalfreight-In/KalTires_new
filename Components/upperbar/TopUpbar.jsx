@@ -133,7 +133,7 @@ const TopUpbar = () => {
               width="48"
               height="92"
             /> */}
-            {/* " "<span className="text-black pl-2">7:30AM - 5:00PM</span> */}
+            " "<span className="text-black pl-2 p-2">7:30AM - 5:00PM</span>
           </MondayToFridayContainer>
         </div>
 
