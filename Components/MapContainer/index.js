@@ -12,6 +12,7 @@ import { MapData1, MapData2 } from '../../data/data';
 import { useHover } from '../../Hooks/Hover';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { toTitleCase } from '../../HelpFunctions/toTitlecase';
+import { useRouter } from 'next/router';
 
 // eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
@@ -135,6 +136,23 @@ export const MapConatiner = () => {
   // if (!isBrowser) {
   //   return null;
   // }
+  const router = useRouter();
+  function scrollToTargetAdjusted(target) {
+    if (window.location.pathname === '/') {
+      router.push({ pathname: '/locations', query: { scroll: target } });
+      return;
+    }
+    console.log(`lool${target}`);
+    const element = document.getElementById(target);
+    const headerOffset = 117;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }
   Array.prototype.insert = function (index, item) {
     this.splice(index, 0, item);
   };
@@ -346,9 +364,9 @@ export const MapConatiner = () => {
                 {isDesktop ? (
                   <div className="overflow-auto h-mapScrollheightFull scrollbar">
                     {MapData1.map((value, index, MapData1) =>
-                      MapData1[index + 1]?.properties.City !==
-                        value.properties.City &&
-                      value.properties.multi !== true ? (
+                      value.properties.City ==
+                        MapData1[index + 1]?.properties.City &&
+                      value.multi === true ? (
                         <div>
                           <div key={value.id}>
                             <Divlink
@@ -391,18 +409,18 @@ export const MapConatiner = () => {
                                 {visibilities[index] ? (
                                   value.properties.Address ? (
                                     <div
-                                      className={`text-neutral-500 ${
+                                      className={`text-neutral-500  ${
                                         MapData1[index + 2].properties.City ===
                                         MapData1[index + 1]?.properties.City
-                                          ? 'h-32'
-                                          : 'h-20'
-                                      }   ml-4 lg:text-md block   mb-2 `}
+                                          ? 'h-38'
+                                          : 'h-24'
+                                      }   ml-4 lg:text-md block   `}
                                     >
                                       <div key={value.id}>
                                         <div
                                           className={`Transition-Height-${
                                             visibilities[index] ? 'in' : 'out'
-                                          }`}
+                                          }   border-b-2 border-slate-300`}
                                           onClick={() =>
                                             setMapocation(
                                               value.geometry.coordinates
@@ -412,10 +430,13 @@ export const MapConatiner = () => {
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
-                                                <a
-                                                  href={value.properties.url}
-                                                  target="_blank"
-                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    mb-2 "
+                                                <div
+                                                  onClick={() => {
+                                                    scrollToTargetAdjusted(
+                                                      value.properties.ZipCode
+                                                    );
+                                                  }}
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
                                                 >
                                                   {' '}
                                                   {
@@ -436,61 +457,18 @@ export const MapConatiner = () => {
 
                                                     {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                                   </span>
-                                                </a>
+                                                </div>
                                               ) : (
                                                 <div>Comming soon</div>
                                               )
                                             ) : null}
                                           </ul>
                                         </div>
-                                        <div
-                                          className={`Transition-Height-${
-                                            visibilities[index] ? 'in' : 'out'
-                                          }`}
-                                          onClick={() =>
-                                            setMapocation(
-                                              value.geometry.coordinates
-                                            )
-                                          }
-                                        >
-                                          <ul>
-                                            {visibilities[index] ? (
-                                              value.properties.Address ? (
-                                                <a
-                                                  href={value.properties.url}
-                                                  target="_blank"
-                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    mb-2 "
-                                                >
-                                                  {' '}
-                                                  {
-                                                    value.properties.Address
-                                                  }, {value.properties.City},{' '}
-                                                  {value.properties.State}{' '}
-                                                  {value.properties.ZipCode}
-                                                  <span className="text-center pr-2 ">
-                                                    {visibilities[index] ? (
-                                                      <div className="text-blue-500">
-                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
-                                                      </div>
-                                                    ) : (
-                                                      <div className="text-blue-500">
-                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
-                                                      </div>
-                                                    )}
 
-                                                    {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
-                                                  </span>
-                                                </a>
-                                              ) : (
-                                                <div>Comming soon</div>
-                                              )
-                                            ) : null}
-                                          </ul>
-                                        </div>
                                         <div
                                           className={`Transition-Height-${
                                             visibilities[index] ? 'in' : 'out'
-                                          }`}
+                                          } border-b-2 border-slate-300`}
                                           onClick={() =>
                                             setMapocation(
                                               value.geometry.coordinates
@@ -500,10 +478,15 @@ export const MapConatiner = () => {
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
-                                                <a
-                                                  href={value.properties.url}
+                                                <div
+                                                  onClick={() => {
+                                                    scrollToTargetAdjusted(
+                                                      MapData1[index + 1]
+                                                        .properties.ZipCode
+                                                    );
+                                                  }}
                                                   target="_blank"
-                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    mb-2 "
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
                                                 >
                                                   {' '}
                                                   {
@@ -524,10 +507,10 @@ export const MapConatiner = () => {
                                                     MapData1[index + 1]
                                                       ?.properties.ZipCode
                                                   }
-                                                  {
+                                                  {/* {
                                                     MapData1[index + 2]
                                                       .properties.Address
-                                                  }
+                                                  } */}
                                                   <span className="text-center pr-2">
                                                     {visibilities[index] ? (
                                                       <div className="text-blue-500">
@@ -541,7 +524,7 @@ export const MapConatiner = () => {
 
                                                     {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                                   </span>
-                                                </a>
+                                                </div>
                                               ) : (
                                                 <div>Comming soon</div>
                                               )
@@ -553,7 +536,7 @@ export const MapConatiner = () => {
                                           <div
                                             className={`Transition-Height-${
                                               visibilities[index] ? 'in' : 'out'
-                                            }`}
+                                            } `}
                                             onClick={() =>
                                               setMapocation(
                                                 value.geometry.coordinates
@@ -563,10 +546,14 @@ export const MapConatiner = () => {
                                             <ul>
                                               {visibilities[index] ? (
                                                 value.properties.Address ? (
-                                                  <a
-                                                    href={value.properties.url}
-                                                    target="_blank"
-                                                    className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    mb-2 "
+                                                  <div
+                                                    onClick={() => {
+                                                      scrollToTargetAdjusted(
+                                                        MapData1[index + 2]
+                                                          .properties.ZipCode
+                                                      );
+                                                    }}
+                                                    className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
                                                   >
                                                     {' '}
                                                     {
@@ -600,7 +587,7 @@ export const MapConatiner = () => {
 
                                                       {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                                     </span>
-                                                  </a>
+                                                  </div>
                                                 ) : (
                                                   <div>Comming soon</div>
                                                 )
@@ -663,10 +650,13 @@ export const MapConatiner = () => {
                             <ul>
                               {visibilities[index] ? (
                                 value.properties.Address ? (
-                                  <a
-                                    href={value.properties.url}
-                                    target="_blank"
-                                    className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    mb-2 "
+                                  <div
+                                    onClick={() => {
+                                      scrollToTargetAdjusted(
+                                        value.properties.ZipCode
+                                      );
+                                    }}
+                                    className=" flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-2 "
                                   >
                                     {' '}
                                     {value.properties.Address},{' '}
@@ -686,7 +676,7 @@ export const MapConatiner = () => {
 
                                       {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
                                     </span>
-                                  </a>
+                                  </div>
                                 ) : (
                                   <div>Coming soon</div>
                                 )
