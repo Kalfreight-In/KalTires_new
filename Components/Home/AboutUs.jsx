@@ -197,7 +197,7 @@ export const AboutUs = () => {
                       {/* </div> */}
                     </div>
                     {/* <div id="twosamosa"> */}
-                    <div className="flex flex-col bg-zinc-50  py-4 mx-4 sm:mt-0 mt-4">
+                    <div className="flex flex-col bg-zinc-50  pt-4  sm:mt-0 mt-4 sm:ml-4 ">
                       <div className="px-6">
                         <Image src={OTRTires} alt="OTR Tires" />
                       </div>
@@ -206,7 +206,7 @@ export const AboutUs = () => {
                         OTR Tires <br />
                       </h2>
                     </div>
-                    <div className="flex flex-col bg-zinc-50 py-4  sm:mt-0 mt-4">
+                    <div className="flex flex-col bg-zinc-50 py-4 ml-4  sm:mt-0 mt-4">
                       <div className="px-6">
                         <Image
                           src={AgriculturalTires}
