@@ -450,7 +450,7 @@ const location = () => {
                                 </div>
                               )}
 
-                              <div className="lg:hidden block flex-center flex-col lg:w-1/4 pb-2">
+                              <div className="hidden flex-center flex-col lg:w-1/4 pb-2">
                                 <span className="text-black font-semibold text-lg">
                                   Hours
                                 </span>
@@ -605,7 +605,7 @@ const location = () => {
                                   ))}
                                 </div>
                               </div>
-                              <div className="lg:hidden block flex-center flex-col lg:w-1/4 pb-2">
+                              <div className="hidden  flex-center flex-col lg:w-1/4 pb-2">
                                 <span className="text-black font-semibold text-lg">
                                   Hours
                                 </span>
