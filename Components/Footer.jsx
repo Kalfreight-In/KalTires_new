@@ -165,7 +165,7 @@ const Footer = () => {
                     >
                       {' '}
                       <div className="text-sm   ">
-                        10156 Live Oak Ave Fontana, CA 92335
+                        10156 Live Oak Ave, Fontana, CA 92335
                       </div>{' '}
                     </a>
                   </div>
@@ -660,7 +660,7 @@ const Footer = () => {
                     >
                       {' '}
                       <div className="md:text-2xl text-lg font-semibold ">
-                        10156 Live Oak Ave Fontana, CA 92335
+                        10156 Live Oak Ave, Fontana, CA 92335
                       </div>{' '}
                     </a>
                   </div>
