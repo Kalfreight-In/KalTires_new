@@ -32,7 +32,7 @@ const HeroSection = ({ data }) => {
         BackgroundImage={isMobile ? data.imgMobile : data.img}
       />
       <HeroContent>
-        <div className=" lg:pl-20  pl-0 lg:-mb-20 2xl:-mb-0 md:pb-0 pb-8  lg:text-left md:text-center items-center">
+        <div className=" lg:pl-20  pl-0 lg:-mb-20 2xl:-mb-0 md:pb-0 pb-8  text-left">
           <div className="lg:flex flex-row lg:mx-0 md:ml-0 ml-8 md:mr-0 mr-4">
             <div className=" sm:block " />
 

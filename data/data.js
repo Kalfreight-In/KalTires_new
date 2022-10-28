@@ -151,7 +151,7 @@ export const HomeSliderData = [
     id: 3,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
     imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Slidermobilethree.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
     Heading: 'Looking for new tires for your fleet?  ',
     desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 

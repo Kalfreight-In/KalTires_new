@@ -143,7 +143,7 @@ export const HeroContent = styled.div`
 
   @media only screen and (max-width: 768px) {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: end;
   }
 
