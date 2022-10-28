@@ -347,7 +347,12 @@ const Contactform = () => {
       </div>
 
       {isDesktop ? (
-        <Image src={mainimage} alt="Book An Appointment" objectFit="cover" />
+        <Image
+          src={mainimage}
+          alt="Book An Appointment"
+          objectFit="cover"
+          className="grayscale"
+        />
       ) : null}
     </div>
   );
