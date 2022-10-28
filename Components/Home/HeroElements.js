@@ -15,11 +15,11 @@ export const HeroContainer = styled.div`
   height: 70vh;
 
   z-index: 1;
-  @media screen and (max-width: 1025px) {
-    height: 50vh;
-  }
+  // @media screen and (max-width: 1025px) {
+  //   height: 50vh;
+  // }
   @media screen and (max-width: 1024px) {
-    height: 50vh;
+    height: 58vh;
   }
 `;
 export const ContainerMain = styled.div`
@@ -58,11 +58,11 @@ export const HeroBg = styled.div`
   width: 100vw;
   height: 70vh;
 
-  @media screen and (max-width: 1025px) {
-    height: 50vh;
-  }
+  // @media screen and (max-width: 1025px) {
+  //   height: 50vh;
+  // }
   @media screen and (max-width: 1024px) {
-    height: 50vh;
+    height: 58vh;
   }
 `;
 export const WWOCardContainer = styled.div`
@@ -139,6 +139,12 @@ export const HeroContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: end;
   }
 
   // div{

@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
-import Link from 'next/link';
+// import Link from 'next/link';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { HeroContainer, HeroContent, HeroBg } from './HeroElements';
@@ -32,8 +32,8 @@ const HeroSection = ({ data }) => {
         BackgroundImage={isMobile ? data.imgMobile : data.img}
       />
       <HeroContent>
-        <div className=" lg:pl-20  pl-0 lg:-mb-20 2xl:-mb-0 lg:text-left text-center items-center">
-          <div className="lg:flex flex-row lg:mx-0 mx-16">
+        <div className=" lg:pl-20  pl-0 lg:-mb-20 2xl:-mb-0 md:pb-0 pb-8  lg:text-left md:text-center items-center">
+          <div className="lg:flex flex-row lg:mx-0 md:ml-0 ml-8 md:mr-0 mr-4">
             <div className=" sm:block " />
 
             <div
@@ -90,7 +90,7 @@ const HeroSection = ({ data }) => {
               {/* <div className="lg:border-l-4 border-y-amber-400 " /> */}
 
               {data.CTA1 ? (
-                <div className="lg:mt-10 mt-16 text-lg flex justify-center lg:justify-start ">
+                <div className="md:mt-10 mt-4 text-lg flex justify-start md:justify-center   lg:justify-start ">
                   <a
                     href={isDesktop ? data.CTA1.Slink : data.CTA1.link}
                     className="flex flex-row justify-center lg:justify-start"
@@ -112,7 +112,7 @@ const HeroSection = ({ data }) => {
           <div className="lg:border-l-2 border-x-amber-400 sm:block hidden" />
 
           <div className="lg:ml-8 ml-0">
-            <div className="2xl:text-2xl text-lg text-white font-xl">
+            <div className="2xl:text-2xl  text-lg text-white font-xl">
               Comprehensive, Consistent Convenient
             </div>
             <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">

@@ -27,6 +27,14 @@ const Contactform = () => {
   const [buttonText, setButtonText] = useState('Submit');
   const router = useRouter();
 
+  function formatPhoneNumber(phoneNumberString) {
+    const cleaned = `${phoneNumberString}`.replace(/\D/g, '');
+    const match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
+    if (match) {
+      return `(${match[1]}) ${match[2]}-${match[3]}`;
+    }
+    return null;
+  }
   // useEffect(() => {
   //   const query = window.location.hash;
   //   const target = query.split('#')[1];
@@ -213,7 +221,8 @@ const Contactform = () => {
                 >
                   <input
                     type="tel"
-                    pattern="^[0-9-+\s()]*$"
+                    // pattern={formatPhoneNumber}
+                    onClick={formatPhoneNumber}
                     maxLength="11"
                     minLength="10"
                     placeholder="Contact Number"
