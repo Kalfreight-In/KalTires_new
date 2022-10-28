@@ -410,7 +410,7 @@ export const MapConatiner = () => {
                                         MapData1[index + 2].properties.City ===
                                         MapData1[index + 1]?.properties.City
                                           ? 'h-38'
-                                          : 'h-24'
+                                          : 'h-26'
                                       }   ml-4 lg:text-md block   `}
                                     >
                                       <div key={value.id}>
@@ -423,7 +423,7 @@ export const MapConatiner = () => {
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
                                                 <div
-                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
+                                                  className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-16 cursor-pointer  lg:text-md    my-1 "
                                                   onClick={(e) =>
                                                     handleClick(
                                                       e,

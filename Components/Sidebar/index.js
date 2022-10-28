@@ -254,9 +254,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/locations">
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>
-          <aon href="/credit-application">
+          <a href="/credit-application">
             <SidebarLinkR onClick={toggle}>Credit Application</SidebarLinkR>
-          </aon>
+          </a>
           <Link href="/careers">
             <SidebarLinkR onClick={toggle}>Careers</SidebarLinkR>
           </Link>
