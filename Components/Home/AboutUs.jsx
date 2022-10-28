@@ -170,7 +170,7 @@ export const AboutUs = () => {
               </div>
               <div className="block h-auto">
                 <div>
-                  <div className="flex flex-row justify-center md:justify-start pt-4 md:flex-nowrap flex-wrap">
+                  <div className="flex flex-row justify-center md:justify-start pt-4 sm:flex-nowrap flex-wrap">
                     {/* <div id="onesamosa"> */}
                     <div className="flex flex-col bg-zinc-50  py-4  ">
                       <div className="px-6">
