@@ -293,12 +293,12 @@ const Contactform = () => {
                   />
                 </div>
                 <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
+                  className="w-full flex justify-center items-center   mb-0 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   <input
                     onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none outline-none font-Helvetica block w-full h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-non"
+                    className="appearance-none outline-none font-Helvetica block w-full h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-0 leading-tight focus:outline-non"
                     id="grid-first-name"
                     type="text"
                     value={message}
@@ -311,8 +311,8 @@ const Contactform = () => {
                 sitekey="6LeCGLIiAAAAAKRyJeoCsg5gAaDf9CqCfzW75gHx"
                 // onChange={onChange}
               />
-              ,{/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
-              <div className="flex justify-center md:justify-start ">
+              {/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
+              <div className="flex justify-center md:justify-start mt-2">
                 <div
                   id="submitallbutton"
                   // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
