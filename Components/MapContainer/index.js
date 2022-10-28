@@ -81,7 +81,7 @@ export const Divlink = styled.div`
   margin: 0rem;
   font-size: 1rem;
   padding: 0.5rem 0rem;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   // padding-right: 3rem;
   transition: 0.2s ease-in-out;
