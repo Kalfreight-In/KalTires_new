@@ -64,7 +64,7 @@ export const AboutUs = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="text-neutral-500 mt-5 2xl:text-lg xl:h-96  pr-4  overflow-y-scroll  lg:text-base text-sm  font-normal  font-Helvetica scrollbar   whitespace-normal text-justify">
+                  <div className="text-neutral-500 mt-5 2xl:text-lg lg:h-96  pr-4  overflow-y-scroll  lg:text-base text-sm  font-normal  font-Helvetica scrollbar   whitespace-normal text-justify">
                     Are you looking for quality tires for your fleet? Does a
                     blowout leave you stranded on your way? Are you looking for
                     24/7 roadside assistance? Are you short of time and unable

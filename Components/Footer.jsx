@@ -629,7 +629,7 @@ const Footer = () => {
                         rel="noreferrer"
                       >
                         {' '}
-                        <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
+                        <div className="md:text-xl text-lg font-bold xl:font-semibold  ">
                           +1-800-808-0025
                         </div>{' '}
                       </a>
@@ -659,7 +659,7 @@ const Footer = () => {
                       rel="noreferrer"
                     >
                       {' '}
-                      <div className="md:text-2xl text-lg font-semibold ">
+                      <div className="md:text-xl text-lg font-semibold ">
                         10156 Live Oak Ave, Fontana, CA 92335
                       </div>{' '}
                     </a>
