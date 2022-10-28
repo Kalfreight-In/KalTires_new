@@ -176,13 +176,13 @@ export const MapConatiner = () => {
       newCVisibilities.forEach((index) => {
         newCVisibilities[index] = false;
       });
-      newCVisibilities.insert(index, !newCVisibilities[index]);
+      newCVisibilities.insert(index, !Cvisibilities[index]);
       // newCVisibilities[index] = !newCVisibilities[index];
       setCVisibilities(newCVisibilities);
       console.log(`inside CA ${city}`);
       setCaFeaatureCat(city);
       setShowDropdownCa(!ShowDropdownCa);
-    } else {
+    } else if (country === 'US') {
       const index = parseInt(event.currentTarget.dataset.index, 10);
 
       const newVisibilities = Array(visibilities.length);
@@ -190,9 +190,9 @@ export const MapConatiner = () => {
         newVisibilities[index] = false;
       });
       // newVisibilities[index] = !newVisibilities[index];
-
-      newVisibilities.insert(index, !newVisibilities[index]);
-      // console.log(`${newVisibilities}changes in that`);
+      // console.log(`${visibilities}changes in that`);
+      newVisibilities.insert(index, !visibilities[index]);
+      console.log(`${newVisibilities}changes in that`);
 
       setVisibilities(newVisibilities);
       console.log(`outside CA ${city}`);
@@ -401,9 +401,6 @@ export const MapConatiner = () => {
                               className={`Transition-Height-${
                                 visibilities[index] ? 'in' : 'out'
                               }`}
-                              onClick={() =>
-                                setMapocation(value.geometry.coordinates)
-                              }
                             >
                               <ul>
                                 {visibilities[index] ? (
@@ -421,22 +418,21 @@ export const MapConatiner = () => {
                                           className={`Transition-Height-${
                                             visibilities[index] ? 'in' : 'out'
                                           }   border-b-2 border-slate-300`}
-                                          onClick={() =>
-                                            setMapocation(
-                                              value.geometry.coordinates
-                                            )
-                                          }
                                         >
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
                                                 <div
-                                                  onClick={() => {
-                                                    scrollToTargetAdjusted(
-                                                      value.properties.ZipCode
-                                                    );
-                                                  }}
                                                   className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
+                                                  onClick={(e) =>
+                                                    handleClick(
+                                                      e,
+                                                      value.geometry
+                                                        .coordinates,
+                                                      value.properties.City,
+                                                      'lol'
+                                                    )
+                                                  }
                                                 >
                                                   {' '}
                                                   {
@@ -469,24 +465,22 @@ export const MapConatiner = () => {
                                           className={`Transition-Height-${
                                             visibilities[index] ? 'in' : 'out'
                                           } border-b-2 border-slate-300`}
-                                          onClick={() =>
-                                            setMapocation(
-                                              value.geometry.coordinates
-                                            )
-                                          }
                                         >
                                           <ul>
                                             {visibilities[index] ? (
                                               value.properties.Address ? (
                                                 <div
-                                                  onClick={() => {
-                                                    scrollToTargetAdjusted(
-                                                      MapData1[index + 1]
-                                                        .properties.ZipCode
-                                                    );
-                                                  }}
-                                                  target="_blank"
                                                   className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
+                                                  onClick={(e) =>
+                                                    handleClick(
+                                                      e,
+                                                      MapData1[index + 1]
+                                                        .geometry.coordinates,
+                                                      MapData1[index + 1]
+                                                        .properties.City,
+                                                      'lol'
+                                                    )
+                                                  }
                                                 >
                                                   {' '}
                                                   {
@@ -537,23 +531,22 @@ export const MapConatiner = () => {
                                             className={`Transition-Height-${
                                               visibilities[index] ? 'in' : 'out'
                                             } `}
-                                            onClick={() =>
-                                              setMapocation(
-                                                value.geometry.coordinates
-                                              )
-                                            }
                                           >
                                             <ul>
                                               {visibilities[index] ? (
                                                 value.properties.Address ? (
                                                   <div
-                                                    onClick={() => {
-                                                      scrollToTargetAdjusted(
-                                                        MapData1[index + 2]
-                                                          .properties.ZipCode
-                                                      );
-                                                    }}
                                                     className="flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
+                                                    onClick={(e) =>
+                                                      handleClick(
+                                                        e,
+                                                        MapData1[index + 2]
+                                                          .geometry.coordinates,
+                                                        MapData1[index + 2]
+                                                          .properties.City,
+                                                        'lol'
+                                                      )
+                                                    }
                                                   >
                                                     {' '}
                                                     {
@@ -650,14 +643,7 @@ export const MapConatiner = () => {
                             <ul>
                               {visibilities[index] ? (
                                 value.properties.Address ? (
-                                  <div
-                                    onClick={() => {
-                                      scrollToTargetAdjusted(
-                                        value.properties.ZipCode
-                                      );
-                                    }}
-                                    className=" flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 "
-                                  >
+                                  <div className=" flex flex-row hover:bg-slate-200 items-center justify-between text-neutral-500 h-10 cursor-pointer  lg:text-md    my-1 ">
                                     {' '}
                                     {value.properties.Address},{' '}
                                     {value.properties.City},{' '}
@@ -708,10 +694,10 @@ export const MapConatiner = () => {
                     <div
                       className={`Transition-Height-${
                         ShowDropdown ? 'in' : 'out'
-                      }`}
+                      } `}
                     >
                       {ShowDropdown ? (
-                        <div className="flex flex-col">
+                        <div className="flex flex-col overflow-y-auto ">
                           {MapData1.map((value, index) => (
                             <Link href="/#Map_SvgContainer">
                               <button
@@ -729,6 +715,7 @@ export const MapConatiner = () => {
                               >
                                 <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
                                   {value.properties.City}
+                                  <div>{value.properties.Address}</div>
                                 </h4>
 
                                 <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
