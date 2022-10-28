@@ -7,6 +7,8 @@ const data = [
     id: 1,
     img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Credit/headercreditbanner.png',
     Heading: 'WE HELP YOU ACHIEVE YOUR DREAMS',
+    imgMobile:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Credit/headercreditbanner.png',
     // desc: 'WE HELP YOU ACHIEVE YOUR DREAMS',
 
     // CTA1: { heading: 'Apply Now', link: 'contactus' },
