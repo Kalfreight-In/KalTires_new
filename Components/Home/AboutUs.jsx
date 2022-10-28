@@ -170,7 +170,8 @@ export const AboutUs = () => {
               </div>
               <div className="block h-auto">
                 <div>
-                  <div className="flex flex-row justify-center md:justify-start pt-4">
+                  <div className="flex flex-row justify-center md:justify-start pt-4 md:flex-nowrap flex-wrap">
+                    {/* <div id="onesamosa"> */}
                     <div className="flex flex-col bg-zinc-50  py-4  ">
                       <div className="px-6">
                         <Image
@@ -181,10 +182,8 @@ export const AboutUs = () => {
                       </div>
 
                       <h1 className="text-center font-poppins text-sm">
-                        {/* <h1> */}
                         Commercial <br />
                         Tires
-                        {/* </h1> */}
                       </h1>
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 ml-4 ">
@@ -195,17 +194,19 @@ export const AboutUs = () => {
                       <h2 className="text-center font-poppins text-sm">
                         Industrial Tires <br />
                       </h2>
+                      {/* </div> */}
                     </div>
-                    <div className="flex flex-col bg-zinc-50  py-4 mx-4 ">
+                    {/* <div id="twosamosa"> */}
+                    <div className="flex flex-col bg-zinc-50  py-4 mx-4 sm:mt-0 mt-4">
                       <div className="px-6">
                         <Image src={OTRTires} alt="OTR Tires" />
                       </div>
 
-                      <h2 className="text-center font-poppins text-sm">
+                      <h2 className="text-center font-poppins text-sm ">
                         OTR Tires <br />
                       </h2>
                     </div>
-                    <div className="flex flex-col bg-zinc-50 py-4 ">
+                    <div className="flex flex-col bg-zinc-50 py-4  sm:mt-0 mt-4">
                       <div className="px-6">
                         <Image
                           src={AgriculturalTires}
@@ -219,6 +220,7 @@ export const AboutUs = () => {
                         Tires
                       </h2>
                     </div>
+                    {/* </div> */}
                   </div>
                 </div>
 
