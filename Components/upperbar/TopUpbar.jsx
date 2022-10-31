@@ -132,7 +132,7 @@ const TopUpbar = () => {
           <MondayToFridayContainer className="text-black font-bold   ">
             <motion.div
               animate={{ x: 1150 }}
-              transition={{ duration: 5, repeat: Infinity }}
+              transition={{ duration: 10, repeat: Infinity }}
             >
               <img
                 src="https://media.tenor.com/HXJBqcJG9-AAAAAj/demesmin-and-dover-accident-attorneys.gif"
