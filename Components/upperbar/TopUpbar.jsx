@@ -115,7 +115,7 @@ const TopUpbar = () => {
         </Link>
 
         <div className="ml-2 font-bold">
-          {/* <GoLocation color="white " /> */}
+          {/* <GoLocation color="white  comment " /> */}
           <div className="relative z-20">
             {isHover ? (
               <div className="absolute flex flex-col bg-white rounded-md p-6 w-48 pb-4">
