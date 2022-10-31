@@ -10,7 +10,7 @@ import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 import { useHover } from '../../Hooks/Hover';
 import whiteTruck from '../../Assets/whitetruck.png';
-import SilberTire from '../../Assets/silvertire.gif';
+// import SilberTire from '../../Assets/silvertire.gif';
 
 export const CreditAppContainer = styled.div`
   display: flex;
@@ -135,9 +135,13 @@ const TopUpbar = () => {
           <MondayToFridayContainer className="text-black font-bold   ">
             <motion.div
               animate={{ x: 1150 }}
-              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
+              transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
             >
-              <Image src={SilberTire} width={105} height={35} />
+              <Image
+                src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
+                width={30}
+                height={35}
+              />
             </motion.div>
           </MondayToFridayContainer>
         </div>
