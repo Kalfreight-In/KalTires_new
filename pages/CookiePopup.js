@@ -6,7 +6,7 @@ const CookiePopup = () => {
   const [Popup, setPopup] = useState(false);
   function SetCookies(pram) {
     localStorage.setItem('KvltireCokkies', pram);
-    setPopup(true);
+    setPopup(false);
     console.log(`current local popup ${Popup}`);
   }
   useEffect(() => {
@@ -15,7 +15,12 @@ const CookiePopup = () => {
     if (cookie) {
       setPopup(false);
       console.log(`current local popup ${false}`);
-    } else {
+    }
+    // if (cookie == null) {
+    //   setPopup(true);
+    //   console.log(`current local popup ${true}`);
+    // }
+    else {
       setPopup(true);
       console.log(`current local popup ${true}`);
     }
