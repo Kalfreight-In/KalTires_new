@@ -756,7 +756,7 @@ export const MapConatiner = () => {
               </h4>
             </div>
             <div className="md:bg-white bg-none pb-2 2xl:mr-20 xl:mr-20 lg:mr-20 md:pl-6 pl-0 md:pr-4 pr-0  mr-8">
-              <div id="CanadaContact">
+              <div id="ContactUsMain">
                 {isDesktop ? (
                   MapData2.map((value, index) => (
                     <a href="/#Map_SvgContainer" key={value.id}>

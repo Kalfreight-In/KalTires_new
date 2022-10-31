@@ -125,8 +125,8 @@ export const HomeSliderData = [
 
     CTA1: {
       heading: 'Contact Us',
-      Slink: '/#CanadaContact',
-      link: '/#CanadaContact',
+      Slink: '/#ContactUsMain',
+      link: '/#ContactUsMain',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
@@ -156,8 +156,8 @@ export const HomeSliderData = [
 
     CTA1: {
       heading: 'Contact Us',
-      Slink: '/#CanadaContact',
-      link: '/#CanadaContact',
+      Slink: '/#ContactUsMain',
+      link: '/#ContactUsMain',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
