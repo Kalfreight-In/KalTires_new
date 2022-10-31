@@ -87,7 +87,7 @@ const TopUpbar = () => {
   return (
     <div className="bg-tire-gray-3">
       <div className="flexBetween z-10  p-0 flex-row">
-        <Link href="/">
+        <Link href="/" passHref>
           <div className="flex flex-row flexCenter" ref={Hover}>
             {/* <div className="text-white font-bold ml-8">
               {' '}
