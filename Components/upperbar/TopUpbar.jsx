@@ -143,26 +143,6 @@ const TopUpbar = () => {
                 height={40}
               />
             </motion.div>
-            <motion.div
-              animate={{ x: 1050 }}
-              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
-            >
-              {/* <Image
-                src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
-                width={40}
-                height={40}
-              />
-            </motion.div>
-            <motion.div
-              animate={{ x: 1050 }}
-              transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
-            >
-              <Image
-                src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
-                width={40}
-                height={40}
-              /> */}
-            </motion.div>
           </MondayToFridayContainer>
         </div>
 
