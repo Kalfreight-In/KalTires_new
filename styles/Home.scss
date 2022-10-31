@@ -360,7 +360,8 @@
   }
 }
 .Transition-Height-in {
-  max-height: 700px;
+  max-height: 400px;
+  overflow-y: scroll;
   transition: max-height 0.95s ease-in;
   a {
     overflow: hidden;
