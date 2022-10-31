@@ -170,7 +170,7 @@ const Navbar = ({ toggle, postion }) => {
               }`}
             >
               <div
-                className={`text-black  2xl:text-lg xl:text-md  lg:text-sm ${
+                className={` 2xl:text-lg xl:text-md  lg:text-sm ${
                   router.pathname === '/careers'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'

@@ -703,7 +703,7 @@ export const MapConatiner = () => {
                       } `}
                     >
                       {ShowDropdown ? (
-                        <div className="flex flex-col overflow-y-auto ">
+                        <div className="flex flex-col scrollbar overflow-auto h-96  ">
                           {MapData1.map((value, index) => (
                             <Link href="/#Map_SvgContainer">
                               <button
