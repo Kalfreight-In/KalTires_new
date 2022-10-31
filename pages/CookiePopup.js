@@ -23,7 +23,7 @@ const CookiePopup = () => {
   return (
     <div>
       {Popup ? (
-        <div className="fixed bg-gray-100 px-12  flex  h-20  bottom-0  z-30   w-full drop-shadow-xl overflow-y-auto scrollbar justify-between  items-center">
+        <div className="fixed bg-gray-100 px-12  flex flex-col lg:flex-row  h-48 lg:h-20  bottom-0  z-30   w-full drop-shadow-xl overflow-y-auto scrollbar justify-between  items-center">
           {/* <AiOutlineClose
           className="cursor-pointer text-right right-0 absolute text-3xl text-red-500 font-bold animate-pulse"
           width={40}
@@ -33,12 +33,11 @@ const CookiePopup = () => {
           }}
         /> */}
 
-          <div className="flex flex-row justify-between items-center">
-            <div className=" text-2xl">
+          <div className="flex flex-col lg:flex-row justify-between items-center">
+            <div className=" text-sm">
               We use cookies on our website to give you the most relevant
               experience by remembering your preferences and repeat visits. By
-              clicking Accept, you consent to the use of ALL the cookies. Do not
-              sell my personal information.
+              clicking Accept, you consent to the use of ALL the cookies.
             </div>
           </div>
           <div className="flex ">
@@ -51,7 +50,7 @@ const CookiePopup = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-green-500 "
+                className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-gray-400 "
               >
                 <p>Accept</p>
               </motion.div>
@@ -65,7 +64,7 @@ const CookiePopup = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-kaltire-red"
+                className="text-white font-poppins  hover:border-0   font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow  hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-32 2xl:h-12 h-10 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out lg:bg-none bg-red-400"
               >
                 <p>Denied</p>
               </motion.div>
