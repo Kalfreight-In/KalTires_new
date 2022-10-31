@@ -17,6 +17,7 @@ import Sidebar from '../Components/Sidebar';
 import ErrorBoundary from '../Components/ErrorBoundary';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 import BottomBar from '../Components/Bottombar';
+import CookiePopup from './CookiePopup';
 
 const MyApp = ({ Component, pageProps }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -165,6 +166,7 @@ const MyApp = ({ Component, pageProps }) => {
         <ErrorBoundary>
           {!isDesktop ? <Sidebar isOpen={isOpen} toggle={toggle} /> : null}
         </ErrorBoundary>
+        <CookiePopup></CookiePopup>
       </StateContext>
       {/* </body> */}
     </>

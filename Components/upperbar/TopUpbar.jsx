@@ -135,7 +135,17 @@ const TopUpbar = () => {
           <MondayToFridayContainer className="text-black font-bold   ">
             <motion.div
               animate={{ x: 1050 }}
-              transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
+              transition={{ duration: 9, repeat: Infinity, ease: 'linear' }}
+            >
+              <Image src={whiteTruck} width={120} height={40} />
+            </motion.div>
+            <motion.div
+              animate={{ x: 1050 }}
+              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
+              whileHover={{
+                scale: 2,
+                transition: { duration: 2 },
+              }}
             >
               <Image
                 src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"

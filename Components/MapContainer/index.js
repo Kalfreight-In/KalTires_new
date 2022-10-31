@@ -458,7 +458,7 @@ export const MapConatiner = () => {
                                                   </span>
                                                 </div>
                                               ) : (
-                                                <div>Comming soon</div>
+                                                <div>coming soon</div>
                                               )
                                             ) : null}
                                           </ul>
@@ -523,7 +523,7 @@ export const MapConatiner = () => {
                                                   </span>
                                                 </div>
                                               ) : (
-                                                <div>Comming soon</div>
+                                                <div>coming soon</div>
                                               )
                                             ) : null}
                                           </ul>
@@ -585,7 +585,7 @@ export const MapConatiner = () => {
                                                     </span>
                                                   </div>
                                                 ) : (
-                                                  <div>Comming soon</div>
+                                                  <div>coming soon</div>
                                                 )
                                               ) : null}
                                             </ul>
@@ -594,7 +594,7 @@ export const MapConatiner = () => {
                                       </div>
                                     </div>
                                   ) : (
-                                    <div>Comming soon</div>
+                                    <div>coming soon</div>
                                   )
                                 ) : null}
                               </ul>
@@ -729,7 +729,7 @@ export const MapConatiner = () => {
                                       {/* {value.properties.State} */}
                                     </div>
                                   ) : (
-                                    <div>Comming Soon</div>
+                                    <div>coming Soon</div>
                                   )}
                                 </h4>
 
