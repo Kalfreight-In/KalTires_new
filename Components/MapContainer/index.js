@@ -720,8 +720,17 @@ export const MapConatiner = () => {
                                 className="group  relative   bg-white   text-center border-2   transition-all duration-100 delay-75 cursor-pointer active:bg-red-500 focus:outline-none focus:ring focus:bg-red-500 focus:text-white"
                               >
                                 <h4 className="px-4 py-2  text-black group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
-                                  {value.properties.City}
-                                  <div>{value.properties.Address}</div>
+                                  {value.properties.City},{' '}
+                                  {value.properties.State}
+                                  {value.properties.Address ? (
+                                    <div>
+                                      {value.properties.Address},{' '}
+                                      {value.properties.ZipCode}
+                                      {/* {value.properties.State} */}
+                                    </div>
+                                  ) : (
+                                    <div>Comming Soon</div>
+                                  )}
                                 </h4>
 
                                 <span className="bg-black group-hover:w-full w-0 h-full absolute bottom-0 left-0 duration-500 delay-75 transition-all -z-0" />
