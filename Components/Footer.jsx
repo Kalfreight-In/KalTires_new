@@ -44,7 +44,7 @@ const Footer = () => {
     setTimeout(() => {
       setPopup(false);
       console.log('setting pop up as false');
-    }, 3000);
+    }, 2500);
   }, [popup]);
   useEffect(() => {
     const query = window.location.hash;
