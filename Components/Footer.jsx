@@ -23,6 +23,7 @@ const Footer = () => {
   const [Hcontactus, setHcontactus] = useState(false);
   const [changeState, setchangeState] = useState(true);
   const { setWWOtires } = useStateContext();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = {
@@ -39,7 +40,12 @@ const Footer = () => {
 
     setEmail('');
   };
-
+  useEffect(() => {
+    setTimeout(() => {
+      setPopup(false);
+      console.log('setting pop up as false');
+    }, 3000);
+  }, [popup]);
   useEffect(() => {
     const query = window.location.hash;
     const target = query.split('#')[1];
