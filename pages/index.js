@@ -18,6 +18,10 @@ const Home = () => (
         Best Quality Commercial Tires & Heavy-Duty Tires | RSA services for
         Tires
       </title>
+      <link
+        rel="icon"
+        href="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
+      />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <meta
