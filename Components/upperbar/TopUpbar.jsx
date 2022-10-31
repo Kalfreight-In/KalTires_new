@@ -5,11 +5,13 @@ import axios from 'axios';
 import styled from 'styled-components';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 import { useHover } from '../../Hooks/Hover';
 import whiteTruck from '../../Assets/whitetruck.png';
-import Image from 'next/image';
+import SilberTire from '../../Assets/silvertire.gif';
+
 export const CreditAppContainer = styled.div`
   display: flex;
   width: 350px;
@@ -135,7 +137,7 @@ const TopUpbar = () => {
               animate={{ x: 1150 }}
               transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
             >
-              <Image src={whiteTruck} width={105} height={35} />
+              <Image src={SilberTire} width={105} height={35} />
             </motion.div>
           </MondayToFridayContainer>
         </div>
