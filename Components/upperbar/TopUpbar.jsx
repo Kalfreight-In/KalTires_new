@@ -4,6 +4,7 @@ import { GoLocation } from 'react-icons/go';
 import axios from 'axios';
 import styled from 'styled-components';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { motion } from 'framer-motion';
 import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 import { useHover } from '../../Hooks/Hover';
@@ -22,7 +23,7 @@ export const CreditAppContainer = styled.div`
 `;
 export const MondayToFridayContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: start;
   width: 60vw;
   margin-right: -15rem;
   // padding: 8px 0px;
@@ -126,14 +127,19 @@ const TopUpbar = () => {
             ) : null}
           </div>
         </div>
-        <div className="animate-pulse">
+
+        <div>
           <MondayToFridayContainer className="text-black font-bold   ">
-            {/* <img
-              src="https://media.tenor.com/aLgQw5HZ2pMAAAAi/dazzle-car-detailing.gif"
-              width="48"
-              height="92"
-            /> */}
-            " "<span className="text-black pl-2 p-2">7:30AM - 5:00PM</span>
+            <motion.div
+              animate={{ x: 1150 }}
+              transition={{ duration: 5, repeat: Infinity }}
+            >
+              <img
+                src="https://media.tenor.com/HXJBqcJG9-AAAAAj/demesmin-and-dover-accident-attorneys.gif"
+                width={45}
+                height={100}
+              />
+            </motion.div>
           </MondayToFridayContainer>
         </div>
 
@@ -143,7 +149,7 @@ const TopUpbar = () => {
               <MdOutlineKeyboardArrowRight />
             </span>
             <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
-              Credit Application
+              Credit Applications
             </span>
           </CreditAppContainer>
         </a>
