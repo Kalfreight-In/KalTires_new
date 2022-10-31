@@ -5,11 +5,13 @@ import axios from 'axios';
 import styled from 'styled-components';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 import { useHover } from '../../Hooks/Hover';
 import whiteTruck from '../../Assets/whitetruck.png';
-import Image from 'next/image';
+// import SilberTire from '../../Assets/silvertire.gif';
+
 export const CreditAppContainer = styled.div`
   display: flex;
   width: 350px;
@@ -88,7 +90,7 @@ const TopUpbar = () => {
   return (
     <div className="bg-tire-gray-3">
       <div className="flexBetween z-10  p-0 flex-row">
-        <Link href="/">
+        <Link href="/" passHref>
           <div className="flex flex-row flexCenter" ref={Hover}>
             {/* <div className="text-white font-bold ml-8">
               {' '}
@@ -133,9 +135,13 @@ const TopUpbar = () => {
           <MondayToFridayContainer className="text-black font-bold   ">
             <motion.div
               animate={{ x: 1150 }}
-              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
+              transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
             >
-              <Image src={whiteTruck} width={105} height={35} />
+              <Image
+                src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
+                width={30}
+                height={35}
+              />
             </motion.div>
           </MondayToFridayContainer>
         </div>
