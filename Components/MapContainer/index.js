@@ -388,7 +388,10 @@ export const MapConatiner = () => {
                                     : 'text-black font-bold'
                                 }
                               >
-                                {value.properties.City}
+                                <div>
+                                  {value.properties.City},{' '}
+                                  {value.properties.State}
+                                </div>
                               </Link>
 
                               <span>
@@ -623,7 +626,10 @@ export const MapConatiner = () => {
                                   : 'text-black font-bold'
                               }
                             >
-                              {value.properties.City}
+                              <div>
+                                {value.properties.City},{' '}
+                                {value.properties.State}
+                              </div>
                             </Link>
 
                             <span>
@@ -763,7 +769,9 @@ export const MapConatiner = () => {
                               : 'text-black font-bold'
                           }
                         >
-                          {value.properties.City}
+                          <div>
+                            {value.properties.City}, {value.properties.State}
+                          </div>
                         </h2>
 
                         <span>
