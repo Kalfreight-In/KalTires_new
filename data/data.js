@@ -31,7 +31,6 @@ import one from '../Assets/Images/Whatweoffer/Industrialtires/Industrial.png';
 import two from '../Assets/Images/Whatweoffer/Industrialtires/Earthmover.png';
 import three from '../Assets/Images/Whatweoffer/Industrialtires/Agriculture.png';
 import six from '../Assets/Images/Whatweoffer/Industrialtires/OTR.png';
-
 import four from '../Assets/Images/Whatweoffer/Industrialtires/Passenger.png';
 import five from '../Assets/Images/Whatweoffer/Industrialtires/LighTruck.png';
 import twos from '../Assets/Images/Whatweoffer/services/two.png';
