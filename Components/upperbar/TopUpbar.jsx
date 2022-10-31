@@ -8,7 +8,8 @@ import { motion } from 'framer-motion';
 import { findMyLocation } from '../../HelpFunctions/findMyLocation';
 import { useStateContext } from '../../context/StateContext';
 import { useHover } from '../../Hooks/Hover';
-
+import whiteTruck from '../../Assets/whitetruck.png';
+import Image from 'next/image';
 export const CreditAppContainer = styled.div`
   display: flex;
   width: 350px;
@@ -132,13 +133,9 @@ const TopUpbar = () => {
           <MondayToFridayContainer className="text-black font-bold   ">
             <motion.div
               animate={{ x: 1150 }}
-              transition={{ duration: 10, repeat: Infinity }}
+              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
             >
-              <img
-                src="https://media.tenor.com/HXJBqcJG9-AAAAAj/demesmin-and-dover-accident-attorneys.gif"
-                width={45}
-                height={100}
-              />
+              <Image src={whiteTruck} width={105} height={35} />
             </motion.div>
           </MondayToFridayContainer>
         </div>
