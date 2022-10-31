@@ -132,7 +132,7 @@ const TopUpbar = () => {
         </div>
 
         <div>
-          <MondayToFridayContainer className="text-black font-bold   ">
+          <MondayToFridayContainer className="text-black font-bold">
             <motion.div
               animate={{ x: 1050 }}
               transition={{ duration: 9, repeat: Infinity, ease: 'linear' }}
