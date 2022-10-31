@@ -134,13 +134,13 @@ const TopUpbar = () => {
         <div>
           <MondayToFridayContainer className="text-black font-bold   ">
             <motion.div
-              animate={{ x: 1150 }}
-              transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
+              animate={{ x: 1050 }}
+              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
             >
               <Image
                 src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
-                width={30}
-                height={35}
+                width={40}
+                height={40}
               />
             </motion.div>
           </MondayToFridayContainer>
