@@ -728,15 +728,15 @@ export const IndustrialTiresdatan = [
     Alttag: 'High Performance Industrial Tires',
     pr: 0,
   },
-  {
-    id: '2',
-    img: two,
-    heading: 'Earthmover Tires',
-    idmain: 'EarthmoverTires',
-    idmainMtab: 'EarthmoverTiresTwo',
-    Alttag: 'Earthmover Tires for sale',
-    pr: 0,
-  },
+  // {
+  //   id: '2',
+  //   img: two,
+  //   heading: 'Earthmover Tires',
+  //   idmain: 'EarthmoverTires',
+  //   idmainMtab: 'EarthmoverTiresTwo',
+  //   Alttag: 'Earthmover Tires for sale',
+  //   pr: 0,
+  // },
   {
     id: '6',
     img: six,
@@ -1664,13 +1664,13 @@ export const MapData1 = [
       'Friday: 7:30AM - 5:00PM',
       'Saturday & Sunday: Closed',
     ],
-    multi: true,
+    multi: false,
     properties: {
       State: 'MO',
       Manager: 'Rupinder Dhillon',
       TOW: '',
       ZipCode: '64120',
-      City: 'Kansas City',
+      City: 'Kansas City ',
       Address: '4700 Deramus Avenue',
       Phone: '316-393-2153',
       Email: 'rupinder@kalgroup.com',
@@ -1679,7 +1679,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 14,
+    id: 29,
     type: 'Feature',
     geometry: {
       type: 'Point',
@@ -1712,7 +1712,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [40.6336157, -74.9586495],
+      coordinates: [38.9394357, -94.924411],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
