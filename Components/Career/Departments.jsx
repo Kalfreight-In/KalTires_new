@@ -22,7 +22,7 @@ export const Departments = () => (
               <div
                 id="departmentmaingrid"
                 // className="flex gap-6 xl:flex-nowrap flex-wrap xl:justify-center justify-evenly  flex-row"
-                className="grid gap-2 grid-flow-col 2xl:grid-cols-DepartmentsTemplate 2xl:grid-rows-1 grid-rows-2 lg:px-24 2xl:px-0"
+                className="grid gap-8 grid-flow-col 2xl:grid-cols-DepartmentsTemplate 2xl:grid-rows-1 grid-rows-2 lg:px-24 2xl:px-0"
               >
                 {Departmentsdata.map((index) => (
                   <div id="departmentmaingrid" key={index.id}>
