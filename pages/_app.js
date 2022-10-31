@@ -45,11 +45,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href="https://kvltires.vercel.app/"
-        />
+        <link rel="alternate" hrefLang="en" href="https://kvltires.com" />
         <Partytown debug forward={['dataLayer.push']} />
         <Script
           strategy="worker"

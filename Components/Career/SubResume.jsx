@@ -5,11 +5,12 @@ import DropBox from '../DropBox_FileUpload/DropBox';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Portal from '../../HOC/Portal';
 import Resume from '../../pages/resume';
+import { useEffect } from 'react';
 
 export const SubResume = () => {
   const [Popup, setPopup] = useState(false);
   const isMobile = useMediaQuery('(max-width:648px)');
-
+  useEffect(() => {}, []);
   return (
     <div id="Mainresumecontainer">
       <div id="innermainresumecontainer" className="2xl:py-16 py-12">
