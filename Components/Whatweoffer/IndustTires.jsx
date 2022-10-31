@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -38,7 +38,12 @@ export const IndustTires = () => {
                       spaceBetween={0}
                       slidesPerGroup={1}
                       navigation
-                      modules={[Pagination, Navigation]}
+                      speed={1400}
+                      autoplay={{
+                        delay: 1300,
+                        disableOnInteraction: false,
+                      }}
+                      modules={[Pagination, Navigation, Autoplay]}
                       className="mySwiper"
                     >
                       <div
