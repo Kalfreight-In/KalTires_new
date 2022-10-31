@@ -46,8 +46,10 @@ const Onsiteservice = () => {
             spaceBetween={30}
             // pagination={{ clickable: true }}
             // className="mySwiper"
+            speed={1400}
             autoplay={{
-              delay: 1000,
+              delay: 1300,
+              disableOnInteraction: false,
             }}
           >
             {OnsiteGriddata.map((newdata) => (
