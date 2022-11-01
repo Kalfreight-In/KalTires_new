@@ -685,17 +685,17 @@ export const Departmentsdata = [
 ];
 
 export const PerkBenifitsdata = [
-  {
-    id: 1,
-    img: extrabenefit,
-    Heading: 'New Parent Leave',
-    desc: 'New moms and dads, too, get paid leaves to care for & spend quality time with their infants.',
-  },
+  // {
+  //   id: 1,
+  //   img: extrabenefit,
+  //   Heading: 'New Parent Leave',
+  //   desc: 'New moms and dads, too, get paid leaves to care for & spend quality time with their infants.',
+  // },
   {
     id: 2,
     img: growthopp,
     Heading: 'Health Insurance',
-    desc: 'All full-time employees are eligible for our health insurance, with a certain percentage reserved for families.',
+    desc: 'We offer great benefits - Health, Dental and Vision Insurance to all our full-time employees.',
   },
   {
     id: 3,
