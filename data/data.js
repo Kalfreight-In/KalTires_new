@@ -693,13 +693,14 @@ export const PerkBenifitsdata = [
   // },
   {
     id: 2,
-    img: growthopp,
+
+    img: Healthinsurance,
     Heading: 'Health Insurance',
-    desc: 'We offer great benefits - Health, Dental and Vision Insurance to all our full-time employees.',
+    desc: 'All full-time employees are eligible for our health insurance, with a certain percentage reserved for families.',
   },
   {
     id: 3,
-    img: Healthinsurance,
+    img: extrabenefit,
     Heading: 'Extra Benefits',
     desc: 'Offering 401K retirement plans with Pentegra Retirement Services.',
   },
@@ -711,7 +712,7 @@ export const PerkBenifitsdata = [
   },
   {
     id: 5,
-    img: parentallove,
+    img: growthopp,
     Heading: 'Career Growth Opportunities',
     desc: 'We love seeing our employees learn, collaborate, challenge each other, and continue to excel at the next level.',
   },
