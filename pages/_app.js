@@ -65,7 +65,7 @@ const MyApp = ({ Component, pageProps }) => {
         `,
           }}
         />
-        {/* <script
+        <script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -74,7 +74,7 @@ const MyApp = ({ Component, pageProps }) => {
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-PHKPDRM');`,
           }}
-        /> */}
+        />
       </Head>
       {/* <body> */}
       <noscript
@@ -162,7 +162,7 @@ const MyApp = ({ Component, pageProps }) => {
         <ErrorBoundary>
           {!isDesktop ? <Sidebar isOpen={isOpen} toggle={toggle} /> : null}
         </ErrorBoundary>
-        <CookiePopup></CookiePopup>
+        <CookiePopup />
       </StateContext>
       {/* </body> */}
     </>
