@@ -87,7 +87,7 @@ const Footer = () => {
         <Link href="/" passHref>
           <Image
             src={kvlTirelogo}
-            height={100}
+            height={75}
             width={250}
             alt="logo"
             className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
