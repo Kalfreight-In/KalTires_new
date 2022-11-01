@@ -696,7 +696,7 @@ export const PerkBenifitsdata = [
 
     img: Healthinsurance,
     Heading: 'Health Insurance',
-    desc: 'All full-time employees are eligible for our health insurance, with a certain percentage reserved for families.',
+    desc: 'We offer great benefits - Health, Dental and Vision Insurance to all our full-time employees.',
   },
   {
     id: 3,
