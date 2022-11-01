@@ -88,7 +88,7 @@ const Footer = () => {
           <Image
             src={kvlTirelogo}
             height={75}
-            width={250}
+            width={200}
             alt="logo"
             className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
           />
@@ -104,8 +104,8 @@ const Footer = () => {
                     <Image
                       layout="intrinsic"
                       // width={700}
-                      height={75}
-                      width={238}
+                      height={65}
+                      width={208}
                       src={kvlTirelogo}
                       alt="logo"
                       // className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer"
