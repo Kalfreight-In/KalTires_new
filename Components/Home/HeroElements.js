@@ -132,7 +132,7 @@ export const HeroContent = styled.div`
   height: 100%;
 
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   z-index: 10;
   @media only screen and (max-width: 1024px) {
@@ -143,7 +143,7 @@ export const HeroContent = styled.div`
 
   @media only screen and (max-width: 768px) {
     display: flex;
-    // justify-content: center;
+    justify-content: flex-start;
     align-items: end;
   }
 

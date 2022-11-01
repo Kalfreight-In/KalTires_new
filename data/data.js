@@ -685,21 +685,22 @@ export const Departmentsdata = [
 ];
 
 export const PerkBenifitsdata = [
-  {
-    id: 1,
-    img: extrabenefit,
-    Heading: 'New Parent Leave',
-    desc: 'New moms and dads, too, get paid leaves to care for & spend quality time with their infants.',
-  },
+  // {
+  //   id: 1,
+  //   img: extrabenefit,
+  //   Heading: 'New Parent Leave',
+  //   desc: 'New moms and dads, too, get paid leaves to care for & spend quality time with their infants.',
+  // },
   {
     id: 2,
-    img: growthopp,
+
+    img: Healthinsurance,
     Heading: 'Health Insurance',
     desc: 'All full-time employees are eligible for our health insurance, with a certain percentage reserved for families.',
   },
   {
     id: 3,
-    img: Healthinsurance,
+    img: extrabenefit,
     Heading: 'Extra Benefits',
     desc: 'Offering 401K retirement plans with Pentegra Retirement Services.',
   },
@@ -711,7 +712,7 @@ export const PerkBenifitsdata = [
   },
   {
     id: 5,
-    img: parentallove,
+    img: growthopp,
     Heading: 'Career Growth Opportunities',
     desc: 'We love seeing our employees learn, collaborate, challenge each other, and continue to excel at the next level.',
   },
