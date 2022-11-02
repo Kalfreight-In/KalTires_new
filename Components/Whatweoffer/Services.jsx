@@ -41,6 +41,8 @@ export const Services = () => {
   //   setlightbox(true);
   //   setlightboxData(data);
   // }
+
+  // this are just comments
   return (
     <div id="ServicesMain">
       <div className="hidden lg:block">
