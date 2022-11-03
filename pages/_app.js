@@ -46,6 +46,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <link rel="alternate" hrefLang="en" href="https://kvltires.com" />
+
         {/* <Partytown debug forward={['dataLayer.push']} /> */}
         {/* <Script
           strategy="worker"
@@ -66,7 +67,10 @@ const MyApp = ({ Component, pageProps }) => {
         `,
           }}
         />
-
+        <meta
+          name="google-site-verification"
+          content="kwdSgXRdzSwS7aQ_UINlRiFYoSoQkOtVuGOG5NntQqE"
+        />
         {/* <script
 dangerouslySetInnerHTML={ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
