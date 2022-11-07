@@ -41,6 +41,21 @@ const Credit = () => {
           name="description"
           content="We are here to help you to achieve your dreams - Credit Application | KVL Tires & Services"
         />
+        {/* <!_ _ Open Graph / Facebook _ _> */}
+        <meta
+          property="og:title"
+          content="Credit Application - Buy a New &amp; Used Tires | KVL Tires"
+        />
+        <meta
+          property="og:url"
+          content="https://www.kvltires.com/credit-application"
+        />
+        <meta property="og:type" content="page" />
+        <meta
+          property="og:description"
+          content="We are here to help you to achieve your dreams - Credit Application | KVL Tires & Services"
+        />
+        <meta property="og:locale" content="en" />
       </Head>
       <HeroSection data={data[0]} />
       <div className="text-center 2xl:text-5xl text-black md:py-0 ">
