@@ -28,6 +28,21 @@ const Home = () => (
         name="description"
         content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
       />
+      <meta
+        property="og:title"
+        content="Best Quality Commercial Tires & Heavy-Duty Tires | RSA services for Tires"
+      />
+      <meta property="og:url" content="https://www.kvltires.com/" />
+      <meta
+        property="og:image"
+        content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75"
+      />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:description"
+        content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
+      />
+      <meta property="og:locale" content="en" />
     </Head>
     <HomeSlider />
     <BrandsComponent />

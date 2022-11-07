@@ -39,6 +39,13 @@ const tiresandservices = () => (
         name="description"
         content="KVL Tires offers Heavy Duty, Commercial, Retread, Tires, and solutions adapted for the challenges of your daily uses and Heavy Activities."
       />
+      <!_ _ Open Graph / Facebook _ _>
+<meta property="og:title" content="Buy New Tires | Tires Services for Industrial, Earthmover, Commercial Tires" />
+<meta property="og:url" content="https://www.kvltires.com/tires-services" />
+<meta property="og:image" content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblacktire.cf6b5fa2.png&w=1920&q=75" />
+<meta property="og:type" content="page" />
+<meta property="og:description" content="KVL Tires offers Heavy Duty, Commercial, Retread, Tires, and solutions adapted for the challenges of your daily uses and Heavy Activities." />
+<meta property="og:locale" content="en" />
     </Head>
     <HeroSection data={data[0]} />
     <CommercialTire />
