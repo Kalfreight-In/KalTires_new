@@ -39,7 +39,8 @@ export const AboutUs = () => {
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={AboutUsTire}
-                  alt="tires"
+                  title="Commercial Tires Services"
+                  alt="KVL Tires is a full-service commercial tire dealer based in the United States. This is the vehicle  belongs to pick-up & delivery services."
                 />
               </div>
             </div>
@@ -254,7 +255,12 @@ export const AboutUs = () => {
               className="lg:block hidden col-span-5  xl:mr-20 "
             >
               <div className="  ">
-                <Image className=" " src={AboutUsTire} alt="tires" />
+                <Image
+                  className=" "
+                  src={AboutUsTire}
+                  alt="KVL Tires is a full-service commercial tire dealer based in the United States. This is the vehicle  belongs to pick-up & delivery services."
+                  title="Commercial Tires Services"
+                />
               </div>
             </motion.div>
           </div>

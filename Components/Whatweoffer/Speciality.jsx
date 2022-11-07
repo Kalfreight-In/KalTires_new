@@ -45,7 +45,8 @@ export const Speciality = () => {
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={blacktiremobile}
-                  alt="Speciality Tires for Heavy Duty"
+                  title="High Performance Off The Road Tires"
+                  alt="This image is related to High Performance Off the Road Tires. This is the first option for heavy industries and drive through mud and water with Firestone Destination tires."
                 />
               </div>
             </div>
@@ -127,7 +128,8 @@ export const Speciality = () => {
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md"
                   src={blacktire}
-                  alt="Speciality Tires for Heavy Duty"
+                  title="High Performance Off The Road Tires"
+                  alt="This image is related to High Performance Off the Road Tires. This is the first option for heavy industries and drive through mud and water with Firestone Destination tires."
                 />
               </div>
             </div>

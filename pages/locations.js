@@ -10,7 +10,7 @@ import { MdEmail } from 'react-icons/md';
 import { scroller, Element } from 'react-scroll';
 import Head from 'next/head';
 import Image from 'next/image';
-import { AniArrow } from '../Assets/Icons/Arrow.gif';
+// import { AniArrow } from '../Assets/Icons/Arrow.gif';
 import { MapData1, MapData2 } from '../data/data';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
 // import { useHover } from '../Hooks/Hover';
@@ -175,13 +175,25 @@ const location = () => {
           name="description"
           content="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
         />
-        <!_ _ Open Graph / Facebook _ _>
-<meta property="og:title" content="24/7 Roadside Assistance| Heavy Vehicle | Complete Tire Services" />
-<meta property="og:url" content="https://www.kvltires.com/24X7-roadside-assistance" />
-<meta property="og:image" content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservicetruck.10f4814d.png&w=1920&q=75" />
-<meta property="og:type" content="page" />
-<meta property="og:description" content="KVL Tires provide 24X7 Roadside Assistance service near me breakdown to everyone in need. Our trained &amp; knowledgeable staff are always ready to answer your service calls." />
-<meta property="og:locale" content="en" />
+
+        <meta
+          property="og:title"
+          content="24/7 Roadside Assistance| Heavy Vehicle | Complete Tire Services"
+        />
+        <meta
+          property="og:url"
+          content="https://www.kvltires.com/24X7-roadside-assistance"
+        />
+        <meta
+          property="og:image"
+          content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservicetruck.10f4814d.png&w=1920&q=75"
+        />
+        <meta property="og:type" content="page" />
+        <meta
+          property="og:description"
+          content="KVL Tires provide 24X7 Roadside Assistance service near me breakdown to everyone in need. Our trained &amp; knowledgeable staff are always ready to answer your service calls."
+        />
+        <meta property="og:locale" content="en" />
       </Head>
       {MapData1.map((data) => (
         <LocalBusinessJsonLd

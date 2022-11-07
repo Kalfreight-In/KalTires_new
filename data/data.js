@@ -166,53 +166,63 @@ export const BrandCompnentHeader = [
   {
     id: 1,
     imageurl: continentalone,
-    heading: 'continental-logo',
+    heading: 'Continental Tires Logo',
+    desc: 'This image is related to Continental tires. Continental Tires is an individual that works under the wings of Continental AG, a German company.',
   },
   {
     id: 2,
     imageurl: goodyearone,
-    heading: 'Goodyear logo',
+    heading: 'Goodyear Tires Logo',
+    desc: 'This image is related to Goodyear logo. Goodyear tires that can assure both picky consumers and bargain hunters.',
   },
   {
     id: 3,
     imageurl: apolloone,
-    heading: 'apollo-logo',
+    heading: 'Apollo Tires Logo',
+    desc: 'This image is related to apollo tires. You can find the affordable truck and bus tires at Apollo with wide range of tires.',
   },
   {
     id: 4,
     imageurl: bktone,
-    heading: 'Bkt-logo',
+    heading: 'BKT Tires Logo',
+    desc: 'This image is related to BKT Tires, which is a leading manufacturer in the off-highway tire market. Specializing in the manufacture of tires for agricultural, industrial and OTR vehicles.',
   },
   {
     id: 5,
     imageurl: generalone,
-    heading: 'general-logo',
+    heading: 'General Tires Logo',
+    desc: 'This image is related to General Tires, which is a brand known for its durable, multi-terrain stability and uniform quality tires. ',
   },
   {
     id: 6,
     imageurl: americanone,
-    heading: 'americansteel-logo',
+    heading: 'American Steel Tires Logo',
+    desc: 'This image is related to American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.',
   },
 
   {
     id: 7,
     imageurl: cooperone,
-    heading: 'cooper-logo',
+    heading: 'Cooper Tires Logo',
+    desc: 'This image is related to Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.',
   },
   {
     id: 8,
     imageurl: contitreadone,
-    heading: 'contitread-logo',
+    heading: 'Contitread Tires Logo',
+    desc: 'This image is related to ContiTread or Continental Tires. These products use un quality product for cold rereading of truck tires and bus tires and uses the rubber complexes.',
   },
   {
     id: 9,
     imageurl: michelinone,
-    heading: 'michelin-logo',
+    heading: 'Michelin Tires Logo',
+    desc: 'This image is related to Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
   },
   {
     id: '10',
     imageurl: pirellione,
-    heading: 'pirelli-logo',
+    heading: 'Pirelli Tires Logo',
+    desc: 'This image is related to Pirelli Tires. Pirelli is an Italy-based tire manufacturer that is a subsidiary of ChemChina.',
   },
 
   // {
@@ -223,17 +233,20 @@ export const BrandCompnentHeader = [
   {
     id: '12',
     imageurl: tornadoone,
-    heading: 'tornado-logo',
+    heading: 'Tornado Tires Logo',
+    desc: 'This image is related to Tornado Tires, which is generally famous for its high quality and reasonable prices. These tires are constructed, produced, a tested at the highly sophisticated technology.',
   },
   {
     id: '13',
     imageurl: Frentino,
-    heading: 'tornado-logo',
+    heading: 'Ferentino Tires Logo',
+    desc: "This image is related to Ferentino tires. FERENTINO Tyres is the most popular Sri Lanka's tyre brand, which is known as for its world-class technology and technical safety performance.",
   },
   {
     id: '14',
     imageurl: westLake,
-    heading: 'tornado-logo',
+    heading: 'West Lake Tires Logo',
+    desc: 'This image is related to West Lake Tires. The most important thing about the West Lake Tyre is at normal speed these tires perform batter.',
   },
 ];
 
@@ -556,7 +569,9 @@ export const CommercialTiretwo = [
 export const HighPerformanceBrandsData = [
   {
     id: '1',
-    heading: 'Cotinental',
+    heading: 'Continental Tires Brand',
+    headingdesc:
+      'This image is related to High Performance Continental tires. Continental Tires is an individual that works under the wings of Continental AG, a German company.',
     headingImg: 'Cotinental-Tire',
     logo: continental_logo_white,
     Image: ContinentalTire,
@@ -566,7 +581,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '2',
-    heading: 'Goodyear',
+    heading: 'Goodyear Tires Brand',
+    headingdesc:
+      'This image is related to High Performance Goodyear logo. Goodyear tires that can assure both picky consumers and bargain hunters.',
     headingImg: 'Goodyear-Tire',
     logo: goodyearLogo_white,
     Image: goodyearTire,
@@ -576,7 +593,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '3',
-    heading: 'Apollo',
+    heading: 'Apollo Tires Brand',
+    headingdesc:
+      'This image is related to High Performance apollo tires. You can find the affordable truck and bus tires at Apollo with wide range of tires.',
     headingImg: 'Apollo-Tire',
     logo: Apollo_Tyres_white,
     Image: apolloTire,
@@ -586,7 +605,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '4',
-    heading: 'bkt',
+    heading: 'BKT Tires Brand',
+    headingdesc:
+      'This image is related to High Performance BKT Tires, which is a leading manufacturer in the off-highway tire market. Specializing in the manufacture of tires for agricultural, industrial and OTR vehicles.',
     headingImg: 'bkt-Tire',
     logo: BKT_Logo_white,
     Image: bktTire,
@@ -596,7 +617,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '5',
-    heading: 'General',
+    heading: 'General Tires Brand',
+    headingdesc:
+      'This image is related to High Performance General Tires, which is a brand known for its durable, multi-terrain stability and uniform quality tires. ',
     headingImg: 'General-Tire',
     logo: generalLogo_white,
     Image: generalTire,
@@ -606,7 +629,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '6',
-    heading: 'Ameri Steel',
+    heading: 'Americansteel Brand',
+    headingdesc:
+      'This image is related to High Performance American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.',
     headingImg: 'Ameri-Tire',
     logo: ameristeel_white,
     Image: ameristeelTire,
@@ -616,7 +641,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '7',
-    heading: 'CooperTires',
+    heading: 'Cooper Tires Brand',
+    headingdesc:
+      'This image is related to High Performance Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.',
     headingImg: 'Cooper-Tire',
     logo: Cooper_Tire_white,
     Image: coopertiresTire,
@@ -626,7 +653,9 @@ export const HighPerformanceBrandsData = [
   },
   {
     id: '8',
-    heading: 'Michelin',
+    heading: 'Michelin Tires Brand',
+    headingdesc:
+      'This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
     headingImg: 'Michelin-Tire',
     logo: michelinLogo_white,
     Image: michelinTire,
