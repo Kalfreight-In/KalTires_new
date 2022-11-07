@@ -349,7 +349,8 @@ const Contactform = () => {
       {isDesktop ? (
         <Image
           src={mainimage}
-          alt="Book An Appointment"
+          title="Contact at KVL Tires"
+          alt="This image is belonging to Contact us. You can buy new tires with KVL Tires, and you can contact us for more information.  KVL Tires expert will get in touch with you shortly."
           objectFit="cover"
           className="grayscale"
         />

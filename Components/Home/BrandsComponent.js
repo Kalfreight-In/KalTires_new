@@ -114,7 +114,8 @@ const BrandsComponent = () => {
                       <div className="item-center  ">
                         <Image
                           src={data.imageurl}
-                          alt={data.heading}
+                          title={data.heading}
+                          alt={data.desc}
                           // layout="fill"
                           // height={100}
                           // width={200}

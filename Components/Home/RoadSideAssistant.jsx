@@ -32,7 +32,8 @@ const RoadSideAssistant = () => {
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={RoadSideAss}
                   priority
-                  alt="tires"
+                  title="Emergency Roadside Assistance Service"
+                  alt="You will get the on-time roadside assistance service by our experts. KVL Tires are here for you to provide hassle free and reliable roadside assistance."
                 />
               </div>
             </div>
@@ -42,7 +43,8 @@ const RoadSideAssistant = () => {
                 <Image
                   className="  "
                   src={RoadSideAss}
-                  alt="tires"
+                  title="Emergency Roadside Assistance Service"
+                  alt="You will get the on-time roadside assistance service by our experts. KVL Tires are here for you to provide hassle free and reliable roadside assistance."
                   priority
                   layout="responsive"
                 />
