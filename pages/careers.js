@@ -16,13 +16,22 @@ const career = () => (
         name="description"
         content="We are looking for self-motivated & enthusiastic individuals to help us achieve the best in the Heavy Vehicle industry. Email your resume at info@kvltires.com"
       />
-      <!_ _ Open Graph / Facebook _ _>
-<meta property="og:title"content="Make Your Career with KVL Tires – Join Us Today" />
-<meta property="og:url" content="https://www.kvltires.com/24X7-roadside-assistance" />
-<meta property="og:image" content="https://www.kvltires.com/careers" />
-<meta property="og:type" content="page" />
-<meta property="og:description" content="We are looking for self-motivated &amp; enthusiastic individuals to help us achieve the best in the Heavy Vehicle industry. Email your resume at info@kvltires.com" />
-<meta property="og:locale" content="en" />
+
+      <meta
+        property="og:title"
+        content="Make Your Career with KVL Tires – Join Us Today"
+      />
+      <meta
+        property="og:url"
+        content="https://www.kvltires.com/24X7-roadside-assistance"
+      />
+      <meta property="og:image" content="https://www.kvltires.com/careers" />
+      <meta property="og:type" content="page" />
+      <meta
+        property="og:description"
+        content="We are looking for self-motivated &amp; enthusiastic individuals to help us achieve the best in the Heavy Vehicle industry. Email your resume at info@kvltires.com"
+      />
+      <meta property="og:locale" content="en" />
     </Head>
     <CareerHeader />
     <Ykvl />
