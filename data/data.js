@@ -767,12 +767,14 @@ export const IndustrialTiresdatan = [
   //   pr: 0,
   // },
   {
-    id: '6',
+    id: '2',
     img: six,
     heading: 'Off The Road Tires',
     idmain: 'OTR',
     idmainMtab: 'LightTruckTiresTwo',
-    Alttag: 'Best Selling Light Truck Tires',
+    Alttag: 'High Performance Off The Road Tires',
+    Altdesc:
+      'This image is related to High Performance Off the Road Tires. This is the first option for heavy industries and drive through mud and water with Firestone Destination tires. ',
     pr: 0,
   },
 
@@ -783,6 +785,8 @@ export const IndustrialTiresdatan = [
     idmain: 'AgriculturalTires',
     idmainMtab: 'AgriculturalTiresTwo',
     Alttag: 'Agricultural Tires and Tractor Tires',
+    Altdesc:
+      'This image is related to high performance agricultural tires. It is also called the farm or tractor tires. Farm or agricultural tractor tires are designed to provide reduced soil compaction.',
     pr: 0,
   },
   {
@@ -791,7 +795,9 @@ export const IndustrialTiresdatan = [
     heading: 'Passenger Tires',
     idmain: 'PassengerTires',
     idmainMtab: 'PassengerTiresTwo',
-    Alttag: 'Passenger Tires for Car',
+    Alttag: 'High Performance Passenger Tires',
+    Altdesc:
+      'This image is related to Passenger Tires.  Passenger tires are designed for regular passenger vehicles, including lighter trucks and SUVs.',
     pr: 0,
   },
   {
@@ -801,6 +807,8 @@ export const IndustrialTiresdatan = [
     idmain: 'LightTruckTires',
     idmainMtab: 'LightTruckTiresTwo',
     Alttag: 'Best Selling Light Truck Tires',
+    Altdesc:
+      'This image is related to high performance light truck tires. Light truck tire options with all-weather traction, outstanding durability, and off-road traction.',
     pr: 0,
   },
 ];
