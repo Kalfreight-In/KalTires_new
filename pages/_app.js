@@ -71,18 +71,6 @@ const MyApp = ({ Component, pageProps }) => {
           name="google-site-verification"
           content="kwdSgXRdzSwS7aQ_UINlRiFYoSoQkOtVuGOG5NntQqE"
         />
-        <link rel="canonical" href="https://www.kvltires.com" />
-        <link
-          rel="canonical"
-          href="https://www.kvltires.com/credit-application"
-        />
-        <link rel="canonical" href="https://www.kvltires.com/tires-servicesm" />
-        <link
-          rel="canonical"
-          href="https://www.kvltires.com/24X7-roadside-assistance"
-        />
-        <link rel="canonical" href="https://www.kvltires.com/locations" />
-        <link rel="canonical" href="https://www.kvltires.com/careers" />
 
         {/* <script
 dangerouslySetInnerHTML={ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -134,16 +122,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             position: 4,
             name: 'locations',
             item: 'https://kvltires.com/locations',
-          },
-          {
-            position: 5,
-            name: 'careers',
-            item: 'https://kvltires.com/careers',
-          },
-          {
-            position: 6,
-            name: 'credit application',
-            item: 'https://kvltires.com/credit-application',
           },
         ]}
       />

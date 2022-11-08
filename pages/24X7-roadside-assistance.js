@@ -39,7 +39,14 @@ const roadsideAssistance = () => (
         name="description"
         content="KVL Tires provide 24X7 Roadside Assistance service near me breakdown to everyone in need. Our trained & knowledgeable staff are always ready to answer your service calls."
       />
-
+      <meta
+        name="keywords"
+        content="24/7ROADSIDE ASSISTANCE, On-Site Services, Nationwide Presence, Competitive Price, Friendly & Experienced Technicians"
+      />
+      <link
+        rel="canonical"
+        href="https://www.kvltires.com/24X7-roadside-assistance"
+      />
       <meta
         property="og:title"
         content="24/7 Roadside Assistance| Heavy Vehicle | Complete Tire Services"

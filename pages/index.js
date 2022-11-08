@@ -22,12 +22,19 @@ const Home = () => (
         rel="icon"
         href="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
       />
+
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
+      <meta
+        name="keywords"
+        content="Commercial Tires, Industrial Tires, OTR Tires, Agricultural Tires"
+      />
+
       <meta
         name="description"
         content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
       />
+      <link rel="canonical" href="https://www.kvltires.com" />
       <meta
         property="og:title"
         content="Best Quality Commercial Tires & Heavy-Duty Tires | RSA services for Tires"

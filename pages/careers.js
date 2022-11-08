@@ -16,11 +16,16 @@ const career = () => (
         name="description"
         content="We are looking for self-motivated & enthusiastic individuals to help us achieve the best in the Heavy Vehicle industry. Email your resume at info@kvltires.com"
       />
+      <meta
+        name="keywords"
+        content="Careers, Careers at KVL Tires, Management, Sales Manager, Service Technical, Warehouse Manager, Delivery Driver, Administration "
+      />
       {/* <!_ _ Open Graph / Facebook _ _> */}
       <meta
         property="og:title"
         content="Make Your Career with KVL Tires – Join Us Today"
       />
+      <link rel="canonical" href="https://www.kvltires.com/careers" />
       <meta
         property="og:url"
         content="https://www.kvltires.com/24X7-roadside-assistance"
