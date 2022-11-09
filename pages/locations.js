@@ -175,7 +175,11 @@ const location = () => {
           name="description"
           content="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
         />
-
+        <meta
+          name="keywords"
+          content="Search Your Nearest Location, Locations, Fontana, CA, Bakersfield, Riverside, Calexico, Lathrop, Union City, Santa Fe Springs, Brawley, Springdale, Indianapolis, Indianapolis, Kansas City, Hampton, Atlanta, Conley, Arlington, Laredo, Cincinnati, Phoenix, Abbotsford, Calgary"
+        />
+        <link rel="canonical" href="https://www.kvltires.com/locations" />
         <meta
           property="og:title"
           content="24/7 Roadside Assistance| Heavy Vehicle | Complete Tire Services"

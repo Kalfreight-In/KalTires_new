@@ -43,8 +43,16 @@ const Credit = () => {
         />
         {/* <!_ _ Open Graph / Facebook _ _> */}
         <meta
+          name="keywords"
+          content="Credit Application, WE HELP YOU ACHIEVE YOUR DREAMS"
+        />
+        <meta
           property="og:title"
           content="Credit Application - Buy a New &amp; Used Tires | KVL Tires"
+        />{' '}
+        <link
+          rel="canonical"
+          href="https://www.kvltires.com/credit-application"
         />
         <meta
           property="og:url"

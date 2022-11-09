@@ -39,7 +39,11 @@ const tiresandservices = () => (
         name="description"
         content="KVL Tires offers Heavy Duty, Commercial, Retread, Tires, and solutions adapted for the challenges of your daily uses and Heavy Activities."
       />
-
+      <link rel="canonical" href="https://www.kvltires.com/tires-services" />
+      <meta
+        name="keywords"
+        content="Retread Tires, Commercial Tires, Industrial Tires, Off The Road Tires, Agricultural Tires, Passenger Tires, Light Truck Tires"
+      />
       <meta
         property="og:title"
         content="Buy New Tires | Tires Services for Industrial, Earthmover, Commercial Tires"
