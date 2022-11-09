@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
@@ -9,6 +9,7 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Sparkles from '../../Animation/Sparkel';
 import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
 import { useStateContext } from '../../context/StateContext';
+import { handleInput } from '../../HelpFunctions/PhoneNoFormatter';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
@@ -18,7 +19,7 @@ const Contactform = () => {
   const [message, setMessage] = useState('');
   const [phoneno, setphoneno] = useState('');
   // const [service, setservice] = useState('');
-  const [phone, setPhone] = useState('');
+  // const [phone, setPhone] = useState('');
   const [zip, setZip] = useState('');
   const [ROC, setROC] = useState('');
   const [success, setSuccess] = useState(false);
@@ -27,14 +28,6 @@ const Contactform = () => {
   const [buttonText, setButtonText] = useState('Submit');
   const router = useRouter();
 
-  function formatPhoneNumber(phoneNumberString) {
-    const cleaned = `${phoneNumberString}`.replace(/\D/g, '');
-    const match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
-    if (match) {
-      return `(${match[1]}) ${match[2]}-${match[3]}`;
-    }
-    return null;
-  }
   // useEffect(() => {
   //   const query = window.location.hash;
   //   const target = query.split('#')[1];
@@ -62,7 +55,7 @@ const Contactform = () => {
     setName('');
     setEmail('');
     setMessage('');
-    setPhone('');
+    setphoneno('');
     setZip('');
     setError(false);
     setErrorMessage('');
@@ -222,14 +215,15 @@ const Contactform = () => {
                   <input
                     type="tel"
                     // pattern={formatPhoneNumber}
-                    onClick={formatPhoneNumber}
-                    maxLength="11"
+                    // onClick={formatPhoneNumber}
+                    maxLength="12"
                     minLength="10"
                     placeholder="Contact Number"
                     accept="number"
-                    value={phone}
+                    value={phoneno}
                     className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                    onChange={(e) => setPhone(e.target.value)}
+                    onChange={(e) => [handleInput(e, setphoneno)]}
+
                     // defaultValue="+1"
                   />
                 </div>
