@@ -279,7 +279,7 @@ const Contactform = () => {
                           href="tel:8008080025"
                           className="cursor-pointer font-bold font-Helvetica"
                         >
-                          +1-800-8080-0025
+                          800-8080-0025
                         </a>
                       </p>
                     </div>

@@ -52,7 +52,7 @@ const Topbar = ({ toggle, postion }) => {
           </div> */}
           <div
             className="text-white flex-1 justify-end hidden lg:flex items-end -mb-4 pb-6  "
-            href="tel:+1-800-808-0025"
+            href="tel:800-808-0025"
           >
             <span className="align-bottom pr-8 pb-1 text-xl">
               Call for Emergency Road Service
@@ -64,7 +64,7 @@ const Topbar = ({ toggle, postion }) => {
               <Image src={call} alt="call" objectFit="contain" height={30} />
 
             </a> */}
-            <a href="tel:+1-800-808-0025" className="cursor-pointer pr-16 ">
+            <a href="tel:800-808-0025" className="cursor-pointer pr-16 ">
               <div>
                 {/* <div className="font-bold">Toll Free</div> */}
                 <div className="text-3xl font-bold align-bottom">

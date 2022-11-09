@@ -18,8 +18,8 @@ const data = [
 
     CTA1: {
       heading: 'Call Now',
-      Slink: 'tel:8008080025',
-      link: 'tel:8008080025',
+      Slink: 'tel:800-808-0025',
+      link: 'tel:800-808-0025',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
     page: 'roadside',

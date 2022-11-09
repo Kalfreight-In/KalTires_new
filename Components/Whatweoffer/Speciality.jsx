@@ -103,7 +103,7 @@ export const Speciality = () => {
                         >
                           Toll Free
                         </span>
-                        <p className="font-Helvetica">+1-800-808-0025</p>
+                        <p className="font-Helvetica">800-808-0025</p>
                       </div>
                     </div>
                   </a>
@@ -147,7 +147,7 @@ export const Speciality = () => {
                       <span id="InnerphoneEmailRoad" className="font-bold">
                         Toll Free
                       </span>
-                      <p>+1-800-808-0025</p>
+                      <p>800-808-0025</p>
                     </div>
                   </div>
                 </a>
