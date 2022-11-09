@@ -631,13 +631,13 @@ const Footer = () => {
                     </div>
                     <div className="block xl:ml-3 ml-2 text-center">
                       <a
-                        href="tel:+1-800-808-0025"
+                        href="tel:800-808-0025"
                         target="_blank"
                         rel="noreferrer"
                       >
                         {' '}
                         <div className="md:text-xl text-lg font-bold xl:font-semibold  ">
-                          +1-800-808-0025
+                          800-808-0025
                         </div>{' '}
                       </a>
                     </div>
@@ -645,11 +645,7 @@ const Footer = () => {
                 </div>
                 <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
                   <div className="mt-1">
-                    <a
-                      href="tel:+1-800-808-0025"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href="tel:800-808-0025" target="_blank" rel="noreferrer">
                       {/* <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
