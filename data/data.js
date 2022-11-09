@@ -755,6 +755,8 @@ export const IndustrialTiresdatan = [
     idmainDstop: 'IndustrialTires',
     idmainMtab: 'IndustrialTiresTwo',
     Alttag: 'High Performance Industrial Tires',
+    Altdesc:
+      'This image is related to high performance Industrial tires. These tires are manufactured to sustain heavy weight vehicles.',
     pr: 0,
   },
   // {
