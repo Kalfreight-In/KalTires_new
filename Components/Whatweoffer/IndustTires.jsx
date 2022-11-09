@@ -58,7 +58,8 @@ export const IndustTires = () => {
                                   <Image
                                     className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                                     src={indust.img}
-                                    alt={indust.Alttag}
+                                    title={indust.Alttag}
+                                    alt={indust.Altdesc}
                                   />
                                 </div>
 
