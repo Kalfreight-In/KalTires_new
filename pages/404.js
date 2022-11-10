@@ -13,11 +13,11 @@ export default function FourOhFour() {
             We can’t seem to find the page you are looking for
           </desc>
 
-          <Link href="/" className="cursor-pointer">
+          <Link href="/">
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="text-white mt-8 p-4 bg-kaltire-red"
+              className="text-white mt-8 p-4 bg-kaltire-red cursor-pointer"
             >
               <p>Back to Home</p>
             </motion.div>

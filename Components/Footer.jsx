@@ -589,7 +589,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-info xl:w-1/3 md:px-4 xl:hidden flex items-center justify-center mt-4">
-              <div className="xl:ml-16 w-max justify-center items-center  flex flex-col ml-4 xl:mt-0">
+              <div className="xl:ml-16 w-max justify-center items-center  flex flex-col mx-4 xl:mt-0">
                 {/* <div>
                   <img
                     src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"

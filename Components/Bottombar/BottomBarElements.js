@@ -99,6 +99,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
+  padding-top: 12px;
   margin-right: -1px;
 
   @media screen and (max-width: 768px) {
@@ -185,6 +186,7 @@ export const NavBtn = styled.div`
 
   @media screen and (max-width: 768px) {
     text-align: center;
+    padding: 0px 12px 12px 12px;
     justify-content: center;
     display: flex;
   }
