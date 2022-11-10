@@ -67,15 +67,17 @@ const Contactform = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    e.preventDefault();
+
     const token = captchaRef.current.getValue();
     captchaRef.current.reset();
     await axios
       .post(process.env.NEXT_PUBLIC_API_URL, { token })
-      .then((res) => console.log(res))
+      .then((res) => [console.log(res), setError(false)])
       .catch((error) => {
+        setError(true);
         console.log(error);
       });
+
     setButtonText('Sending...');
 
     const data = {
@@ -86,19 +88,20 @@ const Contactform = () => {
       phoneno,
       //   location,
     };
-
-    axios
-      .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
-      .then((res) => [setSuccess(true), resetForm()])
-      .catch(() => {
-        [setSuccess(true), resetForm()];
-        console.log('Message not sent');
-      });
-    console.log(`sucesss ${success}`);
-    setInterval(() => {
-      setSuccess(false);
+    if (!error) {
+      axios
+        .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
+        .then((res) => [setSuccess(true), resetForm()])
+        .catch(() => {
+          [setSuccess(true), resetForm()];
+          console.log('Message not sent');
+        });
       console.log(`sucesss ${success}`);
-    }, 8000);
+      setInterval(() => {
+        setSuccess(false);
+        console.log(`sucesss ${success}`);
+      }, 8000);
+    }
   };
 
   // useEffect(() => {
@@ -313,6 +316,12 @@ const Contactform = () => {
                   />
                 </div>
               </div>
+              {error ? (
+                <div className="font-bold font-Helvetica text-white">
+                  Please Fill out the Captcha
+                </div>
+              ) : null}
+
               <ReCAPTCHA
                 ref={captchaRef}
                 sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
