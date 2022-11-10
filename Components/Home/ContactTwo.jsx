@@ -13,7 +13,7 @@ import { handleInput } from '../../HelpFunctions/PhoneNoFormatter';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
-
+  const captchaRef = useRef(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -51,6 +51,9 @@ const Contactform = () => {
   // useEffect(() => {
   //   loadReCaptcha();
   // }, []);
+  function CaptchaonChange(value) {
+    console.log('Captcha value:', value);
+  }
   const resetForm = (e) => {
     setName('');
     setEmail('');
@@ -62,8 +65,17 @@ const Contactform = () => {
     setButtonText('Submit');
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    e.preventDefault();
+    const token = captchaRef.current.getValue();
+    captchaRef.current.reset();
+    await axios
+      .post(process.env.NEXT_PUBLIC_API_URL, { token })
+      .then((res) => console.log(res))
+      .catch((error) => {
+        console.log(error);
+      });
     setButtonText('Sending...');
 
     const data = {
@@ -302,8 +314,11 @@ const Contactform = () => {
                 </div>
               </div>
               <ReCAPTCHA
-                sitekey="6LeCGLIiAAAAAKRyJeoCsg5gAaDf9CqCfzW75gHx"
-                // onChange={onChange}
+                ref={captchaRef}
+                sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
+                onChange={(e) => {
+                  CaptchaonChange(e);
+                }}
               />
               {/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
               <div className="flex justify-center md:justify-start mt-2">

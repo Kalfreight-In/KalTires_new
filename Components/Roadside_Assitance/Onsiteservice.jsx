@@ -84,7 +84,7 @@ const Onsiteservice = () => {
                 {onsitemain.desc}
               </p>
               <div className="flex justify-center mt-8">
-                <a href="tel:+1-800-808-0025" target="_blank" rel="noreferrer">
+                <a href="tel: 800-808-0025" target="_blank" rel="noreferrer">
                   <button
                     className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
                     type="button"

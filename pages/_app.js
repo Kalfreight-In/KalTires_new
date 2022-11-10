@@ -130,20 +130,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         logo="https://kvltires.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.c226bd2d.png&w=384&q=75"
         contactPoint={[
           // {
-          //   telephone: '+1-401-555-1212',
+          //   telephone: ' 401-555-1212',
           //   contactType: 'customer service',
           //   areaServed: 'US',
           //   availableLanguage: ['English', 'Spanish', 'French'],
           // },
           {
-            telephone: '+1-800-808-002',
+            telephone: '800-808-002',
             contactType: 'customer service',
             contactOption: 'TollFree',
             availableLanguage: 'en',
             areaServed: 'US',
           },
           // {
-          //   telephone: '+1-877-453-1304',
+          //   telephone: ' 877-453-1304',
           //   contactType: 'technical support',
           //   contactOption: 'TollFree',
           //   areaServed: ['US', 'CA'],

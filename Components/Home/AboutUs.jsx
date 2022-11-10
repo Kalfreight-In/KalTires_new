@@ -239,7 +239,7 @@ export const AboutUs = () => {
                           <p className="font-bold text-left font-poppins">
                             Toll Free
                           </p>
-                          <p>+1-800-808-0025</p>
+                          <p> 800-808-0025</p>
                         </div>
                       </div>
                     </div>

@@ -247,7 +247,7 @@ const location = () => {
           name="KVLTires"
           description="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
           url="https://kvltires.com/locations"
-          telephone="+1-800-808-0025"
+          telephone=" 800-808-0025"
           address={{
             streetAddress: data.properties.address,
             addressLocality: data.properties.city,

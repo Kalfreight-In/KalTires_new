@@ -32,7 +32,7 @@ const EmergencyAssists = () => (
               <span>
                 <ImPhone className=" ph_Ring transition-all text-2xl font-poppins " />
               </span>{' '}
-              &nbsp;+1-800-808-0025
+              &nbsp; 800-808-0025
             </div>
           </a>
         </div>

@@ -83,7 +83,7 @@ const RoadSideAssistant = () => {
                       <span>
                         <MdLocalPhone className="text-2xl font-poppins" />
                       </span>{' '}
-                      &nbsp;+1-800-808-0025
+                      &nbsp; 800-808-0025
                     </div>
                   </a>
                 </div>
@@ -99,7 +99,7 @@ const RoadSideAssistant = () => {
                     <span>
                       <MdLocalPhone className="text-2xl font-poppins" />
                     </span>{' '}
-                    &nbsp;+1-800-808-0025
+                    &nbsp; 800-808-0025
                   </div>
                 </a>
               </div>

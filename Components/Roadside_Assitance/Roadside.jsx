@@ -55,7 +55,7 @@ const Roadside = () => {
                   call our 24/7/365 service center at 800-808-0025. Our trained
                   & knowledgeable staff are always ready to answer your service
                   calls.
-                  {/* Dial +1-800-808-0025 */}
+                  {/* Dial  800-808-0025 */}
                 </p>
                 {/* <div className="inline-block py-3">
                 <p className="pt-2">
@@ -101,11 +101,11 @@ const Roadside = () => {
                     <div id="Hotline-second">
                       <h2 className="font-bold font-poppins">Toll Free</h2>
                       <a
-                        href="tel:+1-800-808-0025"
+                        href="tel: 800-808-0025"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <p className="font-poppins">+1-800-808-0025</p>
+                        <p className="font-poppins">800-808-0025</p>
                       </a>
                     </div>
                   </div>

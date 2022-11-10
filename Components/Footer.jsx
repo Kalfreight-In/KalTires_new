@@ -136,7 +136,7 @@ const Footer = () => {
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a
-                      href="tel:+1-800-808-0025"
+                      href="tel: 800-808-0025"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -145,19 +145,19 @@ const Footer = () => {
                   </div>
                   <div className="ml-2 flex flexcenter">
                     <a
-                      href="tel:+1-800-808-0025"
+                      href="tel: 800-808-0025"
                       target="_blank"
                       rel="noreferrer"
                     >
                       {' '}
-                      <div className=" text-sm   ">+1-800-808-0025</div>{' '}
+                      <div className=" text-sm   "> 800-808-0025</div>{' '}
                     </a>
                   </div>
                 </div>
                 <div className="text-white flex xl:justify-start justify-start mt-1 md:ml-0 ml-0 ">
                   <div className="">
                     <a
-                      href="tel:+1-800-808-0025"
+                      href="tel: 800-808-0025"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -616,7 +616,7 @@ const Footer = () => {
                   <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0">
                     <div className="mt-1">
                       <a
-                        href="tel:+1-800-808-0025"
+                        href="tel: 800-808-0025"
                         target="_blank"
                         rel="noreferrer"
                       >

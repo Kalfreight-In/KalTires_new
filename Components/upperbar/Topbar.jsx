@@ -58,7 +58,7 @@ const Topbar = ({ toggle, postion }) => {
               Call for Emergency Road Service
             </span>
             {/* <a
-              href="tel:+1-800-808-0025"
+              href="tel:800-808-0025"
               className="pr-2 flex flexCenter cursor-pointer"
             >
               <Image src={call} alt="call" objectFit="contain" height={30} />
@@ -68,7 +68,7 @@ const Topbar = ({ toggle, postion }) => {
               <div>
                 {/* <div className="font-bold">Toll Free</div> */}
                 <div className="text-3xl font-bold align-bottom">
-                  +1-<span className="text-red-500">800</span>-808-0025
+                  <span className="text-red-500">800</span>-808-0025
                 </div>
               </div>
             </a>
