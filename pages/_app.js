@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import { Partytown } from '@builder.io/partytown/react';
-import { BreadcrumbJsonLd, CorporateContactJsonLd } from 'next-seo';
+import { BreadcrumbJsonLd, OrganizationJsonLd } from 'next-seo';
 import Script from 'next/script';
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 
@@ -125,7 +125,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           },
         ]}
       />
-      <CorporateContactJsonLd
+      <OrganizationJsonLd
+        name="KVL Tires"
+        legalName="KVL Tires"
         url="https://kvltires.com/"
         logo="https://kvltires.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.c226bd2d.png&w=384&q=75"
         contactPoint={[
@@ -150,6 +152,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           //   availableLanguage: ['English', 'French'],
           // },
         ]}
+        sameAs={['https://www.orange-fox.com']}
       />
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
