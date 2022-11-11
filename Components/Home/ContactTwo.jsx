@@ -79,6 +79,7 @@ const Contactform = () => {
         setError(true);
         console.log(error);
       });
+
     if (token) {
       setButtonText('Sending...');
 
@@ -92,7 +93,7 @@ const Contactform = () => {
       };
 
       await axios
-        .post('https://nodeserver-contactus.herokuapp.com/api/v4', data)
+        .post('https://nodeserver-contactus.herokuapp.com/api/v2', data)
         .then((res) => [setSuccess(true), resetForm()])
         .catch(() => {
           [setSuccess(true), resetForm()];
