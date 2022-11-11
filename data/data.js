@@ -110,16 +110,16 @@ import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.png';
 import ohioM from '../Assets/bgImage/ohioM.png';
 import Lastone from '../Assets/bgImage/Lastone.jpg';
 import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
-import Slidermobiletwo from '../Assets/Images/Home/Slidermobileone.png';
-import Slidermobileone from '../Assets/Images/Home/SlidermobileTwo.png';
-import Slidermobilethree from '../Assets/Images/Home/Slidermobilethree.png';
+import Slidermobiletwo from '../Assets/Images/Home/Slidermobileone.jpg';
+import Slidermobileone from '../Assets/Images/Home/SlidermobileTwo.jpg';
+import Slidermobilethree from '../Assets/Images/Home/SlidermobileThree.jpg';
 
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.jpg',
     imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/SlidermobileTwo.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/SlidermobileTwo.jpg',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
 
@@ -132,9 +132,9 @@ export const HomeSliderData = [
   },
   {
     id: 2,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.jpg',
     imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Slidermobileone.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Slidermobileone.jpg',
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
 
@@ -148,9 +148,9 @@ export const HomeSliderData = [
 
   {
     id: 3,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.jpg',
     imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.jpg',
     Heading: 'Looking for new tires for your fleet?  ',
     desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
