@@ -1,9 +1,7 @@
 const validateCaptcha = (response_key) => {
   // return new Promise((resolve, reject) => {
   //   const secret_key = process.env.NEXT_PUBLIC_SECRET_KEY;
-
   //   const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${response_key}`;
-
   //   fetch(url, {
   //     method: 'post',
   //   })
@@ -113,19 +111,19 @@ const validateCaptcha = (response_key) => {
 export default async (req, res) => {
   if (req.method === 'POST') {
     const { token } = req.body;
-    axios
-      .post(
-        `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.NEXT_PUBLIC_SECRET_KEY}&response=${token}`
-      )
-      .then((res) => [
-        res.  res.status(200).json({`Human 👨 👩 ${token} ${process.env.NEXT_PUBLIC_SECRET_KEY}`})
-      ])
-      .catch((e) => {
-        res.status(401);
-        res.send({
-          error: `User already exists ${e} --  ${req.body}`,
-        });
-      });
+    // axios
+    //   .post(
+    //     `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.NEXT_PUBLIC_SECRET_KEY}&response=${token}`
+    //   )
+    //   .then((res) => [
+    //     res.  res.status(200).json({`Human 👨 👩 ${token} ${process.env.NEXT_PUBLIC_SECRET_KEY}`})
+    //   ])
+    //   .catch((e) => {
+    //     res.status(401);
+    //     res.send({
+    //       error: `User already exists ${e} --  ${req.body}`,
+    //     });
+    //   });
     //sends secret key and response token to google
     // try {
     //   axios.post(
