@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
@@ -11,6 +11,7 @@ import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
 
 const Contactform = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
+  const captchaRef = useRef(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -18,6 +19,7 @@ const Contactform = () => {
   const [service, setservice] = useState('');
   const [ROC, setROC] = useState('');
   const [success, setSuccess] = useState(false);
+  const [token, setToken] = useState(false);
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
@@ -32,31 +34,48 @@ const Contactform = () => {
     setErrorMessage('');
     setButtonText('Submit');
   };
-
+  function CaptchaonChange(value) {
+    console.log('Captcha value:', value);
+    setToken(value);
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
-    setButtonText('Sending...');
-
-    const data = {
-      site: 'abcd@soidfh.com',
-      name,
-      email,
-      message,
-      phoneno,
-      //   location,
-    };
-
+    const tokenIn = captchaRef.current.getValue();
+    setToken(tokenIn);
+    captchaRef.current.reset();
     axios
-      .post('https://nodeserver-contactus.herokuapp.com/api/v2', data)
-      .then((res) => [setSuccess(true), resetForm()])
-      .catch(() => {
-        [setSuccess(true), resetForm()];
-        console.log('Message not sent');
+      .post('api/CaptchCheck', { tokenIn })
+      .then((res) => [console.log(res), setError(true)])
+      .catch((error) => {
+        setError(true);
+        console.log(error);
       });
-    setInterval(() => {
-      setSuccess(false);
-      console.log(`sucesss ${success}`);
-    }, 8000);
+    if (token) {
+      setButtonText('Sending...');
+
+      const data = {
+        site: 'abcd@soidfh.com',
+        name,
+        email,
+        message,
+        phoneno,
+        //   location,
+      };
+
+      axios
+        .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
+        .then((res) => [setSuccess(true), resetForm()])
+        .catch(() => {
+          [setSuccess(true), resetForm()];
+          console.log('Message not sent');
+        });
+      setInterval(() => {
+        setSuccess(false);
+        console.log(`sucesss ${success}`);
+      }, 8000);
+    } else {
+      setError(true);
+    }
   };
 
   // useEffect(() => {
@@ -252,9 +271,17 @@ const Contactform = () => {
                     />
                   </div>
                 </div>
+                {error ? (
+                  <div className="font-bold font-Helvetica text-white">
+                    Please Fill out the Captcha
+                  </div>
+                ) : null}
                 <ReCAPTCHA
-                  sitekey="6LeCGLIiAAAAAKRyJeoCsg5gAaDf9CqCfzW75gHx"
-                  // onChange={onChange}
+                  ref={captchaRef}
+                  sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
+                  onChange={(e) => {
+                    CaptchaonChange(e);
+                  }}
                 />
                 <div className="flex justify-center md:justify-start">
                   <div

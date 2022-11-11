@@ -54,6 +54,7 @@ const Contactform = () => {
   // }, []);
   function CaptchaonChange(value) {
     console.log('Captcha value:', value);
+    setToken(value);
   }
   const resetForm = (e) => {
     setName('');
