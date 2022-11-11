@@ -110,7 +110,7 @@ const validateCaptcha = (response_key) => {
 
 export default async (req, res) => {
   if (req.method === 'POST') {
-    const { token } = req.body;
+    const { tokenIn } = req.body;
     // axios
     //   .post(
     //     `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.NEXT_PUBLIC_SECRET_KEY}&response=${token}`
@@ -138,10 +138,10 @@ export default async (req, res) => {
     // }
 
     //check response status and send back to the client-side
-
+    await res.status(200).json({ yestoken: tokenIn });
     // Process a POST request
   } else {
     // Handle any other HTTP method
-    res.status(200).json({ message: process.env.NEXT_PUBLIC_SECRET_KEY });
+    await res.status(200).json({ message: process.env.NEXT_PUBLIC_SECRET_KEY });
   }
 };

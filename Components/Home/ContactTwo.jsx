@@ -72,8 +72,8 @@ const Contactform = () => {
     const tokenIn = captchaRef.current.getValue();
     setToken(tokenIn);
     captchaRef.current.reset();
-    await axios
-      .post(process.env.NEXT_PUBLIC_API_URL, { tokenIn })
+    axios
+      .post('api/CaptchCheck', { tokenIn })
       .then((res) => [console.log(res), setError(false)])
       .catch((error) => {
         setError(true);
@@ -92,7 +92,7 @@ const Contactform = () => {
       };
 
       await axios
-        .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
+        .post('https://nodeserver-contactus.herokuapp.com/api/v4', data)
         .then((res) => [setSuccess(true), resetForm()])
         .catch(() => {
           [setSuccess(true), resetForm()];
