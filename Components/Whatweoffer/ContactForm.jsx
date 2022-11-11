@@ -276,10 +276,10 @@ const Contactform = () => {
                       <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
                         Or call us now at &nbsp;
                         <a
-                          href="tel:8008080025"
+                          href="tel:800808025"
                           className="cursor-pointer font-bold font-Helvetica"
                         >
-                          800-8080-0025
+                          800-808-0025
                         </a>
                       </p>
                     </div>

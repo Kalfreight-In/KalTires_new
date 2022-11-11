@@ -88,7 +88,7 @@ export const Speciality = () => {
               <div className="block pt-4" id="PhoneEmailRoad" />
               <div className="md:flex hidden 2xl:mt-8  pb-6  justify-center lg:justify-start ">
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
-                  <a href="tel:8008080025" className="cursor-pointer">
+                  <a href="tel:800808025" className="cursor-pointer">
                     <div
                       id="Hotline"
                       className="flex items-center lg:pr-0 md:pr-4 pr-0"
@@ -135,7 +135,7 @@ export const Speciality = () => {
             </div>
             <div className="md:hidden flex mt-8 justify-center lg:justify-start">
               <div className="flex lg:justify-center lg:pb-0 pb-4 ">
-                <a href="tel:8008080025">
+                <a href="tel:800808025">
                   <div
                     id="Hotline"
                     className="flex items-center lg:pr-0 md:pr-4 pr-0"
