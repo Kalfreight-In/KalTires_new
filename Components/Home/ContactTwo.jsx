@@ -93,7 +93,7 @@ const Contactform = () => {
       };
 
       await axios
-        .post('https://nodeserver-contactus.herokuapp.com/api/v2', data)
+        .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
         .then((res) => [setSuccess(true), resetForm()])
         .catch(() => {
           [setSuccess(true), resetForm()];
