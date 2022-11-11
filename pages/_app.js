@@ -152,7 +152,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           //   availableLanguage: ['English', 'French'],
           // },
         ]}
-        sameAs={['https://www.orange-fox.com']}
+        sameAs={[
+          'https://www.facebook.com/kvltires',
+          'https://www.instagram.com/kvltires/',
+          'https://www.linkedin.com/company/kvltires/',
+        ]}
       />
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
