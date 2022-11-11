@@ -162,7 +162,7 @@ const TopUpbar = () => {
               <MdOutlineKeyboardArrowRight />
             </span>
             <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
-              Credit Applications
+              Credit Application
             </span>
           </CreditAppContainer>
         </a>

@@ -24,6 +24,7 @@ const Contactform = () => {
   const [ROC, setROC] = useState('');
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
+  const [token, setToken] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [buttonText, setButtonText] = useState('Submit');
   const router = useRouter();
@@ -68,28 +69,29 @@ const Contactform = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const token = captchaRef.current.getValue();
+    const tokenIn = captchaRef.current.getValue();
+    setToken(tokenIn);
     captchaRef.current.reset();
     await axios
-      .post(process.env.NEXT_PUBLIC_API_URL, { token })
+      .post(process.env.NEXT_PUBLIC_API_URL, { tokenIn })
       .then((res) => [console.log(res), setError(false)])
       .catch((error) => {
         setError(true);
         console.log(error);
       });
+    if (token) {
+      setButtonText('Sending...');
 
-    setButtonText('Sending...');
+      const data = {
+        site: 'abcd@soidfh.com',
+        name,
+        email,
+        message,
+        phoneno,
+        //   location,
+      };
 
-    const data = {
-      site: 'abcd@soidfh.com',
-      name,
-      email,
-      message,
-      phoneno,
-      //   location,
-    };
-    if (!error) {
-      axios
+      await axios
         .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
         .then((res) => [setSuccess(true), resetForm()])
         .catch(() => {
@@ -101,6 +103,8 @@ const Contactform = () => {
         setSuccess(false);
         console.log(`sucesss ${success}`);
       }, 8000);
+    } else {
+      setError(true);
     }
   };
 
