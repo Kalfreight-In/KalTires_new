@@ -73,13 +73,13 @@ const Contactform = () => {
     const tokenIn = captchaRef.current.getValue();
     setToken(tokenIn);
     captchaRef.current.reset();
-    axios
-      .post('api/CaptchCheck', { tokenIn })
-      .then((res) => [console.log(res), setError(true)])
-      .catch((error) => {
-        setError(true);
-        console.log(error);
-      });
+    // axios
+    //   .post('api/CaptchCheck', { tokenIn })
+    //   .then((res) => [console.log(res), setError(true)])
+    //   .catch((error) => {
+    //     setError(true);
+    //     console.log(error);
+    //   });
 
     if (token) {
       setButtonText('Sending...');
