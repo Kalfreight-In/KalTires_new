@@ -53,9 +53,9 @@ const MyApp = ({ Component, pageProps }) => {
           src="https://www.googletagmanager.com/gtag/js?id=GTM-PHKPDRM"
         /> */}
         {/* <!-- Google Tag Manager --> */}
-        <Partytown debug={true} forward={['dataLayer.push']} />
+
         {/* <script src="https://example.com/analytics.js" type="text/partytown" /> */}
-        <Script
+        <script
           type="text/partytown"
           dangerouslySetInnerHTML={{
             __html: `
@@ -85,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         {/* <!-- End Google Tag Manager --> */}
 
-        <Script
+        <script
           type="text/partytown"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
