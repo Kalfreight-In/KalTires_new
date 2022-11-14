@@ -10,7 +10,7 @@ import useMediaQuery from '../../Hooks/CustomMediaQuery';
 const data = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.jpg',
     Heading: 'Join Our Team',
     // page: 'Careers'
     // desc: 'Join Our Team',
@@ -44,7 +44,7 @@ export const CareerHeader = () => {
             backgroundImage:
               // eslint-disable-next-line operator-linebreak
               'url(' +
-              'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.png' +
+              'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.jpg' +
               ')',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
