@@ -72,22 +72,22 @@ import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
 
-import continentalone from '../Assets/Images/Home/BrandsLogo/Continental.png';
-import goodyearone from '../Assets/Images/Home/BrandsLogo/GoodYear.png';
-import apolloone from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
-import bktone from '../Assets/Images/Home/BrandsLogo/BKT.png';
-import generalone from '../Assets/Images/Home/BrandsLogo/General_Tire.png';
-import westLake from '../Assets/Images/Home/BrandsLogo/westLake.png';
+import continentalone from '../Assets/Images/Home/BrandsLogo/Continental.jpg';
+import goodyearone from '../Assets/Images/Home/BrandsLogo/GoodYear.jpg';
+import apolloone from '../Assets/Images/Home/BrandsLogo/apollo-tyres.jpg';
+import bktone from '../Assets/Images/Home/BrandsLogo/BKT.jpg';
+import generalone from '../Assets/Images/Home/BrandsLogo/General_Tire.jpg';
+import westLake from '../Assets/Images/Home/BrandsLogo/westLake.jpg';
 
-import americanone from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
-import cooperone from '../Assets/Images/Home/BrandsLogo/cooperTirelogo.png';
-import contitreadone from '../Assets/Images/Home/BrandsLogo/contitread.png';
-import michelinone from '../Assets/Images/Home/BrandsLogo/michelin.png';
-import pirellione from '../Assets/Images/Home/BrandsLogo/pirelli.png';
+import americanone from '../Assets/Images/Home/BrandsLogo/ameristeel.jpg';
+import cooperone from '../Assets/Images/Home/BrandsLogo/cooperTirelogo.jpg';
+import contitreadone from '../Assets/Images/Home/BrandsLogo/contitread.jpg';
+import michelinone from '../Assets/Images/Home/BrandsLogo/michelin.jpg';
+import pirellione from '../Assets/Images/Home/BrandsLogo/pirelli.jpg';
 import Frentino from '../Assets/Images/Home/BrandsLogo/Ferentino.jpg';
 
-import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.png';
-import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.png';
+import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.jpg';
+import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.jpg';
 
 import LiveoakfontanaM from '../Assets/bgImage/LiveoakfontanaM.jpg';
 import valleyblvdFontanaCa from '../Assets/bgImage/valleyblvdFontanaCa.jpg';
@@ -255,7 +255,7 @@ export const FeaturedProductsData = [
     id: 1,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -263,7 +263,7 @@ export const FeaturedProductsData = [
     id: 2,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -271,7 +271,7 @@ export const FeaturedProductsData = [
     id: 3,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -279,7 +279,7 @@ export const FeaturedProductsData = [
     id: 4,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -287,7 +287,7 @@ export const FeaturedProductsData = [
     id: 5,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 13.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 13.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -295,7 +295,7 @@ export const FeaturedProductsData = [
     id: 6,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -303,7 +303,7 @@ export const FeaturedProductsData = [
     id: 7,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -311,7 +311,7 @@ export const FeaturedProductsData = [
     id: 8,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 14.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 14.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -319,7 +319,7 @@ export const FeaturedProductsData = [
     id: 9,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 15.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 15.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -327,7 +327,7 @@ export const FeaturedProductsData = [
     id: 10,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -335,7 +335,7 @@ export const FeaturedProductsData = [
     id: 11,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 20.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 20.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -343,7 +343,7 @@ export const FeaturedProductsData = [
     id: 12,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -351,7 +351,7 @@ export const FeaturedProductsData = [
     id: 13,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 21.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 21.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -359,7 +359,7 @@ export const FeaturedProductsData = [
     id: 14,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -367,7 +367,7 @@ export const FeaturedProductsData = [
     id: 15,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 22.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 22.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -375,7 +375,7 @@ export const FeaturedProductsData = [
     id: 16,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -383,7 +383,7 @@ export const FeaturedProductsData = [
     id: 17,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 23.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 23.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -391,7 +391,7 @@ export const FeaturedProductsData = [
     id: 18,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/spokewheels 9.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/spokewheels 9.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -399,7 +399,7 @@ export const FeaturedProductsData = [
     id: 19,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Earthmover Tires',
   },
@@ -407,7 +407,7 @@ export const FeaturedProductsData = [
     id: 20,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
@@ -415,7 +415,7 @@ export const FeaturedProductsData = [
     id: 21,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Industrial Tires',
   },
@@ -423,7 +423,7 @@ export const FeaturedProductsData = [
     id: 22,
     heading: 'The Wheel',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.png',
+    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
     CTA1: { heading: 'Inventory', link: 'contactus' },
     Category: 'Commercial Tires',
   },
