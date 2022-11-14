@@ -26,7 +26,7 @@ export const IndustTires = () => {
                     backgroundImage:
                       // eslint-disable-next-line operator-linebreak
                       'url(' +
-                      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
+                      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.jpg' +
                       ')',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
@@ -156,7 +156,7 @@ export const IndustTires = () => {
             backgroundImage:
               // eslint-disable-next-line operator-linebreak
               'url(' +
-              'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
+              'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.jpg' +
               ')',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
