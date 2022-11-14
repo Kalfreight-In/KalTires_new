@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import axios from 'axios';
-import { useDropzone } from 'react-dropzone';
+// import { useDropzone } from 'react-dropzone';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import ProgressBarLine from '../ProgressBar/ProgressBarLine';
 import Sparkles from '../../Animation/Sparkel';
