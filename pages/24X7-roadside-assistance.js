@@ -9,9 +9,9 @@ import EmergencyAssists from '../Components/Roadside_Assitance/EmergencyAssists'
 const data = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.png',
+    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.jpg',
     imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.jpg',
     Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
     Alttag: 'Convenient Roadside Assistance',
     desc: 'Get Quick & Convenient Roadside Assistance',
