@@ -576,7 +576,7 @@ export const HighPerformanceBrandsData = [
     logo: continental_logo_white,
     Image: ContinentalTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
     src: 'Continental',
   },
   {
@@ -588,7 +588,7 @@ export const HighPerformanceBrandsData = [
     logo: goodyearLogo_white,
     Image: goodyearTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
     src: 'Continental',
   },
   {
@@ -600,7 +600,7 @@ export const HighPerformanceBrandsData = [
     logo: Apollo_Tyres_white,
     Image: apolloTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
     src: 'Continental',
   },
   {
@@ -612,7 +612,7 @@ export const HighPerformanceBrandsData = [
     logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
     src: 'Continental',
   },
   {
@@ -624,7 +624,7 @@ export const HighPerformanceBrandsData = [
     logo: generalLogo_white,
     Image: generalTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
     src: 'Continental',
   },
   {
@@ -636,7 +636,7 @@ export const HighPerformanceBrandsData = [
     logo: ameristeel_white,
     Image: ameristeelTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
     src: 'Continental',
   },
   {
@@ -648,7 +648,7 @@ export const HighPerformanceBrandsData = [
     logo: Cooper_Tire_white,
     Image: coopertiresTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
     src: 'Continental',
   },
   {
@@ -660,7 +660,7 @@ export const HighPerformanceBrandsData = [
     logo: michelinLogo_white,
     Image: michelinTire,
     bgImage:
-      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
     src: 'Continental',
   },
 ];
