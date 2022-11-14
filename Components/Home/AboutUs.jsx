@@ -22,7 +22,7 @@ export const AboutUs = () => {
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
-            'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/AboutUs_background.jpg)',
+            'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/AboutUs_background.png)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}
