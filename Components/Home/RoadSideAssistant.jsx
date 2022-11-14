@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
-import RoadSideAss from '../../Assets/Images/Home/RoadsideAssistant_Home.png';
+import RoadSideAss from '../../Assets/Images/Home/RoadsideAssistant_Home.jpg';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 const RoadSideAssistant = () => {
@@ -12,7 +12,7 @@ const RoadSideAssistant = () => {
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
-            'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Roadsidebackground.png)',
+            'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Roadsidebackground.jpg)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: `${isDesktop ? 'right' : 'bottom'}`,

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
 // import { BiMessageDetail } from 'react-icons/bi';
 import { motion } from 'framer-motion';
-import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.png';
+import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.jpg';
 import AgriculturalTires from '../../Assets/Images/Home/AgriculturalTires.png';
 import CommercialTire from '../../Assets/Images/Home/CommercialTires.png';
 import OTRTires from '../../Assets/Images/Home/OTRTires.png';
@@ -22,7 +22,7 @@ export const AboutUs = () => {
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
-            'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png)',
+            'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.jpg)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}
