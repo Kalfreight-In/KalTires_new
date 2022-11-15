@@ -100,7 +100,7 @@ const Contactform = () => {
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
             'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/Contactform/backgroundfirst.png' +
+            'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/Contactform/backgroundfirst.jpg' +
             ')',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
