@@ -142,10 +142,10 @@ const TopUpbar = () => {
             <motion.div
               animate={{ x: 1050 }}
               transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
-              whileHover={{
-                scale: 2,
-                transition: { duration: 2 },
-              }}
+              // whileHover={{
+              //   scale: 2,
+              //   transition: { duration: 2 },
+              // }}
             >
               <Image
                 src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
