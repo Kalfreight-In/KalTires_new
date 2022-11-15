@@ -108,7 +108,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         itemListElements={[
           {
             position: 1,
-            name: 'KVL Tires',
+            name: 'Home',
             item: 'https://kvltires.com/',
           },
           {
@@ -125,6 +125,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             position: 4,
             name: 'locations',
             item: 'https://kvltires.com/locations',
+          },
+          {
+            position: 5,
+            name: 'Careers',
+            item: 'https://kvltires.com/careers',
           },
         ]}
       />

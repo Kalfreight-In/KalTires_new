@@ -119,6 +119,7 @@ const LeafMap = dynamic(
 const MapCaller = ({ Data, Data2, SData, location }) => (
   <LeafMap Data={Data} Data2={Data2} SData={SData} location={location} />
 );
+
 export const MapConatiner = () => {
   const isDesktop = useMediaQuery('(min-width:768px)');
   const [Maplocation, setMapocation] = useState();
