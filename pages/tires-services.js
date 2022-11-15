@@ -6,6 +6,7 @@ import { IndustTires } from '../Components/Whatweoffer/IndustTires';
 import CommercialTire from '../Components/Whatweoffer/CommercialTire';
 import Contactform from '../Components/Whatweoffer/ContactForm';
 import HeroSection from '../Components/Home/HeroSection';
+import HeroSection_free from '../Components/Home/HeroSection_free';
 // import Onsiteservice from '../Components/Roadside_Assitance/Onsiteservice';
 
 const data = [

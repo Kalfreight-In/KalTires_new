@@ -27,13 +27,13 @@ export const MapConatiner = () => {
     <div
       id="mainmapcontainer"
       className="bg-Lightblue flex flex-col-reverse  md:flex-row p-8 bg-cover"
-      style={{
-        backgroundImage: `${
-          isDesktop
-            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
-            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
-        }`,
-      }}
+      // style={{
+      //   backgroundImage: `${
+      //     isDesktop
+      //       ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
+      //       : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
+      //   }`,
+      // }}
     >
       <div className=" svg-container">
         <Map
@@ -54,13 +54,13 @@ export const MapConatiner = () => {
       <div className="md:-m-8 -mx-8 w-full flex-1 ">
         <div
           className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center  lg:ml-12  lg:mb-0 mb-2  h-full"
-          style={{
-            backgroundImage: `${
-              isDesktop
-                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
-                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
-            }`,
-            display: 'flex',
+          // style={{
+          //   backgroundImage: `${
+          //     isDesktop
+          //       ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
+          //       : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
+          //   }`,
+          //   display: 'flex',
           }}
         >
           <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">

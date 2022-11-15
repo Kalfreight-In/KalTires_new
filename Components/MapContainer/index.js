@@ -270,7 +270,7 @@ export const MapConatiner = () => {
             backgroundImage: `${
               isDesktop
                 ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.jpg)'
-                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Ma.png)'
+                : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.jpg)'
             }`,
             display: 'flex',
           }}
@@ -367,8 +367,8 @@ export const MapConatiner = () => {
                       value.properties.City ==
                         MapData1[index + 1]?.properties.City &&
                       value.multi === true ? (
-                        <div>
-                          <div key={value.id}>
+                        <div key={value.id}>
+                          <div>
                             <Divlink
                               data-index={index}
                               onClick={(e) =>
@@ -705,7 +705,7 @@ export const MapConatiner = () => {
                       {ShowDropdown ? (
                         <div className="flex flex-col scrollbar overflow-auto h-96  ">
                           {MapData1.map((value, index) => (
-                            <Link href="/#Map_SvgContainer">
+                            <Link href="/#Map_SvgContainer" key={value.id}>
                               <button
                                 data-index={index}
                                 onClick={(e) =>
@@ -836,7 +836,7 @@ export const MapConatiner = () => {
                       {ShowDropdownCa ? (
                         <div className="flex flex-col">
                           {MapData2.map((value, index) => (
-                            <Link href="/#Map_SvgContainer">
+                            <Link href="/#Map_SvgContainer" key={value.id}>
                               <button
                                 data-index={index}
                                 onClick={(e) =>

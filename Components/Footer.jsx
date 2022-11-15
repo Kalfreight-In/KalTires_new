@@ -43,7 +43,7 @@ const Footer = () => {
   useEffect(() => {
     setTimeout(() => {
       setPopup(false);
-      console.log('setting pop up as false');
+      // console.log('setting pop up as false');
     }, 2500);
   }, [popup]);
   useEffect(() => {
@@ -51,9 +51,9 @@ const Footer = () => {
     const target = query.split('#')[1];
 
     if (window.location.hash) {
-      console.log(
-        `set hash ................... ${window.location.hash} ${changeState}`
-      );
+      // console.log(
+      //   `set hash ................... ${window.location.hash} ${changeState}`
+      // );
       if (target === 'maincontactform' || target === 'onsiteid') {
         setTimeout(() => {
           const element = document.getElementById(target);
@@ -85,13 +85,15 @@ const Footer = () => {
     >
       <div className="pt-8    justify-center xl:hidden flex ">
         <Link href="/" passHref>
-          <Image
-            src={kvlTirelogo}
-            height={75}
-            width={200}
-            alt="logo"
-            className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
-          />
+          <div>
+            <Image
+              src={kvlTirelogo}
+              height={75}
+              width={200}
+              alt="logo"
+              className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
+            />
+          </div>
         </Link>
       </div>
       <div className="flex md:flex-row flex-col-reverse md:pt-4 md:flex md:justify-between md:bg-cover bg-contain">

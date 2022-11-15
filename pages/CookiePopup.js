@@ -7,14 +7,14 @@ const CookiePopup = () => {
   function SetCookies(pram) {
     localStorage.setItem('KvltireCokkies', pram);
     setPopup(false);
-    console.log(`current local popup ${Popup}`);
+    // console.log(`current local popup ${Popup}`);
   }
   useEffect(() => {
     var cookie = localStorage.getItem('KvltireCokkies');
-    console.log(`current local storage ${cookie}`);
+    // console.log(`current local storage ${cookie}`);
     if (cookie) {
       setPopup(false);
-      console.log(`current local popup ${false}`);
+      // console.log(`current local popup ${false}`);
     }
     // if (cookie == null) {
     //   setPopup(true);
@@ -22,7 +22,7 @@ const CookiePopup = () => {
     // }
     else {
       setPopup(true);
-      console.log(`current local popup ${true}`);
+      // console.log(`current local popup ${true}`);
     }
   }, [Popup]);
   return (

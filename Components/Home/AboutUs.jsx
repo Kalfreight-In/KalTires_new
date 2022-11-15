@@ -19,13 +19,13 @@ export const AboutUs = () => {
     <div id="AboutUs_Section">
       <div
         id="specialmaininner"
-        style={{
-          backgroundImage:
-            // eslint-disable-next-line operator-linebreak
-            'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/AboutUs_background.png)',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-        }}
+        // style={{
+        //   backgroundImage:
+        //     // eslint-disable-next-line operator-linebreak
+        //     'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/AboutUs_background.png)',
+        //   backgroundRepeat: 'no-repeat',
+        //   backgroundSize: 'cover',
+        // }}
       >
         <div className="">
           <div className="lg:grid lg:grid-cols-10 items-center ">

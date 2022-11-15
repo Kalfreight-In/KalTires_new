@@ -327,7 +327,7 @@ const location = () => {
               backgroundImage: `${
                 isDesktop
                   ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.jpg)'
-                  : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Map.png)'
+                  : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.jpg)'
               }`,
               display: 'flex',
             }}

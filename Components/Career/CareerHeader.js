@@ -37,32 +37,31 @@ export const CareerHeader = () => {
   return (
     <>
       {/* <Gradients /> */}
-      <div id="careerHeadermain">
-        <div
-          id="careerHeadertwo"
-          style={{
-            backgroundImage:
-              // eslint-disable-next-line operator-linebreak
-              'url(' +
-              'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.jpg' +
-              ')',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            height: isMobile ? '50vh' : '70vh',
-            // display: 'flex',
-            // flexDirection: 'row',
-            // alignItems: 'end',
-            // justifyContent: 'center',
-            width: '100%',
-            margin: '0',
-            padding: '0',
-            // position: 'relative',
-          }}
-        >
-          <h1 className="text-center flex justify-center items-end lg:h-careerheaderHeight h-careerheaderMobileH md:text-5xl xl:text-6xl text-4xl  font-poppins  font-bold text-white font-xl  pb-0 lg:pb-4   lg:mx-0 block-inline">
-            JOIN OUR <br></br>DIVERSIFIED TEAM!
-          </h1>
-        </div>
+
+      <div
+        id="careerHeadertwo"
+        style={{
+          backgroundImage:
+            // eslint-disable-next-line operator-linebreak
+            'url(' +
+            'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Career/headerbanner.jpg' +
+            ')',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          height: isMobile ? '50vh' : '70vh',
+          // display: 'flex',
+          // flexDirection: 'row',
+          // alignItems: 'end',
+          // justifyContent: 'center',
+          width: '100%',
+          margin: '0',
+          padding: '0',
+          // position: 'relative',
+        }}
+      >
+        <h1 className="text-center flex justify-center items-end lg:h-careerheaderHeight h-careerheaderMobileH md:text-5xl xl:text-6xl text-4xl  font-poppins  font-bold text-white font-xl  pb-0 lg:pb-4   lg:mx-0 block-inline">
+          JOIN OUR <br></br>DIVERSIFIED TEAM!
+        </h1>
       </div>
     </>
     // const isMobile = useMediaQuery('(max-width:768px)');
