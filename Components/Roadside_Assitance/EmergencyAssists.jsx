@@ -11,7 +11,7 @@ const EmergencyAssists = () => (
         backgroundImage:
           // eslint-disable-next-line operator-linebreak
           'url(' +
-          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Roadside_Assistance/emerassistbackgr.png' +
+          'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/emerassistbackgr.jpg' +
           ')',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
