@@ -61,7 +61,7 @@ const Home = () => (
       <meta property="og:locale" content="en" />
     </Head>
     <Suspense fallback={`Loading...`}>
-      <HomeSlider />
+      <HomeSlider className="h-headerHeight" />
     </Suspense>
     <BrandsComponent />
     {/* <div className="gcse-search" /> */}

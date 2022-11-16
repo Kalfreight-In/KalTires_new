@@ -95,6 +95,7 @@ module.exports = {
         mapheightMob: '800px',
         Onsiteheight: '95vh',
         onsitegridheight: '75vh',
+        headerHeight: '70vh',
         onsiteimage: '140px',
         perkimageheight: '7.5rem',
         contactheighttab: '6rem',

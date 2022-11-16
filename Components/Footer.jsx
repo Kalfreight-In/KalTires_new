@@ -75,7 +75,7 @@ const Footer = () => {
       className="bg-footerbackground md:bg-cover bg-contain bg-black block"
       style={{
         backgroundImage:
-          'url(https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png)',
+          'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Map/map-bg.png)',
         backgroundBlendMode: 'difference',
         backgroundPosition: 'center',
         // backgroundSize: 'cover',

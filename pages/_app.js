@@ -176,8 +176,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </ErrorBoundary>
 
         <Component {...pageProps} />
+
         <Footer />
         <BottomBar />
+
         {/* <Script
       src="https://kit.fontawesome.com/d16bf6a891.js"
       crossOrigin="anonymous"
