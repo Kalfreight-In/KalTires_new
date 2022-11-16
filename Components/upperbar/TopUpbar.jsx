@@ -148,7 +148,7 @@ const TopUpbar = () => {
               // }}
             >
               <Image
-                src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire%20.gif"
+                src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire.gif"
                 width={40}
                 height={40}
               />
