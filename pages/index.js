@@ -1,14 +1,23 @@
 // import Head from 'next/head';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
 import { AboutUs } from '../Components/Home/AboutUs';
 import BrandsComponent from '../Components/Home/BrandsComponent';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
 import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
-import HomeSlider from '../Components/Home/HomeSlider';
+// import HomeSlider from '../Components/Home/HomeSlider';
 import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
-import { MapConatiner } from '../Components/MapContainer';
+// import MapConatiner from '../Components/MapContainer';
 import ContactTwo from '../Components/Home/ContactTwo';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
+const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
+  suspense: true,
+  ssr: false,
+});
+const HomeSlider = dynamic(() => import('../Components/Home/HomeSlider'), {
+  suspense: true,
+});
 
 const Home = () => (
   <div>
@@ -51,7 +60,9 @@ const Home = () => (
       />
       <meta property="og:locale" content="en" />
     </Head>
-    <HomeSlider />
+    <Suspense fallback={`Loading...`}>
+      <HomeSlider />
+    </Suspense>
     <BrandsComponent />
     {/* <div className="gcse-search" /> */}
     <AboutUs />
@@ -59,7 +70,9 @@ const Home = () => (
     {/* <FeaturedProducts /> */}
     <RoadSideAssistant />
     <HighPerformanceBrands />
+
     <MapConatiner />
+
     <ContactTwo />
 
     {/* <h1 className="text-3xl  font-bold underline">Hello world from Kal tires</h1> */}
