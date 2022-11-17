@@ -329,13 +329,13 @@ const Contactform = () => {
                 </div>
               ) : null}
 
-              <ReCAPTCHA
+              {/* <ReCAPTCHA
                 ref={captchaRef}
                 sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
                 onChange={(e) => {
                   CaptchaonChange(e);
                 }}
-              />
+              /> */}
               {/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
               <div className="flex justify-center md:justify-start mt-2">
                 <div
