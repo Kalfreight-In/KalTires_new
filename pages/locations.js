@@ -300,7 +300,11 @@ const location = () => {
           </div>
         </div>
 
-        <Element id="MapContanier" name="MapContanierElement" className="z-0">
+        <Element
+          id="MapContanier"
+          name="MapContanierElement"
+          className="z-0 h-screen"
+        >
           {/* <Map
           Fontana={isFontana}
           Bakersfield={isBakersfield}
