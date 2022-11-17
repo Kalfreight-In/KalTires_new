@@ -13,7 +13,7 @@ import ContactTwo from '../Components/Home/ContactTwo';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
 const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
   suspense: true,
-  ssr: false,
+  ssr: true,
 });
 const HomeSlider = dynamic(() => import('../Components/Home/HomeSlider'), {
   suspense: true,
