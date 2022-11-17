@@ -25,6 +25,7 @@ const Roadside = () => {
 
             <div className="  lg:my-12 lg:pl-12 z-0 md:px-0 mx-8">
               <Image
+                loading="lazy"
                 className="lg:inset-0 h-60 w-full  lg:h-full object-cover object-center "
                 src={servicetruck}
                 alt="24/7 Roadside Assistance Tire Services"

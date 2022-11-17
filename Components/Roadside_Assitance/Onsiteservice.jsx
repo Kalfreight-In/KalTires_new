@@ -24,7 +24,11 @@ const Onsiteservice = () => {
                 <div className="bg-bg-white-1 text-center py-8" key={index.id}>
                   <div className="flex justify-center">
                     <div className="w-onsiteimage h-onsiteimage flex">
-                      <Image src={index.img} alt={index.heading} />
+                      <Image
+                        loading="lazy"
+                        src={index.img}
+                        alt={index.heading}
+                      />
                     </div>
                   </div>
 
@@ -59,7 +63,11 @@ const Onsiteservice = () => {
                     <div className="bg-bg-white-1 text-center">
                       <div className="flex justify-center">
                         <div className="w-onsiteimage h-onsiteimage flex">
-                          <Image src={newdata.img} alt={newdata.heading} />
+                          <Image
+                            loading="lazy"
+                            src={newdata.img}
+                            alt={newdata.heading}
+                          />
                         </div>
                       </div>
 

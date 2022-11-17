@@ -37,6 +37,7 @@ export const AboutUs = () => {
             <div className="lg:hidden block">
               <div className="lg:relative lg:mt-4 self-start ">
                 <Image
+                  loading="lazy"
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={AboutUsTire}
                   title="Commercial Tires Services"
@@ -176,6 +177,7 @@ export const AboutUs = () => {
                     <div className="flex flex-col bg-zinc-50  py-4  ">
                       <div className="px-6">
                         <Image
+                          loading="lazy"
                           src={CommercialTire}
                           alt="Commercial
                           Tires"
@@ -189,7 +191,11 @@ export const AboutUs = () => {
                     </div>
                     <div className="flex flex-col bg-zinc-50  py-4 ml-4 ">
                       <div className="px-6">
-                        <Image src={industrialtire} alt="OTR Tires" />
+                        <Image
+                          loading="lazy"
+                          src={industrialtire}
+                          alt="OTR Tires"
+                        />
                       </div>
 
                       <h2 className="text-center font-poppins text-sm">
@@ -200,7 +206,7 @@ export const AboutUs = () => {
                     {/* <div id="twosamosa"> */}
                     <div className="flex flex-col bg-zinc-50  pt-4  sm:mt-0 mt-4 sm:ml-4 ">
                       <div className="px-6">
-                        <Image src={OTRTires} alt="OTR Tires" />
+                        <Image loading="lazy" src={OTRTires} alt="OTR Tires" />
                       </div>
 
                       <h2 className="text-center font-poppins text-sm ">
@@ -210,6 +216,7 @@ export const AboutUs = () => {
                     <div className="flex flex-col bg-zinc-50 py-4 ml-4  sm:mt-0 mt-4">
                       <div className="px-6">
                         <Image
+                          loading="lazy"
                           src={AgriculturalTires}
                           alt="Agricultural
                           Tires"
@@ -256,6 +263,7 @@ export const AboutUs = () => {
             >
               <div className="  ">
                 <Image
+                  loading="lazy"
                   className=" "
                   src={AboutUsTire}
                   alt="KVL Tires is a full-service commercial tire dealer based in the United States. This is the vehicle  belongs to pick-up & delivery services."

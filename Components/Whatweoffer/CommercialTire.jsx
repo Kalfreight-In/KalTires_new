@@ -56,6 +56,7 @@ const CommercialTire = () => {
                     <div className="lg:relative self-start">
                       {alldata ? (
                         <Image
+                          loading="lazy"
                           className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
                           src={alldata.mainimage}
                           alt={
@@ -76,6 +77,7 @@ const CommercialTire = () => {
                     >
                       <div className="lg:relative lg:mt-4 self-start">
                         <Image
+                          loading="lazy"
                           className="lg:absolute lg:inset-0  lg:h-full object-cover object-center lg:rounded-tl-md "
                           src={alldata.mainimagetab}
                           alt={
@@ -158,6 +160,7 @@ const CommercialTire = () => {
                           <SwiperSlide key={indexnew.id}>
                             <div id="commlogos" className="mt-8 ml-4 ">
                               <Image
+                                loading="lazy"
                                 src={indexnew.img}
                                 className="flex"
                                 alt={indexnew.Alt}

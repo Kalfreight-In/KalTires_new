@@ -288,7 +288,10 @@ const location = () => {
               Search Your Nearest Location
             </h1>
             <div className="h-12 w-12  rotate-90">
-              <Image src={require('../Assets/Icons/Arrow.gif')} />
+              <Image
+                loading="lazy"
+                src={require('../Assets/Icons/Arrow.gif')}
+              />
             </div>
           </div>
 
@@ -483,6 +486,7 @@ const location = () => {
                               {value.properties.Address ? (
                                 <div className="flex flex-center flex-col lg:w-2/12 ">
                                   <Image
+                                    loading="lazy"
                                     src={value.properties.bgimage}
                                     alt={value.properties.City}
                                   />
@@ -637,6 +641,7 @@ const location = () => {
                               </div>
                               <div className="flex flex-center flex-col lg:w-2/12 ">
                                 <Image
+                                  loading="lazy"
                                   src={value.properties.bgimage}
                                   alt={value.properties.City}
                                 />

@@ -30,6 +30,7 @@ const Topbar = ({ toggle, postion }) => {
               } `}
             >
               <Image
+                loading="lazy"
                 src={Navlogo}
                 alt="place"
                 className="cursor-pointer"
@@ -61,7 +62,7 @@ const Topbar = ({ toggle, postion }) => {
               href="tel:800-808-0025"
               className="pr-2 flex flexCenter cursor-pointer"
             >
-              <Image src={call} alt="call" objectFit="contain" height={30} />
+              <Image loading="lazy" src={call} alt="call" objectFit="contain" height={30} />
 
             </a> */}
             <a href="tel:800-808-0025" className="cursor-pointer pr-16 ">

@@ -113,6 +113,7 @@ const BrandsComponent = () => {
                     <div className="flex justify-center items-center h-36">
                       <div className="item-center  ">
                         <Image
+                          loading="lazy"
                           src={data.imageurl}
                           title={data.heading}
                           alt={data.desc}

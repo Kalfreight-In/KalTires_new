@@ -6,7 +6,7 @@ export default function FourOhFour() {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-screen">
-        <Image src={errorGif} height={200} width={600} />
+        <Image loading="lazy" src={errorGif} height={200} width={600} />
         <div className="mt-4  flex flex-col justify-center items-center">
           <h2 className="text-4xl font-bold">Oops!</h2>
           <desc className="text-xl font-normal pt-2 text-center">

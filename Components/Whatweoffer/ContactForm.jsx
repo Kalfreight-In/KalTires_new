@@ -115,6 +115,7 @@ const Contactform = () => {
             <div className="flex bg-white flex-col justify-center items-center pt-2 pb-20">
               <div className="w-max">
                 <Image
+                  loading="lazy"
                   className="pb-8"
                   src={kvlTirelogo}
                   width={140}
@@ -320,6 +321,7 @@ const Contactform = () => {
 
       {isDesktop ? (
         <Image
+          loading="lazy"
           src={mainimage}
           alt="contactus"
           objectFit="cover"

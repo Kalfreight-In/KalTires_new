@@ -31,6 +31,8 @@ export const Departments = () => (
                         <div className="flex">
                           <div>
                             <Image
+                              loading="lazy"
+                              loading="lazy"
                               src={index.img}
                               alt={index.Alttag}
                               className="relative bg-cover"
@@ -84,6 +86,7 @@ export const Departments = () => (
                             <div className="flex justify-center">
                               <div>
                                 <Image
+                                  loading="lazy"
                                   src={data.img}
                                   alt={data.Alttag}
                                   className="relative"

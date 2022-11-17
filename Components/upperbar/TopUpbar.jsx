@@ -137,7 +137,7 @@ const TopUpbar = () => {
               animate={{ x: 1050 }}
               transition={{ duration: 9, repeat: Infinity, ease: 'linear' }}
             >
-              <Image src={whiteTruck} width={120} height={40} />
+              <Image loading="lazy" src={whiteTruck} width={120} height={40} />
             </motion.div> */}
             <motion.div
               animate={{ x: 1050 }}
@@ -148,6 +148,8 @@ const TopUpbar = () => {
               // }}
             >
               <Image
+                loading="lazy"
+                loading="lazy"
                 src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire.gif"
                 width={40}
                 height={40}

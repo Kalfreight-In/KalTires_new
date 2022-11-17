@@ -43,6 +43,7 @@ export const Speciality = () => {
             <div className="lg:hidden block">
               <div className="lg:relative lg:mt-4 flex justify-center md:pr-0">
                 <Image
+                  loading="lazy"
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={blacktiremobile}
                   title="High Performance Off The Road Tires"
@@ -126,6 +127,7 @@ export const Speciality = () => {
             <div className="lg:block hidden">
               <div className="lg:relative lg:mt-4 self-start">
                 <Image
+                  loading="lazy"
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md"
                   src={blacktire}
                   title="High Performance Off The Road Tires"

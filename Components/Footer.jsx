@@ -87,6 +87,16 @@ const Footer = () => {
         <Link href="/" passHref>
           <div>
             <Image
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
+              loading="lazy"
               src={kvlTirelogo}
               height={75}
               width={200}
@@ -104,6 +114,7 @@ const Footer = () => {
                 <Link href="/" passHref>
                   <div className="2xl:h-20 xl:h-16 h-20 md:block hidden cursor-pointer">
                     <Image
+                      loading="lazy"
                       layout="intrinsic"
                       // width={700}
                       height={65}

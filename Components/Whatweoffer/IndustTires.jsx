@@ -56,6 +56,7 @@ export const IndustTires = () => {
                               <div className="flex flex-col justify-center">
                                 <div className="lg:relative  self-start">
                                   <Image
+                                    loading="lazy"
                                     className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                                     src={indust.img}
                                     title={indust.Alttag}
@@ -126,7 +127,7 @@ export const IndustTires = () => {
                       >
                         <div className="flex flex-col justify-center ">
                           <div className="lg:relative  self-start ">
-                            <Image
+                            <Image loading="lazy"
                               className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                               src={index.img}
                               alt="tires"
@@ -171,6 +172,7 @@ export const IndustTires = () => {
                 >
                   <div className="lg:relative  self-start">
                     <Image
+                      loading="lazy"
                       className="lg:absolute lg:inset-0 h-60  lg:h-full object-cover object-center lg:rounded-tl-md "
                       src={industtwo.img}
                       title={industtwo.Alttag}

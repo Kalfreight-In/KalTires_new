@@ -70,10 +70,10 @@ export const Services = () => {
                 //   <div className=" absolute ">
                 //     <div id="lighboxmaincontainer">
                 //       <div id="crossimage" className="text-right">
-                //         {/* <Image src="" alt="" /> cross image */}
+                //         {/* <Image loading="lazy" src="" alt="" /> cross image */}
               {/* //       </div>
                 //       <div id="mainlightimage" className="text-center">
-                //         <Image src={lightboxData.img} />
+                //         <Image loading="lazy" src={lightboxData.img} />
                 //       </div>
                 //       <div id="lightheading" className="text-center">
                         // <h1 */}{' '}
@@ -106,6 +106,8 @@ export const Services = () => {
                     <div className="flex justify-center">
                       <div className="w-onsiteimage h-onsiteimage pt-4 ">
                         <Image
+                          loading="lazy"
+                          loading="lazy"
                           src={data.img}
                           alt={data.AltTag}
                           title="click to call"
@@ -158,10 +160,10 @@ export const Services = () => {
                       <div className=" absolute ">
                         <div id="lighboxmaincontainer">
                           <div id="crossimage" className="text-right">
-                            {/* <Image src="" alt="" /> cross image */}
+                            {/* <Image loading="lazy" src="" alt="" /> cross image */}
                   {/* </div>
                           <div id="mainlightimage" className="text-center">
-                            <Image src={lightboxData.img} />
+                            <Image loading="lazy" src={lightboxData.img} />
                           </div>
                           <div id="lightheading" className="text-center">
                             <h1
@@ -206,7 +208,11 @@ export const Services = () => {
                             <div className="bg-kaltire-red  text-center text-white border-white hover:border-2 py-4">
                               <div className="flex justify-center">
                                 <div className="w-onsiteimage h-onsiteimage pt-6">
-                                  <Image src={mydata.img} alt={mydata.AltTag} />
+                                  <Image
+                                    loading="lazy"
+                                    src={mydata.img}
+                                    alt={mydata.AltTag}
+                                  />
                                 </div>
                               </div>
                               <h3 className="lg:text-xl text-lg font-bold font-poppins pb-16 pt-4 h-12">
