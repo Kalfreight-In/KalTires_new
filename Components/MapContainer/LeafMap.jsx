@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef, useLayoutEffect } from 'react';
 import 'leaflet/dist/leaflet.css';
 // import { geosearch } from 'esri-leaflet-geocoder';
 // import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
@@ -81,7 +81,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
   // function handleOnSerchResults(data) {
   //   console.log('serch Results', data);
   // }
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (maps) {
       setTimeout(() => {
         maps.flyTo(typeAddress || [40.8054, -99.0241], 9, {
@@ -113,7 +113,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
       console.log(`polyyyyyline${Polylines}`);
     }
   }, [typeAddress]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     // const control = geosearch();
     // control.addTo(MapContainer);
     // control.on('results', handleOnSerchResults);
@@ -142,7 +142,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
     //   control.off('results', handleOnSerchResults);
     // };
   }, [location, maps]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const query = window.location.search;
     const target = query.split('=')[1];
     if (window.location.search) {

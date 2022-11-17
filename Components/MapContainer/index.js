@@ -112,6 +112,7 @@ const LeafMap = dynamic(
   () => import('./LeafMap'), // replace '@components/map' with your component's location
   {
     loading: () => <p>A map is loading now</p>,
+
     ssr: false, // This line is important. It's what prevents server-side render
   }
 );
