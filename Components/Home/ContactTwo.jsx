@@ -52,10 +52,10 @@ const Contactform = () => {
   // useEffect(() => {
   //   loadReCaptcha();
   // }, []);
-  function CaptchaonChange(value) {
-    console.log('Captcha value:', value);
-    setToken(value);
-  }
+  // function CaptchaonChange(value) {
+  //   console.log('Captcha value:', value);
+  //   setToken(value);
+  // }
   const resetForm = (e) => {
     setName('');
     setEmail('');
@@ -329,13 +329,10 @@ const Contactform = () => {
                 </div>
               ) : null}
 
-              {/* <ReCAPTCHA
+              <ReCAPTCHA
                 ref={captchaRef}
                 sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
-                onChange={(e) => {
-                  CaptchaonChange(e);
-                }}
-              /> */}
+              />
               {/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
               <div className="flex justify-center md:justify-start mt-2">
                 <div
