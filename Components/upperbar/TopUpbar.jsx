@@ -149,7 +149,7 @@ const TopUpbar = () => {
             >
               <Image
                 loading="lazy"
-                loading="lazy"
+                alt="Moving Tire"
                 src="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/silvertire.gif"
                 width={40}
                 height={40}
