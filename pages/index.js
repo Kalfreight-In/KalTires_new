@@ -63,17 +63,17 @@ const Home = () => (
     <Suspense fallback={`Loading...`}>
       <HomeSlider className="h-headerHeight" />
     </Suspense>
-    {/* <BrandsComponent /> */}
+    <BrandsComponent />
     {/* <div className="gcse-search" /> */}
-    {/* <AboutUs /> */}
+    <AboutUs />
 
     {/* <FeaturedProducts /> */}
-    {/* <RoadSideAssistant /> */}
-    {/* <HighPerformanceBrands /> */}
+    <RoadSideAssistant />
+    <HighPerformanceBrands />
 
-    {/* <MapConatiner /> */}
+    <MapConatiner />
 
-    {/* <ContactTwo /> */}
+    <ContactTwo />
 
     {/* <h1 className="text-3xl  font-bold underline">Hello world from Kal tires</h1> */}
   </div>
