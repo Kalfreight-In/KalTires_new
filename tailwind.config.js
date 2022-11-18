@@ -93,7 +93,8 @@ module.exports = {
         mapheightFull: '900px',
         mapScrollheightFull: '600px',
         mapheightMob: '800px',
-        Onsiteheight: '95vh',
+        Onsiteheight: '120%',
+        OnsiteheightM: '110vh',
         onsitegridheight: '75vh',
         headerHeight: '70vh',
         onsiteimage: '140px',
@@ -133,16 +134,8 @@ module.exports = {
         careeremail: '1.10rem',
       },
     },
-    // screens: {
-    //   lg: { max: '1800px' },
-    //   md: { max: '990px' },
-    //   sm: { max: '600px' },
-    //   xs: { max: '400px' },
-    //   minmd: '1700px',
-    //   minlg: '2100px',
-    // },
+
     fontFamily: {
-      // poppins: ['Poppins', 'sans-serif'],
       Helvetica: ['Helvetica'],
       poppins: ['Poppins', 'sans-serif'],
       cursive: [' cursive'],
