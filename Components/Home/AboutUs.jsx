@@ -4,6 +4,7 @@ import { MdLocalPhone } from 'react-icons/md';
 // import { BiMessageDetail } from 'react-icons/bi';
 import { motion } from 'framer-motion';
 import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.jpg';
+import AboutUsTireM from '../../Assets/Images/Home/AboutUsTireM.jpg';
 import AgriculturalTires from '../../Assets/Images/Home/AgriculturalTires.png';
 import CommercialTire from '../../Assets/Images/Home/CommercialTires.png';
 import OTRTires from '../../Assets/Images/Home/OTRTires.png';
@@ -39,7 +40,9 @@ export const AboutUs = () => {
                 <Image
                   loading="lazy"
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
-                  src={AboutUsTire}
+                  src={AboutUsTireM}
+                  width={840}
+                  height={440}
                   title="Commercial Tires Services"
                   alt="KVL Tires is a full-service commercial tire dealer based in the United States. This is the vehicle  belongs to pick-up & delivery services."
                 />
@@ -266,6 +269,8 @@ export const AboutUs = () => {
                   loading="lazy"
                   className=" "
                   src={AboutUsTire}
+                  width={950}
+                  height={650}
                   alt="KVL Tires is a full-service commercial tire dealer based in the United States. This is the vehicle  belongs to pick-up & delivery services."
                   title="Commercial Tires Services"
                 />
