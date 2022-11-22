@@ -10,6 +10,7 @@ import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
 import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
 // import MapConatiner from '../Components/MapContainer';
 import ContactTwo from '../Components/Home/ContactTwo';
+import { LocalBusinessJsonLd } from 'next-seo';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
 const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
   suspense: true,
@@ -42,6 +43,64 @@ const Home = () => (
       <meta
         name="description"
         content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
+      />
+      <LocalBusinessJsonLd
+        name="KVL Tires"
+        legalName="KVL Tires"
+        url="https://kvltires.com/"
+        images="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75"
+        telephone="+1-800-808-0025"
+        address={{
+          streetAddress: '10156 Live Oak Ave, Fontana, CA 92335',
+          addressLocality: 'Fontana',
+          addressRegion: 'CA',
+          postalCode: '92335',
+          addressCountry: 'US',
+        }}
+        geo={{
+          latitude: '34.068795',
+          longitude: '-117.4812517',
+        }}
+        openingHours={[
+          {
+            opens: '07:00',
+            closes: '17:00',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          },
+        ]}
+        sameAs={[
+          'https://www.facebook.com/kvltires',
+          'https://www.instagram.com/kvltires/',
+          'https://www.linkedin.com/company/kvltires/',
+          'https://www.kvltires.com/',
+        ]}
+        contactPoint={[
+          // {
+          //   telephone: ' 401-555-1212',
+          //   contactType: 'customer service',
+          //   areaServed: 'US',
+          //   availableLanguage: ['English', 'Spanish', 'French'],
+          // },
+          {
+            telephone: '800-808-002',
+            contactType: 'customer service',
+            contactOption: 'TollFree',
+            availableLanguage: 'en',
+            areaServed: 'US',
+          },
+          // {
+          //   telephone: ' 877-453-1304',
+          //   contactType: 'technical support',
+          //   contactOption: 'TollFree',
+          //   areaServed: ['US', 'CA'],
+          //   availableLanguage: ['English', 'French'],
+          // },
+        ]}
+        sameAs={[
+          'https://www.facebook.com/kvltires',
+          'https://www.instagram.com/kvltires/',
+          'https://www.linkedin.com/company/kvltires/',
+        ]}
       />
       <link rel="canonical" href="https://www.kvltires.com" />
       <meta
