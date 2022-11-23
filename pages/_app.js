@@ -104,7 +104,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }}
       />
 
-      <BreadcrumbJsonLd
+      {/* <BreadcrumbJsonLd
         itemListElements={[
           {
             position: 1,
@@ -165,7 +165,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.instagram.com/kvltires/',
           'https://www.linkedin.com/company/kvltires/',
         ]}
-      />
+      /> */}
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
 
