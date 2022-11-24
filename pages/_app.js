@@ -4,7 +4,11 @@ import Head from 'next/head';
 
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import { Partytown } from '@builder.io/partytown/react';
-import { BreadcrumbJsonLd, OrganizationJsonLd } from 'next-seo';
+import {
+  BreadcrumbJsonLd,
+  LocalBusinessJsonLd,
+  OrganizationJsonLd,
+} from 'next-seo';
 import Script from 'next/script';
 import { Navbar, Footer, TopUpbar, Topbar } from '../Components';
 
@@ -133,6 +137,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           },
         ]}
       />
+      
       <OrganizationJsonLd
         name="KVL Tires"
         legalName="KVL Tires"

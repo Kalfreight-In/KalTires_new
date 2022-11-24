@@ -5,6 +5,7 @@ import HeroSection from '../Components/Home/HeroSection';
 import Onsiteservice from '../Components/Roadside_Assitance/Onsiteservice';
 import Roadside from '../Components/Roadside_Assitance/Roadside';
 import EmergencyAssists from '../Components/Roadside_Assitance/EmergencyAssists';
+import { BreadcrumbJsonLd } from 'next-seo';
 
 const data = [
   {
@@ -66,6 +67,20 @@ const roadsideAssistance = () => (
       />
       <meta property="og:locale" content="en" />
     </Head>
+    <BreadcrumbJsonLd
+      itemListElements={[
+        {
+          position: 0,
+          name: 'Home',
+          item: 'https://www.kvltires.com/',
+        },
+        {
+          position: 1,
+          name: 'Roadside Assistance',
+          item: 'https://www.kvltires.com/24X7-roadside-assistance',
+        },
+      ]}
+    />
     <HeroSection data={data[0]} />
     <Roadside />
     <EmergencyAssists />

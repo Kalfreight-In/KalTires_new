@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 // import { Link } from 'react-scroll';
-import { LocalBusinessJsonLd } from 'next-seo';
+import { BreadcrumbJsonLd, LocalBusinessJsonLd } from 'next-seo';
 import dynamic from 'next/dynamic';
 import { RiPhoneFill } from 'react-icons/ri';
 import { MdEmail } from 'react-icons/md';
@@ -199,6 +199,20 @@ const location = () => {
         />
         <meta property="og:locale" content="en" />
       </Head>
+      <BreadcrumbJsonLd
+        itemListElements={[
+          {
+            position: 0,
+            name: 'Home',
+            item: 'https://www.kvltires.com/',
+          },
+          {
+            position: 1,
+            name: 'Tire Shop Location Near Me',
+            item: 'https://www.kvltires.com/locations',
+          },
+        ]}
+      />
       {MapData1.map((data) => (
         <LocalBusinessJsonLd
           key={data.id}

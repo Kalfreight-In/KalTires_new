@@ -7,6 +7,7 @@ import CommercialTire from '../Components/Whatweoffer/CommercialTire';
 import Contactform from '../Components/Whatweoffer/ContactForm';
 import HeroSection from '../Components/Home/HeroSection';
 import HeroSection_free from '../Components/Home/HeroSection_free';
+import { BreadcrumbJsonLd } from 'next-seo';
 // import Onsiteservice from '../Components/Roadside_Assitance/Onsiteservice';
 
 const data = [
@@ -64,6 +65,20 @@ const tiresandservices = () => (
       />
       <meta property="og:locale" content="en" />
     </Head>
+    <BreadcrumbJsonLd
+      itemListElements={[
+        {
+          position: 0,
+          name: 'Home',
+          item: 'https://www.kvltires.com/',
+        },
+        {
+          position: 1,
+          name: 'Commercial Tire',
+          item: 'https://www.kvltires.com/tires-services',
+        },
+      ]}
+    />
     <HeroSection data={data[0]} />
     <CommercialTire />
     <Speciality />
