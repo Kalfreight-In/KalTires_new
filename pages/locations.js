@@ -199,59 +199,7 @@ const location = () => {
         />
         <meta property="og:locale" content="en" />
       </Head>
-      <BreadcrumbJsonLd
-        itemListElements={[
-          {
-            position: 0,
-            name: 'Home',
-            item: 'https://www.kvltires.com/',
-          },
-          {
-            position: 1,
-            name: 'Tire Shop Location Near Me',
-            item: 'https://www.kvltires.com/locations',
-          },
-        ]}
-      />
-      {MapData1.map((data) => (
-        <LocalBusinessJsonLd
-          key={data.id}
-          keyOverride={data.id}
-          type="Store"
-          id="https://kvltires.com/locations"
-          name="KVLTires"
-          description="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
-          url="https://kvltires.com"
-          telephone="800-808-0025"
-          address={{
-            streetAddress: data.properties.address,
-            addressLocality: data.properties.city,
-            addressRegion: data.properties.Phone,
-            postalCode: data.properties.Email,
-            addressCountry: 'US',
-          }}
-          geo={{
-            latitude: data.geometry.coordinates[0],
-            longitude: data.geometry.coordinates[1],
-          }}
-          images={[data.properties.bgimage]}
-          openingHours={[
-            {
-              opens: '07:00 Am',
-              closes: '5:00 PM',
-              dayOfWeek: [
-                'Monday',
-                'Tuesday',
-                'Wednesday',
-                'Thursday',
-                'Friday',
-              ],
-              validFrom: '2019-12-23',
-              validThrough: '2020-04-02',
-            },
-          ]}
-        />
-      ))}
+
       {/* {MapData2.map((data) => (
         <LocalBusinessJsonLd
           key={data.id}
@@ -692,6 +640,59 @@ const location = () => {
           </div>
         </div>
       </div>
+      <BreadcrumbJsonLd
+        itemListElements={[
+          {
+            position: 0,
+            name: 'Home',
+            item: 'https://www.kvltires.com/',
+          },
+          {
+            position: 1,
+            name: 'Tire Shop Location Near Me',
+            item: 'https://www.kvltires.com/locations',
+          },
+        ]}
+      />
+      {MapData1.map((data) => (
+        <LocalBusinessJsonLd
+          key={data.id}
+          keyOverride={data.id}
+          type="Store"
+          id="https://kvltires.com/locations"
+          name="KVLTires"
+          description="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
+          url="https://kvltires.com"
+          telephone="800-808-0025"
+          address={{
+            streetAddress: data.properties.address,
+            addressLocality: data.properties.city,
+            addressRegion: data.properties.Phone,
+            postalCode: data.properties.Email,
+            addressCountry: 'US',
+          }}
+          geo={{
+            latitude: data.geometry.coordinates[0],
+            longitude: data.geometry.coordinates[1],
+          }}
+          images={[data.properties.bgimage]}
+          openingHours={[
+            {
+              opens: '07:00 Am',
+              closes: '5:00 PM',
+              dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+              ],
+              validFrom: '2019-12-23',
+              validThrough: '2020-04-02',
+            },
+          ]}
+        />
+      ))}
     </>
   );
 };

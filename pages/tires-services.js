@@ -65,6 +65,13 @@ const tiresandservices = () => (
       />
       <meta property="og:locale" content="en" />
     </Head>
+
+    <HeroSection data={data[0]} />
+    <CommercialTire />
+    <Speciality />
+    <IndustTires />
+    <Services />
+    <Contactform />
     <BreadcrumbJsonLd
       itemListElements={[
         {
@@ -79,12 +86,6 @@ const tiresandservices = () => (
         },
       ]}
     />
-    <HeroSection data={data[0]} />
-    <CommercialTire />
-    <Speciality />
-    <IndustTires />
-    <Services />
-    <Contactform />
   </div>
 );
 
