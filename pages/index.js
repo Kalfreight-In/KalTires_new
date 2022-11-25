@@ -66,7 +66,6 @@ const Home = () => (
         content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
       />
       <meta property="og:locale" content="en" />
-      
     </Head>
     <Suspense fallback={`Loading...`}>
       <HomeSlider className="h-headerHeight" />
@@ -89,7 +88,6 @@ const Home = () => (
           name: 'Home',
           item: 'https://www.kvltires.com/',
         },
-        
       ]}
     />
     <LocalBusinessJsonLd
@@ -183,7 +181,7 @@ const Home = () => (
         'https://www.instagram.com/kvltires',
       ]}
     />
-      <script type="application/ld+json">
+    {/* <script type="application/ld+json">
 		{
 		   "@context": "http://schema.org",
 		   "@type": "ProfessionalService",
@@ -201,7 +199,7 @@ const Home = () => (
 			   "postalCode":"92335"
 		   }
 		}
-		</script>
+		</script> */}
     {/* <h1 className="text-3xl  font-bold underline">Hello world from Kal tires</h1> */}
   </div>
 );
