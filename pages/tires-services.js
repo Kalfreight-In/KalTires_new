@@ -34,8 +34,7 @@ const tiresandservices = () => (
       <title>
         Commercial Tires | Buy New Tires | Tire Service Near Me - Kvltires
       </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta charSet="utf-8" />
+
       <meta
         name="description"
         content="Kvl Tires offers Heavy Duty, Commercial Tire, and Retread tires, and delivers excellent tire service, in CA and surrounding areas. contact us today!

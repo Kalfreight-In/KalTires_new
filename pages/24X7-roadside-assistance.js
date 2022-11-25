@@ -33,8 +33,7 @@ const roadsideAssistance = () => (
       <title>
         Roadside Assistance Near Me | Truck Roadside service - Kvltires
       </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta charSet="utf-8" />
+
       <meta
         name="description"
         content="Are you looking for a 24X7 Roadside Assistance service? Kvl Tires is the best 24-Hour Emergency Roadside Assistance Services Provider in your area. With our top-rated customer service and affordable rates. Call now.
