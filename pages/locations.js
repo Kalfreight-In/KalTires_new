@@ -166,14 +166,14 @@ const location = () => {
     <>
       <Head>
         <title>
-          Tire Service Center Locations in the United State | Find Tires Service
-          Centers Near Me
+          Tire Service Locations in the United State | tire center near me -
+          Kvltires
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Whether you need a new set of tires or services, KVL Tire is here to help you 27X7. Visit our nearest locations today."
+          content="Are You searching for the nearest tire shop? just visit kvltire location page and find out your nearest tire shop. Our mechanics help you 27X7. Visit our nearest locations today."
         />
         <meta
           name="keywords"

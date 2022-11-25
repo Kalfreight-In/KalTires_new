@@ -30,16 +30,9 @@ const Home = () => (
     <Head>
       <title>
         {' '}
-        Best Quality Commercial Tires & Heavy-Duty Tires | RSA services for
-        Tires
+        Tires Shop Near Me | Truck Tire Service | Heavy-Duty Tires - Kvltires
       </title>
-      <link
-        rel="icon"
-        href="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
-      />
 
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta charSet="utf-8" />
       <meta
         name="keywords"
         content="Commercial Tires, Industrial Tires, OTR Tires, Agricultural Tires"
@@ -47,25 +40,59 @@ const Home = () => (
 
       <meta
         name="description"
-        content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
+        content="Kvl Tire is one of the best and most trustworthy tire service shops throughout Fontana, CA and we offer you new & used tires, 24/7 roadside assistance, quality tires for your fleet, and pick-up & delivery services nearby - Call 800 808 0025 today!"
       />
+      <meta name="googlebot" content="noodp" />
 
+      <meta name="slurp" content="noydir" />
+
+      <meta name="Language" content="English" />
+
+      <meta name="Publisher" content="KVL TIRES INC" />
+
+      <meta name="distribution" content="Global" />
+
+      <meta name="Robots" content="INDEX, FOLLOW" />
+
+      <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+
+      <meta name="msnbot" content="INDEX, FOLLOW" />
+
+      <meta name="googlebot" content="INDEX, FOLLOW" />
+
+      <meta name="Rating" content="General" />
+
+      <meta name="allow-search" content="yes" />
+
+      <meta name="expires" content="never" />
+
+      <meta name="googlebot" content="noodp" />
       <link rel="canonical" href="https://www.kvltires.com" />
-      <meta
-        property="og:title"
-        content="Best Quality Commercial Tires & Heavy-Duty Tires | RSA services for Tires"
-      />
-      <meta property="og:url" content="https://www.kvltires.com/" />
+
+      {/* <!-- Open Graph data --> */}
+
+      <meta property="og:locale" content="en_US" />
+
+      <meta property="og:type" content="website" />
+
       <meta
         property="og:image"
         content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75"
       />
-      <meta property="og:type" content="website" />
+
+      <meta
+        property="og:title"
+        content="Tires Shop Near Me | Truck Tire Service | Heavy-Duty Tires - Kvltires"
+      />
+
       <meta
         property="og:description"
-        content="KVL Tires offers you new & used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up & delivery services nearby - Call 800 808 0025 today!"
+        content="Kvltire is one of the best and most trustworthy tire service shops throughout Fontana, CA and we offer you new & used tires, 24/7 roadside assistance, quality tires for your fleet, and pick-up & delivery services nearby - Call 800 808 0025 today!"
       />
-      <meta property="og:locale" content="en" />
+
+      <meta property="og:url" content=" https://www.kvltires.com" />
+
+      <meta property="og:site_name" content="Kvltires" />
     </Head>
     <Suspense fallback={`Loading...`}>
       <HomeSlider className="h-headerHeight" />

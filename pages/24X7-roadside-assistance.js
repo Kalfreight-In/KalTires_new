@@ -31,14 +31,14 @@ const roadsideAssistance = () => (
   <div>
     <Head>
       <title>
-        {' '}
-        24/7 Roadside Assistance| Heavy Vehicle | Complete Tire Services
+        Roadside Assistance Near Me | Truck Roadside service - Kvltires
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="KVL Tires provide 24X7 Roadside Assistance service near me breakdown to everyone in need. Our trained & knowledgeable staff are always ready to answer your service calls."
+        content="Are you looking for a 24X7 Roadside Assistance service? Kvl Tires is the best 24-Hour Emergency Roadside Assistance Services Provider in your area. With our top-rated customer service and affordable rates. Call now.
+        "
       />
       <meta
         name="keywords"

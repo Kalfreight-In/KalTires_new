@@ -49,7 +49,22 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <link rel="alternate" hrefLang="en" href="https://kvltires.com" />
+        <link
+          rel="alternate"
+          hreflang="en-us"
+          href="https://www.kvltires.com/"
+        />
+
+        <link
+          rel="icon"
+          type="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
+        />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="google-site-verification"
+          content="kwdSgXRdzSwS7aQ_UINlRiFYoSoQkOtVuGOG5NntQqE"
+        />
 
         {/* <Partytown debug forward={['dataLayer.push']} /> */}
         {/* <Script
@@ -72,10 +87,6 @@ const MyApp = ({ Component, pageProps }) => {
             });
         `,
           }}
-        />
-        <meta
-          name="google-site-verification"
-          content="kwdSgXRdzSwS7aQ_UINlRiFYoSoQkOtVuGOG5NntQqE"
         />
 
         {/* <script

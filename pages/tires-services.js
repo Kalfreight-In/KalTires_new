@@ -32,14 +32,14 @@ const tiresandservices = () => (
   <div>
     <Head>
       <title>
-        Buy New Tires | Tires Services for Industrial, Earthmover, Commercial
-        Tires
+        Commercial Tires | Buy New Tires | Tire Service Near Me - Kvltires
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="KVL Tires offers Heavy Duty, Commercial, Retread, Tires, and solutions adapted for the challenges of your daily uses and Heavy Activities."
+        content="Kvl Tires offers Heavy Duty, Commercial Tire, and Retread tires, and delivers excellent tire service, in CA and surrounding areas. contact us today!
+        "
       />
       <link rel="canonical" href="https://www.kvltires.com/tires-services" />
       <meta
