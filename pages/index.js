@@ -77,7 +77,7 @@ const Home = () => (
 
       <meta
         property="og:image"
-        content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75"
+        content="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
       />
 
       <meta
@@ -121,7 +121,7 @@ const Home = () => (
       name="Kvltires"
       legalName="KVL Tires"
       url="https://www.kvltires.com/"
-      images="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75"
+      images="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
       telephone="+1-800-808-0025"
       address={{
         streetAddress: '10156 Live Oak Ave, Fontana, CA 92335',
@@ -179,7 +179,7 @@ const Home = () => (
       name="KVL Tires"
       legalName="KVL Tires"
       url="https://www.kvltires.com/"
-      logo="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75"
+      logo="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
       contactPoint={[
         // {
         //   telephone: ' 401-555-1212',

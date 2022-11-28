@@ -57,7 +57,7 @@ const roadsideAssistance = () => (
       />
       <meta
         property="og:image"
-        content="https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservicetruck.10f4814d.png&w=1920&q=75"
+        content="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
       />
       <meta property="og:type" content="page" />
       <meta
