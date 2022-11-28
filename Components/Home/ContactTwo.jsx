@@ -92,14 +92,14 @@ const Contactform = () => {
         phoneno,
         //   location,
       };
-      setSuccess(true);
-      await axios
-        .post('https://nodeserver-contactus.herokuapp.com/', data)
-        .then((res) => [resetForm()])
-        .catch(() => {
-          [setSuccess(true), resetForm()];
-          console.log('Message not sent');
-        });
+      setSuccess(true),
+        await axios
+          .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
+          .then((res) => [resetForm()])
+          .catch(() => {
+            [setSuccess(false), resetForm()];
+            console.log('Message not sent');
+          });
       console.log(`sucesss ${success}`);
       setInterval(() => {
         setSuccess(false);
