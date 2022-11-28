@@ -92,10 +92,10 @@ const Contactform = () => {
         phoneno,
         //   location,
       };
-
+      setSuccess(true);
       await axios
-        .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
-        .then((res) => [setSuccess(true), resetForm()])
+        .post('https://nodeserver-contactus.herokuapp.com/', data)
+        .then((res) => [resetForm()])
         .catch(() => {
           [setSuccess(true), resetForm()];
           console.log('Message not sent');
@@ -104,7 +104,7 @@ const Contactform = () => {
       setInterval(() => {
         setSuccess(false);
         console.log(`sucesss ${success}`);
-      }, 8000);
+      }, 7000);
     } else {
       setError(true);
     }
