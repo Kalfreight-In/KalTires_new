@@ -85,7 +85,7 @@ const Contactform = () => {
       setButtonText('Sending...');
 
       const data = {
-        site: 'abcd@soidfh.com',
+        site: 'kalgroup',
         name,
         email,
         message,
@@ -103,6 +103,7 @@ const Contactform = () => {
       console.log(`sucesss ${success}`);
       setInterval(() => {
         setSuccess(false);
+
         console.log(`sucesss ${success}`);
       }, 7000);
     } else {
