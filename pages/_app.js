@@ -134,7 +134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {
             position: 3,
             name: '24X7 roadside assistance',
-            item: 'https://kvltires.com/24X7-roadside-assistance',
+            item: 'https://kvltires.com/roadside-assistance',
           },
           {
             position: 4,

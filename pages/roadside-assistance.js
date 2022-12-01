@@ -45,7 +45,7 @@ const roadsideAssistance = () => (
       />
       <link
         rel="canonical"
-        href="https://www.kvltires.com/24X7-roadside-assistance"
+        href="https://www.kvltires.com/roadside-assistance"
       />
       <meta
         property="og:title"
@@ -53,7 +53,7 @@ const roadsideAssistance = () => (
       />
       <meta
         property="og:url"
-        content="https://www.kvltires.com/24X7-roadside-assistance"
+        content="https://www.kvltires.com/roadside-assistance"
       />
       <meta
         property="og:image"
@@ -81,7 +81,7 @@ const roadsideAssistance = () => (
         {
           position: 1,
           name: 'Roadside Assistance',
-          item: 'https://www.kvltires.com/24X7-roadside-assistance',
+          item: 'https://www.kvltires.com/roadside-assistance',
         },
       ]}
     />

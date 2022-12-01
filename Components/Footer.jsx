@@ -354,7 +354,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link href="/24X7-roadside-assistance" rel="noreferrer">
+                      <Link href="/roadside-assistance" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           {' '}
                           Roadside Assistance
@@ -430,7 +430,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <a
-                            href="/24X7-roadside-assistance#onsiteid"
+                            href="/roadside-assistance#onsiteid"
 
                             // onClick={() => {
                             //   setchangeState(!changeState);
@@ -478,7 +478,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/24X7-roadside-assistance#roadside"
+                            href="/roadside-assistance#roadside"
                             target="_blank"
                             rel="noreferrer"
 
