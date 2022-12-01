@@ -61,10 +61,10 @@ const Contactform = () => {
         phoneno,
         //   location,
       };
-
+      setSuccess(false);
       axios
         .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
-        .then((res) => [setSuccess(true), resetForm()])
+        .then((res) => [resetForm()])
         .catch(() => {
           [setSuccess(true), resetForm()];
           console.log('Message not sent');

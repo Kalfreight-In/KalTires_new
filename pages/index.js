@@ -20,9 +20,11 @@ import {
 const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
   suspense: true,
   ssr: true,
+  loading: () => <p>Loading...</p>,
 });
 const HomeSlider = dynamic(() => import('../Components/Home/HomeSlider'), {
   suspense: true,
+  loading: () => <p>Loading...</p>,
 });
 
 const Home = () => (
