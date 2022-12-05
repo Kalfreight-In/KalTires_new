@@ -92,12 +92,11 @@ const TopUpbar = () => {
       <div className="flexBetween z-10  p-0 flex-row">
         <Link href="/" passHref>
           <div className="flex flex-row flexCenter" ref={Hover}>
-            {/* <div className="text-white font-bold ml-8">
+            <div className="text-white font-bold ml-8">
               {' '}
-              {userLocation ? (
+              {/* {userLocation ? (
                 <div className="flex flex-row gap-5">
                   {userLocation.city} , {userLocation.state}
-
                 </div>
               ) : (
                 <div className="flex flex-row">
@@ -109,8 +108,8 @@ const TopUpbar = () => {
                     Shoow Your Location
                   </div>
                 </div>
-              )}
-            </div> */}
+              )} */}
+            </div>
           </div>
         </Link>
 

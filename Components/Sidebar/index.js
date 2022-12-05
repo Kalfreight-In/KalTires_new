@@ -93,7 +93,10 @@ const Sidebar = ({ isOpen, toggle }) => {
                   ].map((data) => (
                     <Link href={data.url}>
                       <li>
-                        <SidebarLinkR className="ml-4 text-white text-sm font-normal  justify-left items-left text-left p-1">
+                        <SidebarLinkR
+                          onClick={toggle}
+                          className="ml-4 text-white text-sm font-normal  justify-left items-left text-left p-1"
+                        >
                           {data.navItem}
                           {/* {data.navItems
                             ? data.navItems.map((data) => (
