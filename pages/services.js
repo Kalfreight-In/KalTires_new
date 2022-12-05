@@ -40,7 +40,7 @@ const tiresandservices = () => (
         content="Kvl Tires offers Heavy Duty, Commercial Tire, and Retread tires, and delivers excellent tire service, in CA and surrounding areas. contact us today!
         "
       />
-      <link rel="canonical" href="https://www.kvltires.com/tires-services" />
+      <link rel="canonical" href="https://www.kvltires.com/services" />
       <meta
         name="keywords"
         content="Retread Tires, Commercial Tires, Industrial Tires, Off The Road Tires, Agricultural Tires, Passenger Tires, Light Truck Tires"
@@ -49,10 +49,7 @@ const tiresandservices = () => (
         property="og:title"
         content="Buy New Tires | Tires Services for Industrial, Earthmover, Commercial Tires"
       />
-      <meta
-        property="og:url"
-        content="https://www.kvltires.com/tires-services"
-      />
+      <meta property="og:url" content="https://www.kvltires.com/services" />
       <meta
         property="og:image"
         content="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
@@ -81,7 +78,7 @@ const tiresandservices = () => (
         {
           position: 1,
           name: 'Commercial Tire',
-          item: 'https://www.kvltires.com/tires-services',
+          item: 'https://www.kvltires.com/services',
         },
       ]}
     />

@@ -185,7 +185,7 @@ const location = () => {
         />
         <meta
           property="og:url"
-          content="https://www.kvltires.com/roadside-assistance"
+          content="https://www.kvltires.com/services/roadside-assistance"
         />
         <meta
           property="og:image"

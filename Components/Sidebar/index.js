@@ -5,7 +5,6 @@ import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
 import styled from 'styled-components';
 import { SidebarFr } from './sidebarFr';
-// import { NavbarData } from '../../data';
 
 import {
   CloseIcon,
@@ -41,7 +40,7 @@ const Sidebar = ({ isOpen, toggle }) => {
   // const [Services, setServices] = useState(false);
   // const [NewsRoom, setNewsRoom] = useState(false);
   // const [AboutUs, setAboutUs] = useState(false);
-  // const [BusinessVerticles, setBusinessVerticles] = useState(false);
+  const [Services, setServices] = useState(false);
   // const [Logistics, setLogistics] = useState(false);
   // const [Partz, setPartz] = useState(false);
   // const [Tires, setTires] = useState(false);
@@ -67,45 +66,49 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLinkR onClick={toggle}>Home</SidebarLinkR>
           </Link>
 
-          {/* <Divlink
+          <Divlink
             onClick={() => {
-              setBusinessVerticles(!BusinessVerticles);
-              setAboutUs(false);
-              setNewsRoom(false);
-              setServices(false);
+              setServices(!Services);
             }}
           >
-            Business Verticals
+            Services
             <span>
-              {BusinessVerticles ? <BiMinus /> : <BsPlus />}
+              {Services ? <BiMinus /> : <BsPlus />}
 
-              <BsPlus onClick={()=>setPlus(<BiMinus/>)}/>
+              {/* <BsPlus onClick={() => setPlus(<BiMinus />)} /> */}
             </span>
-          </Divlink> */}
-          {/* <div
-            className={`Transition-Height-${BusinessVerticles ? 'in' : 'out'}`}
-          >
+          </Divlink>
+          <div className={`Transition-Height-${Services ? 'in' : 'out'}`}>
             <ul>
-              {BusinessVerticles
-                ? NavbarData[0].navItems.map((data) => (
-                    <a href={data.url.url}>
+              {Services
+                ? [
+                    {
+                      url: '/services',
+                      navItem: 'Services',
+                    },
+                    {
+                      url: '/services/roadside-assistance',
+                      navItem: 'Roadside Assistance',
+                    },
+                  ].map((data) => (
+                    <Link href={data.url}>
                       <li>
-                        <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                        <SidebarLinkR className="ml-4 text-white text-sm font-normal  justify-left items-left text-left p-1">
                           {data.navItem}
-                          {data.navItems
-                ? data.navItems.map((data) => (
-                    <div className=" text-Heading  justify-center text-center items-center">
-                      {data.navItem}
-                    </div>
-                  ))
-                : null}
-                        </div>
+                          {/* {data.navItems
+                            ? data.navItems.map((data) => (
+                                <div className=" text-Heading  justify-center text-center items-center">
+                                  {data.navItem}
+                                </div>
+                              ))
+                            : null} */}
+                        </SidebarLinkR>
                       </li>
-                    </a>
+                    </Link>
                   ))
                 : null}
             </ul>
-          </div> */}
+          </div>
 
           {/* <Divlink
             onClick={() => {
@@ -245,12 +248,12 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/#AboutUs_Section">
             <SidebarLinkR onClick={toggle}>About Us</SidebarLinkR>
           </Link>
-          <Link href="/tires-services">
-            <SidebarLinkR onClick={toggle}>Tires & Services</SidebarLinkR>
+          {/* <Link href="/services">
+            <SidebarLinkR onClick={toggle}>Services</SidebarLinkR>
           </Link>
-          <Link href="/roadside-assistance">
+          <Link href="/services/roadside-assistance">
             <SidebarLinkR onClick={toggle}>Roadside Assistance</SidebarLinkR>
-          </Link>
+          </Link> */}
           <Link href="/locations">
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>

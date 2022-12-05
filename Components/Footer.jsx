@@ -222,7 +222,7 @@ const Footer = () => {
                       Hinventery ? '' : 'hidden'
                     }`}
                   >
-                    <Link href="/tires-services#tire">
+                    <Link href="/services#tire">
                       <span
                         onClick={() => {
                           setWWOtires('commerce');
@@ -232,30 +232,24 @@ const Footer = () => {
                         Commercial Tires
                       </span>
                     </Link>
-                    <a href="/tires-services#InnerphoneEmailRoad ">
+                    <a href="/services#InnerphoneEmailRoad ">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         {' '}
                         OTR Tires
                       </span>
                     </a>
-                    <a
-                      href="/tires-services#InnerphoneEmailRoad "
-                      rel="noreferrer"
-                    >
+                    <a href="/services#InnerphoneEmailRoad " rel="noreferrer">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Industrial Tires
                       </span>
                     </a>
-                    <a
-                      href="/tires-services#InnerphoneEmailRoad "
-                      rel="noreferrer"
-                    >
+                    <a href="/services#InnerphoneEmailRoad " rel="noreferrer">
                       <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer">
                         Agricultural Tires
                       </span>
                     </a>
                     <Link
-                      href="/tires-services#tire"
+                      href="/services#tire"
                       // target="_blank"
                       rel="noreferrer"
                     >
@@ -346,15 +340,18 @@ const Footer = () => {
                   >
                     <div />
                     <div>
-                      <Link href="/tires-services" rel="noreferrer">
+                      <Link href="/services" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           {' '}
-                          Tires & Services
+                          Services
                         </span>
                       </Link>
                     </div>
                     <div>
-                      <Link href="/roadside-assistance" rel="noreferrer">
+                      <Link
+                        href="/services/roadside-assistance"
+                        rel="noreferrer"
+                      >
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer ">
                           {' '}
                           Roadside Assistance
@@ -412,8 +409,8 @@ const Footer = () => {
                             <Link
                               href={
                                 isDesktop
-                                  ? '/tires-services#IndustrialTires'
-                                  : '/tires-services#IndustrialTiresTwo'
+                                  ? '/services#IndustrialTires'
+                                  : '/services#IndustrialTiresTwo'
                               }
                               // duration={1000}
                               // offset={-80}
@@ -430,7 +427,7 @@ const Footer = () => {
                       <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer overflow-visible">
                           <a
-                            href="/roadside-assistance#onsiteid"
+                            href="/services/roadside-assistance#onsiteid"
 
                             // onClick={() => {
                             //   setchangeState(!changeState);
@@ -447,8 +444,8 @@ const Footer = () => {
                           <Link
                             href={
                               isDesktop
-                                ? '/tires-services#IndustrialTires'
-                                : '/tires-services#IndustrialTiresTwo'
+                                ? '/services#IndustrialTires'
+                                : '/services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
                           >
@@ -464,8 +461,8 @@ const Footer = () => {
                           <Link
                             href={
                               isDesktop
-                                ? '/tires-services#IndustrialTires'
-                                : '/tires-services#IndustrialTiresTwo'
+                                ? '/services#IndustrialTires'
+                                : '/services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
                           >
@@ -478,7 +475,7 @@ const Footer = () => {
                       <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0  ">
                         <span className="flex cursor-pointer">
                           <Link
-                            href="/roadside-assistance#roadside"
+                            href="/services/roadside-assistance#roadside"
                             target="_blank"
                             rel="noreferrer"
 
@@ -494,8 +491,8 @@ const Footer = () => {
                           <Link
                             href={
                               isDesktop
-                                ? '/tires-services#IndustrialTires'
-                                : '/tires-services#IndustrialTiresTwo'
+                                ? '/services#IndustrialTires'
+                                : '/services#IndustrialTiresTwo'
                             }
                             rel="noreferrer"
                           >

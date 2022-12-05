@@ -6,6 +6,7 @@ import { Link as SLink } from 'react-scroll';
 import { FaBars } from 'react-icons/fa';
 import { useEffect, useRef, useState } from 'react';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
+import { RiArrowDownSLine } from 'react-icons/ri';
 // import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 export const MobileIcon = styled.div`
   display: none;
@@ -92,33 +93,62 @@ const Navbar = ({ toggle, postion }) => {
               </div>
             </div>
           </Link>
-          <Link href="/tires-services" passHref>
+          <Link href="/services" passHref>
             <div
-              className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/tires-services' ? 'bg-red-500' : ''
+              className={`group border-solid  border-r  py-2 border-grey  ${
+                router.pathname === '/services' ? 'bg-red-500' : ''
               }`}
             >
               <div
-                className={`2xl:text-lg xl:text-md  lg:text-sm  ${
-                  router.pathname === '/tires-services'
+                className={`2xl:text-lg xl:text-md  lg:text-sm 2xl:px-10 xl:px-8 lg:px-4 md:px-2  ${
+                  router.pathname === '/services'
                     ? 'text-white  font-bold group-hover:text-white'
                     : 'group-hover:text-red-500'
                 }  `}
               >
-                Tires & Services
+                <div className="flex flex-row justify-center text-center items-center">
+                  <RiArrowDownSLine className="w-max mr-2 duration-150 ease-in transition-all group-hover:rotate-180 font-bold" />{' '}
+                  Services
+                </div>
+              </div>
+
+              <div className="relative group-hover:block hidden ">
+                <div className="absolute left-0 top-2Services w-full">
+                  <Link href="/services/roadside-assistance" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-max ${
+                        router.pathname === '/services/roadside-assistance'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
+                          router.pathname === '/services/roadside-assistance'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500 '
+                        }  `}
+                      >
+                        Roadside Assistance
+                      </div>
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
           </Link>
-
-          <Link href="/roadside-assistance" passHref>
+          {/* 
+          <Link href="/services/roadside-assistance" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${
-                router.pathname === '/roadside-assistance' ? 'bg-red-500' : ''
+                router.pathname === '/services/roadside-assistance'
+                  ? 'bg-red-500'
+                  : ''
               }`}
             >
               <div
                 className={` 2xl:text-lg xl:text-md  lg:text-sm ${
-                  router.pathname === '/roadside-assistance'
+                  router.pathname === '/services/roadside-assistance'
                     ? 'text-white font-bold group-hover:text-white'
                     : 'group-hover:text-red-500 '
                 }  `}
@@ -126,7 +156,7 @@ const Navbar = ({ toggle, postion }) => {
                 Roadside Assistance
               </div>
             </div>
-          </Link>
+          </Link> */}
           <Link href="/locations" passHref>
             <div
               className={`group border-solid  border-r 2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 border-grey  ${

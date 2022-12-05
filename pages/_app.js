@@ -129,12 +129,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {
             position: 2,
             name: 'tires services',
-            item: 'https://kvltires.com/tires-services',
+            item: 'https://kvltires.com/services',
           },
           {
             position: 3,
             name: '24X7 roadside assistance',
-            item: 'https://kvltires.com/roadside-assistance',
+            item: 'https://kvltires.com/services/roadside-assistance',
           },
           {
             position: 4,

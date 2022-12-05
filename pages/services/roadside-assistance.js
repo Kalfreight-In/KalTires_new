@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Head from 'next/head';
-import HeroSection from '../Components/Home/HeroSection';
-import Onsiteservice from '../Components/Roadside_Assitance/Onsiteservice';
-import Roadside from '../Components/Roadside_Assitance/Roadside';
-import EmergencyAssists from '../Components/Roadside_Assitance/EmergencyAssists';
+import HeroSection from '../../Components/Home/HeroSection';
+import Onsiteservice from '../../Components/Roadside_Assitance/Onsiteservice';
+import Roadside from '../../Components/Roadside_Assitance/Roadside';
+import EmergencyAssists from '../../Components/Roadside_Assitance/EmergencyAssists';
 import { BreadcrumbJsonLd } from 'next-seo';
 
 const data = [
@@ -45,7 +45,7 @@ const roadsideAssistance = () => (
       />
       <link
         rel="canonical"
-        href="https://www.kvltires.com/roadside-assistance"
+        href="https://www.kvltires.com/services/roadside-assistance"
       />
       <meta
         property="og:title"
@@ -53,7 +53,7 @@ const roadsideAssistance = () => (
       />
       <meta
         property="og:url"
-        content="https://www.kvltires.com/roadside-assistance"
+        content="https://www.kvltires.com/services/roadside-assistance"
       />
       <meta
         property="og:image"
@@ -81,7 +81,7 @@ const roadsideAssistance = () => (
         {
           position: 1,
           name: 'Roadside Assistance',
-          item: 'https://www.kvltires.com/roadside-assistance',
+          item: 'https://www.kvltires.com/services/roadside-assistance',
         },
       ]}
     />

@@ -140,8 +140,8 @@ export const HomeSliderData = [
 
     CTA1: {
       heading: 'Explore',
-      Slink: '/tires-services',
-      link: '/tires-services',
+      Slink: '/services',
+      link: '/services',
     },
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
