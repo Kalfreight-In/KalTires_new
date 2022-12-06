@@ -289,17 +289,7 @@ const location = () => {
           />
         </Element>
         <div className="w-full flex-1 ">
-          <div
-            className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full"
-            style={{
-              backgroundImage: `${
-                isDesktop
-                  ? 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.jpg)'
-                  : 'url(https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Map/MapBg.jpg)'
-              }`,
-              display: 'flex',
-            }}
-          >
+          <div className=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center    lg:mb-0 mb-2  h-full">
             <div className="  w-full  md:mb-0 bg-white ">
               <SidebarMenu className=" ">
                 <div className="">
