@@ -2,6 +2,12 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
+import {
+  BreadcrumbJsonLd,
+  LocalBusinessJsonLd,
+  OrganizationJsonLd,
+  ProfilePageJsonLd,
+} from 'next-seo';
 import { AboutUs } from '../Components/Home/AboutUs';
 import BrandsComponent from '../Components/Home/BrandsComponent';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
@@ -10,12 +16,6 @@ import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
 import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
 // import MapConatiner from '../Components/MapContainer';
 import ContactTwo from '../Components/Home/ContactTwo';
-import {
-  BreadcrumbJsonLd,
-  LocalBusinessJsonLd,
-  OrganizationJsonLd,
-  ProfilePageJsonLd,
-} from 'next-seo';
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
 const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
   suspense: true,
@@ -96,7 +96,7 @@ const Home = () => (
 
       <meta property="og:site_name" content="Kvltires" />
     </Head>
-    <Suspense fallback={`Loading...`}>
+    <Suspense fallback="Loading...">
       <HomeSlider className="h-headerHeight" />
     </Suspense>
     <BrandsComponent />
