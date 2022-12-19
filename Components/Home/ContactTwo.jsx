@@ -151,7 +151,7 @@ const Contactform = () => {
                   className="pb-8"
                   src={kvlTirelogo}
                   width={140}
-                  height={50}
+                  height={120}
                 />
               </div>
               <div className="text-2xl font-bold  bg-white text-black w-full m-20 mt-3 text-center mb-16 font-Helvetica ">

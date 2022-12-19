@@ -117,7 +117,7 @@ const Footer = () => {
                       loading="lazy"
                       layout="intrinsic"
                       // width={700}
-                      height={65}
+                      height={95}
                       width={208}
                       src={kvlTirelogo}
                       alt="logo"
