@@ -110,16 +110,20 @@ import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.jpg';
 import ohioM from '../Assets/bgImage/ohioM.jpg';
 import Lastone from '../Assets/bgImage/Lastone.jpg';
 import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
-import Slidermobiletwo from '../Assets/Images/Home/Slidermobileone.jpg';
-import Slidermobileone from '../Assets/Images/Home/SlidermobileTwo.jpg';
+
 import Slidermobilethree from '../Assets/Images/Home/SlidermobileThree.jpg';
+import HomePageSlider1 from '../Assets/Images/Home/HomePageSlider-1.jpg';
+import HomePageSlider2 from '../Assets/Images/Home/HomePageSlider-2.jpg';
+import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
+import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
+import Slidermobileone from '../Assets/Images/Home/Slidermobileone.jpg';
+import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
 
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.jpg',
-    imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/SlidermobileTwo.jpg',
+    img: HomePageSlider1,
+    imgMobile: SlidermobileTwo,
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
 
@@ -132,9 +136,8 @@ export const HomeSliderData = [
   },
   {
     id: 2,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.jpg',
-    imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Slidermobileone.jpg',
+    img: HomePageSlider2,
+    imgMobile: Slidermobileone,
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
 
@@ -148,9 +151,8 @@ export const HomeSliderData = [
 
   {
     id: 3,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.jpg',
-    imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.jpg',
+    img: HomePageSlider3,
+    imgMobile: SlidermobileThree,
     Heading: 'Looking for new tires for your fleet?  ',
     desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
