@@ -1,7 +1,7 @@
 // import Script from 'next/script';
 import React, { useRef, useState } from 'react';
 import Head from 'next/head';
-
+import Snowfall from 'react-snowfall';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import { Partytown } from '@builder.io/partytown/react';
 import {
@@ -20,6 +20,8 @@ import { StateContext } from '../context/StateContext';
 import Sidebar from '../Components/Sidebar';
 import ErrorBoundary from '../Components/ErrorBoundary';
 import useMediaQuery from '../Hooks/CustomMediaQuery';
+import { useWindowSize } from '../Hooks/WindowSize';
+
 import BottomBar from '../Components/Bottombar';
 import CookiePopup from './CookiePopup';
 
@@ -27,6 +29,7 @@ const MyApp = ({ Component, pageProps }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [PcurrPos, setPcurrPos] = useState({ x: 0, y: 0 });
   const [hideOnScroll, setHideOnScroll] = useState(true);
+  const { width, height } = useWindowSize();
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
@@ -182,25 +185,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.linkedin.com/company/kvltires/',
         ]}
       /> */}
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          zIndex: '100',
+          pointerEvents: 'none',
+        }}
+      >
+        <Snowfall
+          style={{ zIndex: '100' }}
+          height="100%"
+          width="100%"
+          color="#ffff"
+          snowflakeCount={100}
+          radius={[0.3, 2.0]}
+          speed={[0.5, 3.0]}
+          wind={[-0.5, 2.0]}
+        />
+      </div>
+
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
-
         <Topbar toggle={toggle} postion={PcurrPos} />
         <ErrorBoundary>
           {' '}
           <Navbar toggle={toggle} postion={PcurrPos} />
         </ErrorBoundary>
-
         <Component {...pageProps} />
         <div>
           <Footer />
           <BottomBar />
         </div>
-
         {/* <Script
       src="https://kit.fontawesome.com/d16bf6a891.js"
       crossOrigin="anonymous"
-    /> */}
+    /> */}{' '}
         <ErrorBoundary>
           {!isDesktop ? <Sidebar isOpen={isOpen} toggle={toggle} /> : null}
         </ErrorBoundary>

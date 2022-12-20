@@ -69,7 +69,7 @@ const Topbar = ({ toggle, postion }) => {
               <div>
                 {/* <div className="font-bold">Toll Free</div> */}
                 <div className="text-3xl font-bold align-bottom">
-                  <span className="text-red-500">800</span>-808-0025
+                  800-808-<span className="text-red-500">0025</span>
                 </div>
               </div>
             </a>

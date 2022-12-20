@@ -88,17 +88,8 @@ const Footer = () => {
           <div>
             <Image
               loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
-              loading="lazy"
               src={kvlTirelogo}
-              height={75}
+              height={80}
               width={200}
               alt="logo"
               className="2xl:h-18 xl:h-20  h-16  md:ml-0 xl:ml-36 mt-4 cursor-pointer"
@@ -117,7 +108,7 @@ const Footer = () => {
                       loading="lazy"
                       layout="intrinsic"
                       // width={700}
-                      height={95}
+                      height={80}
                       width={208}
                       src={kvlTirelogo}
                       alt="logo"
