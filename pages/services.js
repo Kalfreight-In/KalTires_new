@@ -8,14 +8,16 @@ import Contactform from '../Components/Whatweoffer/ContactForm';
 import HeroSection from '../Components/Home/HeroSection';
 import HeroSection_free from '../Components/Home/HeroSection_free';
 import { BreadcrumbJsonLd } from 'next-seo';
+import WhatWeOfferBg from '../Assets/Images/Whatweoffer/WhatWeOfferBg.jpg';
+import WhatWeOfferBgM from '../Assets/Images/Whatweoffer/WhatWeOfferBg.jpg';
+
 // import Onsiteservice from '../Components/Roadside_Assitance/Onsiteservice';
 
 const data = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/WhatWeOfferBg.jpg',
-    imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/WhatWeOfferBgM.jpg',
+    img: WhatWeOfferBg,
+    imgMobile: WhatWeOfferBgM,
     Heading: 'Get back on the road safely with KVL Tires  ',
     desc: 'Offering Major Tire Brands, Quality Tire Repair Services across 18+ Locations & Growing ',
     CTA1: {

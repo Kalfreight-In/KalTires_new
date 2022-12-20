@@ -6,13 +6,13 @@ import Onsiteservice from '../../Components/Roadside_Assitance/Onsiteservice';
 import Roadside from '../../Components/Roadside_Assitance/Roadside';
 import EmergencyAssists from '../../Components/Roadside_Assitance/EmergencyAssists';
 import { BreadcrumbJsonLd } from 'next-seo';
+import RoadsideAssistantBg from '../../Assets/Images/Roadside_Assistance/RoadsideAssistantBg.jpg';
 
 const data = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.jpg',
-    imgMobile:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Roadside_Assistance/RoadsideAssistantBg.jpg',
+    img: RoadsideAssistantBg,
+    imgMobile: RoadsideAssistantBg,
     Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
     Alttag: 'Convenient Roadside Assistance',
     desc: 'Get Quick & Convenient Roadside Assistance',
