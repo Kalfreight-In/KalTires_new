@@ -107,8 +107,8 @@ const Navbar = ({ toggle, postion }) => {
                 }  `}
               >
                 <div className="flex flex-row justify-center text-center items-center">
-                  <RiArrowDownSLine className="w-max mr-2 duration-150 ease-in transition-all group-hover:rotate-180 font-bold" />{' '}
                   Services
+                  <RiArrowDownSLine className="w-max ml-2 duration-150 ease-in transition-all group-hover:rotate-180 font-bold" />{' '}
                 </div>
               </div>
 
