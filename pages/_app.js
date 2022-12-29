@@ -185,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.linkedin.com/company/kvltires/',
         ]}
       /> */}
-      <div
+      {/* <div
         style={{
           position: 'fixed',
           top: 0,
@@ -206,7 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           speed={[0.5, 3.0]}
           wind={[-0.5, 2.0]}
         />
-      </div>
+      </div> */}
 
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
