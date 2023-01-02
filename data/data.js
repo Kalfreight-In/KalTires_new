@@ -918,7 +918,7 @@ export const Servicesdata = [
 //       },
 //       {
 //         url: {
-//           url: 'https://kvltiers.com/',
+//           url: 'https://kvltires.com/',
 //           link: 'a',
 //         },
 //         id: 3,
@@ -1084,7 +1084,7 @@ export const Servicesdata = [
 //       },
 //       {
 //         url: {
-//           url: 'http://kvltiers.com/#Advantages',
+//           url: 'http://kvltires.com/#Advantages',
 //           link: 'a',
 //         },
 //         id: 3,
@@ -1092,7 +1092,7 @@ export const Servicesdata = [
 //         navItems: [
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 1,
@@ -1100,7 +1100,7 @@ export const Servicesdata = [
 //           },
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 2,
@@ -1108,7 +1108,7 @@ export const Servicesdata = [
 //           },
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 3,
@@ -1116,7 +1116,7 @@ export const Servicesdata = [
 //           },
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 4,
@@ -1124,7 +1124,7 @@ export const Servicesdata = [
 //           },
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 5,
@@ -1132,7 +1132,7 @@ export const Servicesdata = [
 //           },
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 6,
@@ -1140,7 +1140,7 @@ export const Servicesdata = [
 //           },
 //           {
 //             url: {
-//               url: 'http://kvltiers.com/#Advantages',
+//               url: 'http://kvltires.com/#Advantages',
 //               link: 'a',
 //             },
 //             id: 7,
@@ -1304,7 +1304,7 @@ export const MapData1 = [
       City: 'Fontana',
       Address: '14887 Valley Blvd',
       Phone: '909-306-5571',
-      Email: 'rmartinez@kvltiers.com',
+      Email: 'rmartinez@kvltires.com',
       bgimage: valleyblvdFontanaCa,
       url: 'https://www.google.co.in/maps/place/14887+Valley+Blvd,+Fontana,+CA+92335,+USA/@34.0697634,-117.4825569,17z/data=!3m1!4b1!4m5!3m4!1s0x80c34b3fe61f8771:0x46a847e951608e46!8m2!3d34.069759!4d-117.4803682?hl=en',
     },
@@ -1565,7 +1565,7 @@ export const MapData1 = [
       City: 'Santa Fe Springs',
       Address: '13000 Firestone Blvd',
       Phone: '909-306-5571',
-      Email: 'rmartinez@kvltiers.com',
+      Email: 'rmartinez@kvltires.com',
       bgimage: Lasttwo,
       url: 'https://www.google.com/maps/place/13000+Firestone+Blvd,+Santa+Fe+Springs,+CA+90670,+USA/@33.8974742,-118.0571323,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2cdac36e267f:0xa27555cc218de61!8m2!3d33.8974698!4d-118.0549436',
     },
