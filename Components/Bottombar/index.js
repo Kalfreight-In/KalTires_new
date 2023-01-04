@@ -16,6 +16,7 @@ import {
 
 const BottomBar = ({ toggle }) => {
   const [scrollNav] = useState(false);
+  const [year, setYear] = useState(() => new Date().getFullYear());
   // const changeNav = ()=> {
   //   if(window.scrollY >= 100) {
   //     setScrollNav(true)
@@ -47,7 +48,7 @@ const BottomBar = ({ toggle }) => {
           </div>
 
           <div className="2xl:text-desc font-bold text-black  md:text-xs">
-            Copyright ©KVLTires, 2022. All Rights Reserved
+            Copyright ©KVLTires, {year}. All Rights Reserved
           </div>
         </div>
       </div>
