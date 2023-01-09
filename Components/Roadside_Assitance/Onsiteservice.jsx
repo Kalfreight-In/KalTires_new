@@ -48,8 +48,6 @@ const Onsiteservice = () => {
             loop
             slidesPerView={isMobile ? 2 : 1}
             spaceBetween={30}
-            // pagination={{ clickable: true }}
-            // className="mySwiper"
             speed={1400}
             autoplay={{
               delay: 1300,
@@ -81,32 +79,6 @@ const Onsiteservice = () => {
             ))}
           </Swiper>
         )}
-
-        {/* {Onsitecomponentdata.map((onsitemain) => (
-          <div id="secondonsite" className="mt-12 mb-4" key={onsitemain.id}>
-            <div id="innersecondonsite" className="text-center">
-              <h1 className="md:text-2xl font-bold font-poppins">
-                {onsitemain.heading}
-              </h1>
-              <p className="pt-2 md:text-xl  text-onsite-text font-Helvetica lg:px-80 px-8">
-                {onsitemain.desc}
-              </p>
-              <div className="flex justify-center mt-8">
-                <a href="tel: 800-808-0025" target="_blank" rel="noreferrer">
-                  <button
-                    className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
-                    type="button"
-                  >
-                    <span className="pr-2 font-poppins">
-                      <ImPhone className="text-2xl" />
-                    </span>
-                    {onsitemain.BTN}
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        ))} */}
       </div>
     </div>
   );

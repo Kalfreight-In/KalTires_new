@@ -34,7 +34,7 @@ const Home = () => (
         {' '}
         Tires Shop Near Me | Truck Tire Service | Heavy-Duty Tires - Kvltires
       </title>
-
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="keywords"
         content="Commercial Tires, Industrial Tires, OTR Tires, Agricultural Tires"

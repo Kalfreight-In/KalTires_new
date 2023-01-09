@@ -39,6 +39,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(4, minmax(250px, 1fr))',
+        onsiteTemplate5: 'repeat(5, minmax(350px, 1fr))',
         PerkTemplate: 'repeat(4, minmax(200px, 1fr))',
         perkTemplatetwo: 'repeat(auto-fit,minmax(200px.1fr))',
         PerkTemplatetab: 'repeat(1, minmax(250px, 1fr))',

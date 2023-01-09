@@ -119,6 +119,20 @@ import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
 import Slidermobileone from '../Assets/Images/Home/Slidermobileone.jpg';
 import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
 
+///About Us Imports ////
+import AboutUsTireHeader from './../Assets/Images/Home/AboutUsTire.jpg';
+// import AboutUsTireM from '../../Assets/Images/Home/AboutUsTireM.jpg';
+import CommercialTire from './../Assets/Images/AboutUs/CommercialTire.png';
+import industrialtire from './../Assets/Images/AboutUs/IndustrialTires.png';
+import OTRTires from './../Assets/Images/AboutUS/OTRTires.png';
+import AgriculturalTires from './../Assets/Images/AboutUs/AgriculturalTires.png';
+///
+import Service24 from './../Assets/Images/AboutUs/Service24.png';
+import Frame from './../Assets/Images/AboutUs/Frame.png';
+import HeavyTire from './../Assets/Images/AboutUs/HeavyTire.png';
+import LocationPoint from './../Assets/Images/AboutUs/LocationPoint.png';
+import RockBottomPrice from './../Assets/Images/AboutUs/RockBottomPrice.png';
+
 export const HomeSliderData = [
   {
     id: 1,
@@ -164,6 +178,108 @@ export const HomeSliderData = [
     CTA12: { heading: 'Inventory', link: 'contactus' },
   },
 ];
+
+export const AboutUs__PageData = [
+  {
+    HeaderImage: AboutUsTireHeader,
+    TireSection: [
+      {
+        TiresList: [
+          {
+            Image: CommercialTire,
+            Description: 'Commercial Tires',
+          },
+          {
+            Image: industrialtire,
+            Description: 'Industrial Tires',
+          },
+          {
+            Image: OTRTires,
+            Description: 'OTR Tires',
+          },
+          {
+            Image: AgriculturalTires,
+            Description: 'Agricultural Tires',
+          },
+        ],
+        Description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Know More>',
+      },
+    ],
+  },
+  {
+    WhatmakeusSpecial: [
+      {
+        id: 1,
+        img: HeavyTire,
+        heading: 'Heavy Duty',
+        desc: 'High Performance Tires',
+      },
+      {
+        id: 2,
+        img: Frame,
+        heading: 'Trained & Specialist',
+        desc: 'Personnels',
+      },
+      {
+        id: 3,
+        img: LocationPoint,
+        heading: '18+ Location  ',
+        desc: 'And Growing',
+      },
+      {
+        id: 4,
+        img: RockBottomPrice,
+        heading: 'Rock Bottom Price',
+        desc: 'Across All Location',
+      },
+      {
+        id: 5,
+        img: Service24,
+        heading: '24 x 7 Roadside',
+        desc: 'All Around Support',
+      },
+      // {
+      //   id: 3,
+      //   img: onsitethree,
+      //   heading: 'Tire Replacement',
+      //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+      // },
+      // {
+      //   id: 4,
+      //   img: onsitefour,
+      //   heading: 'Light Mechanical Services',
+      //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+      // },
+      // {
+      //   id: 5,
+      //   img: onsitefive,
+      //   heading: 'Wheel Mounting',
+      //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+      // },
+      // {
+      //   id: 6,
+      //   img: onsitesix,
+      //   heading: 'Commercial Oil Change',
+      //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+      // },
+
+      // {
+      //   id: 9,
+      //   img: onsitenine,
+      //   heading: 'Tire Balancing',
+      //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+      // },
+      // {
+      //   id: 10,
+      //   img: onsiteten,
+      //   heading: 'Flat Tire Repair',
+      //   desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+      // },
+    ],
+  },
+];
+
 export const BrandCompnentHeader = [
   {
     id: 1,
