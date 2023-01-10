@@ -635,7 +635,7 @@ export const HighPerformanceBrandsData = [
     headingdesc:
       'This image is related to High Performance American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.',
     headingImg: 'Ameri-Tire',
-    logo: ameristeel_white,
+    logo: Cooper_Tire_white,
     Image: ameristeelTire,
     bgImage:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
@@ -647,7 +647,7 @@ export const HighPerformanceBrandsData = [
     headingdesc:
       'This image is related to High Performance Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.',
     headingImg: 'Cooper-Tire',
-    logo: Cooper_Tire_white,
+    logo: ameristeel_white,
     Image: coopertiresTire,
     bgImage:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
