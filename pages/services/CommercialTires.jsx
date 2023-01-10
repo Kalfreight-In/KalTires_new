@@ -7,11 +7,7 @@ const CommercialTires = () => {
   return (
     <>
       <div
-        styles={{
-          position: 'fixed',
-          height: '90vh',
-          width: '100vw',
-          overflow: 'hidden',
+        style={{
           zIndex: '-1',
         }}
       >

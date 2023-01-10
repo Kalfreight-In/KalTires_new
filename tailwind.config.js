@@ -91,6 +91,10 @@ module.exports = {
       height: {
         300: '300px',
         557: '557px',
+        100: '28rem',
+        102: '30rem',
+        104: '34rem',
+
         mapheightFull: '900px',
         mapScrollheightFull: '600px',
         mapheightMob: '800px',
