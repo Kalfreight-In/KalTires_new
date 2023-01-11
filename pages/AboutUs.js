@@ -7,6 +7,7 @@ import CoustomnerReview from '../Components/AboutUS/CoustomnerReview';
 import ExploreNow from '../Components/AboutUS/ExploreNow';
 import MostAdvancedTechnology from '../Components/AboutUS/MostAdvancedTechnology';
 import OurStory from '../Components/AboutUS/OurStory';
+import CustomerReview from '../Components/CustomerReview';
 import MapConatiner from '../Components/MapContainer';
 const AboutUs = () => {
   return (
@@ -39,6 +40,7 @@ const AboutUs = () => {
       <MapConatiner />
       <MostAdvancedTechnology />
       <CoustomnerReview />
+      <CustomerReview></CustomerReview>
     </>
   );
 };
