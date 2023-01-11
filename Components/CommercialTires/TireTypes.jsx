@@ -4,6 +4,7 @@ import RearDrive from '../../Assets/Images/CommercialTires/RearDrive.png';
 import SteerTires from '../../Assets/Images/CommercialTires/SteerTires.png';
 import Image from 'next/image';
 import { useHover } from '../../Hooks/Hover';
+import BgCardTireComp from '../BgCardTireComp';
 
 const blogPosts = [
   {
@@ -62,68 +63,15 @@ const blogPosts = [
   },
 ];
 const TireTypes = () => {
-  const [hoverRef, isHovered] = useHover();
   return (
     <div>
       <div className="">
-        <div className="mx-auto mt-12 grid max-w-md gap-8 px-4 sm:max-w-lg sm:px-6 lg:max-w-7xl lg:grid-cols-3 lg:px-8">
+        <div className=" flex lg:flex-row flex-col w-auto  justify-around">
           {blogPosts.map((post) => (
-            <div
-              key={post.id}
-              className="flex flex-col overflow-hidden rounded-lg shadow-lg"
-            >
-              <div
-                className="flex-shrink-0 relative h-102 "
-                style={{
-                  width: '100',
-                }}
-                ref={hoverRef}
-              >
-                <div
-                  className={` text-center transition-all duration-1000 text-lg  ${
-                    isHovered ? 'h-96' : 'h-0'
-                  } p-4`}
-                  style={{ backgroundColor: '#C81010C4', zIndex: '6' }}
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                  <div className="text-white flex justify-center font-bold text-2xl underline underline-offset-4 text-center">
-                    {post.author.name}
-                  </div>
-                </div>
-                <div
-                  className=" bottom-0  text-center pb-8 w-full flex justify-center absolute "
-                  style={{
-                    zIndex: '5',
-                  }}
-                >
-                  <div className="text-white flex font-bold text-2xl underline underline-offset-4 text-center">
-                    {post.author.name}
-                  </div>
-                </div>
-                <Image
-                  loading="lazy"
-                  placeholder="AboutUsPAge"
-                  src={post.imageUrl}
-                  alt="AboutUs Header"
-                  fill
-                  height="480"
-                  style={{
-                    objectFit: 'cover',
-                    display: 'absolute',
-                    zIndex: '3',
-                  }}
-                />
-              </div>
-            </div>
+            <BgCardTireComp post={post} />
           ))}
         </div>
+
         <a
           href="https://a.paddle.com/v2/click/37973/124350?link=3167"
           class="no-underline hover:no-underline"
