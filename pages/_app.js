@@ -1,7 +1,7 @@
 // import Script from 'next/script';
 import React, { useRef, useState } from 'react';
 import Head from 'next/head';
-import Snowfall from 'react-snowfall';
+
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import { Partytown } from '@builder.io/partytown/react';
 import {
