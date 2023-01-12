@@ -3,12 +3,39 @@ import React from 'react';
 import AboutUsTire from '../Assets/Images/Home/AboutUsTire.jpg';
 import AboutUs_Tires from '../Components/AboutUS/AboutUs_Tires';
 import AboutUs_WhatMakeUsSpecial from '../Components/AboutUS/AboutUs_WhatMakeUsSpecial';
-import CoustomnerReview from '../Components/AboutUS/CoustomnerReview';
+
 import ExploreNow from '../Components/AboutUS/ExploreNow';
 import MostAdvancedTechnology from '../Components/AboutUS/MostAdvancedTechnology';
 import OurStory from '../Components/AboutUS/OurStory';
-import CustomerReview from '../Components/CustomerReview';
+import { CustomerReview } from '../Components/CustomerReview';
 import MapConatiner from '../Components/MapContainer';
+const CustomerReviewdata = [
+  {
+    Review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    Rating: 4,
+    CustomerName: 'john',
+  },
+  {
+    Review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    Rating: 4,
+    CustomerName: 'john',
+  },
+  {
+    Review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    Rating: 4,
+    CustomerName: 'john',
+  },
+  {
+    Review:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    Rating: 4,
+    CustomerName: 'john',
+  },
+];
+
 const AboutUs = () => {
   return (
     <>
@@ -39,8 +66,12 @@ const AboutUs = () => {
       <ExploreNow />
       <MapConatiner />
       <MostAdvancedTechnology />
-      <CoustomnerReview />
-      <CustomerReview></CustomerReview>
+
+      <CustomerReview
+        data={CustomerReviewdata}
+        colour={'black'}
+        heading={'Testimonials'}
+      />
     </>
   );
 };
