@@ -546,7 +546,7 @@ const location = () => {
                               <div className="flex flex-center flex-col ">
                                 <div className="mb-2 w-locationsection">
                                   <div className="font-semibold text-md">
-                                    KVL Tires
+                                    BigRig Tires & Services
                                   </div>
                                   <div className=" font-normal text-md">
                                     {`${value.properties.Address}${', '}  ${
