@@ -59,6 +59,9 @@ import Cooper_Tire_white from '../Assets/Images/Home/High_performace_brands_logo
 import generalLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GENERAL1.png';
 import goodyearLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GOODYEAR1.png';
 import michelinLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/MICHELIN1.png';
+import Yokohamawhite from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/yokohamawhite.png';
+import ceatowhite from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ceatowhite.png';
+import ferentinowhite from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ferentinowhite.png';
 
 import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
 import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
@@ -68,6 +71,10 @@ import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/H
 import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png';
 import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
 import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
+import CEATTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/CEATTire.png';
+import ferentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ferentinoTire.png';
+import yokohamaTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png';
+
 import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
@@ -663,6 +670,42 @@ export const HighPerformanceBrandsData = [
     Image: michelinTire,
     bgImage:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
+    src: 'Continental',
+  },
+  {
+    id: '9',
+    heading: 'yokohama Tires Brand',
+    headingdesc:
+      'This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
+    headingImg: 'yokohama-Tire',
+    logo: Yokohamawhite,
+    Image: yokohamaTire,
+    bgImage:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
+    src: 'OTR',
+  },
+  {
+    id: '10',
+    heading: 'CEAT Tires Brand',
+    headingdesc:
+      'This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
+    headingImg: 'Michelin-Tire',
+    logo: ceatowhite,
+    Image: CEATTire,
+    bgImage:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
+    src: 'Continental',
+  },
+  {
+    id: '11',
+    heading: 'ferentino Tires Brand',
+    headingdesc:
+      'This image is related to High Performance ferentino tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
+    headingImg: 'ferentino-Tire',
+    logo: ferentinowhite,
+    Image: ferentinoTire,
+    bgImage:
+      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
     src: 'Continental',
   },
 ];
