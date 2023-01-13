@@ -1,9 +1,10 @@
-import Image from 'next/image';
 import React from 'react';
 import CommercialTiresBanner from '../../Assets/Images/CommercialTires/CommecialPage-Tires.png';
 import PotentioalAnnualShaving from '../../Components/CommercialTires/PotentioalAnnualShaving';
 import TireTypes from '../../Components/CommercialTires/TireTypes';
 import { CustomerReview } from '../../Components/CustomerReview';
+import Image from 'next/image';
+import OTRTiresTrucks from '../../Components/OTRTires/OTRTiresTrucks';
 const CustomerReviewdata = [
   {
     Review:
@@ -30,7 +31,7 @@ const CustomerReviewdata = [
     CustomerName: 'john',
   },
 ];
-const CommercialTires = () => {
+const OTRTires = () => {
   return (
     <>
       <div
@@ -67,26 +68,17 @@ const CommercialTires = () => {
           >
             <div
               className="text-white  flex items-center px-24 m  bg-red-600 pt-4
-           text-center  font-bold lg:text-5xl text-lg"
+         text-center  font-bold lg:text-5xl text-lg"
               style={{
                 clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
               }}
             >
-              COMMERCIAL TIRE
+              OFF-THE-ROAD TIRES
             </div>
-          </div>
-
-          <div className="bg-red-600 p-12 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum,
           </div>
         </div>
       </div>
+      <OTRTiresTrucks />
       <TireTypes></TireTypes>
       <PotentioalAnnualShaving />
       <CustomerReview
@@ -98,4 +90,4 @@ const CommercialTires = () => {
   );
 };
 
-export default CommercialTires;
+export default OTRTires;
