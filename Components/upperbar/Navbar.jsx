@@ -113,7 +113,7 @@ const Navbar = ({ toggle, postion }) => {
               </div>
 
               <div className="relative group-hover:block hidden ">
-                <div className="absolute left-0 top-2  w-full">
+                <div className="absolute left-0 top-2  w-ful bg-white">
                   <Link href="/services/roadside-assistance" passHref>
                     <div
                       className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-max ${
@@ -126,10 +126,124 @@ const Navbar = ({ toggle, postion }) => {
                         className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
                           router.pathname === '/services/roadside-assistance'
                             ? 'text-white  font-bold hover:text-white w-max'
-                            : 'hover:text-red-500 '
+                            : 'hover:text-red-500'
                         }  `}
                       >
                         Roadside Assistance
+                      </div>
+                    </div>
+                  </Link>
+                  <Link href="/services/IndustrialTire" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-full ${
+                        router.pathname === '/services/IndustrialTire'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-full ${
+                          router.pathname === '/services/IndustrialTire'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500'
+                        }  `}
+                      >
+                        Industrial Tire
+                      </div>
+                    </div>
+                  </Link>
+                  <Link href="/services/MiniTruckTire" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-full  ${
+                        router.pathname === '/services/MiniTruckTire'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
+                          router.pathname === '/services/MiniTruckTire'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500'
+                        }  `}
+                      >
+                        Mini Truck Tire
+                      </div>
+                    </div>
+                  </Link>
+                  <Link href="/services/PassengerTire" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 w-full  ${
+                        router.pathname === '/services/PassengerTiree'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
+                          router.pathname === '/services/PassengerTire'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500'
+                        }  `}
+                      >
+                        Passenger Tire
+                      </div>
+                    </div>
+                  </Link>
+                  <Link href="/services/AggricultureTire" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-full ${
+                        router.pathname === '/services/AggricultureTire'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
+                          router.pathname === '/services/AggricultureTire'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500'
+                        }  `}
+                      >
+                        Aggriculture Tire
+                      </div>
+                    </div>
+                  </Link>
+                  <Link href="/services/OTRTires" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-full  ${
+                        router.pathname === '/services/OTRTires'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
+                          router.pathname === '/services/OTRTires'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500'
+                        }  `}
+                      >
+                        OTR Tires
+                      </div>
+                    </div>
+                  </Link>
+                  <Link href="/services/CommercialTires" passHref>
+                    <div
+                      className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2  w-full  ${
+                        router.pathname === '/services/CommercialTires'
+                          ? 'bg-red-500'
+                          : 'bg-white'
+                      }`}
+                    >
+                      <div
+                        className={`2xl:text-lg xl:text-md  lg:text-sm text-center w-max ${
+                          router.pathname === '/services/CommercialTires'
+                            ? 'text-white  font-bold hover:text-white w-max'
+                            : 'hover:text-red-500'
+                        }  `}
+                      >
+                        Commercial Tire
                       </div>
                     </div>
                   </Link>

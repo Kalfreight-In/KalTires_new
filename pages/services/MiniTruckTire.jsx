@@ -72,32 +72,8 @@ const SafetyOtrFeature = [
     Description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
   },
-  {
-    Icon: OtrimagesSection,
-    Heading: 'Lorem & ipsum',
-    Description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-  },
-  {
-    Icon: OtrimagesSection,
-    Heading: 'Lorem & ipsum',
-    Description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-  },
-  {
-    Icon: OtrimagesSection,
-    Heading: 'Lorem & ipsum',
-    Description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-  },
-  {
-    Icon: OtrimagesSection,
-    Heading: 'Lorem & ipsum',
-    Description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-  },
 ];
-const OTRTires = () => {
+const MiniTruckTire = () => {
   return (
     <>
       <div
@@ -127,42 +103,39 @@ const OTRTires = () => {
       >
         <div className="lg:flex block lg:flex-col flex-row items-center ">
           <div
-            className="bg-white px-7 pt-3 min-w-1/2"
+            className="bg-white px-7 pt-3"
             style={{
               clipPath: 'polygon(15% 0, 85% 0, 100% 100%, 0% 100%)',
             }}
           >
             <div
-              className="text-white  flex items-center px-24 min-w-500 bg-red-600 pt-4
-              text-center  font-bold lg:text-5xl  text-lg"
+              className="text-white  flex items-center px-24 m  bg-red-600 pb-4
+           text-center  font-bold lg:text-5xl text-lg"
               style={{
                 clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
               }}
-            ></div>
+            >
+              MINI TRUCK TIRE
+            </div>
           </div>
-          <div className="bg-red-600 p-12 text-white w-full bo">
-            OFF-THE-ROAD TIRES
+
+          <div className="bg-red-600 p-12 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum,
           </div>
         </div>
       </div>
       <OTRTiresTrucks />
-      <SmallSimpleComponent1
-        data={Data}
-        Textcolour={'white'}
-        colour={'black'}
-        Linecolour={'red-600'}
-      />
-      <TireTypes></TireTypes>
-      <PotentioalAnnualShaving />
-      <CustomerReview
-        heading={'Testimonials'}
-        data={CustomerReviewdata}
-        colour={'white'}
-      />
+
       <SmallSimpleComponent1
         data={Data2}
         Textcolour={'white'}
-        colour={'red-600'}
+        colour={'black'}
       />
       <SafetyOtrFeatures data={SafetyOtrFeature} />
       <SmallSimpleComponent1
@@ -175,4 +148,4 @@ const OTRTires = () => {
   );
 };
 
-export default OTRTires;
+export default MiniTruckTire;

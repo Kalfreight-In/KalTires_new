@@ -65,36 +65,12 @@ const blogPosts = [
 const TireTypes = () => {
   return (
     <div>
-      <div className="">
-        <div className=" flex lg:flex-row flex-col w-auto  justify-around">
+      <div className="mb-8">
+        <div className=" flex lg:flex-row flex-col w-auto   justify-around">
           {blogPosts.map((post) => (
             <BgCardTireComp post={post} />
           ))}
         </div>
-
-        <a
-          href="https://a.paddle.com/v2/click/37973/124350?link=3167"
-          class="no-underline hover:no-underline"
-        >
-          <div class="card">
-            <div class="relative">
-              <img src="templates/tails.jpg" alt="Tails [$]" />
-
-              <span
-                class="absolute bottom-0 w-full py-1 tracking-wider text-gray-800 text-center text-xs font-bold"
-                // style={{"background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);opacity:0.75;"}}
-              >
-                AFFILIATE SCHEME
-              </span>
-            </div>
-
-            <div class="card-title">Tails [$]</div>
-            <p class="card-description">
-              Tails is the ultimate drag'n drop page creator built for Tailwind
-              CSS (Affiliate Link)
-            </p>
-          </div>
-        </a>
       </div>
     </div>
   );

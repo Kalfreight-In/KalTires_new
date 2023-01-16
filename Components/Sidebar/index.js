@@ -90,6 +90,30 @@ const Sidebar = ({ isOpen, toggle }) => {
                       url: '/services/roadside-assistance',
                       navItem: 'Roadside Assistance',
                     },
+                    {
+                      url: '/services/AggricultureTire',
+                      navItem: 'Aggriculture Tire',
+                    },
+                    {
+                      url: '/services/CommercialTires',
+                      navItem: 'Commercial Tires',
+                    },
+                    {
+                      url: '/services/IndustialTire',
+                      navItem: 'Industrial Tire',
+                    },
+                    {
+                      url: '/services/MiniTruckTire',
+                      navItem: 'Mini Truck Tire',
+                    },
+                    {
+                      url: '/services/OTRTires',
+                      navItem: 'OTR Tires',
+                    },
+                    {
+                      url: '/services/PassengerTire',
+                      navItem: 'Passenger Tire',
+                    },
                   ].map((data) => (
                     <Link href={data.url}>
                       <li>
