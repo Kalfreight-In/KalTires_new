@@ -25,7 +25,7 @@ const AboutUs_Tires = () => {
         >
           <div
             className="text-white  flex items-center px-24 m  bg-red-600 pt-4
-           text-center  font-bold lg:text-5xl text-lg"
+           text-center  font-bold lg:text-5xl text-2xl"
             style={{
               clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
             }}
@@ -92,10 +92,10 @@ const AboutUs_Tires = () => {
               (newdata, id) => (
                 <SwiperSlide key={id}>
                   <div>
-                    <div id="grid" className=" bg-red-600   px-4">
-                      <div className="bg-red-600 text-center">
+                    <div id="grid" className=" bg-red-600 -mx-4  ">
+                      <div className=" text-center">
                         <div className="flex justify-center">
-                          <div className=" flex">
+                          <div className="flex">
                             <Image
                               loading="lazy"
                               src={newdata.Image}
@@ -104,7 +104,7 @@ const AboutUs_Tires = () => {
                           </div>
                         </div>
 
-                        <h2 className="lg:text-xl text-lg font-bold font-Helvetica ">
+                        <h2 className="lg:text-xl text-white  text-lg font-bold font-Helvetica ">
                           {newdata.Description}
                         </h2>
                       </div>

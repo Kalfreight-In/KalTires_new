@@ -20,10 +20,7 @@ const AboutUs_WhatMakeUsSpecial = () => {
         </div>
         {isDesktop ? (
           <div>
-            <div
-              id="grid"
-              className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate5  px-20"
-            >
+            <div id="grid" className="flex flex-row   bg-bg-white-1    px-20">
               {AboutUs__PageData[1].WhatmakeusSpecial.map((index) => (
                 <div className="bg-bg-white-1 text-center py-8" key={index.id}>
                   <div className="flex justify-center">

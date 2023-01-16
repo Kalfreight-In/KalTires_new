@@ -115,6 +115,9 @@ import Slidermobilethree from '../Assets/Images/Home/SlidermobileThree.jpg';
 import HomePageSlider1 from '../Assets/Images/Home/HomePageSlider-1.jpg';
 import HomePageSlider2 from '../Assets/Images/Home/HomePageSlider-2.jpg';
 import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
+import New3 from '../Assets/Images/Home/NewThird.png';
+import New2 from '../Assets/Images/Home/NewTwo.png';
+
 import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
 import Slidermobileone from '../Assets/Images/Home/Slidermobileone.jpg';
 import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
@@ -136,8 +139,9 @@ import RockBottomPrice from './../Assets/Images/AboutUs/RockBottomPrice.png';
 export const HomeSliderData = [
   {
     id: 1,
-    img: HomePageSlider1,
-    imgMobile: SlidermobileTwo,
+    img: HomePageSlider3,
+    imgMobile: SlidermobileThree,
+
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
 
@@ -150,8 +154,8 @@ export const HomeSliderData = [
   },
   {
     id: 2,
-    img: HomePageSlider2,
-    imgMobile: Slidermobileone,
+    img: New2,
+    imgMobile: New2,
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
 
@@ -165,10 +169,10 @@ export const HomeSliderData = [
 
   {
     id: 3,
-    img: HomePageSlider3,
-    imgMobile: SlidermobileThree,
-    Heading: 'Looking for new tires for your fleet?  ',
-    desc: 'Find Your Next Set Of Tires Here At KVL Tires',
+    img: New3,
+    imgMobile: New3,
+    Heading: 'Wide range of tires for all your equipment needs?  ',
+    desc: 'Find your next set of tires here at KVL Tires',
 
     CTA1: {
       heading: 'Contact Us',

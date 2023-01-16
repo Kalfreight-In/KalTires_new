@@ -93,7 +93,7 @@ module.exports = {
         557: '557px',
         100: '28rem',
         102: '30rem',
-        104: '34rem',
+        104: '38rem',
 
         mapheightFull: '900px',
         mapScrollheightFull: '600px',

@@ -8,10 +8,10 @@ const BgCardTireComp = ({ post }) => {
   return (
     <div
       key={post.id}
-      className="flex flex-col overflow-hidden rounded-lg shadow-lg"
+      className="flex flex-col overflow-hidden rounded-lg shadow-lg "
     >
       <div
-        className="flex-shrink-0 relative h-102 cursor-pointer "
+        className="flex-shrink-0 relative h-104 cursor-pointer "
         style={{
           width: '100',
         }}
@@ -56,15 +56,15 @@ const BgCardTireComp = ({ post }) => {
             </div>
           )}
         </div>
-        <Image
-          loading="lazy"
-          placeholder="AboutUsPAge"
-          src={post.imageUrl}
-          alt="AboutUs Header"
-          fill
-          height="480"
-          c
-        />
+        <div className="w-full  h-full">
+          <Image
+            loading="lazy"
+            placeholder="AboutUsPAge"
+            src={post.imageUrl}
+            alt="AboutUs Header"
+            objectFit="true"
+          />
+        </div>
       </div>
     </div>
   );
