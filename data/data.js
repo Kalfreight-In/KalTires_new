@@ -74,7 +74,8 @@ import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_t
 import CEATTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/CEATTire.png';
 import ferentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ferentinoTire.png';
 import yokohamaTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png';
-
+import New3 from '../Assets/Images/Home/NewThird.png';
+import New2 from '../Assets/Images/Home/NewTwo.png';
 import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
@@ -129,8 +130,9 @@ import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
 export const HomeSliderData = [
   {
     id: 1,
-    img: HomePageSlider1,
-    imgMobile: SlidermobileTwo,
+    img: HomePageSlider3,
+    imgMobile: SlidermobileThree,
+
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
 
@@ -143,8 +145,8 @@ export const HomeSliderData = [
   },
   {
     id: 2,
-    img: HomePageSlider2,
-    imgMobile: Slidermobileone,
+    img: New2,
+    imgMobile: New2,
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
 
@@ -158,10 +160,10 @@ export const HomeSliderData = [
 
   {
     id: 3,
-    img: HomePageSlider3,
-    imgMobile: SlidermobileThree,
-    Heading: 'Looking for new tires for your fleet?  ',
-    desc: 'Find Your Next Set Of Tires Here At KVL Tires',
+    img: New3,
+    imgMobile: New3,
+    Heading: 'Wide range of tires for all your equipment needs?  ',
+    desc: 'Find your next set of tires here at KVL Tires',
 
     CTA1: {
       heading: 'Contact Us',
