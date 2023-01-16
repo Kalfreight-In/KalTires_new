@@ -72,7 +72,7 @@ import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_ti
 import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
 import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
 import CEATTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/CEATTire.png';
-import ferentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/FerentinoTire.png';
+import FerentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/FerentinoTire.png';
 import yokohamaTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png';
 import New3 from '../Assets/Images/Home/NewThird.png';
 import New2 from '../Assets/Images/Home/NewTwo.png';
@@ -705,7 +705,7 @@ export const HighPerformanceBrandsData = [
       'This image is related to High Performance ferentino tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
     headingImg: 'ferentino-Tire',
     logo: ferentinowhite,
-    Image: ferentinoTire,
+    Image: FerentinoTire,
     bgImage:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
     src: 'Continental',
