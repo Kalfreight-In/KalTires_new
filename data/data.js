@@ -162,7 +162,7 @@ export const HomeSliderData = [
     id: 3,
     img: New3,
     imgMobile: New3,
-    Heading: 'Wide range of tires for all your equipment needs?  ',
+    Heading: 'Wide range of tires for all your equipment needs',
     desc: 'Find your next set of tires here at KVL Tires',
 
     CTA1: {
