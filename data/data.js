@@ -72,7 +72,7 @@ import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_ti
 import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
 import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
 import CEATTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/CEATTire.png';
-import ferentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ferentinoTire.png';
+import ferentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/FerentinoTire.png';
 import yokohamaTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png';
 import New3 from '../Assets/Images/Home/NewThird.png';
 import New2 from '../Assets/Images/Home/NewTwo.png';
