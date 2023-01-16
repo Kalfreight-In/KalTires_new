@@ -163,7 +163,7 @@ export const HomeSliderData = [
     img: New3,
     imgMobile: New3,
     Heading: 'Wide range of tires for all your equipment needs',
-    desc: 'Find your next set of tires here at KVL Tires',
+    desc: 'Find Your Next Set Of Tires hHere At KVL Tires',
 
     CTA1: {
       heading: 'Contact Us',
