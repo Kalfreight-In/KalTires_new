@@ -1308,8 +1308,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: true,
     properties: {
@@ -1340,8 +1340,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1371,8 +1371,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1401,8 +1401,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1431,8 +1431,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1461,8 +1461,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: true,
     properties: {
@@ -1491,8 +1491,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1521,7 +1521,7 @@ export const MapData1 = [
   //     'Wednesday: 7:30AM - 5:00PM',
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
-  //     'Saturday & Sunday: Closed',
+  //     'Saturday & Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   //   properties: {
@@ -1550,8 +1550,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1580,8 +1580,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1610,8 +1610,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1641,8 +1641,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1672,8 +1672,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: true,
     properties: {
@@ -1702,8 +1702,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1734,8 +1734,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1764,8 +1764,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1794,8 +1794,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1824,8 +1824,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1854,7 +1854,7 @@ export const MapData1 = [
   //     'Wednesday: 7:30AM - 5:00PM',
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
-  //     'Saturday & Sunday: Closed',
+  //     'Saturday & Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   //   properties: {
@@ -1884,8 +1884,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1914,8 +1914,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1944,8 +1944,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -1975,7 +1975,7 @@ export const MapData1 = [
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
   //     'Saturday: Closed',
-  //     'Sunday: Closed',
+  //     'Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   // properties: {
@@ -2006,7 +2006,7 @@ export const MapData1 = [
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
   //     'Saturday: Closed',
-  //     'Sunday: Closed',
+  //     'Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   // properties: {
@@ -2036,8 +2036,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -2067,7 +2067,7 @@ export const MapData1 = [
   //     'Wednesday: 7:30AM - 5:00PM',
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
-  //     'Saturday & Sunday: Closed',
+  //     'Saturday & Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   // properties: {
@@ -2096,7 +2096,7 @@ export const MapData1 = [
   //     'Wednesday: 7:30AM - 5:00PM',
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
-  //     'Saturday & Sunday: Closed',
+  //     'Saturday & Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   //   properties: {
@@ -2125,8 +2125,8 @@ export const MapData1 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -2157,8 +2157,8 @@ export const MapData2 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -2187,8 +2187,8 @@ export const MapData2 = [
       'Wednesday: 7:30AM - 5:00PM',
       'Thursday: 7:30AM - 5:00PM',
       'Friday: 7:30AM - 5:00PM',
-      'Saturday: 9:00AM - 2:00PM',
-      'Sunday: Closed',
+
+      'Saturday & Sunday: Closed',
     ],
     multi: false,
     properties: {
@@ -2218,7 +2218,7 @@ export const MapData2 = [
   //     'Thursday: 7:30AM - 5:00PM',
   //     'Friday: 7:30AM - 5:00PM',
   //     'Saturday: Closed',a
-  //     'Sunday: Closed',
+  //     'Saturday & Sunday: Closed',
   //   ],
   //   multi: false,
   // properties: {
