@@ -20,10 +20,13 @@ const AboutUs_WhatMakeUsSpecial = () => {
         </div>
         {isDesktop ? (
           <div>
-            <div id="grid" className="flex flex-row   bg-bg-white-1    px-20">
+            <div
+              id="grid"
+              className="flex flex-row justify-between w-screen  bg-bg-white-1    px-20"
+            >
               {AboutUs__PageData[1].WhatmakeusSpecial.map((index) => (
                 <div className="bg-bg-white-1 text-center py-8" key={index.id}>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center ">
                     <div className=" flex">
                       <Image
                         loading="lazy"
@@ -55,8 +58,8 @@ const AboutUs_WhatMakeUsSpecial = () => {
               disableOnInteraction: false,
             }}
           >
-            {AboutUs__PageData[1].WhatmakeusSpecial.map((newdata) => (
-              <SwiperSlide key={newdata.id}>
+            {AboutUs__PageData[1].WhatmakeusSpecial.map((index) => (
+              <SwiperSlide key={index.id}>
                 <div>
                   <div id="grid" className=" bg-bg-white-1   px-4">
                     <div className="bg-bg-white-1 text-center">
@@ -64,14 +67,14 @@ const AboutUs_WhatMakeUsSpecial = () => {
                         <div className="w-onsiteimage h-onsiteimage flex">
                           <Image
                             loading="lazy"
-                            src={newdata.img}
-                            alt={newdata.heading}
+                            src={index.img}
+                            alt={index.heading}
                           />
                         </div>
                       </div>
 
                       <h2 className="lg:text-xl text-lg font-bold font-Helvetica ">
-                        {newdata.heading}
+                        {index.heading}
                       </h2>
                     </div>
                   </div>
