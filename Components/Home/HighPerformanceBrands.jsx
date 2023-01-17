@@ -59,8 +59,7 @@ const HighPerformanceBrands = () => {
           isDesktop ? 'text-4xl' : 'text-2xl text-center'
         } `}
       >
-        <span className="text-red-500 font-poppins">HIGH PERFORMANCE</span>{' '}
-        BRANDS
+        <span className="text-red-500 font-poppins">BRANDS</span> WE OFFER
       </h3>
       <div>
         <Swiper
