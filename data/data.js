@@ -131,7 +131,7 @@ export const HomeSliderData = [
   {
     id: 1,
     img: HomePageSlider3,
-    imgMobile: SlidermobileThree,
+    imgMobile: HomePageSlider3,
 
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
     desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
