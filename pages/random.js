@@ -30,7 +30,7 @@ const random = () => (
       <div>
         Monday: 7:30 AM - 5:00PM Tuesday: 7:30 AM - 5:00PM Wednesday: 7:30 AM -
         5:00PM Thursday: 7:30 AM - 5:00PM Friday: 7:30 AM - 5:00PM Saturday:
-        Closed Sunday: Closed
+        9:00AM to 2:00PM Sunday: Closed
       </div>
     </div>
     <div className="flex flex-center flex-col w-2/12 ">
