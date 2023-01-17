@@ -76,6 +76,8 @@ import FerentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_
 import yokohamaTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png';
 import New3 from '../Assets/Images/Home/NewThird.png';
 import New2 from '../Assets/Images/Home/NewTwo.png';
+import New3M from '../Assets/Images/Home/NewThirdM.png';
+import New2M from '../Assets/Images/Home/NewTwoM.png';
 import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
 import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
@@ -146,7 +148,7 @@ export const HomeSliderData = [
   {
     id: 2,
     img: New2,
-    imgMobile: New2,
+    imgMobile: New2M,
     Heading: 'Off-The-Road Tires',
     desc: 'Tires For The Toughest Driving Conditions',
 
@@ -161,9 +163,9 @@ export const HomeSliderData = [
   {
     id: 3,
     img: New3,
-    imgMobile: New3,
+    imgMobile: New3M,
     Heading: 'Wide range of tires for all your equipment needs',
-    desc: 'Find Your Next Set Of Tires hHere At KVL Tires',
+    desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
     CTA1: {
       heading: 'Contact Us',
