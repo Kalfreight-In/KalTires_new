@@ -6,8 +6,10 @@ import Image from 'next/image';
 import { useComponentPosition } from '../Hooks/useComponentPostion';
 import { useIntersectionObserver } from '../Hooks/useIntersection';
 import { debounce } from 'lodash';
+import { useWindowSize } from '../Hooks/WindowSize';
 const ToolTip = ({ children, data }) => {
   const [hoverRef, isHovered] = useHover();
+  const { width, height } = useWindowSize();
   //   const [position, componentRef] = useComponentPosition();
   const [position, setRef] = useIntersectionObserver({
     threshold: [0, 0.5, 1],
@@ -33,7 +35,7 @@ const ToolTip = ({ children, data }) => {
               <div className="absolute z-30" ref={setRef}>
                 <div
                   className={`bg-white w-96 ${
-                    position.y > 822 && '-mt-56'
+                    position.y > height - 180 && '-mt-56'
                   }   m-2 p-4 drop-shadow-md`}
                 >
                   {/* <Image src={data.image} /> */}

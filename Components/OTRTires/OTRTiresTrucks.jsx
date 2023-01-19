@@ -39,7 +39,7 @@ const OTRTiresTrucks = () => {
   return (
     <>
       <diiv>
-        <div className="flex justify-center">
+        <div className="flex justify-center h-100 lg:h-auto">
           <Image src={OTRTires}></Image>
           <div className="absolute">
             <div className="relative grid place-content-center h-32">
@@ -59,12 +59,15 @@ const OTRTiresTrucks = () => {
                   <Image className="relative" src={BuyTire2}></Image>
                 </ToolTip>
                 <ToolTip data={OtrToltip[3]}>
-                  <Image className="relative" src={BuyTire3}></Image>
+                  <div className="bg-black  z-30 rounded-full  w-24 h-24 text-center grid place-content-center">
+                    <div className="bg-red-500 -z-10 black rounded-full  w-16 h-16 absolute "></div>
+                    <Image className="relative" src={BuyTire3}></Image>
+                  </div>
                 </ToolTip>
               </div>
             </div>
 
-            <div className="relative grid content-end h-56">
+            <div className="relative grid content-end h-48">
               <div className="flex flex-row items-center justify-around w-screen ">
                 <ToolTip data={OtrToltip[4]}>
                   <Image className="relative" src={BuyTire4}></Image>
