@@ -1802,7 +1802,7 @@ export const MapData1 = [
       State: 'CA',
       Manager: 'Eddie Sampson',
       TOW: '',
-      ZipCode: '92227',
+      ZipCode: '95206',
       City: 'Stockton',
       Address: '825 Navy Dr',
       Phone: '909-977-1915',
