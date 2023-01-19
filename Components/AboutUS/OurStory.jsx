@@ -5,13 +5,13 @@ import Connectionlinered from '../../Assets/Images/AboutUs/Connectionlinered.png
 
 const OurStory = () => {
   return (
-    <div className="bg-black px-20 py-10 ">
-      <div className=" flex lg:flex-row flex-col  ">
+    <div className="bg-black lg:px-20 px-2 py-10 ">
+      <div className=" flex lg:flex-row flex-col w-  ">
         <div className="w-full">
           <Image src={OurStory_Tire}></Image>
         </div>
 
-        <div className="pl-12 ">
+        <div className="lg:pl-12 pl-0">
           <div
             className="text-red-600  flex items-center
            text-center  font-normal lg:text-5xl text-lg"

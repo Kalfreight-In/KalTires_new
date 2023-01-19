@@ -109,8 +109,8 @@ const MiniTruckTire = () => {
             }}
           >
             <div
-              className="text-white  flex items-center px-24 m  bg-red-600 pb-4
-           text-center  font-bold lg:text-5xl text-lg"
+              className="text-white  flex items-center justify-center px-24 m  bg-red-600 pt-4
+              text-center  font-bold lg:text-5xl text-3xl"
               style={{
                 clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
               }}
@@ -119,7 +119,7 @@ const MiniTruckTire = () => {
             </div>
           </div>
 
-          <div className="bg-red-600 p-12 text-white">
+          <div className="bg-red-600 text-center  p-4 text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

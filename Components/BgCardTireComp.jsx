@@ -11,15 +11,15 @@ const BgCardTireComp = ({ post }) => {
       className="flex flex-col overflow-hidden rounded-lg shadow-lg "
     >
       <div
-        className="flex-shrink-0 relative h-104 cursor-pointer "
+        className="flex-shrink-0 relative 2xl:h-104 xl:h-100  h-96 cursor-pointer "
         style={{
           width: '100',
         }}
         ref={hoverRef}
       >
         <div
-          className={` text-center transition-all absolute text-white  duration-700 text-lg  ${
-            isHovered ? 'h-96 p-4  opacity-1' : 'h-0 opacity-0'
+          className={` text-center transition-all absolute text-white  duration-700 lg:text-lg text-base ${
+            isHovered ? 'xl:h-96 lg:h-80 h-72 p-4  opacity-1' : 'h-0 opacity-0'
           } `}
           style={{ backgroundColor: '#C81010C4', zIndex: '6' }}
         >

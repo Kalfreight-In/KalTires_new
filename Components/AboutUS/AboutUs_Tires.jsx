@@ -24,8 +24,8 @@ const AboutUs_Tires = () => {
           }}
         >
           <div
-            className="text-white  flex items-center px-24 m  bg-red-600 pt-4
-           text-center  font-bold lg:text-5xl text-2xl"
+            className="text-white  flex items-center justify-center px-24 m  bg-red-600 pt-4
+           text-center  font-bold lg:text-5xl text-3xl"
             style={{
               clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
             }}
@@ -33,14 +33,10 @@ const AboutUs_Tires = () => {
             ABOUT-US
           </div>
         </div>
-
-        {isDesktop ? (
-          <div className="w-full bg-red-600">
+        <div className="w-full bg-red-600">
+          {isDesktop ? (
             <div className="px-32 ">
-              <div
-                id="grid"
-                className="grid gap-x-1  grid-cols-onsiteTemplate  px-20"
-              >
+              <div id="grid" className="flex flex-row justify-evenly  px-20">
                 {AboutUs__PageData[0].TireSection[0].TiresList.map(
                   (index, id) => (
                     <div className=" text-center pb-1 pt-12 mx-12" key={id}>
@@ -75,46 +71,46 @@ const AboutUs_Tires = () => {
               <span>2</span>
             </div> */}
             </div>
-          </div>
-        ) : (
-          <Swiper
-            modules={[Autoplay]}
-            loop
-            slidesPerView={isMobile ? 2 : 1}
-            spaceBetween={30}
-            speed={1400}
-            autoplay={{
-              delay: 1300,
-              disableOnInteraction: false,
-            }}
-          >
-            {AboutUs__PageData[0].TireSection[0].TiresList.map(
-              (newdata, id) => (
-                <SwiperSlide key={id}>
-                  <div>
-                    <div id="grid" className=" bg-red-600 -mx-4  ">
-                      <div className=" text-center">
-                        <div className="flex justify-center">
-                          <div className="flex">
-                            <Image
-                              loading="lazy"
-                              src={newdata.Image}
-                              alt={newdata.Description}
-                            />
+          ) : (
+            <Swiper
+              modules={[Autoplay]}
+              loop
+              slidesPerView={isMobile ? 2 : 1}
+              spaceBetween={30}
+              speed={1400}
+              autoplay={{
+                delay: 1300,
+                disableOnInteraction: false,
+              }}
+            >
+              {AboutUs__PageData[0].TireSection[0].TiresList.map(
+                (newdata, id) => (
+                  <SwiperSlide key={id}>
+                    <div>
+                      <div id="grid" className=" bg-red-600 -mx-4  ">
+                        <div className=" text-center">
+                          <div className="flex justify-center">
+                            <div className="flex">
+                              <Image
+                                loading="lazy"
+                                src={newdata.Image}
+                                alt={newdata.Description}
+                              />
+                            </div>
                           </div>
-                        </div>
 
-                        <h2 className="lg:text-xl text-white  text-lg font-bold font-Helvetica ">
-                          {newdata.Description}
-                        </h2>
+                          <h2 className="lg:text-xl text-white  text-lg font-bold font-Helvetica ">
+                            {newdata.Description}
+                          </h2>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SwiperSlide>
-              )
-            )}
-          </Swiper>
-        )}
+                  </SwiperSlide>
+                )
+              )}
+            </Swiper>
+          )}
+        </div>
       </div>
     </div>
   );

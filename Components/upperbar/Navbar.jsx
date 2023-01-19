@@ -174,7 +174,7 @@ const Navbar = ({ toggle, postion }) => {
                   <Link href="/services/PassengerTire" passHref>
                     <div
                       className={`flex justify-center group   2xl:px-10 xl:px-8 lg:px-4 md:px-2 py-2 w-full  ${
-                        router.pathname === '/services/PassengerTiree'
+                        router.pathname === '/services/PassengerTire'
                           ? 'bg-red-500'
                           : 'bg-white'
                       }`}
