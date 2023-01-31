@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Router from 'next/router';
-import { AiOutlineClose } from 'react-icons/Ai';
+import AiOutlineClose from 'react-icons/ai';
 import DropBox from '../DropBox_FileUpload/DropBox';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import Portal from '../../HOC/Portal';

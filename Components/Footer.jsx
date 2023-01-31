@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
 import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
-import { AiOutlineClose } from 'react-icons/Ai';
+
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
 import Link from 'next/link';
