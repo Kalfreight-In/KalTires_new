@@ -8,6 +8,10 @@
   margin: 0;
   padding: 0;
 }
+.Clip-PathArrow {
+  clip-path: 'polygon(94% 0, 100% 50%, 93% 100%, 0% 100%, 5% 50%, 0% 0%);';
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -160,31 +160,33 @@ const IndustrialTire = () => {
           zIndex: '5',
         }}
       >
-        <div
-          className="bg-white px-7 pt-3"
-          style={{
-            clipPath: 'polygon(15% 0, 85% 0, 100% 100%, 0% 100%)',
-          }}
-        >
+        <div className="lg:flex block lg:flex-col flex-row items-center ">
           <div
-            className="text-white  flex items-center justify-center px-24 m  bg-red-600 pt-4
-              text-center  font-bold lg:text-5xl text-3xl"
+            className="bg-white px-7 pt-3"
             style={{
-              clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
+              clipPath: 'polygon(15% 0, 85% 0, 100% 100%, 0% 100%)',
             }}
           >
-            Industrial Tires
+            <div
+              className="text-white  flex items-center justify-center px-24  bg-red-600 pt-4
+              text-center  font-bold lg:text-5xl text-3xl"
+              style={{
+                clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
+              }}
+            >
+              Industrial Tires
+            </div>
           </div>
-        </div>
 
-        <div className="bg-red-600 text-center  p-4 text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum,
+          <div className="bg-red-600 text-center  p-4 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum,
+          </div>
         </div>
       </div>
 

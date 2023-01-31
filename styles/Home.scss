@@ -80,6 +80,20 @@
     min-height: 85vh;
   }
 }
+
+@keyframes moveLine {
+  to {
+    transform: translateX(100%);
+  }
+}
+.dashed-line {
+  width: 100%;
+  z-index: 20;
+  height: 2px;
+  border-style: dashed;
+  border-color: #009578;
+  animation: moveLine 5s linear infinite;
+}
 // .svg-container {
 //   width: 80%;
 //   @media (max-width: 768px) {

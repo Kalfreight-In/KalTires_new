@@ -37,7 +37,7 @@ const PotentioalAnnualShaving = () => {
                 Cost Saving $100,000
               </div>
               <div
-                className="bg-white text-black lg:text-xl text-lg px-8 py-2 items-start flex flex-col justify-left pr-30"
+                className="ClipPathArrow bg-white text-black lg:text-xl text-lg px-8 py-2 items-start flex flex-col justify-left pr-30 "
                 style={{
                   clipPath:
                     'polygon(94% 0, 100% 50%, 93% 100%, 0% 100%, 5% 50%, 0% 0%);',
@@ -47,7 +47,7 @@ const PotentioalAnnualShaving = () => {
                 <div>* 2,653,381.82 LBS | CO₂ Emission Reduction</div>
               </div>
             </div>
-            <div className="flex lg:flex-row flex-col  lg:justify-center justify-start lg:items-center items-start pl-8 my-3 mt-4">
+            <div className="flex lg:flex-row flex-col  lg:justify-center justify-start lg:items-center items-start pl-8 my-3 mt-4 ">
               <div className="text-white pr-20 text-2xl lg:pb-0 py-4">
                 Cost Saving $100,000
               </div>
@@ -67,7 +67,7 @@ const PotentioalAnnualShaving = () => {
                 Cost Saving $100,000
               </div>
               <div
-                className="bg-white text-black lg:text-xl text-lg px-8 py-2 items-start flex flex-col justify-left pr-30"
+                className="bg-white text-black lg:text-xl text-lg px-8 py-2 items-start flex flex-col justify-left pr-30 "
                 style={{
                   clipPath:
                     'polygon(94% 0, 100% 50%, 93% 100%, 0% 100%, 5% 50%, 0% 0%);',
