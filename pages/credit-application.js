@@ -72,7 +72,7 @@ const Credit = () => {
       </div>
       <div
         data-aidaform-widget="form-2019-12"
-        data-url="https://shantanu.aidaform.com/credit-aplication"
+        data-url="https://shantanu.aidaform.com/creditappnew"
         data-width="100%"
         data-height="500px"
         data-do-resize
