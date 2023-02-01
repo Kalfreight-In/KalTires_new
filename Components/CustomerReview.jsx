@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
-import { AiFillHeart, AiOutlineHeart } from ' ';
+import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 
 export const CustomerReview = ({ heading, data, colour }) => {
   return (
