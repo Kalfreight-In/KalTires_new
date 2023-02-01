@@ -1683,7 +1683,7 @@ export const MapData1 = [
       ZipCode: '47362',
       City: 'New Castle',
       Address: '5080 S County Rd 125 W',
-      Phone: '951-834-2907 ',
+      Phone: '317-520-8545 ',
       Email: 'Gwatson@kvltires.com',
       bgimage: indianapolistM,
       url: 'https://www.google.co.in/maps/place/5080+S+County+Rd+125+W,+New+Castle,+IN+47362,+USA/@39.857384,-85.4099292,219m/data=!3m2!1e3!4b1!4m5!3m4!1s0x886acd0e55bc1013:0x76a9bd7d7842e68!8m2!3d39.857383!4d-85.409382?hl=en',
