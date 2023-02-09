@@ -5,7 +5,7 @@ import Connectionlinered from '../../Assets/Images/AboutUs/Connectionlinered.png
 
 const OurStory = () => {
   return (
-    <div className="bg-black lg:px-20 px-2 py-10 ">
+    <div className="bg-zinc-800 lg:px-20 px-2 py-10 ">
       <div className=" flex lg:flex-row flex-col w-  ">
         <div className="w-full">
           <Image src={OurStory_Tire}></Image>

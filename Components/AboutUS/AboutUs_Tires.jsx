@@ -51,11 +51,8 @@ const AboutUs_Tires = () => {
                       </div>
 
                       <h2 className="lg:text-xl text-lg text-white font-bold font-poppins h-12">
-                        {index.Description}
+                        {index.heading}
                       </h2>
-                      {/* <p className="pt-6 lg:text-sm font-normal px-2 text-center font-Helvetica">
-                    {index.desc}
-                  </p> */}
                     </div>
                   )
                 )}

@@ -27,7 +27,7 @@ const AboutUs_WhatMakeUsSpecial = () => {
               {AboutUs__PageData[1].WhatmakeusSpecial.map((index) => (
                 <div className="bg-bg-white-1 text-center py-8" key={index.id}>
                   <div className="flex justify-center ">
-                    <div className=" flex">
+                    <div className=" flex h-20">
                       <Image
                         loading="lazy"
                         src={index.img}
@@ -36,10 +36,13 @@ const AboutUs_WhatMakeUsSpecial = () => {
                     </div>
                   </div>
 
-                  <h2 className="lg:text-xl text-lg font-bold font-poppins h-12">
+                  <h2 className="lg:text-xl text-lg font-bold font-poppins  ">
                     {index.heading}
                   </h2>
-                  <p className="pt-1 lg:text-sm font-normal px-2 text-center font-Helvetica">
+                  <p className="pt-0 lg:text-lg font-medium px-2 text-center font-Helvetica">
+                    {index.heading2}
+                  </p>
+                  <p className="pt-4 lg:text-sm font-normal px-2  text-center font-Helvetica ">
                     {index.desc}
                   </p>
                 </div>

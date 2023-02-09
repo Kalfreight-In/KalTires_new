@@ -11,6 +11,7 @@ import SafetyOtrFeatures from '../../Components/OTRTires/SafetyOtrFeatures';
 import otr1 from '../../Assets/Images/OTRTires/otr1.png';
 import otr2 from '../../Assets/Images/OTRTires/otr2.png';
 import otr3 from '../../Assets/Images/OTRTires/otr3.png';
+import HeroSection from '../../Components/Home/HeroSection';
 
 const CustomerReviewdata = [
   {
@@ -157,25 +158,40 @@ const OTRPosts = [
     readingLength: '11 min',
   },
 ];
+const data = [
+  {
+    id: 1,
+    img: CommercialTiresBanner,
+    imgMobile: CommercialTiresBanner,
+    Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
+    Alttag: 'Convenient Roadside Assistance',
+    desc: 'Get Quick & Convenient Roadside Assistance',
+
+    CTA1: {
+      heading: 'Call Now',
+      Slink: 'tel:800-808-0025',
+      link: 'tel:800-808-0025',
+    },
+    CTA12: { heading: 'Inventory', link: 'contactus' },
+    page: 'roadside',
+  },
+];
 const OTRTires = () => {
   return (
     <>
-      <div
-        style={{
-          zIndex: '-1',
-        }}
-      >
-        <Image
-          loading="lazy"
-          placeholder="AboutUsPAge"
-          src={CommercialTiresBanner}
-          alt="AboutUs Header"
-          fill
-          sizes="100vw"
-          style={{
-            objectFit: 'cover',
-          }}
-        />
+      <HeroSection data={data[0]} />
+      <div className="mb-8 ">
+        <div className="lg:flex block lg:flex-col flex-row items-center mt-4">
+          <div className="bg-red-600 text-center  p-4 text-white ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum,
+          </div>
+        </div>
       </div>
       <div
         className="mb-8 "

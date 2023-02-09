@@ -11,6 +11,8 @@ import SafetyOtrFeatures from '../../Components/OTRTires/SafetyOtrFeatures';
 import otr1 from '../../Assets/Images/OTRTires/otr1.png';
 import otr2 from '../../Assets/Images/OTRTires/otr2.png';
 import otr3 from '../../Assets/Images/OTRTires/otr3.png';
+import IndustrialHead from '../../Assets/Images/IndustrialHead/IndustrialHead.png';
+import HeroSection from '../../Components/Home/HeroSection';
 const CustomerReviewdata = [
   {
     Review:
@@ -132,53 +134,31 @@ const IndustialPosts = [
     readingLength: '11 min',
   },
 ];
+const data = [
+  {
+    id: 1,
+    img: IndustrialHead,
+    imgMobile: IndustrialHead,
+    Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
+    Alttag: 'Convenient Roadside Assistance',
+    desc: 'Get Quick & Convenient Roadside Assistance',
+
+    CTA1: {
+      heading: 'Call Now',
+      Slink: 'tel:800-808-0025',
+      link: 'tel:800-808-0025',
+    },
+    CTA12: { heading: 'Inventory', link: 'contactus' },
+    page: 'roadside',
+  },
+];
 const IndustrialTire = () => {
   return (
     <>
-      <div
-        style={{
-          zIndex: '-1',
-        }}
-      >
-        <Image
-          loading="lazy"
-          placeholder="AboutUsPAge"
-          src={CommercialTiresBanner}
-          alt="AboutUs Header"
-          fill
-          sizes="100vw"
-          style={{
-            objectFit: 'cover',
-          }}
-        />
-      </div>
-      <div
-        className="mb-8 "
-        style={{
-          position: 'relative',
-          marginTop: '-3.6rem',
-          zIndex: '5',
-        }}
-      >
-        <div className="lg:flex block lg:flex-col flex-row items-center ">
-          <div
-            className="bg-white px-7 pt-3"
-            style={{
-              clipPath: 'polygon(15% 0, 85% 0, 100% 100%, 0% 100%)',
-            }}
-          >
-            <div
-              className="text-white  flex items-center justify-center px-24  bg-red-600 pt-4
-              text-center  font-bold lg:text-5xl text-3xl"
-              style={{
-                clipPath: 'polygon(13% 0, 88% 0, 100% 100%, 0% 100%)',
-              }}
-            >
-              Industrial Tires
-            </div>
-          </div>
-
-          <div className="bg-red-600 text-center  p-4 text-white">
+      <HeroSection data={data[0]} />
+      <div className="mb-2">
+        <div className="lg:flex bg-zinc-600 block w-full mt-0">
+          <div className=" text-left text-lg  p-4 text-white w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

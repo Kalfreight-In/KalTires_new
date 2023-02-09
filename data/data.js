@@ -191,19 +191,19 @@ export const AboutUs__PageData = [
         TiresList: [
           {
             Image: CommercialTire,
-            Description: 'Commercial Tires',
+            heading: 'Commercial Tires',
           },
           {
             Image: industrialtire,
-            Description: 'Industrial Tires',
+            heading: 'Industrial Tires',
           },
           {
             Image: OTRTires,
-            Description: 'OTR Tires',
+            heading: 'OTR Tires',
           },
           {
             Image: AgriculturalTires,
-            Description: 'Agricultural Tires',
+            heading: 'Agricultural Tires',
           },
         ],
         Description:
@@ -217,31 +217,37 @@ export const AboutUs__PageData = [
         id: 1,
         img: HeavyTire,
         heading: 'Heavy Duty',
-        desc: 'High Performance Tires',
+
+        heading2: 'High Performance Tires',
+        desc: 'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.',
       },
       {
         id: 2,
         img: Frame,
         heading: 'Trained & Specialist',
-        desc: 'Personnels',
+        heading2: 'Personnels',
+        desc: 'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.',
       },
       {
         id: 3,
         img: LocationPoint,
         heading: '18+ Location  ',
-        desc: 'And Growing',
+        heading2: 'And Growing',
+        desc: 'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.',
       },
       {
         id: 4,
         img: RockBottomPrice,
         heading: 'Rock Bottom Price',
-        desc: 'Across All Location',
+        heading2: 'Across All Location',
+        desc: 'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.',
       },
       {
         id: 5,
         img: Service24,
         heading: '24 x 7 Roadside',
-        desc: 'All Around Support',
+        heading2: 'All Around Support',
+        desc: 'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.',
       },
       // {
       //   id: 3,
