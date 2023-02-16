@@ -11,6 +11,8 @@ import SafetyOtrFeatures from '../../Components/OTRTires/SafetyOtrFeatures';
 import otr1 from '../../Assets/Images/OTRTires/otr1.png';
 import otr2 from '../../Assets/Images/OTRTires/otr2.png';
 import otr3 from '../../Assets/Images/OTRTires/otr3.png';
+import AgriculturalHead from '../../Assets/Images/AGRICULTURETIRES/AGRICULTUREHead.jpg';
+
 import HeroSection from '../../Components/Home/HeroSection';
 const CustomerReviewdata = [
   {
@@ -136,8 +138,8 @@ const AggriculturePosts = [
 const data = [
   {
     id: 1,
-    img: CommercialTiresBanner,
-    imgMobile: CommercialTiresBanner,
+    img: AgriculturalHead,
+    imgMobile: AgriculturalHead,
     Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
     Alttag: 'Convenient Roadside Assistance',
     desc: 'Get Quick & Convenient Roadside Assistance',
@@ -156,9 +158,9 @@ const AggricultureTire = () => {
     <>
       <HeroSection data={data[0]} />
 
-      <div className="mb-8 ">
-        <div className="lg:flex block lg:flex-col flex-row items-center mt-4">
-          <div className="bg-red-600 text-center  p-4 text-white ">
+      <div className="mb-2">
+        <div className="lg:flex bg-zinc-600 block w-full mt-0">
+          <div className=" text-left text-lg  p-4 text-white w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

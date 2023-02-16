@@ -1,22 +1,8 @@
-// import Head from 'next/head';
-import Head from 'next/head';
-import dynamic from 'next/dynamic';
+import { React, Head, dynamic } from '../GlobalImports/globalImport';
 import { Suspense } from 'react';
-import {
-  BreadcrumbJsonLd,
-  LocalBusinessJsonLd,
-  OrganizationJsonLd,
-  ProfilePageJsonLd,
-} from 'next-seo';
-import { AboutUs } from '../Components/Home/AboutUs';
-import BrandsComponent from '../Components/Home/BrandsComponent';
-// import FeaturedProducts from '../Components/Home/FeaturedProducts';
-import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
-// import HomeSlider from '../Components/Home/HomeSlider';
-import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
-// import MapConatiner from '../Components/MapContainer';
-import ContactTwo from '../Components/Home/ContactTwo';
-// import FeaturedProducts from '../Components/Home/FeaturedProducts';
+
+
+Products';
 const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
   suspense: true,
   ssr: true,
@@ -210,26 +196,6 @@ const Home = () => (
         'https://www.instagram.com/kvltires',
       ]}
     />
-    {/* <script type="application/ld+json">
-		{
-		   "@context": "http://schema.org",
-		   "@type": "ProfessionalService",
-		   "name": "Commercial tire shop near me in Fontana",
-		   "url": "https://www.kvltires.com/",
-		   "image": "https://www.kvltires.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKvlTiresLogo.84949037.png&w=3840&q=75",
-		   "description": "KVL Tires offers you new &amp; used tires, 24/7 roadside assistance, quality tires for your fleet, pick-up &amp; delivery services nearby - Call 800 808 0025 today!",
-		   "telephone": "+1-800-808-0025",
-		   "areaServed": ["Fontana","San Marcos", "Bakersfield"],
-		   "address": {
-			   "@type": "PostalAddress",
-			   "streetAddress": "10156 Live Oak Ave, Fontana, CA 92335",
-			   "addressLocality": "Fontana",
-			   "addressRegion": "CA",
-			   "postalCode":"92335"
-		   }
-		}
-		</script> */}
-    {/* <h1 className="text-3xl  font-bold underline">Hello world from Kal tires</h1> */}
   </div>
 );
 export default Home;

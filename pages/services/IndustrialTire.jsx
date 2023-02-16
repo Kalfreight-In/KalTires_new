@@ -11,7 +11,7 @@ import SafetyOtrFeatures from '../../Components/OTRTires/SafetyOtrFeatures';
 import otr1 from '../../Assets/Images/OTRTires/otr1.png';
 import otr2 from '../../Assets/Images/OTRTires/otr2.png';
 import otr3 from '../../Assets/Images/OTRTires/otr3.png';
-import IndustrialHead from '../../Assets/Images/IndustrialHead/IndustrialHead.png';
+import IndustrialHead from '../../Assets/Images/IndustrialTires/IndustrialHead.png';
 import HeroSection from '../../Components/Home/HeroSection';
 const CustomerReviewdata = [
   {

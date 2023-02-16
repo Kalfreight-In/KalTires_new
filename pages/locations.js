@@ -266,21 +266,6 @@ const location = () => {
           name="MapContanierElement"
           className={`z-0 ${isDesktop ? 'h-Onsiteheight' : 'h-OnsiteheightM'}`}
         >
-          {/* <Map
-          Fontana={isFontana}
-          Bakersfield={isBakersfield}
-          SanMarcos={isSanMarcos}
-          Calgary={isCalgary}
-          Arlington={isArlington}
-          Hampton={isHampton}
-          // Stockton={isStockton}
-          Atlanta={isAtlanta}
-          Indianapolis={isIndianapolis}
-          Springdale={isSpringdale}
-          abbotsford={isabbotsford}
-          Lathrop={isLathrop}
-          Calexico={isCalexico}
-        /> */}
           <MapCaller
             Data={MapData1}
             Data2={MapData2}
