@@ -43,7 +43,7 @@ const HeroSection = ({ data }) => {
                     ? 'w-full'
                     : data.Heading === 'WE HELP YOU ACHIEVE YOUR DREAMS'
                     ? 'lg:w-8/12'
-                    : 'lg:w-7/12'
+                    : 'lg:w-8/12'
                   : 'lg:w-10/12'
               }  w-full `}
             >

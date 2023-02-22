@@ -8,9 +8,9 @@ import OtrimagesSection from '../../Assets/Images/OTRTires/OtrimagesSection.png'
 import OTRTiresTrucks from '../../Components/OTRTires/OTRTiresTrucks';
 import SmallSimpleComponent1 from '../../Components/SmallSimpleComponent1';
 import SafetyOtrFeatures from '../../Components/OTRTires/SafetyOtrFeatures';
-import otr1 from '../../Assets/Images/OTRTires/otr1.png';
-import otr2 from '../../Assets/Images/OTRTires/otr2.png';
-import otr3 from '../../Assets/Images/OTRTires/otr3.png';
+import otr1 from '../../Assets/Images/IndustrialTires/SolidCushionTires.png';
+import otr2 from '../../Assets/Images/IndustrialTires/SolidRubberTire.png';
+import otr3 from '../../Assets/Images/IndustrialTires/HeavySolidCushionTire.png';
 import IndustrialHead from '../../Assets/Images/IndustrialTires/IndustrialHead.png';
 import HeroSection from '../../Components/Home/HeroSection';
 const CustomerReviewdata = [
@@ -40,14 +40,14 @@ const CustomerReviewdata = [
   },
 ];
 const Data = {
-  Heading: 'HEADING - 1 COMMERCIAL TRUCK',
+  Heading: 'HEADING - 1 INDUSTRIAL TIRE ',
   BoldDescription:
     'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   Description:
     'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 };
 const Data2 = {
-  Heading: 'HEADING - 1 COMMERCIAL TRUCK',
+  Heading: 'HEADING - 1 INDUSTRIAL TIRE ',
 
   Description:
     'Description 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',

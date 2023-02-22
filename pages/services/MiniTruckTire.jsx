@@ -81,9 +81,9 @@ const data = [
     id: 1,
     img: MiniTruckTireHead,
     imgMobile: MiniTruckTireHead,
-    Heading: 'ARE YOU STUCK ON THE ROAD WITH A FLAT TIRE? ',
+    Heading: 'MINI TRUCK TIRES',
     Alttag: 'Convenient Roadside Assistance',
-    desc: 'Get Quick & Convenient Roadside Assistance',
+    desc: 'Find Your Next Set Of Tires Here At KVL Tires',
 
     CTA1: {
       heading: 'Call Now',

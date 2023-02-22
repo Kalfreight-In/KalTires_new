@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
-import IoPersonCircle from 'react-icons/io';
+import IoPersonCircleSharp from 'react-icons/io';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 
 export const CustomerReview = ({ heading, data, colour }) => {
@@ -42,7 +42,7 @@ export const CustomerReview = ({ heading, data, colour }) => {
                     text-${colour == 'black' ? 'black' : 'white'} text-left`}
                   >
                     <div className="flex flex-row items-center gap-4 pb-4 ">
-                      <IoPersonCircle color="red" />
+                      {/* <IoPersonCircleSharp color="red" /> */}
                       <h2 className="lg:text-xl text-lg font-bold font-Helvetica ">
                         {data.CustomerName}
                       </h2>

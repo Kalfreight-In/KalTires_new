@@ -45,7 +45,8 @@ const MyApp = ({ Component, pageProps }) => {
   );
 
   const isDesktop = useMediaQuery('(min-width:1148px)');
-  const toggle = () => {
+  const toggle = (e) => {
+    console.log(`Target value of event ${e.target.className}`);
     setIsOpen(!isOpen);
   };
 
@@ -210,10 +211,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <StateContext>
         {isDesktop ? <TopUpbar /> : null}
-        <Topbar toggle={toggle} postion={PcurrPos} />
+        <Topbar className="TopUpBar" toggle={toggle} postion={PcurrPos} />
         <ErrorBoundary>
           {' '}
-          <Navbar toggle={toggle} postion={PcurrPos} />
+          <Navbar className="NavBar" toggle={toggle} postion={PcurrPos} />
         </ErrorBoundary>
         <Component {...pageProps} />
         <div>
