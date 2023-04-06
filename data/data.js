@@ -1647,7 +1647,7 @@ export const MapData1 = [
     multi: false,
     properties: {
       State: 'AR',
-      Manager: 'Daulton Hubler ',
+      Manager: 'Daulton Hubler',
       TOW: '',
       ZipCode: '72762',
       City: 'Springdale',
