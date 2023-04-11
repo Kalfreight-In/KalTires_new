@@ -1846,7 +1846,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [39.0917756, -94.6779375],
+      coordinates: [34.0072084,-118.1830456],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
@@ -1876,7 +1876,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [39.0917756, -94.6779375],
+      coordinates: [36.6918708,-119.7401552],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
