@@ -112,6 +112,7 @@ import springdaleArkansasM from '../Assets/bgImage/springdaleArkansasM.jpg';
 import indianapolistM from '../Assets/bgImage/indianapolistM.jpg';
 import indianaM from '../Assets/bgImage/indianaM.jpg';
 import kansasMisoouriM from '../Assets/bgImage/kansasMisoouriM.jpg';
+import kansasCityKs from '../Assets/bgImage/kansasCityKs.jpg';
 import atlantaGm from '../Assets/bgImage/atlantaGm.jpg';
 import GeorgiaM from '../Assets/bgImage/GeorgiaM.jpg';
 import arlingtonM from '../Assets/bgImage/arlingtonM.jpg';
@@ -1837,7 +1838,7 @@ export const MapData1 = [
       Address: '336 S 42nd Street',
       Phone: '316-393-2153',
       Email: 'rupinder@kalgroup.com',
-      bgimage: mapPlaceholderimg,
+      bgimage: kansasCityKs,
       url: 'https://www.google.com/maps/place/336+S+42nd+St,+Kansas+City,+KS+66106,+USA/@39.0917756,-94.6779375,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0f25a9cef34f9:0x885edb2b21b86c12!8m2!3d39.0917756!4d-94.6779375',
     },
   },
