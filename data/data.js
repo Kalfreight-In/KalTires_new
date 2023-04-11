@@ -1906,7 +1906,7 @@ export const MapData1 = [
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [39.0917756, -94.6779375],
+      coordinates: [33.9859846,-117.364456],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
