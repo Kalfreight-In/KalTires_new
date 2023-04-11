@@ -1834,7 +1834,7 @@ export const MapData1 = [
       TOW: '',
       ZipCode: '66106',
       City: 'Kansas City',
-      Address: '',
+      Address: '336 S 42nd Street',
       Phone: '316-393-2153',
       Email: 'rupinder@kalgroup.com',
       bgimage: kansasMisoouriM,
