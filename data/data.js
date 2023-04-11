@@ -1860,7 +1860,7 @@ export const MapData1 = [
     multi: false,
     properties: {
       State: 'CA',
-      Manager: 'Carlos(Jr) Ulloa',
+      Manager: 'Carlos (Jr) Ulloa',
       TOW: '',
       ZipCode: '90023',
       City: 'Commerce',
