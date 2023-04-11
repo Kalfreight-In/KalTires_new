@@ -1537,22 +1537,22 @@ export const MapData1 = [
   //     url: 'https://www.google.co.in/maps/place/17100+S+Harlan+Rd,+Lathrop,+CA+95330,+USA/@37.8058533,-121.2973683,17z/data=!4m5!3m4!1s0x80901562ee55acd9:0x6e5659d42b7cd177!8m2!3d37.8058491!4d-121.2951796?hl=en',
   //   },
   // },
-  {
-    id: 8,
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [37.6074485, -122.0791125],
-    },
-    timing: [
-      'Monday: 7:30AM - 5:00PM',
-      'Tuesday: 7:30AM - 5:00PM',
-      'Wednesday: 7:30AM - 5:00PM',
-      'Thursday: 7:30AM - 5:00PM',
-      'Friday: 7:30AM - 5:00PM',
+  // {
+  //   id: 8,
+  //   type: 'Feature',
+  //   geometry: {
+  //     type: 'Point',
+  //     coordinates: [37.6074485, -122.0791125],
+  //   },
+  //   timing: [
+  //     'Monday: 7:30AM - 5:00PM',
+  //     'Tuesday: 7:30AM - 5:00PM',
+  //     'Wednesday: 7:30AM - 5:00PM',
+  //     'Thursday: 7:30AM - 5:00PM',
+  //     'Friday: 7:30AM - 5:00PM',
 
-      'Saturday & Sunday: Closed',
-    ],
+  //     'Saturday & Sunday: Closed',
+  //   ],
     // multi: false,
     // properties: {
     //   State: 'CA',
@@ -1566,7 +1566,7 @@ export const MapData1 = [
     //   bgimage: unioncityCaM,
     //   url: 'https://www.google.com/maps/place/30089+Ahern+Ave,+Union+City,+CA+94587,+USA/@37.6074485,-122.0791125,17z/data=!3m1!4b1!4m5!3m4!1s0x808f95d30d6a6b09:0x3202ef51f7e03ef4!8m2!3d37.6074443!4d-122.0769238',
     // },
-  },
+  // },
   {
     id: 9,
     type: 'Feature',
