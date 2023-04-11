@@ -1925,7 +1925,7 @@ export const MapData1 = [
       ZipCode: '92507',
       City: 'Riverside',
       Address: '3020 E La Cadena Dr',
-      Phone: '951-377-3449',
+      Phone: '951-787-6884',
       Email: 'aleyba@kvltires.com',
       bgimage: mapPlaceholderimg,
       url: 'https://www.google.com/maps/place/3020+E+La+Cadena+Dr,+Riverside,+CA+92507,+USA/@33.9861579,-117.3624449,3a,75y,100.77h,89.46t/data=!3m6!1e1!3m4!1soEVA-tplIKp8truoUmDBig!2e0!7i16384!8i8192!4m7!3m6!1s0x80dcb1fd5054042f:0x5b7968c395c55ef7!8m2!3d33.9859802!4d-117.3622673!10e5!16s%2Fg%2F11c23jfp3w',
