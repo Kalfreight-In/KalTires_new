@@ -1841,6 +1841,36 @@ export const MapData1 = [
       url: 'https://www.google.com/maps/place/336+S+42nd+St,+Kansas+City,+KS+66106,+USA/@39.0917756,-94.6779375,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0f25a9cef34f9:0x885edb2b21b86c12!8m2!3d39.0917756!4d-94.6779375',
     },
   },
+  {
+    id: 30,
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [39.0917756, -94.6779375],
+    },
+    timing: [
+      'Monday: 7:30AM - 5:00PM',
+      'Tuesday: 7:30AM - 5:00PM',
+      'Wednesday: 7:30AM - 5:00PM',
+      'Thursday: 7:30AM - 5:00PM',
+      'Friday: 7:30AM - 5:00PM',
+
+      'Saturday & Sunday: Closed',
+    ],
+    multi: false,
+    properties: {
+      State: 'CA',
+      Manager: 'Carlos(Jr) Ulloa',
+      TOW: '',
+      ZipCode: '90023',
+      City: 'Commerce',
+      Address: '4400 E. WASHINGTON BLVD',
+      Phone: '323-480-6423',
+      Email: 'julloa@kvltires.com',
+      bgimage: kansasMisoouriM,
+      url: 'https://www.google.com/maps/place/4400+E+Washington+Blvd,+Commerce,+CA+90023,+USA/@34.0074698,-118.1808337,3a,75y,217.35h,69.36t/data=!3m6!1e1!3m4!1sGC_EyE5GmknfW9KApE52Xg!2e0!7i16384!8i8192!4m7!3m6!1s0x80c2cf18c8fe6d77:0xa335a45d7be11572!8m2!3d34.007204!4d-118.1808569!10e5!16s%2Fg%2F11c4_fjht6',
+    },
+  },
   // {
   //   id: 15,
   //   type: 'Feature',
