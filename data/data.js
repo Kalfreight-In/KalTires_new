@@ -1332,7 +1332,7 @@ export const MapData1 = [
 
     geometry: {
       type: 'Point',
-      coordinates: [34.0697634, -117.4825569],
+      coordinates: [34.0697649,-117.4825434],
     },
     timing: [
       'Monday: 7:30AM - 5:00PM',
