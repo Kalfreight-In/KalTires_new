@@ -112,8 +112,6 @@ import springdaleArkansasM from '../Assets/bgImage/springdaleArkansasM.jpg';
 import indianapolistM from '../Assets/bgImage/indianapolistM.jpg';
 import indianaM from '../Assets/bgImage/indianaM.jpg';
 import kansasMisoouriM from '../Assets/bgImage/kansasMisoouriM.jpg';
-import kansasCityKs from '../Assets/bgImage/kansasCityKs.jpg';
-import commerceCA from '../Assets/bgImage/commerceCA.jpg';
 import atlantaGm from '../Assets/bgImage/atlantaGm.jpg';
 import GeorgiaM from '../Assets/bgImage/GeorgiaM.jpg';
 import arlingtonM from '../Assets/bgImage/arlingtonM.jpg';
