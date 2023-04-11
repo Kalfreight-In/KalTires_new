@@ -1716,7 +1716,7 @@ export const MapData1 = [
       Phone: '317-520-8545',
 
       Email: 'Gwatson@kvltires.com',
-      bgimage: indianapolistM,
+      bgimage: mapPlaceholderimg,
       url: 'https://www.google.co.in/maps/place/4641+Lafayette+Rd,+Indianapolis,+IN+46254,+USA/@39.8399802,-86.2502276,17z/data=!3m1!4b1!4m5!3m4!1s0x886b55fd130f8613:0x8feef59d5c0456c5!8m2!3d39.8399761!4d-86.2480389?hl=en',
       url2: 'https://www.google.co.in/maps/place/2916+Bluff+Rd+%236,+Indianapolis,+IN+46225,+USA/@39.7255402,-86.1722341,17z/data=!3m1!4b1!4m5!3m4!1s0x886b5a242a90b695:0x8c2c5c506cecbc2f!8m2!3d39.7255361!4d-86.1700454?hl=en',
     },
