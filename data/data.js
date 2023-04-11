@@ -113,6 +113,7 @@ import indianapolistM from '../Assets/bgImage/indianapolistM.jpg';
 import indianaM from '../Assets/bgImage/indianaM.jpg';
 import kansasMisoouriM from '../Assets/bgImage/kansasMisoouriM.jpg';
 import kansasCityKs from '../Assets/bgImage/kansasCityKs.jpg';
+import commerceCA from '../Assets/bgImage/commerceCA.jpg';
 import atlantaGm from '../Assets/bgImage/atlantaGm.jpg';
 import GeorgiaM from '../Assets/bgImage/GeorgiaM.jpg';
 import arlingtonM from '../Assets/bgImage/arlingtonM.jpg';
@@ -1868,7 +1869,7 @@ export const MapData1 = [
       Address: '4400 E. Washington Blvd',
       Phone: '323-480-6423',
       Email: 'julloa@kvltires.com',
-      bgimage: mapPlaceholderimg,
+      bgimage: commerceCA,
       url: 'https://www.google.co.in/maps/place/4400+E+Washington+Blvd,+Commerce,+CA+90023,+USA/@34.007204,-118.1830456,17z/data=!4m16!1m9!3m8!1s0x80c2cf18c8fe6d77:0xa335a45d7be11572!2s4400+E+Washington+Blvd,+Commerce,+CA+90023,+USA!3b1!8m2!3d34.007204!4d-118.1808569!10e5!16s%2Fg%2F11c4_fjht6!3m5!1s0x80c2cf18c8fe6d77:0xa335a45d7be11572!8m2!3d34.007204!4d-118.1808569!16s%2Fg%2F11c4_fjht6?hl=en',
     },
   },
