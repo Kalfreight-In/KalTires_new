@@ -98,7 +98,6 @@ import Frentino from '../Assets/Images/Home/BrandsLogo/Ferentino.jpg';
 
 import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.jpg';
 import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.jpg';
-import navyDriveStocktonCa from '../Assets/bgImage/navyDriveStocktonCa.jpg';
 import LiveoakfontanaM from '../Assets/bgImage/LiveoakfontanaM.jpg';
 import valleyblvdFontanaCa from '../Assets/bgImage/valleyblvdFontanaCa.jpg';
 import sanmarcosM from '../Assets/bgImage/sanmarcosM.jpg';
@@ -1807,7 +1806,7 @@ export const MapData1 = [
       Address: '825 Navy Dr',
       Phone: '909-977-1915',
       Email: 'dfox@kvltires.com',
-      bgimage: mapPlaceholderimg,
+      bgimage: mapPlaceholderimg ,
       url: 'https://www.google.com/maps/place/825+Navy+Dr,+Stockton,+CA+95206,+USA/@37.93802,-121.3004338,17z/data=!3m1!4b1!4m5!3m4!1s0x8090128cdd3b4919:0x279f1fcc8f916036!8m2!3d37.93802!4d-121.3004338',
     },
   },
