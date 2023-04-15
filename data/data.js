@@ -1382,7 +1382,7 @@ export const MapData1 = [
       City: 'San Marcos',
       Address: '160 Industrial St',
       Phone: '760-249-2862',
-      Email: 'Camezcua@kvltires.com',
+      Email: 'camezcua@kvltires.com',
       bgimage: sanmarcosM,
       url: 'https://www.google.co.in/maps/place/160+Industrial+St,+San+Marcos,+CA+92078,+USA/@33.1363004,-117.1625312,17z/data=!3m1!4b1!4m5!3m4!1s0x80db8ab3b9f18c1b:0x6b10250b71a8172e!8m2!3d33.136296!4d-117.1580465?hl=en',
     },
