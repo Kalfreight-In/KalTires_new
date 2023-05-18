@@ -1863,7 +1863,7 @@ export const MapData1 = [
       ZipCode: '90023',
       City: 'Commerce',
       Address: '4400 E. Washington Blvd',
-      Phone: '+1 323-693-2451',
+      Phone: '323-693-2451',
       Email: 'julloa@kvltires.com',
       bgimage: mapPlaceholderimg,
       url: 'https://www.google.co.in/maps/place/4400+E+Washington+Blvd,+Commerce,+CA+90023,+USA/@34.007204,-118.1830456,17z/data=!4m16!1m9!3m8!1s0x80c2cf18c8fe6d77:0xa335a45d7be11572!2s4400+E+Washington+Blvd,+Commerce,+CA+90023,+USA!3b1!8m2!3d34.007204!4d-118.1808569!10e5!16s%2Fg%2F11c4_fjht6!3m5!1s0x80c2cf18c8fe6d77:0xa335a45d7be11572!8m2!3d34.007204!4d-118.1808569!16s%2Fg%2F11c4_fjht6?hl=en',
