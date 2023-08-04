@@ -54,7 +54,7 @@ const MyApp = ({ Component, pageProps }) => {
       <Head>
         <link
           rel="alternate"
-          hreflang="en-us"
+          hrefLang="en-us"
           href="https://www.kvltires.com/"
         />
 
@@ -62,7 +62,7 @@ const MyApp = ({ Component, pageProps }) => {
           rel="icon"
           type="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
         />
-        <meta charset="utf-8" />
+        <meta charSet ="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="google-site-verification"

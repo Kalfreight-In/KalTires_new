@@ -124,6 +124,7 @@ import Slidermobilethree from '../Assets/Images/Home/SlidermobileThree.jpg';
 import HomePageSlider1 from '../Assets/Images/Home/HomePageSlider-1.jpg';
 import HomePageSlider2 from '../Assets/Images/Home/HomePageSlider-2.jpg';
 import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
+import HomePageSlider4 from "../Assets/Images/Home/HomePageSlider-4.jpg";
 import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
 import Slidermobileone from '../Assets/Images/Home/Slidermobileone.jpg';
 import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
@@ -134,44 +135,58 @@ export const HomeSliderData = [
     img: HomePageSlider3,
     imgMobile: HomePageSlider3,
 
-    Heading: 'TRANSFORMING TRUCKING DYNAMICS',
-    desc: 'Check Out Our Wide Range Of Tires & Services At Affordable Prices',
+    Heading: "TRANSFORMING TRUCKING DYNAMICS",
+    desc: "Check Out Our Wide Range Of Tires & Services At Affordable Prices",
 
     CTA1: {
-      heading: 'Contact Us',
-      Slink: '/#ContactUsMain',
-      link: '/#ContactUsMain',
+      heading: "Contact Us",
+      Slink: "/#ContactUsMain",
+      link: "/#ContactUsMain",
     },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
+    CTA12: { heading: "Inventory", link: "contactus" },
   },
   {
     id: 2,
     img: New2,
     imgMobile: New2M,
-    Heading: 'Off-The-Road Tires',
-    desc: 'Tires For The Toughest Driving Conditions',
+    Heading: "Off-The-Road Tires",
+    desc: "Tires For The Toughest Driving Conditions",
 
     CTA1: {
-      heading: 'Explore',
-      Slink: '/services',
-      link: '/services',
+      heading: "Explore",
+      Slink: "/services",
+      link: "/services",
     },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
+    CTA12: { heading: "Inventory", link: "contactus" },
   },
 
   {
     id: 3,
     img: New3,
     imgMobile: New3M,
-    Heading: 'Wide range of tires for all your equipment needs',
-    desc: 'Find Your Next Set Of Tires Here At KVL Tires',
+    Heading: "Wide range of tires for all your equipment needs",
+    desc: "Find Your Next Set Of Tires Here At KVL Tires",
 
     CTA1: {
-      heading: 'Contact Us',
-      Slink: '/#ContactUsMain',
-      link: '/#ContactUsMain',
+      heading: "Contact Us",
+      Slink: "/#ContactUsMain",
+      link: "/#ContactUsMain",
     },
-    CTA12: { heading: 'Inventory', link: 'contactus' },
+    CTA12: { heading: "Inventory", link: "contactus" },
+  },
+  {
+    id: 4,
+    img: HomePageSlider4,
+    imgMobile: HomePageSlider4,
+    Heading: "",
+    desc: "",
+
+    // CTA1: {
+    //   heading: "Contact Us",
+    //   Slink: "/#ContactUsMain",
+    //   link: "/#ContactUsMain",
+    // },
+    // CTA12: { heading: "Inventory", link: "contactus" },
   },
 ];
 export const BrandCompnentHeader = [

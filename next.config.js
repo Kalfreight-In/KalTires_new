@@ -23,7 +23,7 @@ const nextConfig = {
     REACT_APP_GOOGLE_APIKEY: 'AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk',
   },
   experimental: {
-    nextScriptWorkers: true,
+    nextScriptWorkers: false,
   },
   images: {
     domains: ['raw.githubusercontent.com'],

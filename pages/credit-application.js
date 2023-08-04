@@ -37,7 +37,7 @@ const Credit = () => {
       <Head>
         <title>Credit Application - Buy a New & Used Tires | KVL Tires</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
+        <meta charSet ="utf-8" />
         <meta
           name="description"
           content="We are here to help you to achieve your dreams - Credit Application | KVL Tires & Services"

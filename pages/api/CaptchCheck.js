@@ -48,7 +48,7 @@ const validateCaptcha = (response_key) => {
 //         `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captcha}`,
 //         {
 //           headers: {
-//             "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+//             "Content-Type": "application/x-www-form-urlencoded; charSet =utf-8",
 //           },
 //           method: "POST",
 //         }
