@@ -125,6 +125,7 @@ import HomePageSlider1 from '../Assets/Images/Home/HomePageSlider-1.jpg';
 import HomePageSlider2 from '../Assets/Images/Home/HomePageSlider-2.jpg';
 import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
 import HomePageSlider4 from "../Assets/Images/Home/HomePageSlider-4.jpg";
+import grandOpening_phone from "../Assets/Images/Home/grandOpening_phone.png";
 import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
 import Slidermobileone from '../Assets/Images/Home/Slidermobileone.jpg';
 import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
@@ -177,7 +178,7 @@ export const HomeSliderData = [
   {
     id: 4,
     img: HomePageSlider4,
-    imgMobile: HomePageSlider4,
+    imgMobile: grandOpening_phone,
     Heading: "",
     desc: "",
 
