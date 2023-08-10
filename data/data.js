@@ -175,20 +175,20 @@ export const HomeSliderData = [
     },
     CTA12: { heading: "Inventory", link: "contactus" },
   },
-  {
-    id: 4,
-    img: HomePageSlider4,
-    imgMobile: grandOpening_phone,
-    Heading: "",
-    desc: "",
+  // {
+  //   id: 4,
+  //   img: HomePageSlider4,
+  //   imgMobile: grandOpening_phone,
+  //   Heading: "",
+  //   desc: "",
 
-    // CTA1: {
-    //   heading: "Contact Us",
-    //   Slink: "/#ContactUsMain",
-    //   link: "/#ContactUsMain",
-    // },
-    // CTA12: { heading: "Inventory", link: "contactus" },
-  },
+  //   // CTA1: {
+  //   //   heading: "Contact Us",
+  //   //   Slink: "/#ContactUsMain",
+  //   //   link: "/#ContactUsMain",
+  //   // },
+  //   // CTA12: { heading: "Inventory", link: "contactus" },
+  // },
 ];
 export const BrandCompnentHeader = [
   {
