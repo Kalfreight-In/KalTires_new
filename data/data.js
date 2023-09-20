@@ -2091,7 +2091,7 @@ export const MapData1 = [
       ZipCode: "76011",
       City: "Arlington",
       Address: "600 109th St Suite B",
-      Phone: "909-202-8831",
+      Phone: "817-415-9894",
       Email: "jlowe@kvltires.com",
       bgimage: arlingtonM,
       url: "https://www.google.co.in/maps/place/600+109th+St,+Arlington,+TX+76011,+USA/@32.7522887,-97.0555619,17z/data=!3m1!4b1!4m5!3m4!1s0x864e8703c63644af:0x5eb8bd889fcac8d4!8m2!3d32.7522842!4d-97.0533732?hl=en",
