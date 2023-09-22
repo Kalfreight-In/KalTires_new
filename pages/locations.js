@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { BreadcrumbJsonLd, LocalBusinessJsonLd } from 'next-seo';
 import dynamic from 'next/dynamic';
 import { RiPhoneFill } from 'react-icons/ri';
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { MdEmail } from 'react-icons/md';
 import { scroller, Element } from 'react-scroll';
 import Head from 'next/head';
