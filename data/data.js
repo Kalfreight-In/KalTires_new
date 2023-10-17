@@ -2039,7 +2039,7 @@ export const MapData1 = [
     },
   },
   {
-    id: 17,
+    id: 20,
     type: "Feature",
     geometry: {
       type: "Point",
