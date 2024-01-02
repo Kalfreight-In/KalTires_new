@@ -358,7 +358,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                      <a href="/credit-application" rel="noreferrer">
+                      <a href="https://kaltrailers.com/credit-application/" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
                           Credit Application
                         </span>

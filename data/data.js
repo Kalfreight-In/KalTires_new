@@ -66,7 +66,7 @@ import ferentinowhite from '../Assets/Images/Home/High_performace_brands_logo/Hp
 import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
 import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
 import bktTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/BktTire.png';
-import ContinentalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/continentalTire.png';
+import ContinentalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/conti_1.png';
 import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/cooperTire.png';
 import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png';
 import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
@@ -94,6 +94,8 @@ import cooperone from '../Assets/Images/Home/BrandsLogo/cooperTirelogo.jpg';
 import contitreadone from '../Assets/Images/Home/BrandsLogo/contitread.jpg';
 import michelinone from '../Assets/Images/Home/BrandsLogo/michelin.jpg';
 import pirellione from '../Assets/Images/Home/BrandsLogo/pirelli.jpg';
+import falkenone from "../Assets/Images/Home/BrandsLogo/falken.webp";
+import doublecoinone from "../Assets/Images/Home/BrandsLogo/doublecoin.webp";
 import Frentino from '../Assets/Images/Home/BrandsLogo/Ferentino.jpg';
 
 import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.jpg';
@@ -119,11 +121,11 @@ import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.jpg';
 import ohioM from '../Assets/bgImage/ohioM.jpg';
 import Lastone from '../Assets/bgImage/Lastone.jpg';
 import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
-
+import HomePageSlider3 from "../Assets/Images/Home/continentalbanner.webp";
 import Slidermobilethree from '../Assets/Images/Home/SlidermobileThree.jpg';
 import HomePageSlider1 from '../Assets/Images/Home/HomePageSlider-1.jpg';
 import HomePageSlider2 from '../Assets/Images/Home/HomePageSlider-2.jpg';
-import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
+// import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
 import HomePageSlider4 from "../Assets/Images/Home/HomePageSlider-4.jpg";
 import grandOpening_phone from "../Assets/Images/Home/grandOpening_phone.png";
 import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
@@ -194,64 +196,64 @@ export const BrandCompnentHeader = [
   {
     id: 1,
     imageurl: continentalone,
-    heading: 'Continental Tires Logo',
-    desc: 'This image is related to Continental tires. Continental Tires is an individual that works under the wings of Continental AG, a German company.',
+    heading: "Continental Tires Logo",
+    desc: "This image is related to Continental tires. Continental Tires is an individual that works under the wings of Continental AG, a German company.",
   },
   {
     id: 2,
     imageurl: goodyearone,
-    heading: 'Goodyear Tires Logo',
-    desc: 'This image is related to Goodyear logo. Goodyear tires that can assure both picky consumers and bargain hunters.',
+    heading: "Goodyear Tires Logo",
+    desc: "This image is related to Goodyear logo. Goodyear tires that can assure both picky consumers and bargain hunters.",
   },
   {
     id: 3,
     imageurl: apolloone,
-    heading: 'Apollo Tires Logo',
-    desc: 'This image is related to apollo tires. You can find the affordable truck and bus tires at Apollo with wide range of tires.',
+    heading: "Apollo Tires Logo",
+    desc: "This image is related to apollo tires. You can find the affordable truck and bus tires at Apollo with wide range of tires.",
   },
   {
     id: 4,
     imageurl: bktone,
-    heading: 'BKT Tires Logo',
-    desc: 'This image is related to BKT Tires, which is a leading manufacturer in the off-highway tire market. Specializing in the manufacture of tires for agricultural, industrial and OTR vehicles.',
+    heading: "BKT Tires Logo",
+    desc: "This image is related to BKT Tires, which is a leading manufacturer in the off-highway tire market. Specializing in the manufacture of tires for agricultural, industrial and OTR vehicles.",
   },
   {
     id: 5,
     imageurl: generalone,
-    heading: 'General Tires Logo',
-    desc: 'This image is related to General Tires, which is a brand known for its durable, multi-terrain stability and uniform quality tires. ',
+    heading: "General Tires Logo",
+    desc: "This image is related to General Tires, which is a brand known for its durable, multi-terrain stability and uniform quality tires. ",
   },
   {
     id: 6,
     imageurl: americanone,
-    heading: 'American Steel Tires Logo',
-    desc: 'This image is related to American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.',
+    heading: "American Steel Tires Logo",
+    desc: "This image is related to American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.",
   },
 
   {
     id: 7,
     imageurl: cooperone,
-    heading: 'Cooper Tires Logo',
-    desc: 'This image is related to Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.',
+    heading: "Cooper Tires Logo",
+    desc: "This image is related to Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.",
   },
   {
     id: 8,
     imageurl: contitreadone,
-    heading: 'Contitread Tires Logo',
-    desc: 'This image is related to ContiTread or Continental Tires. These products use un quality product for cold rereading of truck tires and bus tires and uses the rubber complexes.',
+    heading: "Contitread Tires Logo",
+    desc: "This image is related to ContiTread or Continental Tires. These products use un quality product for cold rereading of truck tires and bus tires and uses the rubber complexes.",
   },
   {
     id: 9,
     imageurl: michelinone,
-    heading: 'Michelin Tires Logo',
-    desc: 'This image is related to Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
+    heading: "Michelin Tires Logo",
+    desc: "This image is related to Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ",
   },
-  {
-    id: '10',
-    imageurl: pirellione,
-    heading: 'Pirelli Tires Logo',
-    desc: 'This image is related to Pirelli Tires. Pirelli is an Italy-based tire manufacturer that is a subsidiary of ChemChina.',
-  },
+  // {
+  //   id: '10',
+  //   imageurl: pirellione,
+  //   heading: 'Pirelli Tires Logo',
+  //   desc: 'This image is related to Pirelli Tires. Pirelli is an Italy-based tire manufacturer that is a subsidiary of ChemChina.',
+  // },
 
   // {
   //   id: '11',
@@ -259,22 +261,34 @@ export const BrandCompnentHeader = [
   //   heading: 'prinx-logo',
   // },
   {
-    id: '12',
+    id: "12",
     imageurl: tornadoone,
-    heading: 'Tornado Tires Logo',
-    desc: 'This image is related to Tornado Tires, which is generally famous for its high quality and reasonable prices. These tires are constructed, produced, a tested at the highly sophisticated technology.',
+    heading: "Tornado Tires Logo",
+    desc: "This image is related to Tornado Tires, which is generally famous for its high quality and reasonable prices. These tires are constructed, produced, a tested at the highly sophisticated technology.",
   },
   {
-    id: '13',
+    id: "13",
     imageurl: Frentino,
-    heading: 'Ferentino Tires Logo',
+    heading: "Ferentino Tires Logo",
     desc: "This image is related to Ferentino tires. FERENTINO Tyres is the most popular Sri Lanka's tyre brand, which is known as for its world-class technology and technical safety performance.",
   },
   {
-    id: '14',
+    id: "14",
     imageurl: westLake,
-    heading: 'West Lake Tires Logo',
-    desc: 'This image is related to West Lake Tires. The most important thing about the West Lake Tyre is at normal speed these tires perform batter.',
+    heading: "West Lake Tires Logo",
+    desc: "This image is related to West Lake Tires. The most important thing about the West Lake Tyre is at normal speed these tires perform batter.",
+  },
+  {
+    id: "15",
+    imageurl: falkenone,
+    heading: "Falken Tires Logo",
+    desc: "This image is related to Falken Tires. The most important thing about the Falken Tyre is at normal speed these tires perform batter.",
+  },
+  {
+    id: "16",
+    imageurl: doublecoinone,
+    heading: "Double Coin Tires Logo",
+    desc: "This image is related to Double Coin Tires. The most important thing about the Double Coin Tyre is at normal speed these tires perform batter.",
   },
 ];
 

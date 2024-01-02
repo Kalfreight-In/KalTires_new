@@ -260,9 +260,10 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/locations">
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>
-          <a href="/credit-application">
-            <SidebarLinkR onClick={toggle}>Credit Application</SidebarLinkR>
-          </a>
+          <a href="https://kaltrailers.com/credit-application/" onClick={toggle}>
+  <SidebarLinkR>Credit Application</SidebarLinkR>
+</a>
+
           <Link href="/careers">
             <SidebarLinkR onClick={toggle}>Careers</SidebarLinkR>
           </Link>
