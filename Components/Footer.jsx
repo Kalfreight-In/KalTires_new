@@ -290,7 +290,7 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="https://kalfreight.com/who-we-are/csr"
+                      href="/"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"

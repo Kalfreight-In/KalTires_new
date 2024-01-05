@@ -1,143 +1,66 @@
-import React, { useEffect, useState, useRef } from 'react';
-import axios from 'axios';
-import Image from 'next/image';
-import { useRouter } from 'next/router';
-import { motion } from 'framer-motion';
-import ReCAPTCHA from 'react-google-recaptcha';
-import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png';
-import useMediaQuery from '../../Hooks/CustomMediaQuery';
-import Sparkles from '../../Animation/Sparkel';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+import Sparkles from '../../Animation/Sparkel'; // Assuming you have this animation component
 import kvlTirelogo from '../../Assets/Images/KvlTiresLogo.png';
-import { useStateContext } from '../../context/StateContext';
-import { handleInput } from '../../HelpFunctions/PhoneNoFormatter';
+import Image from 'next/image'; // Assuming you have the 'next/image' import
+import useMediaQuery from '../../Hooks/CustomMediaQuery'; // Assuming you have this hook
+import mainimage from '../../Assets/Images/Whatweoffer/Contactform/mainimage.png'; // Assuming you have this image
+import { motion } from 'framer-motion'; // Assuming you have the framer-motion import
+import { handleInput } from "../../HelpFunctions/PhoneNoFormatter";
 
-const Contactform = () => {
-  const isDesktop = useMediaQuery('(min-width:1148px)');
-  const captchaRef = useRef(null);
+const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [phoneno, setphoneno] = useState('');
-  // const [service, setservice] = useState('');
-  // const [phone, setPhone] = useState('');
-  const [zip, setZip] = useState('');
-  const [ROC, setROC] = useState('');
+  const [zip, setZip] = useState(''); // Assuming you have zip state
   const [success, setSuccess] = useState(false);
+  const [phoneno, setPhoneno] = useState('');
   const [error, setError] = useState(false);
-  const [token, setToken] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
-  const [buttonText, setButtonText] = useState('Submit');
-  const router = useRouter();
 
-  // useEffect(() => {
-  //   const query = window.location.hash;
-  //   const target = query.split('#')[1];
-
-  //   if (window.location.hash) {
-  //     if (window.location.hash) {
-  //       setTimeout(() => {
-  //         const element = document.getElementById(target);
-  //         const headerOffset = 117;
-  //         const elementPosition = element.getBoundingClientRect().top;
-  //         const offsetPosition = elementPosition + window.pageYOffset;
-
-  //         window.scrollTo({
-  //           top: offsetPosition,
-  //           behavior: 'smooth',
-  //         });
-  //       }, 1000);
-  //     }
-  //   }
-  // }, []);
-  // useEffect(() => {
-  //   loadReCaptcha();
-  // }, []);
-  // function CaptchaonChange(value) {
-  //   console.log('Captcha value:', value);
-  //   setToken(value);
-  // }
-  const resetForm = (e) => {
+  const resetForm = () => {
     setName('');
+    setPhoneno('');
     setEmail('');
     setMessage('');
-    setphoneno('');
     setZip('');
     setError(false);
-    setErrorMessage('');
-    setButtonText('Submit');
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const tokenIn = captchaRef.current.getValue();
-    setToken(tokenIn);
-    captchaRef.current.reset();
-    // axios
-    //   .post('api/CaptchCheck', { tokenIn })
-    //   .then((res) => [console.log(res), setError(true)])
-    //   .catch((error) => {
-    //     setError(true);
-    //     console.log(error);
-    //   });
-
-    if (token) {
-      setButtonText('Sending...');
-
-      const data = {
+    try {
+      const templateParams = {
         site: 'kalgroup',
         name,
         email,
-        message,
         phoneno,
-        //   location,
+        message,
+        zip,
       };
-      setSuccess(true),
-        await axios
-          .post('https://nodeserver-contactus.herokuapp.com/api/v1', data)
-          .then((res) => [resetForm()])
-          .catch(() => {
-            [setSuccess(false), resetForm()];
-            console.log('Message not sent');
-          });
-      console.log(`sucesss ${success}`);
-      setInterval(() => {
-        setSuccess(false);
 
-        console.log(`sucesss ${success}`);
-      }, 7000);
-    } else {
+      const response = await emailjs.send(
+        'service_cp5i6vi', // Replace with your Email.js service ID
+        'template_a72yzud', // Replace with your Email.js template ID
+        templateParams,
+        'wAyhkbQYM_6pVPBxS' // Replace with your Email.js user ID
+      );
+
+      console.log('Email sent successfully:', response);
+      setSuccess(true);
+      resetForm();
+    } catch (error) {
+      console.error('Email failed to send:', error);
+      setSuccess(false);
       setError(true);
     }
   };
 
-  // useEffect(() => {
-  //   const emailval = document.querySelector('#emailValidate');
-  //   const submit = document.querySelector('#submitmain');
-  //   submit.addEventListener('click', () => {
-  //     if (emailval.validity.typeMismatch) {
-  //       emailval.setCustomValidity('Please enter correct email');
-  //     } else {
-  //       emailval.setCustomValidity('');
-  //     }
-  //   });
-  // });
+  const isDesktop = useMediaQuery('(min-width:1148px)'); // Assuming you have this hook
 
   return (
     <div id="maincontactform" className="justify-between lg:flex">
-      <div
-        id="shadow"
-        className="md:p-0 p-4 bg-red-600 2xl:w-1/2 xl:w-9/12 flex justify-center items-center"
-        style={{
-          backgroundImage:
-            // eslint-disable-next-line operator-linebreak
-            'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Whatweoffer/Contactform/backgroundfirst.png' +
-            ')',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-        }}
-      >
+      <div className="md:p-0 p-4 bg-red-600 2xl:w-1/2 xl:w-9/12 flex justify-center items-center">
         {success ? (
           <motion.div
             className="flex flex-center justify-center items-center "
@@ -188,18 +111,14 @@ const Contactform = () => {
             </div>
           </motion.div>
         ) : (
-          <form className="w-fit " onSubmit={(e) => handleSubmit(e)}>
+          <form className="w-fit" onSubmit={handleSubmit}>
             <div className="lg:ml-20 ml-4">
               <div className="lg:text-left text-center">
                 <div
                   id="contactnew"
                   className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12   "
                 >
-                  {/* <img
-                src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
-                alt=""
-                className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
-              /> */}
+                  {/* Your form elements here */}
                   <div>
                     <h3 className="text-white md:text-5xl text-2xl font-bold text-left font-poppins">
                       Contact Us
@@ -237,17 +156,15 @@ const Contactform = () => {
                 >
                   <input
                     type="tel"
-                    // pattern={formatPhoneNumber}
-                    // onClick={formatPhoneNumber}
                     maxLength="12"
                     minLength="10"
                     placeholder="Contact Number"
                     accept="number"
+                    // Assuming you have phoneno and handleInput functions
                     value={phoneno}
                     className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                    onChange={(e) => [handleInput(e, setphoneno)]}
+                    onChange={(e) => handleInput(e, setPhoneno)}
 
-                    // defaultValue="+1"
                   />
                 </div>
                 <div
@@ -263,48 +180,19 @@ const Contactform = () => {
                     placeholder="Email Id"
                     required
                     pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
-                    // title="email is required like samosa"
                   />
                 </div>
-                {/* <div
-                  className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
-                  id="input_placeholder"
-                >
-                  <select
-                    name="servicetype"
-                    className=" block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
-                    onChange={(e) => setservice(e.target.value)}
-                    type="select"
-                    value={service}
-                    required
-                  >
-                    <option value="service" hidden>
-                      Select Service Type
-                    </option>
-                    <option value="newtires">New Tires</option>
-                    <option value="retreadtires">Retread Tires</option>
-                    <option value="heavyduty">Heavy Duty Front End Work</option>
-                    <option value="wheel">Wheel Alignment</option>
-                    <option value="otr">OTR Tires</option>
-                    <option value="speciality">Specialty</option>
-                    <option value="enquiry">Enquiry</option>
-                    <option value="others">Others</option>
-                  </select>
-                </div> */}
-
                 <div
                   className="w-full flex justify-center items-center   mb-6 md:mb-0 md:pt-4"
                   id="input_placeholder"
                 >
                   <input
                     onChange={(e) => setZip(e.target.value)}
-                    // inputMode="numeric"
                     className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="grid-first-name"
                     type="text"
                     value={zip}
                     placeholder="ZIP Code"
-                    // pattern="^\d{5}(-\d{4})?$"
                     maxLength="6"
                     required
                   />
@@ -324,51 +212,21 @@ const Contactform = () => {
                   />
                 </div>
               </div>
-              {error ? (
+              {error && (
                 <div className="font-bold font-Helvetica text-white">
-                  Please Fill out the Captcha
+                  Email failed to send. Please try again later.
                 </div>
-              ) : null}
-
-              <ReCAPTCHA
-                ref={captchaRef}
-                sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
-              />
-              {/* 6LeCGLIiAAAAAHWZj9_696e_31bOGKU2lnUf-1q8 */}
-              <div className="flex justify-center md:justify-start mt-2">
-                <div
-                  id="submitallbutton"
-                  // className="lg:pl-16 md:pl-16 pl-6 md:pt-8 flex font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                  className="  md:pt-0 2xl:pt-8 flex  font-Helvetica md:pb-8 lg:pb-4  md:flex-row flex-col"
-                >
-                  <div className="flex justify-center items-center">
-                    <button
-                      className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
-                      type="submit"
-                      id="submitmain"
-                    >
-                      {buttonText}
-                    </button>
-                  </div>
-
-                  <div>
-                    <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
-                      Or call us now at &nbsp;
-                      <a
-                        href="tel: 8008080025"
-                        className="cursor-pointer font-bold font-Helvetica"
-                      >
-                        800-808-0025
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
+              )}
+              <button
+                className="text-black bg-white rounded h-12 p-4 w-48 mt-2 flex justify-center items-center font-Helvetica"
+                type="submit"
+              >
+                Submit
+              </button>
             </div>
           </form>
         )}
       </div>
-
       {isDesktop ? (
         <Image
           loading="lazy"
@@ -383,4 +241,4 @@ const Contactform = () => {
   );
 };
 
-export default Contactform;
+export default ContactForm;
