@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Head from "next/head";
 
-const departments = ["Engineering", "Marketing", "Sales", "Operations"];
+const departments = [
+  "Management",
+  "Warehouse",
+  "Sales",
+  "Delivery Drivers",
+  "Service Technicians",
+];
 
 const Resume = () => {
   const [name, setName] = useState("");
