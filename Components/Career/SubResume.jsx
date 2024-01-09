@@ -68,15 +68,17 @@ export const SubResume = () => {
             </p>
           </div>
           {Popup ? (
-            <div className="fixed 2xl:top-20  top-10 h-4/6 xl:h-full bottom-20 xl:left-1/4 z-30  xl:w-1/2 w-full drop-shadow-xl overflow-y-auto scrollbar">
-              <AiOutlineClose
-                className="cursor-pointer text-right right-0 absolute text-3xl text-red-500 font-bold animate-pulse"
-                width={40}
-                onClick={() => {
-                  setPopup(!Popup);
-                  Router.reload(window.location.pathname);
-                }}
-              />
+           <div className="fixed 2xl:top-20 top-10 h-4/6 xl:h-full bottom-20 xl:left-1/4 z-30 xl:w-1/2 w-full drop-shadow-xl overflow-y-auto scrollbar">
+  <AiOutlineClose
+    className="cursor-pointer text-right right-0 absolute text-3xl text-red-500 font-bold animate-pulse"
+    width={40}
+    style={{ color: 'white' }}
+    onClick={() => {
+      setPopup(!Popup);
+      Router.reload(window.location.pathname);
+    }}
+  />
+
               <div id="myportal" />
               <Portal>
                 <Resume />
