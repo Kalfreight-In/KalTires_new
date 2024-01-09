@@ -290,7 +290,7 @@ const Footer = () => {
                       Group of Companies
                     </a>
                     <a
-                      href="/"
+                      href="/csr"
                       className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       target="_blank"
                       rel="noreferrer"

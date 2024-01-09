@@ -2,11 +2,12 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import crs_banner from "../Assets/Images/Home/csr-banner.jpg";
+import crs_img from "../Assets/Images/Home/csr-img.jpg";
 
 const CSR = () => (
   <div className="maincontactform">
     <div className="row justify-between lg:flex">
-      <div className="p-4 bg-red-600 2xl:w-full xl:w-full flex justify-center items-center">
+      <div className="p-10 bg-red-600 2xl:w-full xl:w-full flex justify-center items-center">
         <div className="lg:ml-20 ml-4 col-4" style={{ width: "70%" }}>
           <div className="lg:text-left text-center">
             <div
@@ -52,8 +53,49 @@ const CSR = () => (
             alt="Banner"
             className="grayscale img-fluid"
             width={1200} // Set your desired width
-            height={800} // Set your desired height
+            height={600} // Set your desired height
           />
+        </div>
+      </div>
+    </div>
+    <div className="row justify-between lg:flex">
+      <div className="p-10  2xl:w-full xl:w-full flex justify-center items-center">
+        <div className="col-8">
+          <Image
+            src={crs_img}
+            alt="Banner"
+            className="grayscale img-fluid"
+            width={1000} // Set your desired width
+            height={700} // Set your desired height
+          />
+        </div>
+        <div className="lg:ml-20 ml-4 col-4" style={{ width: "70%" }}>
+          <div className="lg:text-left text-center">
+            <div
+              id="contactnew"
+              className="flex justify-start items-center xl:justify-start xl:items-start pb-8 pt-12"
+            >
+              <div>
+                <p className="text-black pt-4 text-left lg:pr-0 md:mr-16 mr-4 font-Helvetica">
+                  Responsibility and orderliness are keywords that define our
+                  branding and business development activities. Our pledge of
+                  empowering humanity through various ways is aligned with our
+                  ethical charter and everyday commitments. We focus on the
+                  workplace as well as society in general while greatly valuing
+                  long-lasting and mutual relationships with our people,
+                  customers, business partners, and patrons.
+                  <br />
+                  <br />
+                  Our CSR activities are an integral part of our management
+                  strategies wherein we can integrate and address social and
+                  environmental concerns. Through CSR, we can strike a perfect
+                  balance between social, environmental, and economic
+                  imperatives even while growing our business and exceeding
+                  stakeholders’ expectations.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
