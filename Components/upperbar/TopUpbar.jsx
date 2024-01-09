@@ -157,16 +157,16 @@ const TopUpbar = () => {
           </MondayToFridayContainer>
         </div>
 
-        <a href="https://kaltrailers.com/credit-application/">
-          <CreditAppContainer>
-            <span className="h-5 w-5 animate-bounce bg-black rounded-full text-white flex flexCenter">
-              <MdOutlineKeyboardArrowRight />
-            </span>
-            <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
-              Credit Application
-            </span>
-          </CreditAppContainer>
-        </a>
+        <a href="/Documents/KvlTires_Credit_Application.pdf" target="_blank">
+  <CreditAppContainer>
+    <span className="h-5 w-5 animate-bounce bg-black rounded-full text-white flex flexCenter">
+      <MdOutlineKeyboardArrowRight />
+    </span>
+    <span className="pr-20 pl-4 text-lg font-Helvetica text-white font-semibold text-center">
+      Credit Application
+    </span>
+  </CreditAppContainer>
+</a>
       </div>
     </div>
   );

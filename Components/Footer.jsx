@@ -358,12 +358,13 @@ const Footer = () => {
                     </div>
 
                     <div>
-                      <a href="https://kaltrailers.com/credit-application/" rel="noreferrer">
-                        <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
-                          Credit Application
-                        </span>
-                      </a>
-                    </div>
+  <a href="/Documents/KvlTires_Credit_Application.pdf" rel="noreferrer">
+    <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover mt-1 xl:text-left text-center cursor-pointer">
+      Credit Application
+    </span>
+  </a>
+</div>
+
                     <div>
                       <Link href="/careers" rel="noreferrer">
                         <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer">
