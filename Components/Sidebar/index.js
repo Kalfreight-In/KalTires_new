@@ -261,7 +261,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>
           <a
-            href="/public/Documents/Tires&PartsCreditApplication.pdf"
+            href="/Documents/Tires&PartsCreditApplication.pdf"
             download="Credit_Application.pdf"
             target="_blank"
           >
