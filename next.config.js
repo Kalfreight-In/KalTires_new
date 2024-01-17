@@ -20,13 +20,16 @@ const nextConfig = {
     styledComponents: true,
   },
   env: {
-    REACT_APP_GOOGLE_APIKEY: 'AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk',
+    REACT_APP_GOOGLE_APIKEY: "AIzaSyCumu5B8e6vcRoLhKw1bpWxODsy2YiUtEk",
   },
   experimental: {
     nextScriptWorkers: false,
   },
   images: {
-    domains: ['raw.githubusercontent.com'],
+    domains: ["raw.githubusercontent.com"],
+  },
+  publicRuntimeConfig: {
+    BASE_URL: process.env.BASE_URL || "http://localhost:3000", // Add your production URL when deploying
   },
 };
 

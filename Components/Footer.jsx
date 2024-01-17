@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
 import { IoLogoFacebook, IoLogoLinkedin, IoMdMail } from 'react-icons/io';
+import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineClose } from 'react-icons/ai';
 import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 // import { HashScroll } from 'react-hash-scroll';
@@ -558,6 +559,15 @@ const Footer = () => {
 
                   <div id="mainiconcontainer" className=" justify-end  mt-12 ">
                     <div id="allicons" className="flex justify-end">
+                      <FaXTwitter
+                        onClick={() =>
+                          window.open(
+                            'https://twitter.com/KVLTires',
+                            '_blank'
+                          )
+                        }
+                        className="text-white hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                      />
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
