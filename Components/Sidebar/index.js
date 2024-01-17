@@ -78,17 +78,17 @@ const Sidebar = ({ isOpen, toggle }) => {
               {/* <BsPlus onClick={() => setPlus(<BiMinus />)} /> */}
             </span>
           </Divlink>
-          <div className={`Transition-Height-${Services ? 'in' : 'out'}`}>
+          <div className={`Transition-Height-${Services ? "in" : "out"}`}>
             <ul>
               {Services
                 ? [
                     {
-                      url: '/services',
-                      navItem: 'Services',
+                      url: "/services",
+                      navItem: "Services",
                     },
                     {
-                      url: '/services/roadside-assistance',
-                      navItem: 'Roadside Assistance',
+                      url: "/services/roadside-assistance",
+                      navItem: "Roadside Assistance",
                     },
                   ].map((data) => (
                     <Link href={data.url}>
@@ -260,9 +260,13 @@ const Sidebar = ({ isOpen, toggle }) => {
           <Link href="/locations">
             <SidebarLinkR onClick={toggle}>Locations</SidebarLinkR>
           </Link>
-          <a href="https://kaltrailers.com/credit-application/" onClick={toggle}>
-  <SidebarLinkR>Credit Application</SidebarLinkR>
-</a>
+          <a
+            href="/Documents/KvlTires_Credit_Application.pdf"
+            download="Credit_Application.pdf"
+            target="_blank"
+          >
+            <SidebarLinkR>Credit Application</SidebarLinkR>
+          </a>
 
           <Link href="/careers">
             <SidebarLinkR onClick={toggle}>Careers</SidebarLinkR>
