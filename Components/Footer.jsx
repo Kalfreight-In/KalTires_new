@@ -359,7 +359,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-  <a href="/Documents/KvlTires_Credit_Application.pdf" download="Credit_Application.pdf" rel="noreferrer">
+  <a href="/Documents/Tires&PartsCreditApplication.pdf" download="Credit_Application.pdf" rel="noreferrer">
     <span className="block md:text-sm text-navsmall hover:text-yellow-shadowhover mt-1 xl:text-left text-center cursor-pointer">
       Credit Application
     </span>
