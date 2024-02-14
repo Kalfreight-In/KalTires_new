@@ -220,7 +220,6 @@ const CreditApp = () => {
     signatureCanvasTwo.current.clear();
   };
 
-  const { publicRuntimeConfig } = getConfig();
 
  const handleGenerateModifiedPdf = async (e) => {
    try {
