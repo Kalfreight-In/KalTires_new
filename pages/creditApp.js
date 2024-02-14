@@ -230,9 +230,14 @@ const CreditApp = () => {
      let pdfDoc = null;
      let modifiedPdfBlob = null;
 
-     // Fetch the PDF file
-     const pdfUrl = `${publicRuntimeConfig.BASE_URL}/Documents/Tires&PartsCreditApplication.pdf`;
-     const response = await fetch(pdfUrl);
+     // Fetch the PDF file from the new backend endpoint
+     const response = await fetch("/api/fetchPdf", {
+       method: "POST", // Send a POST request to the new backend endpoint
+       headers: {
+         "Content-Type": "application/json",
+       },
+       body: JSON.stringify({}), // Empty body since the server doesn't require any data
+     });
 
      // Check if the fetch was successful
      if (!response.ok) {
@@ -796,11 +801,11 @@ const CreditApp = () => {
        height: 25,
      });
 
-    //  const handleFileUpload = (e) => {
-    //    // Your file upload logic goes here
-    //    const file = e.target.files[0];
-    //    setUploadedFile(file);
-    //  };
+     //  const handleFileUpload = (e) => {
+     //    // Your file upload logic goes here
+     //    const file = e.target.files[0];
+     //    setUploadedFile(file);
+     //  };
 
      // Generate modified PDF
      const modifiedPdfBytes = await pdfDoc.save();
@@ -852,15 +857,14 @@ const CreditApp = () => {
 
      if (result.success) {
        console.log("PDF saved and email sent successfully");
-        setSuccess(true);
-        // Open the modified PDF in a new tab
-      window.open(URL.createObjectURL(modifiedPdfBlob), "_blank");
-    } else {
-      console.error("Error saving PDF:", result.message);
-    }
+       setSuccess(true);
+       // Open the modified PDF in a new tab
+       window.open(URL.createObjectURL(modifiedPdfBlob), "_blank");
+     } else {
+       console.error("Error saving PDF:", result.message);
+     }
 
      setButtonText("Submit"); // Reset button text
-     
    } catch (error) {
      console.error("Error generating or saving PDF:", error);
      alert("Error generating or saving PDF. Please try again.");
