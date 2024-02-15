@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from "react";
 import SignatureCanvas from "react-signature-canvas";
 import credbg from "../Assets/Images/Home/credbg.jpg";
 import { PDFDocument, rgb } from "pdf-lib";
-import getConfig from "next/config";
 import Sparkles from "../Animation/Sparkel";
 
 
