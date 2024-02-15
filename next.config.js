@@ -29,7 +29,7 @@ const nextConfig = {
     domains: ["raw.githubusercontent.com"],
   },
   publicRuntimeConfig: {
-    BASE_URL: process.env.BASE_URL || "https://www.kvltires.com", // Add your production URL when deploying
+    BASE_URL: process.env.BASE_URL || "http://localhost:3000", // Add your production URL when deploying
   },
 };
 
