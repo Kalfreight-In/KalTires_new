@@ -27,11 +27,11 @@ const nextConfig = {
   },
   images: {
     domains: ["raw.githubusercontent.com"],
-    unoptimized: true, // Disable Image Optimization API
   },
   publicRuntimeConfig: {
     BASE_URL: process.env.BASE_URL || "http://localhost:3000", // Add your production URL when deploying
   },
+  
 };
 
 module.exports = nextConfig;
