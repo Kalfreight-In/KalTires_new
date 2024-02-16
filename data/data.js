@@ -1804,7 +1804,7 @@ export const MapData1 = [
       ZipCode: "64120",
       City: "Kansas City ",
       Address: "4700 Deramus Avenue",
-      Phone: "816-710-4700",
+      Phone: "785-220-9750",
       Email: "jeverhart@kvltires.com",
       bgimage: kansasMisoouriM,
       url: "https://www.google.co.in/maps/place/4700+Deramus+Ave,+Kansas+City,+MO+64120,+USA/@39.1374813,-94.5286172,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0fa3183f1f2cf:0x307805e88481e969!8m2!3d39.1374772!4d-94.5264285?hl=en",
