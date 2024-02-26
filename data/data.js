@@ -103,6 +103,10 @@ import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.jpg';
 import LiveoakfontanaM from '../Assets/bgImage/LiveoakfontanaM.jpg';
 import valleyblvdFontanaCa from '../Assets/bgImage/valleyblvdFontanaCa.jpg';
 import sanmarcosM from '../Assets/bgImage/sanmarcosM.jpg';
+import abborts from '../Assets/bgImage/abb.png'
+import calgary from '../Assets/bgImage/calgary.png'
+import edmonton from '../Assets/bgImage/edmonton.png'
+import brampton from '../Assets/bgImage/brampton.png'
 import bakersfiledM from '../Assets/bgImage/bakersfiledM.jpg';
 import riversideM from '../Assets/bgImage/riversideM.jpg';
 import EmersonCalexM from '../Assets/bgImage/EmersonCalexM.jpg';
@@ -2321,7 +2325,7 @@ export const MapData2 = [
       Address: "1225 Riverside Rd",
       Phone: "604-864-3100",
       Email: "deppaks@bigrigcanada.com",
-      bgimage: mapPlaceholderimg,
+      bgimage: abborts,
       url: "https://www.google.com/maps/place/1225+Riverside+Rd,+Abbotsford,+BC+V2S+7P1,+Canada/@49.0243763,-122.27483,17z/data=!3m1!4b1!4m5!3m4!1s0x54844ae9d00fadc1:0xd47fb33380922fab!8m2!3d49.0243728!4d-122.2726413",
     },
   },
@@ -2352,7 +2356,7 @@ export const MapData2 = [
       Address: "9115 52 St SE",
       Phone: "403-768-3100",
       Email: "bills@bigrigcanada.com",
-      bgimage: mapPlaceholderimg,
+      bgimage: calgary,
       url: "https://www.google.com/maps/place/9115+52+St+SE,+Calgary,+AB+T2C+2R4,+Canada/@50.9717234,-113.9610187,17z/data=!3m1!4b1!4m5!3m4!1s0x537179f3e2e183d5:0xf426e9c504fa0b82!8m2!3d50.97172!4d-113.95883",
     },
   },
@@ -2384,8 +2388,39 @@ export const MapData2 = [
       Address: "18410 118a Ave NW",
       Phone: "780-271-3101",
       Email: "tapank@bigrigcanada.com",
-      bgimage: mapPlaceholderimg,
+      bgimage: edmonton,
       url: "https://www.google.com/maps/place/18410+118a+Ave+NW,+Edmonton,+AB+T5S+2M3,+Canada/@53.570841,-113.6444549,17z/data=!3m1!4b1!4m6!3m5!1s0x53a026d55dd10f3b:0x84a785a153357721!8m2!3d53.570841!4d-113.64188!16s%2Fg%2F11spwksm5f",
+    },
+  },
+
+  {
+    id: 4,
+    type: "Feature",
+    geometry: {
+      type: "Point",
+      coordinates: [50.9717234, -113.9610187],
+    },
+    timing: [
+      "Monday: 8:00AM - 8:00PM",
+      "Tuesday: 8:00AM - 8:00PM",
+      "Wednesday: 8:00AM - 8:00PM",
+      "Thursday: 8:00AM - 8:00PM",
+      "Friday: 8:00AM - 8:00PM",
+      "Saturday: 8:00AM - 8:00PM",
+      "Sunday: 8:00AM - 8:00PM",
+    ],
+    multi: false,
+    properties: {
+      State: "ON",
+      Manager: "Gurmeet Singh",
+      TOW: "",
+      ZipCode: "L7A 0N7",
+      City: "Brampton",
+      Address: "100 WhyBank Dr ON ",
+      Phone: "403-768-3100",
+      Email: "gssingh@bigrigcanada.com",
+      bgimage: brampton,
+      url: "https://www.google.com/maps/place/100+Whybank+Dr,+Brampton,+ON+L7A+0N7,+Canada/@43.710832,-79.7999661,17z/data=!3m1!4b1!4m6!3m5!1s0x882b15617f80a62d:0x3c93210d8a938b90!8m2!3d43.7108282!4d-79.7973912!16s%2Fg%2F11tx9h8yyw?entry=ttu",
     },
   },
 
