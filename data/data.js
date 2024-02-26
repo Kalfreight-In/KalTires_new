@@ -1517,7 +1517,7 @@ export const MapData1 = [
     type: "Feature",
     geometry: {
       type: "Point",
-      coordinates: [32.6702259, -115.5029613],
+      coordinates: [33.4446783, -114.4658417],
     },
     timing: [
       "Monday: 7:30AM - 5:00PM",
@@ -2362,7 +2362,7 @@ export const MapData2 = [
   },
 
   {
-    id: 3,
+    id: 24,
     type: "Feature",
     geometry: {
       type: "Point",
@@ -2394,11 +2394,11 @@ export const MapData2 = [
   },
 
   {
-    id: 4,
+    id: 25,
     type: "Feature",
     geometry: {
       type: "Point",
-      coordinates: [50.9717234, -113.9610187],
+      coordinates: [43.7493041, -79.8156774],
     },
     timing: [
       "Monday: 8:00AM - 8:00PM",
@@ -2420,7 +2420,7 @@ export const MapData2 = [
       Phone: "647-367-3100",
       Email: "gssingh@bigrigcanada.com",
       bgimage: brampton,
-      url: "https://www.google.com/maps/place/100+Whybank+Dr,+Brampton,+ON+L7A+0N7,+Canada/@43.710832,-79.7999661,17z/data=!3m1!4b1!4m6!3m5!1s0x882b15617f80a62d:0x3c93210d8a938b90!8m2!3d43.7108282!4d-79.7973912!16s%2Fg%2F11tx9h8yyw?entry=ttu",
+      url: "https://www.google.com/maps/place/100+Whybank+Dr,+Brampton,+ON+L7A+0N7,+Canada/@43.7493041,-79.8156774,10.82z/data=!4m6!3m5!1s0x882b15617f80a62d:0x3c93210d8a938b90!8m2!3d43.7108282!4d-79.7973912!16s%2Fg%2F11tx9h8yyw?entry=ttu",
     },
   },
 
