@@ -2417,7 +2417,7 @@ export const MapData2 = [
       ZipCode: "L7A 0N7",
       City: "Brampton",
       Address: "100 WhyBank Dr ON ",
-      Phone: "403-768-3100",
+      Phone: "647-367-3100",
       Email: "gssingh@bigrigcanada.com",
       bgimage: brampton,
       url: "https://www.google.com/maps/place/100+Whybank+Dr,+Brampton,+ON+L7A+0N7,+Canada/@43.710832,-79.7999661,17z/data=!3m1!4b1!4m6!3m5!1s0x882b15617f80a62d:0x3c93210d8a938b90!8m2!3d43.7108282!4d-79.7973912!16s%2Fg%2F11tx9h8yyw?entry=ttu",
