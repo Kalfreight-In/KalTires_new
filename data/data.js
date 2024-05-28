@@ -1,43 +1,43 @@
 /* eslint-disable camelcase */
-import onsiteone from '../Assets/Images/Onsite_Service/onsiteone.png';
-import onsitetwo from '../Assets/Images/Onsite_Service/onsitetwo.png';
-import onsiteseven from '../Assets/Images/Onsite_Service/onsiteseven.png';
-import onsiteeight from '../Assets/Images/Onsite_Service/onsiteeight.png';
-import GeneralTire from '../Assets/Images/Whatweoffer/CommercialTires/General_Tire-Logo.png';
-import ameristeel from '../Assets/Images/Whatweoffer/CommercialTires/ameristeel_logo.png';
-import Apollo from '../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_logo.png';
-import Bkt from '../Assets/Images/Whatweoffer/CommercialTires/BKT-Logo.png';
-import continental from '../Assets/Images/Whatweoffer/CommercialTires/continental-logo-black 2.png';
-import Commercgroup from '../Assets/Images/Whatweoffer/CommercialTires/commercgroup.png';
-import CommercalTiresTires from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTires_Tires.png';
-import CommercalTiresBg from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTiresBg.png';
-import Commercgrouptwo from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
-import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png';
-import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
-import commercegrouptab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png';
-import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwotab.png';
-import extrabenefit from '../Assets/Images/Perkbenefits/extrabenefit.png';
-import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
-import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
-import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
-import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
-import Sales from '../Assets/Images/Career/Departments/Accounts.jpg';
-import Management from '../Assets/Images/Career/Departments/administrator.jpg';
-import DeliveryDrivers from '../Assets/Images/Career/Departments/inventorycant.jpg';
-import ServiceTechnicians from '../Assets/Images/Career/Departments/operations.jpg';
-import Administration from '../Assets/Images/Career/Departments/sales.jpg';
-import Warehouse from '../Assets/Images/Career/Departments/servicetech.jpg';
-import one from '../Assets/Images/Whatweoffer/Industrialtires/Industrial.png';
-import two from '../Assets/Images/Whatweoffer/Industrialtires/Earthmover.png';
-import three from '../Assets/Images/Whatweoffer/Industrialtires/Agriculture.png';
-import six from '../Assets/Images/Whatweoffer/Industrialtires/OTR.png';
-import four from '../Assets/Images/Whatweoffer/Industrialtires/Passenger.png';
-import five from '../Assets/Images/Whatweoffer/Industrialtires/LighTruck.png';
-import twos from '../Assets/Images/Whatweoffer/services/two.png';
-import fours from '../Assets/Images/Whatweoffer/services/four.png';
-import fives from '../Assets/Images/Whatweoffer/services/five.png';
-import sixs from '../Assets/Images/Whatweoffer/services/six.png';
-import eights from '../Assets/Images/Whatweoffer/services/eight.png';
+import onsiteone from "../Assets/Images/Onsite_Service/onsiteone.png";
+import onsitetwo from "../Assets/Images/Onsite_Service/onsitetwo.png";
+import onsiteseven from "../Assets/Images/Onsite_Service/onsiteseven.png";
+import onsiteeight from "../Assets/Images/Onsite_Service/onsiteeight.png";
+import GeneralTire from "../Assets/Images/Whatweoffer/CommercialTires/General_Tire-Logo.png";
+import ameristeel from "../Assets/Images/Whatweoffer/CommercialTires/ameristeel_logo.png";
+import Apollo from "../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_logo.png";
+import Bkt from "../Assets/Images/Whatweoffer/CommercialTires/BKT-Logo.png";
+import continental from "../Assets/Images/Whatweoffer/CommercialTires/continental-logo-black 2.png";
+import Commercgroup from "../Assets/Images/Whatweoffer/CommercialTires/commercgroup.png";
+import CommercalTiresTires from "../Assets/Images/Whatweoffer/CommercialTires/CommercalTires_Tires.png";
+import CommercalTiresBg from "../Assets/Images/Whatweoffer/CommercialTires/CommercalTiresBg.png";
+import Commercgrouptwo from "../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png";
+import contitread from "../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png";
+import contilifecycle from "../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png";
+import commercegrouptab from "../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png";
+import commercegrouptwotab from "../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwotab.png";
+import extrabenefit from "../Assets/Images/Perkbenefits/extrabenefit.png";
+import growthopp from "../Assets/Images/Perkbenefits/growthopp.png";
+import Healthinsurance from "../Assets/Images/Perkbenefits/Healthinsurance.png";
+import paidtimeoff from "../Assets/Images/Perkbenefits/paidtimeoff.png";
+import parentallove from "../Assets/Images/Perkbenefits/parentallove.png";
+import Sales from "../Assets/Images/Career/Departments/Accounts.jpg";
+import Management from "../Assets/Images/Career/Departments/administrator.jpg";
+import DeliveryDrivers from "../Assets/Images/Career/Departments/inventorycant.jpg";
+import ServiceTechnicians from "../Assets/Images/Career/Departments/operations.jpg";
+import Administration from "../Assets/Images/Career/Departments/sales.jpg";
+import Warehouse from "../Assets/Images/Career/Departments/servicetech.jpg";
+import one from "../Assets/Images/Whatweoffer/Industrialtires/Industrial.png";
+import two from "../Assets/Images/Whatweoffer/Industrialtires/Earthmover.png";
+import three from "../Assets/Images/Whatweoffer/Industrialtires/Agriculture.png";
+import six from "../Assets/Images/Whatweoffer/Industrialtires/OTR.png";
+import four from "../Assets/Images/Whatweoffer/Industrialtires/Passenger.png";
+import five from "../Assets/Images/Whatweoffer/Industrialtires/LighTruck.png";
+import twos from "../Assets/Images/Whatweoffer/services/two.png";
+import fours from "../Assets/Images/Whatweoffer/services/four.png";
+import fives from "../Assets/Images/Whatweoffer/services/five.png";
+import sixs from "../Assets/Images/Whatweoffer/services/six.png";
+import eights from "../Assets/Images/Whatweoffer/services/eight.png";
 // import ameristeelLogo from '../Assets/Images/Home/BrandsLogo/ameristeel.png';
 // import apolloLogo from '../Assets/Images/Home/BrandsLogo/apollo-tyres.png';
 // import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
@@ -51,90 +51,90 @@ import eights from '../Assets/Images/Whatweoffer/services/eight.png';
 // import bktLogo from '../Assets/Images/Home/BrandsLogo/BKT.png';
 // import ContinentalLogo from '../Assets/Images/Home/BrandsLogo/Continental.png';
 
-import ameristeel_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/AMERISTEEL1.png';
-import Apollo_Tyres_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/APOLLO1.png';
-import BKT_Logo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/BKT1.png';
-import continental_logo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/CONTINENTAL1.png';
-import Cooper_Tire_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/COOPERTIRES1.png';
-import generalLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GENERAL1.png';
-import goodyearLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GOODYEAR1.png';
-import michelinLogo_white from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/MICHELIN1.png';
-import Yokohamawhite from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/yokohamawhite.png';
-import ceatowhite from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ceatowhite.png';
-import ferentinowhite from '../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ferentinowhite.png';
+import ameristeel_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/AMERISTEEL1.png";
+import Apollo_Tyres_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/APOLLO1.png";
+import BKT_Logo_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/BKT1.png";
+import continental_logo_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/CONTINENTAL1.png";
+import Cooper_Tire_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/COOPERTIRES1.png";
+import generalLogo_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GENERAL1.png";
+import goodyearLogo_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/GOODYEAR1.png";
+import michelinLogo_white from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/MICHELIN1.png";
+import Yokohamawhite from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/yokohamawhite.png";
+import ceatowhite from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ceatowhite.png";
+import ferentinowhite from "../Assets/Images/Home/High_performace_brands_logo/Hp_White_logo/ferentinowhite.png";
 
-import ameristeelTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png';
-import apolloTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png';
-import bktTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/BktTire.png';
-import ContinentalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/conti_1.png';
-import coopertiresTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/cooperTire.png';
-import generalTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png';
-import goodyearTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png';
-import michelinTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png';
-import CEATTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/CEATTire.png';
-import FerentinoTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/FerentinoTire.png';
-import yokohamaTire from '../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png';
-import New3 from '../Assets/Images/Home/NewThird.png';
-import New2 from '../Assets/Images/Home/NewTwo.png';
-import New3M from '../Assets/Images/Home/NewThirdM.png';
-import New2M from '../Assets/Images/Home/NewTwoM.png';
-import ones from '../Assets/Images/Whatweoffer/services/one.png';
-import threes from '../Assets/Images/Whatweoffer/services/three.png';
-import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
+import ameristeelTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/ameristeelTire.png";
+import apolloTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/apolloTire.png";
+import bktTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/BktTire.png";
+import ContinentalTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/conti_1.png";
+import coopertiresTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/cooperTire.png";
+import generalTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/generalTire.png";
+import goodyearTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/GoodyearTire.png";
+import michelinTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/michelinTire.png";
+import CEATTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/CEATTire.png";
+import FerentinoTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/FerentinoTire.png";
+import yokohamaTire from "../Assets/Images/Home/High_performace_brands_logo/HP_tires/yokohamaTire.png";
+import New3 from "../Assets/Images/Home/NewThird.png";
+import New2 from "../Assets/Images/Home/NewTwo.png";
+import New3M from "../Assets/Images/Home/NewThirdM.png";
+import New2M from "../Assets/Images/Home/NewTwoM.png";
+import ones from "../Assets/Images/Whatweoffer/services/one.png";
+import threes from "../Assets/Images/Whatweoffer/services/three.png";
+import sevens from "../Assets/Images/Whatweoffer/services/seven.png";
 
-import continentalone from '../Assets/Images/Home/BrandsLogo/Continental.jpg';
-import goodyearone from '../Assets/Images/Home/BrandsLogo/GoodYear.jpg';
-import apolloone from '../Assets/Images/Home/BrandsLogo/apollo-tyres.jpg';
-import bktone from '../Assets/Images/Home/BrandsLogo/BKT.jpg';
-import generalone from '../Assets/Images/Home/BrandsLogo/General_Tire.jpg';
-import westLake from '../Assets/Images/Home/BrandsLogo/westLake.jpg';
+import continentalone from "../Assets/Images/Home/BrandsLogo/Continental.jpg";
+import goodyearone from "../Assets/Images/Home/BrandsLogo/GoodYear.jpg";
+import apolloone from "../Assets/Images/Home/BrandsLogo/apollo-tyres.jpg";
+import bktone from "../Assets/Images/Home/BrandsLogo/BKT.jpg";
+import generalone from "../Assets/Images/Home/BrandsLogo/General_Tire.jpg";
+import westLake from "../Assets/Images/Home/BrandsLogo/westLake.jpg";
 
-import americanone from '../Assets/Images/Home/BrandsLogo/ameristeel.jpg';
-import cooperone from '../Assets/Images/Home/BrandsLogo/cooperTirelogo.jpg';
-import contitreadone from '../Assets/Images/Home/BrandsLogo/contitread.jpg';
-import michelinone from '../Assets/Images/Home/BrandsLogo/michelin.jpg';
-import pirellione from '../Assets/Images/Home/BrandsLogo/pirelli.jpg';
+import americanone from "../Assets/Images/Home/BrandsLogo/ameristeel.jpg";
+import cooperone from "../Assets/Images/Home/BrandsLogo/cooperTirelogo.jpg";
+import contitreadone from "../Assets/Images/Home/BrandsLogo/contitread.jpg";
+import michelinone from "../Assets/Images/Home/BrandsLogo/michelin.jpg";
+import pirellione from "../Assets/Images/Home/BrandsLogo/pirelli.jpg";
 import falkenone from "../Assets/Images/Home/BrandsLogo/falken.webp";
 import doublecoinone from "../Assets/Images/Home/BrandsLogo/doublecoin.webp";
-import Frentino from '../Assets/Images/Home/BrandsLogo/Ferentino.jpg';
+import Frentino from "../Assets/Images/Home/BrandsLogo/Ferentino.jpg";
 
-import prinxone from '../Assets/Images/Home/BrandsLogo/prinx.jpg';
-import tornadoone from '../Assets/Images/Home/BrandsLogo/tornado.jpg';
-import LiveoakfontanaM from '../Assets/bgImage/LiveoakfontanaM.jpg';
-import valleyblvdFontanaCa from '../Assets/bgImage/valleyblvdFontanaCa.jpg';
-import sanmarcosM from '../Assets/bgImage/sanmarcosM.jpg';
-import abborts from '../Assets/bgImage/abb.png'
-import calgary from '../Assets/bgImage/calgary.png'
-import edmonton from '../Assets/bgImage/edmonton.png'
-import brampton from '../Assets/bgImage/brampton.png'
-import bakersfiledM from '../Assets/bgImage/bakersfiledM.jpg';
-import riversideM from '../Assets/bgImage/riversideM.jpg';
-import EmersonCalexM from '../Assets/bgImage/EmersonCalexM.jpg';
-import calexicoM from '../Assets/bgImage/calexicoM.jpg';
-import mapPlaceholderimg from '../Assets/bgImage/mapPlaceholderimg.jpg';
-import unioncityCaM from '../Assets/bgImage/unioncityCaM.jpg';
-import springdaleArkansasM from '../Assets/bgImage/springdaleArkansasM.jpg';
-import indianapolistM from '../Assets/bgImage/indianapolistM.jpg';
-import indianaM from '../Assets/bgImage/indianaM.jpg';
-import kansasMisoouriM from '../Assets/bgImage/kansasMisoouriM.jpg';
-import atlantaGm from '../Assets/bgImage/atlantaGm.jpg';
-import GeorgiaM from '../Assets/bgImage/GeorgiaM.jpg';
-import arlingtonM from '../Assets/bgImage/arlingtonM.jpg';
-import LaredoTexasM from '../Assets/bgImage/LaredoTexasM.jpg';
-import TaylormichigabM from '../Assets/bgImage/TaylormichigabM.jpg';
-import ohioM from '../Assets/bgImage/ohioM.jpg';
-import Lastone from '../Assets/bgImage/Lastone.jpg';
-import Lasttwo from '../Assets/bgImage/lasttwo.jpg';
+import prinxone from "../Assets/Images/Home/BrandsLogo/prinx.jpg";
+import tornadoone from "../Assets/Images/Home/BrandsLogo/tornado.jpg";
+import LiveoakfontanaM from "../Assets/bgImage/LiveoakfontanaM.jpg";
+import valleyblvdFontanaCa from "../Assets/bgImage/valleyblvdFontanaCa.jpg";
+import sanmarcosM from "../Assets/bgImage/sanmarcosM.jpg";
+import abborts from "../Assets/bgImage/abb.png";
+import calgary from "../Assets/bgImage/calgary.png";
+import edmonton from "../Assets/bgImage/edmonton.png";
+import brampton from "../Assets/bgImage/brampton.png";
+import bakersfiledM from "../Assets/bgImage/bakersfiledM.jpg";
+import riversideM from "../Assets/bgImage/riversideM.jpg";
+import EmersonCalexM from "../Assets/bgImage/EmersonCalexM.jpg";
+import calexicoM from "../Assets/bgImage/calexicoM.jpg";
+import mapPlaceholderimg from "../Assets/bgImage/mapPlaceholderimg.jpg";
+import unioncityCaM from "../Assets/bgImage/unioncityCaM.jpg";
+import springdaleArkansasM from "../Assets/bgImage/springdaleArkansasM.jpg";
+import indianapolistM from "../Assets/bgImage/indianapolistM.jpg";
+import indianaM from "../Assets/bgImage/indianaM.jpg";
+import kansasMisoouriM from "../Assets/bgImage/kansasMisoouriM.jpg";
+import atlantaGm from "../Assets/bgImage/atlantaGm.jpg";
+import GeorgiaM from "../Assets/bgImage/GeorgiaM.jpg";
+import arlingtonM from "../Assets/bgImage/arlingtonM.jpg";
+import LaredoTexasM from "../Assets/bgImage/LaredoTexasM.jpg";
+import TaylormichigabM from "../Assets/bgImage/TaylormichigabM.jpg";
+import ohioM from "../Assets/bgImage/ohioM.jpg";
+import Lastone from "../Assets/bgImage/Lastone.jpg";
+import Lasttwo from "../Assets/bgImage/lasttwo.jpg";
 import HomePageSlider3 from "../Assets/Images/Home/continentalbanner.webp";
-import Slidermobilethree from '../Assets/Images/Home/SlidermobileThree.jpg';
-import HomePageSlider1 from '../Assets/Images/Home/HomePageSlider-1.jpg';
-import HomePageSlider2 from '../Assets/Images/Home/HomePageSlider-2.jpg';
+import Slidermobilethree from "../Assets/Images/Home/SlidermobileThree.jpg";
+import HomePageSlider1 from "../Assets/Images/Home/HomePageSlider-1.jpg";
+import HomePageSlider2 from "../Assets/Images/Home/HomePageSlider-2.jpg";
 // import HomePageSlider3 from '../Assets/Images/Home/HomePageSlider-3.jpg';
 import HomePageSlider4 from "../Assets/Images/Home/HomePageSlider-4.jpg";
 import grandOpening_phone from "../Assets/Images/Home/grandOpening_phone.png";
-import SlidermobileTwo from '../Assets/Images/Home/SlidermobileTwo.jpg';
-import Slidermobileone from '../Assets/Images/Home/Slidermobileone.jpg';
-import SlidermobileThree from '../Assets/Images/Home/SlidermobileThree.jpg';
+import SlidermobileTwo from "../Assets/Images/Home/SlidermobileTwo.jpg";
+import Slidermobileone from "../Assets/Images/Home/Slidermobileone.jpg";
+import SlidermobileThree from "../Assets/Images/Home/SlidermobileThree.jpg";
 
 export const HomeSliderData = [
   {
@@ -299,188 +299,188 @@ export const BrandCompnentHeader = [
 export const FeaturedProductsData = [
   {
     id: 1,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Earthmover Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Earthmover Tires",
   },
   {
     id: 2,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 3,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 4,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 5,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 13.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 13.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 6,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 7,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 8,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 14.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 14.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 9,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 15.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 15.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 10,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 11,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 20.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 20.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 12,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 13,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 21.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 21.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 14,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Earthmover Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Earthmover Tires",
   },
   {
     id: 15,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 22.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Earthmover Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 22.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Earthmover Tires",
   },
   {
     id: 16,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 17,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 23.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Earthmover Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 23.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Earthmover Tires",
   },
   {
     id: 18,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/spokewheels 9.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/spokewheels 9.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 19,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Earthmover Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Earthmover Tires",
   },
   {
     id: 20,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
   {
     id: 21,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Industrial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Industrial Tires",
   },
   {
     id: 22,
-    heading: 'The Wheel',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
-    imageurl: '../Assets/Images/Home/FeaturedTires/image 11.jpg',
-    CTA1: { heading: 'Inventory', link: 'contactus' },
-    Category: 'Commercial Tires',
+    heading: "The Wheel",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.",
+    imageurl: "../Assets/Images/Home/FeaturedTires/image 11.jpg",
+    CTA1: { heading: "Inventory", link: "contactus" },
+    Category: "Commercial Tires",
   },
 ];
 
 export const Onsitecomponentdata = [
   {
-    id: '1',
-    heading: 'Do you Need Roadside Assistance Now?',
+    id: "1",
+    heading: "Do you Need Roadside Assistance Now?",
     // desc: 'Many new women Hosts have started hosting on Airbnb during the pandemic, and women with only one listing have collectively earned over a half billion',
-    BTN: '800-808-0025',
+    BTN: "800-808-0025",
   },
 ];
 
@@ -488,26 +488,26 @@ export const OnsiteGriddata = [
   {
     id: 1,
     img: onsiteone,
-    heading: 'On-Site Services',
-    desc: 'KVL Tires offers you onsite services like wheel mounting, flat tire repair, and light mechanical work',
+    heading: "On-Site Services",
+    desc: "KVL Tires offers you onsite services like wheel mounting, flat tire repair, and light mechanical work",
   },
   {
     id: 2,
     img: onsitetwo,
-    heading: 'Nationwide Presence',
-    desc: 'With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs.',
+    heading: "Nationwide Presence",
+    desc: "With a vast mechanical support network, we effectively cover many locations to cater to our customer’s needs.",
   },
   {
     id: 3,
     img: onsiteseven,
-    heading: 'Competitive Price',
-    desc: 'We offer customized solutions to our customers at budget-friendly and competitive prices. ',
+    heading: "Competitive Price",
+    desc: "We offer customized solutions to our customers at budget-friendly and competitive prices. ",
   },
   {
     id: 4,
     img: onsiteeight,
-    heading: 'Friendly & Experienced Technicians',
-    desc: 'With a customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services. ',
+    heading: "Friendly & Experienced Technicians",
+    desc: "With a customer-centric approach, our committed team of technicians works diligently to offer quick & hassle-free services. ",
   },
   // {
   //   id: 3,
@@ -554,20 +554,20 @@ export const CommercialTireone = [
     BgImage: CommercalTiresBg,
     TireImage: CommercalTiresTires,
     mainimagetab: commercegrouptwotab,
-    Heading: 'Retread Tires',
-    titleone: 'Retread',
-    titletwo: 'New Tires',
-    desc: 'Retread Tires is also known as Recap or Re-moulded tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. \n \n Retread accounts for one-half of all replacement tires in the North American tires market. With the latest retreading tools and machines, the quality of retread tires has improved significantly. As compared to New Tires, Retread Tires are highly cost effective. For more information, check out our partnered brands.',
+    Heading: "Retread Tires",
+    titleone: "Retread",
+    titletwo: "New Tires",
+    desc: "Retread Tires is also known as Recap or Re-moulded tires. Retread tires are a promising investment and environmental-friendly option for fleets, commercial truckers & more. \n \n Retread accounts for one-half of all replacement tires in the North American tires market. With the latest retreading tools and machines, the quality of retread tires has improved significantly. As compared to New Tires, Retread Tires are highly cost effective. For more information, check out our partnered brands.",
     logos: [
       {
         id: 1,
         img: contitread,
-        Alt: 'contitread',
+        Alt: "contitread",
       },
       {
         id: 2,
         img: contilifecycle,
-        Alt: 'contilifecycle',
+        Alt: "contilifecycle",
       },
     ],
   },
@@ -579,171 +579,171 @@ export const CommercialTiretwo = [
     BgImage: CommercalTiresBg,
     TireImage: CommercalTiresTires,
     mainimagetab: commercegrouptab,
-    Heading: 'Commercial Tires',
-    titleone: 'Retread',
-    titletwo: 'New Tires',
-    desc: 'Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. These tires are made from hard rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively more extended life. These Tires also offer high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move.',
+    Heading: "Commercial Tires",
+    titleone: "Retread",
+    titletwo: "New Tires",
+    desc: "Commercial tires are specially designed for vehicles such as trucks & trailers to withstand heavy loads and to provide increased stability and long-distance driving. These tires are made from hard rubber and tend to have more tread. Commercial tires are less prone to puncture and have a comparatively more extended life. These Tires also offer high mileage, superior traction, durability, longevity, and efficiency while your vehicle is on the move.",
     logos: [
       {
         id: 1,
         img: continental,
-        Alt: 'continental',
+        Alt: "continental",
       },
       {
         id: 2,
         img: GeneralTire,
-        Alt: 'GeneralTire',
+        Alt: "GeneralTire",
       },
       {
         id: 3,
         img: ameristeel,
-        Alt: 'ameristeel',
+        Alt: "ameristeel",
       },
       {
         id: 4,
         img: Apollo,
-        Alt: 'Apollo',
+        Alt: "Apollo",
       },
       {
         id: 5,
         img: Bkt,
-        Alt: 'Bkt',
+        Alt: "Bkt",
       },
     ],
   },
 ];
 export const HighPerformanceBrandsData = [
   {
-    id: '1',
-    heading: 'Continental Tires Brand',
+    id: "1",
+    heading: "Continental Tires Brand",
     headingdesc:
-      'This image is related to High Performance Continental tires. Continental Tires is an individual that works under the wings of Continental AG, a German company.',
-    headingImg: 'Cotinental-Tire',
+      "This image is related to High Performance Continental tires. Continental Tires is an individual that works under the wings of Continental AG, a German company.",
+    headingImg: "Cotinental-Tire",
     logo: continental_logo_white,
     Image: ContinentalTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg",
+    src: "Continental",
   },
   {
-    id: '2',
-    heading: 'Goodyear Tires Brand',
+    id: "2",
+    heading: "Goodyear Tires Brand",
     headingdesc:
-      'This image is related to High Performance Goodyear logo. Goodyear tires that can assure both picky consumers and bargain hunters.',
-    headingImg: 'Goodyear-Tire',
+      "This image is related to High Performance Goodyear logo. Goodyear tires that can assure both picky consumers and bargain hunters.",
+    headingImg: "Goodyear-Tire",
     logo: goodyearLogo_white,
     Image: goodyearTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg",
+    src: "Continental",
   },
   {
-    id: '3',
-    heading: 'Apollo Tires Brand',
+    id: "3",
+    heading: "Apollo Tires Brand",
     headingdesc:
-      'This image is related to High Performance apollo tires. You can find the affordable truck and bus tires at Apollo with wide range of tires.',
-    headingImg: 'Apollo-Tire',
+      "This image is related to High Performance apollo tires. You can find the affordable truck and bus tires at Apollo with wide range of tires.",
+    headingImg: "Apollo-Tire",
     logo: Apollo_Tyres_white,
     Image: apolloTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg",
+    src: "Continental",
   },
   {
-    id: '4',
-    heading: 'BKT Tires Brand',
+    id: "4",
+    heading: "BKT Tires Brand",
     headingdesc:
-      'This image is related to High Performance BKT Tires, which is a leading manufacturer in the off-highway tire market. Specializing in the manufacture of tires for agricultural, industrial and OTR vehicles.',
-    headingImg: 'bkt-Tire',
+      "This image is related to High Performance BKT Tires, which is a leading manufacturer in the off-highway tire market. Specializing in the manufacture of tires for agricultural, industrial and OTR vehicles.",
+    headingImg: "bkt-Tire",
     logo: BKT_Logo_white,
     Image: bktTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg",
+    src: "Continental",
   },
   {
-    id: '5',
-    heading: 'General Tires Brand',
+    id: "5",
+    heading: "General Tires Brand",
     headingdesc:
-      'This image is related to High Performance General Tires, which is a brand known for its durable, multi-terrain stability and uniform quality tires. ',
-    headingImg: 'General-Tire',
+      "This image is related to High Performance General Tires, which is a brand known for its durable, multi-terrain stability and uniform quality tires. ",
+    headingImg: "General-Tire",
     logo: generalLogo_white,
     Image: generalTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg",
+    src: "Continental",
   },
   {
-    id: '6',
-    heading: 'Americansteel Brand',
+    id: "6",
+    heading: "Americansteel Brand",
     headingdesc:
-      'This image is related to High Performance American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.',
-    headingImg: 'Ameri-Tire',
+      "This image is related to High Performance American Steel Tires, which is design to be highly affordable while still delivering brilliant traction, wear resistance, and overall implementation.",
+    headingImg: "Ameri-Tire",
     logo: Cooper_Tire_white,
     Image: ameristeelTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg",
+    src: "Continental",
   },
   {
-    id: '7',
-    heading: 'Cooper Tires Brand',
+    id: "7",
+    heading: "Cooper Tires Brand",
     headingdesc:
-      'This image is related to High Performance Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.',
-    headingImg: 'Cooper-Tire',
+      "This image is related to High Performance Cooper Tires, which are outstanding quality and one of the top choices in the market right now, and it benefits that Cooper Tires are priced relatively while also long-lasting.",
+    headingImg: "Cooper-Tire",
     logo: ameristeel_white,
     Image: coopertiresTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg",
+    src: "Continental",
   },
   {
-    id: '8',
-    heading: 'Michelin Tires Brand',
+    id: "8",
+    heading: "Michelin Tires Brand",
     headingdesc:
-      'This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
-    headingImg: 'Michelin-Tire',
+      "This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ",
+    headingImg: "Michelin-Tire",
     logo: michelinLogo_white,
     Image: michelinTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.jpg",
+    src: "Continental",
   },
   {
-    id: '9',
-    heading: 'yokohama Tires Brand',
+    id: "9",
+    heading: "yokohama Tires Brand",
     headingdesc:
-      'This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
-    headingImg: 'yokohama-Tire',
+      "This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ",
+    headingImg: "yokohama-Tire",
     logo: Yokohamawhite,
     Image: yokohamaTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg',
-    src: 'OTR',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck1.jpg",
+    src: "OTR",
   },
   {
-    id: '10',
-    heading: 'CEAT Tires Brand',
+    id: "10",
+    heading: "CEAT Tires Brand",
     headingdesc:
-      'This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
-    headingImg: 'Michelin-Tire',
+      "This image is related to High Performance Michelin tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ",
+    headingImg: "Michelin-Tire",
     logo: ceatowhite,
     Image: CEATTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.jpg",
+    src: "Continental",
   },
   {
-    id: '11',
-    heading: 'ferentino Tires Brand',
+    id: "11",
+    heading: "ferentino Tires Brand",
     headingdesc:
-      'This image is related to High Performance ferentino tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ',
-    headingImg: 'ferentino-Tire',
+      "This image is related to High Performance ferentino tires. You can get the wonderful Michelin tires and products for your car, motorcycle, bike & more from our broad range of tires!  ",
+    headingImg: "ferentino-Tire",
     logo: ferentinowhite,
     Image: FerentinoTire,
     bgImage:
-      'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg',
-    src: 'Continental',
+      "https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck3.jpg",
+    src: "Continental",
   },
 ];
 
@@ -751,47 +751,47 @@ export const Departmentsdata = [
   {
     id: 1,
     img: Management,
-    Heading: 'Management',
-    Alttag: 'Kvl Tires Management',
-    mt: '16',
+    Heading: "Management",
+    Alttag: "Kvl Tires Management",
+    mt: "16",
   },
   {
     id: 2,
     img: Warehouse,
-    Heading: 'Warehouse',
-    Headingtwo: 'Manager',
-    Alttag: 'Kvl Tires Warehouse',
-    mt: '20',
+    Heading: "Warehouse",
+    Headingtwo: "Manager",
+    Alttag: "Kvl Tires Warehouse",
+    mt: "20",
   },
   {
     id: 3,
     img: Sales,
-    Heading: 'Sales Manager',
-    Alttag: 'Sales Manager',
-    mt: '16',
+    Heading: "Sales Manager",
+    Alttag: "Sales Manager",
+    mt: "16",
   },
 
   {
     id: 4,
     img: DeliveryDrivers,
-    Heading: 'Delivery Drivers',
-    Alttag: 'Kvl Tires Delivery Drivers',
-    mt: '16',
+    Heading: "Delivery Drivers",
+    Alttag: "Kvl Tires Delivery Drivers",
+    mt: "16",
   },
   {
     id: 5,
     img: ServiceTechnicians,
-    Heading: 'Service',
-    Headingtwo: 'Technicians',
-    Alttag: 'Kvl Tires Technicians',
-    mt: '20',
+    Heading: "Service",
+    Headingtwo: "Technicians",
+    Alttag: "Kvl Tires Technicians",
+    mt: "20",
   },
   {
     id: 6,
     img: Administration,
-    Heading: 'Administration',
-    Alttag: 'Kvl Tires Administration',
-    mt: '16',
+    Heading: "Administration",
+    Alttag: "Kvl Tires Administration",
+    mt: "16",
   },
 ];
 
@@ -806,39 +806,39 @@ export const PerkBenifitsdata = [
     id: 2,
 
     img: Healthinsurance,
-    Heading: 'Health Insurance',
-    desc: 'We offer great benefits - Health, Dental and Vision Insurance to all our full-time employees.',
+    Heading: "Health Insurance",
+    desc: "We offer great benefits - Health, Dental and Vision Insurance to all our full-time employees.",
   },
   {
     id: 3,
     img: extrabenefit,
-    Heading: 'Extra Benefits',
-    desc: 'Offering 401K retirement plans with Pentegra Retirement Services.',
+    Heading: "Extra Benefits",
+    desc: "Offering 401K retirement plans with Pentegra Retirement Services.",
   },
   {
     id: 4,
     img: paidtimeoff,
-    Heading: 'Paid Time-Off',
+    Heading: "Paid Time-Off",
     desc: 'Vacation? Staycation? Get some "Me" time to recharge, travel, or chill.',
   },
   {
     id: 5,
     img: growthopp,
-    Heading: 'Career Growth Opportunities',
-    desc: 'We love seeing our employees learn, collaborate, challenge each other, and continue to excel at the next level.',
+    Heading: "Career Growth Opportunities",
+    desc: "We love seeing our employees learn, collaborate, challenge each other, and continue to excel at the next level.",
   },
 ];
 
 export const IndustrialTiresdatan = [
   {
-    id: '1',
+    id: "1",
     img: one,
-    heading: 'Industrial Tires',
-    idmainDstop: 'IndustrialTires',
-    idmainMtab: 'IndustrialTiresTwo',
-    Alttag: 'High Performance Industrial Tires',
+    heading: "Industrial Tires",
+    idmainDstop: "IndustrialTires",
+    idmainMtab: "IndustrialTiresTwo",
+    Alttag: "High Performance Industrial Tires",
     Altdesc:
-      'This image is related to high performance Industrial tires. These tires are manufactured to sustain heavy weight vehicles.',
+      "This image is related to high performance Industrial tires. These tires are manufactured to sustain heavy weight vehicles.",
     pr: 0,
   },
   // {
@@ -851,48 +851,48 @@ export const IndustrialTiresdatan = [
   //   pr: 0,
   // },
   {
-    id: '2',
+    id: "2",
     img: six,
-    heading: 'Off The Road Tires',
-    idmain: 'OTR',
-    idmainMtab: 'LightTruckTiresTwo',
-    Alttag: 'High Performance Off The Road Tires',
+    heading: "Off The Road Tires",
+    idmain: "OTR",
+    idmainMtab: "LightTruckTiresTwo",
+    Alttag: "High Performance Off The Road Tires",
     Altdesc:
-      'This image is related to High Performance Off the Road Tires. This is the first option for heavy industries and drive through mud and water with Firestone Destination tires. ',
+      "This image is related to High Performance Off the Road Tires. This is the first option for heavy industries and drive through mud and water with Firestone Destination tires. ",
     pr: 0,
   },
 
   {
-    id: '3',
+    id: "3",
     img: three,
-    heading: 'Agricultural Tires',
-    idmain: 'AgriculturalTires',
-    idmainMtab: 'AgriculturalTiresTwo',
-    Alttag: 'Agricultural Tires and Tractor Tires',
+    heading: "Agricultural Tires",
+    idmain: "AgriculturalTires",
+    idmainMtab: "AgriculturalTiresTwo",
+    Alttag: "Agricultural Tires and Tractor Tires",
     Altdesc:
-      'This image is related to high performance agricultural tires. It is also called the farm or tractor tires. Farm or agricultural tractor tires are designed to provide reduced soil compaction.',
+      "This image is related to high performance agricultural tires. It is also called the farm or tractor tires. Farm or agricultural tractor tires are designed to provide reduced soil compaction.",
     pr: 0,
   },
   {
-    id: '4',
+    id: "4",
     img: four,
-    heading: 'Passenger Tires',
-    idmain: 'PassengerTires',
-    idmainMtab: 'PassengerTiresTwo',
-    Alttag: 'High Performance Passenger Tires',
+    heading: "Passenger Tires",
+    idmain: "PassengerTires",
+    idmainMtab: "PassengerTiresTwo",
+    Alttag: "High Performance Passenger Tires",
     Altdesc:
-      'This image is related to Passenger Tires.  Passenger tires are designed for regular passenger vehicles, including lighter trucks and SUVs.',
+      "This image is related to Passenger Tires.  Passenger tires are designed for regular passenger vehicles, including lighter trucks and SUVs.",
     pr: 0,
   },
   {
-    id: '5',
+    id: "5",
     img: five,
-    heading: 'Light Truck Tires',
-    idmain: 'LightTruckTires',
-    idmainMtab: 'LightTruckTiresTwo',
-    Alttag: 'Best Selling Light Truck Tires',
+    heading: "Light Truck Tires",
+    idmain: "LightTruckTires",
+    idmainMtab: "LightTruckTiresTwo",
+    Alttag: "Best Selling Light Truck Tires",
     Altdesc:
-      'This image is related to high performance light truck tires. Light truck tire options with all-weather traction, outstanding durability, and off-road traction.',
+      "This image is related to high performance light truck tires. Light truck tire options with all-weather traction, outstanding durability, and off-road traction.",
     pr: 0,
   },
 ];
@@ -901,71 +901,71 @@ export const Servicesdata = [
   {
     id: 1,
     img: ones,
-    heading: 'Tire & Wheel Balancing',
-    linebrk: 'normal',
+    heading: "Tire & Wheel Balancing",
+    linebrk: "normal",
     paddingX: 8,
-    AltTag: 'Tire & Wheel Balancing Services',
+    AltTag: "Tire & Wheel Balancing Services",
   },
   {
     id: 2,
     img: twos,
-    heading: 'Retread Services',
-    desc: 'It is no secret that every fleet’s most significant investment is its tires and associated services. Look to our retreading services at KVL Tires for safe, reliable & cost-effective options. We have partnered with ContiTread to provide our customers with quality options only. So, get on the road with the most trusted retreads. Contact the nearest KVL Tires location for more information. Save a few bucks today & thank us later.',
-    linebrk: 'normal',
+    heading: "Retread Services",
+    desc: "It is no secret that every fleet’s most significant investment is its tires and associated services. Look to our retreading services at KVL Tires for safe, reliable & cost-effective options. We have partnered with ContiTread to provide our customers with quality options only. So, get on the road with the most trusted retreads. Contact the nearest KVL Tires location for more information. Save a few bucks today & thank us later.",
+    linebrk: "normal",
     paddingX: 8,
-    AltTag: 'Retread Services Solutions',
+    AltTag: "Retread Services Solutions",
   },
   {
     id: 3,
     img: threes,
-    heading: 'Pick up & Delivery Services',
-    linebrk: 'normal',
+    heading: "Pick up & Delivery Services",
+    linebrk: "normal",
     paddingX: 0,
-    AltTag: 'Complete Pick up & Delivery Solution',
+    AltTag: "Complete Pick up & Delivery Solution",
   },
   {
     id: 4,
     img: fours,
-    heading: '24x7 Roadside Assistance',
-    desc: 'You can’t schedule a blowout! A flat tire or a minor mechanical default can bring your vehicle to a halt. To save you from such hassles, you need a reliable service provider to get back on the road. Call KVL Tires at 800-808-0025. Sunset or sunrise, connect with our roadside assistance expert for quick help 24/7/365 days a year. Keep all your worries aside and drive away with pride.',
-    linebrk: 'normal',
+    heading: "24x7 Roadside Assistance",
+    desc: "You can’t schedule a blowout! A flat tire or a minor mechanical default can bring your vehicle to a halt. To save you from such hassles, you need a reliable service provider to get back on the road. Call KVL Tires at 800-808-0025. Sunset or sunrise, connect with our roadside assistance expert for quick help 24/7/365 days a year. Keep all your worries aside and drive away with pride.",
+    linebrk: "normal",
     paddingX: 0,
-    AltTag: 'Vehicle Roadside Assistance',
+    AltTag: "Vehicle Roadside Assistance",
   },
   {
     id: 5,
     img: fives,
-    heading: 'Truck & Trailer Alignment',
-    desc: 'Every trucker knows the importance of timely wheel alignment for commercial vehicles. In the transportation industry, fuel and tires have the highest operating costs. While fuel consumption is tough to manage, planning timely commercial truck alignments can be a cost-effective measure. Also, regular wheel alignments are essential to return wheels to a straight rolling position. Less rolling resistance means less friction, leading to better fuel economy, prolonged tire life, component wear, and enhancing driver’s comfort.  ',
-    linebrk: 'normal',
+    heading: "Truck & Trailer Alignment",
+    desc: "Every trucker knows the importance of timely wheel alignment for commercial vehicles. In the transportation industry, fuel and tires have the highest operating costs. While fuel consumption is tough to manage, planning timely commercial truck alignments can be a cost-effective measure. Also, regular wheel alignments are essential to return wheels to a straight rolling position. Less rolling resistance means less friction, leading to better fuel economy, prolonged tire life, component wear, and enhancing driver’s comfort.  ",
+    linebrk: "normal",
     paddingX: 4,
-    AltTag: 'Complete Truck & Trailer Alignment Solutions',
+    AltTag: "Complete Truck & Trailer Alignment Solutions",
   },
   {
     id: 6,
     img: sixs,
-    heading: 'Mounted Wheel Programs',
-    desc: 'Managing a fleet is no less than a herculean task and while at it, juggling between tire business is not a good option. Commercial Tires need regular upkeep for high performance, better mileage, and safety. The fleet owners are always looking to decrease their tire operating costs. KVL Tires has devised a strategic mounted wheel program to provide high-quality new commercial tires and retreads delivered according to their requirements. The tires come inflated and mounted on new or reconditioned wheels, ready for installation. This mounted program keeps all tire-associated troubles at bay. Speak to a tire specialist at your nearest location for a customer-friendly solution. ',
-    linebrk: 'normal',
+    heading: "Mounted Wheel Programs",
+    desc: "Managing a fleet is no less than a herculean task and while at it, juggling between tire business is not a good option. Commercial Tires need regular upkeep for high performance, better mileage, and safety. The fleet owners are always looking to decrease their tire operating costs. KVL Tires has devised a strategic mounted wheel program to provide high-quality new commercial tires and retreads delivered according to their requirements. The tires come inflated and mounted on new or reconditioned wheels, ready for installation. This mounted program keeps all tire-associated troubles at bay. Speak to a tire specialist at your nearest location for a customer-friendly solution. ",
+    linebrk: "normal",
     paddingX: 0,
-    AltTag: 'Absolute Mounted Wheel Programs Solutions',
+    AltTag: "Absolute Mounted Wheel Programs Solutions",
   },
   {
     id: 7,
     img: sevens,
-    heading: 'Heavy Duty Front-End Work',
-    linebrk: 'normal',
+    heading: "Heavy Duty Front-End Work",
+    linebrk: "normal",
     paddingX: 0,
-    AltTag: 'Complete Heavy Duty Front-End Work Solutions',
+    AltTag: "Complete Heavy Duty Front-End Work Solutions",
   },
   {
     id: 8,
     img: eights,
-    heading: 'Scheduled Maintenance \n Program',
-    desc: 'Schedule maintenance of commercial vehicles is necessary for safety & extend the vehicle’s life. The program can ensure your wheels run smoothly without unforeseen costly repairs coming your way. Fleet owners can primarily benefit from this program by reducing tire-related operating expenses. Fine tune your tire performance today for a longer ride every day.  ',
-    linebrk: 'normal',
+    heading: "Scheduled Maintenance \n Program",
+    desc: "Schedule maintenance of commercial vehicles is necessary for safety & extend the vehicle’s life. The program can ensure your wheels run smoothly without unforeseen costly repairs coming your way. Fleet owners can primarily benefit from this program by reducing tire-related operating expenses. Fine tune your tire performance today for a longer ride every day.  ",
+    linebrk: "normal",
     paddingX: 4,
-    AltTag: 'Absolute Scheduled Maintenance Solutions',
+    AltTag: "Absolute Scheduled Maintenance Solutions",
   },
 ];
 
@@ -2306,11 +2306,11 @@ export const MapData2 = [
       coordinates: [49.0243763, -122.27483],
     },
     timing: [
-      "Monday: 8:30AM - 5:00PM",
-      "Tuesday: 8:30AM - 5:00PM",
-      "Wednesday: 8:30AM - 5:00PM",
-      "Thursday: 8:30AM - 5:00PM",
-      "Friday: 8:30AM - 5:00PM",
+      "Monday: 8:30AM - 6:00PM",
+      "Tuesday: 8:30AM - 6:00PM",
+      "Wednesday: 8:30AM - 6:00PM",
+      "Thursday: 8:30AM - 6:00PM",
+      "Friday: 8:30AM - 6:00PM",
       "Saturday: 8:00AM - 4:00PM",
 
       "Sunday: Closed",
@@ -2320,9 +2320,9 @@ export const MapData2 = [
       State: "BC",
       Manager: "Deepak Sharma",
       TOW: "",
-      ZipCode: "V2S-7P1",
+      ZipCode: "V2T 6L9",
       City: "Abbotsford",
-      Address: "1225 Riverside Rd",
+      Address: "2105 Carpenter St, Abbotsford",
       Phone: "604-864-3100",
       Email: "deppaks@bigrigcanada.com",
       bgimage: abborts,
@@ -2337,11 +2337,11 @@ export const MapData2 = [
       coordinates: [50.9717234, -113.9610187],
     },
     timing: [
-      "Monday: 8:30AM - 5:00PM",
-      "Tuesday: 8:30AM - 5:00PM",
-      "Wednesday: 8:30AM - 5:00PM",
-      "Thursday: 8:30AM - 5:00PM",
-      "Friday: 8:30AM - 5:00PM",
+      "Monday: 8:30AM - 6:00PM",
+      "Tuesday: 8:30AM - 6:00PM",
+      "Wednesday: 8:30AM - 6:00PM",
+      "Thursday: 8:30AM - 6:00PM",
+      "Friday: 8:30AM - 6:00PM",
       "Saturday: 8:00AM - 4:00PM",
 
       "Sunday: Closed",
@@ -2361,68 +2361,68 @@ export const MapData2 = [
     },
   },
 
-  {
-    id: 24,
-    type: "Feature",
-    geometry: {
-      type: "Point",
-      coordinates: [53.570841, -113.6444549],
-    },
-    timing: [
-      "Monday: 8:30AM - 5:00PM",
-      "Tuesday: 8:30AM - 5:00PM",
-      "Wednesday: 8:30AM - 5:00PM",
-      "Thursday: 8:30AM - 5:00PM",
-      "Friday: 8:30AM - 5:00PM",
-      "Saturday: 8:00AM - 4:00PM",
+  // {
+  //   id: 24,
+  //   type: "Feature",
+  //   geometry: {
+  //     type: "Point",
+  //     coordinates: [53.570841, -113.6444549],
+  //   },
+  //   timing: [
+  //     "Monday: 8:30AM - 5:00PM",
+  //     "Tuesday: 8:30AM - 5:00PM",
+  //     "Wednesday: 8:30AM - 5:00PM",
+  //     "Thursday: 8:30AM - 5:00PM",
+  //     "Friday: 8:30AM - 5:00PM",
+  //     "Saturday: 8:00AM - 4:00PM",
 
-      "Sunday: Closed",
-    ],
-    multi: false,
-    properties: {
-      State: "AB",
-      Manager: "Tapan Khatu",
-      TOW: "",
-      ZipCode: "T5S 2M3",
-      City: "Edmonton",
-      Address: "18410 118a Ave NW",
-      Phone: "780-271-3101",
-      Email: "tapank@bigrigcanada.com",
-      bgimage: edmonton,
-      url: "https://www.google.com/maps/place/18410+118a+Ave+NW,+Edmonton,+AB+T5S+2M3,+Canada/@53.570841,-113.6444549,17z/data=!3m1!4b1!4m6!3m5!1s0x53a026d55dd10f3b:0x84a785a153357721!8m2!3d53.570841!4d-113.64188!16s%2Fg%2F11spwksm5f",
-    },
-  },
+  //     "Sunday: Closed",
+  //   ],
+  //   multi: false,
+  //   properties: {
+  //     State: "AB",
+  //     Manager: "Tapan Khatu",
+  //     TOW: "",
+  //     ZipCode: "T5S 2M3",
+  //     City: "Edmonton",
+  //     Address: "18410 118a Ave NW",
+  //     Phone: "780-271-3101",
+  //     Email: "tapank@bigrigcanada.com",
+  //     bgimage: edmonton,
+  //     url: "https://www.google.com/maps/place/18410+118a+Ave+NW,+Edmonton,+AB+T5S+2M3,+Canada/@53.570841,-113.6444549,17z/data=!3m1!4b1!4m6!3m5!1s0x53a026d55dd10f3b:0x84a785a153357721!8m2!3d53.570841!4d-113.64188!16s%2Fg%2F11spwksm5f",
+  //   },
+  // },
 
-  {
-    id: 25,
-    type: "Feature",
-    geometry: {
-      type: "Point",
-      coordinates: [43.7493041, -79.8156774],
-    },
-    timing: [
-      "Monday: 8:00AM - 8:00PM",
-      "Tuesday: 8:00AM - 8:00PM",
-      "Wednesday: 8:00AM - 8:00PM",
-      "Thursday: 8:00AM - 8:00PM",
-      "Friday: 8:00AM - 8:00PM",
-      "Saturday: 8:00AM - 8:00PM",
-      "Sunday: 8:00AM - 8:00PM",
-    ],
-    multi: false,
-    properties: {
-      State: "ON",
-      Manager: "Gurmeet Singh",
-      TOW: "",
-      ZipCode: "L7A 0N7",
-      City: "Brampton",
-      Address: "100 WhyBank Dr ON ",
-      Phone: "647-367-3100",
-      Email: "gssingh@bigrigcanada.com",
-      bgimage: brampton,
-      url: "https://www.google.com/maps/place/100+Whybank+Dr,+Brampton,+ON+L7A+0N7,+Canada/@43.7493041,-79.8156774,10.82z/data=!4m6!3m5!1s0x882b15617f80a62d:0x3c93210d8a938b90!8m2!3d43.7108282!4d-79.7973912!16s%2Fg%2F11tx9h8yyw?entry=ttu",
-    },
-  },
+  // {
+  //   id: 25,
+  //   type: "Feature",
+  //   geometry: {
+  //     type: "Point",
+  //     coordinates: [43.7493041, -79.8156774],
+  //   },
+  //   timing: [
+  //     "Monday: 8:00AM - 8:00PM",
+  //     "Tuesday: 8:00AM - 8:00PM",
+  //     "Wednesday: 8:00AM - 8:00PM",
+  //     "Thursday: 8:00AM - 8:00PM",
+  //     "Friday: 8:00AM - 8:00PM",
+  //     "Saturday: 8:00AM - 8:00PM",
+  //     "Sunday: 8:00AM - 8:00PM",
+  //   ],
+  //   multi: false,
+  //   properties: {
+  //     State: "ON",
+  //     Manager: "Gurmeet Singh",
+  //     TOW: "",
+  //     ZipCode: "L7A 0N7",
+  //     City: "Brampton",
+  //     Address: "100 WhyBank Dr ON ",
+  //     Phone: "647-367-3100",
+  //     Email: "gssingh@bigrigcanada.com",
+  //     bgimage: brampton,
+  //     url: "https://www.google.com/maps/place/100+Whybank+Dr,+Brampton,+ON+L7A+0N7,+Canada/@43.7493041,-79.8156774,10.82z/data=!4m6!3m5!1s0x882b15617f80a62d:0x3c93210d8a938b90!8m2!3d43.7108282!4d-79.7973912!16s%2Fg%2F11tx9h8yyw?entry=ttu",
+  //   },
+  // },
 
   // {
   //   id: 3,
@@ -2459,7 +2459,7 @@ export const MapData2 = [
 
 export const careerKvl = [
   {
-    Headingm: 'Careers at KVL Tires',
-    desc: 'At KVL Tires, we believe in building strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ',
+    Headingm: "Careers at KVL Tires",
+    desc: "At KVL Tires, we believe in building strong relationships with everyone. People everywhere entrust us with the care of their vehicles. We drive on the mission of ‘Efficiency on the move’. From tires to tuning up your vehicle, we ensure it runs at its best. The relentless pursuit of our goals extends beyond moving forward. It contributes to creating a workplace that celebrates the diversity of skills, capabilities, and experiences. Hence, inspiring us to grow, develop expertise, and encourage the right career moves. We stay committed to building a better future for employees, clients, and others.  ",
   },
 ];
