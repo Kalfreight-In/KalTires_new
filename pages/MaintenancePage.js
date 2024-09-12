@@ -33,7 +33,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: "100vh",
-    backgroundColor: "#f4f4f4",
+    backgroundColor: "#ffffff",
     color: "#333",
     textAlign: "center",
     padding: "20px",
