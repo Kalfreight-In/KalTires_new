@@ -1,28 +1,28 @@
 // import Head from 'next/head';
-import Head from 'next/head';
-import dynamic from 'next/dynamic';
-import { Suspense } from 'react';
+import Head from "next/head";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
 import {
   BreadcrumbJsonLd,
   LocalBusinessJsonLd,
   OrganizationJsonLd,
   ProfilePageJsonLd,
-} from 'next-seo';
-import { AboutUs } from '../Components/Home/AboutUs';
-import BrandsComponent from '../Components/Home/BrandsComponent';
+} from "next-seo";
+import { AboutUs } from "../Components/Home/AboutUs";
+import BrandsComponent from "../Components/Home/BrandsComponent";
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
-import HighPerformanceBrands from '../Components/Home/HighPerformanceBrands';
+import HighPerformanceBrands from "../Components/Home/HighPerformanceBrands";
 // import HomeSlider from '../Components/Home/HomeSlider';
-import RoadSideAssistant from '../Components/Home/RoadSideAssistant';
+import RoadSideAssistant from "../Components/Home/RoadSideAssistant";
 // import MapConatiner from '../Components/MapContainer';
-import ContactTwo from '../Components/Home/ContactTwo';
+import ContactTwo from "../Components/Home/ContactTwo";
 // import FeaturedProducts from '../Components/Home/FeaturedProducts';
-const MapConatiner = dynamic(() => import('../Components/MapContainer'), {
+const MapConatiner = dynamic(() => import("../Components/MapContainer"), {
   suspense: true,
   ssr: true,
   loading: () => <p>Loading...</p>,
 });
-const HomeSlider = dynamic(() => import('../Components/Home/HomeSlider'), {
+const HomeSlider = dynamic(() => import("../Components/Home/HomeSlider"), {
   suspense: true,
   loading: () => <p>Loading...</p>,
 });
@@ -31,7 +31,7 @@ const Home = () => (
   <div>
     <Head>
       <title>
-        {' '}
+        {" "}
         Tires Shop Near Me | Truck Tire Service | Heavy-Duty Tires - Kvltires
       </title>
 
@@ -114,8 +114,8 @@ const Home = () => (
       itemListElements={[
         {
           position: 1,
-          name: 'Home',
-          item: 'https://www.kvltires.com/',
+          name: "Home",
+          item: "https://www.kvltires.com/",
         },
       ]}
     />
@@ -126,27 +126,27 @@ const Home = () => (
       images="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
       telephone="+1-800-808-0025"
       address={{
-        streetAddress: '10156 Live Oak Ave, Fontana, CA 92335',
-        addressLocality: 'Fontana',
-        addressRegion: 'CA',
-        postalCode: '92335',
-        addressCountry: 'US',
+        streetAddress: "10156 Live Oak Ave, Fontana, CA 92335",
+        addressLocality: "Fontana",
+        addressRegion: "CA",
+        postalCode: "92335",
+        addressCountry: "US",
       }}
       geo={{
-        latitude: '34.068795',
-        longitude: '-117.4812517',
+        latitude: "34.068795",
+        longitude: "-117.4812517",
       }}
       openingHours={[
         {
-          opens: '07:00',
-          closes: '17:00',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: "07:00",
+          closes: "17:00",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         },
       ]}
       sameAs={[
-        'https://www.facebook.com/kvltires',
-        'https://www.instagram.com/kvltires/',
-        'https://www.linkedin.com/company/kvltires/',
+        "https://www.facebook.com/kvltires",
+        "https://www.instagram.com/kvltires/",
+        "https://www.linkedin.com/company/kvltires/",
       ]}
       contactPoint={[
         // {
@@ -156,11 +156,11 @@ const Home = () => (
         //   availableLanguage: ['English', 'Spanish', 'French'],
         // },
         {
-          telephone: '800-808-002',
-          contactType: 'customer service',
-          contactOption: 'TollFree',
-          availableLanguage: 'en',
-          areaServed: 'US',
+          telephone: "800-808-002",
+          contactType: "customer service",
+          contactOption: "TollFree",
+          availableLanguage: "en",
+          areaServed: "US",
         },
         // {
         //   telephone: ' 877-453-1304',
@@ -171,9 +171,9 @@ const Home = () => (
         // },
       ]}
       sameAs={[
-        'https://www.facebook.com/kvltires',
-        'https://www.instagram.com/kvltires/',
-        'https://www.linkedin.com/company/kvltires/',
+        "https://www.facebook.com/kvltires",
+        "https://www.instagram.com/kvltires/",
+        "https://www.linkedin.com/company/kvltires/",
       ]}
     />
 
@@ -190,11 +190,11 @@ const Home = () => (
         //   availableLanguage: ['English', 'Spanish', 'French'],
         // },
         {
-          telephone: '+1-800-808-0025',
-          contactType: 'customer service',
-          contactOption: 'TollFree',
-          availableLanguage: 'en',
-          areaServed: 'US',
+          telephone: "+1-800-808-0025",
+          contactType: "customer service",
+          contactOption: "TollFree",
+          availableLanguage: "en",
+          areaServed: "US",
         },
         // {
         //   telephone: ' 877-453-1304',
@@ -205,9 +205,9 @@ const Home = () => (
         // },
       ]}
       sameAs={[
-        'https://www.facebook.com/kvltires',
-        'https://www.linkedin.com/company/kvltires',
-        'https://www.instagram.com/kvltires',
+        "https://www.facebook.com/kvltires",
+        "https://www.linkedin.com/company/kvltires",
+        "https://www.instagram.com/kvltires",
       ]}
     />
     {/* <script type="application/ld+json">
