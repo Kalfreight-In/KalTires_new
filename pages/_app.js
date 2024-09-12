@@ -1,5 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Partytown } from "@builder.io/partytown/react";
 import Script from "next/script";
@@ -24,6 +25,15 @@ const MyApp = ({ Component, pageProps }) => {
   const { width, height } = useWindowSize();
 
   const [underMaintenance, setUnderMaintenance] = useState(true); // State to control maintenance mode
+
+  const router = useRouter(); // Access the Next.js router
+
+  useEffect(() => {
+    // Redirect to home if under maintenance
+    if (underMaintenance) {
+      router.push("/");
+    }
+  }, [underMaintenance, router]);
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
