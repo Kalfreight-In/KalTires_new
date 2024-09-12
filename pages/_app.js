@@ -63,7 +63,7 @@ const MyApp = ({ Component, pageProps }) => {
         />
         <link
           rel="icon"
-          href="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/KvlTiresLogo.png"
+          href="https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/FavKvltires.png"
         />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
